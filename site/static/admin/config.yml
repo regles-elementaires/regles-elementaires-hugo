@@ -19,6 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Team Members" # Used in the UI, ie.: "New Post"
     folder: "site/data/team" # The path to the folder where the documents are stored
     identifier_field: "name"
+    extension: toml
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Nom", name: "name", widget: "string"}
