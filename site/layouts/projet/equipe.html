@@ -1,8 +1,12 @@
 {{ define "main" }}
 <div>
 <h1></h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
 {{ .Content }}
+<ul>
+{{ range $.Site.Data.team }}
+   <li>{{ partial "projet/team-member" . }}</li>
+{{ end }}
+</ul>
 </div>
 
 {{ end }}
