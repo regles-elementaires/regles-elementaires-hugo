@@ -12,6 +12,14 @@
   left: 100%;
   right: -150%;
 }
+.equipe__membre:focus .equipe__pic,
+.equipe__membre:hover .equipe__pic {
+  @apply bg-rered;
+}
+.equipe__membre:focus .equipe__pic img,
+.equipe__membre:hover .equipe__pic img {
+  @apply opacity-50;
+}
 
 @responsive {
   .equipe__membre:nth-child(2n) .equipe__membre-bio--2n {
