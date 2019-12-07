@@ -1,10 +1,5 @@
 name = "Adrien Trauth"
 role = "CTO"
-bio = """
-Après ses études d'ingénieur, Adrien rentre s’installer à Paris pour démarrer sa carrière de développeur frontend. Devenu lead technique de son équipe, 
-il cherche à utiliser ses compétences au service d’une association. 
-Il trouve chez Règles Élémentaires une opportunité d’aider celles qui en ont le plus besoin. 
-Il rejoint l'association en 2019 pour maintenir le site internet et résoudre les défis informatiques de l'association.
-"""
 linkedin = "https://www.linkedin.com/in/adrientrauth/"
-img = "/img/equipe/tara.png"
+img = "/img/adrien-trauth-1.jpg"
+bio = "Après ses études d'ingénieur, Adrien rentre s’installer à Paris pour démarrer sa carrière de développeur frontend. Devenu lead technique de son équipe, \nil cherche à utiliser ses compétences au service d’une association. \nIl trouve chez Règles Élémentaires une opportunité d’aider celles qui en ont le plus besoin. \nIl rejoint l'association en 2019 pour maintenir le site internet et résoudre les défis informatiques de l'association.\n"
