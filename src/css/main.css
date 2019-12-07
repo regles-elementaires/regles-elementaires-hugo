@@ -5,13 +5,12 @@
 
 @import "tailwindcss/utilities";
 
-.equipe__membre:focus .equipe__membre-bio--block,
-.equipe__membre:hover .equipe__membre-bio--block {
-  @apply block;
-  z-index: 10;
-  left: 100%;
-  right: -150%;
+/* customize bio p */
+.equipe__membre-bio p {
+  @apply mt-2;
 }
+
+/* change picture on hover */
 .equipe__membre:focus .equipe__pic,
 .equipe__membre:hover .equipe__pic {
   @apply bg-rered;
@@ -21,6 +20,14 @@
   @apply opacity-50;
 }
 
+/* display bio on hover */
+.equipe__membre:focus .equipe__membre-bio--block,
+.equipe__membre:hover .equipe__membre-bio--block {
+  @apply block;
+  z-index: 10;
+  left: 100%;
+  right: -150%;
+}
 @responsive {
   .equipe__membre:nth-child(2n) .equipe__membre-bio--2n {
     left: -150%;

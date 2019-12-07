@@ -1,12 +1,12 @@
 <div class="equipe__membre w-1/2 sm:w-1/3 lg:w-1/4 px-8 pb-4" tabindex="0">
   <div class=" border-b border-rered pb-4 cursor-pointer relative group">
     <div
-      class="equipe__membre-bio--2n sm:equipe__membre-bio--3n lg:equipe__membre-bio--4n equipe__membre-bio--block hidden bg-redarkpink text-white p-8 absolute top-0 pointer-events-none text-xs"
+      class="equipe__membre-bio equipe__membre-bio--2n sm:equipe__membre-bio--3n lg:equipe__membre-bio--4n equipe__membre-bio--block hidden bg-redarkpink text-white p-8 absolute top-0 pointer-events-none text-xs"
     >
       <h3 class="text-l font-bold text-white uppercase">
         {{ .name }}
       </h3>
-      {{ .bio }}
+      {{ .bio | markdownify }}
     </div>
     <div class="equipe__pic">
       <img class="object-fill" src="{{ .img }}" />
