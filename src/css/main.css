@@ -5,6 +5,22 @@
 
 @import "tailwindcss/utilities";
 
+/* 
+=== NAV ===
+*/
+.menu-item {
+  @apply px-4 pt-2 pb-2 text-sm;
+}
+@screen xl {
+  .menu-item {
+    @apply text-base;
+  }
+}
+
+/*
+=== EQUIPE ===
+*/
+
 /* customize bio p */
 .equipe__membre-bio p {
   @apply mt-2;
