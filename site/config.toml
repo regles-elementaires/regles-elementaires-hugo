@@ -7,3 +7,30 @@ title = "Règles Élémentaires"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[menu]
+  [[menu.main]]
+    identifier = "projet"
+    name = "Le Projet"
+    url = "/projet/mission"
+    weight = 1
+  [[menu.main]]
+    identifier = "collecter"
+    name = "Collecter"
+    url = "/"
+    weight = 2
+  [[menu.main]]
+    identifier = "donner"
+    name = "Donner"
+    url = "/"
+    weight = 3
+  [[menu.main]]
+    identifier = "actualites"
+    name = "Actualités"
+    url = "/"
+    weight = 4
+  [[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/"
+    weight = 5

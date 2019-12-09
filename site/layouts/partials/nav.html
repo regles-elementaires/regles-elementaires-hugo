@@ -8,25 +8,29 @@
 		<!-- Primary Nav -->
 		<div class="px-4 flex-grow">
 			<ul class="flex flex-wrap text-white uppercase -mx-4">
-				<li class="menu-item menu-item-space relative"><a href="/projet/mission">Le Projet</a>
-				</li>
-				<li class="menu-item menu-item-space"><a href="/products">Collecter</a></li>
-
-				<li class="menu-item menu-item-space"><a href="/values">Donner</a></li>
-
-				<li class="menu-item menu-item-space"><a href="/post">Actualites</a></li>
-
-				<li class="menu-item menu-item-space"><a href="/contact">FAQ</a></li>
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.main }}
+					<li class="menu-item menu-item-space relative {{ if $currentPage.HasMenuCurrent "main" . }}font-bold{{end}}">
+						<a href="{{.URL}}">
+							{{.Name}}
+						</a>
+				{{end}}
 			</ul>
 		</div>
-		<div><button class="menu-item-space uppercase"><a href=""
+		<div><button class="menu-item-space uppercase pt-4 sm:pt-0"><a href=""
 					class="px-4 bg-rered rounded text-white whitespace-no-wrap">Espace personnel</a></button>
 		</div>
 </nav>
-<nav class="bg-rered sm:h-16 flex sm:justify-center items-center p-4 sm:p-2 flex-col sm:flex-row text-white px-4 text-sm">
-	<div class="-mx-4"><a href="/projet/mission" class="sub-menu-item">Mission & Chiffres clefs</a>
-		<a class="sub-menu-item" href="">Nos Actions</a>
-		<a class="sub-menu-item" href="/projet/equipe">L'equipe</a>
-		<a class="sub-menu-item" href="">Partenaires</a>
+<nav
+	class="bg-rered sm:h-16 flex sm:justify-center items-center p-4 sm:p-2 flex-col sm:flex-row text-white px-4 text-sm">
+	<ul class="flex -mx-4">
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+				{{ if $currentPage.HasMenuCurrent "main" . }}
+					{{ range .Children }}
+						<li class="sub-menu-item {{ if $currentPage.IsMenuCurrent "main" . }}font-bold{{ end }}"><a href="{{.URL}}" class="border-white">{{.Name}}</a></li>
+					{{ end }}
+				{{end}}
+			{{end}}
 	</div>
 </nav>

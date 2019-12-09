@@ -30,6 +30,9 @@
 .sub-menu-item {
   @apply px-4 uppercase whitespace-no-wrap;
 }
+.sub-menu-item:hover a{
+  @apply border-b-2;
+}
 
 /*
 === EQUIPE ===
