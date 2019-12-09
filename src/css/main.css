@@ -8,13 +8,27 @@
 /* 
 === NAV ===
 */
-.menu-item {
-  @apply px-4 pt-2 pb-2 text-sm;
+.menu-item-space {
+  @apply px-4 pb-2 text-sm cursor-pointer;
+}
+.menu-item-space a {
+  @apply pb-2 pt-2;
+}
+.menu-item:hover a {
+  @apply border-b-4 border-rered;
 }
 @screen xl {
-  .menu-item {
+  .menu-item-space {
     @apply text-base;
   }
+}
+@screen lg {
+  .menu-item-space {
+    @apply pb-0;
+  }
+}
+.sub-menu-item {
+  @apply px-4 uppercase whitespace-no-wrap;
 }
 
 /*
