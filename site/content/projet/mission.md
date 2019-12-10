@@ -39,7 +39,7 @@ numbers:
     content:  Depuis la creation de l'association en novembre 2015
     cards:
         - number: '+ de 300 000'
-          img: 
+          img: /img/page-mission/illu-numbers-1.png
           desc: tampons et serviettes on ete redistribues
         - number: '+ de 300 000'
           img: 
