@@ -42,7 +42,7 @@ numbers:
           img: /img/page-mission/illu-numbers-1.png
           desc: tampons et serviettes on ete redistribues
         - number: '+ de 300 000'
-          img: 
+          img: /img/page-mission/illu-numbers-2.png
           desc: tampons et serviettes on ete redistribues
         - number: '+ de 300 000'
           img: 
@@ -56,6 +56,8 @@ numbers:
         - number: '+ de 300 000'
           img: 
           desc: tampons et serviettes on ete redistribues
+collectes:
+    img: /img/page-mission/illu-graph.png
 ---
 
 
