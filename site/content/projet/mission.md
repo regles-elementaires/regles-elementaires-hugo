@@ -6,7 +6,7 @@ layout: mission
 menu: 
     main:
         parent: projet
-        weight: 10
+        weight: 1
 illu: /img/page-mission/illu.png
 illuSpacing: 
     - /img/page-mission/illu-spacing-2.png

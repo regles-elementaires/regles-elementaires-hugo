@@ -6,6 +6,7 @@ layout: equipe
 menu: 
     main:
         parent: projet
+        weight: 3
 illu: "/img/page-equipe/illu.png"
 engager:
     title: "S'engager"
