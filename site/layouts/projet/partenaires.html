@@ -1,5 +1,23 @@
 {{ define "main" }}
 <div>
     {{ partial "projet/page-desc" . }}
+    <div class="p-8 bg-white">
+        <div class="container">
+            <div class="w-1/1 md:w-1/2">
+                <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">Nos Partenaires<span class="text-rered">
+                        redistributeurs</span></h2>
+                <div class="text-rered mb-8">{{.Params.redistributeurs | markdownify}}</div>
+                <div><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm" href="">Devenir
+                        partenaire
+                        redistributeur</a></div>
+                <div class="flex flex-row">
+                    {{ printf "%#v" (.Site.Data.partenaires)}}
+                    {{range .Site.Data.partenaires}}
+                        {{.name}} 
+                    {{end}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="p-8 bg-gray-100"></div>
 </div>
 {{ end }}
