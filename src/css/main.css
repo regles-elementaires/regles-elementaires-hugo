@@ -9,7 +9,7 @@
 === GENERIC
 */ 
 .big-red-button {
-  @apply uppercase bg-rered text-white p-4 px-8 rounded-full;
+  @apply uppercase bg-rered text-white p-4 px-8 rounded-lg;
 }
 /* 
 === NAV ===

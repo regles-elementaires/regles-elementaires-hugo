@@ -4,15 +4,24 @@
     {{ range $elem_index, $elem_val := .Params.actions }}
     {{ $isOdd := not (modBool $elem_index 2) }}
     <div class="p-8 bg-white {{if $isOdd}}bg-gray-100{{end}}">
-        <div class="container flex flex-row">
-            <div class="w-3/5 bg-repink">{{.title}}</div>
-            <div class="w-2/5 px-2">
-                <div class="flex flex-row flex-wrap -mx-4 relative">
-                    <div class="bg-repink absolute top-0 left-0 h-full w-1/4"></div>
+        <div class="container flex flex-col md:flex-row">
+            <div class="w-full md:w-3/5 bg-repink flex flex-col items-center p-8">
+                <div class="relative mb-2">
+                    <h2 class="text-2xl text-rered font-bold uppercase relative z-10">
+                        {{.title}}</h2>
+                    <span class="block absolute h-4 bg-white left-0 right-0 bottom-0 z-0"></span>
+                </div>
+                <img class="h-16 mb-2" src="/img/page-actions/arrow.png" />
+                <p class="text-rered text-center">{{.content}}</p>
+                <a class="big-red-button my-8" href="{{.btnLink}}">{{.btnText}}</a>
+            </div>
+            <div class="w-1/1 md:w-2/5 px-2">
+                <div class="flex flex-row flex-wrap h-full -mx-4 relative content-center">
+                    <div class="bg-repink hidden md:flex md:absolute top-0 left-0 h-full w-1/4"></div>
                     {{range $img_index, $img_val := .illu}}
                     {{ $afterTwo := gt $img_index 1 }}
-                    <div class="w-/1/1 md:w-1/2 px-2 z-10 {{if $afterTwo}}hidden md:flex mb-0 {{else}} mb-4 {{end}}">
-                        <img class="shadow-lg" src="{{$img_val}}" />
+                    <div class="w-1/2 px-2 z-10 {{if $afterTwo}}hidden md:flex mb-0 {{else}} mb-4 {{end}}">
+                        <img class="shadow-lg object-cover h-full w-full" src="{{$img_val}}" />
                     </div>
                     {{end}}
                 </div>
