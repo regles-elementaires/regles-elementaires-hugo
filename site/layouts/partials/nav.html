@@ -22,8 +22,8 @@
 		</div>
 </nav>
 <nav
-	class="bg-rered sm:h-16 flex sm:justify-center items-center p-4 sm:p-2 flex-col sm:flex-row text-white px-4 text-sm">
-	<ul class="flex -mx-4">
+	class="bg-rered sm:h-16 flex sm:justify-center items-center p-4 sm:p-2 text-white px-4 text-sm">
+	<ul class="flex flex-row flex-wrap -mx-4">
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
 				{{ if $currentPage.HasMenuCurrent "main" . }}
