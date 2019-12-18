@@ -4,7 +4,7 @@
     <div class="flex">
       <div class="w-5/5 md:w-3/5 bg-rered text-white font-bold p-8 pr-8 md:pr-16">
         <h2 class="text-3xl mt-8 mb-8">{{ .Title }}</h2>
-        {{ .Content }}
+        <div class="markdown">{{ .Content }}</div>
       </div>
       <div class="hidden md:flex w-2/5 bg-repink">
         <img src="{{ .Params.illu }}" class="object-cover" />
