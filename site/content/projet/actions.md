@@ -26,7 +26,7 @@ actions:
       - /img/page-actions/illu-action4.png
   - btn_link: /
     btn_text: Voir les etapes pour obtenir sa boîte à dons
-    content: >
+    content: >-
       Fusce condimentum sem tortor, in finibus erat malesuada nec. Praesent a
       dignissim purus. Nam vestibulum tempor sem nec facilisis. Donec efficitur
       leo augue, vitae auctor mauris mattis quis. Duis eu felis lectus. Integer
