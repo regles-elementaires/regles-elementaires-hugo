@@ -1,0 +1,19 @@
+<div class="container">
+    {{with .page}}
+    <div class="w-1/1 md:w-1/2">
+        <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">{{.title1}}<span class="text-rered">
+                {{.title2}}</span></h2>
+        <div class="text-rered mb-8">{{.text | markdownify}}</div>
+        <div class="mb-8"><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm" href="{{.btnLink}}">{{.btnText}}</a></div>
+    </div>
+    {{end}}
+</div>
+<div class="container p-4">
+    <div class="flex flex-row flex-wrap justify-center -m-4">
+        {{ $partenaireType := .page.type }}
+        {{range .data}}
+            {{if eq .type $partenaireType }}
+            <div class="w-1/2 md:w-1/4 h-24 p-4"><a href="{{.link}}" class="flex w-full h-full justify-center" title="{{.name}}"><img class="object-scale-down" src="{{.img}}"/></a></div>
+            {{end}}
+        {{end}}</div>
+</div>
