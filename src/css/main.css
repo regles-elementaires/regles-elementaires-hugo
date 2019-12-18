@@ -11,6 +11,13 @@
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg;
 }
+.markdown p,
+.markdown ul {
+  @apply mb-4;
+}
+.markdown ul {
+  @apply pl-4 list-disc; 
+}
 /* 
 === NAV ===
 */
