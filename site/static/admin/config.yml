@@ -44,7 +44,7 @@ collections: # A list of collections the CMS should be able to edit
                 - { label: "Titre", name: "title", widget: "string" }
                 - { label: "Contenu", name: "content", widget: "markdown" }
                 - { label: "Texte Bouton", name: "btn_text", widget: "string" }
-                - { label: "Lien Bouton", name: "btn_link", widget: "text" }
+                - { label: "Lien Bouton", name: "btn_link", widget: "string" }
                 - label: "Illustrations"
                   name: "illu"
                   widget: "list"
