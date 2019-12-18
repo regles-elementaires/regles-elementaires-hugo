@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "projet"
     label: "Pages Projet"
     files:
-      - file: "site/content/actions.md"
+      - file: "site/content/projet/actions.md"
         label: "Nos Actions"
         name: "actions"
         fields:
