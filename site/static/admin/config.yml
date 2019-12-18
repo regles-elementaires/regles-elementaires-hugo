@@ -35,6 +35,8 @@ collections: # A list of collections the CMS should be able to edit
         label: "Nos Actions"
         name: "actions"
         fields:
+          - {label: Menu, name: menu, widget: hidden}
+          - {label: Layout, name: layout, widget: hidden}
           - { label: Titre, name: title, widget: string }
           - { label: Illustration, name: illu, widget: image }
           - 
