@@ -5,16 +5,16 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Intro Blurb", name: "description", widget: "text" }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+  # - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Post" # Used in the UI, ie.: "New Post"
+  #   folder: "site/content/post" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   fields: # The fields each document in this collection have
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     - { label: "Intro Blurb", name: "description", widget: "text" }
+  #     - { label: "Image", name: "image", widget: "image", required: false }
+  #     - { label: "Body", name: "body", widget: "markdown" }
   - name: "team" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Membre" # Used in the UI, ie.: "New Post"
     folder: "site/data/team" # The path to the folder where the documents are stored
@@ -27,56 +27,28 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Linkedin URL", name: "linkedin", widget: "string" }
       - { label: "Photo", name: "img", widget: "image" }
       - { label: "Biographie", name: "bio", widget: "text" }
-  - name: "pages"
-    label: "Pages"
+  - name: "projet"
+    label: "Pages Projet"
     files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
+      - file: "site/content/actions.md"
+        label: "Nos Actions"
+        name: "actions"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Image, name: image, widget: image }
-          - {
-              label: "Blurb",
-              name: blurb,
-              widget: object,
+          - { label: Titre, name: title, widget: string }
+          - { label: Illustration, name: illu, widget: image }
+          - 
+              label: "Actions"
+              name: actions
+              widget: list
               fields:
-                [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Text", name: "text", widget: "text" },
-                ],
-            }
-          - {
-              label: "Intro",
-              name: intro,
-              widget: object,
-              fields:
-                [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Text", name: "text", widget: "text" },
-                ],
-            }
-          - {
-              label: "Products",
-              name: products,
-              widget: list,
-              fields:
-                [
-                  { label: "Image", name: "image", widget: "image" },
-                  { label: "Text", name: "text", widget: "text" },
-                ],
-            }
-          - {
-              label: "Values",
-              name: "values",
-              widget: "object",
-              fields:
-                [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Text", name: "text", widget: "text" },
-                ],
-            }
+                - { label: "Titre", name: "title", widget: "string" }
+                - { label: "Contenu", name: "content", widget: "markdown" }
+                - { label: "Texte Bouton", name: "btn_text", widget: "string" }
+                - { label: "Lien Bouton", name: "btn_link", widget: "text" }
+                - label: "Illustrations"
+                  name: "illu"
+                  widget: "list"
+                  field: {label: Image, widget: image}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
