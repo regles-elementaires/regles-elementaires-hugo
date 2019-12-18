@@ -13,8 +13,8 @@ actions:
       content: |
         Fusce condimentum sem tortor, in finibus erat malesuada nec. Praesent a dignissim purus. Nam vestibulum tempor sem nec facilisis. 
         Donec efficitur leo augue, vitae auctor mauris mattis quis. Duis eu felis lectus. Integer viverra sapien ante, id tincidunt risus varius sit amet. Fusce ipsum ex, laoreet suscipit nisl eu, pellentesque interdum eros. Quisque quis pretium erat. Nunc velit est, convallis ut ex vitae, aliquam auctor felis.
-      btnText: Voir les etapes pour creer sa collecte ponctuelle
-      btnLink: /
+      btn_text: Voir les etapes pour creer sa collecte ponctuelle
+      btn_link: /
       illu: 
         - /img/page-actions/illu-action1.png
         - /img/page-actions/illu-action2.png

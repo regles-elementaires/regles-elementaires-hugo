@@ -13,7 +13,7 @@
                 </div>
                 <img class="h-16 mb-2" src="/img/page-actions/arrow.png" />
                 <p class="text-rered text-center">{{.content}}</p>
-                <a class="big-red-button my-8" href="{{.btnLink}}">{{.btnText}}</a>
+                <a class="big-red-button my-8" href="{{.btn_link}}">{{.btn_text}}</a>
             </div>
             <div class="w-1/1 md:w-2/5 px-2">
                 <div class="flex flex-row flex-wrap h-full -mx-4 relative content-center">
@@ -29,5 +29,6 @@
         </div>
     </div>
     {{end}}
+    {{ partial "projet/moi-aussi" . }}
 </div>
 {{ end }}
