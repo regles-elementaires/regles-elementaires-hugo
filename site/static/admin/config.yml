@@ -39,6 +39,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Layout, name: layout, widget: hidden}
           - { label: Titre, name: title, widget: string }
           - { label: Illustration, name: illu, widget: image }
+          - { label: Body, name: body, widget: markdown }
           - 
               label: "Actions"
               name: actions
