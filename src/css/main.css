@@ -16,7 +16,8 @@
   @apply mb-4;
 }
 .markdown ul {
-  @apply pl-4 list-disc; 
+  @apply pl-4; 
+  list-style: disc inside none;
 }
 /* 
 === NAV ===

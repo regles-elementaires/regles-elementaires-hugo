@@ -18,9 +18,6 @@ engager:
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Les femmes et les hommes qui oeuvrent chaque jour au développement de Règles Élémentaires et veillent à l’accomplissement de nos missions viennent d’horizons divers et variés, à l’image de notre communauté. 
+L’équipe est composée en grande majorité de bénévoles fortement impliqué.e.s (souvent plus de dix heures par semaine), des wonder-women et super-men qui font bouger les lignes et changent les règles au quotidien ! 
 
-- Curabitur nec nibh eu nunc sagittis gravida eget a leo. 
-- Curabitur at pulvinar dolor, vel tincidunt velit. 
-
-Fusce condimentum sem tortor, in finibus erat malesuada nec. Praesent a dignissim purus. Nam vestibulum tempor sem nec facilisis. Donec efficitur leo augue, vitae auctor mauris mattis quis. Duis eu felis lectus. Integer viverra sapien ante, id tincidunt risus varius sit amet. Fusce ipsum ex, laoreet suscipit nisl eu, pellentesque interdum eros. Quisque quis pretium erat. Nunc velit est, convallis ut ex vitae, aliquam auctor felis.
