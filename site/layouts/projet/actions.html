@@ -3,7 +3,7 @@
     {{ partial "projet/page-desc" . }}
     {{ range $elem_index, $elem_val := .Params.actions }}
     {{ $isOdd := not (modBool $elem_index 2) }}
-    <div class="p-8 bg-white {{if $isOdd}}bg-gray-200{{end}}">
+    <div class="p-8 bg-white {{if $isOdd}}bg-regrey{{end}}">
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-3/5 bg-repink flex flex-col items-center p-8">
                 {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
