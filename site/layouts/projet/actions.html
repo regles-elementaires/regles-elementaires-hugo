@@ -6,11 +6,7 @@
     <div class="p-8 bg-white {{if $isOdd}}bg-gray-100{{end}}">
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-3/5 bg-repink flex flex-col items-center p-8">
-                <div class="relative mb-2">
-                    <h2 class="text-2xl text-rered font-bold uppercase relative z-10">
-                        {{.title}}</h2>
-                    <span class="block absolute h-4 bg-white left-0 right-0 bottom-0 z-0"></span>
-                </div>
+                {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
                 <img class="h-16 mb-2" src="/img/page-actions/arrow.png" />
                 <div class="text-rered text-center markdown">{{.content | markdownify}}</div>
                 <a class="big-red-button my-8" href="{{.btn_link}}">{{.btn_text}}</a>
