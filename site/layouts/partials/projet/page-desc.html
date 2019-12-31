@@ -1,15 +1,15 @@
 <div class="flex">
-  <div class="bg-rered flex-1"></div>
+  <div class="{{if .Params.description_pink}}bg-repink{{else}}bg-rered{{end}} flex-1"></div>
   <div class="container">
     <div class="flex">
-      <div class="w-5/5 md:w-3/5 bg-rered text-white font-bold p-8 pr-8 md:pr-16">
-        <h2 class="text-3xl mt-8 mb-8">{{ .Title }}</h2>
+      <div class="w-5/5 md:w-3/5 {{if .Params.description_pink}}bg-repink text-rered{{else}}bg-rered text-white{{end}} p-8 pr-8 md:pr-16">
+        <h2 class="text-2xl mt-8 mb-8 uppercase font-bold">{{ .Title }}</h2>
         <div class="markdown">{{ .Content }}</div>
       </div>
-      <div class="hidden md:flex w-2/5 bg-repink">
+      <div class="hidden md:flex w-2/5{{if .Params.description_pink}} bg-repink md:bg-rered {{else}} bg-rered md:bg-repink {{end}}">
         <img src="{{ .Params.illu }}" class="object-cover" />
       </div>
     </div>
   </div>
-  <div class="bg-rered md:bg-repink flex-1"></div>
+  <div class="{{if .Params.description_pink}}bg-repink md:bg-rered {{else}} bg-rered md:bg-repink {{end}}flex-1"></div>
 </div>

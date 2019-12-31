@@ -59,4 +59,4 @@ actions:
       - /img/page-actions/illu-action4.png
 ---
 
-Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Concrètement, nous organisons et supervisons des collectes de produits d’hygiène intime que nous mettons gratuitement à disposition des femmes dans le besoin via notre solide réseau de partenaires ; et nous brisons le tabou des règles en menant des actions de sensibilisation nombreuses, diverses et variées. 
+**Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Concrètement, nous organisons et supervisons des collectes de produits d’hygiène intime que nous mettons gratuitement à disposition des femmes dans le besoin via notre solide réseau de partenaires ; et nous brisons le tabou des règles en menant des actions de sensibilisation nombreuses, diverses et variées.**

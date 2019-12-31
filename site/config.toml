@@ -17,7 +17,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   [[menu.main]]
     identifier = "collecter"
     name = "Collecter"
-    url = "/"
+    url = "/collecter/organiser"
     weight = 2
   [[menu.main]]
     identifier = "donner"
