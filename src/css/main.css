@@ -11,6 +11,9 @@
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg;
 }
+.title-red {
+  @apply text-xl text-rered uppercase font-bold;
+}
 .markdown p,
 .markdown ul {
   @apply mb-4;
