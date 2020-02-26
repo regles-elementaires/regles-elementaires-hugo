@@ -50,7 +50,12 @@
 .sub-menu-item:hover a{
   @apply border-b-2;
 }
-
+/*
+=== HEADER ===
+*/
+.desc__content a{
+  @apply text-redarkgrey;
+}
 /*
 === EQUIPE ===
 */

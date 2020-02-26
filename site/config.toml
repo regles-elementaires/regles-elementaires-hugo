@@ -22,7 +22,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   [[menu.main]]
     identifier = "donner"
     name = "Donner"
-    url = "/"
+    url = "/donner/trouver"
     weight = 3
   [[menu.main]]
     identifier = "actualites"
