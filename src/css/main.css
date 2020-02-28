@@ -31,7 +31,7 @@
 .menu-item-space a {
   @apply pb-2 pt-2;
 }
-.menu-item:hover a {
+.menu-item--hover:hover {
   @apply border-b-4 border-rered;
 }
 @screen xl {
@@ -41,7 +41,7 @@
 }
 @screen lg {
   .menu-item-space {
-    @apply pb-0;
+    @apply pt-2 pb-0 px-4;
   }
 }
 .sub-menu-item {

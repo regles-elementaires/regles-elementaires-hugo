@@ -16,12 +16,12 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     weight = 1
   [[menu.main]]
     identifier = "collecter"
-    name = "Collecter"
+    name = "Organiser une collecte"
     url = "/collecter/organiser"
     weight = 2
   [[menu.main]]
     identifier = "donner"
-    name = "Donner"
+    name = "Donner des produits"
     url = "/donner/trouver"
     weight = 3
   [[menu.main]]
@@ -30,7 +30,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     url = "/"
     weight = 4
   [[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url = "/"
-    weight = 5
+    identifier = "soutenir"
+    name = "Nous Soutenir"
+    url = "/soutenir"
+    weight = 4
