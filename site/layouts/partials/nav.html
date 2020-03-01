@@ -1,9 +1,14 @@
+<div class="flex flex-row justify-end bg-redarkpink py-2 px-4">
+	<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-xs text-white">Acceder a l'Espace
+		collecte</a>
+</div>
 <nav class="bg-redarkpink sm:h-28 flex sm:justify-between items-center px-4 flex-col sm:flex-row">
 
 	<!-- Logo -->
+
 	<div>
 		<a class="flex" href="/"><img src="/img/logo-re.png" alt="Regles Elementaires logo"
-				class="object-contain h-12 sm:h-24" /></a>
+				class="object-contain h-12 sm:h-20" /></a>
 	</div>
 	<div class="flex flex-col sm:flex-row justify-end flew-wrap items-center">
 		<!-- Primary Nav -->
@@ -20,21 +25,18 @@
 					{{end}}
 			</ul>
 		</div>
-		<div><button class="menu-item-space uppercase pt-4 mb-2 sm:pt-2 sm:mb-0"><a href=""
-					class="px-4 bg-redarkpink rounded text-white whitespace-no-wrap border-solid border-2 border-white">Espace
-					collecte</a></button>
-		</div>
 </nav>
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+{{ if $currentPage.HasMenuCurrent "main" . }}
 <nav class="bg-rered sm:h-16 flex sm:justify-center items-center p-4 sm:p-2 text-white px-4 text-sm">
 	<ul class="flex flex-row flex-wrap -mx-4">
-		{{ $currentPage := . }}
-		{{ range .Site.Menus.main }}
-		{{ if $currentPage.HasMenuCurrent "main" . }}
+
 		{{ range .Children }}
 		<li class="sub-menu-item {{ if $currentPage.IsMenuCurrent "main" . }}font-bold{{ end }}"><a href="{{.URL}}"
 				class="border-white">{{.Name}}</a></li>
 		{{ end }}
-		{{end}}
-		{{end}}
 		</div>
 </nav>
+{{end}}
+{{end}}

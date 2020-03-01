@@ -8,7 +8,24 @@ menu:
     main:
         parent: donner
         weight: 2
-illu: /img/page-mission/photo-always.jpg
+illu: /img/page-produits/boite.jpg
+produits: 
+    - img: /img/page-produits/tampon.svg
+      text: Tampons
+    - img: /img/page-produits/serviette.svg
+      text: Serviettes Hygiéniques
+    - img: /img/page-produits/protege-slip.svg
+      text: Protège-slips
+    - img: /img/page-produits/serviette-lavable.svg
+      text: Serviettes Lavables
+    - img: /img/page-produits/cup.svg
+      text: Coupes Menstruelles neuves
+    - img: /img/page-produits/culotte.svg
+      text: Culottes menstruelles neuves
+    - img: /img/page-produits/gel.svg
+      text: "Gels anti-bacteriens" 
+    - img: /img/page-produits/lingettes.svg
+      text: "lingettes"
 ---
 **Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient neufs (jamais utilisés). Serviettes, protège-slips, tampons, cups, culottes menstruelles… Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections.**
 

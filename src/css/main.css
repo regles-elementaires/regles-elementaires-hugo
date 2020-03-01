@@ -11,6 +11,9 @@
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg;
 }
+.big-red-button--rounded {
+  @apply rounded-full;
+}
 .title-red {
   @apply text-xl text-rered uppercase font-bold;
 }

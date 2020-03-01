@@ -11,7 +11,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [menu]
   [[menu.main]]
     identifier = "projet"
-    name = "Le Projet"
+    name = "Decouvrir le Projet"
     url = "/projet/mission"
     weight = 1
   [[menu.main]]
@@ -24,13 +24,13 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "Donner des produits"
     url = "/donner/trouver"
     weight = 3
-  [[menu.main]]
-    identifier = "actualites"
-    name = "Actualités"
-    url = "/"
-    weight = 4
+  # [[menu.main]]
+  #   identifier = "actualites"
+  #   name = "Actualités"
+  #   url = "/"
+  #   weight = 4
   [[menu.main]]
     identifier = "soutenir"
-    name = "Nous Soutenir"
-    url = "/soutenir"
+    name = "Soutenir l'association"
+    url = "/soutenir/dons-financiers"
     weight = 4
