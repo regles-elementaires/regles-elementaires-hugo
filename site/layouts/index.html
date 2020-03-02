@@ -1,5 +1,60 @@
 {{ define "main" }}
 
-<div class="container">{{.Title}}</div>
-<div class="container">{{.Params.subtitle}}</div>
+<div class="bg-redarkgrey bg-cover w-full home flex flex-col items-center pt-24">
+    <h1 class="title-with-shadow text-3xl sm:text-4xl lg:text-6xl title-shadow-sm lg:title-shadow-lg">#CHANGERLESRÈGLES
+    </h1>
+    <h2 class="text-white text-center text-xl pt-8">Première association française de lutte<br>
+        contre la précarité menstruelle</h2>
+    <div class="py-16"><a class="big-red-button big-red-button--rounded flex flex-row items-center"
+            href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank"><span
+                class="flex">FAIRE
+                UN DON&nbsp;</span><img src="/img/page-home/dons.svg" class="flex h-8 inline-block" /></a></div>
+</div>
+<div class="w-full bg-rered">
+    <div class="container pt-8 flex flex-row">
+        <div class="w-1/6 flex flex-col items-end px-4"><img src="/img/page-home/logo-seul-RE.svg" class="h-16"></div>
+        <div class="w-3/6">
+            <h2 class="text-white text-2xl font-bold">LA MISSION<br>
+                DE RÈGLES ÉLÉMENTAIRES</h2>
+            <p class="text-white pt-4 text-xl text-justify">Règles Élémentaires est la première association française de
+                lutte
+                contre la
+                précarité
+                menstruelle. Notre
+                mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et
+                briser le tabou des règles. Ensemble, nous pouvons faire bouger les lignes et changer les règles ! </p>
+            <p class="py-8"><a class="py-4 border-b-2 border-white text-white uppercase font-bold text-sm"
+                    href="/projet/mission">En
+                    savoir plus sur la mission</a></p>
+        </div>
+
+    </div>
+</div>
+<div class="w-full bg-regrey">
+    <div class="container pt-8 flex flex-row">
+        <div class="w-2/6"></div>
+        <div class="w-3/6">
+            <h2 class="text-rered text-2xl font-bold text-right">ORGANISER UNE COLLECTE</h2>
+            <p class="text-rered pt-4 text-xl text-justify">Tout le monde peut organiser une collecte avec Règles
+                Élémentaires.
+                Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première
+                nécessité, c’est aussi briser le tabou autour des menstruations. Depuis la création de l’association,
+                des centaines de collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de
+                personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant.e.s,
+                salarié.e.s, employé.e.s, retraité.e.s, chef.fe.s d’entreprises, scouts, mairies, ministères,
+                collectivités territoriales, supermarchés, festivals…
+            </p>
+            <p class="text-rered pt-4 text-xl text-justify">
+                Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec
+                nous !
+            </p>
+            <p class="py-8"><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
+                    href="/projet/mission">En
+                    savoir plus sur l'organisation de collecte</a></p>
+        </div>
+
+    </div>
+</div>
+{{ partial "projet/moi-aussi" . }}
+
 {{ end }}

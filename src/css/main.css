@@ -25,6 +25,20 @@
   @apply pl-4; 
   list-style: disc inside none;
 }
+
+.title-with-shadow {
+  @apply uppercase font-bold text-white;
+}
+@responsive {
+  .title-shadow-lg {
+    text-shadow: 7px 11px 1px #E9364B;
+  }
+}
+@responsive {
+  .title-shadow-sm {
+    text-shadow: 4px 6px 1px #E9364B;
+  }
+}
 /* 
 === NAV ===
 */
@@ -58,6 +72,12 @@
 */
 .desc__content a{
   @apply text-redarkgrey;
+}
+/*
+=== HOME ===
+*/
+.home {
+  background-image: url("/img/page-home/img-hero.jpg");
 }
 /*
 === EQUIPE ===

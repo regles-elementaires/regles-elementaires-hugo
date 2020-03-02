@@ -1,16 +1,21 @@
 <footer class="">
-	<div class="bg-redarkgrey"><div class="container flex flex-col md:flex-row">
-		<div class="w-full md:w-1/2 p-4 text-white font-bold"><span class="font-normal text-repink">Contactez-nous sur:</span><br><a href="mailto:{{.Site.Data.copyright.contact}}" target="_blank">{{.Site.Data.copyright.contact}}</a>
-		</div>
-		<div class="w-full md:w-1/2 p-4 text-white font-bold"><span class="font-normal text-repink">Notre adresse:</span><br>{{.Site.Data.copyright.adresse | markdownify}}
+	<div class="bg-redarkgrey">
+		<div class="container flex flex-col md:flex-row">
+			<div class="w-full md:w-1/2 p-4 text-white font-bold"><span class="font-normal text-repink">Contactez-nous
+					sur:</span><br><a href="mailto:{{.Site.Data.copyright.contact}}"
+					target="_blank">{{.Site.Data.copyright.contact}}</a>
+			</div>
+			<div class="w-full md:w-1/2 p-4 text-white font-bold"><span class="font-normal text-repink">Notre
+					adresse:</span><br>{{.Site.Data.copyright.adresse | markdownify}}
+			</div>
 		</div>
 	</div>
-</div>
 	<div class="container">
 		<div class="w-4/5 text-rered p-4 text-sm">{{.Site.Data.copyright.text | markdownify}}
 		</div>
 	</div>
-	<div class="w-full bg-redarkpink flex flex-row justify-center py-2"><img src="/img/baseline.jpg"
-			class="object-scale-down h-12" /></div>
+	<div class="w-full bg-redarkpink flex flex-row justify-center py-2">
+		<h1 class="title-with-shadow text-3xl title-shadow-sm">#CHANGERLESRÈGLES</h1>
+	</div>
 
 </footer>
