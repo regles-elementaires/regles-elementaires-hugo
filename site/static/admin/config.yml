@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
   #     - { label: "Image", name: "image", widget: "image", required: false }
   #     - { label: "Body", name: "body", widget: "markdown" }
   - name: "team" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Membre" # Used in the UI, ie.: "New Post"
+    label: "Equipe" # Used in the UI, ie.: "New Post"
     folder: "site/data/team" # The path to the folder where the documents are stored
     identifier_field: "name"
     extension: toml
@@ -28,6 +28,17 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Linkedin URL", name: "linkedin", widget: "string" }
       - { label: "Photo", name: "img", widget: "image" }
       - { label: "Biographie", name: "bio", widget: "text" }
+  - name: "partenaires" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Partenaires" # Used in the UI, ie.: "New Post"
+    folder: "site/data/partenaires" # The path to the folder where the documents are stored
+    identifier_field: "name"
+    extension: toml
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Nom", name: "name", widget: "string" }
+      - { label: "Type", name: "type", widget: "select", options: ["redistributeur", "institutionnels", "industriels", "autres"] }
+      - { label: "Lien", name: "link", widget: "string" }
+      - { label: "Logo", name: "img", widget: "image" }
   - name: "projet"
     label: "Pages Projet"
     files:
