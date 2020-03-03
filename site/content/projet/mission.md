@@ -33,22 +33,22 @@ numbers:
     content:  Depuis la creation de l'association en novembre 2015
     cards:
         - number: '+ de 300 000'
-          img: /img/page-mission/illu-numbers-1.png
+          img: /img/page-mission/groupe-protections.svg
           desc: tampons et serviettes on ete redistribues
         - number: '+ de 350'
-          img: /img/page-mission/illu-numbers-2.png
+          img: /img/page-mission/carte.svg
           desc: collectes organisées partout en france
         - number: '+ de 25 000'
-          img: 
+          img: /img/page-mission/icon-femme.svg
           desc: femmes bénéficiaires
         - number: '+ de 400'
-          img: 
+          img: /img/page-mission/paquet-nana-simple.svg
           desc: organisatrices et organisateurs de collectes
         - number: '+ de 50'
-          img: 
+          img: /img/page-mission/partenaire.svg
           desc: partenaires réparti.e.s sur tout le territoire
         - number: '+ de 20'
-          img: 
+          img: /img/page-mission/RE-plus.svg
           desc: bénévoles dans + de 6 antennes locales
 collectes:
     img: /img/page-mission/graphique.jpg

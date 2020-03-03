@@ -56,5 +56,77 @@
     </div>
 </div>
 {{ partial "projet/moi-aussi" . }}
+<div class="w-full bg-regrey">
+    <div class="container pt-8 flex flex-row">
+        <div class="w-1/6"></div>
+        <div class="w-4/6 md:w-3/6">
+            <h2 class="text-rered text-2xl font-bold">NOS PARTENAIRES REDISTRIBUTEURS</h2>
+            <p class="text-rered pt-4 text-xl text-justify">L’action de Règles Élémentaires est indissociable de celle
+                de ses partenaires.
+                Notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les
+                aspects logistiques de la collecte de produits d’hygiène intime, tandis que la redistribution aux femmes
+                en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du
+                mal-logement partenaires.
+            </p>
+            <p class="py-8 flex flex-row justify-between"><a
+                    class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
+                    href="/projet/partenaires">En
+                    savoir plus sur nos partenaires</a><a
+                    class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
+                    href="mailto:partenariat@regleselementaires.com" target="_blank" rel="noopener noreferrer">Devenir
+                    partenaire</a></p>
+            {{ partial "projet/partenaire-list" (dict "partenaire_type" "redistributeur" "data" .Site.Data.partenaires)}}
+        </div>
+        <div class="hidden md:flex w-2/6 p-4"><img src="/img/page-home/partenaires-02.svg" class="h-32" /></div>
+    </div>
+</div>
+<div class="w-full bg-white">
+    <div class="container pt-8 flex flex-row">
+        <div class="w-1/6 md:w-2/6"></div>
+        <div class="w-4/6 md:w-3/6 pb-8">
+            <h2 class="text-rered text-2xl font-bold text-right pb-4">ACTUALITÉS</h2>
+            <div class="tweets-feed">
+                <a class="twitter-timeline" href="https://twitter.com/RElementaires?ref_src=twsrc%5Etfw"
+                    data-height="calc(50vh)" data-chrome="nofooter noheader noborder">Tweets by RElementaires</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
 
+    </div>
+</div>
+<div class="w-full bg-redarkpink">
+    <div class="container py-8 flex flex-row">
+        <div class="w-2/4 p-4">
+            <h3 class="text-white text-2xl font-bold pb-4">LA NEWSLETTER</h3>
+            <p class="text-white">Pour s’informer des prochaines collectes,<br>
+                inscrivez-vous à notre newletter !</p>
+            <form class="mt-4 flex flex-row w-full"
+                action="//regleselementaires.us12.list-manage.com/subscribe/post?u=d920a045417cea49ec8048c5f&amp;id=76cba65ade"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                <div class="flex-grow pr-4"><input
+                        class="w-full h-full required email border-b-2 border-white bg-redarkpink text-white placeholder-repink px-2"
+                        type="email" value="" name="EMAIL" id="email" placeholder="Votre email"></div>
+                <input class="cursor-pointer bg-redarkpink text-white font-bold text-l border-white border-2 py-2 px-6"
+                    type="submit" value="ENVOYER" name="subscribe">
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_d920a045417cea49ec8048c5f_76cba65ade" tabindex="-1" value="">
+                </div>
+            </form>
+        </div>
+        <div class="w-2/4 py-4 px-8">
+            <h3 class="text-white text-2xl font-bold pb-4 uppercase">Suivez-nous</h3>
+            <div class="flex flex-row flex-wrap pt-2">
+                <a href="https://www.facebook.com/regleselementaires/" target="_blank" class="px-1"><img
+                        src="/img/social/facebook-red.svg" class="h-12" /></a>
+                <a href="https://twitter.com/RElementaires" target="_blank" class="px-1"><img
+                        src="/img/social/twitter-red.svg" class="h-12" /></a>
+                <a href="https://www.instagram.com/regleselementaires/" target="_blank" class="px-1"><img
+                        src="/img/social/insta-red.svg" class="h-12" /></a>
+                <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank"
+                    class="px-1"><img src="/img/social/linkedin-red.svg" class="h-12" /></a>
+            </div>
+        </div>
+
+    </div>
+</div>
 {{ end }}

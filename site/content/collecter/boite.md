@@ -8,9 +8,9 @@ menu:
     main:
         parent: collecter
         weight: 2
-illu: /img/page-mission/photo-always.jpg
+illu: /img/page-collecte/boite.jpg
 ---
-**Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles.**
+**Les boîtes à dons Règles Élémentaires "officielles" sont en priorité mises à disposition pour les collectes de longue-durée (> 3 mois). En principe, pour les autres collectes, nous vous proposons un kit de customisation pour personnaliser un réceptacle en carton ou en plastique afin de recevoir les dons.**
 
-Ensemble, nous pouvons faire bouger les lignes et changer les règles ! 
+Enfin, il est important de noter que nos boîtes à dons officielles, fabriquées en France, sont coûteuses à produire et à transporter. Afin de soutenir la production et de poursuivre l’installation des boîtes à dons dans le plus d’endroits possibles, nous demandons une contribution financière aux organisateurs et organisatrices de collectes qui souhaitent en installer. Cette contribution est déterminée selon les moyens de chacun et est éligible à déduction fiscale. 
 

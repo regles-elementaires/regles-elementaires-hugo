@@ -8,18 +8,9 @@
                 {{end}}
                 {{if isset . "btn_text"}}
                 <div class="mb-8"><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
-                                href="{{ .btn_link }}">{{ .btn_text }}</a></div>
+                                href="{{ .btn_link }}" target="_blank">{{ .btn_text }}</a></div>
                 {{end}}
         </div>
         {{end}}
 </div>
-<div class="container p-4">
-        <div class="flex flex-row flex-wrap justify-center -m-4">
-                {{ $partenaireType := .page.type }}
-                {{range .data}}
-                {{if eq .type $partenaireType }}
-                <div class="w-1/2 md:w-1/4 h-24 p-4"><a href="{{.link}}" class="flex w-full h-full justify-center"
-                                title="{{.name}}"><img class="object-scale-down" src="{{.img}}" /></a></div>
-                {{end}}
-                {{end}}</div>
-</div>
+{{ partial "projet/partenaire-list" (dict "partenaire_type" .page.type "data" .data)}}

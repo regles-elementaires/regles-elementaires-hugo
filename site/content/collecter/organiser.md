@@ -8,14 +8,14 @@ menu:
     main:
         parent: collecter
         weight: 1
-illu: /img/page-mission/photo-always.jpg
+illu: /img/page-collecte/exemple-collecte.jpg
 steps: 
     - img: /img/page-collecte/etape-1.svg
       step: 1
       text: J'identifie un lieu, les dates, les horaires, éventuellement des coéquipier.e.s
     - img: /img/page-collecte/etape-2.svg
       step: 2
-      text: Je me rends sur le site Règles Élémentaires
+      text: Je me rends sur l'<a href="https://collectes.regleselementaires.com/" target="_blank">espace collecte Règles Élémentaires</a>
     - img: /img/page-collecte/etape-3.svg
       step: 3
       text: Je crée mon compte
@@ -44,7 +44,7 @@ steps:
       step: 10
       text: "Mes dons sont livrés! Hâte de recommencer ;)"
 ---
-**Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles.**
+**Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première nécessité, c’est aussi briser le tabou autour des menstruations.**
 
-Ensemble, nous pouvons faire bouger les lignes et changer les règles ! 
+Depuis la création de l’association, des centaines de collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant.e.s, salarié.e.s, employé.e.s, retraité.e.s, chef.fe.s d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals… Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous ! 
 

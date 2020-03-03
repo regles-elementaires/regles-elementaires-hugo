@@ -132,3 +132,10 @@
     right: 100%;
   }
 }
+
+/*
+=== COLLECTE
+*/
+.collecte_step__text a {
+  text-decoration: underline;
+}

@@ -7,13 +7,13 @@ menu:
     main:
         parent: projet
         weight: 4
-illu: "/img/page-actions/illu.png"
+illu: "/img/page-home/partenaires-02.svg"
 redistributeurs: 
     type: redistributeur
     title1: Nos Partenaires
     title2: Redistributeurs
     btn_text: Contactez-nous
-    btn_link: 
+    btn_link: "mailto:partenariat@regleselementaires.com"
     text: |
         Depuis le début, Règles Élémentaires a fait le choix éthique et moral de ne pas assurer directement la redistribution auprès des femmes dans le besoin, mais plutôt de passer par des partenaires redistributeurs, comme le Samusocial de Paris,  la Croix  Rouge, les Restos du  Coeur, le Secours Catholique ou encore le Secours Populaire. Ce choix s’explique par deux raisons : 
 
@@ -26,7 +26,7 @@ institutionnels:
     title1: Nos Partenaires
     title2: Institutionnels
     btn_text: Contactez-nous
-    btn_link: 
+    btn_link: "mailto:partenariat@regleselementaires.com"
     text: |
         Les partenaires institutionnels sont essentiels au bon développement de l’association et nous permettent de porter toujours plus loin la lutte contre la précarité menstruelle. Le fait que des élu.e.s, des maires ou des ministres s’emparent du sujet amplifie notre message et nous rapproche d’un monde où la précarité menstruelle n’existerait plus.
 industriels: 
@@ -34,7 +34,7 @@ industriels:
     title1: Nos Partenaires
     title2: Industriels
     btn_text: Contactez-nous
-    btn_link: 
+    btn_link: "mailto:partenariat@regleselementaires.com"
     text: |
         Certains des dons collectés par Règles Élémentaires proviennent directement des industriels. Fabricants de protections jetables ou réutilisables, ces partenaires nous permettent d’offrir la plus grande diversité de produits possible aux femmes bénéficiaires afin que celles-ci choisissent ce qui leur convient le mieux. En effet, chez Règles Élémentaires, nous pensons que chaque femme devrait avoir le choix de ses protections d’hygiène intime et être informée de toutes les alternatives qui existent ! 
 autres: 

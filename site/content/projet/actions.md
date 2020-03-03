@@ -7,7 +7,7 @@ layout: actions
 title: Nos Actions
 illu: /img/page-actions/illu.png
 actions:
-  - btn_link: /
+  - btn_link: /collecter/organiser
     btn_text: Voir les etapes pour creer sa collecte ponctuelle
     content: >
       Des campagnes de collecte de produits d’hygiène intime, clé en main et ouvertes à tou.te.s, permettent chaque année de récolter des centaines de milliers de protections à destinations des femmes sans-abri et mal-logées partout en France. Des centaines de commerçants, médecins, établissements scolaires, mairies... Ont déjà créé leur collecte ponctuelle et personnalisé leur boîte à dons grâce à notre kit de customisation !
@@ -17,7 +17,7 @@ actions:
       - /img/page-actions/illu-action2.png
       - /img/page-actions/illu-action3.png
       - /img/page-actions/illu-action4.png
-  - btn_link: /
+  - btn_link: /collecter/boite
     btn_text: Voir les etapes pour obtenir sa boîte à dons
     content: >
       Des collectes permanentes (ou > 3 mois), nous mettons à disposition des boîtes à dons Règles Élémentaires, accueillent vos dons de produits d’hygiène intime au sein de lieux de passage, publics (ex. mairies, écoles, services d’action sociale) ou privés (ex. bureaux). 
@@ -33,7 +33,8 @@ actions:
       - /img/page-actions/illu-action2.png
       - /img/page-actions/illu-action3.png
       - /img/page-actions/illu-action4.png
-  - btn_link: /
+  - btn_link: "mailto:partenartiat@regleselementaires.com"
+    target_blank: true
     btn_text: Devenir Partenaire
     content: >
       Des ateliers d’information et de formation aux protections hygiéniques lavables et réutilisables sont organisés pour tenter de mettre fin à la dépendance aux dons des femmes hébergées. Organisés en partenariat avec des fabricants de cups, serviettes lavables et culottes menstruelles, ces ateliers - en phase pilote -  informent les femmes dans le besoin de l’existence de ces solutions plus économiques et écologiques. 
@@ -43,7 +44,7 @@ actions:
       - /img/page-actions/illu-action2.png
       - /img/page-actions/illu-action3.png
       - /img/page-actions/illu-action4.png
-  - btn_link: /
+  - btn_link: ""
     btn_text: En Savoir plus
     content: >
         En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles. 
