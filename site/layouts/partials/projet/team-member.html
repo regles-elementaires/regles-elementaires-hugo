@@ -18,9 +18,9 @@
       {{ .role }}
     </h4>
     <div class="mt-4">
-      <a href="http://google.fr" target="_blank"
+      {{if not (eq (len .linkedin) 0)}}<a href="{{.linkedin}}" target="_blank"
         ><img src="/img/page-equipe/linkedin.png"
-      /></a>
+      /></a>{{end}}
     </div>
   </div>
 </div>
