@@ -3,7 +3,7 @@
         {{ $partenaireType := .partenaire_type }}
         {{range .data}}
         {{if eq .type $partenaireType }}
-        <div class="w-1/2 md:w-1/4 h-24 p-4"><a href="{{.link}}" class="flex w-full h-full justify-center"
+        <div class="w-1/3 md:w-1/5 h-32 p-4"><a href="{{.link}}" class="flex w-full h-full justify-center"
                 title="{{.name}}"><img class="object-scale-down" src="{{.img}}" /></a></div>
         {{end}}
         {{end}}</div>
