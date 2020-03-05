@@ -21,37 +21,37 @@ mission_first:
         Et de nombreuses autres filles et femmes souffrent du manque d’accès aux tampons et serviettes … Juste en bas de chez vous !
     img: /img/page-mission/fille-ecole.svg
 mission_second: 
-    title: '40%'
+    title: '1 700 000'
     content: |
-        **des sans-domicile en France sont des femmes.**
-
-        Et pourtant, l’immense majorité des foyers d’hébergement et organismes médico-sociaux ne dispose d’aucun stock de protections hygiéniques avant novembre 2015.
+        C’est le nombre de femmes en France qui sont victimes de la précarité menstruelle et manquent de produits d’hygiène intime (source : IFOP, 2019). 
+        
+        Elles n’ont pas les moyens de s’acheter des produits d’hygiène intime - ou pas en quantité suffisante - les empêchant de vivre leurs règles dignement. Cela peut provoquer de graves troubles physiques - démangeaisons, infections, syndrome du choc toxique pouvant occasionner la mort -  et psychologiques - perte de confiance en soi, difficultés de réinsertion.  
     img: /img/page-mission/paquet-nana.svg
 
 numbers: 
     title: Les chiffres clés
     content:  Depuis la creation de l'association en novembre 2015
     cards:
-        - number: '+ de 300 000'
+        - number: '+ de 2 000 000'
           img: /img/page-mission/groupe-protections.svg
           desc: tampons et serviettes on ete redistribues
-        - number: '+ de 350'
+        - number: '+ de 1000'
           img: /img/page-mission/carte.svg
           desc: collectes organisées partout en france
-        - number: '+ de 25 000'
+        - number: '+ de 50 000'
           img: /img/page-mission/icon-femme.svg
           desc: femmes bénéficiaires
-        - number: '+ de 400'
+        - number: '+ de 200'
           img: /img/page-mission/paquet-nana-simple.svg
-          desc: organisatrices et organisateurs de collectes
-        - number: '+ de 50'
+          desc: partenariats
+        - number: '6'
           img: /img/page-mission/partenaire.svg
-          desc: partenaires réparti.e.s sur tout le territoire
-        - number: '+ de 20'
+          desc: antennes
+        - number: '30'
           img: /img/page-mission/RE-plus.svg
-          desc: bénévoles dans + de 6 antennes locales
+          desc: personnes forment l’équipe
 collectes:
-    img: /img/page-mission/graphique.jpg
+    img: /img/page-mission/chart.svg
 ---
 **Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles.**
 

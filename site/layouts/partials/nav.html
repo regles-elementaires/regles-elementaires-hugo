@@ -29,7 +29,7 @@
 				<li
 					class="menu-item menu-item-space relative{{ if $currentPage.HasMenuCurrent "main" . }}font-bold{{end}}">
 					<a href="{{.URL}}"
-						class="{{ if eq .Identifier "soutenir" }}px-4 bg-rered rounded text-white whitespace-no-wrap{{else}} menu-item--hover {{ end }}">
+						class="{{ if eq .Identifier "soutenir" }}px-4 bg-rered rounded text-white whitespace-no-wrap hover:underline{{else}} menu-item--hover {{ end }}">
 						{{.Name}}
 					</a>
 					{{end}}

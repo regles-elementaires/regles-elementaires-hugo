@@ -12,14 +12,15 @@ redistributeurs:
     type: redistributeur
     title1: Nos Partenaires
     title2: Redistributeurs
-    btn_text: Contactez-nous
-    btn_link: "mailto:partenariat@regleselementaires.com"
+    btn_text: Devenir partenaire redistributeur
+    btn_link: "https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link"
     text: |
-        Depuis le début, Règles Élémentaires a fait le choix éthique et moral de ne pas assurer directement la redistribution auprès des femmes dans le besoin, mais plutôt de passer par des partenaires redistributeurs, comme le Samusocial de Paris,  la Croix  Rouge, les Restos du  Coeur, le Secours Catholique ou encore le Secours Populaire. Ce choix s’explique par deux raisons : 
+        Depuis le début, Règles Élémentaires a fait le choix éthique et moral de ne pas assurer directement la redistribution auprès des femmes dans le besoin, mais de passer par des partenaires redistributeurs spécialisés, à l’instar du Samusocial de Paris, de la Croix Rouge, du Secours Populaire et de nombreux autres acteurs répartis sur tout le territoire. Ce choix s’explique par deux raisons :
 
 
-        - la volonté de mettre les femmes dans le besoin à l’aise, car le monde de la rue et de la précarité en général nécessite des qualités interpersonnelles d’écoute et de confiance que les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain
-        - la volonté de ne pas multiplier les points de contact des femmes dans le besoin 
+        - la volonté de ne pas démultiplier les points de contact pour les femmes dans le besoin 
+        - la réalité d’un sujet qui a trait à l’intime et qui entraîne bien souvent un grand nombre de questions liées à la santé sexuelle et reproductive nécessitant un accompagnement médical
+
 
 institutionnels: 
     type: institutionnel
@@ -32,7 +33,7 @@ institutionnels:
 industriels: 
     type: industriel
     title1: Nos Partenaires
-    title2: Industriels
+    title2: fabricants
     btn_text: Contactez-nous
     btn_link: "mailto:partenariat@regleselementaires.com"
     text: |
@@ -44,4 +45,4 @@ autres:
 ---
 
 
-**Notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de produits d’hygiène intime, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs sociaux et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires : de nombreux autres partenaires : institutionnels, industriels, corporate entre autres.**
+**Règles Élémentaires est une plateforme de mobilisation citoyenne et notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de produits d’hygiène intime, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs sociaux et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires.**

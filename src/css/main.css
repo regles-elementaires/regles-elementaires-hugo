@@ -14,6 +14,27 @@
 .big-red-button--rounded {
   @apply rounded-full;
 }
+.big-red-button:hover {
+  @apply underline;
+}
+
+.underlined-link {
+  @apply py-4 border-b-2 uppercase font-bold text-sm;
+}
+.underlined-link--red {
+  @apply border-rered text-rered;
+}
+.underlined-link--red:hover {
+  @apply text-redarkpink border-redarkpink;
+}
+.underlined-link--white {
+  @apply border-white text-white;
+}
+.underlined-link--white:hover {
+  @apply text-repink border-repink;
+}
+
+
 .title-red {
   @apply text-xl text-rered uppercase font-bold;
 }
@@ -71,7 +92,7 @@
 === HEADER ===
 */
 .desc__content a{
-  @apply text-redarkgrey;
+  @apply text-redarkgrey underline;
 }
 /*
 === HOME ===

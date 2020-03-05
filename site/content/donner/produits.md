@@ -17,7 +17,7 @@ produits:
     - img: /img/page-produits/protege-slip.svg
       text: Protège-slips
     - img: /img/page-produits/serviette-lavable.svg
-      text: Serviettes Lavables
+      text: Serviettes Lavables neuves
     - img: /img/page-produits/cup.svg
       text: Coupes Menstruelles neuves
     - img: /img/page-produits/culotte.svg

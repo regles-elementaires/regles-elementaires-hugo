@@ -21,14 +21,16 @@ payements:
       text: Chèque
       subtext: "à l’ordre de : Règles Élémentaires"
       address: |
-        Adresse :
-        Les Grands Voisins, 
-        74 Avenue Denfert-Rochereau 
-        75014 Paris
+        Adresse :<br>
+        Association<br>
+        Règles Élémentaires<br>
+        La Cité Audacieuse<br>
+        9 rue de Vaugirard<br>
+        75006 Paris
     - img: /img/page-dons-financiers/virement.svg
       text: Virement
       subtext: Coordonées bancaires sur demande
 ---
-**Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’utilité publique. Nos revenus proviennent essentiellement de dons de particuliers et de la vente de produits dérivés lors de nos événements. Afin d’assurer le bon développement de l’association et de pérenniser notre action, nous sommes à la recherche de partenaires financiers de long-terme et comptons sur la générosité de notre communauté. Il n’y a pas de petite contribution : chaque euro versé nous permet de toujours plus changer les règles ! Tout don à l’association est éligible à déduction fiscale.**
+**Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’intérêt général. Nos revenus proviennent essentiellement de dons de particuliers et de la vente de produits dérivés lors de nos événements. Afin d’assurer le bon développement de l’association et de pérenniser notre action, nous sommes à la recherche de partenaires financiers de long-terme et comptons sur la générosité de notre communauté. Il n’y a pas de petite contribution : chaque euro versé nous permet de toujours plus changer les règles ! Tout don à l’association est éligible à déduction fiscale.**
 
 

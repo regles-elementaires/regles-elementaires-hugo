@@ -8,17 +8,17 @@ title: Nos Actions
 illu: /img/page-actions/illu.png
 actions:
   - btn_link: /collecter/organiser
-    btn_text: Voir les etapes pour creer sa collecte ponctuelle
+    btn_text: Voir les étapes pour créer sa collecte ponctuelle
     content: >
       Des campagnes de collecte de produits d’hygiène intime, clé en main et ouvertes à tou.te.s, permettent chaque année de récolter des centaines de milliers de protections à destinations des femmes sans-abri et mal-logées partout en France. Des centaines de commerçants, médecins, établissements scolaires, mairies... Ont déjà créé leur collecte ponctuelle et personnalisé leur boîte à dons grâce à notre kit de customisation !
-    title: Les collectes pontuelles
+    title: Les collectes ponctuelles
     illu:
       - /img/page-actions/illu-action1.png
       - /img/page-actions/illu-action2.png
       - /img/page-actions/illu-action3.png
       - /img/page-actions/illu-action4.png
   - btn_link: /collecter/boite
-    btn_text: Voir les etapes pour obtenir sa boîte à dons
+    btn_text: Voir les étapes pour obtenir sa boîte à dons
     content: >
       Des collectes permanentes (ou > 3 mois), nous mettons à disposition des boîtes à dons Règles Élémentaires, accueillent vos dons de produits d’hygiène intime au sein de lieux de passage, publics (ex. mairies, écoles, services d’action sociale) ou privés (ex. bureaux). 
 
@@ -44,8 +44,8 @@ actions:
       - /img/page-actions/illu-action2.png
       - /img/page-actions/illu-action3.png
       - /img/page-actions/illu-action4.png
-  - btn_link: ""
-    btn_text: En Savoir plus
+  - btn_link: "mailto: contact@regleselementaires.com"
+    btn_text: Organiser un évènement de sensibilisation
     content: >
         En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles. 
 

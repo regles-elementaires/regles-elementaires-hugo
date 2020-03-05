@@ -24,7 +24,7 @@ steps:
       text: J'ajoute une collecte et je renseigne les informations demandées (au moins 15 jours avant le début de ma collecte)
     - img: /img/page-collecte/etape-5.svg
       step: 5
-      text: L'équipe Règles Élémentaires me contacte sous 7 jours ouvrés. Après validation de ma collecte, je reçois le kit collecte par mail.
+      text: L'équipe Règles Élémentaires me contacte sous 2 semaines. Après validation de ma collecte, je reçois le kit collecte par mail.
     - img: /img/page-collecte/etape-6.svg
       step: 6
       text: J'en parle autour de moi! Si votre collecte est ouverte au public, nous communiquerons dessus également.
@@ -36,15 +36,15 @@ steps:
       text: "Ma collecte est terminée: Je fais l'inventaire et je le transmets avec les photos."
     - img: /img/page-collecte/etape-9.svg
       step: 9.a
-      text: "Je suis dans une ville où RÉ a une antenne: L'équipe RÉ vient récupérer mes dons"
+      text: "Je suis dans une ville où Règles Élémentaires a une antenne: L'équipe Règles Élémentaires vient récupérer mes dons"
     - img: /img/page-collecte/etape-9-bis.svg
       step: 9.b
-      text: "Je me trouve ailleurs: L'équipe RÉ me met en relation avec un partenaire redistributeur de son réseau"
+      text: "Je me trouve ailleurs: L'équipe Règles Élémentaires me met en relation avec un partenaire redistributeur de son réseau"
     - img: /img/page-collecte/etape-10.svg
       step: 10
-      text: "Mes dons sont livrés! Hâte de recommencer ;)"
+      text: "Mes dons sont livrés! Hâte de recommencer!"
 ---
 **Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première nécessité, c’est aussi briser le tabou autour des menstruations.**
 
-Depuis la création de l’association, des centaines de collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant.e.s, salarié.e.s, employé.e.s, retraité.e.s, chef.fe.s d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals… Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous ! 
+Depuis la création de l’association, plus de mille collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant.e.s, salarié.e.s, employé.e.s, retraité.e.s, chef.fe.s d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals… Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous ! 
 

@@ -23,7 +23,7 @@
                 menstruelle. Notre
                 mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et
                 briser le tabou des règles. Ensemble, nous pouvons faire bouger les lignes et changer les règles ! </p>
-            <p class="py-8"><a class="py-4 border-b-2 border-white text-white uppercase font-bold text-sm"
+            <p class="py-8"><a class="underlined-link underlined-link--white"
                     href="/projet/mission">En
                     savoir plus sur la mission</a></p>
         </div>
@@ -39,7 +39,7 @@
                 Élémentaires.
                 Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première
                 nécessité, c’est aussi briser le tabou autour des menstruations. Depuis la création de l’association,
-                des centaines de collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de
+                plus de mille collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de
                 personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant.e.s,
                 salarié.e.s, employé.e.s, retraité.e.s, chef.fe.s d’entreprises, scouts, mairies, ministères,
                 collectivités territoriales, supermarchés, festivals…
@@ -48,9 +48,9 @@
                 Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec
                 nous !
             </p>
-            <p class="py-8"><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
-                    href="/projet/mission">En
-                    savoir plus sur l'organisation de collecte</a></p>
+            <p class="py-8"><a class="underlined-link underlined-link--red"
+                    href="/collecter/organiser">En
+                    savoir plus sur l'organisation d'une collecte</a></p>
         </div>
 
     </div>
@@ -69,10 +69,10 @@
                 mal-logement partenaires.
             </p>
             <p class="py-8 flex flex-row justify-between"><a
-                    class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
+                    class="underlined-link underlined-link--red"
                     href="/projet/partenaires">En
                     savoir plus sur nos partenaires</a><a
-                    class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
+                    class="underlined-link underlined-link--red"
                     href="mailto:partenariat@regleselementaires.com" target="_blank" rel="noopener noreferrer">Devenir
                     partenaire</a></p>
             {{ partial "projet/partenaire-list" (dict "partenaire_type" "redistributeur" "data" .Site.Data.partenaires)}}
@@ -80,7 +80,7 @@
         <div class="hidden md:flex w-2/6 p-4"><img src="/img/page-home/partenaires-02.svg" class="h-32" /></div>
     </div>
 </div>
-<div class="w-full bg-white">
+<!-- <div class="w-full bg-white">
     <div class="container pt-8 flex flex-row">
         <div class="w-1/6 md:w-2/6"></div>
         <div class="w-4/6 md:w-3/6 pb-8">
@@ -93,20 +93,20 @@
         </div>
 
     </div>
-</div>
+</div> -->
 <div class="w-full bg-redarkpink">
     <div class="container py-8 flex flex-row">
         <div class="w-2/4 p-4">
             <h3 class="text-white text-2xl font-bold pb-4">LA NEWSLETTER</h3>
-            <p class="text-white">Pour s’informer des prochaines collectes,<br>
-                inscrivez-vous à notre newletter !</p>
+            <p class="text-white">Pour vous tenir au courant de notre actualité,<br>
+                abonnez-vous à notre newsletter mens(tr)uelle </p>
             <form class="mt-4 flex flex-row w-full"
                 action="//regleselementaires.us12.list-manage.com/subscribe/post?u=d920a045417cea49ec8048c5f&amp;id=76cba65ade"
                 method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
                 <div class="flex-grow pr-4"><input
                         class="w-full h-full required email border-b-2 border-white bg-redarkpink text-white placeholder-repink px-2"
                         type="email" value="" name="EMAIL" id="email" placeholder="Votre email"></div>
-                <input class="cursor-pointer bg-redarkpink text-white font-bold text-l border-white border-2 py-2 px-6"
+                <input class="cursor-pointer bg-redarkpink text-white hover:text-regrey font-bold text-l border-white hover:border-regrey border-2 py-2 px-6"
                     type="submit" value="ENVOYER" name="subscribe">
                 <div style="position: absolute; left: -5000px;" aria-hidden="true">
                     <input type="text" name="b_d920a045417cea49ec8048c5f_76cba65ade" tabindex="-1" value="">
