@@ -8,7 +8,7 @@
                     {{with .Params.mission_first }}
                     <div class="bg-repink p-8 rounded-lg flex flex-col items-center">
                         {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="text-center markdown mt-4">{{.content | markdownify }}</div>
+                        <div class="text-center markdown mt-4 text-justify">{{.content | markdownify }}</div>
                         <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
                     </div>
                     {{end}}
@@ -17,7 +17,7 @@
                     {{with .Params.mission_second }}
                     <div class="bg-repink p-8 rounded-lg flex flex-col items-center">
                         {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="text-center markdown mt-4">{{.content | markdownify }}</div>
+                        <div class="text-center markdown mt-4 text-justify">{{.content | markdownify }}</div>
                         <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
                     </div>
                     {{end}}

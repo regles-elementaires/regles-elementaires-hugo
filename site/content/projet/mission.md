@@ -16,7 +16,7 @@ illuSpacing:
 mission_first: 
     title: '100 000'
     content: |
-        c’est le nombre de filles dans les pays en voie de développement ratent une semaine d’école par mois à cause de leurs règles et du manque d’accès à des produits d’hygiène intime adaptés. 
+        C’est le nombre de filles dans les pays en voie de développement ratent une semaine d’école par mois à cause de leurs règles et du manque d’accès à des produits d’hygiène intime adaptés. 
 
         Et de nombreuses autres filles et femmes souffrent du manque d’accès aux tampons et serviettes … Juste en bas de chez vous !
     img: /img/page-mission/fille-ecole.svg

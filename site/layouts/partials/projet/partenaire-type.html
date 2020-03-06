@@ -4,7 +4,7 @@
                 <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">{{.title1}}<span class="text-rered">
                                 {{.title2}}</span></h2>
                 {{if isset . "text"}}
-                <div class="text-rered mb-8 markdown">{{.text | markdownify}}</div>
+                <div class="text-rered mb-8 markdown text-justify">{{.text | markdownify}}</div>
                 {{end}}
                 {{if isset . "btn_text"}}
                 <div class="mb-8"><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"

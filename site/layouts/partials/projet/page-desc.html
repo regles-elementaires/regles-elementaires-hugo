@@ -5,7 +5,7 @@
       <div
         class="w-5/5 md:w-3/5 {{if .Params.description_pink}}bg-repink text-rered{{else}}bg-rered text-white{{end}} p-8 pr-8 md:pr-16">
         <h1 class="text-2xl mb-8 uppercase font-bold">{{ .Title }}</h1>
-        <div class="markdown desc__content">{{ .Content }}</div>
+        <div class="markdown desc__content text-justify">{{ .Content }}</div>
         {{if isset .Params "display_dons_desc"}}<div class="pt-8 flex flex-row items-center"><a
             class="big-red-button big-red-button--rounded"
             href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank">FAIRE

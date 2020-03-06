@@ -15,7 +15,7 @@ steps:
       text: J'identifie un lieu, les dates, les horaires, éventuellement des coéquipier.e.s
     - img: /img/page-collecte/etape-2.svg
       step: 2
-      text: Je me rends sur l'<a href="https://collectes.regleselementaires.com/" target="_blank">espace collecte Règles Élémentaires</a>
+      text: Je me rends sur <br>l'<a href="https://collectes.regleselementaires.com/" target="_blank">espace collecte Règles Élémentaires</a>
     - img: /img/page-collecte/etape-3.svg
       step: 3
       text: Je crée mon compte
