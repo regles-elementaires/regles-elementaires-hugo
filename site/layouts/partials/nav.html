@@ -18,7 +18,7 @@
 
 	<div>
 		<a class="flex" href="/"><img src="/img/logo-re.png" alt="Regles Elementaires logo"
-				class="object-contain h-12 sm:h-20" /></a>
+				class="object-contain h-20" /></a>
 	</div>
 	<div class="flex flex-col sm:flex-row justify-end flew-wrap items-center">
 		<!-- Primary Nav -->
@@ -27,9 +27,9 @@
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.main }}
 				<li
-					class="menu-item menu-item-space relative{{ if $currentPage.HasMenuCurrent "main" . }}font-bold{{end}}">
+					class="menu-item menu-item-space relative {{ if $currentPage.HasMenuCurrent "main" . }}font-bold{{end}}">
 					<a href="{{.URL}}"
-						class="{{ if eq .Identifier "soutenir" }}px-4 bg-rered rounded text-white whitespace-no-wrap hover:underline{{else}} menu-item--hover {{ end }}">
+						class="{{ if eq .Identifier "soutenir" }}sm:px-4 sm:bg-rered rounded text-white whitespace-no-wrap hover:underline{{else}} menu-item--hover {{ end }}">
 						{{.Name}}
 					</a>
 					{{end}}

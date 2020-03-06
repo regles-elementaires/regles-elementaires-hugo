@@ -70,7 +70,12 @@
   @apply pb-2 pt-2;
 }
 .menu-item--hover:hover {
-  @apply border-b-4 border-rered;
+  @apply underline;
+}
+@screen sm {
+  .menu-item--hover:hover {
+    @apply border-b-4 border-rered no-underline;
+  }
 }
 @screen xl {
   .menu-item-space {
