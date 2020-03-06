@@ -27,6 +27,19 @@
 	<meta property="og:title" content="Règles Élémentaires | Collecte de produits hygiéniques">
 	<meta property="og:url" content="/">
 
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159065733-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments)
+		};
+		gtag('js', new Date());
+
+		gtag('config', 'UA-159065733-1');
+	</script>
+
 	{{ if .IsHome }}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	{{ end }}
