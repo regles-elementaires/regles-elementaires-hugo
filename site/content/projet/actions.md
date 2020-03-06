@@ -13,10 +13,10 @@ actions:
       Des campagnes de collecte de produits d’hygiène intime, clé en main et ouvertes à tou.te.s, permettent chaque année de récolter des centaines de milliers de protections à destinations des femmes sans-abri et mal-logées partout en France. Des centaines de commerçants, médecins, établissements scolaires, mairies... Ont déjà créé leur collecte ponctuelle et personnalisé leur boîte à dons grâce à notre kit de customisation !
     title: Les collectes ponctuelles
     illu:
-      - /img/page-actions/illu-action1.png
-      - /img/page-actions/illu-action2.png
-      - /img/page-actions/illu-action3.png
-      - /img/page-actions/illu-action4.png
+      - /img/page-actions/illu-action1.jpg
+      - /img/page-actions/illu-action2.jpg
+      - /img/page-actions/illu-action3.jpg
+      - /img/page-actions/illu-action4.jpg
   - btn_link: /collecter/boite
     btn_text: Voir les étapes pour obtenir sa boîte à dons
     content: >
@@ -29,6 +29,10 @@ actions:
       Nous comptons des dizaines de points de collecte permanents (mairies, ministères, tiers-lieux, etc. ), alors n'hésitez plus à rejoindre l'aventure !
     title: Les collectes permanentes
     illu:
+      - /img/page-actions/permanente-1.jpg
+      - /img/page-actions/permanente-2.jpg
+      - /img/page-actions/permanente-3.jpg
+      - /img/page-actions/permanente-4.jpg
   - btn_link: "mailto:partenartiat@regleselementaires.com"
     target_blank: true
     btn_text: Devenir Partenaire
@@ -36,6 +40,10 @@ actions:
       Des ateliers d’information et de formation aux protections hygiéniques lavables et réutilisables sont organisés pour tenter de mettre fin à la dépendance aux dons des femmes hébergées. Organisés en partenariat avec des fabricants de cups, serviettes lavables et culottes menstruelles, ces ateliers - en phase pilote -  informent les femmes dans le besoin de l’existence de ces solutions plus économiques et écologiques. 
     title: Les Ateliers
     illu:
+      - /img/page-actions/ateliers-2.jpg
+      - /img/page-actions/ateliers-3.jpg
+      - /img/page-actions/ateliers-4.jpg
+      - /img/page-actions/ateliers-1.jpg
   - btn_link: "mailto: contact@regleselementaires.com"
     btn_text: Organiser un évènement de sensibilisation
     content: >
@@ -46,6 +54,10 @@ actions:
 
     title: La sensibilisation
     illu:
+      - /img/page-actions/sensi-4.jpg
+      - /img/page-actions/sensi-3.jpg
+      - /img/page-actions/sensi-2.jpg
+      - /img/page-actions/sensi-1.jpg
 ---
 
 **Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Concrètement, nous organisons et supervisons des collectes de produits d’hygiène intime que nous mettons gratuitement à disposition des femmes dans le besoin via notre solide réseau de partenaires ; et nous brisons le tabou des règles en menant des actions de sensibilisation nombreuses, diverses et variées.**

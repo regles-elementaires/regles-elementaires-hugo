@@ -17,7 +17,7 @@
                     <div class="bg-repink hidden md:flex md:absolute top-0 left-0 h-full w-1/4"></div>
                     {{range $img_index, $img_val := .illu}}
                     {{ $afterTwo := gt $img_index 1 }}
-                    <div class="w-1/2 px-2 z-10 {{if $afterTwo}}hidden md:flex mb-0 {{else}} mb-4 {{end}}">
+                    <div class="w-1/2 px-2 z-10 h-48 xl:h-56 {{if $afterTwo}}hidden md:flex mb-0 {{else}} mb-4 {{end}}">
                         <img class="shadow-lg object-cover h-full w-full" src="{{$img_val}}" />
                     </div>
                     {{end}}
