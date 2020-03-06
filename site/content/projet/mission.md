@@ -14,7 +14,7 @@ illuSpacing:
     - /img/page-mission/illu-spacing-3.jpg
     - /img/page-mission/illu-spacing-1.jpg
 mission_first: 
-    title: '100 000'
+    title: '100 000 000'
     content: |
         C’est le nombre de filles dans les pays en voie de développement ratent une semaine d’école par mois à cause de leurs règles et du manque d’accès à des produits d’hygiène intime adaptés. 
 
