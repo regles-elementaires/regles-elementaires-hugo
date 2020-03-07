@@ -7,7 +7,7 @@ menu:
     main:
         parent: projet
         weight: 3
-illu: "/img/page-equipe/illu.png"
+illu: "/img/page-equipe/illu.jpg"
 engager:
     title: "S'engager"
     text: '
