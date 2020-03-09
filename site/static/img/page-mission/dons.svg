@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
-    <title>dons</title>
-    <desc>Created with Sketch.</desc>
-    <g id="dons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-9" transform="translate(1.000000, 1.000000)" fill="#FFFFFF">
-            <path d="M0,22.5 C0,10.0729412 10.0729412,0 22.5,0 C34.9270588,0 45,10.0729412 45,22.5 C45,34.9270588 34.9270588,45 22.5,45 C10.0729412,45 0,34.9270588 0,22.5" id="Fill-1"></path>
-        </g>
-        <text id="€" font-family="WorkSans-Bold, Work Sans" font-size="30" font-weight="bold" letter-spacing="0.3255319" fill="#E9364B">
-            <tspan x="12" y="33">€</tspan>
-        </text>
-    </g>
-</svg>
+<svg height="47" viewBox="0 0 47 47" width="47" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="m0 22.5c0-12.4270588 10.0729412-22.5 22.5-22.5s22.5 10.0729412 22.5 22.5-10.0729412 22.5-22.5 22.5-22.5-10.0729412-22.5-22.5" fill="#fff" transform="translate(1 1)"/><text fill="#e9364b" font-family="WorkSans-Bold, Work Sans" font-size="30" font-weight="bold" letter-spacing=".3255319"><tspan x="12" y="33">€</tspan></text></g></svg>
