@@ -15,7 +15,7 @@ redistributeurs:
     btn_text: Devenir partenaire redistributeur
     btn_link: "https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link"
     text: |
-        Depuis le début, Règles Élémentaires a fait le choix éthique et moral de ne pas assurer directement la redistribution auprès des femmes dans le besoin, mais de passer par des partenaires redistributeurs spécialisés, à l’instar du Samusocial de Paris, de la Croix Rouge, du Secours Populaire et de nombreux autres acteurs répartis sur tout le territoire. Ce choix s’explique par deux raisons :
+        Depuis le début, Règles Élémentaires a fait le choix éthique et moral de ne pas assurer directement la redistribution auprès des femmes dans le besoin, mais de passer par des partenaires redistributeurs spécialisés, à l’instar du Samusocial de Paris, de la Croix Rouge, du Secours Populaire et de nombreux autres acteurs répartis sur tout le territoire. Ce choix s’explique par deux raisons&nbsp;:
 
 
         - la volonté de ne pas démultiplier les points de contact pour les femmes dans le besoin 

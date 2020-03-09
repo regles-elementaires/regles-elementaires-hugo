@@ -1,14 +1,16 @@
 <footer class="">
 	<div class="bg-redarkgrey">
 		<div class="container flex flex-col md:flex-row">
-			<div class="w-full md:w-1/2 p-4 text-white font-bold flex flex-col"><span class="font-normal text-repink">Contactez-nous
-					sur:</span><br><a href="mailto:{{.Site.Data.copyright.contact}}"
+			<div class="w-full md:w-1/2 p-4 text-white font-bold flex flex-col"><span
+					class="font-normal text-repink">Contactez-nous
+					sur : </span><a href="mailto:{{.Site.Data.copyright.contact}}"
 					target="_blank">{{.Site.Data.copyright.contact}}</a>
-					<span class="font-normal text-repink">Demandes presse: </span><br><a href="mailto:laurent@lp-conseils.com"
-				target="_blank">Agence LP Conseils : laurent@lp-conseils.com</a>
+				<span class="font-normal text-repink">Demandes presse : </span><a href="mailto:laurent@lp-conseils.com"
+					target="_blank">Agence LP Conseils :
+					laurent@lp-conseils.com</a>
 			</div>
 			<div class="w-full md:w-1/2 p-4 text-white font-bold"><span class="font-normal text-repink">Notre
-					adresse:</span><br>{{.Site.Data.copyright.adresse | markdownify}}
+					adresse :</span><br>{{.Site.Data.copyright.adresse | markdownify}}
 			</div>
 		</div>
 	</div>

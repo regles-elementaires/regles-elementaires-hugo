@@ -29,15 +29,15 @@ mission_second:
     img: /img/page-mission/paquet-nana.svg
 
 numbers: 
-    title: Les chiffres clés
+    title: Notre impact
     content:  Depuis la creation de l'association en novembre 2015
     cards:
         - number: '+ de 2 000 000'
           img: /img/page-mission/groupe-protections.svg
-          desc: tampons et serviettes on ete redistribues
-        - number: '+ de 1000'
+          desc: de produits d’hygiène intime ont été redistribués
+        - number: '+ de 1 000'
           img: /img/page-mission/carte.svg
-          desc: collectes organisées partout en france
+          desc: collectes organisées partout en France
         - number: '+ de 50 000'
           img: /img/page-mission/icon-femme.svg
           desc: femmes bénéficiaires
@@ -56,4 +56,6 @@ collectes:
 **Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles.**
 
 **Ensemble, nous pouvons faire bouger les lignes et changer les règles !**
+
+### #dignité #égalité #solidarité
 

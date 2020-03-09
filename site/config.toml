@@ -17,7 +17,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [menu]
   [[menu.main]]
     identifier = "projet"
-    name = "Decouvrir le Projet"
+    name = "Découvrir le Projet"
     url = "/projet/mission"
     weight = 1
   [[menu.main]]
