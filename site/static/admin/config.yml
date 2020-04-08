@@ -27,8 +27,8 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Linkedin URL", name: "linkedin", widget: "string", required: false}
       - { label: "Photo", name: "img", widget: "image" }
       - { label: "Biographie", name: "bio", widget: "text", required: false}
-  - name: "actu" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Actus" # Used in the UI, ie.: "New Post"
+  - name: "actualite" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Actualite" # Used in the UI, ie.: "New Post"
     folder: "site/content/actualites" # The path to the folder where the documents are stored
     identifier_field: "title"
     filter: {field: "layout", value: "single"}
@@ -40,7 +40,8 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Auteur.e", name: "author", widget: "string"}
       - { label: "Illustration", name: "illu", widget: "image" }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Introduction', name: 'intro', widget: 'markdown' }
+      - { label: 'Corps', name: 'body', widget: 'markdown' }
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "partenaires" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Partenaires" # Used in the UI, ie.: "New Post"
