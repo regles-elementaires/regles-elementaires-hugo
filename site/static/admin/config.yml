@@ -31,6 +31,8 @@ collections: # A list of collections the CMS should be able to edit
     label: "Actus" # Used in the UI, ie.: "New Post"
     folder: "site/content/actualites" # The path to the folder where the documents are stored
     identifier_field: "title"
+    filter: {field: "layout", value: "single"}
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     extension: md
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
