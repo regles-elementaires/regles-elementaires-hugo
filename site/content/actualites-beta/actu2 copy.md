@@ -7,17 +7,11 @@ intro: >-
   En 2017, dans mon essai _Sang Tabou, essai intime, social et culturel sur les
   règles_ (Ed. La Musardine), je poussais un coup de gueule sur les publicités
   des protections hygiéniques, avec notamment leur liquide bleu, comme si nous
-  nous transformions toutes, entre 14 ans et 50 en moyenne, en Schtroumpfettes. 
-
-
-
-
-  2019, les choses ont bougé : la marque Libra a fait scandale en septembre
-  dernier en diffusant une pub, Blood Normal, qui montrait du sang de règles
-  rouge. Punk ! Avec le phénomène de détabouïsation des règles, les choses
-  bougent, petit à petit.
+  nous transformions toutes, entre 14 ans et 50 en moyenne, en Schtroumpfettes.
 layout: single
 ---
+2019, les choses ont bougé : la marque Libra a fait scandale en septembre dernier en diffusant une pub, Blood Normal, qui montrait du sang de règles rouge. Punk ! Avec le phénomène de détabouïsation des règles, les choses bougent, petit à petit. 
+
 Ceci étant dit, il y a quelques semaines, lors d’une discussion intime avec une ado de 14 ans, celle-ci me confie qu’elle porte à la fois un tampon et une serviette pendant ses règles, par peur de « l’odeur ». Les choses bougent, certes, mais le marketing des protections menstruelles continue à nous foutre les chocottes… 
 
 
