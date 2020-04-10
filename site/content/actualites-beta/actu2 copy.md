@@ -4,10 +4,11 @@ date: 2019-12-02T12:48:10.000Z
 author: Camille Emmanuelle
 illu: /img/img_0083.jpg
 intro: >-
-  En 2017, dans mon essai _Sang Tabou, essai intime, social et culturel sur les
-  règles_ (Ed. La Musardine), je poussais un coup de gueule sur les publicités
-  des protections hygiéniques, avec notamment leur liquide bleu, comme si nous
-  nous transformions toutes, entre 14 ans et 50 en moyenne, en Schtroumpfettes.
+  **En 2017, dans mon essai _Sang Tabou, essai intime, social et culturel sur
+  les règles_ (Ed. La Musardine), je poussais un coup de gueule sur les
+  publicités des protections hygiéniques, avec notamment leur liquide bleu,
+  comme si nous nous transformions toutes, entre 14 ans et 50 en moyenne, en
+  Schtroumpfettes.**
 layout: single
 ---
 2019, les choses ont bougé : la marque Libra a fait scandale en septembre dernier en diffusant une pub, Blood Normal, qui montrait du sang de règles rouge. Punk ! Avec le phénomène de détabouïsation des règles, les choses bougent, petit à petit. 
@@ -29,6 +30,8 @@ Comment ça je m’énerve ? Je suis tombée sur cet article, en première page 
 Je vais vous raconter une anecdote personnelle, un incident qui a fait que, à partir de mes 15 ans, j’ai arrêté de porter des serviettes. Cette anecdote, liée à l’odeur des règles, pourrait rentrer dans la catégorie « top-10-des-trucs-les-plus-gênants-de-ta-vie-et-que-tu-n’as-jamais-raconté-à-personne-même-bourrée ». Je suis en vacances, l’été, avec mon père, ma belle-mère, et mes frères à Jersey. On loge dans un Bed and Breakfast. Dès les premiers jours, j’ai mes règles. Ce ne sont pas mes premières règles mais cela ne fait pas longtemps que je les ai. J’utilise donc des serviettes. Et dès qu’elles sont usagées, je les range dans la poche extérieure de mon sac de voyage. Pourquoi ? Parce qu’il n’y a pas de poubelle ? Peut-être. Parce que j’ai peur que mes parents voient les serviettes usagées dans celle-ci ? Sûrement. Pourtant mon père est médecin, et ma belle-mère est infirmière. Ils ont bossé tous les deux aux urgences. Ce n’est pas comme si tout ce qui est « corporel » leur fait peur ou les dégoûte. Quoi qu’il en soit, je passe quinze jours de vacances à l’étranger, plus une semaine chez eux, à la maison. Le dernier jour, avant de repartir chez ma mère, j’ouvre la poche extérieure de mon sac, me rappelant que j’y ai stocké mes serviettes. Et là, c’est le film d’horreur. Plus exactement le film gore. Le sac étant doublé en plastique, on ne sentait rien de l’extérieur. Mais ça fait tout de même trois semaines, plus de 20 jours, que ça macère. Je tombe sur un amas de serviettes au sang brunâtre coagulé, le tout dégageant une odeur pestilentielle. Je vais mettre deux heures à tout nettoyer, avec la nausée au bord des lèvres. 
 
 Pourquoi vous raconter cet épisode dégueu de mon adolescence ? Parce que ce jour-là, j’ai compris ce qu’était le sang menstruel qui sent. J’en ai encore le souvenir olfactif. Le sang qui sent, c’est celui qu’on cache, celui dont on a honte, celui qu’on enferme dans un sac en espérant que personne ne le voit. Les règles ne puent pas : leur honte, si. 
+
+
 
 Camille Emmanuelle
 
