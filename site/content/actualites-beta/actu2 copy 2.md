@@ -4,11 +4,11 @@ date: 2020-02-24T12:48:10.000Z
 author: Blandine Métayer
 illu: /img/3b5a1522.jpg
 intro: >-
-  La Ménopause… Ah la Ménopause ! Le tabou de chez tabou !… Les femmes pendant
+  **La Ménopause… Ah la Ménopause ! Le tabou de chez tabou !… Les femmes pendant
   une bonne partie de leur vie d’adulte subissent déjà le tabou des règles :
   c’est sale, ça sent mauvais, tu es impure une semaine par mois etc… Ce tabou a
   été on ne peut mieux évoqué dans d’autres « coups de sang » et je ne
-  m’étendrai donc pas dessus.
+  m’étendrai donc pas dessus.**
 layout: single
 ---
 Alors à l’arrêt des règles ? Tout va bien ? Envolée la stigmatisation ? Les femmes sont « Libérées, délivrées… » ? Eh bien NON ! Il n’en est rien ! Et je dirais même que c’est encore pire puisque la ménopause dans nos pays occidentaux est au mieux : une maladie, la bascule dans la vieillesse, l’arrêt de la sexualité et du désir, le début de la fin et au pire un objet de dégoût, un repoussoir ou encore l’insulte suprême du style : « Va donc, hé ! Espèce de ménopausée !!! »…
