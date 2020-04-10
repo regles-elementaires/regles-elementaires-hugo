@@ -1,7 +1,7 @@
 ---
-title: Coup de sang
-date: 2020-01-06T12:48:10.000Z
-author: Laura
+title: Le Coup de Sang d'Estelle Nze Minko
+date: 2020-05-05T11:48:10.000Z
+author: Estelle Nze Minko
 illu: /img/page-collecte/exemple-collecte.jpg
 intro: >-
   **Tout le monde peut organiser une collecte avec Règles Élémentaires.
