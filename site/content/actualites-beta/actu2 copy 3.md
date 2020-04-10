@@ -4,12 +4,12 @@ date: 2020-01-14T12:48:10.000Z
 author: Fiona Schmidt
 illu: /img/fiona-paysage2.jpeg
 intro: >-
-  Adapté d’un manga publié pour la première fois en 2017, Little Miss Period
+  **Adapté d’un manga publié pour la première fois en 2017, Little Miss Period
   (Seiri-Chan en VO) est l’héroïne d’un film qui provoque un tollé au Japon.
   Elle est représentée sous les traits d’une énorme peluche rose Malabar aux
   yeux exorbités, lèvres rouges et nez en forme de croix médicale qui la fait
   ressembler à la version Barbapapa de la cup de Sailor Moon (je vous laisse
-  deux minutes pour visualiser le truc ou googler, au choix).
+  deux minutes pour visualiser le truc ou googler, au choix).**
 layout: single
 ---
 Le pitch, qui tient sur un protège-slip : Aoko, une éditrice au patron misogyne, souffre de règles douloureuses incarnées par Seiri-Chan, qui la suit partout, dans son travail mais aussi chez elle, dans la rue et en compagnie de son amoureux, papa d’une jeune fille. Le film, qui n’est pas totalement du Kurosawa c’est vrai, est le premier du genre à soulever de manière ludique le tabou des règles dans un pays où le fonctionnement naturel du sexe féminin a toujours été et doit demeurer secret défense, et a été qualifié de « choquant », « offensant », « vulgaire », « indigne », « dégradant pour l’image de la femme », j’en passe, et des plus indignés.
