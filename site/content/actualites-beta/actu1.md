@@ -3,7 +3,18 @@ title: Le Coup de Sang d'Estelle Nze Minko
 date: 2020-05-05T11:48:10.000Z
 author: Estelle Nze Minko
 illu: /img/page-collecte/exemple-collecte.jpg
-intro: "Je suis handballeuse professionnelle, internationale française.\r\n\nJe fais du sport de haut niveau depuis plus de 10 ans et l’on m’a posé des questions sur mes menstruations pour la première fois l’année dernière.\r\n\n- - -\n\n- - -"
+intro: >-
+  **Je suis handballeuse professionnelle, internationale française.**
+
+
+  **Je fais du sport de haut niveau depuis plus de 10 ans et l’on m’a posé des
+  questions sur mes menstruations pour la première fois l’année dernière.**
+
+
+  - - -
+
+
+  - - -
 layout: single
 ---
 Je m’en souviens parfaitement. C’est le préparateur physique de mon club qui m’a demandé de le prévenir de mes dates de menstruations afin d’adapter ses séances de musculations.
