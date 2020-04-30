@@ -27,6 +27,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Linkedin URL", name: "linkedin", widget: "string", required: false}
       - { label: "Photo", name: "img", widget: "image" }
       - { label: "Biographie", name: "bio", widget: "text", required: false}
+      - {label: ordre, name: order, widget: hidden, default: 2}
   - name: "actualite" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Actualite" # Used in the UI, ie.: "New Post"
     folder: "site/content/actualites-beta" # The path to the folder where the documents are stored

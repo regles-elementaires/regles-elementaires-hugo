@@ -102,6 +102,10 @@
 .desc__content a{
   @apply text-redarkgrey underline;
 }
+.page-desc--red .desc__content a {
+  @apply text-white underline;
+
+}
 /*
 === HOME ===
 */

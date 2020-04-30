@@ -4,7 +4,7 @@
 
   <div class="container px-8 mt-8">
     <div class="flex flex-wrap -mx-8">
-      {{ range $.Site.Data.team }}
+      {{ range (sort $.Site.Data.team "order" "asc") }}
       {{ partial "projet/team-member" . }}
       {{ end }}
     </div>
