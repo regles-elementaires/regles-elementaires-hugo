@@ -1,6 +1,6 @@
 ---
 
-title: Quels produits donner?
+title: Quels produits donner ?
 date: 2019-12-06T13:48:10+01:00
 layout: produits
 description_pink: true
@@ -27,6 +27,6 @@ produits:
     - img: /img/page-produits/lingettes.svg
       text: "lingettes"
 ---
-**Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient neufs (jamais utilisés). Serviettes, protège-slips, tampons, cups, culottes menstruelles… Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections.**
+**Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient neufs (jamais utilisés). Serviettes, protège-slips, tampons, cups, culottes menstruelles … Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections.**
 
 

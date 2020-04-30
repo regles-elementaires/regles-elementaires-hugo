@@ -6,12 +6,10 @@
         class="w-5/5 md:w-3/5 {{if .Params.description_pink}}bg-repink text-rered{{else}}bg-rered text-white{{end}} p-8 pr-8 md:pr-16">
         <h1 class="text-2xl mb-8 uppercase font-bold">{{ .Title }}</h1>
         <div class="markdown desc__content text-justify">{{ .Content }}</div>
-        {{if isset .Params "display_dons_desc"}}<div class="pt-8 flex flex-row items-center"><a
-            class="big-red-button big-red-button--rounded"
+        {{if isset .Params "display_dons_desc"}}<div class="pt-8 flex flex-row items-center justify-center"><a
+            class="big-red-button big-red-button--rounded text-xl"
             href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank">FAIRE
-            UN DON</a>
-          <a class="pl-4" href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget"
-            target="_blank"><img src="/img/page-dons-financiers/hello-asso.svg" class="h-8"></a>
+            UN DON €</a>
         </div>{{end}}
       </div>
       <div

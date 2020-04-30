@@ -1,11 +1,12 @@
 ---
 
-title: Trouver une boîte à dons
+title: Où donner ?
 date: 2019-12-06T13:48:10+01:00
 layout: trouver
 description_pink: true
 menu: 
     main:
+        name: Trouver une boîte à dons
         parent: donner
         weight: 1
 illu: /img/page-produits/boite.jpg
