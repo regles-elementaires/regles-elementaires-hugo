@@ -23,7 +23,7 @@ mission_first:
 mission_second: 
     title: '1 700 000'
     content: |
-        C’est le nombre de femmes en France qui sont victimes de la précarité menstruelle et manquent de produits d’hygiène intime (source : IFOP, 2019). 
+        C’est le nombre de femmes en France qui sont victimes de la précarité menstruelle et manquent de produits d’hygiène intime (source : Etude IFOP pour Dons Solidaires, 2019). 
         
         Elles n’ont pas les moyens de s’acheter des produits d’hygiène intime - ou pas en quantité suffisante - les empêchant de vivre leurs règles dignement. Cela peut provoquer de graves troubles physiques - démangeaisons, infections, syndrome du choc toxique pouvant occasionner la mort -  et psychologiques - perte de confiance en soi, difficultés de réinsertion.  
     img: /img/page-mission/paquet-nana.svg
