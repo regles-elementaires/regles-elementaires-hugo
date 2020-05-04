@@ -49,10 +49,8 @@ J’encourage toutes les femmes à parler de ce sujet naturel qui touche toutes 
 
 Et je tiens à remercier ce préparateur physique de m’avoir ouvert cette porte de réflexion car les hommes ont aussi leur rôle à jouer.
 
-
-
 **Estelle Nze Minko**
 
 Handballeuse professionnelle internationale française.
 
-Créatrice de [The V Box](https://thevbox.fr).
+Créatrice de [**The V Box**](https://thevbox.fr).
