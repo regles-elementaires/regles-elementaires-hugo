@@ -51,9 +51,7 @@ Et je tiens à remercier ce préparateur physique de m’avoir ouvert cette port
 
 
 
-
-
-Estelle Nze Minko
+**Estelle Nze Minko**
 
 Handballeuse professionnelle internationale française.
 
