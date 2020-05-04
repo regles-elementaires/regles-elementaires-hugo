@@ -2,7 +2,7 @@
 title: Le Coup de Sang d'Estelle Nze Minko
 date: 2020-05-04T11:48:10.000Z
 author: Estelle Nze Minko
-illu: /img/estelle-nm-ré.jpeg
+illu: /img/estelle-nm-ree.jpeg
 intro: >-
   **Je suis handballeuse professionnelle, internationale française.**
 
