@@ -29,21 +29,24 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Biographie", name: "bio", widget: "text", required: false}
       - {label: ordre, name: order, widget: hidden, default: 2}
   - name: "actualite" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Actualite" # Used in the UI, ie.: "New Post"
-    folder: "site/content/actualites" # The path to the folder where the documents are stored
-    identifier_field: "title"
-    filter: {field: "layout", value: "single"}
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    extension: md
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "date" }
-      - { label: "Auteur.e", name: "author", widget: "string"}
-      - { label: "Illustration", name: "illu", widget: "image" }
-      - { label: 'Introduction', name: 'intro', widget: 'markdown' }
-      - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - {label: Layout, name: layout, widget: hidden, default: single}
+    label: "Actualites" # Used in the UI, ie.: "New Post"
+    collections:
+      - name: 'coup_de_sang'
+        label: 'Coup de sang'
+        folder: "site/content/actualites" # The path to the folder where the documents are stored
+        identifier_field: "title"
+        filter: {field: "layout", value: "single"}
+        slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+        extension: md
+        create: true # Allow users to create new documents in this collection
+        fields: # The fields each document in this collection have
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Auteur.e", name: "author", widget: "string"}
+          - { label: "Illustration", name: "illu", widget: "image" }
+          - { label: 'Introduction', name: 'intro', widget: 'markdown' }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "partenaires" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Partenaires" # Used in the UI, ie.: "New Post"
     folder: "site/data/partenaires" # The path to the folder where the documents are stored
