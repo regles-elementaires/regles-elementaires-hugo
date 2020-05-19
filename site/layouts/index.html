@@ -6,7 +6,8 @@
     <h2 class="text-white text-center text-xl pt-8">Première association française de lutte<br>
         contre la précarité menstruelle</h2>
     <div class="py-16"><a class="big-red-button big-red-button--rounded flex flex-row items-center"
-            href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank"><span
+            href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank"
+            onclick="window.dataLayer.push({'event': 'clicDonnerDonsFinanciers', 'eventCategory': 'Dons Financiers', 'eventAction' : 'Donner' ,'eventLabel' : 'don_home' })"><span
                 class="flex">FAIRE
                 UN DON&nbsp;</span><img src="/img/page-home/dons.svg" class="flex h-8 inline-block" /></a></div>
 </div>
@@ -23,8 +24,7 @@
                 menstruelle. Notre
                 mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et
                 briser le tabou des règles. Ensemble, nous pouvons faire bouger les lignes et changer les règles ! </p>
-            <p class="py-8"><a class="underlined-link underlined-link--white"
-                    href="/projet/mission">En
+            <p class="py-8"><a class="underlined-link underlined-link--white" href="/projet/mission">En
                     savoir plus sur la mission</a></p>
         </div>
 
@@ -48,8 +48,7 @@
                 Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec
                 nous !
             </p>
-            <p class="py-8"><a class="underlined-link underlined-link--red"
-                    href="/collecter/organiser">En
+            <p class="py-8"><a class="underlined-link underlined-link--red" href="/collecter/organiser">En
                     savoir plus sur l'organisation d'une collecte</a></p>
         </div>
 
@@ -68,11 +67,9 @@
                 en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du
                 mal-logement partenaires.
             </p>
-            <p class="py-8 flex flex-row justify-between"><a
-                    class="underlined-link underlined-link--red"
+            <p class="py-8 flex flex-row justify-between"><a class="underlined-link underlined-link--red"
                     href="/projet/partenaires">En
-                    savoir plus sur nos partenaires</a><a
-                    class="underlined-link underlined-link--red"
+                    savoir plus sur nos partenaires</a><a class="underlined-link underlined-link--red"
                     href="mailto:partenariat@regleselementaires.com" target="_blank" rel="noopener noreferrer">Devenir
                     partenaire</a></p>
             {{ partial "projet/partenaire-list" (dict "partenaire_type" "redistributeur" "data" .Site.Data.partenaires)}}
@@ -90,7 +87,8 @@
             <div class="flex flex-row mt-8">
                 <div class="w-1/3 h-48"><img class="object-contain w-full h-full" src="{{.Params.illu}}" /></div>
                 <div class=" w-2/3 px-4">
-                    <h2 class="uppercase text-2xl underline text-redarkgrey"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    <h2 class="uppercase text-2xl underline text-redarkgrey"><a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
                     <p class=""><span class="text-rered">le {{dateFormat "02.01.2006" .Params.date}}</span><span
                             class="text-redarkpink"> par
                         </span><span class="uppercase text-redarkpink">
@@ -104,8 +102,8 @@
                 {{ .Render "li"}}
                 {{ end }}
             </div>
-            <p class="py-8"><a class="underlined-link underlined-link--red"
-                href="/actualites">Voir toutes les actualités</a></p>
+            <p class="py-8"><a class="underlined-link underlined-link--red" href="/actualites">Voir toutes les
+                    actualités</a></p>
         </div>
 
     </div>
@@ -122,8 +120,10 @@
                 <div class="flex-grow pr-4"><input
                         class="w-full h-full required email border-b-2 border-white bg-redarkpink text-white placeholder-repink px-2"
                         type="email" value="" name="EMAIL" id="email" placeholder="Votre email"></div>
-                <input class="cursor-pointer bg-redarkpink text-white hover:text-regrey font-bold text-l border-white hover:border-regrey border-2 py-2 px-6"
-                    type="submit" value="ENVOYER" name="subscribe">
+                <input
+                    class="cursor-pointer bg-redarkpink text-white hover:text-regrey font-bold text-l border-white hover:border-regrey border-2 py-2 px-6"
+                    type="submit" value="ENVOYER" name="subscribe"
+                    onclick="window.dataLayer.push({'event': 'clicInscriptionNewsletter', 'eventCategory': 'Newsletter', 'eventAction' : 'Inscription' ,'eventLabel' : 'newsletter_home' })">
                 <div style="position: absolute; left: -5000px;" aria-hidden="true">
                     <input type="text" name="b_d920a045417cea49ec8048c5f_76cba65ade" tabindex="-1" value="">
                 </div>
@@ -132,14 +132,18 @@
         <div class="w-2/4 py-4 px-8">
             <h3 class="text-white text-2xl font-bold pb-4 uppercase">Suivez-nous</h3>
             <div class="flex flex-row flex-wrap pt-2">
-                <a href="https://www.facebook.com/regleselementaires/" target="_blank" class="px-1"><img
+                <a href="https://www.facebook.com/regleselementaires/" target="_blank" class="px-1"
+                    onclick="window.dataLayer.push({'event': 'clicConsulterReseauxSociaux', 'eventCategory': 'Reseaux Sociaux', 'eventAction' : 'Partager' ,'eventLabel' : 'facebook_home' })"><img
                         src="/img/social/facebook-red.svg" class="h-12" /></a>
-                <a href="https://twitter.com/RElementaires" target="_blank" class="px-1"><img
+                <a href="https://twitter.com/RElementaires" target="_blank" class="px-1"
+                    onclick="window.dataLayer.push({'event': 'clicConsulterReseauxSociaux', 'eventCategory': 'Reseaux Sociaux', 'eventAction' : 'Partager' ,'eventLabel' : 'twitter_home' })"><img
                         src="/img/social/twitter-red.svg" class="h-12" /></a>
-                <a href="https://www.instagram.com/regleselementaires/" target="_blank" class="px-1"><img
+                <a href="https://www.instagram.com/regleselementaires/" target="_blank" class="px-1"
+                    onclick="window.dataLayer.push({'event': 'clicConsulterReseauxSociaux', 'eventCategory': 'Reseaux Sociaux', 'eventAction' : 'Partager' ,'eventLabel' : 'insta_home' })"><img
                         src="/img/social/insta-red.svg" class="h-12" /></a>
-                <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank"
-                    class="px-1"><img src="/img/social/linkedin-red.svg" class="h-12" /></a>
+                <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank" class="px-1"
+                    onclick="window.dataLayer.push({'event': 'clicConsulterReseauxSociaux', 'eventCategory': 'Reseaux Sociaux', 'eventAction' : 'Partager' ,'eventLabel' : 'linkedin_home' })"><img
+                        src="/img/social/linkedin-red.svg" class="h-12" /></a>
             </div>
         </div>
 
