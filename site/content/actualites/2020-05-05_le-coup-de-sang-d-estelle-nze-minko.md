@@ -4,9 +4,11 @@ date: 2020-05-04T11:48:10.000Z
 author: Estelle Nze Minko
 illu: /img/estelle-nm-re.jpeg
 intro: >-
-  Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer
-  son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres
-  sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice.
+  **Je suis handballeuse professionnelle, internationale française.**
+
+
+  **Je fais du sport de haut niveau depuis plus de 10 ans et l’on m’a posé des
+  questions sur mes menstruations pour la première fois l’année dernière.**
 
 
   - - -
@@ -15,10 +17,6 @@ intro: >-
   - - -
 layout: single
 ---
-**Je suis handballeuse professionnelle, internationale française.**
-
-**Je fais du sport de haut niveau depuis plus de 10 ans et l’on m’a posé des questions sur mes menstruations pour la première fois l’année dernière.**
-
 Je m’en souviens parfaitement. C’est le préparateur physique de mon club qui m’a demandé de le prévenir de mes dates de menstruations afin d’adapter ses séances de musculations.
 
 Pour tout vous dire, j’ai trouvé ça violent, voire pervers !
@@ -56,3 +54,7 @@ Et je tiens à remercier ce préparateur physique de m’avoir ouvert cette port
 Handballeuse professionnelle internationale française.
 
 Créatrice de [**The V Box**](https://thevbox.fr).
+
+
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
