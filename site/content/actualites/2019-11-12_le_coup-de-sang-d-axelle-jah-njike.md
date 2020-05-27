@@ -47,11 +47,15 @@ Si le privé est politique, je trouve que l’on aborde encore trop peu la quest
 
 **(Groupe pour l’Abolition des Mutilations Sexuelles, et mariages forcés).** 
 
-**Créatrice du** [**podcast Me My Sexe and I®**](http://memysexeandi.fr)**.** 
+**Créatrice du** [**podcast Me My Sexe and I®**](http://memysexeandi.fr)**.**  
 
 - - -
 
 **(Crédit photo : Olivier Ezratty/ Quelques Femmes du Numérique)**
+
+****
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
 
 - - -
 
