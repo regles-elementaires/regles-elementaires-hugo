@@ -1,7 +1,7 @@
 ---
 title: Journée internationale de l’hygiène menstruelle
 date: 2020-05-18T11:48:10.000Z
-author: Adrien
+author: Laura
 illu: /img/image6 copie.png
 intro: >-
   Briser le tabou autour des menstruations et faire en sorte que chaque femme puisse gérer au mieux ses règles, c’est l’objectif de la Journée internationale de l’hygiène menstruelle du 28 mai - aussi connue sous le nom de Menstrual Hygiene Day.
