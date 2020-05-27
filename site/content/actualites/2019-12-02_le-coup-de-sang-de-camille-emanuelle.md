@@ -31,8 +31,6 @@ Je vais vous raconter une anecdote personnelle, un incident qui a fait que, à p
 
 Pourquoi vous raconter cet épisode dégueu de mon adolescence ? Parce que ce jour-là, j’ai compris ce qu’était le sang menstruel qui sent. J’en ai encore le souvenir olfactif. Le sang qui sent, c’est celui qu’on cache, celui dont on a honte, celui qu’on enferme dans un sac en espérant que personne ne le voit. Les règles ne puent pas : leur honte, si. 
 
-
-
 Camille Emmanuelle
 
 Journaliste spécialisée dans les questions de sexualité, de culture érotique, de culture porn, de féminismes et de genre.
@@ -40,3 +38,7 @@ Journaliste spécialisée dans les questions de sexualité, de culture érotique
 Autrice (entre autres : [_Sexpowerment, le sexe libère la femme (et l’homme)_](http://www.anne-carriere.fr/ouvrage_sexpowerment-camille-emmanuelle-288.html), Editions Anne Carrière, 2016 –  [_Sang Tabou_](https://www.lamusardine.com/P31232-sang-tabou-emmanuelle-camille.html), La Musardine, 2017 – [_Le Goût du baiser_](https://www.editions-thierry-magnier.com/9791035202941-l-camille-emmanuelle-le-gout-du-baiser.htm), Thierry Magnier, 2019.)
 
 (Crédit photo : Gilles Rammant)
+
+
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
