@@ -60,6 +60,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Introduction', name: 'intro', widget: 'markdown' }
       - { label: 'Corps', name: 'body', widget: 'markdown' }
       - {label: Layout, name: layout, widget: hidden, default: video}
+      - {label: Video principale, name: main_video_id, widget: string}
       - label: "Videos"
         name: video_list
         widget: list
