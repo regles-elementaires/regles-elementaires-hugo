@@ -8,7 +8,11 @@
         <div class="markdown desc__content text-justify">{{ .Content }}</div>
         {{if isset .Params "display_dons_desc"}}<div class="pt-8 flex flex-row items-center justify-center"><a
             class="big-red-button big-red-button--rounded text-xl"
-            href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank">FAIRE
+            href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" target="_blank"
+            onclick="gtag('event', 'clicDonnerDonsFinanciers', {
+              'event_category': 'Dons Financiers',
+              'event_label': 'don_page_soutenir',
+            });">FAIRE
             UN DON €</a>
         </div>{{end}}
       </div>

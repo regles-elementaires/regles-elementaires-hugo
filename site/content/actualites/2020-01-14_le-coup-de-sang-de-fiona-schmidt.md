@@ -33,3 +33,7 @@ L’égalité des sexes ne progressera pas tant que l’on continuera de consid�
 Fiona Schmidt
 
 Journaliste et Autrice de plusieurs ouvrages dont [_L’amour après #MeToo_](https://www.hachette-pratique.com/lamour-apres-metoo-9782017068945) (Hachette, 2018) et [_Lâchez-nous l’utérus ! En finir avec la charge maternelle_](https://www.hachette-pratique.com/lachez-nous-luterus-9782017085348) (Hachette, 2020).
+
+
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._

@@ -42,3 +42,9 @@ Actrice et Autrice. A écrit et interprète entre autres :
 . [_Les Survivantes_](https://www.theatre13.com/saison/spectacle/les-survivantes–2), pièce qu’elle a co-écrite avec Isabelle Linnartz d’après des témoignages recueillis par le Mouvement du Nid, jouée du 3 mars au 5 avril 2020 au Théâtre 13 jardin.
 
 Publications : Roman Graphique [_Je suis Top_ ](https://www.editions-delcourt.fr/serie/je-suis-top-liberte-egalite-parite.html) aux Editions Delcourt (Prix des Lycéens 2017) ; [_Les Perles du Sexisme_ ](https://club.editionsfortuna.net/index.php/editions-fortuna/les-livres-fortuna/les-perles-du-sexisme-detail)(Fortuna Editions, 2017).
+
+
+
+
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._

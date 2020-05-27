@@ -54,3 +54,7 @@ Et je tiens à remercier ce préparateur physique de m’avoir ouvert cette port
 Handballeuse professionnelle internationale française.
 
 Créatrice de [**The V Box**](https://thevbox.fr).
+
+
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
