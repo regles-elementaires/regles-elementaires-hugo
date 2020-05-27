@@ -1,5 +1,5 @@
 ---
-title: '28 mai : Opération de sensibilisation digitale'
+title: '28 mai : Journée de sensibilisation digitale'
 date: 2020-05-28T09:16:28.025Z
 author: Laura
 illu: /img/image6-copie.png
