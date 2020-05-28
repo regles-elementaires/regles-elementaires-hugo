@@ -1,6 +1,6 @@
 ---
 title: Journée internationale de l’hygiène menstruelle
-date: 2020-05-28T11:48:10.000Z
+date: 2020-05-28T00:00:10.000Z
 author: Laura
 illu: /img/image6 copie.png
 intro: >-
