@@ -1,5 +1,6 @@
 ---
 title: Le Coup de Sang de Camille Emmanuelle
+tags: ['coup de sang']
 date: 2019-12-02T12:48:10.000Z
 author: Camille Emmanuelle
 illu: /img/img_0083.jpg

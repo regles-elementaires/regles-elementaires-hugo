@@ -38,6 +38,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Tags", name: tags, widget: list,   default: ["news", "coup de sang"]}
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Auteur.e", name: "author", widget: "string"}
       - { label: "Illustration", name: "illu", widget: "image" }
@@ -54,6 +55,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Tags", name: tags, widget: list,   default: ["news", "video"]}
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Auteur.e", name: "author", widget: "string"}
       - { label: "Illustration", name: "illu", widget: "image" }

@@ -1,5 +1,6 @@
 ---
-title: Journée internationale de l’hygiène menstruelle
+title: '28 mai : Journée de sensibilisation digitale'
+tags: ['evenement', 'video']
 date: 2020-05-28T00:00:10.000Z
 author: Laura
 illu: /img/image6 copie.png

@@ -1,5 +1,6 @@
 ---
 title: Le Coup de Sang d'Estelle Nze Minko
+tags: ['coup de sang']
 date: 2020-05-04T11:48:10.000Z
 author: Estelle Nze Minko
 illu: /img/estelle-nm-re.jpeg
