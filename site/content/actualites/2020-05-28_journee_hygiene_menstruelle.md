@@ -17,6 +17,7 @@ video_list:
   - youtube_id: NrpxbTJLGqI
   - youtube_id: apTjtXlC1Ho
   - youtube_id: F7Vwu6qYiho
+  - F7Vwu6qYiho
 ---
 Si les règles sont naturelles, un tabou les entoure encore. La peur et la gêne d’en parler entraînent un manque d’informations chez les femmes, et plus particulièrement chez les adolescentes. 
 Comme tous les jours de l’année, Règles Élémentaires souhaite sensibiliser à la précarité menstruelle et briser le tabou des règles. Six personnalités ont accepté de prendre part à notre opération de sensibilisation digitale pour parler des règles face caméra.
