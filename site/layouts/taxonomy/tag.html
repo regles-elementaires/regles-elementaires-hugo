@@ -1,11 +1,7 @@
 {{ define "main" }}
-
-<ul>
-    {{ range .Data.Pages }}
-      <li>
-        <a href="{{.RelPermalink}}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-  </ul>
-
-  {{end}}
+<div class="container px-2 pt-2">
+  <a href="{{ ref . "/actualites" }}" class="underline text-l text-rered">
+    < Retour aux actualités</a>
+</div>
+{{ partial "actualites/list" (dict "titre_1" "Actualités liées au tag:" "titre_2" (print "#" .Title) "pages" .Data.Pages) }}
+{{ end }}
