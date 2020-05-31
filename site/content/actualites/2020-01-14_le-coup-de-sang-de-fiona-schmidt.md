@@ -1,5 +1,6 @@
 ---
 title: Le Coup de Sang de Fiona Schmidt
+tags: ['coup de sang']
 date: 2020-01-14T12:48:10.000Z
 author: Fiona Schmidt
 illu: /img/fiona-paysage2.jpeg

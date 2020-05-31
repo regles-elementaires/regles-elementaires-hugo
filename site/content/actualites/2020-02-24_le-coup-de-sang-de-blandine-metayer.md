@@ -1,5 +1,6 @@
 ---
 title: Le Coup de Sang de Blandine Métayer
+tags: ['coup de sang']
 date: 2020-02-24T12:48:10.000Z
 author: Blandine Métayer
 illu: /img/3b5a1522.jpg

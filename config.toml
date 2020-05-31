@@ -1,2 +1,6 @@
 languageCode = "fr-fr"
 title = "Règles Élémentaires"
+
+[module]
+  [module.hugoVersion]
+    min = "0.65.0"

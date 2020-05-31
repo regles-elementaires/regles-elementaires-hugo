@@ -1,5 +1,6 @@
 ---
 title: Le Coup de Sang d'Axelle Jah Njiké
+tags: ['coup de sang', 'test']
 date: 2019-11-12T12:48:10.000Z
 author: 'Axelle Jah Njiké '
 illu: /img/vignette.jpg
