@@ -4,7 +4,7 @@ tags:
   - evenement
   - video
 date: 2020-05-28T00:00:10.000Z
-author: Laura
+author: Laura Pajot
 illu: /img/image6 copie.png
 intro: >-
   Briser le tabou autour des menstruations et faire en sorte que chaque femme
