@@ -51,7 +51,7 @@
 {{ $currentPage := . }}
 {{ range .Site.Menus.main }}
 {{ if $currentPage.HasMenuCurrent "main" . }}
-<nav class="bg-rered sm:h-16 flex sm:justify-center items-center p-4 sm:p-2 text-white px-4 text-sm">
+<nav class="bg-rered sm:h-12 flex sm:justify-center items-center p-4 sm:p-2 text-white px-4 text-sm">
 	<ul class="flex flex-row flex-wrap -mx-4">
 
 		{{ range .Children }}

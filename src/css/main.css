@@ -67,7 +67,7 @@
 === NAV ===
 */
 .menu-item-space {
-  @apply px-4 pb-2 text-sm cursor-pointer;
+  @apply px-3 pb-2 text-sm cursor-pointer;
 }
 .menu-item-space a {
   @apply pb-2 pt-2;
@@ -80,18 +80,13 @@
     @apply border-b-4 border-rered no-underline;
   }
 }
-@screen xl {
-  .menu-item-space {
-    @apply text-base;
-  }
-}
 @screen lg {
   .menu-item-space {
-    @apply pt-2 pb-0 px-4;
+    @apply pt-2 pb-0 px-3;
   }
 }
 .sub-menu-item {
-  @apply px-4 uppercase whitespace-no-wrap;
+  @apply px-3 uppercase whitespace-no-wrap;
 }
 .sub-menu-item:hover a{
   @apply border-b-2;
