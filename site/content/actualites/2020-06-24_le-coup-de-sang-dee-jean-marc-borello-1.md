@@ -3,7 +3,7 @@ title: Le Coup de Sang de Jean-Marc Borello
 tags:
   - news
   - coup de sang
-date: 2020-06-25T08:25:15.554Z
+date: 2020-06-24T08:25:15.554Z
 author: Jean-Marc Borello
 illu: /img/photo-jmb-officielle.jpg
 intro: >-
