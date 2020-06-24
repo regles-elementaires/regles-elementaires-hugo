@@ -30,7 +30,7 @@ Outre nos bénéficiaires, nous avons souhaité sensibiliser nos salarié.e.s à
 
 Président du Directoire du GROUPE SOS
 
-Le [GROUPE SOS ](https://www.groupe-sos.org)est la première entreprise sociale d’Europe. Avec plus de 20.000 salarié.e.s et 550 établissements et services, les actions du GROUPE SOS ont, chaque année, un impact sur plus d’1,7 million de personnes, en France et à l’international.
+Le [GROUPE SOS ](https://www.groupe-sos.org)est la première entreprise sociale d’Europe. Avec plus de 20 000 salarié·e·s et 550 établissements et services, les actions du GROUPE SOS ont, chaque année, un impact sur plus d’1,7 million de personnes, en France et à l’international.
 
 
 
