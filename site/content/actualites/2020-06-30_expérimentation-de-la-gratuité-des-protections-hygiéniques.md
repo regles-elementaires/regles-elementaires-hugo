@@ -5,7 +5,7 @@ tags:
   - ''
 date: 2020-02-13T11:48:31.819Z
 author: Azadée Kermani-Nejad
-illu: /img/capture-decran-2020-06-30-à-13.09.41.png
+illu: /img/sans-titre-5.jpg
 intro: >-
   **Depuis 2015, Règles Élémentaires se bat sans relâche contre la précarité
   menstruelle et le tabou des règles. L’association s’est imposée comme une
