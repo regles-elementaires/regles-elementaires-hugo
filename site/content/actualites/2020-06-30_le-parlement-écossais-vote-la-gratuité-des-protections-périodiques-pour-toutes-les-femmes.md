@@ -5,7 +5,7 @@ title: >-
 tags:
   - news
   - Dans le monde
-date: 2020-06-30T12:19:24.125Z
+date: 2020-02-26T13:19:24.125Z
 author: Azadée Kermani-Nejad
 illu: /img/capture-d’écran-2020-06-30-à-14.23.31.png
 intro: '_Un petit pas pour un gouvernement, une grande mesure pour les Écossaises._'
