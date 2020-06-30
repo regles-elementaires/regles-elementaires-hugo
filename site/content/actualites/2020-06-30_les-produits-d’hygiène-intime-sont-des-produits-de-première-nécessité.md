@@ -4,7 +4,7 @@ tags:
   - news
 date: 2020-03-25T14:07:13.638Z
 author: Azadée Kermani Nejad
-illu: /img/capture-d’écran-2020-06-30-à-15.09.38.png
+illu: /img/sans-titre-3.jpg
 intro: >-
   **Depuis 2015, Règles Élémentaires lutte contre la précarité menstruelle
   touchant les femmes les plus démunies qui subissent de plein fouet les
