@@ -7,11 +7,11 @@ date: 2020-03-05T13:48:06.046Z
 author: Azadée Kermani-Nejad
 illu: /img/sans-titre.jpg
 intro: >-
-  Le 5 mars 2020, l’équipe de Règles Élémentaires a ouvert les portes de la Cité
-  Audacieuse. Projet unique porté par la fondation des femmes et la Mairie de
-  Paris, la Cité Audacieuse est le premier lieu accueillant des associations
+  **Le 5 mars 2020, l’équipe de Règles Élémentaires a ouvert les portes de la
+  Cité Audacieuse. Projet unique porté par la fondation des femmes et la Mairie
+  de Paris, la Cité Audacieuse est le premier lieu accueillant des associations
   oeuvrant pour l’égalité avec l’ambition de faire rayonner les femmes et leurs
-  droits à Paris et en France.
+  droits à Paris et en France.**
 layout: single
 ---
 _“Être dans la pierre, et pas seulement dans la rue, comme le 25 novembre et le 8 mars, nous permet d’asseoir nos combats.”_ 
