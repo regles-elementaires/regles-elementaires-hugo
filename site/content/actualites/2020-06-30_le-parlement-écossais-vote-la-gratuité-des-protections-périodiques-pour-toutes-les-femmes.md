@@ -8,7 +8,9 @@ tags:
 date: 2020-02-26T13:19:24.125Z
 author: Azadée Kermani-Nejad
 illu: /img/capture-decran-2020-06-30-à-14.23.31.png
-intro: '_Un petit pas pour un gouvernement, une grande mesure pour les Écossaises._'
+intro: >-
+  **_Un petit pas pour un gouvernement, une grande mesure pour les
+  Écossaises._**
 layout: single
 ---
 C’est une [première ](https://www.lemonde.fr/international/article/2020/02/26/le-parlement-ecossais-vote-la-gratuite-des-protections-periodiques_6030910_3210.html)dans la lutte contre la précarité menstruelle. Le 26 février, le Parlement écossais est le premier au monde à avoir voté la gratuité des protections périodiques. En 2018 déjà,  le pays avait rendu les protections périodiques gratuites dans les établissements scolaires puis pour les personnes en situation de précarité. Désormais, toute personne pourra s’en procurer. 
