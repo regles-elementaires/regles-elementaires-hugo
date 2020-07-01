@@ -22,6 +22,8 @@ Cette annonce est une victoire pour Règles Élémentaires car la gratuité des 
 
 Nous demandons également :
 
-* la distribution de bons d’achat aux plus modestes, 
-* la mise en place d’un dispositif de remboursement de la part des mutuelles,
-* le déploiement de distributeurs de produits d’hygiène intime dans les espaces publics et privés.
+📍la distribution de bons d’achat aux plus modestes, 
+
+📍la mise en place d’un dispositif de remboursement de la part des mutuelles,
+
+📍le déploiement de distributeurs de produits d’hygiène intime dans les espaces publics et privés.
