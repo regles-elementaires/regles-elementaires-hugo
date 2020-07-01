@@ -14,4 +14,4 @@ Jusqu’en août 2019, l'association fonctionne uniquement grâce à des dons de
 
 L’expansion de Règles Élémentaires se confirme avec [l’obtention d’une première subvention auprès de la Ville de Paris. ](https://www.paris.fr/pages/un-engagement-elementaire-contre-la-precarite-menstruelle-7517) En juillet 2019, la ville de Paris s’est en effet engagée à nos côtés dans le cadre d’une collaboration active pour améliorer l’accès aux protections hygiéniques pour les femmes en situation de précarité. 
 
-Notre objectif aujourd’hui est de continuer de nous professionnaliser et de recruter afin de pérenniser et d’étendre nos actions.
+Notre objectif aujourd’hui est de continuer de nous professionnaliser et de recruter afin d’étendre nos actions.
