@@ -12,9 +12,7 @@ intro: >-
   contre la précarité menstruelle.**
 layout: single
 ---
-Le 17 décembre 2019, le gouvernement et tout particulièrement le Ministère des Solidarités et de la Santé ainsi que la DGCS (Direction Générale de la Cohésion Sociale) se sont engagés à nos côtés dans le cadre d’une collaboration active pour améliorer l’accès aux protections hygiéniques pour les femmes en situation de précarité sur tout le territoire français. 
-
-
+Le 17 décembre 2019, le gouvernement et tout particulièrement le Ministère des Solidarités et de la Santé ainsi que la DGCS (Direction Générale de la Cohésion Sociale) se sont [engagés à nos côtés](https://solidarites-sante.gouv.fr/actualites/presse/communiques-de-presse/article/le-gouvernement-soutient-pour-la-premiere-fois-une-association-oeuvrant-contre) dans le cadre d’une collaboration active pour améliorer l’accès aux protections hygiéniques pour les femmes en situation de précarité sur tout le territoire français. 
 
 Cette dotation de 60 000€ s’inscrit dans notre démarche de pérennisation, de  professionnalisation et d’étendue de nos actions.  En 2020, Règles Élémentaires change d’échelle : 
 
