@@ -19,9 +19,9 @@ Suite à l’Assemblée Générale Extraordinaire du 4 mai 2020 et l’entérine
 
 Cette Assemblée Générale a également marqué la passation de Présidence de Tara Heuzé-Sarmini, Fondatrice, à Nadège Moreau, Responsable Grand-Est depuis 2018 ; ainsi que la nomination de Tara au poste de Directrice Générale. 
 
-![](/img/capture.png)
-
 À propos d’Alexandre Basdereff : 
+
+![](/img/capture.png)
 
 Diplômé de l’ESSEC, et après plusieurs séjours aux États-Unis, Alexandre devient l’un des pionniers dans le développement d’un fundraising moderne et professionnel en France dans l’ensemble des secteurs d’intérêt général (santé, culture, recherche, enseignement supérieur, action sociale, environnement…) en s’appuyant sur des techniques et des pratiques anglo-saxonnes.
 
@@ -33,9 +33,9 @@ Dès le début des années 2000, Optimus prend toute la mesure du rôle d’Inte
 
 En 2020, Alexandre accepte de rejoindre le Conseil d’Administration de Règles Élémentaires pour accompagner l’Association dans ses ambitions de développement, et notamment sa volonté de toucher et servir un public toujours plus large grâce aux possibilités offertes par la technologie.
 
-![](/img/capt.png)
-
 À propos de Tess Pettavino : 
+
+![](/img/capt.png)
 
 Diplômée de SciencesPo et d'HEC Paris, Tess fait ses premières armes en communication en agence créative, chez Fred & Farid. Elle rejoint le mouvement En Marche ! à ses débuts en avril 2016 et contribue à la structuration du mouvement et à celle de sa communication, notamment digitale. Après avoir été en charge du Planning Stratégique du mouvement, en 2018, elle en devient la Directrice de la Communication. 
 
