@@ -1,7 +1,7 @@
 ---
 title: >-
   Règles Élémentaires se professionnalise et ouvre son Conseil d’Administration
-  [à des personnes extérieures] 
+  à des personnes extérieures
 tags:
   - news
 date: 2020-05-04T09:55:21.584Z
@@ -13,7 +13,7 @@ intro: >-
   pérennisation, professionnalisation et de l’expansion de ses activités.**
 layout: single
 ---
-Cette volonté de construire et de grandir sur des bases solides se traduit de plusieurs manières : diversification des ressources, transformation de postes clés jusqu’à présent bénévoles en postes salariés, installation à la Cité Audacieuse aux côtés d’autres associations oeuvrant pour l’Égalité… et une refonte statutaire, \[grâce à l’accompagnement pro bono de Latham & Watkins,] qui a permis, entre autres, d’ouvrir le Conseil d’Administration à des personnes extérieures. 
+Cette volonté de construire et de grandir sur des bases solides se traduit de plusieurs manières : diversification des ressources, transformation de postes clés jusqu’à présent bénévoles en postes salariés, installation à la Cité Audacieuse aux côtés d’autres associations oeuvrant pour l’Égalité… et une refonte statutaire, grâce à l’accompagnement pro bono de Latham & Watkins, qui a permis, entre autres, d’ouvrir le Conseil d’Administration à des personnes extérieures. 
 
 Suite à l’Assemblée Générale Extraordinaire du 4 mai 2020 et l’entérinement des nouveaux statuts (100% garantis écriture inclusive !), Alexandre Basdereff et Tess Pettavino ont rejoint les membres du Bureau au Conseil d’Administration de Règles Élémentaires. Alexandre et Tess inaugurent ainsi les sièges d’Administrateur·rices extérieur·es et apportent des compétences et expertises très précieuses pour accompagner le développement de l’Association dans le temps long. 
 
