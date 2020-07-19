@@ -1,13 +1,6 @@
 name = "Tara Heuzé-Sarmini"
-order = 1
-role = "Présidente & Fondatrice"
-bio = """
-Diplômée de SciencesPo, Cambridge, et de Columbia, Tara a grandi à Paris et a vécu à Moscou, Cambridge et New York. 
-
-C’est outre-Manche que Tara a pris conscience du problème d’accès aux produits d’hygiène intime pour les femmes sans-abri, lorsqu’une association étudiante organisa une collecte de tampons et serviettes. 
-De retour en France, Tara mène l’enquête et se rend compte que rien n’a jamais été fait pour pallier le manque d’accès aux protections périodiques auquel les femmes sans-abri françaises sont confrontées. 
-
-Elle décide alors de lancer la première campagne Règles Élémentaires en novembre 2015, qui deviendra une association loi 1901 quelques mois plus tard. Tara est convaincue qu’ensemble nous pouvons changer les règles ! 
-"""
-linkedin="https://www.linkedin.com/in/tara-heuz%C3%A9-sarmini-b4330b76/"
+role = "Fondatrice & Directrice Générale"
+linkedin = "https://www.linkedin.com/in/tara-heuz%C3%A9-sarmini-b4330b76/"
 img = "/img/equipe/tara.png"
+bio = "Diplômée de SciencesPo, Cambridge, et de Columbia, Tara a grandi à Paris et a vécu à Moscou, Cambridge et New York. \n\nC’est outre-Manche que Tara a pris conscience du problème d’accès aux produits d’hygiène intime pour les femmes sans-abri, lorsqu’une association étudiante organisa une collecte de tampons et serviettes. \nDe retour en France, Tara mène l’enquête et se rend compte que rien n’a jamais été fait pour pallier le manque d’accès aux protections périodiques auquel les femmes sans-abri françaises sont confrontées. \n\nElle décide alors de lancer la première campagne Règles Élémentaires en novembre 2015, qui deviendra une association loi 1901 quelques mois plus tard. Tara est convaincue qu’ensemble nous pouvons changer les règles ! \n"
+order = 1
