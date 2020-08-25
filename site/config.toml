@@ -17,26 +17,21 @@ disableKinds = ["RSS"]
 [menu]
   [[menu.main]]
     identifier = "projet"
-    name = "Découvrir le Projet"
+    name = "Le Projet"
     url = "/projet/mission"
     weight = 1
   [[menu.main]]
     identifier = "collecter"
-    name = "Organiser une collecte"
+    name = "Collecter"
     url = "/collecter/organiser"
     weight = 2
   [[menu.main]]
     identifier = "donner"
-    name = "Donner des produits"
+    name = "Donner"
     url = "/donner/trouver"
     weight = 3
-  [[menu.main]]
-    identifier = "actualites"
-    name = "Actualités"
-    url = "/actualites"
-    weight = 4
   [[menu.main]]
     identifier = "soutenir"
     name = "Soutenir l'association"
     url = "/soutenir/dons-financiers"
-    weight = 4
+    weight = 5
