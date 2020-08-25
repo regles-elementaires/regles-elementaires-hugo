@@ -14,6 +14,7 @@ payements:
     - img: /img/page-dons-financiers/carte.svg
       text: Carte Bancaire
       subtext: Tout le temps
+      link: https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget 
     - img: /img/page-dons-financiers/cheque.svg
       text: Chèque
       subtext: "à l’ordre de : Règles Élémentaires"
@@ -27,6 +28,7 @@ payements:
     - img: /img/page-dons-financiers/virement.svg
       text: Virement
       subtext: Coordonées bancaires sur demande
+      link: "mailto:contact@regleselementaires.com?subject=Don%20par%20virement"
     - img: /img/page-dons-financiers/espece.svg
       text: Argent liquide
       subtext: Lors des événements
