@@ -170,6 +170,12 @@
 }
 
 /* POPUP CREDIT MENSTRUEL */
-.bg-popup {
-  background-image: url('/img/photo-popup-credit-menstruel.jpg');
+.popup-img {
+  background-image: url('/img/photo-popup-credit-menstruel-resized.jpg');
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-popup-color {
+  background-color: rgba(0, 0, 0, 0.8);
 }
