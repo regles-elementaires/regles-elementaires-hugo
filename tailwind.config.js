@@ -28,12 +28,6 @@ module.exports = {
         redarkpink: "#ff9ca8",
         redarkgrey: "#535353",
         regrey: "#F5F5F5",
-      },
-      spacing: {
-        72: "18rem",
-        84: "21rem",
-        96: "24rem",
-        108: "27rem",
       }
     },
   },
