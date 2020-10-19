@@ -1,7 +1,7 @@
 ---
 title: Nos premiers ateliers de sensibilisation pour femmes bénéficiaires
 tags:
-  - new
+  - news
 date: 2020-10-19T11:49:04.490Z
 author: Megumi LEENHARDT
 illu: /img/img_2298.jpg
