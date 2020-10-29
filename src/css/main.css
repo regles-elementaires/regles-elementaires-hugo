@@ -168,3 +168,12 @@
 .collecte_step__text a {
   text-decoration: underline;
 }
+
+/* POPUP CREDIT MENSTRUEL */
+.popup-img {
+  background-image: url('/img/photo-popup-credit-menstruel-resized.jpg');
+}
+
+.bg-popup-color {
+  background-color: rgba(0, 0, 0, 0.8);
+}
