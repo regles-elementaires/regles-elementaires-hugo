@@ -2,7 +2,9 @@
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
   <body class="font-sans">
-    {{ partial "popup-credit-menstruel" . }}
+    {{ if .IsHome }}
+      {{ partial "popup-credit-menstruel" . }}
+    {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
