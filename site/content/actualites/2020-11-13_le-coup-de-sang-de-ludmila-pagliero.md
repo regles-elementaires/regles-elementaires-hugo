@@ -3,7 +3,7 @@ title: Le Coup de Sang de Ludmila Pagliero
 tags:
   - news
   - coup de sang
-date: 2020-11-13T12:51:09.908Z
+date: 2020-11-15T12:51:09.908Z
 author: Ludmila Pagliero
 illu: /img/df707b67-8cee-407e-be46-495c917c28b3.jpg
 intro: >-
