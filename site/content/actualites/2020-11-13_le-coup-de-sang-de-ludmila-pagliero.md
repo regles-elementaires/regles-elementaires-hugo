@@ -11,10 +11,12 @@ intro: >-
 
 
   **A 14 ans, je suis devenue « une femme », comme il est d’usage de le dire, à
-  l’arrivée de mes règles.**
+  l’arrivée de mes règles. Autour de moi, beaucoup d’amies m’avaient parlé de ce
+  passage délicat qui leur était arrivé, pour certaines avant même leurs 10
+  ans.**
 layout: single
 ---
-Autour de moi, beaucoup d’amies m’avaient parlé de ce passage délicat qui leur était arrivé, pour certaines avant même leurs 10 ans. Est-il possible pourtant de se sentir devenue « une femme » à un si jeune âge ? Pouvons-nous alors comprendre ce que cela représente ?
+Est-il possible pourtant de se sentir devenue « une femme » à un si jeune âge ? Pouvons-nous alors comprendre ce que cela représente ?
 
 Il est sûrement difficile de parler à une enfant de 10 ans comme à une adulte, mais je suis convaincue que le simple fait d’en parler en amont, d’ôter ce tabou lourd de non-dit, amènera une tranquillité, une acceptation et une meilleure réaction le jour venu de cette soudaine transformation corporelle.
 
