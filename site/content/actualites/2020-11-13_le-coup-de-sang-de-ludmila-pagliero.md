@@ -5,7 +5,7 @@ tags:
   - coup de sang
 date: 2020-11-13T12:51:09.908Z
 author: Ludmila Pagliero
-illu: /img/image-1-.jpeg
+illu: /img/image-2-.jpeg
 intro: >-
   **A 14 ANS…**
 
