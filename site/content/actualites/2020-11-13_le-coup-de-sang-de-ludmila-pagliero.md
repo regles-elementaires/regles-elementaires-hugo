@@ -40,6 +40,8 @@ En racontant mon vécu, j’espère donner l’envie à d’autres femmes, toute
 
 **Ludmila Pagliero**
 
+****
+
 - - -
 
 Après des études à l’Institut Supérieur des Arts du Théâtre Colón de Buenos Aires en Argentine, [Ludmila Pagliero](https://www.operadeparis.fr/magazine/ludmila-pagliero) est engagée au Ballet de Santiago au Chili. En 2003, elle reçoit le Prix Igor Youskevitch et obtient la Médaille d’argent ainsi qu’un engagement à l’American Ballet Theatre au 7e Concours international de danse de New York. 
@@ -57,7 +59,3 @@ _Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer
 - - -
 
 - - -
-
-__
-
-__
