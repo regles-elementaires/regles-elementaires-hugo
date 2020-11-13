@@ -34,7 +34,7 @@ En me souvenant de ma mère, de l’avoir vue laver à la main ses couches en ti
 
 En racontant mon vécu, j’espère donner l’envie à d’autres femmes, toutes différences confondues, de témoigner pour transmettre aux enfants la connaissance du corps, et ainsi leur donner la possibilité d’évoluer, sans peur, sans ignorance, sans tabou, loin du silence. Pendant des siècles, on a vécu dans le tabou des règles, la répression de la nature de notre corps féminin, sans chercher à le comprendre, à l’admirer. Aujourd’hui on veut parler librement, sans avoir honte. On a envie de vivre nos règles et de les accepter de façon naturelle, parce qu’elles sont une part de la nature humaine. J’aimerais que toutes les filles soient soutenues dans ce passage clef, qu’elles ne ressentent pas la honte de voir changer leur corps, qu’elles puissent exprimer leurs ressentis, qu’elles puissent dire: « Aujourd’hui mon corps parle, se transforme, vit, je l’écoute et je le respecte. Et toi qui es là avec moi, respecte-le aussi. » Dans mon métier, l’écoute du corps est essentielle, fait partie de ma vie de tous les jours. Sans lui, je serais incapable de m’exprimer à travers la danse. Sans lui, je serais incomplète.
 
-**Ludmila Pagliero**
+****[**Ludmila Pagliero**](https://www.operadeparis.fr/magazine/ludmila-pagliero)****
 
 Après des études à l’Institut Supérieur des Arts du Théâtre Colón de Buenos Aires en Argentine, Ludmila Pagliero est engagée au Ballet de Santiago au Chili. En 2003, elle reçoit le Prix Igor Youskevitch et obtient la Médaille d’argent ainsi qu’un engagement à l’American Ballet Theatre au 7e Concours international de danse de New York. 
 
