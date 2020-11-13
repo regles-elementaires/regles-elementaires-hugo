@@ -12,11 +12,12 @@ intro: >-
 
   **A 14 ans, je suis devenue « une femme » comme il est d’usage de le dire par
   l’arrivée de mes règles. Autour de moi, beaucoup d’amies m’avaient parlé de ce
-  passage délicat qui leur était arrivé, pour certaines avant même leurs 10 ans.
-  Est-il possible pourtant de se sentir devenue « une femme » à un si jeune âge
-  ? Pouvons-nous alors comprendre ce que cela représente ?**
+  passage délicat qui leur était arrivé, pour certaines avant même leurs 10
+  ans.**
 layout: single
 ---
+Est-il possible pourtant de se sentir devenue « une femme » à un si jeune âge ? Pouvons-nous alors comprendre ce que cela représente ?
+
 Il est sûrement difficile de parler à une enfant de 10 ans comme à une adulte, mais je suis convaincue que le simple fait d’en parler en amont, d’ôter ce tabou lourd de non-dit, amènera une tranquillité, une acceptation et une meilleure réaction le jour venu de cette soudaine transformation corporelle.
 
 Mes parents, d’un esprit très ouvert, ont su bien réagir et prendre le temps de s’entretenir avec moi, de m’expliquer les étapes, mais je ne cache pas que le moment venu, en trouvant la tâche de sang, mon cœur s’est emballé, ma sueur est devenue froide, et j’ai cru que quelque chose de grave m’arrivait, que peut-être même j’allais mourir !
@@ -34,8 +35,6 @@ J’ai bien sûr essayé différentes pilules, pouvant soi-disant réguler les d
 En me souvenant de ma mère, de l’avoir vue laver à la main ses couches en tissu dans l’eau bouillante, parce qu’elle n’avait pas les moyens d’acheter des produits jetables, je me dis que j’ai beaucoup de chance de ne pas avoir ces contraintes, d’avoir eu son soutien et son éducation, le choix de procréation, la possibilité d’un suivi médical accessible et une situation financière qui me permette d’accéder à des produits de bonne qualité.
 
 En racontant mon vécu, j’espère donner l’envie à d’autres femmes, toutes différences confondues, de témoigner pour transmettre aux enfants la connaissance du corps, et ainsi leur donner la possibilité d’évoluer, sans peur, sans ignorance, sans tabou, loin du silence. Pendant des siècles, on a vécu dans le tabou des règles, la répression de la nature de notre corps féminin, sans chercher à le comprendre, à l’admirer. Aujourd’hui on veut parler librement, sans avoir honte. On a envie de vivre nos règles et de les accepter de façon naturelle, parce qu’elles sont une part de la nature humaine. J’aimerais que toutes les filles soient soutenues dans ce passage clef, qu’elles ne ressentent pas la honte de voir changer leur corps, qu’elles puissent exprimer leurs ressentis, qu’elles puissent dire: « Aujourd’hui mon corps parle, se transforme, vit, je l’écoute et je le respecte. Et toi qui es là avec moi, respecte-le aussi. » Dans mon métier, l’écoute du corps est essentielle, fait partie de ma vie de tous les jours. Sans lui, je serais incapable de m’exprimer à travers la danse. Sans lui, je serais incomplète.
-
-
 
 **Ludmila Pagliero**
 
