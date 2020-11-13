@@ -32,9 +32,13 @@ J’ai bien sûr essayé différentes pilules, pouvant soi-disant réguler les d
 
 En me souvenant de ma mère, de l’avoir vue laver à la main ses couches en tissu dans l’eau bouillante, parce qu’elle n’avait pas les moyens d’acheter des produits jetables, je me dis que j’ai beaucoup de chance de ne pas avoir ces contraintes, d’avoir eu son soutien et son éducation, le choix de procréation, la possibilité d’un suivi médical accessible et une situation financière qui me permette d’accéder à des produits de bonne qualité.
 
-En racontant mon vécu, j’espère donner l’envie à d’autres femmes, toutes différences confondues, de témoigner pour transmettre aux enfants la connaissance du corps, et ainsi leur donner la possibilité d’évoluer, sans peur, sans ignorance, sans tabou, loin du silence. Pendant des siècles, on a vécu dans le tabou des règles, la répression de la nature de notre corps féminin, sans chercher à le comprendre, à l’admirer. Aujourd’hui on veut parler librement, sans avoir honte. On a envie de vivre nos règles et de les accepter de façon naturelle, parce qu’elles sont une part de la nature humaine. J’aimerais que toutes les filles soient soutenues dans ce passage clef, qu’elles ne ressentent pas la honte de voir changer leur corps, qu’elles puissent exprimer leurs ressentis, qu’elles puissent dire: « Aujourd’hui mon corps parle, se transforme, vit, je l’écoute et je le respecte. Et toi qui es là avec moi, respecte-le aussi. » Dans mon métier, l’écoute du corps est essentielle, fait partie de ma vie de tous les jours. Sans lui, je serais incapable de m’exprimer à travers la danse. Sans lui, je serais incomplète.
+En racontant mon vécu, j’espère donner l’envie à d’autres femmes, toutes différences confondues, de témoigner pour transmettre aux enfants la connaissance du corps, et ainsi leur donner la possibilité d’évoluer, sans peur, sans ignorance, sans tabou, loin du silence. Pendant des siècles, on a vécu dans le tabou des règles, la répression de la nature de notre corps féminin, sans chercher à le comprendre, à l’admirer. Aujourd’hui on veut parler librement, sans avoir honte. On a envie de vivre nos règles et de les accepter de façon naturelle, parce qu’elles sont une part de la nature humaine. J’aimerais que toutes les filles soient soutenues dans ce passage clef, qu’elles ne ressentent pas la honte de voir changer leur corps, qu’elles puissent exprimer leurs ressentis, qu’elles puissent dire: « Aujourd’hui mon corps parle, se transforme, vit, je l’écoute et je le respecte. Et toi qui es là avec moi, respecte-le aussi. » **Dans mon métier, l’écoute du corps est essentielle, fait partie de ma vie de tous les jours. Sans lui, je serais incapable de m’exprimer à travers la danse. Sans lui, je serais incomplète.**
 
-****[**Ludmila Pagliero**](https://www.operadeparis.fr/magazine/ludmila-pagliero)****
+
+
+\***\*[**Ludmila Pagliero**](https://www.operadeparis.fr/magazine/ludmila-pagliero)\*\***
+
+- - -
 
 Après des études à l’Institut Supérieur des Arts du Théâtre Colón de Buenos Aires en Argentine, Ludmila Pagliero est engagée au Ballet de Santiago au Chili. En 2003, elle reçoit le Prix Igor Youskevitch et obtient la Médaille d’argent ainsi qu’un engagement à l’American Ballet Theatre au 7e Concours international de danse de New York. 
 
@@ -42,4 +46,16 @@ Elle est admise dans le Corps de ballet de l’Opéra National de Paris en 2005 
 
 Chevalier des Arts et des Lettres, Ludmila Pagliero est la première danseuse non-européenne à recevoir le titre d'étoile et l’une des rares danseuses à avoir été admise au Ballet de l'Opéra national de Paris sans avoir été formée dans son école de danse.
 
-_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son “Coup de Sang” autour des règles, de la précarité, des tabous ou d’autres sujets d’indignation. Les propos exprimés sont ceux de leur auteur·rice._
+- - -
+
+- - -
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
+
+- - -
+
+- - -
+
+__
+
+__
