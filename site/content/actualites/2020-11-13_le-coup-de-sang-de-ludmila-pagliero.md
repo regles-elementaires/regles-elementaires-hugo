@@ -3,7 +3,7 @@ title: Le Coup de Sang de Ludmila Pagliero
 tags:
   - news
   - coup de sang
-date: 2020-11-15T12:51:09.908Z
+date: 2020-11-13T12:51:09.908Z
 author: Ludmila Pagliero
 illu: /img/image-1-.jpeg
 intro: "A 14 ANS…\r\n\nA 14 ans, je suis devenue « une femme » comme il est d’usage de le dire par l’arrivée de mes règles. Autour de moi, beaucoup d’amies m’avaient parlé de ce passage délicat qui leur était arrivé, pour certaines avant même leurs 10 ans. Est-il possible pourtant de se sentir devenue « une femme » à un si jeune âge ? Pouvons-nous alors comprendre ce que cela représente ?"
