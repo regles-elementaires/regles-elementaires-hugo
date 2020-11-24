@@ -5,7 +5,11 @@ tags:
 date: 2020-11-24T09:01:40.727Z
 author: Megumi LEENHARDT
 illu: /img/image_d___ios.jpg
-intro: "\tLors de l’assemblée générale du début du mois de novembre s’est tenue l’élection de la nouvelle secrétaire générale de l’association Règles Élémentaires. A l’issue du vote, c’est Tina Theallet qui a pris ses nouvelles fonctions."
+intro: >-
+  Lors de l’assemblée générale du début du mois de novembre s’est tenue
+  l’élection de la nouvelle secrétaire générale de l’association Règles
+  Élémentaires. A l’issue du vote, c’est Tina Theallet qui a pris ses nouvelles
+  fonctions.
 layout: single
 ---
 Diplômée en droit en France et aux États-Unis, ancienne avocate au barreau de Paris, Tina a exercé dans plusieurs cabinets d’avocats d’affaires internationaux à Paris et au Luxembourg. C’est au début de l’année 2020 qu’elle rejoint l’équipe de Règles Élémentaires, en tant que juriste bénévole. En plus de répondre aux questions juridiques, Tina a participé à la refonte des statuts, une étape très importante pour le développement de l’Association. 
