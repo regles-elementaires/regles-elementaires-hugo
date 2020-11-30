@@ -8,11 +8,11 @@ date: 2020-11-30T12:15:34.061Z
 author: Laura Pajot
 illu: /img/img_6208.jpg
 intro: >-
-  Première surprise de notre semaine d'anniversaire 100% confinement compatible
-  !
+  **Première surprise de notre semaine d'anniversaire 100% confinement
+  compatible !**
 
 
-  Natalia Vodianova a un message pour vous.
+  **Natalia Vodianova a un message pour vous.**
 layout: video
 main_video_id: 'https://www.youtube.com/watch?v=Bybjece4g9U&amp%3Bfeature=youtu.be'
 video_list: []
