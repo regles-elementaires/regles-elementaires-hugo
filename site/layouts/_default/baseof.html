@@ -2,9 +2,12 @@
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
   <body class="font-sans">
-    {{ if $.Site.Params.display_popup_credit_menstruel }}
-      {{ if .IsHome }}
+    {{ if .IsHome }}
+      {{ if $.Site.Params.display_popup_credit_menstruel }}
         {{ partial "popup-credit-menstruel" . }}
+      {{ end }}
+      {{ if $.Site.Params.display_popup_5ans }}
+        {{ partial "popup-5ans" . }}
       {{ end }}
     {{ end }}
 
