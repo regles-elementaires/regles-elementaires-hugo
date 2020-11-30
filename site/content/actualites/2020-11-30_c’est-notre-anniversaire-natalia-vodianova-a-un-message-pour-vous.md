@@ -9,10 +9,7 @@ author: Laura Pajot
 illu: /img/img_6208.jpg
 intro: >-
   **Première surprise de notre semaine d'anniversaire 100% confinement
-  compatible !**
-
-
-  **Natalia Vodianova a un message pour vous.**
+  compatible ! Natalia Vodianova a un message pour vous.**
 layout: video
 main_video_id: 'https://youtu.be/Bybjece4g9U'
 video_list: []
