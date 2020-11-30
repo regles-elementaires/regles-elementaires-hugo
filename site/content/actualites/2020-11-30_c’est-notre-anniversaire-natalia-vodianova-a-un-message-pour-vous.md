@@ -11,7 +11,7 @@ intro: >-
   **Première surprise de notre semaine d'anniversaire 100% confinement
   compatible ! Natalia Vodianova a un message pour vous.**
 layout: video
-main_video_id: 'https://youtu.be/Bybjece4g9U'
+main_video_id: Bybjece4g9U
 video_list: []
 ---
 Mannequin et entrepreneure, Natalia nous parle de sa prise de conscience de la précarité menstruelle, de sa volonté de briser les tabous en créant Let's Talk - une plateforme qui traite de la honte et de la stigmatisation qui existent au sujet des règles et de la santé des femmes - et de son soutien à notre association.
