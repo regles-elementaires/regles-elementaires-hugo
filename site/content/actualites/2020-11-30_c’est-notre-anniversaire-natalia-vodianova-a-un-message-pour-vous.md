@@ -1,5 +1,5 @@
 ---
-title: 'C’est notre anniversaire |Natalia Vodianova  a un message pour vous '
+title: 'C’est notre anniversaire | Natalia Vodianova  a un message pour vous '
 tags:
   - news
   - video
