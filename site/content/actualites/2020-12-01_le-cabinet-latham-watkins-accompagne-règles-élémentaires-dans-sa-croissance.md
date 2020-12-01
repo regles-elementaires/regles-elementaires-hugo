@@ -5,7 +5,7 @@ tags:
   - partenaires
 date: 2020-12-01T14:54:26.851Z
 author: Megumi Leenhardt
-illu: /img/format_carré_partenariats_facebook-insta.png
+illu: /img/format_carré_partenariats_facebook-insta.jpg
 intro: >-
   Maîtres Christos Ierna, Sharon Mitz et Clémence Morel sont trois avocat·es du
   cabinet Latham & Watkins ayant travaillé sur un dossier pro bono pour Règles
