@@ -1,7 +1,7 @@
 ---
 title: Le Fonds L'Oréal pour les Femmes soutient Règles Élémentaires
 tags:
-  - anniversaire
+  - partenaires
   - news
 date: 2020-12-01T13:20:44.475Z
 author: Megumi Leenhardt
