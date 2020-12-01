@@ -5,7 +5,7 @@ tags:
   - news
 date: 2020-12-01T13:20:44.475Z
 author: Megumi Leenhardt
-illu: /img/l-oréal-fpf-logo-rgb-fr.jpg
+illu: /img/l-oréal-fpf-logo-rgb-fr.png
 intro: >-
   Le Fonds L’Oréal pour les Femmes apporte son soutien au développement de
   Règles Élémentaires à hauteur de 42 000€ pour l’année 2020.
