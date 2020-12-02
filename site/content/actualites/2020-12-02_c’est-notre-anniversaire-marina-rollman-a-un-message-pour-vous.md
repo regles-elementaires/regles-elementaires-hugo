@@ -11,7 +11,7 @@ intro: >-
   **Nouvelle surprise de notre semaine d'anniversaire 100% confinement
   compatible ! Marina Rollman a un message pour vous.**
 layout: video
-main_video_id: 'https://youtu.be/xwCWnyjW8nE'
+main_video_id: xwCWnyjW8nE
 ---
 Humoriste et chroniqueuse, Marina nous parle des conséquences de la crise sanitaire sur la situation des personnes les plus démunies et plus précisément sur la précarité menstruelle.  
 
