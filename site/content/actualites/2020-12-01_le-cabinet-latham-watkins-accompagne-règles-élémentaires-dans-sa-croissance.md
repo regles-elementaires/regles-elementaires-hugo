@@ -8,8 +8,8 @@ author: Megumi Leenhardt
 illu: /img/lw.png.jpg
 intro: >-
   Maîtres Christos Ierna, Sharon Mitz et Clémence Morel sont trois avocat·es du
-  cabinet Latham & Watkins ayant travaillé sur un dossier pro bono pour Règles
-  Élémentaires. En ce Giving Tuesday, iels reviennent sur cette expérience.
+  cabinet Latham & Watkins qui accompagnent Règles Élémentaires en pro bono. En
+  ce Giving Tuesday, iels reviennent sur cette expérience.
 layout: single
 ---
 Pouvez-vous vous présenter (Prénom, Nom,  ge ?, Fonction, Entreprise...) ? 
