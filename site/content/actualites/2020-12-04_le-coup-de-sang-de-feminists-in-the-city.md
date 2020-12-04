@@ -5,7 +5,7 @@ tags:
   - coup de sang
 date: 2020-12-06T13:31:18.834Z
 author: 'Cécile Fara & Julie Marangé, co-fondatrices de Feminists in the City'
-illu: /img/alice-.jpg
+illu: /img/julie-et-cecile.jpg
 intro: "**RACONTER DES HISTOIRES FÉMINISTES**\n\n**L’hymne des femmes, l’emblème du Mouvement de Libération des Femmes (MLF) débute ainsi : \r_« Nous qui sommes sans passé, les femmes, Nous qui n’avons pas d’histoire »_.** \r\n\n**Les femmes sont les grandes oubliées de l’Histoire : leur place, leur rôle dans les événements historiques ont été minimisés, dévalorisés, voire purement et simplement effacés.**"
 layout: single
 ---
