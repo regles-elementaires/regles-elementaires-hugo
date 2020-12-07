@@ -6,7 +6,18 @@ tags:
 date: 2020-12-06T13:31:18.834Z
 author: 'Cécile Fara & Julie Marangé, co-fondatrices de Feminists in the City'
 illu: /img/julie-et-cecile.jpg
-intro: "**RACONTER DES HISTOIRES FÉMINISTES**\n\n**L’hymne des femmes, l’emblème du Mouvement de Libération des Femmes (MLF) débute ainsi : \r_« Nous qui sommes sans passé, les femmes, Nous qui n’avons pas d’histoire »_.** \r\n\n**Les femmes sont les grandes oubliées de l’Histoire : leur place, leur rôle dans les événements historiques ont été minimisés, dévalorisés, voire purement et simplement effacés.**"
+intro: >-
+  **RACONTER DES HISTOIRES FÉMINISTES**
+
+
+  **L’hymne des femmes, l’emblème du Mouvement de Libération des Femmes (MLF)
+  débute ainsi : _« Nous qui sommes sans passé, les femmes, Nous qui n’avons pas
+  d’histoire »_.** 
+
+
+  **Les femmes sont les grandes oubliées de l’Histoire : leur place, leur rôle
+  dans les événements historiques ont été minimisés, dévalorisés, voire purement
+  et simplement effacés.**
 layout: single
 ---
 Ce constat est à la source de nos actions chez [Feminists in the City](https://www.feministsinthecity.com). Depuis mars 2018, nous avons créé 13 visites engagées à Paris, Lyon, Marseille, Toulouse et Bordeaux, proposant une redécouverte insolite de l’espace urbain, sous le prisme du féminisme. Cette année, nous avons également organisé plus de soixante Masterclasses et Ateliers en ligne. 
