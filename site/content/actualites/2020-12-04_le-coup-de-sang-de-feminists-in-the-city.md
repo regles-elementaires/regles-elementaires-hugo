@@ -15,7 +15,7 @@ intro: >-
   d’histoire »_.**
 layout: single
 ---
-**Les femmes sont les grandes oubliées de l’Histoire : leur place, leur rôle dans les événements historiques ont été minimisés, dévalorisés, voire purement et simplement effacés.**
+Les femmes sont les grandes oubliées de l’Histoire : leur place, leur rôle dans les événements historiques ont été minimisés, dévalorisés, voire purement et simplement effacés.
 
 Ce constat est à la source de nos actions chez [Feminists in the City](https://www.feministsinthecity.com). Depuis mars 2018, nous avons créé 13 visites engagées à Paris, Lyon, Marseille, Toulouse et Bordeaux, proposant une redécouverte insolite de l’espace urbain, sous le prisme du féminisme. Cette année, nous avons également organisé plus de soixante Masterclasses et Ateliers en ligne. 
 
