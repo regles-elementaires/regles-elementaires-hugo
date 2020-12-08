@@ -33,7 +33,11 @@ Si la parole autour des règles est une source de libération pour de nombreuses
 
 C’est pour cette raison que nous avons décidé d’organiser un atelier en ligne avec Clara, fondatrice du compte Instagram @coupdesang, grâce auquel elle offre un espace de parole, sans jugement ni tabou, au sujet des règles. Lors de cet Atelier, nous discuterons des solutions pour adoucir les douleurs menstruelles, partagerons des expériences et des conseils pour vivre au mieux ce moment, qui n’est franchement pas le plus agréable du mois ! 
 
-****
+**Ainsi, à notre manière, nous cherchons à participer à cette libération de la parole, dans un objectif de sororité - car il n’y a pas d’âge ou de moment pour reprendre le pouvoir sur son corps et sur son histoire.**
+
+
+
+- - -
 
 **Cécile Fara et Julie Marangé**
 
