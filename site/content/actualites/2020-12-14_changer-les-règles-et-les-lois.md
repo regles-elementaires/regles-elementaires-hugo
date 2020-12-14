@@ -2,7 +2,6 @@
 title: Changer les règles... et les lois !
 tags:
   - news
-  - ''
 date: 2020-12-11T13:31:18.834Z
 author: Laura Pajot
 illu: /img/citation.jpg
