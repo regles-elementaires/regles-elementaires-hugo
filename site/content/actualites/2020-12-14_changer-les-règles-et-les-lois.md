@@ -5,7 +5,7 @@ tags:
   - ''
 date: 2020-12-11T13:31:18.834Z
 author: Laura Pajot
-illu: /img/format_carré_partenariats_facebook-insta-5.png
+illu: /img/format_carré_partenariats_facebook-insta.jpg
 intro: >-
   **Communiqué de presse suite aux annonces d’Emmanuel Macron sur la précarité
   menstruelle.**
