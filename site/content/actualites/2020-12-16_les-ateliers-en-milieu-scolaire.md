@@ -15,15 +15,11 @@ layout: single
 
 Les 8 et 10 décembre derniers, Tara Heuzé-Sarmini, notre Directrice générale, et Laura Pajot, notre Responsable Communication, ont parlé du fonctionnement biologique des règles, de l'hygiène menstruelle, des tabous et de la précarité menstruelle avec deux classes de 5e du Collège La Grange aux Belles (Paris, 10e). 
 
-![](/img/image-3.jpeg)
-
-
+![](/img/image-1.jpg)
 
 Très intéressé·es par le sujet, les élèves ont beaucoup participé, multipliant les commentaires et les questions. Leurs interventions ont mis en lumière le poids des croyances et des tabous, et donc l'importance de parler des règles dès le plus jeune âge. 
 
 La formation et la sensibilisation - et en particulier des plus jeunes - sont essentielles dans une approche globale de la lutte contre la précarité menstruelle. 
-
-![](/img/image-2.jpeg)
 
 Nous avons hâte d'animer d'autres ateliers après les fêtes de fin d'année avec plein de nouvelles dates en perspective.
 
