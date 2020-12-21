@@ -2,9 +2,9 @@
 title: Les Règles de l'Art
 tags:
   - news
-date: 2020-12-16T13:31:18.834Z
+date: 2020-12-05T13:31:18.834Z
 author: Laura Pajot
-illu: /img/les-règles-de-l-art-1.png
+illu: /img/reglesdelart.png
 intro: '**Les artistes se mobilisent à nos côtés pour fêter nos 5 ans !**'
 layout: single
 ---
@@ -20,7 +20,7 @@ Nous espérons que les oeuvres que nous avons choisies ensemble vous plairont et
 
 Nous avons besoin de vous. Pour continuer de changer les règles et le monde dans lequel nous vivons. 
 
-Pour participer, c'est par [<<ici>>](bit.ly/lesreglesdelart).
+**Pour participer, c'est par** [**< < ici > >**](bit.ly/lesreglesdelart)**.**
 
 ![](/img/communication_anniversaire_modifiable-12.png)
 
