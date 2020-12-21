@@ -7,10 +7,8 @@ date: 2021-01-05T10:19:31.677Z
 author: Eugénie Drion
 illu: /img/eugenie-drion.jpeg
 intro: >-
-  **"Raconter cette histoire grâce à Règles Élémentaires, c’est pour moi
-  l’occasion de sensibiliser des jeunes filles à prendre soin de leur corps, à
-  parler de leurs règles, de leur présence ou non. Ne pas les voir comme un
-  fardeau, mais comme la validation d’un corps en bonne santé."**
+  **"J’ai eu mes règles régulièrement jusqu’à mes seize ans. Peu à peu, j’ai vu
+  le flux réduire, puis… disparaître."**
 layout: single
 ---
 En réfléchissant à la posture que je voulais adopter en écrivant ce “Coup de Sang”, celle de danseuse, celle de femme, je me suis rendue compte que le plus gros manque d’information que j’ai rencontré face au tabou des règles n’est pas l’existence de celles-ci, mais leur absence. Que veut dire de nous un retard, un manquement, ce vide, cette non présence des règles lorsque ce n’est pas lié à une grossesse ?
