@@ -25,7 +25,7 @@ A chacune de trouver selon sa constitution sa propre balance en ayant conscience
 
 Pour accomplir nos rêves et être en mesure de se dépasser, il faut en premier lieu être en forme. Et nos règles ne sont plus un frein à notre épanouissement, mais l’indicateur de notre santé. Si vous avez une amie, une cousine, une fille de votre entourage qui vous confie ne plus avoir ses règles, ou vous même, agissez en allant consulter. Je sais que c’est tentant de continuer à s’en passer mais… cela fait partie de nous. J’ai pu lire dans les autres « Coups de Sang » que, finalement, nous pouvons beaucoup améliorer les règles et la manière dont nous les vivons en changeant de point de vue. Accepter nos cycles, conscientiser nos corps, s’y connecter, appréhender ce que cela signifie pour vous, finalement n’est-ce pas cela qui est fascinant ? Et si on célébrait ce cheminement ?
 
-**Eugénie Drion**
+****[**Eugénie Drion**](https://www.operadeparis.fr/artistes/eugenie-drion)****
 
 - - -
 
