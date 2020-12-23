@@ -23,4 +23,4 @@ Au début de l’année, Tara Heuzé-Sarmini a lancé ses recherches. En effet, 
 
 De fil en aiguille, d’un·e interlocuteur·ice à l’autre, un accord a finalement été trouvé entre Sephora, Deret, leur partenaire logistique, et Règles Élémentaires. C’est ainsi que plusieurs millions de produits ont pu être redistribués, permettant à l’Association d’étendre son rayonnement dans de nouvelles régions du territoire et d’accroître sa force de frappe. 
 
-Vous pourrez retrouver notre étude de cas >>> [ici](https://drive.google.com/file/d/1bFaAmRshPJvZ4SRhPC-Yv1SrXz54Nwbp/view?usp=sharing) <<<
+Vous pourrez retrouver notre étude de cas > [ici](https://drive.google.com/file/d/1bFaAmRshPJvZ4SRhPC-Yv1SrXz54Nwbp/view?usp=sharing) <
