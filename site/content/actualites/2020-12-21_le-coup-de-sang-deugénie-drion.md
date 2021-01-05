@@ -3,7 +3,7 @@ title: Le Coup de Sang d'Eugénie Drion
 tags:
   - news
   - coup de sang
-date: 2021-01-05T10:19:31.677Z
+date: 2021-01-04T10:19:31.677Z
 author: Eugénie Drion
 illu: /img/eugenie-drion.jpeg
 intro: >-
