@@ -16,11 +16,10 @@ payements:
     link: https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget
   - img: /img/page-dons-financiers/cheque.svg
     text: Chèque
-    subtext: "à l’ordre de : Règles Élémentaires"
+    subtext: "À l’ordre de : Règles Élémentaires"
     address: |
       Adresse :<br>
-      Association<br>
-      Règles Élémentaires<br>
+      Association Règles Élémentaires<br>
       La Cité Audacieuse<br>
       9 rue de Vaugirard<br>
       75006 Paris
