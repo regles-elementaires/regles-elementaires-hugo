@@ -7,7 +7,7 @@
         <span class="text-rered font-bold mb-3">{{ $item.text }}</span>
         <ol class="text-rered ml-8 mb-5 list-decimal">
             {{ range $engagement := $item.engagements}}
-            <li>{{ $engagement }}</li>
+            <li>{{ $engagement | markdownify }}</li>
             {{ end }}
         </ol>
         {{ end }}
