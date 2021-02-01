@@ -3,21 +3,21 @@
     {{ partial "projet/page-desc" . }}
     <div class="container pt-8">
         <div class="px-8">
-            <div class="flex flex-col md:flex-row text-rered -mx-8">
-                <div class="w-1/1 md:w-1/2 px-8 pb-4">
+            <div class="flex flex-col md:flex-row md:items-stretch text-rered -mx-8">
+                <div class="w-full md:w-1/2 px-8 pb-4">
                     {{with .Params.mission_first }}
-                    <div class="bg-repink p-8 rounded-lg flex flex-col items-center">
+                    <div class="bg-repink p-8 rounded-lg flex flex-col items-center h-full">
                         {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="text-center markdown mt-4 text-justify">{{.content | markdownify }}</div>
+                        <div class="markdown mt-4 text-justify">{{.content | markdownify }}</div>
                         <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
                     </div>
                     {{end}}
                 </div>
-                <div class="w-1/1 md:w-1/2 px-8 pb-4">
+                <div class="w-full md:w-1/2 px-8 pb-4">
                     {{with .Params.mission_second }}
-                    <div class="bg-repink p-8 rounded-lg flex flex-col items-center">
+                    <div class="bg-repink p-8 rounded-lg flex flex-col items-center h-full">
                         {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="text-center markdown mt-4 text-justify">{{.content | markdownify }}</div>
+                        <div class="markdown mt-4 text-justify">{{.content | markdownify }}</div>
                         <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
                     </div>
                     {{end}}
