@@ -34,21 +34,21 @@ numbers:
     - number: "+ de 4 000 000"
       img: /img/page-mission/groupe-protections.svg
       desc: de produits d’hygiène intime ont été redistribués
-    - number: "+ de 1 000"
-      img: /img/page-mission/carte.svg
-      desc: collectes organisées partout en France
     - number: "+ de 100 000"
       img: /img/page-mission/icon-femme.svg
       desc: femmes bénéficiaires
+    - number: "+ de 1 000"
+      img: /img/page-mission/carte.svg
+      desc: collectes organisées partout en France
     - number: "+ de 200"
-      img: /img/page-mission/paquet-nana-simple.svg
+      img: /img/page-mission/paquet-nana-v2.svg
       desc: partenariats
-    - number: "6"
-      img: /img/page-mission/partenaire.svg
-      desc: antennes
     - number: "20"
       img: /img/page-mission/RE-plus.svg
       desc: personnes forment l’équipe
+    - number: "6"
+      img: /img/page-mission/partenaire.svg
+      desc: antennes
 collectes:
   img: /img/page-mission/chart.svg
 ---

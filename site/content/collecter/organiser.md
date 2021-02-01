@@ -12,7 +12,7 @@ illu: /img/page-collecte/exemple-collecte.jpg
 steps:
   - img: /img/page-collecte/etape-1.svg
     step: 1
-    text: J'identifie un lieu, les dates, les horaires, éventuellement des coéquipier.e.s.
+    text: J'identifie un lieu, les dates, les horaires, éventuellement des coéquipier·es.
   - img: /img/page-collecte/etape-2.svg
     step: 2
     text: 'Je me rends sur <br>l''<a href="https://collectes.regleselementaires.com/" target="_blank" onclick="gtag(''event'', ''clicOrganiserCollecte'', {''event_category'': ''Collecte'',''event_label'': ''bouton_step_2''});">espace collecte Règles Élémentaires</a>.'
@@ -47,4 +47,4 @@ steps:
 
 **Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première nécessité, c’est aussi briser le tabou autour des menstruations.**
 
-Depuis la création de l’Association, plus de mille collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant.e.s, salarié.e.s, employé.e.s, retraité.e.s, chef.fe.s d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals … Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous !
+Depuis la création de l’Association, plus de mille collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant⸱es, salarié⸱es, employé⸱es, retraité⸱es, chef⸱fes d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals … Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous !

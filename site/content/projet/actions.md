@@ -10,7 +10,7 @@ actions:
   - btn_link: /collecter/organiser
     btn_text: Voir les étapes pour créer sa collecte ponctuelle
     content: >
-      Des campagnes de collecte de produits d’hygiène intime, clé en main et ouvertes à tou.te.s, permettent chaque année de récolter des centaines de milliers de protections à destinations des femmes dans le besoin partout en France. Des centaines de magasins, cabinets médicaux, établissements scolaires … ont déjà créé leur collecte ponctuelle et personnalisé leurs boîtes à dons grâce à notre kit de customisation !
+      Des campagnes de collecte de produits d’hygiène intime, clé en main et ouvertes à tou·tes, permettent chaque année de récolter des centaines de milliers de protections à destinations des femmes dans le besoin partout en France. Des centaines de magasins, cabinets médicaux, établissements scolaires … ont déjà créé leur collecte ponctuelle et personnalisé leurs boîtes à dons grâce à notre kit de customisation !
     title: Les collectes ponctuelles
     illu:
       - /img/page-actions/illu-action1.jpg
@@ -36,7 +36,7 @@ actions:
     target_blank: true
     btn_text: Devenir Partenaire
     content: >
-      Des ateliers d’information et de formation aux protections hygiéniques lavables et réutilisables sont organisés pour tenter de mettre fin à la dépendance aux dons des femmes hébergées. Organisés en partenariat avec des fabricants de cups, serviettes lavables et culottes menstruelles, ces ateliers - en phase pilote -  informent les femmes dans le besoin de l’existence de ces solutions plus économiques et écologiques.
+      Des ateliers d’information et de formation aux protections hygiéniques lavables et réutilisables sont organisés pour tenter de mettre fin à la dépendance aux dons des femmes bénéficiaires. Organisés en partenariat avec des fabricants de cups, serviettes lavables et culottes menstruelles, ces ateliers - en phase pilote -  informent les femmes dans le besoin de l’existence de ces solutions plus économiques et écologiques.
     title: Les ateliers auprès des bénéficiaires
     illu:
       - /img/page-actions/ateliers-2.jpg
@@ -49,7 +49,7 @@ actions:
       En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles.
 
 
-      Cela passe  par différentes actions de sensibilisation auprès de tou.te.s : via des conférences dans les entreprises, dans les écoles, dans les universités ; via des interventions lors de festivals, de forums, de soirées … mais aussi via les médias, des partenariats décalés et nos désormais fameux apéros mens(tr)uels !
+      Cela passe  par différentes actions de sensibilisation auprès de tou·tes : via des conférences dans les entreprises, dans les écoles, dans les universités ; via des interventions lors de festivals, de forums, de soirées … mais aussi via les médias, des partenariats décalés et nos désormais fameux apéros mens(tr)uels !
 
     title: Les événements de sensibilisation
     illu:
