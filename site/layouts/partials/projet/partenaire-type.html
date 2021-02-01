@@ -7,8 +7,9 @@
                 <div class="text-rered mb-8 markdown text-justify">{{.text | markdownify}}</div>
                 {{end}}
                 {{if isset . "btn_text"}}
-                <div class="mb-8"><a class="py-4 border-b-2 border-rered text-rered uppercase font-bold text-sm"
-                                href="{{ .btn_link }}" target="_blank">{{ .btn_text }}</a></div>
+                <div class="mb-8">
+                        <a class="big-red-button" href="{{ .btn_link }}" target="_blank">{{ .btn_text }}</a>
+                </div>
                 {{end}}
         </div>
         {{end}}
