@@ -7,7 +7,7 @@
 
 /*
 === GENERIC
-*/ 
+*/
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg;
 }
@@ -34,7 +34,6 @@
   @apply text-repink border-repink;
 }
 
-
 .title-red {
   @apply text-xl text-rered uppercase font-bold;
 }
@@ -43,7 +42,7 @@
   @apply mb-4;
 }
 .markdown ul {
-  @apply pl-4; 
+  @apply pl-4;
   list-style: disc inside none;
 }
 .markdown h3 {
@@ -55,12 +54,12 @@
 }
 @responsive {
   .title-shadow-lg {
-    text-shadow: 7px 11px 1px #E9364B;
+    text-shadow: 7px 11px 1px #e9364b;
   }
 }
 @responsive {
   .title-shadow-sm {
-    text-shadow: 4px 6px 1px #E9364B;
+    text-shadow: 4px 6px 1px #e9364b;
   }
 }
 /* 
@@ -88,18 +87,17 @@
 .sub-menu-item {
   @apply px-3 uppercase whitespace-no-wrap;
 }
-.sub-menu-item:hover a{
+.sub-menu-item:hover a {
   @apply border-b-2;
 }
 /*
 === HEADER ===
 */
-.desc__content a{
+.desc__content a {
   @apply text-redarkgrey underline;
 }
 .page-desc--red .desc__content a {
   @apply text-white underline;
-
 }
 /*
 === HOME ===
@@ -171,7 +169,7 @@
 
 /* POPUP CREDIT MENSTRUEL */
 .popup-img {
-  background-image: url('/img/photo-popup-credit-menstruel-resized.jpg');
+  background-image: url("/img/photo-popup-credit-menstruel-resized.jpg");
 }
 
 .bg-popup-overlay {
