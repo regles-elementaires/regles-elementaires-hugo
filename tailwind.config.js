@@ -28,7 +28,7 @@ module.exports = {
         redarkpink: "#ff9ca8",
         redarkgrey: "#535353",
         regrey: "#F5F5F5",
-      }
+      },
     },
   },
   variants: {

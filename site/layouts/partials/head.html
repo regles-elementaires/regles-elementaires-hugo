@@ -1,46 +1,81 @@
 <head>
+  <title>{{ .Title }} | {{ $.Site.Title }}</title>
 
-	<title>{{ .Title }} | {{ $.Site.Title }}</title>
+  {{ $stylesheet := .Site.Data.webpack.main }}
+  {{ with $stylesheet.css }}
+    <link href="{{ relURL . }}" rel="stylesheet" />
+  {{ end }}
 
-	{{ $stylesheet := .Site.Data.webpack.main }}
-	{{ with $stylesheet.css }}
-	<link href="{{ relURL . }}" rel="stylesheet">
-	{{ end }}
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  />
+  <base
+    href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}"
+  />
 
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	<base
-		href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+  <link
+    href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Favicons -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/img/favicon/apple-icon-180x180.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/img/favicon/favicon-96x96.png"
+    sizes="96x96"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/img/favicon/favicon-32x32.png"
+    sizes="32x32"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/img/favicon/favicon-16x16.png"
+    sizes="16x16"
+  />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#fff" />
 
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
-	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#fff">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="Règles Élémentaires | Lutte contre la précarité menstruelle"
+  />
+  <meta property="og:url" content="/" />
 
-	<!-- Open Graph -->
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Règles Élémentaires | Lutte contre la précarité menstruelle">
-	<meta property="og:url" content="/">
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-159065733-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159065733-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-		function gtag() {
-			dataLayer.push(arguments)
-		};
-		gtag('js', new Date());
+    gtag("config", "UA-159065733-1");
+  </script>
 
-		gtag('config', 'UA-159065733-1');
-	</script>
-
-	{{ if .IsHome }}
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer async></script>
-	{{ end }}
+  {{ if .IsHome }}
+    <script
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+      defer
+      async
+    ></script>
+  {{ end }}
 </head>

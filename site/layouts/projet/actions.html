@@ -8,9 +8,15 @@
             <div class="w-full md:w-3/5 bg-repink flex flex-col items-center p-8">
                 {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
                 <img class="h-16 mb-2" src="/img/page-actions/arrow.png" />
-                <div class="text-rered text-center markdown text-justify">{{.content | markdownify}}</div>
-                {{ if ne .btn_link ""}}<a class="big-red-button my-8" href="{{.btn_link}}"
-                    {{if isset . "target_blank"}}target="_blank" {{end}}}>{{.btn_text}}</a>{{end}}
+                <div class="text-rered markdown text-justify">{{.content | markdownify}}</div>
+                {{ if ne .btn_link ""}}
+                    <a class="big-red-button my-8" href="{{.btn_link}}"
+                        {{if .target_blank}}
+                            target="_blank" 
+                        {{end}}
+                        >{{.btn_text}}
+                    </a>
+                {{end}}
             </div>
             <div class="w-1/1 md:w-2/5 px-2">
                 <div class="flex flex-row flex-wrap h-full -mx-4 relative content-center">

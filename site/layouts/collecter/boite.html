@@ -1,61 +1,97 @@
 {{ define "main" }}
-<div>
+  <div>
     {{ partial "projet/page-desc" . }}
     <div class="container lg:px-8 pt-8">
-        <div class="flex flex-col items-center p-8 shadow-2xl">
-            <h3 class="uppercase text-xl font-bold text-redarkpink mb-4">Créer ma boîte à dons <span
-                    class="text-rered">ou</span> obtenir une boîte officielle : <span class="text-rered">mode
-                    d'emploi</span></h3>
-            <p class="text-rered">Je souhaite organiser une collecte et j'ai consulté au préalable la page <a
-                    href="/collecter/organiser" class="font-bold underline">Organiser ma collecte</a></p>
-        </div>
+      <div class="flex flex-col items-center p-8 shadow-2xl">
+        <h3 class="uppercase text-xl font-bold text-redarkpink mb-4">
+          Créer ma boîte à dons <span class="text-rered">ou</span> obtenir une
+          boîte officielle : <span class="text-rered">mode d'emploi</span>
+        </h3>
+        <p class="text-rered">
+          Je souhaite organiser une collecte et j'ai consulté au préalable la
+          page
+          <a href="/collecter/organiser" class="font-bold underline"
+            >Organiser ma collecte</a
+          >
+        </p>
+      </div>
     </div>
     <div class="container px-4 lg:px-12 my-4">
-        <div class="flex flex-wrap -mx-8 justify-center items-start">
-            <div class="w-1/1 md:w-1/2 flex flex-col px-4 mb-4 items-center justify-center">
-                <div class="bg-repink rounded-lg p-4 w-full mb-4 text-justify">
-                    <h2 class="title-red mb-4">Collecte de moins de 3 mois</h2>
-                    <p class="text-rered mb-4">Je mets moi-même à disposition une boîte (carton, plastique, etc.) que je
-                        personnalise avec le kit de customisation envoyé par Règles Élémentaires une fois ma collecte
-                        validée.</p>
-                    <p class="text-rered">Exemples de boîtes customisées :</p>
-                </div>
-                <div class="px-4">
-                    <div class="flex flex-row flex-wrap -mx-4">
-                        <img class="mb-2 w-1/2 px-4" src="/img/page-collecte/boite-custom-02.png" />
-                        <img class="mb-2 w-1/2 px-4" src="/img/page-collecte/boite-custom-03.png" />
-                    </div>
-                </div>
+      <div class="flex flex-wrap -mx-8 justify-center items-start">
+        <div
+          class="w-1/1 md:w-1/2 flex flex-col px-4 mb-4 items-center justify-center"
+        >
+          <div class="bg-repink rounded-lg p-4 w-full mb-4 text-justify">
+            <h2 class="title-red mb-4">Collecte de moins de 3 mois</h2>
+            <p class="text-rered mb-4">
+              Je mets moi-même à disposition une boîte (carton, plastique, etc.)
+              que je personnalise avec le kit de customisation envoyé par Règles
+              Élémentaires une fois ma collecte validée.
+            </p>
+            <p class="text-rered">Exemples de boîtes customisées :</p>
+          </div>
+          <div class="px-4">
+            <div class="flex flex-row flex-wrap -mx-4">
+              <img
+                class="mb-2 w-1/2 px-4"
+                src="/img/page-collecte/boite-custom-02.png"
+              />
+              <img
+                class="mb-2 w-1/2 px-4"
+                src="/img/page-collecte/boite-custom-03.png"
+              />
             </div>
-            <div class="w-1/1 md:w-1/2 flex-col px-4">
-                <div class="bg-repink rounded-lg p-4 mb-4 text-justify">
-                    <h2 class="title-red mb-4">Collecte de longue durée - supérieure à 3 mois</h2>
-                    <p class="text-rered mb-4">je peux commander une boite officielle moyennant participation aux frais
-                        de
-                        production*</p>
-                    <p class="text-rered mb-4">Je suis dans une ville où Règles Élémentaires à une antenne
-                        (Paris, Bordeaux, Strasbourg, Lyon, Bruxelles, Marseille): Un membre de l'équipe me la livrera</p>
-                    <p class="text-rered mb-4">Je suis ailleurs: Je prends en charge les frais de transport en plus du coût de la boîte</p>
-                </div>
-                <div class="px-4">
-                    <div class="flex flex-row flex-wrap -mx-4">
-                        <img class="mb-2 w-1/2 px-4" src="/img/page-collecte/boite-officielle.png" />
-                        <img class="mb-2 w-1/2 px-4" src="/img/page-collecte/boite-officielle-02.png" />
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="w-1/1 md:w-1/2 flex-col px-4">
+          <div class="bg-repink rounded-lg p-4 mb-4 text-justify">
+            <h2 class="title-red mb-4">
+              Collecte de longue durée - supérieure à 3 mois
+            </h2>
+            <p class="text-rered mb-4">
+              je peux commander une boite officielle moyennant participation aux
+              frais de production*
+            </p>
+            <p class="text-rered mb-4">
+              Je suis dans une ville où Règles Élémentaires à une antenne
+              (Paris, Bordeaux, Strasbourg, Lyon, Bruxelles, Marseille): Un
+              membre de l'équipe me la livrera
+            </p>
+            <p class="text-rered mb-4">
+              Je suis ailleurs: Je prends en charge les frais de transport en
+              plus du coût de la boîte
+            </p>
+          </div>
+          <div class="px-4">
+            <div class="flex flex-row flex-wrap -mx-4">
+              <img
+                class="mb-2 w-1/2 px-4"
+                src="/img/page-collecte/boite-officielle.png"
+              />
+              <img
+                class="mb-2 w-1/2 px-4"
+                src="/img/page-collecte/boite-officielle-02.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     {{ partial "collecter/bouton-organiser" . }}
     <div class="container lg:px-8 mb-4">
-        <div class="flex flex-col items-center p-8 shadow-2xl">
-            <p class="text-rered text-justify">* Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’intérêt général.
-                Les boîtes à dons de l’association, fabriquées en France, sont coûteuses à produire
-                et transporter. Afin de soutenir la production et de poursuivre l’installation des boîtes officielles
-                dans le plus d’endroits possibles, nous demandons une contribution financière aux organisateurs et
-                organisatrices de collectes qui souhaitent en installer. Cette contribution est déterminée selon les
-                moyens de chacun et est éligible à déduction fiscale.</p>
-        </div>
+      <div class="flex flex-col items-center p-8 shadow-2xl">
+        <p class="text-rered text-justify">
+          * Règles Élémentaires est une association loi 1901 à but non-lucratif
+          et reconnue d’intérêt général. Les boîtes à dons de l’association,
+          fabriquées en France, sont coûteuses à produire et transporter. Afin
+          de soutenir la production et de poursuivre l’installation des boîtes
+          officielles dans le plus d’endroits possibles, nous demandons une
+          contribution financière aux organisateurs et organisatrices de
+          collectes qui souhaitent en installer. Cette contribution est
+          déterminée selon les moyens de chacun et est éligible à déduction
+          fiscale.
+        </p>
+      </div>
     </div>
-</div>
+  </div>
 {{ end }}

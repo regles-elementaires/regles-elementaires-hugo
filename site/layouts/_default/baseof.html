@@ -11,14 +11,15 @@
       {{ end }}
     {{ end }}
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+    {{ block "header" . }}{{ partial "nav" . }}{{ end }}
 
     {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    {{ block "footer" . }}{{ partial "footer" . }}{{ end }}
 
-    {{ $script := .Site.Data.webpack.main }} {{ with $script.js }}
-    <script src="{{ relURL . }}"></script>
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+      <script src="{{ relURL . }}"></script>
     {{ end }}
   </body>
 </html>

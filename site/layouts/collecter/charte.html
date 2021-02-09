@@ -1,17 +1,19 @@
 {{ define "main" }}
-
-<div class="bg-repink">
+  <div class="bg-repink">
     <div class="flex flex-col w-5/5 md:w-3/5 md:mx-auto mx-5 py-8">
-        <h1 class="text-2xl text-rered uppercase font-bold self-center text-center">{{ .Title }}</h1>
-        {{ range $item := .Params.charte }}
+      <h1
+        class="text-2xl text-rered uppercase font-bold self-center text-center"
+      >
+        {{ .Title }}
+      </h1>
+      {{ range $item := .Params.charte }}
         <span class="text-rered font-bold mb-3">{{ $item.text }}</span>
         <ol class="text-rered ml-8 mb-5 list-decimal">
-            {{ range $engagement := $item.engagements}}
+          {{ range $engagement := $item.engagements }}
             <li>{{ $engagement | markdownify }}</li>
-            {{ end }}
+          {{ end }}
         </ol>
-        {{ end }}
+      {{ end }}
     </div>
-</div>
-
+  </div>
 {{ end }}

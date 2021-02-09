@@ -1,34 +1,44 @@
 {{ define "main" }}
-<div>
-  {{ partial "projet/page-desc" . }}
+  <div>
+    {{ partial "projet/page-desc" . }}
 
-  <div class="container px-8 mt-8">
-    <div class="flex flex-wrap -mx-8">
-      {{ range (sort $.Site.Data.team "order" "asc") }}
-      {{ partial "projet/team-member" . }}
-      {{ end }}
-    </div>
-  </div>
-  <div class="flex">
-    <div class="bg-repink flex-1"></div>
-    <div class="container">
-      <div class="flex flex-wrap">
-        <div class="w-full md:w-1/2 bg-repink text-rered p-8">
-          {{ with .Params.engager }}
-          <h2 class="text-3xl mb-8 uppercase font-bold">{{ .title }}</h2>
-          {{ .text | markdownify}}
-          {{ end }}
-        </div>
-        <div class="w-full md:w-1/2 bg-repink flex items-center flex-col justify-center pb-8">
-          <h3 class="title-with-shadow text-3xl title-shadow-sm">#ENGAGEZVOUS</h3>
-          <h3 class="title-with-shadow text-3xl title-shadow-sm mb-4">#CHANGERLESRÈGLES</h3>
-          <a class="big-red-button" href="https://bit.ly/RE-rejoindrelequipe" target="_blank">Rejoindre
-            l'Association</a>
-        </div>
+    <div class="container px-8 mt-8">
+      <div class="flex flex-wrap -mx-8">
+        {{ range (sort $.Site.Data.team "order" "asc") }}
+          {{ partial "projet/team-member" . }}
+        {{ end }}
       </div>
     </div>
-    <div class="bg-repink flex-1"></div>
+    <div class="flex">
+      <div class="bg-repink flex-1"></div>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-1/2 bg-repink text-rered p-8">
+            {{ with .Params.engager }}
+              <h2 class="text-3xl mb-8 uppercase font-bold">{{ .title }}</h2>
+              {{ .text | markdownify }}
+            {{ end }}
+          </div>
+          <div
+            class="w-full md:w-1/2 bg-repink flex items-center flex-col justify-center pb-8"
+          >
+            <h3 class="title-with-shadow text-3xl title-shadow-sm">
+              #ENGAGEZVOUS
+            </h3>
+            <h3 class="title-with-shadow text-3xl title-shadow-sm mb-4">
+              #CHANGERLESRÈGLES
+            </h3>
+            <a
+              class="big-red-button"
+              href="https://bit.ly/RE-rejoindrelequipe"
+              target="_blank"
+              >Rejoindre l'Association</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="bg-repink flex-1"></div>
+    </div>
+    {{ partial "projet/moi-aussi" . }}
   </div>
-  {{ partial "projet/moi-aussi" . }}
-</div>
 {{ end }}
