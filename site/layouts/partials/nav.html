@@ -26,7 +26,7 @@
 					<li
 						class="menu-item menu-item-space relative {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)}} font-bold {{end}}">
 						<a href="{{.URL}}"
-							class="menu-item--hover {{ if eq .Identifier "soutenir" }}sm:border-b-4 border-white no-underline{{ end }}">
+							class="menu-item--hover">
 							{{.Name}}
 						</a></li>
 					{{end}}
