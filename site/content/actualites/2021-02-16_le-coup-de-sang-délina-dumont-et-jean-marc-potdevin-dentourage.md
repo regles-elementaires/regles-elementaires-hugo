@@ -23,8 +23,6 @@ Vous pouvez consulter son rapport en qualité d'experte des femmes à la rue et 
 
 C’est donc à Elina DUMONT que je laisse naturellement la parole pour la suite de ce "Coup de Sang" en forme de témoignage personnel.
 
-
-
 J’ai plus d’un demi-siècle. Je réalise qu’aujourd’hui en 2021 la problématique des serviettes hygiéniques, tampons... bref, l'hygiène intime des femmes est toujours un problème !
 
 Pour ma part, à chaque maraude, je suis toujours surprise que des femmes utilisent encore aujourd’hui les mêmes astuces que moi il y a 30 ans lorsque j’étais dans la rue : journaux, papier toilette ou tissus trouvés dans les poubelles au moment de leur règles, parfois douloureuses et sans médicaments.
@@ -51,8 +49,18 @@ Pour parler à ces femmes, il faudrait que l'on organise davantage de maraudes e
 
 Citation de Victor HUGO : « L'enfer est tout entier dans ce mot : SOLITUDE » 
 
+****
+
+**Elina DUMONT, Vice-Présidente du Comité de la rue d’**[**Entourage**](https://www.entourage.social)\*\*\*\*
+
+**Jean-Marc POTDEVIN, Co-Fondateur de l’association** [**Entourage**](https://www.entourage.social)\*\*\*\*
 
 
-**Elina DUMONT, Vice-Présidente du Comité de la rue d’**[**Entourage**](https://www.entourage.social)****
 
-**Jean-Marc POTDEVIN, Co-Fondateur de l’association** [**Entourage**](https://www.entourage.social)****
+- - -
+
+- - -
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
+
+- - -
