@@ -3,7 +3,7 @@ title: Le Coup de Sang d'Élina Dumont et Jean-Marc Potdevin d'Entourage
 tags:
   - news
   - coup de sang
-date: 2021-02-18T17:25:50.175Z
+date: 2021-02-23T17:25:50.175Z
 author: Élina Dumont & Jean-Marc Potdevin
 illu: /img/ré-plan-de-travail-3.png
 intro: >-
