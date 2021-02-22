@@ -7,9 +7,9 @@ date: 2021-02-21T17:25:50.175Z
 author: Élina Dumont & Jean-Marc Potdevin
 illu: /img/img_7709.jpg
 intro: >-
-  **[**Entourage**](https://www.entourage.social)** est un réseau qui crée du
-  lien social, afin de permettre aux “exclus” et aux "inclus" de se rencontrer
-  et s’entraider, soutenus par une ​application ​mobile, réseau véritablement
+  [Entourage](https://www.entourage.social) est un réseau qui crée du lien
+  social, afin de permettre aux “exclus” et aux "inclus" de se rencontrer et
+  s’entraider, soutenus par une ​application ​mobile, réseau véritablement
   "social" .
 layout: single
 ---
