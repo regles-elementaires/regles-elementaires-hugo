@@ -1,10 +1,10 @@
 ---
-title: Le Coup de Sang d'Élina Dumont et Jean-Marc Potdevin d'Entourage
+title: Le Coup de Sang d'Elina Dumont et Jean-Marc Potdevin d'Entourage
 tags:
   - news
   - coup de sang
 date: 2021-02-21T17:25:50.175Z
-author: Élina Dumont & Jean-Marc Potdevin
+author: Elina Dumont & Jean-Marc Potdevin
 illu: /img/img_7709.jpg
 intro: >-
   **ENTOURAGE est un réseau qui crée du lien social, afin de permettre aux
