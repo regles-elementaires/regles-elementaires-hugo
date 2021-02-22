@@ -7,16 +7,16 @@ date: 2021-02-21T17:25:50.175Z
 author: Élina Dumont & Jean-Marc Potdevin
 illu: /img/img_7709.jpg
 intro: >-
-  **Entourage est un réseau qui crée du lien social, afin de permettre aux
+  ENTOURAGE est un réseau qui crée du lien social, afin de permettre aux
   “exclus” et aux "inclus" de se rencontrer et s’entraider, soutenus par une
-  ​application ​mobile, réseau véritablement "social" .**
+  ​application ​mobile, réseau véritablement "social" .
 layout: single
 ---
 Nous avons, deux années de suite, organisé une grande collecte de produits​ d’hygiène (serviettes hygiéniques, tampons, _etc._) à destination des femmes en situation de rue ou en grande précarité et avons été littéralement submergés par l'incroyable affluence le jour de la distribution. Le "succès" de ces opérations démontrait bien tristement notre immense échec collectif face à la situation désastreuse de ces femmes.
 
 En tant qu’homme, ce "Coup de Sang" est une blessure : quand tu saignes, je saigne, car "nul homme n’est une île". Ça me blesse profondément de constater cet état délabré des conditions dans lesquelles vivent certains êtres humains - particulièrement les femmes en précarité dont on parle ici.
 
-Notre ADN chez [Entourage](https://www.entourage.social) consiste à ne pas penser "pour" ou "à la place" des personnes concernées, mais au contraire d'écouter la parole de ces femmes pour à la fois identifier leurs problèmes réels, et ainsi suggérer d’éventuelles pistes de solutions. Au cœur de notre gouvernance associative se trouve donc le "Comité de la rue", constitué de personnes ayant vécu des situations violentes liées à la grande exclusion qu’est la rue. Nous passons au crible nos décisions, nos projets, nos partenariats. Nous avons la grande chance d’avoir à la vice-présidence de ce comité Elina Dumont qui , après avoir vécu 15 sans domicile fixe, se bat aujourd’hui pour la lutte contre le sans-abrisme, avec un focus particulier pour les femmes.
+Notre ADN chez [ENTOURAGE](https://www.entourage.social) consiste à ne pas penser "pour" ou "à la place" des personnes concernées, mais au contraire d'écouter la parole de ces femmes pour à la fois identifier leurs problèmes réels, et ainsi suggérer d’éventuelles pistes de solutions. Au cœur de notre gouvernance associative se trouve donc le "Comité de la rue", constitué de personnes ayant vécu des situations violentes liées à la grande exclusion qu’est la rue. Nous passons au crible nos décisions, nos projets, nos partenariats. Nous avons la grande chance d’avoir à la vice-présidence de ce comité Elina Dumont qui , après avoir vécu 15 sans domicile fixe, se bat aujourd’hui pour la lutte contre le sans-abrisme, avec un focus particulier pour les femmes.
 
 Vous pouvez consulter son rapport en qualité d'experte des femmes à la rue et de la grande exclusion des femmes de France qui rend compte de la situation des femmes à la rue <<[ici](www.iledefrance.fr/femmes-la-rue-le-rapport-delina-dumont)>>.
 
@@ -54,9 +54,9 @@ _Pour parler à ces femmes, il faudrait que l'on organise davantage de maraudes 
 
 - - -
 
-**Elina DUMONT, Vice-Présidente du Comité de la rue d’**[**Entourage**](https://www.entourage.social)
+**Elina DUMONT, Vice-Présidente du Comité de la rue d’**[**ENTOURAGE**](https://www.entourage.social)
 
-**Jean-Marc POTDEVIN, Co-Fondateur de l’association** [**Entourage**](https://www.entourage.social)
+**Jean-Marc POTDEVIN, Co-Fondateur de l’association** [**ENTOURAGE**](https://www.entourage.social)
 
 - - -
 
