@@ -7,10 +7,10 @@ date: 2021-02-21T17:25:50.175Z
 author: Élina Dumont & Jean-Marc Potdevin
 illu: /img/img_7709.jpg
 intro: >-
-  ****[**Entourage**](https://www.entourage.social) **est un réseau qui crée du
+  **[**Entourage**](https://www.entourage.social)** est un réseau qui crée du
   lien social, afin de permettre aux “exclus” et aux "inclus" de se rencontrer
   et s’entraider, soutenus par une ​application ​mobile, réseau véritablement
-  "social" .**
+  "social" .
 layout: single
 ---
 Nous avons, deux années de suite, organisé une grande collecte de produits​ d’hygiène (serviettes hygiéniques, tampons, _etc._) à destination des femmes en situation de rue ou en grande précarité et avons été littéralement submergés par l'incroyable affluence le jour de la distribution. Le "succès" de ces opérations démontrait bien tristement notre immense échec collectif face à la situation désastreuse de ces femmes.
@@ -49,13 +49,11 @@ Pour parler à ces femmes, il faudrait que l'on organise davantage de maraudes e
 
 Citation de Victor HUGO : « L'enfer est tout entier dans ce mot : SOLITUDE » 
 
-****
+- - -
 
-**Elina DUMONT, Vice-Présidente du Comité de la rue d’**[**Entourage**](https://www.entourage.social)\*\*\*\*
+**Elina DUMONT, Vice-Présidente du Comité de la rue d’**[**Entourage**](https://www.entourage.social)
 
-**Jean-Marc POTDEVIN, Co-Fondateur de l’association** [**Entourage**](https://www.entourage.social)\*\*\*\*
-
-
+**Jean-Marc POTDEVIN, Co-Fondateur de l’association** [**Entourage**](https://www.entourage.social)
 
 - - -
 
