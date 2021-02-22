@@ -17,11 +17,11 @@ Nous avons, deux années de suite, organisé une grande collecte de produits​ 
 
 En tant qu’homme, ce "Coup de Sang" est une blessure : quand tu saignes, je saigne, car "nul homme n’est une île". Ça me blesse profondément de constater cet état délabré des conditions dans lesquelles vivent certains êtres humains - particulièrement les femmes en précarité dont on parle ici.
 
-Notre ADN chez [Entourage](https://www.entourage.social) consiste à ne pas penser "pour" ou "à la place" des personnes concernées, mais au contraire d'écouter la parole de ces femmes pour à la fois identifier leurs problèmes réels, et ainsi suggérer d’éventuelles pistes de solutions. Au cœur de notre gouvernance associative se trouve donc le "Comité de la rue", constitué de personnes ayant vécu des situations violentes liées à la grande exclusion qu’est la rue. Nous passons au crible nos décisions, nos projets, nos partenariats. Nous avons la grande chance d’avoir à la vice-présidence de ce comité Elina DUMONT qui , après avoir vécu 15 sans domicile fixe, se bat aujourd’hui pour la lutte contre le sans-abrisme, avec un focus particulier pour les femmes.
+Notre ADN chez [Entourage](https://www.entourage.social) consiste à ne pas penser "pour" ou "à la place" des personnes concernées, mais au contraire d'écouter la parole de ces femmes pour à la fois identifier leurs problèmes réels, et ainsi suggérer d’éventuelles pistes de solutions. Au cœur de notre gouvernance associative se trouve donc le "Comité de la rue", constitué de personnes ayant vécu des situations violentes liées à la grande exclusion qu’est la rue. Nous passons au crible nos décisions, nos projets, nos partenariats. Nous avons la grande chance d’avoir à la vice-présidence de ce comité Elina Dumont qui , après avoir vécu 15 sans domicile fixe, se bat aujourd’hui pour la lutte contre le sans-abrisme, avec un focus particulier pour les femmes.
 
-Vous pouvez consulter son rapport en qualité d'experte des femmes à la rue et de la grande exclusion des femmes de France qui rend compte de la situation des femmes à la rue [ici](www.iledefrance.fr/femmes-la-rue-le-rapport-delina-dumont).
+Vous pouvez consulter son rapport en qualité d'experte des femmes à la rue et de la grande exclusion des femmes de France qui rend compte de la situation des femmes à la rue <<[ici](www.iledefrance.fr/femmes-la-rue-le-rapport-delina-dumont)>>.
 
-C’est donc à Elina DUMONT que je laisse naturellement la parole pour la suite de ce "Coup de Sang" en forme de témoignage personnel.
+C’est donc à Elina Dumont que je laisse naturellement la parole pour la suite de ce "Coup de Sang" en forme de témoignage personnel.
 
 J’ai plus d’un demi-siècle. Je réalise qu’aujourd’hui en 2021 la problématique des serviettes hygiéniques, tampons... bref, l'hygiène intime des femmes est toujours un problème !
 
