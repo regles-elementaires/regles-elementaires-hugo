@@ -23,31 +23,35 @@ Vous pouvez consulter son rapport en qualité d'experte des femmes à la rue et 
 
 C’est donc à Elina Dumont que je laisse naturellement la parole pour la suite de ce "Coup de Sang" en forme de témoignage personnel.
 
-J’ai plus d’un demi-siècle. Je réalise qu’aujourd’hui en 2021 la problématique des serviettes hygiéniques, tampons... bref, l'hygiène intime des femmes est toujours un problème !
 
-Pour ma part, à chaque maraude, je suis toujours surprise que des femmes utilisent encore aujourd’hui les mêmes astuces que moi il y a 30 ans lorsque j’étais dans la rue : journaux, papier toilette ou tissus trouvés dans les poubelles au moment de leur règles, parfois douloureuses et sans médicaments.
 
-C’est pourquoi, dans mon rapport sorti en novembre 2020, j’ai proposé qu’il y ait des distributeurs auprès de chaque pharmacie, dans tous les lycées, tous les collèges, via un système de jetons que ces personnes pourraient obtenir via des associations ou des travailleurs sociaux.
+_J’ai plus d’un demi-siècle. Je réalise qu’aujourd’hui en 2021 la problématique des serviettes hygiéniques, tampons... bref, l'hygiène intime des femmes est toujours un problème !_
 
-Dans la rue, la notion du temps n'existe pas. C'est pourquoi, ces distributeurs sont indispensables.
+_Pour ma part, à chaque maraude, je suis toujours surprise que des femmes utilisent encore aujourd’hui les mêmes astuces que moi il y a 30 ans lorsque j’étais dans la rue : journaux, papier toilette ou tissus trouvés dans les poubelles au moment de leur règles, parfois douloureuses et sans médicaments._
 
-Quand on vit dans la rue, lorsque l'on est étudiante dans la précarité, ou tout simplement une femme monoparentale, les serviettes hygiéniques, tampons, ont un coût.
+_C’est pourquoi, dans mon rapport sorti en novembre 2020, j’ai proposé qu’il y ait des distributeurs auprès de chaque pharmacie, dans tous les lycées, tous les collèges, via un système de jetons que ces personnes pourraient obtenir via des associations ou des travailleurs sociaux._
 
-Quand les femmes doivent faire un choix lorsqu'elle font leurs courses, pour nourrir leurs enfants, elles renoncent à s'acheter des serviettes hygiéniques, faire des suivis gynécos, mammographies, _etc._ Tout ceci n’existe tout simplement pas pour beaucoup de femmes dans la rue.
+_Dans la rue, la notion du temps n'existe pas. C'est pourquoi, ces distributeurs sont indispensables._
 
-Dans la rue, on se paume. On se fait facilement abuser, des grossesses non voulues, maladies (sida, vénériennes _etc._) qui peuvent résulter de ses abus sont fréquentes.
+_Quand on vit dans la rue, lorsque l'on est étudiante dans la précarité, ou tout simplement une femme monoparentale, les serviettes hygiéniques, tampons, ont un coût._
 
-J’ai moi-même failli perdre mon rein droit pour une absence de suivi médical et surtout l’absence d’accès à l’information.
+_Quand les femmes doivent faire un choix lorsqu'elle font leurs courses, pour nourrir leurs enfants, elles renoncent à s'acheter des serviettes hygiéniques, faire des suivis gynécos, mammographies, etc. Tout ceci n’existe tout simplement pas pour beaucoup de femmes dans la rue._
 
-J’ai rencontré récemment une femme en précarité qui utilisait les couches de ses bébés lors de ses règles ! Il faut également travailler en amont : c’est-à-dire ne pas attendre que les femmes se retrouvent à 18 ans dans la rue.
+_Dans la rue, on se paume. On se fait facilement abuser, des grossesses non voulues, maladies (sida, vénériennes etc.) qui peuvent résulter de ses abus sont fréquentes._
 
-La prévention au niveau de l’éducation nationale (collège et lycée) sur ces sujets est essentielle et doit être radicalement améliorée.
+_J’ai moi-même failli perdre mon rein droit pour une absence de suivi médical et surtout l’absence d’accès à l’information._
 
-Certes, les structures existent, mais certaines femmes en ont peur : elles ont l’impression de risquer une enquête presque "policière" car elles craignent de se voir reprocher d'être irresponsable pour toucher des aides supplémentaires.
+_J’ai rencontré récemment une femme en précarité qui utilisait les couches de ses bébés lors de ses règles ! Il faut également travailler en amont : c’est-à-dire ne pas attendre que les femmes se retrouvent à 18 ans dans la rue._
 
-Pour parler à ces femmes, il faudrait que l'on organise davantage de maraudes en journée "à mains nues", car les femmes se cachent la nuit par peur d’agression, et sont plus difficilement à identifiées, par les maraudes habituelles de nuit.
+_La prévention au niveau de l’éducation nationale (collège et lycée) sur ces sujets est essentielle et doit être radicalement améliorée._
 
-Citation de Victor HUGO : « L'enfer est tout entier dans ce mot : SOLITUDE » 
+_Certes, les structures existent, mais certaines femmes en ont peur : elles ont l’impression de risquer une enquête presque "policière" car elles craignent de se voir reprocher d'être irresponsable pour toucher des aides supplémentaires._
+
+_Pour parler à ces femmes, il faudrait que l'on organise davantage de maraudes en journée "à mains nues", car les femmes se cachent la nuit par peur d’agression, et sont plus difficilement à identifiées, par les maraudes habituelles de nuit." En effet, pour reprendre les mots de Victor Hugo, "L'enfer est tout entier dans ce mot : SOLITUDE"._
+
+
+
+
 
 - - -
 
