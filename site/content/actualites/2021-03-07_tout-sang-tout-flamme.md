@@ -8,7 +8,7 @@ author: Laura Pajot
 illu: /img/couverture-clip.png
 intro: "**“Savez-vous pourquoi on doit se donner\_en spectacle pour vous ouvrir les yeux ?”**"
 layout: video
-main_video_id: 'https://youtu.be/swFuXIQ8eWg'
+main_video_id: swFuXIQ8eWg
 ---
 C’est pour le 8 mars 2021 que nous avons décidé de diffuser notre premier clip. Imaginé par Règles Élémentaires et réalisé par une équipe de professionnels engagés,  il met en scène un univers onirique avec l’objectif de sensibiliser à la précarité menstruelle et au tabou des règles.
 
