@@ -3,7 +3,7 @@ title: Tout sang tout flamme
 tags:
   - news
   - video
-date: 2021-03-09T19:42:44.635Z
+date: 2021-03-08T19:42:44.635Z
 author: Laura Pajot
 illu: /img/couverture-clip.png
 intro: "**“Savez-vous pourquoi on doit se donner\_en spectacle pour vous ouvrir les yeux ?”**"
