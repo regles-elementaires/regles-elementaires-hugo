@@ -2,9 +2,6 @@
 
 import "./css/main.css";
 
-// Say hello
-console.log("🦊 Hello! Edit me in src/index.js");
-
 var overlay = document.getElementById("overlay");
 var close = document.getElementById("close");
 if (close !== null) {
