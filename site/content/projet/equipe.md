@@ -15,6 +15,21 @@ engager:
 
 
     Donner des produits d’hygiène intime dans l’un des nombreux points de collectes, devenir organisateur·ice d’une collecte, redistribuer les produits collectés aux plus démunies, installer une boîte à dons sur son lieu de travail, rejoindre l’équipe de l’Association, prêter main forte aux organisateurs de collectes dans votre département, mettre en place un partenariat, faire un don, ou bien un engagement personnalisé à définir.'
+
+permanents:
+    type: permanent
+    title1: "L'équipe"
+    title2: "permanente"
+
+benevoles:
+    type: benevole
+    title1: "L'équipe"
+    title2: "Bénévole"
+
+ca:
+    type: ca
+    title1: "Le conseil"
+    title2: "d'administration"
 ---
 
 **Les femmes et les hommes qui oeuvrent chaque jour au développement de Règles Élémentaires et veillent à l’accomplissement de nos missions viennent d’horizons divers et variés, à l’image de notre communauté.**

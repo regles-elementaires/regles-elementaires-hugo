@@ -2,13 +2,10 @@
 <div>
   {{ partial "projet/page-desc" . }}
 
-  <div class="container px-8 mt-8">
-    <div class="flex flex-wrap -mx-8">
-      {{ range (sort $.Site.Data.team "order" "asc") }}
-      {{ partial "projet/team-member" . }}
-      {{ end }}
-    </div>
-  </div>
+  {{ partial "projet/team-type" (dict "page" .Params.permanents "data" $.Site.Data.team) }}
+  {{ partial "projet/team-type" (dict "page" .Params.benevoles "data" $.Site.Data.team) }}
+  {{ partial "projet/team-type" (dict "page" .Params.ca "data" $.Site.Data.team) }}
+
   <div class="flex">
     <div class="bg-repink flex-1"></div>
     <div class="container">

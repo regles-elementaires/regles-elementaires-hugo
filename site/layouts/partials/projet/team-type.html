@@ -1,0 +1,18 @@
+<div class="container px-8 mt-8">
+    {{ $type := .page.type }}
+    {{ with .page }}
+        <div class="w-1/1 md:w-1/2">
+            <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">{{.title1}}<span class="text-rered">
+            {{.title2}}</span></h2>
+        </div>
+    {{ end }}
+    {{ with .data }}
+        <div class="flex flex-wrap -mx-8">
+            {{ range (sort . "order" "asc") }}
+                {{ if eq .team $type }}
+                    {{ partial "projet/team-member" . }}
+                {{ end }}
+            {{ end }}
+        </div>
+    {{ end }}
+  </div>

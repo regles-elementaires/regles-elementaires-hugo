@@ -1,6 +1,7 @@
 name = "Henri Pais"
-order = 5
-role = "Responsable Lyon"
+team = "benevole"
+order = 9
+role = "Responsable Auvergne-Rhône-Alpes"
 linkedin = "https://www.linkedin.com/in/henri-pais-301522a/"
 img = "/img/equipe/henri-pais.jpg"
 bio = """
