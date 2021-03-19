@@ -24,8 +24,15 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Règles Élémentaires | Lutte contre la précarité menstruelle">
-	<meta property="og:url" content="/">
+	<meta property="og:title" content="{{ .Params.title }} | {{ $.Site.Title }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:image" content="{{ if .Params.illu }}{{ .Params.illu }}{{ else }}/img/logo_re_rvb-07.png{{ end }}">
+
+	{{ if in .Params.tags "news" }}
+		<meta property="og:description" content={{ replace .Params.intro "*" "" }} />
+	{{ else }}
+		<meta property="og:description" content="#ChangerLesRègles" />
+	{{ end }}
 
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159065733-1"></script>
