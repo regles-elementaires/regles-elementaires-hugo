@@ -26,7 +26,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="{{ .Params.title }} | {{ $.Site.Title }}">
 	<meta property="og:url" content="{{ .Permalink }}">
-	<meta property="og:image" content="{{ if .Params.illu }}{{ .Params.illu }}{{ else }}/img/logo_re_rvb-07.png{{ end }}">
+	<meta property="og:image" content="https://www.regleselementaires.com{{ if .Params.illu }}{{ .Params.illu }}{{ else }}/img/logo_re_rvb-07.png{{ end }}">
 
 	{{ if in .Params.tags "news" }}
 		<meta property="og:description" content={{ replace .Params.intro "*" "" }} />
