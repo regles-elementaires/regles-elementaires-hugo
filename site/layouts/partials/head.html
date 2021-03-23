@@ -28,10 +28,19 @@
 	<meta property="og:url" content="{{ .Permalink }}">
 	<meta property="og:image" content="https://www.regleselementaires.com{{ if .Params.illu }}{{ .Params.illu }}{{ else }}/img/logo_re_rvb-07.png{{ end }}">
 
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:url" content="{{ .Permalink }}" />
+	<meta name="twitter:title" content="{{ .Params.title }} | {{ $.Site.Title }}" />
+	<meta name="twitter:image:src" content="https://www.regleselementaires.com{{ if .Params.illu }}{{ .Params.illu }}{{ else }}/img/logo_re_rvb-07.png{{ end }}" />
+	
+	<!-- OG & Twitter descriptions -->
 	{{ if in .Params.tags "news" }}
 		<meta property="og:description" content={{ replace .Params.intro "*" "" }} />
+		<meta property="twitter:description" content={{ replace .Params.intro "*" "" }} />
 	{{ else }}
 		<meta property="og:description" content="#ChangerLesRègles" />
+		<meta property="twitter:description" content="#ChangerLesRègles" />
 	{{ end }}
 
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
