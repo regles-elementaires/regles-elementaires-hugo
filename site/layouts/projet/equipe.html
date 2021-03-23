@@ -2,9 +2,45 @@
 <div>
   {{ partial "projet/page-desc" . }}
 
-  {{ partial "projet/team-type" (dict "page" .Params.permanents "data" $.Site.Data.team) }}
+  <div class="container px-8 mt-8">
+    <div class="w-1/1">
+      {{ with .Params.permanents }}
+        <button class="equipe-button equipe-button-active mb-8 mr-4" data-team={{ .type }} onclick="displayMembers(this)">
+          <h2 class="text-redarkpink inline-block text-xl uppercase font-bold">
+            {{.title1}}
+            <span class="text-rered">{{.title2}}</span>
+          </h2>
+        </button>
+      {{ end }}
+      {{ with .Params.benevoles }}
+        <button class="equipe-button mb-8 mr-4" data-team={{ .type }} onclick="displayMembers(this)">
+          <h2 class="text-redarkpink inline-block text-xl uppercase font-bold">
+            {{.title1}}
+            <span class="text-rered">{{.title2}}</span>
+          </h2>
+        </button>
+      {{ end }}
+      {{ with .Params.ca }}
+        <button class="equipe-button mb-8 mr-4" data-team={{ .type }} onclick="displayMembers(this)">
+          <h2 class="text-redarkpink inline-block text-xl uppercase font-bold">
+            {{.title1}}
+            <span class="text-rered">{{.title2}}</span>
+          </h2>
+        </button>
+     {{ end }}
+    </div>
+  </div>
+
+  {{/* partial "projet/team-type" (dict "page" .Params.permanents "data" $.Site.Data.team) }}
   {{ partial "projet/team-type" (dict "page" .Params.benevoles "data" $.Site.Data.team) }}
-  {{ partial "projet/team-type" (dict "page" .Params.ca "data" $.Site.Data.team) }}
+  {{ partial "projet/team-type" (dict "page" .Params.ca "data" $.Site.Data.team) */}}
+  <div class="container px-8 mt-8">
+    <div class="flex flex-wrap -mx-8">
+      {{ range (sort $.Site.Data.team "order" "asc") }}
+        {{ partial "projet/team-member" . }}
+      {{ end }}
+    </div>
+  </div>
 
   <div class="flex">
     <div class="bg-repink flex-1"></div>
@@ -27,5 +63,7 @@
     <div class="bg-repink flex-1"></div>
   </div>
   {{ partial "projet/moi-aussi" . }}
+  <script src="{{ `js/team-display.js` | relURL }}"></script>
+  <script>initMembers()</script>
 </div>
 {{ end }}

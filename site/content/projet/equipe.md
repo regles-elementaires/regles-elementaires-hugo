@@ -28,8 +28,8 @@ benevoles:
 
 ca:
     type: ca
-    title1: "Les membres"
-    title2: "externes du CA"
+    title1: "Le conseil"
+    title2: "d'administration"
 ---
 
 **Les femmes et les hommes qui oeuvrent chaque jour au développement de Règles Élémentaires et veillent à l’accomplissement de nos missions viennent d’horizons divers et variés, à l’image de notre communauté.**

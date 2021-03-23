@@ -160,6 +160,14 @@
   }
 }
 
+.equipe__membre-inactive {
+  display:none;
+}
+
+.equipe-button-active h2 {
+  @apply border-b-4 border-redarkpink no-underline;
+}
+
 /*
 === COLLECTE
 */
