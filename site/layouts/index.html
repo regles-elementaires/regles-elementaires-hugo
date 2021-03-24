@@ -107,9 +107,8 @@
 </div>
 <div class="w-full bg-white">
     <div class="container pt-8 flex flex-row">
-        <div class="w-1/6"></div>
-        <div class="w-4/6 pb-8">
-            <h2 class="text-rered text-2xl font-bold text-right pb-4">ACTUALITÉS</h2>
+        <div class="w-11/12 lg:w-4/6 pb-8 m-auto">
+            <h2 class="text-rered text-2xl font-bold text-center pb-4">ACTUALITÉS</h2>
             {{ $sortedPages := sort (where .Site.RegularPages "Section" "actualites") ".Params.date" "desc" }}
             {{ range (first 1 $sortedPages) }}
             <div class="flex flex-row mt-8">
