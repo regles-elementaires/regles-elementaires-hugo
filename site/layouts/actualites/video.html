@@ -7,10 +7,16 @@
     <div class="flex flex-col md:flex-row w-full items-center flex-wrap">
         <div class="w-full xl:w-2/3 px-4">
             <h2 class="uppercase text-2xl underline text-redarkgrey"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <p class=""><span class="text-rered">le {{dateFormat "02.01.2006" .Params.date}}</span><span
-                    class="text-redarkpink"> par
-                </span><span class="uppercase text-redarkpink">
-                    {{ .Params.author }}</span></p>
+            <p class="">
+                <p>
+                    {{ range (.GetTerms "tags") }}
+                    <a href="{{ .Permalink }}" class="underline"><span class="text-rered">#</span><span class="text-redarkgrey">{{ .LinkTitle }}</span></a>
+                    {{ end }}
+                </p>
+                <span class="text-rered">le {{ dateFormat "02.01.2006" .Params.date }}</span>
+                <span class="text-redarkpink"> par</span>
+                <span class="uppercase text-redarkpink">{{ .Params.author }}</span>
+            </p>
             <div class="text-rered text-justify  markdown">{{ .Params.intro | markdownify}}</div>
             <div class="markdown text-justify text-rered"> {{ .Content | markdownify}}
             </div>
