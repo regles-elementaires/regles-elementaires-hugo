@@ -3,9 +3,15 @@
   {{ partial "projet/page-desc" . }}
 
   <div class="container px-8 mt-8">
-    <div class="w-1/1">
+    <div>
+      <button class="equipe-button equipe-button-active mb-8 mr-4" onclick="displayMembers(this)">
+        <h2 class="text-redarkpink inline-block text-xl uppercase font-bold">
+          Toute
+          <span class="text-rered">l'équipe</span>
+        </h2>
+      </button>
       {{ with .Params.permanents }}
-        <button class="equipe-button equipe-button-active mb-8 mr-4" data-team={{ .type }} onclick="displayMembers(this)">
+        <button class="equipe-button equipe-button mb-8 mr-4" data-team={{ .type }} onclick="displayMembers(this)">
           <h2 class="text-redarkpink inline-block text-xl uppercase font-bold">
             {{.title1}}
             <span class="text-rered">{{.title2}}</span>
@@ -64,6 +70,6 @@
   </div>
   {{ partial "projet/moi-aussi" . }}
   <script src="{{ `js/team-display.js` | relURL }}"></script>
-  <script>initMembers()</script>
+  <!-- <script>initMembers()</script> -->
 </div>
 {{ end }}
