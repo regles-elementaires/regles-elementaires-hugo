@@ -2,7 +2,6 @@
 title: Le 8 mars et tous les autres jours
 tags:
   - news
-  - ''
 date: 2021-03-08T06:10:09.546Z
 author: Laura Pajot
 illu: /img/8_mars_generique.png

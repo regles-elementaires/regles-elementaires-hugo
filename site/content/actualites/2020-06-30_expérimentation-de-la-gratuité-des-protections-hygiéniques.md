@@ -2,7 +2,6 @@
 title: Expérimentation de la gratuité des protections hygiéniques
 tags:
   - news
-  - ''
 date: 2020-02-13T11:48:31.819Z
 author: Azadée Kermani-Nejad
 illu: /img/sans-titre-5.jpg
