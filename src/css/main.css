@@ -9,13 +9,29 @@
 === GENERIC
 */
 .big-red-button {
-  @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block;
+  @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block font-medium;
 }
 .big-red-button--rounded {
   @apply rounded-full;
 }
 .big-red-button:hover {
-  @apply underline;
+  @apply bg-redarkpink;
+}
+.big-red-button:hover span{
+  @apply text-redarkpink;
+}
+
+.big-white-button {
+  @apply uppercase bg-white text-rered p-4 px-8 rounded-lg inline-block font-medium;
+}
+.big-white-button--rounded {
+  @apply rounded-full;
+}
+.big-white-button:hover {
+  @apply bg-repink;
+}
+.big-white-button:hover span{
+  @apply text-white;
 }
 
 .underlined-link {
