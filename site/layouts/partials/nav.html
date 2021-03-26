@@ -28,6 +28,16 @@
 							<a href="{{ .URL }}" class="menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }}">
 								{{ .Name }}
 							</a>
+							<!-- Hover Nav -->
+							{{ with .Children }}
+							<ul class="hover-nav bg-white text-rered text-sm font-normal p-4 shadow-lg rounded-md">
+								{{ range . }}
+									<li class="py-1">
+										<a href="{{.URL}}"class="hover:font-bold">{{.Name}}</a>
+									</li>
+								{{ end }}
+							</ul>
+							{{ end }}
 						</li>
 					{{ end }}
 

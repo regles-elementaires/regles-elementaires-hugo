@@ -106,6 +106,22 @@
 .sub-menu-item:hover a {
   @apply border-b-2;
 }
+
+/* Hover nav */
+
+.hover-nav {
+  display: none;
+  width: auto;
+  white-space: nowrap;
+}
+
+.hover-nav:hover, .menu-item--hover:hover ~ .hover-nav {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+
 /*
 === HEADER ===
 */
