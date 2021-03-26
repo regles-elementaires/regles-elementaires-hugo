@@ -1,32 +1,39 @@
 {{ define "main" }}
-<div class="container px-2 pt-2 flex flex-row">
-    <div class="lg:w-1/4"></div>
+<div class="w-11/12 lg:w-4/6 m-auto px-2 pt-2 flex flex-row">
     <div class="w-full lg:w-1/2">
         <a href="{{ ref . "/actualites" }}" class="underline text-l text-rered">
             < Retour aux actualités</a>
     </div>
 </div>
-<div class="container pt-8 flex flex-row px-2 justify-center">
-    <div class="flex flex-col md:flex-row w-full lg:w-1/2 items-center">
-        <div class="w-full md:w-1/3 h-48"><img class="object-contain w-full h-full" src="{{ .Params.illu }}" /></div>
-        <div class="w-full md:w-2/3 px-4">
-            <h2 class="uppercase text-2xl underline text-redarkgrey"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="w-11/12 lg:w-4/6 m-auto pt-8 pb-4 flex flex-row px-2 justify-center">
+    <div class="flex flex-col md:flex-row w-full items-center">
+        <div class="w-full h-full"><img class="object-contain object-top w-full h-full" src="{{ .Params.illu }}" /></div>
+        <div class="w-full md:pl-4">
+            <h2 class="text-3xl font-medium text-redarkgrey">
+                {{ .Title }}
+            </h2>
             <p class="">
-                <p>
-                    {{ range (.GetTerms "tags") }}
-                    <a href="{{ .Permalink }}" class="underline"><span class="text-rered">#</span><span class="text-redarkgrey">{{ .LinkTitle }}</span></a>
-                    {{ end }}
-                </p>
-                <span class="text-rered">le {{ dateFormat "02.01.2006" .Params.date }}</span>
+                <span class="text-rered">le {{dateFormat "02.01.2006" .Params.date}}</span>
                 <span class="text-redarkpink"> par</span>
-                <span class="uppercase text-redarkpink">{{ .Params.author }}</span>
+                <span class="uppercase text-redarkpink font-semibold">
+                    {{ .Params.author }}
+                </span>
             </p>
-            <div class="text-rered text-justify  markdown">{{ .Params.intro | markdownify }}</div>
+            <ul class="text-rered mt-4">
+                {{ range (.GetTerms "tags") }}
+                <li class="mr-2 text-sm inline-block mb-4">
+                    <a href="{{ .Permalink }}" class="bg-repink rounded-full py-1 px-6">
+                        <span class="text-rered uppercase font-semibold">#{{ .LinkTitle }}</span>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+            <div class="text-rered markdown">{{ .Params.intro | markdownify }}</div>
         </div>
     </div>
 </div>
-<div class="container text-rered mt-2 pb-8 px-2 text-justify justify-center flex flex-row">
-    <div class="w-full lg:w-1/2 markdown"> {{ .Content | markdownify }}
+<div class="w-11/12 lg:w-4/6 m-auto text-rered mt-2 pb-8 px-2 justify-center flex flex-row">
+    <div class="w-full markdown"> {{ .Content | markdownify }}
     </div>
 </div>
 <div class="text-center mb-8">

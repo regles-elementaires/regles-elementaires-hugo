@@ -183,3 +183,12 @@
 .bg-popup-overlay {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+/*
+=== Actu
+*/
+
+/* Override markdown */
+strong {
+  font-weight: 400;
+}
