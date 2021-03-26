@@ -113,6 +113,7 @@
   display: none;
   width: auto;
   white-space: nowrap;
+  border-radius: 0.375rem;
 }
 
 .hover-nav:hover, .menu-item--hover:hover ~ .hover-nav {
