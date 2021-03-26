@@ -1,7 +1,8 @@
 ---
 title: 'TADAM'' x Règles Élémentaires '
 tags:
-  - partenariat; news
+  - partenariat
+  - news
 date: 2021-03-26T14:02:24.597Z
 author: 'Clara Vié '
 illu: /img/img_1104.png
