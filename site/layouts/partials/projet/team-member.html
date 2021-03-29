@@ -12,10 +12,10 @@
     <h3 class="text-l font-bold mt-4 text-rered uppercase">
       {{ .name }}
     </h3>
-    <h4 class="uppercase text-l text-gray-600">
+    <h4 class="uppercase text-l text-gray-600 mb-10">
       {{ .role }}
     </h4>
-    <div class="mt-4">
+    <div class="mb-4 absolute bottom-0">
       {{if (isset . "linkedin")}}<a href="{{.linkedin}}" target="_blank"
         ><img src="/img/page-equipe/linkedin.png"
       /></a>{{end}}
