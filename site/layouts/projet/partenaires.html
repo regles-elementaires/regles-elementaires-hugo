@@ -2,7 +2,7 @@
 <div>
     {{ partial "projet/page-desc" . }}
     {{ partial "console-log" .Params }}
-    <div class="p-8 bg-white">
+    <div class="py-8 bg-white">
        {{ partial "projet/partenaire-type" (dict "page" .Params.redistributeurs "data" .Site.Data.partenaires)}}
     </div>
     <div class="p-8 bg-regrey">
