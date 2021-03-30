@@ -1,58 +1,62 @@
 <!-- Primary Nav -->
-<nav class="bg-redarkpink sm:h-20 flex justify-between items-center sm:items-end px-4 flex-col sm:flex-row">
+<nav class="w-full {{if .IsHome}}bg-opacity-0 absolute z-10{{else}}bg-redarkpink{{end}} sm:h-20 flex justify-between items-center sm:items-end px-4 flex-col sm:flex-row">
+	<div class="w-full flex flex-wrap justify-evenly">
+		<!-- Logo -->
+		<div class="flex flex-col">
+			<a class="" href="/"><img src="/img/logo-re.png" alt="Regles Elementaires logo"
+					class="object-contain h-20" /></a>
+		</div>
 
-	<!-- Logo -->
-	<div class="flex flex-col">
-		<a class="" href="/"><img src="/img/logo-re.png" alt="Regles Elementaires logo"
-				class="object-contain h-20" /></a>
-	</div>
+		<div class="flex flex-col justify-end items-end">
 
-	<div class="flex flex-col justify-end items-end">
+			{{/*  <div class=" bg-redarkpink px-4">
 
-		{{/*  <div class=" bg-redarkpink px-4">
+				<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-xs text-white pl-2"
+					onclick="gtag('event', 'clicOrganiserCollecte', {
+						'event_category': 'Collecte',
+						'event_label': 'bouton_nav',
+					});">Espace
+					collecte&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-4 text-white inline-block"><path fill="#FFFFFF" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/></svg></a>
+			</div>  */}}
 
-			<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-xs text-white pl-2"
-				onclick="gtag('event', 'clicOrganiserCollecte', {
-					'event_category': 'Collecte',
-					'event_label': 'bouton_nav',
-				  });">Espace
-				collecte&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-4 text-white inline-block"><path fill="#FFFFFF" d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"/></svg></a>
-		</div>  */}}
-
-		<div class="flex flex-col sm:flex-row justify-end flew-wrap items-end lg:pb-2">
-			<div class="px-4 flex-grow">
-				<ul class="flex flex-wrap text-white uppercase -mx-4">
-					{{ $currentPage := . }}
-					{{ range .Site.Menus.main }}
-						<li class="menu-item menu-item-space relative {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} font-bold {{ end }}">
-							<a href="{{ .URL }}" class="menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }}">
-								{{ .Name }}
-							</a>
-							<!-- Hover Nav -->
-							{{ with .Children }}
-							<ul class="hover-nav bg-white text-rered text-sm font-normal py-2 px-4 shadow-lg text-center">
-								{{ range . }}
-									<li class="py-1">
-										<a href="{{.URL}}"class="hover:font-bold">{{.Name}}</a>
-									</li>
+			<div class="flex flex-col sm:flex-row justify-end flew-wrap items-end lg:pb-2">
+				<div class="px-4 flex-grow">
+					<ul class="flex flex-wrap text-white uppercase -mx-4">
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.main }}
+							<li class="menu-item menu-item-space relative {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} font-bold {{ end }}">
+								<a href="{{ .URL }}" class="menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }}">
+									{{ .Name }}
+								</a>
+								<!-- Hover Nav -->
+								{{ with .Children }}
+								<div class="hover-nav ">
+									<ul class="bg-white text-rered text-sm font-normal py-2 px-4 shadow-lg text-center mt-4 rounded-md">
+										{{ range . }}
+											<li class="py-1">
+												<a href="{{.URL}}"class="hover:font-bold">{{.Name}}</a>
+											</li>
+										{{ end }}
+									</ul>
+								</div>
+								
 								{{ end }}
-							</ul>
-							{{ end }}
-						</li>
-					{{ end }}
+							</li>
+						{{ end }}
 
-					<li class="menu-item menu-item-space relative ">
-						<a href="https://collectes.regleselementaires.com/" target="_blank" class="menu-item--hover text-redarkgrey" 
-							onclick="gtag('event', 'clicOrganiserCollecte', {
-								'event_category': 'Collecte',
-								'event_label': 'bouton_nav',
-							});"
-						>
-							Espace collecte&nbsp;
-							{{ partial "link-outside" "#535353" }}
-						</a>
-					</li>
-				</ul>
+						<li class="menu-item menu-item-space relative ">
+							<a href="https://collectes.regleselementaires.com/" target="_blank" class="{{if .IsHome}}text-white border-rered border-2 hover:border-redarkpink px-2 rounded-md{{else}}menu-item--hover text-redarkgrey{{end}}" 
+								onclick="gtag('event', 'clicOrganiserCollecte', {
+									'event_category': 'Collecte',
+									'event_label': 'bouton_nav',
+								});"
+							>
+								Espace collecte&nbsp;
+								{{ partial "link-outside" "#fff" }}
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
