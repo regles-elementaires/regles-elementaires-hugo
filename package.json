@@ -67,6 +67,6 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^1.9.6"
   }
 }
