@@ -1,6 +1,7 @@
 const merge = require("webpack-merge");
 const TerserPlugin = require("terser-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const common = require("./webpack.common.js");
@@ -20,6 +21,13 @@ module.exports = merge(common, {
         parallel: true,
         sourceMap: true,
         exclude: /\/node_modules\//,
+      }),
+      new CleanWebpackPlugin({
+        cleanOnceBeforeBuildPatterns: [
+          "dist/**/*.js",
+          "dist/**/*.css",
+          "site/data/webpack.json"
+        ]
       }),
       new MiniCssExtractPlugin({
         filename: "[name].[hash:5].css",
