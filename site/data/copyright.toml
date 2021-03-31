@@ -1,7 +1,7 @@
 text = """
 Copyright © 2021 **Règles Élémentaires** - Tous droits réservés.\n
 Règles Élémentaires est une Association Loi 1901 qui aide les plus démunies à rester dignes.\n
-Design par le Studio Clairvoyant - Développement par Adrien Trauth
+Design par le [Studio Clairvoyant](https://www.studio-clairvoyant.com/) - Développement par Adrien Trauth
 """
 contact = "contact@regleselementaires.com"
 adresse = """
