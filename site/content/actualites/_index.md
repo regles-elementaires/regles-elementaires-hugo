@@ -5,7 +5,7 @@ layout: list
 menu:
   main:
     name: Actualités
-    weight: 4
+    weight: 5
 ---
 
 **Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première nécessité, c’est aussi briser le tabou autour des menstruations.**

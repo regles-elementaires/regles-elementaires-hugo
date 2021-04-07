@@ -1,0 +1,60 @@
+<div class="flex flex-row px-2 md:px-16 my-8">
+
+    <div class="flex w-1/12 prev h-12 self-center justify-center">
+        <img src="/img/page-redistribuer/fleche_slider.svg" />
+    </div>
+    
+    <div class="flex w-10/12 carousel-redistributeurs">
+    
+    {{ range .Site.Data.partenaires }}
+        {{ if eq .type "redistributeur"}}
+        <div>
+            {{if eq (len .link) 0}}
+            <span title="{{.name}}" class="w-full">
+                <img class="object-scale-down" src="{{.img}}" />
+            </span>
+            {{else}}
+            <a href="{{.link}}" target="_blank" title="{{.name}}" class="w-full h-full">
+                <img class="w-full h-full object-scale-down" src="{{.img}}" />
+            </a>
+            {{end}}
+        </div> 
+        {{ end }}
+    {{ end }}
+    
+    </div>
+
+    <div class="flex w-1/12 next h-12 self-center justify-center">
+        <img src="/img/page-redistribuer/fleche_slider.svg" style="transform: scaleX(-1)"/>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>        
+        $(document).ready(function(){
+            $('.carousel-redistributeurs').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next')
+            });
+        });
+    </script>
+
+    <style>
+        .slick-slide {
+            height: 100px;
+          }
+        .slick-track {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: stretch;
+          }
+    </style>
+
+</div>
+

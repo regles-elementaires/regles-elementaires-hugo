@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div>
+    {{ partial "redistribuer/page-desc" . }}
+    <div class="container pt-8">
+        <div class="px-16">
+            {{with .Params.fonctionnement }}
+            <div class="flex flex-col md:flex-row md:items-stretch text-rered">
+                <div class="w-full md:w-3/5 px-8 pb-4">
+                    <h2 class="text-redarkpink text-2xl uppercase font-bold mb-8">
+                        {{.title1}}
+                        <span class="text-rered">{{.title2}}</span>
+                    </h2>
+                    <div class="flex flex-col items-center">
+                        <div>
+                            {{.text1}}
+                        </div>
+                        <div class="pt-4">
+                            {{.text2}}
+                        </div>                       
+                    </div>
+                </div>
+                <div class="w-full md:w-2/5 px-8 pb-4 self-center">
+                    <img class="w-4/5" src="{{.photo}}" />
+                </div>
+            </div>
+            {{end}}
+        </div>
+
+        {{ partial "redistribuer/carousel" . }}
+        
+    </div>
+    
+    
+    {{ partial "projet/moi-aussi" . }}
+
+</div>
+{{ end }}
