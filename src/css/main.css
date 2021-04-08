@@ -92,7 +92,7 @@
 }
 @screen sm {
   .menu-item--hover:hover {
-    @apply border-b-4 border-rered no-underline;
+    @apply border-b-2 border-rered no-underline;
   }
 }
 @screen lg {
