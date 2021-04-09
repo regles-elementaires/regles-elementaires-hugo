@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div>
-    {{ partial "projet/page-desc" . }}
+    {{ partial "redistribuer/page-desc" . }}
     {{ partial "console-log" .Params }}
     <div class="py-8 bg-white">
        {{ partial "projet/partenaire-type" (dict "page" .Params.redistributeurs "data" .Site.Data.partenaires)}}
