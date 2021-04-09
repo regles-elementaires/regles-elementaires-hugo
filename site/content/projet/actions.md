@@ -6,6 +6,8 @@ menu:
 layout: actions
 title: Nos Actions
 illu: /img/page-actions/illu.png
+intro:
+  first: "Règles Élémentaires est la première Association française de lutte contre la précarité menstruelle. Concrètement, nous organisons et supervisons des collectes de produits d’hygiène intime que nous mettons gratuitement à disposition des femmes dans le besoin via notre solide réseau de partenaires ; et nous brisons le tabou des règles en menant des actions de sensibilisation nombreuses, diverses et variées."
 actions:
   - btn_link: /collecter/organiser
     btn_text: Voir les étapes pour créer sa collecte ponctuelle
@@ -58,5 +60,3 @@ actions:
       - /img/page-actions/sensi-2.jpg
       - /img/page-actions/sensi-1.jpg
 ---
-
-**Règles Élémentaires est la première Association française de lutte contre la précarité menstruelle. Concrètement, nous organisons et supervisons des collectes de produits d’hygiène intime que nous mettons gratuitement à disposition des femmes dans le besoin via notre solide réseau de partenaires ; et nous brisons le tabou des règles en menant des actions de sensibilisation nombreuses, diverses et variées.**

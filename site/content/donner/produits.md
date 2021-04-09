@@ -8,6 +8,8 @@ menu:
     parent: donner
     weight: 2
 illu: /img/page-produits/boite.jpg
+intro:
+  first: "Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient non périmés, neufs (jamais utilisés) et emballés individuellement. Serviettes, protège-slips, tampons, cups, culottes menstruelles … Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections."
 produits:
   - img: /img/page-produits/tampon.svg
     text: Tampons
@@ -26,5 +28,3 @@ produits:
   - img: /img/page-produits/lingettes.svg
     text: "lingettes"
 ---
-
-**Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient non périmés, neufs (jamais utilisés) et emballés individuellement. Serviettes, protège-slips, tampons, cups, culottes menstruelles … Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections.**

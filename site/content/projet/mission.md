@@ -7,6 +7,10 @@ menu:
     parent: projet
     weight: 1
 illu: /img/page-mission/photo-always.jpg
+intro:
+  first: "Règles Élémentaires est la première Association française de lutte contre la précarité menstruelle créée en 2015 par Tara Heuzé-Sarmini. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles."
+  second: "Ensemble, nous pouvons faire bouger les lignes et changer les règles !"
+  hashtags: "#dignité #égalité #solidarité"
 illuSpacing:
   - /img/page-mission/illu-spacing-4.jpg
   - /img/page-mission/illu-spacing-2.jpg
@@ -52,9 +56,3 @@ numbers:
 collectes:
   img: /img/page-mission/chart.svg
 ---
-
-**Règles Élémentaires est la première Association française de lutte contre la précarité menstruelle créée en 2015 par [Tara Heuzé-Sarmini](/projet/equipe/). Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles.**
-
-**Ensemble, nous pouvons faire bouger les lignes et changer les règles !**
-
-### #dignité #égalité #solidarité

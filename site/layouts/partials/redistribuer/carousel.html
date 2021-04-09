@@ -4,11 +4,11 @@
         <img src="/img/page-redistribuer/fleche_slider.svg" />
     </div>
     
-    <div class="flex w-10/12 carousel-redistributeurs">
-    
+    <div id="carousel-redistributeurs" class="flex w-10/12 carousel-redistributeurs">
+
     {{ range .Site.Data.partenaires }}
         {{ if eq .type "redistributeur"}}
-        <div>
+        <div class="px-2">
             {{if eq (len .link) 0}}
             <span title="{{.name}}" class="w-full">
                 <img class="object-scale-down" src="{{.img}}" />
@@ -42,6 +42,13 @@
                 nextArrow: $('.next')
             });
         });
+
+        // randomize logo order
+        var carousel = document.getElementById("carousel-redistributeurs");
+        for (var i = carousel.children.length; i >= 0; i--) {
+            carousel.appendChild(carousel.children[Math.random() * i | 0]);
+        }
+
     </script>
 
     <style>

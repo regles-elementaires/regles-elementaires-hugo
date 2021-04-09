@@ -9,6 +9,9 @@ menu:
     parent: soutenir
     weight: 1
 illu: /img/page-dons-financiers/illu.jpg
+intro:
+  first: "Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’intérêt général."
+  second: "Jusqu’en août 2019, Règles Élémentaires a fonctionné uniquement grâce à des dons de particuliers. L’Association a depuis reçu le soutien financier de la ville de Paris et du Ministère des Solidarités et de la Santé. Afin d’assurer le bon développement de l’Association et de pérenniser notre action, nous sommes à la recherche de partenaires financiers de long-terme et comptons sur la générosité de notre communauté. Il n’y a pas de petite contribution : chaque euro versé nous permet de toujours plus changer les règles ! Tout don à l’Association est éligible à déduction fiscale."
 payements:
   - img: /img/page-dons-financiers/carte.svg
     text: Carte Bancaire
@@ -31,7 +34,3 @@ payements:
     text: Argent liquide
     subtext: Lors des événements
 ---
-
-**Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’intérêt général.**
-
-Jusqu’en août 2019, Règles Élémentaires a fonctionné uniquement grâce à des dons de particuliers. L’Association a depuis reçu le soutien financier de la ville de Paris et du Ministère des Solidarités et de la Santé. Afin d’assurer le bon développement de l’Association et de pérenniser notre action, nous sommes à la recherche de partenaires financiers de long-terme et comptons sur la générosité de notre communauté. Il n’y a pas de petite contribution : chaque euro versé nous permet de toujours plus changer les règles ! Tout don à l’Association est éligible à déduction fiscale.

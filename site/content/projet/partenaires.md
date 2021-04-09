@@ -7,6 +7,8 @@ menu:
     parent: projet
     weight: 4
 illu: "/img/page-home/partenaires-02.svg"
+intro: 
+  first: "Règles Élémentaires est une plateforme de mobilisation citoyenne et notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de produits d’hygiène intime, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs·ses sociaux·ales et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires."
 redistributeurs:
   type: redistributeur
   title1: Nos Partenaires
@@ -52,5 +54,3 @@ autres:
   text: |
     D’autres partenaires soutiennent l’Association dans ses activités de tous les jours. Ces partenaires sont pour certains des points de collecte permanents, d’autres nous accompagnent à nos ateliers de sensibilisation, et d’autres encore nous épaulent pour la logistique, mais tous sont indispensables à l’Association.
 ---
-
-**Règles Élémentaires est une plateforme de mobilisation citoyenne et notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de produits d’hygiène intime, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs·ses sociaux·ales et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires.**

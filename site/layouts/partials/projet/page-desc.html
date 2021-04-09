@@ -1,11 +1,23 @@
 <div class="{{if .Params.description_pink}}bg-repink{{else}}bg-rered{{end}}">
-  <div class="w-11/12 md:w-5/6 m-auto {{if .Params.description_pink}}bg-rered{{else}}bg-repink page-desc--red{{end}}">
-    <div class="flex">
+  <div class="w-11/12 md:w-5/6 m-auto {{if .Params.description_pink}}bg-repink{{else}}bg-rered page-desc--red{{end}}">
+    <div class="flex items-center">
       <div
         class="w-5/5 md:w-3/5 {{if .Params.description_pink}}bg-repink text-rered{{else}}bg-rered text-white{{end}} px-4 md:pr-16 md:pl-0 py-8">
         {{ partial "breadcrumb" . }}
-        <h1 class="text-2xl mb-8 uppercase font-bold">{{ .Title }}</h1>
-        <div class="markdown desc__content">{{ .Content }}</div>
+        <h1 class="text-4xl mb-8 uppercase font-bold">{{ .Title }}</h1>
+        <div class="font-semibold mb-4">{{ .Params.intro.first }}</div>
+        {{ with .Params.intro.second }}
+        <div class="font-norma markdown desc__content">{{ . | markdownify }}</div>
+        {{ end }}
+        {{ with .Params.intro.list }}
+          <ul class="font-semibold">
+            <li>{{ .bullet1 }}</li>
+            <li>{{ .bullet2 }}</li>
+          </ul>
+        {{ end }}
+        {{ with .Params.intro.hashtags }}
+        <div class="font-bold text-2xl uppercase mt-4">{{.}}</div>
+        {{ end }}
         {{if isset .Params "display_dons_desc"}}
         <div class="pt-8 flex flex-row items-center justify-center">
           <a class="big-red-button big-red-button--rounded"
@@ -22,8 +34,8 @@
         {{end}}
       </div>
       <div
-        class="hidden md:flex w-2/5{{if .Params.description_pink}} bg-rered {{else}} bg-repink {{end}}">
-        <img src="{{ .Params.illu }}" class="object-scale-down" />
+        class="hidden md:flex w-2/5 pl-16 py-8 pr-8{{if .Params.description_pink}} bg-repink {{else}} bg-rered {{end}}">
+        <img src="{{ .Params.illu }}" class="object-cover rounded-full" style="height: 20rem; width: 20rem;" />
       </div>
     </div>
   </div>
