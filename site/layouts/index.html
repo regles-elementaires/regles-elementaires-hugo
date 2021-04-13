@@ -68,7 +68,7 @@
             <img src="/img/page-home/logo-seul-RE.svg" class="h-16">
         </div>
         <div class="w-4/6 lg:w-3/6">
-            <h2 class="text-white text-4xl font-extrabold">
+            <h2 class="text-white text-2xl md:text-4xl font-extrabold">
                 LA MISSION<br>
                 DE RÈGLES ÉLÉMENTAIRES</h2>
             <p class="text-white pt-4 text-xl">
@@ -88,7 +88,7 @@
     <div class="container pt-8 flex flex-row">
         <div class="w-1/6 md:w-2/6"></div>
         <div class="w-4/6 md:w-3/6">
-            <h2 class="text-rered text-4xl font-extrabold">ORGANISER UNE COLLECTE</h2>
+            <h2 class="text-rered text-2xl md:text-4xl font-extrabold">ORGANISER UNE COLLECTE</h2>
             <p class="text-rered pt-4 text-xl">
                 Tout le monde peut organiser une collecte avec Règles Élémentaires.
                 Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première
@@ -116,7 +116,7 @@
     <div class="container pt-8 flex flex-row">
         <div class="w-1/6"></div>
         <div class="w-4/6 md:w-3/6">
-            <h2 class="text-rered text-4xl font-extrabold">NOS PARTENAIRES REDISTRIBUTEURS</h2>
+            <h2 class="text-rered text-2xl md:text-4xl font-extrabold">NOS PARTENAIRES REDISTRIBUTEURS</h2>
             <p class="text-rered pt-4 text-xl">
                 L’action de Règles Élémentaires est indissociable de celle de ses partenaires.
                 Notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les
@@ -141,7 +141,7 @@
 <div class="w-full bg-white">
     <div class="container pt-8 flex flex-row">
         <div class="w-11/12 lg:w-5/6 pb-8 m-auto">
-            <h2 class="text-rered text-4xl font-extrabold text-center pb-4">ACTUALITÉS</h2>
+            <h2 class="text-rered text-2xl md:text-4xl font-extrabold text-center pb-4">ACTUALITÉS</h2>
             {{ $sortedPages := sort (where .Site.RegularPages "Section" "actualites") ".Params.date" "desc" }}
             <!--{{ range (first 1 $sortedPages) }}
             <div class="h-full flex flex-row mt-8">
@@ -176,7 +176,7 @@
             </div>
             {{ end }}-->
             <div class="flex flex-wrap">
-                <div class="w-full md:w-3/5 flex flex-col flex-wrap mt-8">
+                <div class="w-full md:w-3/5 flex flex-col flex-wrap items-center mt-8">
                     {{ range first 3 $sortedPages }}
                     {{ .Render "li-home"}}
                     {{ end }}
