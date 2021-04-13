@@ -53,4 +53,5 @@ autres:
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |
     D’autres partenaires soutiennent l’Association dans ses activités de tous les jours. Ces partenaires sont pour certains des points de collecte permanents, d’autres nous accompagnent à nos ateliers de sensibilisation, et d’autres encore nous épaulent pour la logistique, mais tous sont indispensables à l’Association.
+carousel: true
 ---

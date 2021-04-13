@@ -1,17 +1,23 @@
-<div class="w-11/12 md:w-5/6 m-auto">
+<div class="w-11/12 md:w-5/6 m-auto pb-4">
         {{with .page}}
         <div class="w-1/1 md:w-1/2">
-                <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">{{.title1}}<span class="text-rered">
-                                {{.title2}}</span></h2>
+                <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">
+                        {{.title1}}
+                        <span class="text-rered">
+                                {{.title2}}
+                        </span>
+                </h2>
                 {{if isset . "text"}}
                 <div class="text-rered mb-8">{{.text | markdownify}}</div>
                 {{end}}
                 {{if isset . "btn_text"}}
                 <div class="mb-8 text-center">
-                        <a class="big-red-button big-red-button--rounded" href="{{ .btn_link }}" target="_blank">{{ .btn_text }}</a>
+                        <a class="big-red-button big-red-button--rounded" href="{{ .btn_link }}" target="_blank">
+                                {{ .btn_text }}
+                        </a>
                 </div>
                 {{end}}
         </div>
         {{end}}
 </div>
-{{ partial "projet/partenaire-list" (dict "partenaire_type" .page.type "data" .data)}}
+{{ partial "projet/carousel" (dict "partenaire_type" .page.type "data" .data)}}

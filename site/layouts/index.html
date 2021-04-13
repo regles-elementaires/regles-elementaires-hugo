@@ -50,6 +50,17 @@
             <span class="rounded-full bg-white text-rered font-bold px-2 py-1 ml-1">€</span>
         </a>
     </div>
+    <div class="w-full flex flex-row justify-end mb-8">
+        <a class="w-full" href="/donner/trouver">
+            <div class="w-11/12 md:w-1/4 rounded-md m-auto md:mr-16 overflow-hidden">
+                <div class="w-full bg-white text-rered uppercase text-center p-2 font-medium text-lg">La carte des collectes</div>
+                <img src="/img/page-home/map_collectes.png" alt="carte des collectes" class="w-full h-40 object-cover">
+                <div class="w-full bg-redarkpink text-white text-center p-2 text-sm">
+                    Trouver les points de collectes organisées partout en France !
+                </div>
+            </div>
+        </a> 
+    </div>
 </div>
 <div class="w-full bg-rered">
     <div class="container pt-8 flex flex-row">
@@ -101,7 +112,7 @@
     </div>
 </div>
 {{ partial "projet/moi-aussi" . }}
-<div class="w-full bg-regrey">
+<div class="w-full bg-regrey pb-16">
     <div class="container pt-8 flex flex-row">
         <div class="w-1/6"></div>
         <div class="w-4/6 md:w-3/6">
@@ -119,12 +130,13 @@
                     En savoir plus sur nos partenaires redistributeurs
                 </a>
             </p>
-            {{ partial "projet/partenaire-list" (dict "partenaire_type" "redistributeur" "data" .Site.Data.partenaires)}}
         </div>
         <div class="hidden md:flex w-2/6 p-4">
             <img src="/img/page-home/partenaires-02.svg" class="h-32" />
         </div>
     </div>
+    {{ partial "redistribuer/carousel" . }}
+
 </div>
 <div class="w-full bg-white">
     <div class="container pt-8 flex flex-row">

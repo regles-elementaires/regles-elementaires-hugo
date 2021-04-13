@@ -1,13 +1,13 @@
 <div class="flex flex-row px-2 md:px-16 my-8">
 
-    <div class="flex w-1/12 prev h-12 self-center justify-center">
+    <div id="prev-{{.partenaire_type}}" class="flex w-1/12 h-12 self-center justify-center">
         <img src="/img/page-redistribuer/fleche_slider.svg" />
     </div>
     
-    <div id="carousel-redistributeurs" class="flex w-10/12 carousel-redistributeurs">
-
-    {{ range .Site.Data.partenaires }}
-        {{ if eq .type "redistributeur"}}
+    <div id="carousel-{{.partenaire_type}}" class="flex w-10/12 carousel-redistributeurs m-auto">
+    {{ $partenaireType := .partenaire_type }}
+    {{ range .data }}
+        {{ if eq .type $partenaireType}}
         <div class="px-2">
             {{if eq (len .link) 0}}
             <span title="{{.name}}" class="w-full">
@@ -15,7 +15,7 @@
             </span>
             {{else}}
             <a href="{{.link}}" target="_blank" title="{{.name}}" class="w-full h-full">
-                <img class="w-full h-full object-scale-down" src="{{.img}}" />
+                <img class="w-full h-full object-scale-down object-center px-2" src="{{.img}}" />
             </a>
             {{end}}
         </div> 
@@ -24,7 +24,7 @@
     
     </div>
 
-    <div class="flex w-1/12 next h-12 self-center justify-center">
+    <div id="next-{{.partenaire_type}}" class="flex w-1/12 h-12 self-center justify-center">
         <img src="/img/page-redistribuer/fleche_slider.svg" style="transform: scaleX(-1)"/>
     </div>
 
@@ -34,12 +34,12 @@
 
     <script>        
         $(document).ready(function(){
-            $('.carousel-redistributeurs').slick({
+            $('#carousel-{{.partenaire_type}}').slick({
                 infinite: true,
                 slidesToShow: 5,
                 slidesToScroll: 1,
-                prevArrow: $('.prev'),
-                nextArrow: $('.next'),
+                prevArrow: $('#prev-{{.partenaire_type}}'),
+                nextArrow: $('#next-{{.partenaire_type}}'),
                 responsive: [{
                     breakpoint: 768,
                     settings: {
@@ -51,7 +51,7 @@
         });
 
         // randomize logo order
-        var carousel = document.getElementById("carousel-redistributeurs");
+        var carousel = document.getElementById("carousel-{{.partenaire_type}}");
         for (var i = carousel.children.length; i >= 0; i--) {
             carousel.appendChild(carousel.children[Math.random() * i | 0]);
         }
