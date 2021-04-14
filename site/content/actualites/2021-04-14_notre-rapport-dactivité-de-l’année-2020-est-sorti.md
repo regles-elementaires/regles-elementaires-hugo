@@ -1,5 +1,5 @@
 ---
-title: 'La sang continu de couler : notre rapport d''activité de l’année 2020 '
+title: 'La sang continue de couler : notre rapport d''activité de l’année 2020 '
 tags:
   - news
 date: 2021-04-14T10:01:05.927Z
