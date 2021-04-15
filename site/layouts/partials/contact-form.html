@@ -1,33 +1,62 @@
 <!-- Contact -->
-<div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4>
+<div class="w-11/12 md:w-4/5 m-auto">
+  <h4 class="text-white uppercase text-2xl font-bold mb-2">Contact</h4>
 
-  <form action="">
-    <div class="flex-l mhn1-l">
-      <!-- Name -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2">
-          <label for="name">Name</label>
-        </fieldset>
-      </div>
-      <!-- Email -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2">
-          <label for="email">Email</label>
-        </fieldset>
-      </div>
+  <form name="contact-form" action="https://collectes.regleselementaires.com/contact/processContactForm" method="post">
+
+    <!-- Name -->
+    <div class="border-b-2 border-white mb-2">
+      <fieldset>
+        <input required type="text" id="name" name="name" placeholder="Votre nom & prénom" class="bg-redarkgrey text-repink py-2 w-full">
+      </fieldset>
     </div>
+    <!-- Email -->
+    <div class="border-b-2 border-white mb-2">
+      <fieldset>
+        <input required type="email" id="email" name="email" placeholder="Votre email" class="bg-redarkgrey text-repink py-2 w-full">
+      </fieldset>
+    </div>
+
+    <!-- Sujet -->
+    <div class="border-b-2 border-white mb-2 pb-2 selectdiv flex flex-row">
+      <select required name="subject" id="subject" class="bg-redarkgrey text-repink py-2 w-full appearance-none">
+        <option value="" disabled selected>Votre question concerne</option>
+        <option value="collecte">Organiser une collecte</option>
+        <option value="demande-produits">Bénéficier de produits</option>
+        <option value="soutenir">Soutenir l'association</option>
+        <option value="don-produits">Faire un don de produits</option>
+        <option value="don-financier">Faire un don financier</option>
+        <option value="rejoindre">Rejoindre l'association</option>
+        <option value="partenariat">Développer un partenariat</option>
+        <option value="autre">Toute autre demande</option>
+      </select>
+    </div>
+
 
     <!-- Message -->
     <fieldset>
-      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100"></textarea>
-      <label for="message">Your message</label>
+      <textarea required id="message" name="message" placeholder="Votre message" rows="8" cols="" class="w-full p-4 mt-4 border-2 border-white bg-redarkgrey text-repink"></textarea>
     </fieldset>
     <!-- Button -->
-    <div class="tc">
-      <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
+    <div class="mt-2 flex justify-end">
+      <button type="submit" class="border-2 border-white uppercase text-white py-2 px-8 font-bold">Envoyer</button>
     </div>
   </form>
 </div>
+
+<style>
+  input::placeholder, textarea::placeholder {
+    color: #ffd8dd;
+    opacity: 1;
+  }
+
+  .selectdiv:after {
+    content: '<>';
+    color: #ffd8dd;
+    transform: rotate(90deg);
+    display: flex;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+</style>
