@@ -27,10 +27,26 @@
         </div>
 
         {{ partial "redistribuer/carousel" . }}
-        
+        <div class="py-8 flex flex-row justify-center">
+            <button class="big-red-button big-red-button--rounded"
+            onclick="displayAllPartners(this)"
+            >
+                Voir tous nos partenaires
+            </button>
+        </div>
+        {{ partial "redistribuer/partenaire-list" . }}
     </div>
     
     {{ partial "projet/moi-aussi" . }}
+
+    <script>
+        function displayAllPartners(button) {
+            document.getElementById("carousel-redistributeurs").parentNode.classList.add("hidden");
+            button.parentNode.classList.add("hidden");
+            document.getElementById("full-partner-list").classList.remove("h-0", "opacity-0");
+            document.getElementById("full-partner-list").classList.add("py-8");
+        }
+    </script>
 
 </div>
 {{ end }}
