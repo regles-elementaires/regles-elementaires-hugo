@@ -1,4 +1,5 @@
 name = "Mairie Palaiseau"
 type = "institutionnel"
-link = ""
+link = "https://www.ville-palaiseau.fr/"
 img = "/img/partenaires/mairie-palaiseau.png"
+story = " "
