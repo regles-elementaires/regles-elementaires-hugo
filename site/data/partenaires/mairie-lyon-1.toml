@@ -1,4 +1,5 @@
 name = "Mairie Lyon Un"
 type = "institutionnel"
-link = ""
+link = "https://mairie1.lyon.fr/"
 img = "/img/partenaires/lyon-1.png"
+story = " "
