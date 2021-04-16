@@ -8,13 +8,13 @@
     <div class="py-8 bg-regrey">
         {{ partial "projet/partenaire-type" (dict "page" .Params.industriels "data" .Site.Data.partenaires)}}
     </div>
-    <!-- <div class="py-8 bg-white">
-        {{ partial "projet/partenaire-type" (dict "page" .Params.financiers "data" .Site.Data.partenaires)}}
-    </div> -->
     <div class="py-8 bg-white">
         {{ partial "projet/partenaire-type" (dict "page" .Params.institutionnels "data" .Site.Data.partenaires)}}
     </div>
     <div class="py-8 bg-regrey">
+        {{ partial "projet/partenaire-type" (dict "page" .Params.financiers "data" .Site.Data.partenaires)}}
+    </div>
+    <div class="py-8 bg-white">
         {{ partial "projet/partenaire-type" (dict "page" .Params.autres "data" .Site.Data.partenaires)}}
     </div>
     {{ partial "projet/moi-aussi" . }}

@@ -34,7 +34,9 @@ financiers:
   btn_text: Contactez-nous
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |
-    De l’acheminement de boîtes à dons à l’ouverture de nouvelles antennes, en passant par le développement de notre volet de sensibilisation destiné aux bénéficiaires et au public scolaire ainsi que l’organisation de la redistribution de toujours plus de produits, nos partenaires financiers apportent à l’Association un soutien capital à toutes les étapes du processus.
+    Les partenaires financiers permettent à l’association de voir sur le long terme. Grâce à leurs différents financements, Règles Élémentaires est capable d’assurer son bon développement et de pérenniser ses actions. 
+    Ces partenaires nous ont permis, ces dernières années, de renforcer les équipes de Règles Élémentaires ou encore de proposer des ateliers d’information à l’hygiène menstruelle et à l’utilisation des protections hygiéniques.
+
 
 institutionnels:
   type: institutionnel
