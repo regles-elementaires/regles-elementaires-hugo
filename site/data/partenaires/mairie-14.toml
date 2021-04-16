@@ -1,4 +1,5 @@
 name = "Mairie Quatorze Paris"
 type = "institutionnel"
-link = ""
+link = "https://mairie14.paris.fr/"
 img = "/img/partenaires/mairie-14.png"
+story = " "
