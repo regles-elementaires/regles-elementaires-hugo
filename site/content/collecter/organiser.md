@@ -21,7 +21,7 @@ steps:
     text: 'Je me rends sur <br>l''<a href="https://collectes.regleselementaires.com/" target="_blank" onclick="gtag(''event'', ''clicOrganiserCollecte'', {''event_category'': ''Collecte'',''event_label'': ''bouton_step_2''});">espace collecte Règles Élémentaires</a>.'
   - img: /img/page-collecte/etape-3.svg
     step: 3
-    text: Je crée mon compte.
+    text: Je crée mon compte. Je consulte la <a href="/collecter/charte" target="_blank">charte Règles Élémentaires</a>.
   - img: /img/page-collecte/etape-4.svg
     step: 4
     text: J'ajoute une collecte et je renseigne les informations demandées (au moins 2 semaines avant le début de ma collecte).
