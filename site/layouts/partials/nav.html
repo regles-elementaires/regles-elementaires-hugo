@@ -25,8 +25,7 @@
 								<div class="hover-nav ">
 									<ul class="bg-white text-rered text-sm font-normal py-2 px-4 text-center mt-4 rounded-md" style="box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10)">
 										{{ range . }}
-											{{/* if not (eq .Name "Histoire de partenariat") */}}
-											{{ if not (or (eq .Name "Charte Règles Élémentaires") (eq .Name "Histoire de partenariat")) }}
+											{{ if not (eq .Name "Charte Règles Élémentaires") }}
 											<li class="py-1">
 												<a href="{{.URL}}"class="hover:font-bold">{{.Name}}</a>
 											</li>
