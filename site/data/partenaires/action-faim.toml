@@ -2,3 +2,17 @@ name = "Action contre la faim"
 type = "redistributeur"
 link = "https://www.actioncontrelafaim.org/"
 img = "/img/partenaires/action-faim.png"
+story = """
+Hélène Queau, directrice pays pour la mission France d’ Action contre la faim. Elle a pris contact avec Règles Élémentaires en avril 2020. Depuis le début de notre partenariat, Règles Élémentaires a donné 285 328 protections hygiéniques qui ont bénéficié à près de 10 000 femmes et filles depuis son implantation en France.
+<br/><br/>👉 Comment avez-vous découvert règles élémentaires ?
+<br/><br/>🎤 C’est un mélange entre sensibilité du sujet, connaissance de la problématique et réseaux, puisqu’une de mes collègues a pu travailler à la Fondation des Femmes. Puisque nous travaillons en complémentarité d’associations , c’est donc très rapidement que nous avons pu vous trouver.
+<br/><br/>👉 Quelles sont les missions de votre association ?
+<br/><br/>🎤 Action contre la faim est une association humanitaire internationale créée en 1978. Depuis plus de 40 ans, sa mission est de lutter contre la faim et toutes ses causes.
+Depuis 2019, nous agissons sur le territoire français. Nos actions s’appuient sur l’expertise et les moyens développés en tant qu’organisation humanitaire à l’étranger. Ces interventions visent en premier lieu à assurer la sécurité alimentaire et nutritionnelle des personnes les plus précaires. 
+Face au besoin croissant observé en France, Action contre la faim vient renforcer les acteurs de l’aide déjà présents.
+<br/><br/>👉 Comment venez-vous en aide aux femmes en situation de précarité ?
+<br/><br/>🎤 Afin de mener ces missions, l’association accompagne un réseau de partenaires, tels que des collectifs citoyens et des associations de proximité qui travaillent au plus près des personnes en situation de précarité.
+Concrètement, nous intervenons de deux manières différentes :
+<br/> - Directement ; lors de maraudes et distribution de produits alimentaires et hygiéniques
+<br/> - Indirectement ; en formant les bénévoles, en apportant des appuis, notamment matériel et enfin, grâce à des enquêtes terrain en lien avec leurs partenaires afin de documenter les besoins, recueillir les retours des bénéficiaires et proposer le meilleur accompagnement qui soit
+"""
