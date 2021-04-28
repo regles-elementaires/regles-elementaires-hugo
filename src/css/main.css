@@ -9,7 +9,12 @@
 === GENERIC
 */
 .big-red-button {
-  @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block font-medium text-center;
+  @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block font-medium text-center text-sm;
+}
+@screen md {
+  .big-red-button {
+    @apply text-base;
+  }
 }
 .big-red-button--rounded {
   @apply rounded-full;
