@@ -1,6 +1,6 @@
 <!-- Primary Nav -->
-<nav id="nav" class="w-full {{if .IsHome}}bg-white md:bg-opacity-0 absolute z-10{{else}}bg-white shadow-md{{end}}">
-	<div class="w-full flex flex-wrap justify-evenly px-4 md:pb-4">
+<nav id="nav" class="w-full {{if .IsHome}}bg-white md:bg-opacity-0 md:absolute z-10{{else}}bg-white shadow-md{{end}}">
+	<div class="w-full flex flex-wrap justify-between md:justify-evenly pr-4 md:pl-4 md:py-2">
 		<!-- Logo -->
 		<div class="flex flex-col">
 			<a class="" href="/">
@@ -68,24 +68,24 @@
 
 	<!-- Mobile nav -->
 	<div id="mobile-nav" class="w-full h-screen flex hidden absolute py-2 bg-white shadow-inner">
-		<ul class="w-full flex flex-col flex-wrap text-rered ml-4">
+		<ul class="w-full flex flex-col flex-wrap text-rered ml-4 mt-6">
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
 				<li class="px-4 pb-1 menu-item--focus">
 					{{ $currentMenu := . }}
 					{{ with .Children }}
-					<button class="text-sm uppercase focus:outline-none">
+					<button class="uppercase focus:outline-none">
 						{{ $currentMenu.Name }}
 					</button>
 					{{ else }}
-					<a href={{$currentMenu.URL}} onmousedown="event.preventDefault();" class="text-sm uppercase focus:outline-none {{ if or ($currentPage.IsMenuCurrent "main" $currentMenu) ($currentPage.HasMenuCurrent "main" $currentMenu) }} font-bold {{ end }}">
+					<a href={{$currentMenu.URL}} onmousedown="event.preventDefault();" class="uppercase focus:outline-none {{ if or ($currentPage.IsMenuCurrent "main" $currentMenu) ($currentPage.HasMenuCurrent "main" $currentMenu) }} font-bold {{ end }}">
 						{{ $currentMenu.Name }}
 					</a>
 					{{ end }}
 					<!-- Hover Nav -->
 					{{ with .Children }}
 					<div class="focus-nav">
-						<ul class="text-rered text-sm font-normal">
+						<ul class="text-rered font-normal">
 							{{ range . }}
 								{{ if not (eq .Name "Charte Règles Élémentaires") }}
 								<li class="flex flex-row items-center">
@@ -103,8 +103,8 @@
 				</li>
 			{{ end }}
 
-			<li class="px-2 mt-2 text-center">
-				<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-sm text-white border-rered border-2 hover:border-redarkpink px-2 py-1 font-semibold rounded-sm bg-rered" 
+			<li class="px-2 mt-6 text-center">
+				<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-white border-rered border-2 hover:border-redarkpink px-2 py-1 font-semibold rounded-sm bg-rered" 
 					onclick="gtag('event', 'clicOrganiserCollecte', {
 						'event_category': 'Collecte',
 						'event_label': 'bouton_nav',
@@ -123,7 +123,7 @@
             document.getElementById("burger-icon").classList.toggle("hidden");
             document.getElementById("x-icon").classList.toggle("hidden");
             document.getElementById("nav").classList.toggle("fixed");
-            document.getElementById("nav").classList.toggle("absolute");
+            document.getElementById("nav").classList.toggle("top-0");
 			isMenuOpen = !isMenuOpen;
         }
 
