@@ -1,56 +1,145 @@
 <!-- Primary Nav -->
-<nav class="w-full {{if .IsHome}}bg-opacity-0 absolute z-10{{else}}bg-white shadow-md{{end}} sm:h-24 flex justify-between items-center px-4 flex-col sm:flex-row">
-	<div class="w-full flex flex-wrap justify-evenly">
+<nav id="nav" class="w-full {{if .IsHome}}bg-white md:bg-opacity-0 absolute z-10{{else}}bg-white shadow-md{{end}}">
+	<div class="w-full flex flex-wrap justify-evenly px-4 md:pb-4">
 		<!-- Logo -->
 		<div class="flex flex-col">
 			<a class="" href="/">
-				<img src="/img/logo-re{{if not .IsHome}}-red{{end}}.png" alt="Regles Elementaires logo"
-					class="object-contain h-20" />
+				<img src="/img/logo-re.png" alt="Regles Elementaires logo"
+					class="object-contain h-20 hidden {{if .IsHome}}md:flex{{end}}" />
+				<img src="/img/logo-re-red.png" alt="Regles Elementaires logo"
+					class="object-contain h-20 {{if .IsHome}}md:hidden{{end}}" />
 			</a>
 		</div>
 
-		<div class="flex flex-col justify-center items-end">
+		<!-- Mobile Nav Icon -->
+		<div class="flex md:hidden">
+			<button type="button" onclick="toggleMenu()" class="text-rered focus:outline-none">
+				<svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+					<!-- X -->
+					<path id="x-icon" class="hidden" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+				  	<!-- Burger -->
+					<path id="burger-icon" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+				</svg>
+			</button>
+		</div>
 
-			<div class="flex flex-col sm:flex-row justify-end flew-wrap items-end lg:pb-2">
-				<div class="px-4 flex-grow">
-					<ul class="flex flex-wrap {{if .IsHome}}text-white{{else}}text-rered{{end}} uppercase -mx-4">
-						{{ $currentPage := . }}
-						{{ range .Site.Menus.main }}
-							<li class="menu-item menu-item-space relative {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} font-extrabold {{ end }}">
-								<a href="{{ .URL }}" class="menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }}">
-									{{ .Name }}
-								</a>
-								<!-- Hover Nav -->
-								{{ with .Children }}
-								<div class="hover-nav ">
-									<ul class="bg-white text-rered text-sm font-normal py-2 px-4 text-center mt-4 rounded-md" style="box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10)">
-										{{ range . }}
-											{{ if not (eq .Name "Charte Règles Élémentaires") }}
-											<li class="py-1">
-												<a href="{{.URL}}"class="hover:font-bold">{{.Name}}</a>
-											</li>
-											{{ end }}
-										{{ end }}
-									</ul>
-								</div>
-								
-								{{ end }}
-							</li>
-						{{ end }}
-
-						<li class="menu-item menu-item-space relative md:ml-4">
-							<a href="https://collectes.regleselementaires.com/" target="_blank" class="font-semibold text-white border-rered border-2 hover:border-redarkpink px-4 rounded-md {{if not .IsHome}} bg-rered hover:bg-redarkpink{{end}}" 
-								onclick="gtag('event', 'clicOrganiserCollecte', {
-									'event_category': 'Collecte',
-									'event_label': 'bouton_nav',
-								});"
-							>
-								Espace collecte
+		<!-- Large screen Nav -->
+		<div class="hidden md:flex flex-col md:flex-row items-center">
+			<div class="px-4 flex-grow">
+				<ul class="flex flex-wrap {{if .IsHome}}text-white{{else}}text-rered{{end}} uppercase">
+					{{ $currentPage := . }}
+					{{ range .Site.Menus.main }}
+						<li class="menu-item menu-item-space relative {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} font-extrabold {{ end }}">
+							<a href="{{ .URL }}" class="menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }}">
+								{{ .Name }}
 							</a>
+							<!-- Hover Nav -->
+							{{ with .Children }}
+							<div class="hover-nav ">
+								<ul class="bg-white text-rered text-sm font-normal py-2 px-4 text-center mt-4 rounded-md" style="box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10)">
+									{{ range . }}
+										{{ if not (eq .Name "Charte Règles Élémentaires") }}
+										<li class="py-1">
+											<a href="{{.URL}}"class="hover:font-bold">{{.Name}}</a>
+										</li>
+										{{ end }}
+									{{ end }}
+								</ul>
+							</div>
+							
+							{{ end }}
 						</li>
-					</ul>
-				</div>
+					{{ end }}
+
+					<li class="menu-item menu-item-space relative md:ml-4">
+						<a href="https://collectes.regleselementaires.com/" target="_blank" class="font-semibold text-white border-rered border-2 hover:border-redarkpink px-4 rounded-md {{if not .IsHome}} bg-rered hover:bg-redarkpink{{end}}" 
+							onclick="gtag('event', 'clicOrganiserCollecte', {
+								'event_category': 'Collecte',
+								'event_label': 'bouton_nav',
+							});"
+						>
+							Espace collecte
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
+
+	<!-- Mobile nav -->
+	<div id="mobile-nav" class="w-full h-screen flex hidden absolute py-2 bg-white shadow-inner">
+		<ul class="w-full flex flex-col flex-wrap text-rered ml-4">
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+				<li class="px-4 pb-1 menu-item--focus">
+					{{ $currentMenu := . }}
+					{{ with .Children }}
+					<button class="text-sm uppercase focus:outline-none">
+						{{ $currentMenu.Name }}
+					</button>
+					{{ else }}
+					<a href={{$currentMenu.URL}} onmousedown="event.preventDefault();" class="text-sm uppercase focus:outline-none {{ if or ($currentPage.IsMenuCurrent "main" $currentMenu) ($currentPage.HasMenuCurrent "main" $currentMenu) }} font-bold {{ end }}">
+						{{ $currentMenu.Name }}
+					</a>
+					{{ end }}
+					<!-- Hover Nav -->
+					{{ with .Children }}
+					<div class="focus-nav">
+						<ul class="text-rered text-sm font-normal">
+							{{ range . }}
+								{{ if not (eq .Name "Charte Règles Élémentaires") }}
+								<li class="flex flex-row items-center">
+									<svg class="h-8 w-8 fill-current text-rered" viewBox="0 0 64 64">
+										<path d='M0 33 L48 33 L48 31 L0 31' />
+									</svg>
+									<a href="{{.URL}}" class="menu-sub-item--focus">{{.Name}}</a>
+								</li>
+								{{ end }}
+							{{ end }}
+						</ul>
+					</div>
+					
+					{{ end }}
+				</li>
+			{{ end }}
+
+			<li class="px-2 mt-2 text-center">
+				<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-sm text-white border-rered border-2 hover:border-redarkpink px-2 py-1 font-semibold rounded-sm bg-rered" 
+					onclick="gtag('event', 'clicOrganiserCollecte', {
+						'event_category': 'Collecte',
+						'event_label': 'bouton_nav',
+					});"
+					onmousedown="event.preventDefault();"
+				>
+					Espace collecte
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+		let isMenuOpen = false;
+        function toggleMenu() {
+            document.getElementById("mobile-nav").classList.toggle("hidden");
+            document.getElementById("burger-icon").classList.toggle("hidden");
+            document.getElementById("x-icon").classList.toggle("hidden");
+            document.getElementById("nav").classList.toggle("fixed");
+            document.getElementById("nav").classList.toggle("absolute");
+			isMenuOpen = !isMenuOpen;
+        }
+
+		/*
+		function closeMenu() {
+			if (isMenuOpen) {
+				document.getElementById("mobile-nav").classList.add("hidden");
+				document.getElementById("burger-icon").classList.remove("hidden");
+				document.getElementById("x-icon").classList.add("hidden");
+				isMenuOpen = !isMenuOpen;
+			}
+        }
+		document.addEventListener("click", function(event) {
+			if (!event.target.closest("nav")) {
+				closeMenu();
+			}
+		});*/
+    </script>
 </nav>

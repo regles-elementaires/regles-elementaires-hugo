@@ -27,7 +27,12 @@
 }
 
 .big-white-button {
-  @apply uppercase bg-white text-rered p-4 px-8 rounded-lg inline-block font-medium;
+  @apply uppercase bg-white text-rered p-4 px-8 rounded-lg inline-block font-medium text-center text-sm;
+}
+@screen md {
+  .big-white-button {
+    @apply text-base;
+  }
 }
 .big-white-button--rounded {
   @apply rounded-full;
@@ -124,6 +129,21 @@
   display: block;
   position: absolute;
   z-index: 1;
+}
+
+.focus-nav {
+  display: none;
+  width: auto;
+  white-space: nowrap;
+}
+
+.focus-nav:focus, .menu-item--focus:focus-within .focus-nav {
+  display: block;
+  z-index: 1;
+}
+
+.menu-item--focus:focus-within button {
+  @apply font-bold;
 }
 
 
