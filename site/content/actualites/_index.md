@@ -4,7 +4,7 @@ date: 2019-12-06T13:48:10+01:00
 layout: list
 menu:
   main:
-    name: Actualités
+    name: Actus
     weight: 5
 ---
 

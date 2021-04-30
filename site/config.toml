@@ -21,7 +21,7 @@ disableKinds = ["RSS"]
 [menu]
   [[menu.main]]
     identifier = "projet"
-    name = "Le Projet"
+    name = "Projet"
     url = "/projet/mission"
     weight = 1
   [[menu.main]]

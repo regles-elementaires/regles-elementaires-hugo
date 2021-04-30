@@ -1,31 +1,36 @@
 <footer class="">
 	<div class="bg-redarkgrey">
 		<div class="container flex flex-col md:flex-row">
+			<div class="w-full md:w-2/5 md:p-8 py-4 px-4 md:flex md:justify-end">
+				<div class="w-11/12 md:w-4/5 mx-auto">
+					<div class="md:px-4 text-repink mt-4 md:mt-0 mb-4">
+						Avant de nous contacter, n'hésitez pas à jeter un oeil à notre <a class="font-bold hover:underline" href="/faq/">FAQ</a>, vous y trouverez peut-être les réponses aux questions que vous vous posez sur le type de produits que l'on peut donner ou sur la manière d'organiser une collecte de produits par exemple.
+					</div>
+					<div class="py-4 md:p-4 text-white font-bold flex flex-col">
+						<span class="font-normal text-repink">
+							Contactez-nous sur : 
+						</span>
+						<a href="mailto:{{.Site.Data.copyright.contact}}" target="_blank">
+							{{.Site.Data.copyright.contact}}
+						</a>
+						<span class="font-normal text-repink">
+							Demandes presse : 
+						</span>
+						<a href="mailto:{{.Site.Data.copyright.presse}}" target="_blank">
+							{{.Site.Data.copyright.presse}}
+						</a>
+					</div>
+					<div class="md:p-4 text-white font-bold">
+						<span class="font-normal text-repink">
+							Notre adresse :
+						</span>
+						<br/>
+						{{.Site.Data.copyright.adresse | markdownify}}
+					</div>
+				</div>				
+			</div>
 			<div class="w-full md:w-3/5 md:flex md:justify-end md:p-8 px-4 py-4">
 				{{ partial "contact-form" . }}
-			</div>
-			<div class="w-full md:w-2/5 md:p-8 py-2 px-4">
-				<div class="p-4 text-white font-bold flex flex-col">
-					<span class="font-normal text-repink">
-						Contactez-nous sur : 
-					</span>
-					<a href="mailto:{{.Site.Data.copyright.contact}}" target="_blank">
-						{{.Site.Data.copyright.contact}}
-					</a>
-					<span class="font-normal text-repink">
-						Demandes presse : 
-					</span>
-					<a href="mailto:{{.Site.Data.copyright.presse}}" target="_blank">
-						{{.Site.Data.copyright.presse}}
-					</a>
-				</div>
-				<div class="p-4 text-white font-bold">
-					<span class="font-normal text-repink">
-						Notre adresse :
-					</span>
-					<br/>
-					{{.Site.Data.copyright.adresse | markdownify}}
-				</div>
 			</div>
 		</div>
 	</div>
