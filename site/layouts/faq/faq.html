@@ -5,12 +5,17 @@
         <div class="md:w-1/2 mt-8 font-bold text-sm md:text-lg">{{ .Params.intro.text }}</div>
     </div>
 </div>
-<div class="flex flex-row flex-wrap justify-between w-10/12 mx-auto">
-    {{ range .Params.categories }}
+<div class="flex flex-row flex-wrap w-10/12 mx-auto">
+    {{ range $index, $val := .Params.categories }}
         <div class="w-full md:w-5/12">
-            <div class="md:text-xl uppercase font-extrabold text-redarkpink mt-4 md:mt-8 mb-4">{{ .title }}</div>
-            {{ partial "faq/question" . }}
-        </div>        
+            <div class="md:text-xl uppercase font-extrabold text-redarkpink mt-4 md:mt-8 mb-4">{{ $val.title }}</div>
+            {{ partial "faq/question" $val }}
+        </div>
+        {{ if modBool $index 2 }}
+        <div class="hidden md:flex md:w-2/12 justify-center items-center md:mb-8">
+            <img src="/img/faq-divider.svg" alt="divider" width="12px" />
+        </div>
+        {{ end }}        
     {{ end }}
 </div>
 {{ end }}
