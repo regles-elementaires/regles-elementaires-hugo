@@ -5,13 +5,13 @@
     {{ range (first 1 $sortedPages) }}
     <div class="flex flex-col">
         <div class="h-full flex flex-row mt-8">
-            <div class="w-1/3"><img class="object-cover w-full h-full" src="{{.Params.illu}}" /></div>
-            <div class="w-2/3 px-4">
-                <h2 class="text-2xl font-medium underline text-redarkgrey" style="text-decoration-thickness: 2px;
+            <div class="w-2/5 md:w-1/3"><img class="object-cover w-full h-full" src="{{.Params.illu}}" /></div>
+            <div class="w-3/5 md:w-2/3 px-4">
+                <h2 class="text-lg md:text-2xl font-medium underline text-redarkgrey" style="text-decoration-thickness: 2px;
                 text-underline-offset: 4px;">
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
                 </h2>
-                <p class="">
+                <p class="text-xs md:text-base">
                     <span class="text-rered">le {{dateFormat "02.01.2006" .Params.date}}</span>
                     <span class="text-redarkpink"> par</span>
                     <span class="uppercase text-redarkpink font-semibold">
@@ -20,14 +20,14 @@
                 </p>
                 <ul class="text-rered mt-4">
                     {{ range (.GetTerms "tags") }}
-                    <li class="mr-2 text-sm inline-block mb-2">
+                    <li class="mr-2 text-xs md:text-sm inline-block mb-2">
                         <a href="{{ .Permalink }}" class="bg-repink rounded-full py-1 px-6">
                             <span class="text-rered uppercase font-semibold">#{{ .LinkTitle }}</span>
                         </a>
                     </li>
                     {{ end }}
                 </ul>
-                <div class="text-rered text-justify markdown">{{ .Params.intro | markdownify}}</div>
+                <div class="text-rered text-sm md:text-base markdown">{{ .Params.intro | markdownify}}</div>
             </div>
         </div>
     </div>

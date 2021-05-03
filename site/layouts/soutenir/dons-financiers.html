@@ -1,17 +1,17 @@
 {{ define "main" }}
 <div>
     {{ partial "projet/page-desc" . }}
-    <div class="container px-4 md:px-32 mb-4 flex flex-col items-stretch">
+    <div class="container px-8 md:px-32 mb-4 flex flex-col items-stretch">
         <h1 class="font-bold text-2xl mt-16 pb-8 uppercase"><span class="text-redarkpink">Bon</span><span
                 class="text-rered"> à savoir</span></h1>
-        <p class="text-l pb-8 text-rered">Nous acceptons également vos dons par:</p>
-        <div class="flex flex-wrap -mx-8 justify-around">
+        <p class="md:pb-8 text-rered">Nous acceptons également vos dons par:</p>
+        <div class="flex flex-wrap justify-around">
             {{ range .Params.payments }}
                 {{if isset . "link"}}
                     <a href="{{.link}}" target="_blank"
                         class="relative px-8 pt-8 flex flex-row cursor-pointer">
                 {{else}}
-                    <div class="relative px-8 pt-8 flex flex-row">
+                    <div class="relative px-8 pt-4 md:pt-8 flex flex-row">
                 {{end}}
                     <div class="absolute inset-x-0 px-8">
                         <div class="flex flex-col items-center w-full">
@@ -26,7 +26,7 @@
                             {{end}}
                         </div>
                     </div>
-                    <div class="mt-16 pt-20 pb-8 text-center rounded-lg flex-grow">
+                    <div class="mt-16 pt-20 md:pb-8 text-center rounded-lg flex-grow">
                         <p class="uppercase font-bold text-sm text-redarkgrey">
                             {{ if isset . "link" }}
                                 <span

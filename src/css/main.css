@@ -151,7 +151,10 @@
 === HEADER ===
 */
 .desc__content a {
-  @apply text-redarkgrey underline;
+  @apply font-semibold;
+}
+.desc__content a:hover {
+  @apply underline;
 }
 .page-desc--red .desc__content a {
   @apply text-white underline;
@@ -222,7 +225,12 @@
 }
 
 .equipe-button-active h2 {
-  @apply border-b-4 border-redarkpink no-underline;
+  @apply border-b-2 border-redarkpink no-underline;
+}
+@screen md {
+  .equipe-button-active h2 {
+    @apply border-b-4 border-redarkpink no-underline;
+  }
 }
 
 /*

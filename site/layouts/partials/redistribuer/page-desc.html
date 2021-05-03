@@ -3,13 +3,13 @@
       <div class="flex">
         <div class="w-5/5 md:w-3/5 px-8 md:px-32 pt-8 pb-16 {{if .Params.description_pink}} bg-repink text-rered {{else}} bg-rered text-white {{end}}">
           {{ partial "breadcrumb" . }}
-          <h1 class="text-2xl md:text-4xl mb-8 uppercase font-bold">{{ .Title }}</h1>
-          <div class="font-semibold mb-4 text-sm md:text-base">{{ .Params.intro.first }}</div>
+          <h1 class="text-2xl md:text-4xl mb-8 uppercase font-extrabold">{{ .Title }}</h1>
+          <div class="font-semibold mb-4">{{ .Params.intro.first }}</div>
           {{ with .Params.intro.second }}
-          <div class="font-semibold text-sm md:text-base">{{ .}}</div>
+          <div class="font-semibold">{{ .}}</div>
           {{ end }}
           {{ with .Params.intro.list }}
-            <ul class="font-semibold text-sm md:text-base">
+            <ul class="font-semibold">
               <li>{{ .bullet1 }}</li>
               <li>{{ .bullet2 }}</li>
             </ul>

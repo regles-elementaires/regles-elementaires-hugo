@@ -8,7 +8,7 @@
                     {{with .Params.mission_first }}
                     <div class="bg-repink p-8 rounded-lg flex flex-col items-center h-full">
                         {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="markdown mt-4">{{.content | markdownify }}</div>
+                        <div class="text-sm md:text-base markdown mt-4">{{.content | markdownify }}</div>
                         <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
                     </div>
                     {{end}}
@@ -17,7 +17,7 @@
                     {{with .Params.mission_second }}
                     <div class="bg-repink p-8 rounded-lg flex flex-col items-center h-full">
                         {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="markdown mt-4">{{.content | markdownify }}</div>
+                        <div class="text-sm md:text-base markdown mt-4">{{.content | markdownify }}</div>
                         <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
                     </div>
                     {{end}}
@@ -31,8 +31,8 @@
         {{end}}
     </div>
     <div class="container">
-        <h1 class="text-3xl mt-8 mb-4 uppercase font-bold text-rered pl-8">{{.Params.numbers.title}}</h1>
-        <p class="text-rered pl-8">{{.Params.numbers.content}}</p>
+        <h1 class="text-xl md:text-3xl mt-8 mb-4 uppercase font-bold text-rered px-8">{{.Params.numbers.title}}</h1>
+        <p class="text-sm md:text-base text-rered px-8">{{.Params.numbers.content}}</p>
         <div class="px-8">
             <div class="flex flex-wrap -mx-8 justify-center">
                 {{ range $elem_index, $elem_val := .Params.numbers.cards }}
@@ -43,7 +43,7 @@
                     </div>
                     <div
                         class="bg-rered text-white mt-16 pt-16 text-center rounded-lg px-4 pb-4 {{if $isOdd}}bg-repink text-rered{{end}}">
-                        <h3 class="text-2xl font-bold">{{.number}}</h3>
+                        <h3 class="text-xl md:text-2xl font-bold">{{.number}}</h3>
                         <p class="">{{.desc}}</p>
                     </div>
                 </div>
