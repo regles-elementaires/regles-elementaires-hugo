@@ -36,6 +36,11 @@ categories:
       - id: donner-4
         question : Puis-je donner des produits d’hygiène intime s’ils ne sont pas dans leur emballage d’origine ? 
         answer: "Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient neufs (jamais utilisés). Même s’ils ne sont pas dans leur emballage d’origine, nous les acceptons à condition qu’ils soient emballés individuellement."
+      - id: donner-5
+        question : Pourquoi ne pas donner des coupes menstruelles/cups pour les femmes en situation de précarité ? 
+        answer: "Les coupes menstruelles peuvent être adaptées pour des femmes mal-logées, vivant en foyer ou en hôtel, mais cette protection est complexe pour les femmes vivant dans la rue pour des raisons d'hygiène. Il faut avoir accès à un point d'eau pour nettoyer sa cup et ce n'est pas toujours le cas. Malheureusement, les associations partenaires avec qui nous travaillons n'acceptent pas encore ce type de dons.<br/><br/>
+
+        Cependant, dans le cadre de nos ateliers d’informations et de formation aux protection lavables et réutilisables, nous proposons aux femmes bénéficiaires un don de coupes menstruelles à la fin de l’atelier."
   - title: Organiser une collecte
     questions:
       - id: collecte-1    
@@ -95,7 +100,7 @@ categories:
         Nous coordonnons toute la chaîne logistique jusqu'à la redistribution auprès de partenaires médico-sociaux avec lesquels nous travaillons main dans la main (Secours Populaire, Emmaüs Solidarité, La Croix Rouge, etc.) L’action de Règles Élémentaires est indissociable de celle de ses partenaires. Notre démarche est collaborative par essence.<br/>
         Ce système de mobilisation citoyenne nous a permis de collecter et redistribuer des centaines de milliers de protections à destination des femmes sans-abri et mal logées partout en France.<br/><br/>
 
-        En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles. Cela passe par différentes actions de sensibilisation auprès de tou.te.s : via des conférences dans les entreprises,, dans les universités, via des interventions lors de festivals, de forums, de soirées… mais aussi via les médias, des partenariats décalés et nos désormais fameux apéros menstruels !<br/>
+        En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles. Cela passe par différentes actions de sensibilisation auprès de tou.te.s : via des conférences dans les entreprises, dans les universités, via des interventions lors de festivals, de forums, de soirées… mais aussi via les médias, des partenariats décalés et nos désormais fameux apéros menstruels !<br/>
         Par ailleurs, nous abordons une démarche particulière en public scolaire et auprès des femmes hébergées. 
         Dans les collèges et lycées, nous animons des ateliers de sensibilisation au tabous de règles et à la précarité menstruelle. En prison, foyers d’hébergement, et tout autre lieu mettant à disposition de femmes en situation de précarité un point d’eau, nous animons des ateliers de formation à l’hygiène menstruelle et à l’utilisation de protections réutilisables."
       - id: asso-2
