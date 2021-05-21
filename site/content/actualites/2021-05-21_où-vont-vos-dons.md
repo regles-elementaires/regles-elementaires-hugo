@@ -5,7 +5,13 @@ tags:
 date: 2021-05-21T13:01:56.414Z
 author: 'Clara Vié '
 illu: /img/sans-titre-2-.png
-intro: "**Vos dons financiers aident Règles Élémentaires au quotidien dans son développement et dans la réalisation de ses missions pour changer les règles ! Mais finalement, que financent-ils exactement ?**\r\n\n****"
+intro: >-
+  **Vos dons financiers aident Règles Élémentaires au quotidien dans son
+  développement et dans la réalisation de ses missions pour changer les règles !
+  Mais finalement, que financent-ils exactement ?**
+
+
+  - - -
 layout: single
 ---
 Toutes les collectes de protections périodiques que vous organisez nous permettent de récolter un maximum de produits, mais nous avons besoin de vos dons financiers pour pouvoir : 
