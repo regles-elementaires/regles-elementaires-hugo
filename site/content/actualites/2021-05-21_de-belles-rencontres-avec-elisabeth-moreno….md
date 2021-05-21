@@ -6,9 +6,9 @@ date: 2021-05-07T12:39:25.284Z
 author: Clara Vié
 illu: /img/image_from_ios_720.jpg
 intro: >-
-  Le 29 Avril dernier, nous avons eu la chance de rencontrer la Ministre
+  **Le 29 Avril dernier, nous avons eu la chance de rencontrer la Ministre
   déléguée chargée de l’égalité femmes-hommes Elisabeth Moreno lors de sa venue
-  à Gradignan !
+  à Gradignan !**
 layout: single
 ---
 L’occasion pour Tara, notre Fondatrice et Directrice Générale, d’échanger avec Madame la Ministre et Madame la députée Bérangère Couillard ainsi que d’autres associations de Nouvelle Aquitaine comme l’association [Nouveaux Cycles](https://www.instagram.com/nouveauxcycles/?hl=fr), sur les sujets de la précarité menstruelle et de l'importance de l'éducation menstruelle dès le plus jeune âge. 
