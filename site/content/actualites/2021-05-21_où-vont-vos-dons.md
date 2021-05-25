@@ -33,6 +33,6 @@ Très concrètement, pour vous donner une idée,
 
 
 
-Vous pouvez nous faire un don via HelloAsso juste [\>>ICI<<](https://www.helloasso.com/associations/regles-elementaires/formulaires/1), et tout don à l’association est éligible à déduction fiscale,
+Vous pouvez nous faire un don via HelloAsso juste [\>>ici\<<](https://www.helloasso.com/associations/regles-elementaires/formulaires/1), et tout don à l’association est éligible à déduction fiscale,
 
 Nous avons donc besoin de vos dons financiers. Il n’y a pas de petite contribution : chaque euro versé nous permet de toujours plus lutter contre la précarité menstruelle et briser le tabou des règles !

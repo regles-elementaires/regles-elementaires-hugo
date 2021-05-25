@@ -23,4 +23,4 @@ À la fin du premier confinement, nous avons repris une partie de nos activite�
 
 
 
-Nous avons à cœur de changer les règles au quotidien et de démultiplier notre impact et ça se fera avec vous ! Si vous souhaitez organiser une collecte à nos côtés, rendez vous [\>>ici<<](https://www.regleselementaires.com/collecter/organiser/). Vous pouvez également nous faire un don de produits. Il vous suffit de cliquer  [\>>ici<<](https://www.regleselementaires.com/donner/trouver/)  pour trouver le point de collecte le plus proche de chez vous.
+Nous avons à cœur de changer les règles au quotidien et de démultiplier notre impact et ça se fera avec vous ! Si vous souhaitez organiser une collecte à nos côtés, rendez vous [\>>ici\<<](https://www.regleselementaires.com/collecter/organiser/). Vous pouvez également nous faire un don de produits. Il vous suffit de cliquer  [\>>ici\<<](https://www.regleselementaires.com/donner/trouver/)  pour trouver le point de collecte le plus proche de chez vous.
