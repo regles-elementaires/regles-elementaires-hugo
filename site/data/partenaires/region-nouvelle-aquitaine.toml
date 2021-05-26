@@ -1,4 +1,4 @@
 name = "Région Nouvelle-Aquitaine"
-type = "financier"
-link = "https://www.nouvelle-aquitaine.fr/#gref"
+type = "institutionnel"
+link = "https://www.nouvelle-aquitaine.fr/"
 img = "/img/partenaires/nouvelle-aquitaine.png"

@@ -1,4 +1,4 @@
-name = "Ministère du logement et de l'habitat durable"
-type = "institutionnel"
+name = "Ministère chargé du logement"
+type = "invisible"
 link = ""
 img = "/img/partenaires/ministere-logement.png"
