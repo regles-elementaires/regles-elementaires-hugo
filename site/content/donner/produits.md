@@ -2,7 +2,6 @@
 title: Quels produits donner ?
 date: 2019-12-06T13:48:10+01:00
 layout: produits
-description_pink: true
 menu:
   main:
     parent: donner

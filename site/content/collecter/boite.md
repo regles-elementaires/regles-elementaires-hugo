@@ -3,7 +3,6 @@
 title: Comment obtenir une boîte à dons ?
 date: 2019-12-06T13:48:10+01:00
 layout: boite
-description_pink: true
 menu: 
     main:
         name: Obtenir une boîte à dons

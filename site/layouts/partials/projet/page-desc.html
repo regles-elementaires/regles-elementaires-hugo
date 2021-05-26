@@ -1,8 +1,8 @@
-<div class="{{if .Params.description_pink}}bg-repink{{else}}bg-rered{{end}}">
-  <div class="w-11/12 md:w-5/6 m-auto {{if .Params.description_pink}}bg-repink{{else}}bg-rered page-desc--red{{end}}">
+<div class="bg-rered">
+  <div class="w-11/12 md:w-5/6 m-auto bg-rered text-white page-desc--red">
     <div class="flex items-center">
       <div
-        class="w-5/5 md:w-3/5 {{if .Params.description_pink}}bg-repink text-rered{{else}}bg-rered text-white{{end}} px-4 md:pr-16 md:pl-0 py-8">
+        class="w-5/5 md:w-3/5 bg-rered text-white} px-4 md:pr-16 md:pl-0 py-8">
         {{ partial "breadcrumb" . }}
         <h1 class="text-2xl md:text-4xl mb-8 uppercase font-extrabold">{{ .Title }}</h1>
         <div class="font-semibold mb-4">{{ .Params.intro.first }}</div>
@@ -20,7 +20,7 @@
         {{ end }}
         {{if isset .Params "display_dons_desc"}}
         <div class="pt-8 flex flex-row items-center justify-center">
-          <a class="big-red-button big-red-button--rounded"
+          <a class="big-white-button big-white-button--rounded"
           href="https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget" 
           target="_blank"
           onclick="gtag('event', 'clicDonnerDonsFinanciers', {
@@ -28,16 +28,16 @@
               'event_label': 'don_home',
               });">
               FAIRE UN DON
-              <span class="rounded-full bg-white text-rered font-bold px-2 py-1 ml-1">€</span>
+              <span class="rounded-full bg-rered text-white font-bold px-2 py-1 ml-1">€</span>
           </a>
         </div>
         {{end}}
       </div>
       <div
-        class="hidden md:flex w-2/5 pl-16 py-8 pr-8{{if .Params.description_pink}} bg-repink {{else}} bg-rered {{end}}">
+        class="hidden md:flex w-2/5 pl-16 py-8 pr-8 bg-rered">
         <img src="{{ .Params.illu }}" class="object-cover rounded-full" style="height: 20rem; width: 20rem;" />
       </div>
     </div>
   </div>
-  <div class="{{if .Params.description_pink}}bg-repink md:bg-rered {{else}} bg-rered md:bg-repink {{end}}flex-1"></div>
+  <div class="bg-rered flex-1"></div>
 </div>

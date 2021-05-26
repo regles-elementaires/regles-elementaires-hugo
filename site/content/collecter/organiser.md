@@ -2,7 +2,6 @@
 title: Comment organiser une collecte ?
 date: 2019-12-06T13:48:10+01:00
 layout: organiser
-description_pink: true
 menu:
   main:
     name: Organiser une collecte

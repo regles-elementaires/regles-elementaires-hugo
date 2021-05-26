@@ -2,7 +2,6 @@
 title: Dons Financiers
 date: 2019-12-06T13:48:10+01:00
 layout: dons-financiers
-description_pink: true
 display_dons_desc: true
 menu:
   main:
