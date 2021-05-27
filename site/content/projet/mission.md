@@ -35,21 +35,21 @@ numbers:
   title: Notre impact
   content: Depuis la creation de l'Association en novembre 2015
   cards:
-    - number: "+ de 4 000 000"
+    - number: "+ de 5 000 000"
       img: /img/page-mission/groupe-protections.svg
       desc: de produits d’hygiène intime ont été redistribués
-    - number: "+ de 100 000"
+    - number: "+ de 115 000"
       img: /img/page-mission/icon-femme.svg
       desc: femmes bénéficiaires
-    - number: "+ de 1 000"
+    - number: "+ de 2 000"
       img: /img/page-mission/carte.svg
       desc: collectes organisées partout en France
-    - number: "+ de 200"
+    - number: "+ de 500"
       img: /img/page-mission/paquet-nana-v2.svg
       desc: partenariats
-    - number: "20"
+    - number: "24"
       img: /img/page-mission/RE-plus.svg
-      desc: personnes forment l’équipe
+      desc: personnes forment l’équipe à 75% bénévole
     - number: "6"
       img: /img/page-mission/partenaire.svg
       desc: antennes
