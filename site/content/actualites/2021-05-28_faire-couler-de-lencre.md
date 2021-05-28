@@ -3,7 +3,7 @@ title: 'Règles Élémentaires x Opinion Way : Baromètre exclusif'
 tags:
   - news
   - 28 mai
-date: 2021-05-27T05:10:09.546Z
+date: 2021-05-28T05:10:09.546Z
 author: Laura Pajot
 illu: /img/plan_de_travail_1_copie_43-4x-2.png
 intro: >-
