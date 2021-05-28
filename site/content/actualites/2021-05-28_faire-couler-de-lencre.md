@@ -16,7 +16,7 @@ intro: >-
   - - -
 layout: single
 ---
-**Préfacé par** la Ministre déléguée à l’égalité hommes-femmes, à la diversité et à l’égalité des chances **Elisabeth Moreno** et par l'Ambassadrice de bonne volonté du Fonds des Nations Unies pour la Population **Natalia Vodianova**, il s'agit de la **première étude indépendante menée sur le sujet** qui révèle entre autres que la précarité menstruelle est : 
+**Préfacé par** la Ministre déléguée à l’égalité hommes-femmes, à la diversité et à l’égalité des chances **Elisabeth Moreno** et par l'Ambassadrice de bonne volonté du Fonds des Nations Unies pour la Population **Natalia Vodianova**, il s'agit de la [**première étude indépendante menée sur le sujet** ](https://drive.google.com/file/d/1d9guON13dumwq_0zT2LHqGZDo5W9OXYi/view)qui révèle entre autres que la précarité menstruelle est : 
 
 📍un sujet qui concerne tout le monde, car 20% des femmes adultes y ont été confrontées, soit 1 Française sur 5,
 
@@ -29,3 +29,7 @@ layout: single
 📍que le Gouvernement et tou·tes les futur·es Président·es de régions garantissent l'accès gratuit à des protections de qualité pour toutes les personnes dans le besoin (auquel 86% des Français·es sont favorables) et dans toutes les structures publiques (auquel 76% des Françaises sont favorables),
 
 📍que le secteur privé crée des environnements de travail sans tabou et accueillants pour toutes les personnes qui ont leurs règles avec la mise à disposition de protections d’hygiène intime gratuites dans les entreprises (à laquelle 73% des répondant·es sont favorables).
+
+
+
+Pour découvrir l'intégralité des résultats, c'est [<<ici>>](https://drive.google.com/file/d/1d9guON13dumwq_0zT2LHqGZDo5W9OXYi/view).
