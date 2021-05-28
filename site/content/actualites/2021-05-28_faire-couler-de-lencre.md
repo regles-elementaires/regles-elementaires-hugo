@@ -1,5 +1,5 @@
 ---
-title: 'Faire couler de l''encre : notre baromètre exclusif'
+title: 'Règles Élémentaires x Opinion Way : Baromètre exclusif'
 tags:
   - news
   - 28 mai
