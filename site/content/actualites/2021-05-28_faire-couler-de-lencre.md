@@ -13,10 +13,10 @@ intro: >-
   du baromètre Règles Élémentaires x Opinion Way.**
 
 
-  ****
+  - - -
 layout: single
 ---
-Préfacé par la Ministre déléguée à l’égalité hommes-femmes, à la diversité et à l’égalité des chances Elisabeth Moreno et par l'Ambassadrice de bonne volonté du Fonds des Nations Unies pour la Population Natalia Vodianova, il s'agit de la première étude indépendante menée sur le sujet qui révèle entre autres que la précarité menstruelle est : 
+**Préfacé par** la Ministre déléguée à l’égalité hommes-femmes, à la diversité et à l’égalité des chances **Elisabeth Moreno** et par l'Ambassadrice de bonne volonté du Fonds des Nations Unies pour la Population **Natalia Vodianova**, il s'agit de la **première étude indépendante menée sur le sujet** qui révèle entre autres que la précarité menstruelle est : 
 
 📍un sujet qui concerne tout le monde, car 20% des femmes adultes y ont été confrontées, soit 1 Française sur 5,
 
@@ -24,11 +24,7 @@ Préfacé par la Ministre déléguée à l’égalité hommes-femmes, à la dive
 
 📍un sujet qui reste tabou dans la société - avec un manque d'enseignement persistant -, mais aussi particulièrement en entreprise car 44% des femmes ont elles-mêmes manqué le travail ou connaissent quelqu’un qui a déjà manqué le travail à cause de ses règles.
 
-
-
-
-
-Il reste donc encore du chemin à parcourir pour éradiquer ce fléau et nous attendons :
+**Il reste donc encore du chemin à parcourir pour éradiquer ce fléau et nous attendons :**
 
 📍que le Gouvernement et tou·tes les futur·es Président·es de régions garantissent l'accès gratuit à des protections de qualité pour toutes les personnes dans le besoin (auquel 86% des Français·es sont favorables) et dans toutes les structures publiques (auquel 76% des Françaises sont favorables),
 
