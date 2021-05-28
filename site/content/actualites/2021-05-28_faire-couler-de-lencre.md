@@ -30,6 +30,4 @@ layout: single
 
 📍que le secteur privé crée des environnements de travail sans tabou et accueillants pour toutes les personnes qui ont leurs règles avec la mise à disposition de protections d’hygiène intime gratuites dans les entreprises (à laquelle 73% des répondant·es sont favorables).
 
-
-
-Pour découvrir l'intégralité des résultats, c'est [<<ici>>](https://drive.google.com/file/d/1d9guON13dumwq_0zT2LHqGZDo5W9OXYi/view).
+Pour découvrir l'intégralité des résultats, c'est [\>> ici <<](https://drive.google.com/file/d/1d9guON13dumwq_0zT2LHqGZDo5W9OXYi/view).
