@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  repo: regles-elementaires/regles-elementaires-hugo
+  branch: master
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
@@ -36,6 +38,8 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     extension: md
     create: true # Allow users to create new documents in this collection
+    editor:
+      preview: true
     fields: # The fields each document in this collection have
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Tags", name: tags, widget: list,   default: ["news", "coup de sang"]}
@@ -103,4 +107,4 @@ collections: # A list of collections the CMS should be able to edit
                 - label: "Illustrations"
                   name: "illu"
                   widget: "list"
-                  field: {label: Image, widget: image}
+                  field: {label: Image, name: "img", widget: image}
