@@ -3,7 +3,7 @@ title: Le Coup de Sang de Marie de Gandt
 tags:
   - news
   - coup de sang
-date: 2021-05-27T05:10:09.546Z
+date: 2021-06-07T05:10:09.546Z
 author: Marie de Gandt
 illu: /img/marie-de-gandt.jpg
 intro: >-
