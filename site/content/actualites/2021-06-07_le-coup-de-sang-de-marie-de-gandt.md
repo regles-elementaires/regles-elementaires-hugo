@@ -23,10 +23,12 @@ Penser que nous allons nous libérer du masculinisme en revendiquant un lien ave
 
 Pendant des siècles, dans l’héritage de la médecine hippocratique, et avant la découverte de l’ovulation au début du XIXe siècle, on a considéré que les écoulements menstruels étaient du même ordre que les saignements provenant d’autres parties du corps, qui se produisaient aussi chez les hommes, et chez eux aussi de façon périodique. Sans le poids des normes culturelles que nous prenons pour des lois naturelles, on verrait que c’est presque tous les 28 jours, presque chez toutes les femmes, et aussi chez les presque femmes, que se produisent ce qu’on appelle les règles. Et qu’il existe également des presque règles. Bref, la définition du phénomène reste un grand champ d’études. Déconstruire nos certitudes sur le fait physiologique et ses constructions culturelles, c’est aussi une façon de contribuer à la libération des femmes !
 
-
-
-
+****
 
 **Marie de Gandt enseigne la Littérature comparée et les Etudes de genre à l’Université Bordeaux-Montaigne.**
 
 **Elle est membre co-fondatrice de BIG (Bordeaux Interdisciplinaire Genre), dont le carnet de recherche est en ligne : https://genrebig.hypotheses.org**
+
+****
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son "Coup de Sang" autour des règles, de la précarité, des tabous ou d'autres sujets d'indignation. Les propos exprimés sont ceux de leur auteur·rice._
