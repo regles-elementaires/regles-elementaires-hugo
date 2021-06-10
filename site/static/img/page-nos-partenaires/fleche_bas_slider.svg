@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="37px" viewBox="0 0 28 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PAGES-PARTENAIRES-INITIALE" transform="translate(-946.000000, -1253.000000)">
+            <g id="Group-3" transform="translate(433.000000, 1148.000000)">
+                <g id="fleche-copy" transform="translate(784.000000, 71.000000) scale(-1, 1) rotate(-270.000000) translate(-784.000000, -71.000000) translate(713.000000, -200.000000)">
+                    <g id="Group-5" transform="translate(107.000000, 0.000000)">
+                        <path d="M27.0498316,16.82933 L16.7092765,6.35145386 C15.8708531,5.50189633 14.7529552,5.78508217 13.9145318,6.35145386 C13.0761084,6.91782554 13.0761084,8.33375474 13.9145318,9.18331226 L25.6524593,21.0771176 C26.4908826,21.9266751 27.6087805,21.9266751 28.4472039,21.0771176 L40.1851313,9.18331226 C41.0235547,8.33375474 40.7440802,7.20101138 40.1851313,6.35145386 C39.6261824,5.50189633 38.2288101,5.50189633 37.3903867,6.35145386 L27.0498316,16.82933 Z" id="Path_1_-Copy" fill="#E9364B" fill-rule="nonzero" transform="translate(27.000000, 13.714286) rotate(-90.000000) translate(-27.000000, -13.714286) "></path>
+                        <line x1="30.5" y1="13.5" x2="0.5" y2="13.5" id="Line" stroke="#E9364B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,16 +1,15 @@
 {{ define "main" }}
 <div>
-    {{ partial "redistribuer/page-desc" . }}
-    <div class="container pt-8">
+    {{ partial "page-desc" . }}
+    <div class="container pt-8 mb-8">
         <div class="md:px-16">
             {{with .Params.fonctionnement }}
             <div class="flex flex-col md:flex-row md:items-stretch text-rered">
                 <div class="w-full md:w-3/5 px-8 pb-4">
-                    <h2 class="text-redarkpink text-xl md:text-2xl uppercase font-bold mb-8">
-                        {{.title1}}
-                        <span class="text-rered">{{.title2}}</span>
+                    <h2 class="text-rered text-xl md:text-2xl uppercase font-extrabold mb-8">
+                        {{.title}}
                     </h2>
-                    <div class="flex flex-col items-center">
+                    <div class="flex flex-col items-center tracking-tighter font-medium">
                         <div>
                             {{.text1}}
                         </div>
@@ -20,7 +19,7 @@
                     </div>
                     <div class="flex justify-center">
                         <a class="big-red-button big-red-button--rounded my-12"  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link">
-                            Devenir partenaire
+                            {{ $.Params.devenir_button }}
                         </a>
                     </div>
                 </div>
@@ -32,17 +31,16 @@
         </div>
 
         {{ partial "redistribuer/carousel" . }}
-        <div class="py-4 md:py-8 flex flex-row justify-center">
-            <button class="big-red-button big-red-button--rounded"
+        <div class="pb-4 md:pb-8 flex flex-row justify-center">
+            <button class="flex flex-col w-20 h-6 md:h-8 self-center text-rered items-center" 
             onclick="displayAllPartners(this)"
             >
-                Voir tous nos partenaires
+                voir tout
+                <img class="mt-2" src="/img/page-nos-partenaires/fleche_bas_slider.svg"/>
             </button>
         </div>
         {{ partial "redistribuer/partenaire-list" . }}
     </div>
-    
-    {{ partial "projet/moi-aussi" . }}
 
     <script>
         function displayAllPartners(button) {

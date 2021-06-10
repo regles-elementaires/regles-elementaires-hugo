@@ -22,23 +22,10 @@ export default class ActuPreview extends React.Component {
     const entryTagEntries = entry.getIn(["data", "tags"]);
     const tagEntries = entryTagEntries ? entryTagEntries.toJS() : [];
 
-    /*return <div className="mw6 center ph3 pv4">
-      <h1 className="f2 lh-title b mb3">{ entry.getIn(["data", "title"])}</h1>
-      <div className="flex justify-between grey-3">
-        <p>{ format(entry.getIn(["data", "date"]), "ddd, MMM D, YYYY") }</p>
-        <p>Read in x minutes</p>
-      </div>
-      <div className="cms mw6">
-        <p>{ entry.getIn(["data", "description"]) }</p>
-        { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
-        { widgetFor("body") }
-      </div>
-    </div>;*/
-
     return <div> 
-    <div className="w-11/12 lg:w-4/6 m-auto pt-8 pb-4 flex flex-row px-2 justify-center">
+    <div className="w-11/12 lg:w-4/6 m-auto pt-8 pb-4 flex flex-row px-2 justify-center tracking-tighter">
         <div className="flex flex-col md:flex-row w-full items-center">
-            <div className="w-full h-full">{ illu && <img className="object-contain object-top w-full h-full" src={ illu } /> }</div>
+            <div className="w-full max-w-xs md:max-w-sm h-full">{ illu && <img className="object-contain object-top w-full h-full" src={ illu } /> }</div>
             <div className="w-full md:pl-4">
                 <h2 className="text-3xl font-medium text-redarkgrey">
                     { entry.getIn(["data", "title"]) }
@@ -56,7 +43,7 @@ export default class ActuPreview extends React.Component {
             </div>
         </div>
     </div>
-    <div className="w-11/12 lg:w-4/6 m-auto text-rered mt-2 pb-8 px-2 justify-center flex flex-row">
+    <div className="w-11/12 lg:w-4/6 m-auto text-rered mt-2 pb-8 px-2 justify-center flex flex-row tracking-tighter">
         <div className="w-full markdown">
             <ReactMarkdown>{ entry.getIn(["data", "body"]) }</ReactMarkdown>
         </div>

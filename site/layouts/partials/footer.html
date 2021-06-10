@@ -1,13 +1,16 @@
 <footer class="">
-	<div class="bg-redarkgrey">
+	{{ partial "newsletter" . }}
+	<div class="bg-rebeige">
 		<div class="container flex flex-col md:flex-row">
 			<div class="w-full md:w-2/5 md:ml-16 md:p-8 py-4 px-4 md:flex md:justify-end">
 				<div class="w-11/12 md:w-full mx-auto">
 					<div class="flex flex-col items-center text-center text-rered mt-4 md:mt-0 mb-4 bg-white rounded-lg py-8 px-8">
-						<p>Vous cherchez un lieu où donner des produits ? Vous ne savez pas quels produits il est possible de donner ? Vous voulez organiser une collecte ? Avant de nous contacter, merci de consulter au préalable notre</p>
-						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-redarkpink" href="/faq/">Foire aux questions</a>
+						<p class="tracking-tighter">
+							Vous cherchez un lieu où donner des produits ? Vous ne savez pas quels produits il est possible de donner ? Vous voulez organiser une collecte ? Avant de nous contacter, merci de consulter au préalable notre
+						</p>
+						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-reorange" href="/faq/">Foire aux questions</a>
 					</div>
-					<div class="py-4 md:p-4 text-white font-bold flex flex-col">
+					<div class="py-4 md:p-4 text-rered font-bold flex flex-col text-center">
 						<span class="font-normal">
 							Demandes presse : 
 						</span>
@@ -15,7 +18,7 @@
 							{{.Site.Data.copyright.presse}}
 						</a>
 					</div>
-					<div class="md:p-4 text-white font-bold">
+					<div class="md:p-4 text-rered font-bold text-center">
 						<span class="font-normal">
 							Notre adresse :
 						</span>
@@ -29,15 +32,47 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="w-11/12 md:w-4/5 m-auto md:m-0 text-rered p-4 text-sm">
-			Copyright © 2021 Règles Élémentaires - Tous droits réservés.<br/>
-			Règles Élémentaires est une Association Loi 1901 qui aide les plus démunies à rester dignes.<br/>
+	<div class="container flex flex-row flex-wrap w-11/12 justify-between">
+		<div class="w-full md:w-3/5 m-auto text-rered p-4 text-sm">
+			Copyright © 2021 <span class="font-semibold">Règles Élémentaires</span> - Tous droits réservés.<br/>
+			Règles Élémentaires est une association Loi 1901 qui aide les plus démunies à rester dignes.<br/>
 			Design par le <a class="hover:underline font-semibold" href="https://www.studio-clairvoyant.com/" target="_blank">Studio Clairvoyant</a>.
 			Développement par Adrien Trauth et Bastien Germain.
 		</div>
+		<div class="w-full md:w-2/5 px-8 pb-8 md:pt-8">
+            <div class="flex flex-row flex-wrap justify-end pt-2">
+                <a href="https://www.facebook.com/regleselementaires/" target="_blank" 
+                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
+                    'event_category': 'Reseaux Sociaux',
+                    'event_label': 'facebook_home',
+                });">
+                    <img src="/img/social/facebook-red.svg" class="h-10 rounded-full" />
+                </a>
+                <a href="https://twitter.com/RElementaires" target="_blank"
+                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
+                    'event_category': 'Reseaux Sociaux',
+                    'event_label': 'twitter_home',
+                });">
+                    <img src="/img/social/twitter-red.svg" class="h-10 rounded-full" />
+                </a>
+                <a href="https://www.instagram.com/regleselementaires/" target="_blank" 
+                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
+                    'event_category': 'Reseaux Sociaux',
+                    'event_label': 'insta_home',
+                });">
+                    <img src="/img/social/insta-red.svg" class="h-10 rounded-full" />
+                </a>
+                <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank" 
+                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
+                    'event_category': 'Reseaux Sociaux',
+                    'event_label': 'linkedin_home',
+                });">
+                    <img src="/img/social/linkedin-red.svg" class="h-10 rounded-full" />
+                </a>
+            </div>
+        </div>
 	</div>
-	<div class="w-full bg-redarkpink flex flex-row justify-center py-2">
+	<div class="w-full bg-reorange flex flex-row justify-center py-2">
 		<h1 class="title-with-shadow text-2xl md:text-3xl title-shadow-sm">#CHANGERLESRÈGLES</h1>
 	</div>
 

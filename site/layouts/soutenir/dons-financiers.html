@@ -1,53 +1,54 @@
 {{ define "main" }}
 <div>
-    {{ partial "projet/page-desc" . }}
-    <div class="container px-8 md:px-32 mb-4 flex flex-col items-stretch">
-        <h1 class="font-bold text-2xl mt-16 pb-8 uppercase"><span class="text-redarkpink">Bon</span><span
-                class="text-rered"> à savoir</span></h1>
-        <p class="md:pb-8 text-rered">Nous acceptons également vos dons par:</p>
+    {{ partial "page-desc" . }}
+    <div class="w-10/12 md:w-10/12 mx-auto mb-4 flex flex-col items-stretch">
+        <div class="w-full md:w-2/3 mx-auto shadow-xl text-center px-8 md:px-16 mt-4 mb-8">
+            <h1 class="text-rered font-extrabold tracking-tight text-2xl mt-8 pb-2 uppercase">
+                {{ .Params.title_block.title }}
+            </h1>
+            <p class="font-medium tracking-tighter pb-8 text-rered">
+                {{ .Params.title_block.text }}
+            </p>
+        </div>
         <div class="flex flex-wrap justify-around">
             {{ range .Params.payments }}
                 {{if isset . "link"}}
                     <a href="{{.link}}" target="_blank"
-                        class="relative px-8 pt-8 flex flex-row cursor-pointer">
+                        class="w-full md:w-1/4 relative px-2 pt-4 mt-12 mb-8 flex flex-row cursor-pointer">
                 {{else}}
-                    <div class="relative px-8 pt-4 md:pt-8 flex flex-row">
+                    <div class="w-full md:w-1/4 relative px-2 pt-4 mt-12 mb-8 flex flex-row">
                 {{end}}
-                    <div class="absolute inset-x-0 px-8">
-                        <div class="flex flex-col items-center w-full">
-                            {{ if isset . "link" }}
-                                <span
-                                    class="border group-hover:border-rered rounded-full">
-                                    <img class="h-32"
-                                        src="{{.img}}" />
-                                </span>
-                            {{else}}
-                                <img class="h-32" src="{{.img}}" />
-                            {{end}}
+                
+                    <div class="bg-rered w-full rounded-lg text-white px-4 pb-4 md:pb-0">
+                        <div class="absolute inset-x-0 px-8 -mt-16">
+                            <div class="flex flex-col items-center w-full">                                
+                                    <img class="h-32" src="{{.img}}" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="mt-16 pt-20 md:pb-8 text-center rounded-lg flex-grow">
-                        <p class="uppercase font-bold text-sm text-redarkgrey">
-                            {{ if isset . "link" }}
-                                <span
-                                    class="group-hover:underline">{{.text}}
-                                </span>
-                            {{else}}
-                                {{.text}}
-                            {{end}}
-                        </p>
-                        <p class="font-bold text-sm text-rered">{{.subtext}}</p>
-                        {{if isset . "address"}}
-                            <p class="font-bold text-sm text-redarkgrey mt-4">
-                                {{.address | markdownify}}
+                        <div class="mt-4 pt-20 md:pb-8 text-center rounded-lg flex-grow">
+                            <p class="uppercase font-bold text-sm">                                
+                                {{.text}}                                
                             </p>
-                        {{end}}
-                    </div>
-                    {{if isset . "link"}}
-                        </a>
-                    {{else}}
+                            <p class="text-sm">{{ .subtext | markdownify }}</p>
+                            {{if isset . "address"}}
+                                <p class="font-bold text-sm mt-4">
+                                    {{.address | markdownify}}
+                                </p>
+                            {{end}}
+                            {{if isset . "link"}}
+                            <button class="big-white-button big-white-button--rounded mt-8">
+                                FAIRE UN DON
+                            </button>
+                            {{end}}
                         </div>
-                    {{end}}
+                    </div>
+                    
+                {{if isset . "link"}}
+                    </a>
+                {{else}}
+                    </div>
+                {{end}}
+                
             {{end}}
         </div>
     </div>

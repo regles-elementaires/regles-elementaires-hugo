@@ -6,7 +6,7 @@ menu:
   main:
     parent: redistribuer
     weight: 3
-illu: /img/page-redistribuer/devenir_intro.svg
+illu: /img/page-redistribuer/devenir_partenaires_illu.svg
 intro: 
     first: "Devenez partenaire et rejoignez le réseau de redistribution de l’association Règles Élémentaires !"
     second: "Nous comptons aujourd’hui plusieurs centaines de partenariats à travers la France. C’est grâce à toutes ces organisations de première ligne qui travaillent au plus près des personnes en situation de précarité que nous pouvons venir en aide, depuis 2015, à plus de 100 000 femmes bénéficiaires."

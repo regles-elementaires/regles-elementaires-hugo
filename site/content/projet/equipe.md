@@ -7,7 +7,7 @@ menu:
     main:
         parent: projet
         weight: 3
-illu: "/img/page-equipe/illu.jpg"
+illu: "/img/page-equipe/illu-equipe.svg"
 intro:
     first: "Les femmes et les hommes qui oeuvrent chaque jour au développement de Règles Élémentaires et veillent à l’accomplissement de nos missions viennent d’horizons divers et variés, à l’image de notre communauté. L’équipe est composée en grande majorité de bénévoles fortement impliqué·es (souvent plus de dix heures par semaine), des wonder-women et super-men qui font bouger les lignes et changent les règles au quotidien!"
 engager:

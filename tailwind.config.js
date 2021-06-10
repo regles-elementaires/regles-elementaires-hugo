@@ -23,11 +23,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        rered: "#eb364b",
+        rered: "#e9364b",
         repink: "#ffd8dd",
         redarkpink: "#ff9ca8",
         redarkgrey: "#535353",
         regrey: "#F5F5F5",
+        rebeige: "#FFE4DD",
+        reorange: "#FF9A00"
       }
     },
   },

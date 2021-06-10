@@ -6,13 +6,12 @@ menu:
   main:
     parent: projet
     weight: 4
-illu: "/img/page-home/partenaires-02.svg"
+illu: "/img/page-nos-partenaires/partenaires-illu.svg"
 intro: 
   first: "Règles Élémentaires est une plateforme de mobilisation citoyenne et notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de produits d’hygiène intime, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs·ses sociaux·ales et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires."
 redistributeurs:
   type: redistributeur
-  title1: Nos Partenaires
-  title2: Redistributeurs
+  title: Nos Partenaires Redistributeurs
   btn_text: Devenir partenaire redistributeur
   btn_link: "https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link"
   text: |
@@ -20,8 +19,7 @@ redistributeurs:
 
 industriels:
   type: industriel
-  title1: Nos Partenaires
-  title2: fabricants
+  title: Nos Partenaires fabricants
   btn_text: Contactez-nous
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |
@@ -29,8 +27,7 @@ industriels:
 
 financiers:
   type: financier
-  title1: Nos Partenaires
-  title2: financiers
+  title: Nos Partenaires financiers
   btn_text: Contactez-nous
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |
@@ -40,8 +37,7 @@ financiers:
 
 institutionnels:
   type: institutionnel
-  title1: Nos Partenaires
-  title2: Institutionnels
+  title: Nos Partenaires Institutionnels
   btn_text: Contactez-nous
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |
@@ -49,8 +45,7 @@ institutionnels:
 
 autres:
   type: autre
-  title1: Ces organisations nous soutiennent
-  title2: aussi
+  title: Ces organisations nous soutiennent aussi
   btn_text: Contactez-nous
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |

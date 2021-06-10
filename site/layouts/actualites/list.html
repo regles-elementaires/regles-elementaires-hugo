@@ -1,3 +1,80 @@
 {{ define "main" }}
-{{ partial "actualites/list" (dict "titre_1" "Toute l'actu" "titre_2" "de l'Association" "pages" .Pages) }}
+{{ $sortedPages := sort .Pages ".Params.date" "desc" }}
+<div class="bg-rered w-full flex flex-col">
+    <h1 class="w-10/12 mx-auto uppercase font-bold text-3xl text-white mt-8">
+        {{ .Params.intro_title | markdownify }}
+    </h1>
+    <div class="w-11/12 md:w-full m-auto flex flex-row flex-wrap mb-8">
+        <div class="w-full md:w-1/2 pt-4 md:pt-12">
+            <img class="w-3/4 mx-auto" src="/img/page-actus/actus.svg">
+        </div>
+        <div class="w-full md:w-1/2">
+            {{ range (first 1 $sortedPages) }}
+            {{ .Render "li-home"}}
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<div class="w-11/12 md:w-5/6 m-auto py-4 px-2 mt-4">
+    <div class="flex flex-row flex-wrap mt-8">
+        {{ range first 6 (after 1 $sortedPages) }}
+        {{ .Render "li-actus"}}
+        {{ end }}
+    </div>
+</div>
+
+<div id="button-actus" class="flex justify-center mb-8">
+    <div class="flex flex-row justify-center">
+        <button class="big-red-button big-red-button--rounded" onclick="displayAllActus()">
+            {{ .Params.button_text }}
+        </button>
+    </div>
+</div>
+
+<div id="remaining-actus" class="w-11/12 md:w-5/6 m-auto px-2 -mt-2 hidden">
+    <div class="flex flex-row flex-wrap">
+        {{ range (after 7 $sortedPages) }}
+        {{ .Render "li-actus"}}
+        {{ end }}
+    </div>
+</div>
+
+<div class="w-full bg-reorange text-white py-12">
+    {{ with .Params.press }}
+    <div class="w-10/12 md:w-5/6 mx-auto">
+        <h2 class="uppercase text-xl md:text-2xl font-extrabold">{{ .title }}</h2>
+        <div class="flex flex-row flex-wrap tracking-tighter mt-8">
+            <div class="w-full mb-4 md:mb-0 md:w-1/2 md:pr-4">
+                <p>
+                    {{ .download_rdp_text }}
+                    <a class="font-semibold hover:underline" href="{{ .download_rdp_link }}" download="regles-elementaires-revue-de-presse-2020.pdf">
+                        ici.
+                    </a>
+                </p>
+                <p>                
+                    {{ .download_top_text }}
+                    <a class="font-semibold hover:underline" href="{{ .download_top_link }}" download="regles-elementaires-top-articles-2015-2020.pdf">
+                        ici.
+                    </a>
+                </p>
+            </div>
+            <div class="w-full md:w-1/2 md:pl-4">
+                {{ .contact_text }}
+                <a class="font-semibold hover:underline" href="mailto:{{ $.Site.Data.copyright.presse }}" target="_blank">
+                    {{ $.Site.Data.copyright.presse }}
+                </a>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<script>
+    function displayAllActus() {
+        document.getElementById("button-actus").classList.add("hidden");
+        document.getElementById("remaining-actus").classList.remove("hidden");
+    }
+</script>
+
 {{ end }}

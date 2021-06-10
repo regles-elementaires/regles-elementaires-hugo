@@ -5,9 +5,13 @@
 
 @import "tailwindcss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
 /*
 === GENERIC
 */
+*
+
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block font-medium text-center text-sm;
 }
@@ -20,10 +24,10 @@
   @apply rounded-full;
 }
 .big-red-button:hover {
-  @apply bg-redarkpink;
+  @apply bg-reorange;
 }
 .big-red-button:hover span{
-  @apply text-redarkpink;
+  @apply text-reorange;
 }
 
 .big-white-button {
@@ -38,7 +42,7 @@
   @apply rounded-full;
 }
 .big-white-button:hover {
-  @apply bg-repink;
+  @apply bg-rebeige;
 }
 .big-white-button:hover span{
   @apply text-white;
@@ -182,7 +186,7 @@
 }
 .equipe__membre:focus .equipe__pic img,
 .equipe__membre:hover .equipe__pic img {
-  @apply opacity-50;
+  @apply opacity-75;
 }
 
 /* display bio on hover */
@@ -225,11 +229,11 @@
 }
 
 .equipe-button-active h2 {
-  @apply border-b-2 border-redarkpink no-underline;
+  @apply border-b-2 border-reorange no-underline;
 }
 @screen md {
   .equipe-button-active h2 {
-    @apply border-b-4 border-redarkpink no-underline;
+    @apply border-b-4 border-reorange no-underline;
   }
 }
 
@@ -255,5 +259,9 @@
 
 /* Override markdown */
 strong {
-  font-weight: 400;
+  font-weight: 500;
+}
+
+hr {
+  border: none;
 }

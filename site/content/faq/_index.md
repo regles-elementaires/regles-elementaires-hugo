@@ -37,10 +37,13 @@ categories:
         question : Puis-je donner des produits d’hygiène intime s’ils ne sont pas dans leur emballage d’origine ? 
         answer: "Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient neufs (jamais utilisés). Même s’ils ne sont pas dans leur emballage d’origine, nous les acceptons à condition qu’ils soient emballés individuellement."
       - id: donner-5
-        question : Pourquoi ne pas donner des coupes menstruelles/cups pour les femmes en situation de précarité ? 
-        answer: "Les coupes menstruelles peuvent être adaptées pour des femmes mal-logées, vivant en foyer ou en hôtel, mais cette protection est complexe pour les femmes vivant dans la rue pour des raisons d'hygiène. Il faut avoir accès à un point d'eau pour nettoyer sa cup et ce n'est pas toujours le cas. Malheureusement, les associations partenaires avec qui nous travaillons n'acceptent pas encore ce type de dons.<br/><br/>
+        question : Pourquoi collecter et distribuer des protections jetables (tampons, serviettes) et pas exclusivement des protections lavables (coupes et culottes menstruelles, serviettes lavables) ?  
+        answer: "Les protections lavables peuvent être adaptées pour des femmes mal-logées, vivant en foyer ou en hôtel, mais cette protection est complexe pour les femmes vivant dans la rue pour des raisons d'hygiène. Il faut avoir accès à un point d'eau pour nettoyer sa protection et ce n'est pas toujours le cas. Malheureusement, les associations partenaires avec qui nous travaillons n'acceptent pas encore ce type de dons.<br/><br/>
 
-        Cependant, dans le cadre de nos ateliers d’informations et de formation aux protection lavables et réutilisables, nous proposons aux femmes bénéficiaires un don de coupes menstruelles à la fin de l’atelier."
+        Cependant, dans le cadre de nos ateliers d’informations et de formation aux protections lavables et réutilisables, nous proposons aux femmes bénéficiaires un don de protections lavables à la fin de l’atelier.<br/><br/>
+
+        Enfin, chaque personne est unique et la diversité des protections périodiques permet à toutes les femmes de choisir le type de protection qui lui convient. Certaines ne souhaitent tout simplement pas utiliser des protections lavables et il est important et nécessaire de respecter ce choix.
+        "
   - title: Organiser une collecte
     questions:
       - id: collecte-1    
@@ -78,7 +81,7 @@ categories:
         question: Comment bénéficier des produits collectés par Règles Élémentaires ? 
         answer: "Si vous êtes une organisation médico-sociale (association, CHRS, unité de maraude….) spécialisée dans le sans-abrisme et le mal logement et que vous souhaitez bénéficier de produits d’hygiène intime collectés par Règles Élémentaires, il suffit de remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform\" target=\"_blank\">formulaire</a> de partenariat. Toutes les étapes sont expliquées sur la page <a href=\"/redistribuer/devenir\">devenir partenaire</a>. Nous adapterons les dons selon le nombre de femmes que vous accueillez, votre localisation sur le territoire national et notre stock de produits d’hygiène intime.<br/><br/>
 
-        Si vous êtes un particulier : La redistribution des produits d’hygiène intime collectés est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 200 partenaires à travers le territoire. 
+        Si vous êtes un particulier : La redistribution des produits d’hygiène intime collectés est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 500 partenaires à travers le territoire. 
         Ainsi, pour avoir accès aux produits collectés par Règles Élémentaires, il faut être bénéficiaire de l’un de nos partenaires redistributeurs. "
       - id: redistribuer-2
         question: Qu’est-ce qu’un partenaire redistributeur ?

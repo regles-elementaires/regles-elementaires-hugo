@@ -1,14 +1,11 @@
 <div class="w-10/12 md:w-5/6 m-auto pb-4 mt-4">
     {{with .page}}
     <div class="w-1/1 md:w-4/5 m-auto">
-        <h2 class="text-redarkpink text-xl uppercase font-bold mb-8">
-            {{.title1}}
-            <span class="text-rered">
-                    {{.title2}}
-            </span>
+        <h2 class="text-rered text-center text-xl md:text-2xl uppercase font-extrabold mb-8">
+            {{.title}}
         </h2>
         {{if isset . "text"}}
-        <div class="text-rered mb-8">{{.text | markdownify}}</div>
+        <div class=" text-center text-rered mb-8 tracking-tight">{{.text | markdownify}}</div>
         {{end}}
         {{if isset . "btn_text"}}
         <div class="text-center">
@@ -23,11 +20,12 @@
 <div class="w-10/12 md:w-full m-auto">
     {{ partial "projet/carousel" (dict "partenaire_type" .page.type "data" .data)}}
 </div>
-<div class="md:py-4 flex flex-row justify-center">
-    <button class="flex w-4 md:w-12 h-12 self-center justify-center" data-type="{{.page.type}}"
+<div class="md:py-2 flex flex-row justify-center mb-8">
+    <button class="flex flex-col w-20 h-6 md:h-8 self-center text-rered items-center" data-type="{{.page.type}}"
     onclick="displayAllPartners(this)"
     >
-        <img src="/img/page-redistribuer/fleche_slider.svg" style="transform: rotate(-90deg)"/>
+        voir tout
+        <img class="mt-2" src="/img/page-nos-partenaires/fleche_bas_slider.svg"/>
     </button>
 </div>
 {{ partial "projet/partenaire-list" (dict "partenaire_type" .page.type "data" .data) }}

@@ -1,53 +1,55 @@
 {{ define "main" }}
 <div>
-  {{ partial "projet/page-desc" . }}
-
-  <div class="container px-8 mt-8 md:text-xl">
-    <div>
-      <button class="equipe-button equipe-button-active mb-4 md:mb-8 mr-4" onclick="displayMembers(this)">
-        <h2 class="text-redarkpink inline-block uppercase font-bold">
-          Toute
-          <span class="text-rered">l'équipe</span>
-        </h2>
-      </button>
-      {{ with .Params.permanents }}
-        {{ partial "projet/team-button" .}}
+  {{ partial "page-desc" . }}
+  <div class="w-full md:w-11/12 m-auto">
+    <div class="container px-8 mt-8 md:text-xl">
+      <div>
+        <button class="equipe-button equipe-button-active mb-4 md:mb-8 mr-4" onclick="displayMembers(this)">
+          <h2 class="text-reorange inline-block uppercase font-bold">
+            Toute
+            <span class="text-rered">l'équipe</span>
+          </h2>
+        </button>
+        {{ with .Params.permanents }}
+          {{ partial "projet/team-button" .}}
+        {{ end }}
+        {{ with .Params.benevoles }}
+          {{ partial "projet/team-button" .}}
+        {{ end }}
+        {{ with .Params.ca }}
+          {{ partial "projet/team-button" .}}
       {{ end }}
-      {{ with .Params.benevoles }}
-        {{ partial "projet/team-button" .}}
-      {{ end }}
-      {{ with .Params.ca }}
-        {{ partial "projet/team-button" .}}
-     {{ end }}
+      </div>
     </div>
-  </div>
 
-  {{/* partial "projet/team-type" (dict "page" .Params.permanents "data" $.Site.Data.team) }}
-  {{ partial "projet/team-type" (dict "page" .Params.benevoles "data" $.Site.Data.team) }}
-  {{ partial "projet/team-type" (dict "page" .Params.ca "data" $.Site.Data.team) */}}
-  <div class="container px-8 mt-8">
-    <div class="flex flex-wrap -mx-8">
-      {{ range (sort $.Site.Data.team "order" "asc") }}
-        {{ partial "projet/team-member" . }}
-      {{ end }}
+    {{/* partial "projet/team-type" (dict "page" .Params.permanents "data" $.Site.Data.team) }}
+    {{ partial "projet/team-type" (dict "page" .Params.benevoles "data" $.Site.Data.team) }}
+    {{ partial "projet/team-type" (dict "page" .Params.ca "data" $.Site.Data.team) */}}
+    <div class="container px-8 mt-8">
+      <div class="flex flex-wrap -mx-8">
+        {{ range (sort $.Site.Data.team "order" "asc") }}
+          {{ partial "projet/team-member" . }}
+        {{ end }}
+      </div>
     </div>
   </div>
 
   <div class="flex">
     <div class="bg-repink flex-1"></div>
-    <div class="container">
-      <div class="flex flex-wrap">
-        <div class="w-full md:w-1/2 bg-repink text-rered p-8">
+    <div class="container bg-reorange">
+      <div class="w-11/12 m-auto flex flex-wrap my-4">
+        <div class="w-full md:w-1/2 text-white p-8">
           {{ with .Params.engager }}
-          <h2 class="text-2xl md:text-3xl mb-8 uppercase font-bold">{{ .title }}</h2>
-          {{ .text | markdownify}}
+          <h2 class="text-xl md:text-2xl mb-8 uppercase font-extrabold">{{ .title }}</h2>
+          <span class="tracking-tight">{{ .text | markdownify}}</span>
           {{ end }}
         </div>
-        <div class="w-full md:w-1/2 bg-repink flex items-center flex-col justify-center pb-8">
-          <h3 class="title-with-shadow text-2xl md:text-3xl title-shadow-sm">#ENGAGEZVOUS</h3>
-          <h3 class="title-with-shadow text-2xl md:text-3xl title-shadow-sm mb-4">#CHANGERLESRÈGLES</h3>
-          <a class="big-red-button big-red-button--rounded" href="https://www.welcometothejungle.com/fr/companies/regles-elementaires/jobs" target="_blank">Rejoindre
-            l'Association</a>
+        <div class="w-full md:w-1/2 flex items-center flex-col justify-center pb-8">
+          <h3 class="title-with-shadow text-2xl md:text-4xl title-shadow-sm">#ENGAGEZVOUS</h3>
+          <h3 class="title-with-shadow text-2xl md:text-4xl title-shadow-sm mb-12">#CHANGERLESRÈGLES</h3>
+          <a class="uppercase py-4 px-8 font-semibold rounded-full text-white bg-rered hover:bg-rebeige hover:text-rered" href="https://www.welcometothejungle.com/fr/companies/regles-elementaires/jobs" target="_blank">
+            Rejoindre l'Association
+          </a>
         </div>
       </div>
     </div>

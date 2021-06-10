@@ -14,7 +14,7 @@ charte:
       - Utiliser uniquement, sans altérer d’aucune sorte, les visuels de communication fournis par l’équipe Règles Élémentaires. Aucune modification des visuels ne peut se faire sans l’accord écrit de l’équipe Règles Élémentaires.
       - Valider l’intégralité des contenus et outils de communication dédiés (événement Facebook, newsletter, etc.) avec l’équipe Règles Élémentaires, avant le début de la collecte et avant toute publication. Dans le cas de la création d’un événement Facebook, inscrire Règles Élémentaires en administrateur de l’événement.
       - Transmettre l’inventaire de la collecte à l’équipe Règles Élémentaires via mon espace collecte.
-      - Transmettre des photos de la collecte à l’équipe Règles Élémentaires par *[mail](mailto:collectes@regleselementaires.com)*.
+      - Transmettre des photos de la collecte à l’équipe Règles Élémentaires par ***[mail](mailto:collectes@regleselementaires.com)***.
       - Mettre à disposition les dons selon le calendrier et les modalités définis avec l’équipe Règles Élémentaires.
   - text: "L’Association Règles Élémentaires s’engage à :"
     engagements:

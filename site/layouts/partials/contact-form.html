@@ -1,25 +1,25 @@
 <!-- Contact -->
 <div class="w-11/12 md:w-4/5 m-auto">
-  <h4 class="text-white uppercase text-xl md:text-2xl font-semibold mb-2">Contact</h4>
+  <h4 class="text-rered uppercase text-xl md:text-2xl font-bold mb-2">Contact</h4>
 
   <form name="contact-form" action="https://collectes.regleselementaires.com/contact/processContactForm" method="post">
 
     <!-- Name -->
-    <div class="border-b-2 border-white mb-2">
+    <div class="border-b-2 border-rered mb-2">
       <fieldset>
-        <input required type="text" id="name" name="name" placeholder="Votre nom & prénom" class="bg-redarkgrey text-white py-2 w-full">
+        <input required type="text" id="name" name="name" placeholder="Votre nom & prénom" class="bg-rebeige text-rered py-2 w-full">
       </fieldset>
     </div>
     <!-- Email -->
-    <div class="border-b-2 border-white mb-2">
+    <div class="border-b-2 border-rered mb-2">
       <fieldset>
-        <input required type="email" id="email" name="email" placeholder="Votre email" class="bg-redarkgrey text-white py-2 w-full">
+        <input required type="email" id="email" name="email" placeholder="Votre email" class="bg-rebeige text-rered py-2 w-full">
       </fieldset>
     </div>
 
     <!-- Sujet -->
-    <div class="border-b-2 border-white mb-2 pb-2 selectdiv flex flex-row">
-      <select required name="subject" id="subject" class="bg-redarkgrey text-white py-2 w-full appearance-none">
+    <div class="border-b-2 border-rered mb-2 pb-2 selectdiv flex flex-row">
+      <select required name="subject" id="subject" class="bg-rebeige text-rered py-2 w-full appearance-none">
         <option value="" disabled selected>Votre question concerne</option>
         <option value="collecte">Organiser une collecte</option>
         <option value="demande-produits">Bénéficier de produits</option>
@@ -35,24 +35,24 @@
 
     <!-- Message -->
     <fieldset>
-      <textarea required id="message" name="message" placeholder="Votre message" rows="8" cols="" class="w-full p-4 mt-4 border-2 border-white bg-redarkgrey text-white"></textarea>
+      <textarea required id="message" name="message" placeholder="Votre message" rows="8" cols="" class="w-full p-4 mt-4 border-2 border-rered bg-rebeige text-rered"></textarea>
     </fieldset>
     <!-- Button -->
     <div class="my-4 flex justify-end">
-      <button type="submit" class="border-2 rounded-full border-white uppercase text-white py-2 px-8 font-semibold">Envoyer</button>
+      <button type="submit" class="border-2 rounded-full border-rered uppercase text-rered py-2 px-8 font-semibold">Envoyer</button>
     </div>
   </form>
 </div>
 
 <style>
   input::placeholder, textarea::placeholder {
-    color: white;
+    color: #e9364b;
     opacity: 1;
   }
 
   .selectdiv:after {
     content: '<>';
-    color: white;
+    color: #e9364b;
     transform: rotate(90deg);
     display: flex;
     font-size: 1rem;

@@ -1,25 +1,26 @@
 {{ define "main" }}
 <div>
-    {{ partial "projet/page-desc" . }}
-    <div class="container pt-8">
+    {{ partial "page-desc" . }}
+    <div class="container pt-8 mb-8">
+        <h2 class="uppercase text-rered text-center font-extrabold text-xl md:text-3xl mb-12 mt-4">{{ .Params.mission_title }}</h2>
         <div class="px-8">
-            <div class="flex flex-col md:flex-row md:items-stretch text-rered -mx-8">
-                <div class="w-full md:w-1/2 px-8 pb-4">
-                    {{with .Params.mission_first }}
-                    <div class="bg-repink p-8 rounded-lg flex flex-col items-center h-full">
-                        {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
+            <div class="w-full md:w-5/6 m-auto flex flex-col md:flex-row text-white tracking-tight text-center">
+                {{with .Params.mission_first }}
+                <img class="hidden md:flex absolute mt-20 -ml-16" src="{{.img}}" />
+                <div class="w-full md:w-1/2 px-4 pb-4 flex flex-row justify-end items-start">
+                    <div class="w-full md:w-5/6 bg-reorange py-8 px-8 md:px-16 rounded-lg flex flex-col items-center">
+                        {{ partial "projet/big-title-white" (dict "title" .title "size" "3xl") }}
                         <div class="markdown mt-4">{{.content | markdownify }}</div>
-                        <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
-                    </div>
-                    {{end}}
+                    </div>                    
                 </div>
-                <div class="w-full md:w-1/2 px-8 pb-4">
+                {{end}}
+                <div class="w-full md:w-1/2 px-4 pb-4 flex flex-col items-center">
                     {{with .Params.mission_second }}
-                    <div class="bg-repink p-8 rounded-lg flex flex-col items-center h-full">
-                        {{ partial "projet/big-title" (dict "title" .title "size" "3xl") }}
-                        <div class="markdown mt-4">{{.content | markdownify }}</div>
-                        <img class="hidden md:block w-1/2 h-64" src="{{.img}}" />
+                    <div class="bg-reorange py-8 px-8 md:px-16 rounded-lg flex flex-col items-center">
+                        {{ partial "projet/big-title-white" (dict "title" .title "size" "3xl") }}
+                        <div class="markdown mt-4">{{.content | markdownify }}</div>                        
                     </div>
+                    <img class="hidden md:block w-1/2 h-64 -mt-12" src="{{.img}}" />
                     {{end}}
                 </div>
             </div>
@@ -31,37 +32,27 @@
         {{end}}
     </div>
     <div class="container">
-        <h1 class="text-xl md:text-3xl mt-8 mb-4 uppercase font-bold text-rered px-8">{{.Params.numbers.title}}</h1>
-        <p class="text-rered px-8">{{.Params.numbers.content}}</p>
+        <h1 class="text-center text-xl md:text-3xl mt-8 mb-2 uppercase font-extrabold text-rered px-8">{{.Params.numbers.title}}</h1>
+        <p class="text-center text-rered px-8 font-medium tracking-tight">{{.Params.numbers.content}}</p>
         <div class="px-8">
-            <div class="flex flex-wrap -mx-8 justify-center">
+            <div class="flex flex-wrap justify-center">
                 {{ range $elem_index, $elem_val := .Params.numbers.cards }}
                 {{ $isOdd := not (modBool $elem_index 2) }}
                 <div class="w-1/1 sm:w-1/2 md:w-1/3 relative px-8 pt-8">
                     <div class="absolute inset-x-0 px-8">
                         <div class="flex flex-col items-center w-full"><img class="h-32" src="{{ .img }}" /></div>
                     </div>
-                    <div
-                        class="bg-rered text-white mt-16 pt-16 text-center rounded-lg px-4 pb-4 {{if $isOdd}}bg-repink text-rered{{end}}">
+                    <div class="bg-rered text-white mt-16 pt-16 text-center rounded-lg px-4 pb-4 {{if $isOdd}}bg-rebeige text-rered{{end}}">
                         <h3 class="text-xl md:text-2xl font-bold">{{.number}}</h3>
                         <p class="">{{.desc}}</p>
                     </div>
                 </div>
                 {{end}}
                 <a class="big-red-button big-red-button--rounded my-12" href="/projet/actions">
-                    En savoir plus sur nos actions
+                    {{ .Params.action_button }}
                 </a>
             </div>
         </div>
     </div>
-    <!--<div class="w-full bg-regrey p-8 mt-8">
-        <div class="container flex flex-col justify-center items-center">
-            <img class="object-scale-down" src="{{.Params.collectes.img}}" />
-            <a class="big-red-button big-red-button--rounded mt-8" href="/projet/actions">
-                En savoir plus sur nos actions
-            </a>
-        </div>
-    </div>-->
-    {{ partial "projet/moi-aussi" . }}
 </div>
 {{ end }}

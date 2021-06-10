@@ -6,9 +6,9 @@ menu:
   main:
     parent: projet
     weight: 1
-illu: /img/page-mission/photo-always.jpg
+illu: /img/page-mission/illu-mission.svg
 intro:
-  first: "Règles Élémentaires est la première Association française de lutte contre la précarité menstruelle créée en 2015 par Tara Heuzé-Sarmini. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles."
+  first: "Règles Élémentaires est la première association française de lutte contre la précarité menstruelle créée en 2015 par Tara Heuzé-Sarmini. Notre mission est double : collecter des produits d’hygiène intime à destination des femmes dans le besoin et briser le tabou des règles."
   second: "Ensemble, nous pouvons faire bouger les lignes et changer les règles !"
   hashtags: "#dignité #égalité #solidarité"
 illuSpacing:
@@ -16,6 +16,7 @@ illuSpacing:
   - /img/page-mission/illu-spacing-2.jpg
   - /img/page-mission/illu-spacing-3.jpg
   - /img/page-mission/illu-spacing-1.jpg
+mission_title: La mission de Règles élémentaires
 mission_first:
   title: "100 000 000"
   content: |
@@ -33,7 +34,7 @@ mission_second:
 
 numbers:
   title: Notre impact
-  content: Depuis la creation de l'Association en novembre 2015
+  content: "Depuis la création de l'association en novembre 2015 :" 
   cards:
     - number: "+ de 5 000 000"
       img: /img/page-mission/groupe-protections.svg
@@ -47,12 +48,13 @@ numbers:
     - number: "+ de 500"
       img: /img/page-mission/paquet-nana-v2.svg
       desc: partenariats
+    - number: "6"
+      img: /img/page-mission/partenaire.svg
+      desc: antennes régionales
     - number: "24"
       img: /img/page-mission/RE-plus.svg
       desc: personnes forment l’équipe à 75% bénévole
-    - number: "6"
-      img: /img/page-mission/partenaire.svg
-      desc: antennes
 collectes:
   img: /img/page-mission/chart.svg
+action_button: "En savoir plus sur nos actions"
 ---
