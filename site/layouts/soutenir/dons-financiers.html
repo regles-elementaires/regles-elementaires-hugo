@@ -14,7 +14,11 @@
             {{ range .Params.payments }}
                 {{if isset . "link"}}
                     <a href="{{.link}}" target="_blank"
-                        class="w-full md:w-1/4 relative px-2 pt-4 mt-12 mb-8 flex flex-row cursor-pointer">
+                        class="w-full md:w-1/4 relative px-2 pt-4 mt-12 mb-8 flex flex-row cursor-pointer"
+                        onclick="gtag('event', 'clicDonnerDonsFinanciers', {
+                            'event_category': 'Dons Financiers',
+                            'event_label': 'don_soutenir',
+                          });">
                 {{else}}
                     <div class="w-full md:w-1/4 relative px-2 pt-4 mt-12 mb-8 flex flex-row">
                 {{end}}

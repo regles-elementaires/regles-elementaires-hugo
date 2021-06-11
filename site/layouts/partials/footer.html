@@ -8,7 +8,13 @@
 						<p class="tracking-tighter">
 							Vous cherchez un lieu où donner des produits ? Vous ne savez pas quels produits il est possible de donner ? Vous voulez organiser une collecte ? Avant de nous contacter, merci de consulter au préalable notre
 						</p>
-						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-reorange" href="/faq/">Foire aux questions</a>
+						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-reorange" href="/faq/"
+						onclick="gtag('event', 'clicFAQ', {
+							'event_category': 'FAQ',
+							'event_label': 'faq_footer',
+						});">
+							Foire aux questions
+						</a>
 					</div>
 					<div class="py-4 md:p-4 text-rered font-bold flex flex-col text-center">
 						<span class="font-normal">
@@ -44,28 +50,28 @@
                 <a href="https://www.facebook.com/regleselementaires/" target="_blank" 
                 class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
                     'event_category': 'Reseaux Sociaux',
-                    'event_label': 'facebook_home',
+                    'event_label': 'facebook_footer',
                 });">
                     <img src="/img/social/facebook-red.svg" class="h-10 rounded-full" />
                 </a>
                 <a href="https://twitter.com/RElementaires" target="_blank"
                 class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
                     'event_category': 'Reseaux Sociaux',
-                    'event_label': 'twitter_home',
+                    'event_label': 'twitter_footer',
                 });">
                     <img src="/img/social/twitter-red.svg" class="h-10 rounded-full" />
                 </a>
                 <a href="https://www.instagram.com/regleselementaires/" target="_blank" 
                 class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
                     'event_category': 'Reseaux Sociaux',
-                    'event_label': 'insta_home',
+                    'event_label': 'insta_footer',
                 });">
                     <img src="/img/social/insta-red.svg" class="h-10 rounded-full" />
                 </a>
                 <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank" 
                 class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
                     'event_category': 'Reseaux Sociaux',
-                    'event_label': 'linkedin_home',
+                    'event_label': 'linkedin_footer',
                 });">
                     <img src="/img/social/linkedin-red.svg" class="h-10 rounded-full" />
                 </a>

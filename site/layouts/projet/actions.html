@@ -11,7 +11,12 @@
                 <div class="w-5/6 m-auto text-rered markdown text-center tracking-tight font-medium">{{.content | markdownify}}</div>
                 {{ if ne .btn_link ""}}
                 <a class="big-red-button big-red-button--rounded my-8" href="{{.btn_link}}"
-                    {{if isset . "target_blank"}}target="_blank" {{end}}}>{{.btn_text}}
+                    {{if isset . "target_blank"}}target="_blank" {{end}}}
+                    onclick="gtag('event', 'clicNosActions', {
+                        'event_category': 'Actions',
+                        'event_label': '{{.event_label}}',
+                        });">
+                        {{.btn_text}}
                 </a>
                 {{end}}
             </div>

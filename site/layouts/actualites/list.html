@@ -48,13 +48,21 @@
             <div class="w-full mb-4 md:mb-0 md:w-1/2 md:pr-4">
                 <p>
                     {{ .download_rdp_text }}
-                    <a class="font-semibold hover:underline" href="{{ .download_rdp_link }}" download="regles-elementaires-revue-de-presse-2020.pdf">
+                    <a class="font-semibold hover:underline" href="{{ .download_rdp_link }}" download="regles-elementaires-revue-de-presse-2020.pdf"
+                    onclick="gtag('event', 'clicRevueDePresse', {
+						'event_category': 'RDP',
+						'event_label': 'rdp_2020',
+					});">
                         ici.
                     </a>
                 </p>
                 <p>                
                     {{ .download_top_text }}
-                    <a class="font-semibold hover:underline" href="{{ .download_top_link }}" download="regles-elementaires-top-articles-2015-2020.pdf">
+                    <a class="font-semibold hover:underline" href="{{ .download_top_link }}" download="regles-elementaires-top-articles-2015-2020.pdf"
+                    onclick="gtag('event', 'clicRevueDePresse', {
+						'event_category': 'RDP',
+						'event_label': 'top_articles',
+					});">
                         ici.
                     </a>
                 </p>

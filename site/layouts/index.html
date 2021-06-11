@@ -51,7 +51,11 @@
     </div>
     <div class="w-11/12 md:w-full flex flex-row justify-end md:-mt-32 mb-12">        
         <div class="w-11/12 md:w-1/4 rounded-md m-auto md:mr-16 overflow-hidden">
-            <a class="w-full" href="/donner/trouver">
+            <a class="w-full" href="/donner/trouver"
+            onclick="gtag('event', 'clicCarteCollectes', {
+                'event_category': 'Carte Collectes',
+                'event_label': 'carte_collectes',
+                });">
                 <div class="w-full bg-white text-rered uppercase text-center p-2 font-medium text-lg">
                     {{ .Params.map.title }}
                 </div>

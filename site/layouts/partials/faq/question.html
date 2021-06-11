@@ -1,7 +1,11 @@
 <div class="w-full">
 
     {{ range .questions }}                
-        <div class="tab w-full overflow-hidden shadow mb-4 text-gray-800">
+        <div class="tab w-full overflow-hidden shadow mb-4 text-gray-800"
+        onclick="gtag('event', 'clicQuestion', {
+            'event_category': 'Question',
+            'event_label': '{{ .id }}',
+        });">
             <input class="absolute opacity-0" id="tab-single-{{.id}}" type="radio" name="tabs2">
             <label class="flex p-4 leading-normal cursor-pointer font-medium" for="tab-single-{{.id}}">
                 <div class="w-11/12 pr-2">{{ .question }}</div>                    
