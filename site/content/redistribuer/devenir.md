@@ -13,7 +13,7 @@ intro:
 steps:
   - img: /img/page-redistribuer/step1.svg
     step: 1
-    text: "Une personne de l’organisation remplit le <a target=\"_blank\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaire','event_label': 'devenir_step'});\">formulaire</a>."
+    text: "Une personne de l’organisation remplit le <a target=\"_blank\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'devenir_step'});\">formulaire</a>."
   - img: /img/page-redistribuer/step2.svg
     step: 2
     text: 'L’équipe redistribution de Règles Élémentaires prend contact avec nous sous 15 jours.'
