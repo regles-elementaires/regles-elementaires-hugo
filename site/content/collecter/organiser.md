@@ -29,10 +29,10 @@ steps:
     text: J'ajoute une collecte et je renseigne les informations demandées (au moins 2 semaines avant le début de ma collecte).
   - img: /img/page-collecte/etape-5.svg
     step: 5
-    text: L'équipe Règles Élémentaires me contacte sous 2 semaines. Après validation de ma collecte, je reçois le kit collecte par mail.
+    text: L'équipe Règles Élémentaires valide ma collecte sous 2 semaines. Après validation, je reçois le kit collecte par mail.
   - img: /img/page-collecte/etape-6.svg
     step: 6
-    text: J'en parle autour de moi ! Si votre collecte est ouverte au public, nous communiquerons dessus également.
+    text: J'en parle autour de moi ! Si votre collecte est ouverte au public, elle apparaîtra sur notre carte interactive.
   - img: /img/page-collecte/etape-7.svg
     step: 7
     text: "Ma collecte a commencé : Je prends des jolies photos."
