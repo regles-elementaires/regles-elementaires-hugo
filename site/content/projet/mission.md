@@ -55,6 +55,6 @@ numbers:
       img: /img/page-mission/RE-plus.svg
       desc: personnes forment l’équipe à 75% bénévole
 collectes:
-  img: /img/page-mission/chart.svg
+  title: "Produits d'hygiène intime collectés par Règles Élémentaires"
 action_button: "En savoir plus sur nos actions"
 ---

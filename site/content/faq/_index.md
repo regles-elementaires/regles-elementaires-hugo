@@ -62,7 +62,7 @@ categories:
         
         Pour information, c’est à vous de mettre à disposition les boîtes/cartons dans lesquels les dons seront déposés (un kit de customisation vous sera fourni par email).<br/><br/>
         
-        Ensuite, notre équipe partenariats se chargera de vous attribuer une association partenaire locale qui bénéficiera de votre collecte. Nous vous mettrons en contact avec celle-ci à la fin de votre collecte pour que vous puissiez vous arranger au niveau du retrait/dépôt des dons. A noter que cette mise en relation peut prendre du temps selon les besoins et disponibilités des associations locales ; prévoyez donc un endroit où stocker les dons jusqu’à deux ou trois semaines après la fin de votre collecte."
+        Ensuite, notre équipe partenariats se chargera de vous attribuer une association partenaire locale qui bénéficiera de votre collecte. Nous vous mettrons en contact avec celle-ci à la fin de votre collecte pour que vous puissiez vous arranger au niveau du retrait/dépôt des dons. À noter que cette mise en relation peut prendre du temps selon les besoins et disponibilités des associations locales ; prévoyez donc un endroit où stocker les dons jusqu’à deux ou trois semaines après la fin de votre collecte."
       - id: collecte-4
         question: Est-ce que je peux organiser une collecte à l’étranger ? 
         answer: "Des collectes coordonnées par Règles Élémentaires ont déjà eu lieu au Canada, en Suisse et nous avons une antenne Règles Élémentaires en Belgique.<br/><br/>

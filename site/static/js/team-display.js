@@ -13,11 +13,14 @@ const displayMembers = elem => {
             if (elem.dataset.team) {
                 if (!member.classList.contains(elem.dataset.team)) {
                     member.classList.add("equipe__membre-inactive");
+                    member.classList.remove("equipe__membre-bio--4n");
                 } else {
                     member.classList.remove("equipe__membre-inactive");
+                    member.classList.add("equipe__membre-bio--4n");
                 }
             } else {
                 member.classList.remove("equipe__membre-inactive");
+                member.classList.add("equipe__membre-bio--4n");
             } 
         });
     }

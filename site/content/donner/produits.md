@@ -33,4 +33,5 @@ other:
     text: "lingettes"
 warning: "Ne pas se servir dans les boîtes à dons !
 <br>Les produits sont redistribués par des associations spécialisées."
+brochure_button: 'Télécharger la fiche "Quels produits donner ?"'
 ---
