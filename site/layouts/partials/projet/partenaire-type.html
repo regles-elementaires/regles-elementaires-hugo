@@ -24,11 +24,11 @@
 <div class="w-10/12 md:w-full m-auto">
     {{ partial "projet/carousel" (dict "partenaire_type" .page.type "data" .data)}}
 </div>
-<div class="md:py-2 flex flex-row justify-center mb-8">
-    <button class="flex flex-col w-20 h-6 md:h-8 self-center text-rered items-center" data-type="{{.page.type}}"
+<div class="md:py-2 flex flex-row justify-center">
+    <button class="flex flex-col w-32 self-center text-rered items-center" data-type="{{.page.type}}"
     onclick="displayAllPartners(this)"
     >
-        voir tout
+        voir tous les partenaires
         <img class="mt-2" src="/img/page-nos-partenaires/fleche_bas_slider.svg"/>
     </button>
 </div>
