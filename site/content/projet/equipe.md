@@ -20,16 +20,13 @@ engager:
 
 permanents:
     type: permanent
-    title1: "L'équipe"
-    title2: "permanente"
+    title: "L'équipe permanente"
 
 benevoles:
     type: benevole
-    title1: "Les"
-    title2: "bénévoles"
+    title: "Les bénévoles"
 
 ca:
     type: ca
-    title1: "Le conseil"
-    title2: "d'administration"
+    title: "Le conseil d'administration"
 ---

@@ -15,4 +15,6 @@ press:
   download_top_text: "Pour télécharger nos top articles 2015-2020, c'est "
   download_top_link: /pdf/top-articles-rdp-2015-2020.pdf
   contact_text: "Si vous avez des questions, ou souhaitez interviewer un membre de l’équipe, merci d’écrire à "
+agenda:
+  title: "L'agenda"
 ---
