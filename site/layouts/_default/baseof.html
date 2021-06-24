@@ -9,6 +9,9 @@
       {{ if $.Site.Params.display_popup_5ans }}
         {{ partial "popup-5ans" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_don }}
+        {{ partial "popup-don" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
