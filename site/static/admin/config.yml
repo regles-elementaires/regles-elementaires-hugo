@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Nom", name: "name", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format:"LLL", picker_utc: false }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Lieu", name: "place", widget: "string" }
   # - name: "projet"
   #   label: "Pages Projet"
