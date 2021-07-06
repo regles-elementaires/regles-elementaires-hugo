@@ -7,55 +7,45 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  # - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-  #   label: "Post" # Used in the UI, ie.: "New Post"
-  #   folder: "site/content/post" # The path to the folder where the documents are stored
-  #   create: true # Allow users to create new documents in this collection
-  #   fields: # The fields each document in this collection have
-  #     - { label: "Title", name: "title", widget: "string" }
-  #     - { label: "Publish Date", name: "date", widget: "datetime" }
-  #     - { label: "Intro Blurb", name: "description", widget: "text" }
-  #     - { label: "Image", name: "image", widget: "image", required: false }
-  #     - { label: "Body", name: "body", widget: "markdown" }
   - name: "team" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Equipe" # Used in the UI, ie.: "New Post"
+    label: "Membre" # Used in the UI, ie.: "New Post"
     folder: "site/data/team" # The path to the folder where the documents are stored
     identifier_field: "name"
-    extension: toml
+    extension: "toml"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Nom", name: "name", widget: "string" }
       - { label: "Role", name: "role", widget: "string" }
-      - { label: "Linkedin URL", name: "linkedin", widget: "string", required: false}
+      - { label: "Linkedin URL", name: "linkedin", widget: "string", required: false }
       - { label: "Photo", name: "img", widget: "image" }
-      - { label: "Biographie", name: "bio", widget: "text", required: false}
-      - {label: ordre, name: order, widget: hidden, default: 2}
+      - { label: "Biographie", name: "bio", widget: "text", required: false }
+      - { label: "ordre", name: "order", widget: "hidden", default: 2 }
   - name: "actualite" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Actualite" # Used in the UI, ie.: "New Post"
     folder: "site/content/actualites" # The path to the folder where the documents are stored
     identifier_field: "title"
-    filter: {field: "layout", value: "single"}
+    filter: { field: "layout", value: "single" }
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    extension: md
+    extension: "md"
     create: true # Allow users to create new documents in this collection
     editor:
       preview: true
     fields: # The fields each document in this collection have
       - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Tags", name: tags, widget: list,   default: ["news", "coup de sang"]}
+      - { label: "Tags", name: "tags", widget: "list",   default: ["news"]}
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Auteur.e", name: "author", widget: "string"}
       - { label: "Illustration", name: "illu", widget: "image" }
-      - { label: 'Introduction', name: 'intro', widget: 'markdown' }
-      - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - {label: Layout, name: layout, widget: hidden, default: single}
+      - { label: "Introduction", name: "intro", widget: "markdown" }
+      - { label: "Corps", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
   - name: "actualite_video" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Video Actu" # Used in the UI, ie.: "New Post"
     folder: "site/content/actualites" # The path to the folder where the documents are stored
     identifier_field: "title"
     filter: {field: "layout", value: "video"}
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    extension: md
+    extension: "md"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Titre", name: "title", widget: "string" }
@@ -63,19 +53,19 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Auteur.e", name: "author", widget: "string"}
       - { label: "Illustration", name: "illu", widget: "image" }
-      - { label: 'Introduction', name: 'intro', widget: 'markdown' }
-      - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - {label: Layout, name: layout, widget: hidden, default: video}
-      - {label: Video principale, name: main_video_id, widget: string}
+      - { label: "Introduction", name: "intro", widget: "markdown" }
+      - { label: "Corps", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "video" }
+      - { label: "Video principale", name: "main_video_id", widget: "string" }
       - label: "Videos"
-        name: video_list
-        widget: list
-        field: {label: Id Youtube, name: youtube_id, widget: string}
+        name: "video_list"
+        widget: "list"
+        field: { label: "Id Youtube", name: "youtube_id", widget: "string" }
   - name: "partenaires" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Partenaires" # Used in the UI, ie.: "New Post"
+    label: "Partenaire" # Used in the UI, ie.: "New Post"
     folder: "site/data/partenaires" # The path to the folder where the documents are stored
     identifier_field: "name"
-    extension: toml
+    extension: "toml"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: "Nom", name: "name", widget: "string" }
@@ -83,28 +73,38 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Lien", name: "link", widget: "string" }
       - { label: "Logo", name: "img", widget: "image" }
       - { label: "Histoire", name: "story", widget: "text" }
-  - name: "projet"
-    label: "Pages Projet"
-    files:
-      - file: "site/content/projet/actions.md"
-        label: "Nos Actions"
-        name: "actions"
-        fields:
-          - {label: Menu, name: menu, widget: hidden}
-          - {label: Layout, name: layout, widget: hidden}
-          - { label: Titre, name: title, widget: string }
-          - { label: Illustration, name: illu, widget: image }
-          - { label: Body, name: body, widget: markdown }
-          - 
-              label: "Actions"
-              name: actions
-              widget: list
-              fields:
-                - { label: "Titre", name: "title", widget: "string" }
-                - { label: "Contenu", name: "content", widget: "markdown" }
-                - { label: "Texte Bouton", name: "btn_text", widget: "string" }
-                - { label: "Lien Bouton", name: "btn_link", widget: "string" }
-                - label: "Illustrations"
-                  name: "illu"
-                  widget: "list"
-                  field: {label: Image, name: "img", widget: image}
+  - name: "event"
+    label: "Évènement"
+    folder: "site/data/events"
+    identifier_field: "name"
+    extension: "toml"
+    create: true
+    fields:
+      - { label: "Nom", name: "name", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Lieu", name: "place", widget: "string" }
+  # - name: "projet"
+  #   label: "Pages Projet"
+  #   files:
+  #     - file: "site/content/projet/actions.md"
+  #       label: "Nos Actions"
+  #       name: "actions"
+  #       fields:
+  #         - {label: Menu, name: menu, widget: hidden}
+  #         - {label: Layout, name: layout, widget: hidden}
+  #         - { label: Titre, name: title, widget: string }
+  #         - { label: Illustration, name: illu, widget: image }
+  #         - { label: Body, name: body, widget: markdown }
+  #         - 
+  #             label: "Actions"
+  #             name: actions
+  #             widget: list
+  #             fields:
+  #               - { label: "Titre", name: "title", widget: "string" }
+  #               - { label: "Contenu", name: "content", widget: "markdown" }
+  #               - { label: "Texte Bouton", name: "btn_text", widget: "string" }
+  #               - { label: "Lien Bouton", name: "btn_link", widget: "string" }
+  #               - label: "Illustrations"
+  #                 name: "illu"
+  #                 widget: "list"
+  #                 field: {label: Image, name: "img", widget: image}
