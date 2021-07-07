@@ -10,7 +10,9 @@
 /*
 === GENERIC
 */
-*
+html {
+  scroll-behavior: smooth;
+}
 
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block font-medium text-center text-sm;

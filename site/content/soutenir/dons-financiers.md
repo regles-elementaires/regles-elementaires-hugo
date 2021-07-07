@@ -23,11 +23,11 @@ payments:
       Association Règles Élémentaires<br>
       La Cité Audacieuse<br>
       9 rue de Vaugirard 75006 Paris
-  - img: /img/page-dons-financiers/carte.svg
-    text: Carte Bancaire
-    subtext: Tout le temps sur HelloAsso
-    link: https://www.helloasso.com/associations/regles-elementaires/formulaires/1/widget
+  # - img: /img/page-dons-financiers/carte.svg
+  #   text: Carte Bancaire
+  #   subtext: Tout le temps via HelloAsso
+  #   link: /soutenir/dons-financiers/#haWidget
   - img: /img/page-dons-financiers/virement.svg
     text: Virement
-    subtext: "Voici l’IBAN de notre association : FR76 1027 8060 4500 0211 8560 110"
+    subtext: "Voici l’IBAN de notre association : <br/> FR76 1027 8060 4500 0211 8560 110"
 ---
