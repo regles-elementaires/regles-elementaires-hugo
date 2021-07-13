@@ -6,12 +6,12 @@
         <div class="w-1/3 md:w-1/5 h-32 p-4">
         {{ if eq (len .link) 0 }}
         <span class="flex w-full h-full justify-center" title="{{.name}}">
-            <img class="object-scale-down" src="{{.img}}" />
+            <img class="object-scale-down" src="{{.img}}" alt="logo {{.name}}"/>
         </span>
         {{ else }}
         <a href="{{.link}}" target="_blank" 
         class="flex w-full h-full justify-center hover:border-redarkpink" title="{{.name}}">
-            <img class="object-scale-down" src="{{.img}}" />
+            <img class="object-scale-down" src="{{.img}}" alt="logo {{.name}}"/>
         </a>
         {{ end }}
         </div>
