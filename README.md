@@ -1,4 +1,16 @@
-# Hugo template for Netlify CMS with Netlify Identity
+# Site vitrine RE
+
+CSS framework : Tailwind CSS 1.9.6
+
+## Données back-office
+
+* Actualités : `site/content/actualites` au format `.md`
+* Évènements : `site/data/events` au format `.toml`
+* Membres de l'équipe : `site/data/team` au format `.toml`
+* Partenaires : `site/data/partenaires` au format `.toml`
+
+
+# Based on Hugo template for Netlify CMS with Netlify Identity
 
 This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
 
