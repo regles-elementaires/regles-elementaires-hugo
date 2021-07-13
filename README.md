@@ -1,14 +1,13 @@
-# Site vitrine RE
+# Showcase site RE
 
 CSS framework : Tailwind CSS 1.9.6
 
-## Données back-office
+## Back-office data
 
-* Actualités : `site/content/actualites` au format `.md`
-* Évènements : `site/data/events` au format `.toml`
-* Membres de l'équipe : `site/data/team` au format `.toml`
-* Partenaires : `site/data/partenaires` au format `.toml`
-
+* News : `site/content/actualites` au format `.md`
+* Events : `site/data/events` au format `.toml`
+* Team members : `site/data/team` au format `.toml`
+* Partners : `site/data/partenaires` au format `.toml`
 
 # Based on Hugo template for Netlify CMS with Netlify Identity
 
