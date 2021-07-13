@@ -4,10 +4,10 @@ CSS framework : Tailwind CSS 1.9.6
 
 ## Back-office data
 
-* News : `site/content/actualites` au format `.md`
-* Events : `site/data/events` au format `.toml`
-* Team members : `site/data/team` au format `.toml`
-* Partners : `site/data/partenaires` au format `.toml`
+* News : `site/content/actualites` in `.md` format
+* Events : `site/data/events` in `.toml` format
+* Team members : `site/data/team` in `.toml` format
+* Partners : `site/data/partenaires` in `.toml` format
 
 # Based on Hugo template for Netlify CMS with Netlify Identity
 
