@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="equipe__pic h-32 md:h-64 overflow-hidden">
-      <img class="object-cover w-full h-full" src="{{ .img }}" alt="photo {{.name}}"/>
+      <img class="object-cover w-full h-full" src="{{ .img }}" />
     </div>
     <h3 class="font-bold mt-4 text-rered uppercase">
       {{ .name }}
@@ -20,7 +20,7 @@
     <div class="mb-4 absolute bottom-0">
       {{if (isset . "linkedin")}}
       <a href="{{.linkedin}}" target="_blank">
-        <img src="/img/social/linkedin-red.svg"/ class="h-8" alt="linkedin {{.name}}">
+        <img src="/img/social/linkedin-red.svg"/ class="h-8">
       </a>
       {{end}}
     </div>

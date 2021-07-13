@@ -1,7 +1,7 @@
 <div class="flex flex-row px-2 md:px-16 md:my-8">
 
     <div id="prev-{{.partenaire_type}}" class="flex w-4 md:w-1/12 h-6 self-center justify-center">
-        <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" alt="partenaire précédent"/>
+        <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" />
     </div>
     
     <div id="carousel-{{.partenaire_type}}" class="flex w-10/12 carousel-redistributeurs m-auto">
@@ -11,11 +11,11 @@
         <div class="px-2">
             {{if eq (len .link) 0}}
             <span title="{{.name}}" class="w-full">
-                <img class="object-scale-down" src="{{.img}}" alt="logo {{.name}}"/>
+                <img class="object-scale-down" src="{{.img}}" />
             </span>
             {{else}}
             <a href="{{.link}}" target="_blank" title="{{.name}}" class="w-full h-full">
-                <img class="w-full h-full object-scale-down object-center px-2" src="{{.img}}" alt="logo {{.name}}"/>
+                <img class="w-full h-full object-scale-down object-center px-2" src="{{.img}}" />
             </a>
             {{end}}
         </div> 
@@ -25,7 +25,7 @@
     </div>
 
     <div id="next-{{.partenaire_type}}" class="flex w-4 md:w-1/12 h-6 self-center justify-center">
-        <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" alt="partenaire suivant" style="transform: scaleX(-1)"/>
+        <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" style="transform: scaleX(-1)"/>
     </div>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

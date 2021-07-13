@@ -7,7 +7,7 @@
         <div class="container w-full md:w-11/12 m-auto flex flex-col md:flex-row">
             <div class="w-full md:w-3/5 bg-rebeige flex flex-col items-center p-8">
                 {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
-                <img class="h-16 mb-2" src="/img/page-actions/arrow.png" alt=""/>
+                <img class="h-16 mb-2" src="/img/page-actions/arrow.png" />
                 <div class="w-5/6 m-auto text-rered markdown text-center tracking-tight font-medium">{{.content | markdownify}}</div>
                 {{ if ne .btn_link ""}}
                 <a class="big-red-button big-red-button--rounded my-8" href="{{.btn_link}}"
@@ -26,7 +26,7 @@
                     {{range $img_index, $img_val := .illu}}
                     {{ $afterTwo := gt $img_index 1 }}
                     <div class="w-1/2 px-2 z-10 h-48 xl:h-56 {{if $afterTwo}}hidden md:flex mb-4 {{else}} my-4 {{end}}">
-                        <img class="shadow-lg object-cover h-full w-full" src="{{$img_val}}" style=" filter: grayscale(100%);" alt=""/>
+                        <img class="shadow-lg object-cover h-full w-full" src="{{$img_val}}" style=" filter: grayscale(100%);"/>
                     </div>
                     {{end}}
                 </div>

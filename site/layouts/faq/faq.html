@@ -18,7 +18,7 @@
     {{ range $index, $val := .Params.categories }}
         {{ if not (modBool $index 2) }}
             <div class="divider hidden md:flex md:w-2/12 justify-center items-center md:my-8">
-                <img src="/img/faq-divider.svg" alt="" width="12px" />
+                <img src="/img/faq-divider.svg" alt="divider" width="12px" />
             </div>
         {{ end }}  
         <div class="category {{ if modBool $index 2 }}has-divider{{ end }} w-full md:w-5/12">
