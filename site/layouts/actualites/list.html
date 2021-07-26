@@ -78,6 +78,17 @@
     {{ end }}
 </div>
 
+<div class="w-full bg-white py-12">
+    <div class="w-10/12 md:w-5/6 mx-auto flex flex-wrap items-center">    
+        <h2 class="w-full uppercase text-rered text-xl md:text-2xl font-extrabold mb-4">{{ .Params.media_title }}</h2>
+        {{ range .Params.medias }}
+            <div class="w-1/2 md:w-1/6 py-4 px-4 md:px-8">
+                <a href="{{.link}}" target="_blank"><img src="{{.logo}}" title="{{.title}}" alt ="Article {{.title}}"/></a>
+            </div>
+        {{ end }}
+    </div>
+</div>
+
 <!--
 <div class="w-full bg-rebeige py-12">
     <div class="w-10/12 md:w-5/6 mx-auto flex flex-wrap">    
