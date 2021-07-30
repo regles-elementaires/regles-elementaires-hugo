@@ -7,10 +7,10 @@
             </h2>
             <p class="text-xs md:text-sm text-rered font-light mt-4">
                 <span>le {{dateFormat "02.01.2006" .Params.date}}</span>
-                <span> par</span>
+                <!--<span> par</span>
                 <span>
                     {{ .Params.author }}
-                </span>
+                </span>-->
             </p>
             <ul class="text-rered mt-4 mb-2">
                 {{ range (.GetTerms "tags") }}
