@@ -1,16 +1,25 @@
 {{ define "main" }}
-<div class="container px-10 pt-2 mt-4 tracking-tighter">
-    <a href="{{ ref . "/actualites" }}" class="hover:underline text-rered">
-        < Retour aux actualités</a>
+<div class="w-full bg-rered px-2 py-4 flex flex-row tracking-tighter">
+    <div class="w-11/12 lg:w-5/6 px-4 m-auto">
+        <ul class="flex flex-row flex-wrap text-white">
+            <li>
+                <a href="{{ ref . "/actualites" }}" class="border-white">Actus</a>
+            </li>
+            <li class="px-4"> > </li>
+            <li class="font-bold">
+                {{dateFormat "02.01.2006" .Params.date}}
+            </li>
+        </ul>
+    </div>
 </div>
-<div class="container pt-8 flex flex-row px-6 justify-center tracking-tighter">
+<div class="w-11/12 lg:w-5/6 m-auto pt-8 pb-4 flex flex-row px-2 justify-center tracking-tighter">
     <div class="flex flex-col md:flex-row w-full items-center flex-wrap">
         <div class="w-full xl:w-2/3 px-4">
-            <h2 class="text-3xl font-medium text-redarkgrey">
+            <h2 class="mt-4 md:mt-0 text-2xl md:text-3xl font-bold uppercase text-redarkgrey">
                 {{ .Title }}
             </h2>
-            <p class="">
-                <span class="text-rered">le {{dateFormat "02.01.2006" .Params.date}}</span>
+            <p class="my-4">
+                <span class="text-redarkgrey">le {{dateFormat "02.01.2006" .Params.date}}</span>
                 <!--<span class="text-redarkpink"> par</span>
                 <span class="uppercase text-redarkpink font-semibold">
                     {{ .Params.author }}
@@ -19,16 +28,17 @@
             <ul class="text-rered mt-4">
                 {{ range (.GetTerms "tags") }}
                 <li class="mr-2 text-sm inline-block mb-4">
-                    <a href="{{ .Permalink }}" class="bg-repink rounded-full py-1 px-6">
+                    <a href="{{ .Permalink }}" class="bg-rebeige rounded-full py-1 px-6">
                         <span class="text-rered uppercase font-semibold">#{{ .LinkTitle }}</span>
                     </a>
                 </li>
                 {{ end }}
             </ul>
-            <div class="text-rered markdown">{{ .Params.intro | markdownify}}</div>
-            <div class="markdown text-rered"> {{ .Content | markdownify}}</div>
+            <div class="w-full border-t-4 border-rebeige mb-4 md:mb-8 md:mt-4"></div>
+            <div class="w-full mb-8 text-rered text-xl md:text-2xl markdown tracking-tighter">{{ .Params.intro | markdownify}}</div>
+            <div class="w-full markdown text-redarkgrey text-md md:text-lg font-medium tracking-tighter"> {{ .Content | markdownify}}</div>
         </div>
-        <div class="w-full xl:w-1/3 m-auto px-4 pb-4 flex flex-col items-center">
+        <div class="w-full xl:w-1/3 m-auto px-4 pb-4 flex flex-col justify-center">
             <div class="w-full border border-rered p-2">
                 <iframe width="100%" height="400"
                     src="https://www.youtube.com/embed/{{.Params.main_video_id}}" frameborder="0"

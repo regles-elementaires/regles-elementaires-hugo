@@ -36,6 +36,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Auteur.e", name: "author", widget: "string"}
       - { label: "Illustration", name: "illu", widget: "image" }
+      - { label: "Logo", name: "logo", widget: "image" }
       - { label: "Introduction", name: "intro", widget: "markdown" }
       - { label: "Corps", name: "body", widget: "markdown" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "single" }

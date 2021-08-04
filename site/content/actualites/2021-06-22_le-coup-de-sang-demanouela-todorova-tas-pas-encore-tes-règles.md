@@ -31,7 +31,7 @@ Tout le monde allait voir. J'allais me faire montrer du doigt et avoir honte. Al
  par exemple :
 
 * Les premières règles peuvent être marron : non ce n'est pas des excréments, c'est du sang
-* Les premières règles sont souvent précédés des « pertes blanches » quine devraient pas être l'objet d'une honte supplémentaire
+* Les premières règles sont souvent précédés des « pertes blanches » qui ne devraient pas être l'objet d'une honte supplémentaire
 * Les règles ne sont pas bleues, comme les publicités aiment le montrer, et le fait qu'elles soient rouges ne les rend pas sales
 * Avoir une tâche sur ses vêtements c'est OK, ce n'est pas grave, ce n'est pas sale (encore une fois) et il n'y a pas de raison d'avoir honte
 
@@ -43,7 +43,8 @@ Parce que j'allais prendre un traitement très lourd qui s'appelle le Roacutane.
 
 Emanouela Todorova a créé le compte Instagram @disbonjoursalepute après avoir vécu un énième cas de harcèlement de rue. Ce compte Instagram est aujourd'hui un lieu d'expression pour les victimes du harcèlement de rue. Le 9 Juin dernier, elle a sorti son livre Dis Bonjour Sale Pute : le guide anti-harcèlement de rue. 
 
-_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son “Coup de Sang” autour des règles, de la précarité, des tabous ou d’autres sujets d’indignation. Les propos exprimés sont ceux de leur auteur·rice._
+
+_Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son “Coup de Sang” autour des règles, de la précarité, des tabous ou d’autres sujets d’indignation. Les propos exprimés sont ceux de leur auteur·rice._
 
 
 

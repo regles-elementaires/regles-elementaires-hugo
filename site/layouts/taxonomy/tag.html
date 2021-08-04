@@ -1,7 +1,16 @@
 {{ define "main" }}
-<div class="w-11/12 md:w-5/6 m-auto px-2 pt-2 mt-4 tracking-tighter">
-  <a href="{{ ref . "/actualites" }}" class="hover:underline text-rered">
-    < Retour aux actualités</a>
+<div class="w-full bg-rered px-2 py-4 flex flex-row tracking-tighter">
+  <div class="w-11/12 lg:w-5/6 m-auto">
+      <ul class="flex flex-row flex-wrap text-white">
+          <li>
+              <a href="{{ ref . "/actualites" }}" class="border-white">Actus</a>
+          </li>
+          <li class="px-4"> > </li>
+          <li class="font-bold uppercase">
+              #{{.Title}}
+          </li>
+      </ul>
+  </div>
 </div>
 {{ partial "actualites/list" (dict "titre" (print "Actualités liées au tag #" .Title) "pages" .Data.Pages) }}
 {{ end }}
