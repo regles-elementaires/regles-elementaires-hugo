@@ -75,7 +75,7 @@
 		<ul class="w-full flex flex-col flex-wrap text-rered ml-4 mt-6">
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
-				<li class="px-4 pb-1 menu-item--focus">
+				<li class="px-4 pb-1 menu-item--focus" tabindex="0">
 					{{ $currentMenu := . }}
 					{{ with .Children }}
 					<button class="uppercase focus:outline-none">
