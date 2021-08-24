@@ -35,6 +35,13 @@
                 </li>
                 {{ end }}
             </ul>
+            {{ with .Params.logo }}
+            <div class="w-24 h-24">
+                <a href="{{$.Params.link}}" target="_blank" class="w-24 h-24">
+                    <img src="{{.}}" class="object-contain rounded-full border-rebeige border-4 w-24 h-24" />
+                </a>
+            </div>
+            {{ end }}
         </div>
     </div>
 </div>
