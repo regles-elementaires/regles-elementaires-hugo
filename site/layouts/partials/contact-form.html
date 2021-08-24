@@ -37,12 +37,26 @@
     <fieldset>
       <textarea required id="message" name="message" placeholder="Votre message" rows="8" class="w-full p-4 mt-4 border-2 border-rered bg-rebeige text-rered"></textarea>
     </fieldset>
+
+    <!-- reCAPTCHA -->
+    <input type="hidden" id="recaptchaResponse" name="recaptcha-response">
+
     <!-- Button -->
     <div class="my-4 flex justify-end">
       <button type="submit" class="border-2 rounded-full border-rered uppercase text-rered py-2 px-8 font-semibold">Envoyer</button>
     </div>
   </form>
 </div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LdpNB8cAAAAAEcdCBrS5cx-kHLBLf-4vnqiouX7"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6LdpNB8cAAAAAEcdCBrS5cx-kHLBLf-4vnqiouX7', {action: 'homepage'}).then(function(token) {
+        document.getElementById('recaptchaResponse').value = token
+    });
+});
+</script>
+
 
 <style>
   input::placeholder, textarea::placeholder {
