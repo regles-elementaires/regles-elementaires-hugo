@@ -1,5 +1,5 @@
 ---
-title: Collecte de l'agence Kaliop
+title: La collecte de l'agence Kaliop
 tags:
   - news
   - collecte
