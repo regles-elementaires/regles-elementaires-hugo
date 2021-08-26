@@ -1,5 +1,5 @@
 ---
-title: La COLLECTE SAFI CoWorking
+title: La collecte SAFI CoWorking
 tags:
   - news
   - collecte
