@@ -2,6 +2,8 @@
 title: La collecte du Lycée des métiers La Ruche à Bordeaux
 tags:
   - news
+  - histoire
+  - collecte
 date: 2021-06-19T14:33:29.173Z
 illu: /img/capture-40.png
 intro: >-
