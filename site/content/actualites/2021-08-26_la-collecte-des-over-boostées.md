@@ -2,6 +2,8 @@
 title: La collecte des Over-Boostées
 tags:
   - news
+  - histoire
+  - collecte
 date: 2021-07-17T14:10:58.835Z
 illu: /img/format_carré_partenariats_facebook-insta_-3-.jpeg
 intro: >-
