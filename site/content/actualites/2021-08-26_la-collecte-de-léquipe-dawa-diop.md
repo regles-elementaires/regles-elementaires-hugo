@@ -8,7 +8,7 @@ date: 2021-07-03T14:21:03.301Z
 illu: /img/format_carré_partenariats_facebook-insta.jpeg
 intro: >-
   Une collecte dans tout le 18ème arrondissement de Paris par l'équipe d'Awa
-  Diop
+  Diop.
 layout: single
 ---
 
