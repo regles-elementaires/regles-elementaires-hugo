@@ -19,4 +19,4 @@ Un grand merci à Virginie et à l’équipe de SAFI coworking pour leur engagem
 
 Encore merci pour vote énergie !
 
-Ensemble, on peut changer les règles
+Ensemble, on peut changer les règles.
