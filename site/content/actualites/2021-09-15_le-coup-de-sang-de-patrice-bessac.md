@@ -1,7 +1,7 @@
 ---
 title: Le Coup de Sang de Patrice Bessac
 tags:
-  - news coup de sang
+  - 'news #coup de sang'
 date: 2021-09-15T10:11:31.336Z
 author: Patrice Bessac
 illu: /img/patrice-bessac-2020-1-.jpg
