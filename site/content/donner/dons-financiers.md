@@ -5,8 +5,8 @@ layout: dons-financiers
 display_dons_desc: true
 menu:
   main:
-    parent: soutenir
-    weight: 1
+    parent: donner
+    weight: 3
 illu: /img/page-dons-financiers/illu-dons.svg
 intro:
   first: "Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’intérêt général."

@@ -40,8 +40,3 @@ disableKinds = ["RSS"]
     name = "Redistribuer"
     url = "/redistribuer/redistributeurs"
     weight = 4
-  [[menu.main]]
-    identifier = "soutenir"
-    name = "Soutenir"
-    url = "/soutenir/dons-financiers"
-    weight = 6
