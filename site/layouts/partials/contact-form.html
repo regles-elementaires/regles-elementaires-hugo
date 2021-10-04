@@ -2,8 +2,8 @@
 <div class="w-11/12 md:w-4/5 m-auto">
   <h4 class="text-rered uppercase text-xl md:text-2xl font-bold mb-2">Contact</h4>
 
-  <form name="contact-form" action="https://collectes.regleselementaires.com/contact/processContactForm" method="post">
-  <!-- <form name="contact-form" action="http://localhost//contact/processContactForm" method="post"> -->
+  <!-- <form name="contact-form" action="https://collectes.regleselementaires.com/contact/processContactForm" method="post"> -->
+  <form name="contact-form" action="http://localhost//contact/processContactForm" method="post">
 
     <!-- Name -->
     <div class="border-b-2 border-rered mb-2">
@@ -30,6 +30,20 @@
         <option value="rejoindre">Rejoindre l'association</option>
         <option value="partenariat">Développer un partenariat</option>
         <option value="autre">Toute autre demande</option>
+      </select>
+    </div>
+
+    <!-- Region -->
+    <div class="border-b-2 border-rered mb-2 pb-2 selectdiv flex flex-row">
+      <select required name="region" id="region" class="bg-rebeige text-rered py-2 w-full appearance-none">
+        <option value="" disabled selected>Région concernée</option>
+        <option value="aura">Auvergne-Rhône-Alpes</option>
+        <option value="cvl">Centre-Val-de-Loire</option>
+        <option value="ge">Grand Est</option>
+        <option value="idf">Île-de-France</option>
+        <option value="na">Nouvelle-Aquitaine</option>
+        <option value="paca">Provence-Alpes-Côte-d'Azur</option>
+        <option value="autre">Autre région</option>
       </select>
     </div>
 
