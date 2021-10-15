@@ -3,15 +3,13 @@ title: 'Portrait de donateur : Emmanuel de Viel'
 tags:
   - news
 date: 2021-10-15T09:40:03.682Z
-illu: /img/emmanuel_de_viel.png
+illu: /img/edv.png
 intro: >-
   Règles Élémentaires, c’est des collectes, des ateliers, des coups de cœur et
   des coups de sang, mais c’est aussi… Des donateur·ices. En cette rentrée, nous
-  avons donc décidé d’aller à leur rencontre ! 
-
-
-  On vous raconte notre rencontre avec Emmanuel de Viel, un donateur qui pense
-  que « les règles, c’est un secret qu’on a inventé ».
+  avons donc décidé d’aller à leur rencontre ! On vous raconte notre rencontre
+  avec Emmanuel de Viel, un donateur qui pense que « les règles, c’est un secret
+  qu’on a inventé ».
 layout: single
 ---
 **La découverte des règles**
