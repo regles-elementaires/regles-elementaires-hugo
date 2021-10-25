@@ -13,8 +13,6 @@ intro: >-
   de s’y changer, impossible de s’y laver les mains correctement…
 layout: single
 ---
-Lorsque ma fille était au collège, je me rappelle de l’effarement que j’ai ressenti quand j’ai constaté que l’état des toilettes des jeunes filles était exactement ce que j'avais dû supporter à son âge. Pas de poubelle, impossible de s’y changer, impossible de s’y laver les mains correctement…
-
 Souvenez-vous. Vous êtes une collégienne d’une douzaine d’années, vous découvrez votre corps d’adulte, vous apprenez à connaître son fonctionnement, et ses changements, forcément, vous les appréhendez, dans tous les sens de ce verbe.
 
 Imaginez maintenant que votre collège, là où vous passez l’essentiel de votre temps, vous inculque, en creux, que vous devez savoir camoufler, dissimuler, invisibiliser votre nature de femme. Que tout cela doit être tu, que tout cela doit rester une affaire de femmes, silencieusement, discrètement, presque secrètement.
@@ -26,8 +24,6 @@ Seulement voilà, désormais ma mission, ce n’est plus seulement être mère, 
 Lorsque j’ai été élue, une de mes premières décisions a été d’équiper toutes les toilettes des filles des collèges du 10e arrondissement de distributeurs de protections hygiéniques bios et gratuites. Avec des associations de lutte contre la précarité menstruelle, nous nous sommes battues. Et nous continuons, de sorte à ce que, prochainement, tous les équipements publics disposent du même confort élémentaire.
 
 Lorsque c’était nécessaire, j’ai entamé un dialogue avec les principaux des collèges. Parce que cette colère que j’ai ressentie en tant que mère de famille, j’ai voulu la transmettre aux jeunes femmes de mon arrondissement
-
-
 
 - - -
 
