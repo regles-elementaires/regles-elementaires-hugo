@@ -1,5 +1,5 @@
 ---
-title: Le coup de sang de Julie @lafillequiadestaches
+title: 'Le coup de sang de Julie '
 tags:
   - news coup de sang
 date: 2021-11-24T17:42:40.985Z
