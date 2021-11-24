@@ -9,9 +9,9 @@ layout: single
 ---
 Mais j’oubliais le principal (et le plus poli) , me présenter.
 
-Je m’appelle Julie, je vais bientôt avoir 40 ans ( sur le papier, car dans la tête, j’ai 12 ans trois quarts, et qu’après tout, c’est quoi l’âge ? ), et vous pourrez me trouver sur les internets sous le doux pseudo de @lafillequiadestaches .
+Je m’appelle Julie, je vais bientôt avoir 40 ans (sur le papier, car dans la tête, j’ai 12 ans trois quarts, et qu’après tout, c’est quoi l’âge?), et vous pourrez me trouver sur les internets sous le doux pseudo de @lafillequiadestaches .
 
-Vous me connaissez peut-être déjà alors ce qui va suivre ne va rien vous apprendre, mais pour celles et ceux qui découvrent aujourd’hui mon existence (et vous êtes très nombreux. ), je vais vous expliquer pourquoi j’ai choisi ce pseudo.
+Vous me connaissez peut-être déjà alors ce qui va suivre ne va rien vous apprendre, mais pour celles et ceux qui découvrent aujourd’hui mon existence (et vous êtes très nombreux), je vais vous expliquer pourquoi j’ai choisi ce pseudo.
 
 Je suis née avec des angiomes (taches de naissance) sur 70 % de mon corps. Autrement dit, j’ai un corps quasi-violet (ou plutôt lie-de-vin pour les connaisseurs de couleurs), ce qui est pour moi supracool, car ce n’est pas tous les jours que tu peux croiser la fille de Thanos, mais pour d’autres personnes, c’est : beurk, dégueulasse, horrible, contagieux, très moche.
 
@@ -49,7 +49,7 @@ Je ne comprends pas quel plaisir ils prennent à se moquer d’une chose dont je
 
 Je ne comprends comment un jour, on décide de venir insulter quelqu’un gratuitement sur un réseau social, juste parce que son corps ne correspond pas au standard de beauté que l’on te met en tête depuis que t’es gosse.
 
-Je ne comprends pas comment on dire à quelqu’un de se suicider ou que sa mère aurait du avorter, juste parce que celle-ci a des couleurs sur le corps que l’on a pas l’habitude de voir ailleurs.
+Je ne comprends pas comment on peut dire à quelqu’un de se suicider ou que sa mère aurait du avorter, juste parce que celle-ci a des couleurs sur le corps que l’on a pas l’habitude de voir ailleurs.
 
 Je ne comprendrais jamais (et je pense que nous sommes nombreux dans ce cas-là), le plaisir que prennent ces gens là à être si mauvais envers les autres. Je pourrais malheureusement continuer longtemps la liste de mes incompréhensions.
 
