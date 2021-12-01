@@ -1,7 +1,7 @@
 ---
 title: 'Le coup de sang de Julie '
 tags:
-  - news coup de sang
+  - coup de sang
 date: 2021-11-24T17:42:40.985Z
 illu: /img/123261871_803632200181879_8263514707713049559_n.jpg
 intro: "Lorsque Règles Élémentaires m’a proposé d’écrire mon coup de sang, je me suis demandée quel sujet j’allais pouvoir aborder avec vous.\r\n\nNon pas parce que je n’avais pas d’idées, mais parce que j’ai tellement de revendications que je ne savais pas laquelle mettre plus en avant que d’autres. Alors j’ai laissé ma plume (plutôt mon clavier) décider pour moi."
