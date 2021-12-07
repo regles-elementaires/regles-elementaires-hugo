@@ -16,410 +16,286 @@ On vous donne la liste :
 
 AIX-EN-PROVENCE
 
-AIX TANNEURS, 10/12 rue des Tanneurs, 13100
-
-
+_AIX TANNEURS, 10/12 rue des Tanneurs, 13100_
 
 ANGERS
 
-LES HALLES, 5 Place de la République, 49100
-
-
+_LES HALLES, 5 Place de la République, 49100_
 
 ANNECY
 
-COURIER, 65 rue Carnot, 74000
-
-
+_COURIER, 65 rue Carnot, 74000_
 
 AURAY
 
-AURAY, 11 rue du Mal Foch, 56400
-
-
+_AURAY, 11 rue du Mal Foch, 56400_
 
 BAYONNE
 
-BAYONNE, 8 rue Orbe, 64100
-
-
+_BAYONNE, 8 rue Orbe, 64100_
 
 BESANCON 
 
-PASTEUR, 10 /12 Grande Rue, 25000
-
-
+_PASTEUR, 10 /12 Grande Rue, 25000_
 
 BORDEAUX 
 
-BORDEAUX St CHRISTOLY, 17 rue Père Louis de Jabrun, 33000
+_BORDEAUX St CHRISTOLY, 17 rue Père Louis de Jabrun, 33000_
 
-BORDEAUX Ste CATHERINE, Centre Commercial Promenade Ste Catherine,
+_BORDEAUX Ste CATHERINE, Centre Commercial Promenade Ste Catherine,_
 
-137 rue Ste Catherine, 33000
-
-
+_137 rue Ste Catherine, 33000_
 
 BOURGES
 
-BOURGES, 8 avenue Peterborough, 18000
-
-
+_BOURGES, 8 avenue Peterborough, 18000_
 
 BREST
 
-BREST, 49 rue de Siam, 29200
-
-
+_BREST, 49 rue de Siam, 29200_
 
 CAEN
 
-CAEN 45/49 boulevard du Général Leclerc, 14011
-
-
+_CAEN 45/49 boulevard du Général Leclerc, 14011_
 
 DIJON
 
-DIJON	11/13 rue Piron, 21000
-
-
+_DIJON, 11/13 rue Piron, 21000_
 
 DOUAI
 
-DOUAI, 171 rue de Bellain, 59500
-
-
+_DOUAI, 171 rue de Bellain, 59500_
 
 DUNKERQUE	
 
-DUNKERQUE, 9 place de la République, 59140
-
-
+_DUNKERQUE, 9 place de la République, 59140_
 
 LA ROCHELLE	
 
-LA ROCHELLE 30/36 rue du Palais, 17000
-
-
+_LA ROCHELLE 30/36 rue du Palais, 17000_
 
 LE MANS
 
-LE MANS, Place de la République, 72000
-
-
+_LE MANS, Place de la République, 72000_
 
 LILLE 
 
-TANNEURS, 80 rue Pierre Mauroy, 59800
-
-
+_TANNEURS, 80 rue Pierre Mauroy, 59800_
 
 LYON
 
-GBL, 27 rue de la République, 69002
+_GBL, 27 rue de la République, 69002_
 
-LA PART DIEU, 10-12 bd Vivier-Merle, 69003
-
-
+_LA PART DIEU, 10-12 bd Vivier-Merle, 69003_
 
 MARSEILLE
 
-MARSEILLE REPUBLIQUE, 65/69 rue de la République, 13002
+_MARSEILLE REPUBLIQUE, 65/69 rue de la République, 13002_
 
-CANEBIÈRE, 8 cours Saint Louis, 13001
-
-
+_CANEBIÈRE, 8 cours Saint Louis, 13001_
 
 MERIGNAC
 
-MERIGNAC, Rue de la vieille Eglise, 33700
-
-
+_MERIGNAC, Rue de la vieille Eglise, 33700_
 
 MONTPELLIER
 
-POLYGONE, Centre Commercial du Polygone, 34000
+_POLYGONE, Centre Commercial du Polygone, 34000_
 
-MONTPELLIER Comédie, 1 rue Maguelonne, 34000
-
-
+_MONTPELLIER Comédie, 1 rue Maguelonne, 34000_
 
 NANCY 
 
-SAINT SEBASTIEN, Centre Commercial St Sébastien, 54000
-
-
+_SAINT SEBASTIEN, Centre Commercial St Sébastien, 54000_
 
 NANTES 
 
-CALVAIRE, 2 rue du Calvaire	, 44046
-
-
+_CALVAIRE, 2 rue du Calvaire, 44046_
 
 NICE
 
-NICE VICTOIRE, 30 Rue Biscarra, 06000
-
-
+_NICE VICTOIRE, 30 Rue Biscarra, 06000_
 
 ORLEANS
 
-LES HALLES, 1 rue des Halles, 45000
-
-
+_LES HALLES, 1 rue des Halles, 45000_
 
 PAU
 
-PAU, 5 Place Clémenceau, 64000
-
-
+_PAU, 5 Place Clémenceau, 64000_
 
 REIMS 
 
-DROUET D'ERLON, 34 rue Jeanne d'Arc, 51100
-
-
+_DROUET D'ERLON, 34 rue Jeanne d'Arc, 51100_
 
 RENNES
 
-COLOMBIA, Place du Colombier, 35000
-
-
+_COLOMBIA, Place du Colombier, 35000_
 
 ROUEN
 
-ROUEN, 73 rue du Gros Horloge, 76000
-
-
+_ROUEN, 73 rue du Gros Horloge, 76000_
 
 SAINT ETIENNE 
 
-LIBERATION, 16/20 rue du Général Foy, 42000
-
-
+_LIBERATION, 16/20 rue du Général Foy, 42000_
 
 SAINT RAPHAEL
 
-SAINT RAPHAEL, 63 Passage quai Albert 1er, 83700
-
-
+_SAINT RAPHAEL, 63 Passage quai Albert 1er, 83700_
 
 STRASBOURG 
 
-KLEBER, 5 rue des Grandes Arcades, 67000
-
-
+_KLEBER, 5 rue des Grandes Arcades, 67000_
 
 TOULOUSE
 
-TOULOUSE, 39 rue Alsace Lorraine, 31000
-
-
+_TOULOUSE, 39 rue Alsace Lorraine, 31000_
 
 TOURS
 
-TOURS NATIONALE, 63/65 rue Nationale, 37000
-
-
+_TOURS NATIONALE, 63/65 rue Nationale, 37000_
 
 VALENCE
 
-VALENCE, 2 av Pierre Sémard, 26000
-
-
+_VALENCE, 2 av Pierre Sémard, 26000_
 
 VILLEURBANE
 
-VILLEURBANNE, 30 rue Jean Bourgey, 69100
-
-
-
-
+_VILLEURBANNE, 30 rue Jean Bourgey, 69100_
 
 **\- En Île-de-France :**
 
 ALFORTVILLE
 
-ALFORTVILLE
-
-153 place Vaillant Couturier, 94140
-
-
+_ALFORTVILLE, 153 place Vaillant Couturier, 94140_
 
 ARCUEIL 
 
-VACHE NOIRE, Centre Commercial la Vache Noire Place de la Vache Noire, 94110
-
-
+_VACHE NOIRE, Centre Commercial la Vache Noire Place de la Vache Noire, 94110_
 
 ASNIÈRES
 
-ASNIÈRES MARCHÉ, 6 place des Victoires, 92600
-
-
+_ASNIÈRES MARCHÉ, 6 place des Victoires, 92600_
 
 BOULOGNE	
 
-BOULOGNE, 187 bd Jean Jaurès, 92100
-
-
+_BOULOGNE, 187 bd Jean Jaurès, 92100_
 
 BRUNOY
 
-BRUNOY, 1 hameau Lachambeaudie, 91800
-
-
+_BRUNOY, 1 hameau Lachambeaudie, 91800_
 
 CHATILLON
 
-PORTE DE CHATILLON, 6/12 av Pierre Brossolette, 92240
-
-
+_PORTE DE CHATILLON, 6/12 av Pierre Brossolette, 92240_
 
 CHAVILLE
 
-CHAVILLE, 1383 av Salengro, 92370
-
-
+_CHAVILLE, 1383 av Salengro, 92370_
 
 COURBEVOIE
 
-COURBEVOIE, 10-12 rue de l'Abreuvoir, 92400
-
-
-
-
-
-
+_COURBEVOIE, 10/12 rue de l'Abreuvoir, 92400_
 
 CHARENTON
 
-CHARENTON, 75 rue de Paris, 94220
-
-
+_CHARENTON, 75 rue de Paris, 94220_
 
 CHELLES
 
-CHELLES, 64 av de la Résistance, 77500
-
-
+_CHELLES, 64 av de la Résistance, 77500_
 
 FONTAINEBLEAU
 
-FONTAINEBLEAU, 58 rue Grande, 77300
-
-
+_FONTAINEBLEAU, 58 rue Grande, 77300_
 
 ISSY LES MOULINEAUX
 
-ISSY LES MOULINEAUX, 57 rue du Gal Leclerc, 92130
-
-
+_ISSY LES MOULINEAUX, 57 rue du Gal Leclerc, 92130_
 
 LA CELLE ST CLOUD
 
-LA CELLE ST CLOUD, 19 rue A Guibert, 78170
-
-
+_LA CELLE ST CLOUD, 19 rue A Guibert, 78170_
 
 LAGNY
 
-LAGNY, 9 rue Vacheresse, 77400
-
-
+_LAGNY, 9 rue Vacheresse, 77400_
 
 LEVALLOIS
 
-LEVALLOIS, 20 rue Gabriel Péri, 92300
-
-
-
-
+_LEVALLOIS, 20 rue Gabriel Péri, 92300_
 
 PARIS
 
-FORUM DES HALLES, 101 Porte Berger Forum des Halles, 75001
+_FORUM DES HALLES, 101 Porte Berger Forum des Halles, 75001_
 
-RÉPUBLIQUE, 164 rue du Temple, 75003
+_RÉPUBLIQUE, 164 rue du Temple, 75003_
 
-SAINT PAUL, 71 rue Saint Antoine, 75004
+_SAINT PAUL, 71 rue Saint Antoine, 75004_
 
-GOBELINS, 13/15 av des Gobelins, 75005
+_GOBELINS, 13/15 av des Gobelins, 75005_
 
-SAINT MICHEL, 24 bd St Michel, 75006
+_SAINT MICHEL, 24 bd St Michel, 75006_
 
-RASPAIL, 6, boulevard Raspail, 75007
+_RASPAIL, 6, boulevard Raspail, 75007_
 
-RUE DU BAC, 35-37 rue du Bac, 75007
+_RUE DU BAC, 35-37 rue du Bac, 75007_
 
-FONTAINE, 52 rue Fontaine, 75009
+_FONTAINE, 52 rue Fontaine, 75009_
 
-MARGARET, 91 rue du fbg Saint Denis, 75010
+_MARGARET, 91 rue du fbg Saint Denis, 75010_
 
-SAINT ANTOINE, 99 fbg Saint Antoine, 75011
+_SAINT ANTOINE, 99 fbg Saint Antoine, 75011_
 
-DAUMESNIL, 215 rue de Charenton, 75012
+_DAUMESNIL, 215 rue de Charenton, 75012_
 
-ITALIE, 83 av d'ITALIE, 75013
+_ITALIE, 83 av d'ITALIE, 75013_
 
-ALESIA ALI, 129 rue d'Alésia	, 75014
+_ALESIA ALI, 129 rue d'Alésia	, 75014_
 
-MONTPARNASSE, 31 rue du Départ, 75014
+_MONTPARNASSE, 31 rue du Départ, 75014_
 
-BEAUGRENELLE, 19 rue Linois, 75015
+_BEAUGRENELLE, 19 rue Linois, 75015_
 
-VAUGIRARD, 340 rue Vaugirard, 75015
+_VAUGIRARD, 340 rue Vaugirard, 75015_
 
-DAMES, 129 rue des Dames, 75017
+_DAMES, 129 rue des Dames, 75017_
 
-TERNES, 25 av des Ternes, 75017
+_TERNES, 25 av des Ternes, 75017_
 
-UNIPOTEAU, 32 rue du Poteau, 75018
+_UNIPOTEAU, 32 rue du Poteau, 75018_
 
-BELLEVILLE, 133 rue de Belleville, 75019
+_BELLEVILLE, 133 rue de Belleville, 75019_
 
-PLACES des FETES, 9 rue Louise Thuliez, 75019
+_PLACES des FETES, 9 rue Louise Thuliez, 75019_
 
-NATION, 20 bd de Charonne, 75020
-
-
+_NATION, 20 bd de Charonne, 75020_
 
 RAMBOUILLET
 
-RAMBOUILLET, 16 Place Felix Faure, 78120
-
-
+_RAMBOUILLET, 16 Place Felix Faure, 78120_
 
 SAINT GERMAIN EN LAYE
 
-SAINT GERMAIN, 67 rue de Pologne, 78100
-
-
+_SAINT GERMAIN, 67 rue de Pologne, 78100_
 
 SAINT OUEN
 
-PORTE DE MONTMARTRE	70 rue Charles Schmidt, 93400
+_PORTE DE MONTMARTRE, 70 rue Charles Schmidt, 93400_
 
-SAINT OUEN	2/4 rue Garibaldi, 93400
-
-
+_SAINT OUEN	2/4 rue Garibaldi, 93400_
 
 VERSAILLES
 
-VERSAILLES, 5 rue Clémenceau, 78000
-
-
+_VERSAILLES, 5 rue Clémenceau, 78000_
 
 VILLEJUIF
 
-VILLEJUIF, 34 rue Jean Jaurès, 94800
-
-
+_VILLEJUIF, 34 rue Jean Jaurès, 94800_
 
 VINCENNES
 
-VINCENNES, 44 rue du Midi, 94300
+_VINCENNES, 44 rue du Midi, 94300_
 
-
-
-_Pour rappel, les dons acceptés sont les suivants : les serviettes, les tampons, les protège-slips, les serviettes lavables neuves, les coupes menstruelles neuves, les culottes menstruelles neuves, ainsi que les gels anti-bactériens et les lingettes. Les paquets entamés et produits en vrac sont acceptés à condition que les produits soient emballés individuellement._
+**Pour rappel, les dons acceptés sont les suivants : les serviettes, les tampons, les protège-slips, les serviettes lavables neuves, les coupes menstruelles neuves, les culottes menstruelles neuves, ainsi que les gels anti-bactériens et les lingettes. Les paquets entamés et produits en vrac sont acceptés à condition que les produits soient emballés individuellement.**
