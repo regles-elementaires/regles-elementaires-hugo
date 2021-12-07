@@ -7,7 +7,8 @@ illu: /img/monop.jpeg
 intro: >-
   La grande collecte #RèglesdeSurvie, organisée pour la cinquième année
   consécutive entre Règles Élémentaires, la Fondation des Femmes et la Fondation
-  Monoprix, aura lieu dans 83 magasins Monoprix cette année.
+  Monoprix, aura lieu dans 83 magasins Monoprix cette année, le vendredi 10 et
+  le samedi 11 décembre 2021.
 layout: single
 ---
 On vous donne la liste :
