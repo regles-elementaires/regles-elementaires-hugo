@@ -5,7 +5,7 @@ tags:
 date: 2021-12-07T08:23:25.181Z
 illu: /img/monop.jpeg
 intro: >-
-  La grande collecte Règles de Survie, organisée pour la cinquième année
+  La grande collecte #RèglesdeSurvie, organisée pour la cinquième année
   consécutive entre Règles Élémentaires, la Fondation des Femmes et la Fondation
   Monoprix, aura lieu dans 83 magasins Monoprix cette année.
 layout: single
