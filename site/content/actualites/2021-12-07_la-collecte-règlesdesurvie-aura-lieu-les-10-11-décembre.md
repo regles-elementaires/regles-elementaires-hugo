@@ -3,7 +3,7 @@ title: 'La collecte #RèglesdeSurvie aura lieu les 10 & 11 décembre.'
 tags:
   - news
 date: 2021-12-07T08:23:25.181Z
-illu: /img/monop.jpeg
+illu: /img/coversansflèche.jpg
 intro: >-
   La grande collecte #RèglesdeSurvie, organisée pour la cinquième année
   consécutive entre Règles Élémentaires, la Fondation des Femmes et la Fondation
@@ -27,17 +27,9 @@ ANNECY
 
 _COURIER, 65 rue Carnot, 74000_
 
-AURAY
-
-_AURAY, 11 rue du Mal Foch, 56400_
-
 BAYONNE
 
 _BAYONNE, 8 rue Orbe, 64100_
-
-BESANCON 
-
-_PASTEUR, 10 /12 Grande Rue, 25000_
 
 BORDEAUX 
 
@@ -67,17 +59,9 @@ DOUAI
 
 _DOUAI, 171 rue de Bellain, 59500_
 
-DUNKERQUE	
-
-_DUNKERQUE, 9 place de la République, 59140_
-
 LA ROCHELLE	
 
 _LA ROCHELLE 30/36 rue du Palais, 17000_
-
-LE MANS
-
-_LE MANS, Place de la République, 72000_
 
 LILLE 
 
@@ -125,10 +109,6 @@ PAU
 
 _PAU, 5 Place Clémenceau, 64000_
 
-REIMS 
-
-_DROUET D'ERLON, 34 rue Jeanne d'Arc, 51100_
-
 RENNES
 
 _COLOMBIA, Place du Colombier, 35000_
@@ -140,10 +120,6 @@ _ROUEN, 73 rue du Gros Horloge, 76000_
 SAINT ETIENNE 
 
 _LIBERATION, 16/20 rue du Général Foy, 42000_
-
-SAINT RAPHAEL
-
-_SAINT RAPHAEL, 63 Passage quai Albert 1er, 83700_
 
 STRASBOURG 
 
@@ -167,10 +143,6 @@ _VILLEURBANNE, 30 rue Jean Bourgey, 69100_
 
 **\- En Île-de-France :**
 
-ALFORTVILLE
-
-_ALFORTVILLE, 153 place Vaillant Couturier, 94140_
-
 ARCUEIL 
 
 _VACHE NOIRE, Centre Commercial la Vache Noire Place de la Vache Noire, 94110_
@@ -191,10 +163,6 @@ CHATILLON
 
 _PORTE DE CHATILLON, 6/12 av Pierre Brossolette, 92240_
 
-CHAVILLE
-
-_CHAVILLE, 1383 av Salengro, 92370_
-
 COURBEVOIE
 
 _COURBEVOIE, 10/12 rue de l'Abreuvoir, 92400_
@@ -203,25 +171,9 @@ CHARENTON
 
 _CHARENTON, 75 rue de Paris, 94220_
 
-CHELLES
-
-_CHELLES, 64 av de la Résistance, 77500_
-
-FONTAINEBLEAU
-
-_FONTAINEBLEAU, 58 rue Grande, 77300_
-
 ISSY LES MOULINEAUX
 
 _ISSY LES MOULINEAUX, 57 rue du Gal Leclerc, 92130_
-
-LA CELLE ST CLOUD
-
-_LA CELLE ST CLOUD, 19 rue A Guibert, 78170_
-
-LAGNY
-
-_LAGNY, 9 rue Vacheresse, 77400_
 
 LEVALLOIS
 
@@ -229,63 +181,63 @@ _LEVALLOIS, 20 rue Gabriel Péri, 92300_
 
 PARIS
 
-_FORUM DES HALLES, 101 Porte Berger Forum des Halles, 75001_
-
-_RÉPUBLIQUE, 164 rue du Temple, 75003_
-
-_SAINT PAUL, 71 rue Saint Antoine, 75004_
-
-_GOBELINS, 13/15 av des Gobelins, 75005_
-
-_SAINT MICHEL, 24 bd St Michel, 75006_
-
-_RASPAIL, 6, boulevard Raspail, 75007_
-
-_RUE DU BAC, 35-37 rue du Bac, 75007_
-
-_FONTAINE, 52 rue Fontaine, 75009_
-
-_MARGARET, 91 rue du fbg Saint Denis, 75010_
-
-_SAINT ANTOINE, 99 fbg Saint Antoine, 75011_
-
-_DAUMESNIL, 215 rue de Charenton, 75012_
-
-_ITALIE, 83 av d'ITALIE, 75013_
-
-_ALESIA ALI, 129 rue d'Alésia	, 75014_
-
-_MONTPARNASSE, 31 rue du Départ, 75014_
+_ALÉSIA, 129 rue d'Alésia, 75014_
 
 _BEAUGRENELLE, 19 rue Linois, 75015_
 
-_VAUGIRARD, 340 rue Vaugirard, 75015_
+_BELLEVILLE, 133 rue de Belleville, 75019_
 
 _DAMES, 129 rue des Dames, 75017_
 
-_TERNES, 25 av des Ternes, 75017_
+_DAUMESNIL, 215 rue de Charenton, 75012_
 
-_UNIPOTEAU, 32 rue du Poteau, 75018_
+_FONTAINE, 52 rue Fontaine, 75009_
 
-_BELLEVILLE, 133 rue de Belleville, 75019_
+_FORUM DES HALLES, 101 Porte Berger Forum des Halles, 75001_
 
-_PLACES des FETES, 9 rue Louise Thuliez, 75019_
+_GOBELINS, 13/15 av des Gobelins, 75005_
+
+_ITALIE, 83 av d'ITALIE, 75013_
+
+_MARGARET, 91 rue du fbg Saint Denis, 75010_
+
+_MONTPARNASSE, 31 rue du Départ, 75014_
 
 _NATION, 20 bd de Charonne, 75020_
+
+_PLACES des FÊTES, 9 rue Louise Thuliez, 75019_
+
+_RASPAIL, 6, boulevard Raspail, 75007_
+
+_RÉPUBLIQUE, 164 rue du Temple, 75003_
+
+_RUE DU BAC, 35-37 rue du Bac, 75007_
+
+_SAINT-PAUL, 71 rue Saint Antoine, 75004_
+
+_SAINT-MICHEL, 24 bd St Michel, 75006_
+
+_SAINT ANTOINE, 99 fbg Saint Antoine, 75011_
+
+_TERNES, 25 av des Ternes, 75017_
+
+_UNI POTEAU, 32 rue du Poteau, 75018_
+
+_VAUGIRARD, 340 rue Vaugirard, 75015_
 
 RAMBOUILLET
 
 _RAMBOUILLET, 16 Place Felix Faure, 78120_
 
-SAINT GERMAIN EN LAYE
+SAINT-GERMAIN-EN-LAYE
 
-_SAINT GERMAIN, 67 rue de Pologne, 78100_
+_SAINT-GERMAIN, 67 rue de Pologne, 78100_
 
-SAINT OUEN
+SAINT-OUEN
 
 _PORTE DE MONTMARTRE, 70 rue Charles Schmidt, 93400_
 
-_SAINT OUEN	2/4 rue Garibaldi, 93400_
+_SAINT-OUEN	2/4 rue Garibaldi, 93400_
 
 VERSAILLES
 
