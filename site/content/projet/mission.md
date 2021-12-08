@@ -47,10 +47,10 @@ numbers:
   title: Notre impact
   content: "Depuis la création de l'association en novembre 2015 :" 
   cards:
-    - number: "+ de 5 000 000"
+    - number: "+ de 10 000 000"
       img: /img/page-mission/rond-protections.svg
       desc: de produits d’hygiène intime ont été redistribués
-    - number: "+ de 150 000"
+    - number: "+ de 130 000"
       img: /img/page-mission/femmes.svg
       desc: femmes bénéficiaires
     - number: "+ de 3 000"
