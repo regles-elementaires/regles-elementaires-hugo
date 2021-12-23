@@ -4,7 +4,7 @@ tags:
   - coup de sang
 date: 2021-12-17T09:58:34.173Z
 author: Père Noël
-illu: /img/plan-de-travail-9-2x.png
+illu: /img/plan-de-travail-9.png
 intro: >-
   Aujourd’hui, j’ai 90 ans. En 90 ans, j’en ai vu des choses. Pourtant, en 90
   ans, il y a quelque chose que je n’avais jamais vu.
