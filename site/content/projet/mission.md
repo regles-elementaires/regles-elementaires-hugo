@@ -17,7 +17,7 @@ illuSpacing:
   - /img/page-mission/illu-spacing-3.jpg
   - /img/page-mission/illu-spacing-1.jpg
 context_title: Le contexte
-context_definition_title: "La précarité mensuelle, définition :"
+context_definition_title: "La précarité menstruelle, définition :"
 context_definition_text: "désigne les difficultés à se procurer des produits d’hygiène intime de première nécessité et de vivre dignement ses règles. Certaines personnes victimes de précarité menstruelle n’ont pas accès à suffisamment de produits, d’autres n’y ont pas accès du tout."
 context_first:
   title: "2 000 000"
