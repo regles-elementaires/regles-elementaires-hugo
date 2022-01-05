@@ -1,0 +1,7 @@
+name = "Paul Duan"
+team = "ca"
+order = 33
+role = "Administrateur"
+linkedin = "https://www.linkedin.com/in/pyduan/en"
+img = "/img/equipe/paul-duan.jpg"
+bio = "Fondateur de l’ONG Bayes Impact en 2014, il est une figure clef de la #TechForGood en réinventant les services publics citoyens pour créer un futur plus juste et inclusif pour nos sociétés, en mettant la technologie au service du bien commun. En France, il développe par exemple “Bob”, en collaboration avec Pôle emploi, une intelligence artificielle qui accompagne plus de 250 000 demandeur·euses d’emploi, utilisant ainsi les algorithmes pour optimiser les services publics."
