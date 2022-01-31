@@ -12,7 +12,7 @@ intro: >-
   dernier, et tant qu'il y aura des tabous liés aux règles dans le sport, Règles
   Élémentaires met le sport à l'honneur.**
 layout: video
-main_video_id: 'https://youtu.be/TlWxsHfyBcU'
+main_video_id: TlWxsHfyBcU
 video_list:
   - 'https://youtu.be/TlWxsHfyBcU'
 ---
