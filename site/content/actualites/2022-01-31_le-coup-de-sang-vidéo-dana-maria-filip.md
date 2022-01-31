@@ -20,14 +20,11 @@ Ana Maria Filip, joueuse de basket professionnelle, et engagée contre la préca
 
 Elle souligne l'importance d'avoir :
 
-Un accès facilité chez les gynécologues (et notamment des professionnel·les spécialisé·es dans le sport de haut niveau)
+* Un accès facilité chez les gynécologues (et notamment des professionnel·les spécialisé·es dans le sport de haut niveau).
+* Un accès à l'information et à différents outils qui permettent de mieux apprivoiser ses cycles pour optimiser sa performance.
 
-Un accès à l'information et à différents outils qui permettraient de mieux apprivoiser ses cycles pour optimiser sa performance
+"On nous demande d'être toujours performantes donc connaître son corps, avoir des outils adaptés et être bien entourées, c'est primordial."
 
-"On nous demande d'être toujours performantes donc connaître son corps, avoir des outils adaptés et être bien entourées c'est primordial."
-
-Merci Ana et n'hésitez pas à revoir notre LIVE instagram (mardi 25 janv) autour des règles dans le sport de haut niveau en compagnie d'Ysaora Thibus.
-
-
+Merci Ana et n'hésitez pas à revoir notre LIVE instagram du mardi 25 janvier autour des règles dans le sport de haut niveau en compagnie d'Ysaora Thibus, ecrimeuse professionnelle.
 
 _Chaque mois, nous donnons carte blanche à une personnalité libre d’exprimer son “Coup de Sang” autour des règles, de la précarité, des tabous ou d’autres sujets d’indignation. Les propos exprimés sont ceux de leur auteur·rice._
