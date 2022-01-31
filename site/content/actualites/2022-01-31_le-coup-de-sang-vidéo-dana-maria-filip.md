@@ -6,15 +6,15 @@ tags:
   - coup de sang
 date: 2022-01-28T10:03:38.216Z
 author: Ana Maria Filip
-illu: /img/coup-de-sang-video.png
+illu: /img/coup-de-sang-video-1-.png
 intro: >-
   **À l'occasion de la journée internationale du sport féminin, le 24 janvier
   dernier, et tant qu'il y aura des tabous liés aux règles dans le sport, Règles
   Élémentaires met le sport à l'honneur.**
 layout: video
-main_video_id: 'https://youtu.be/GOC1unj4yt4'
+main_video_id: 'https://youtu.be/TlWxsHfyBcU'
 video_list:
-  - 'https://youtu.be/GOC1unj4yt4'
+  - 'https://youtu.be/TlWxsHfyBcU'
 ---
 Ana Maria Filip, joueuse de basket professionnelle, et engagée contre la précarité menstruelle depuis de nombreuses années, nous a partagé son coup de sang vidéo. Elle revient sur les priorités en matière de santé menstruelle dans la prise en charge des athlètes. 
 
