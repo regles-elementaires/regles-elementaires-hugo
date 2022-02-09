@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="w-10/12 m-auto py-12 flex flex-row flex-wrap">
+    <div class="w-full md:w-1/2 bg-regrey rounded-2xl flex flex-col items-center text-rered py-8 px-8 md:px-16">
+
+        <img class="h-48 md:h-64" src="{{.Params.collecte.illu}}" alt=""/>
+
+        <p class="text-center mt-8 uppercase md:text-lg">{{.Params.collecte.pretitle}}</p>
+        <h2 class="text-center uppercase font-extrabold text-lg md:text-2xl">{{.Params.collecte.title}}</h2>
+        <p class="text-center mt-8 mb-8">{{.Params.collecte.text}}</p>
+
+        <a href="https://collectes.regleselementaires.com/" target="_blank" class="font-medium uppercase text-white px-8 py-4 rounded-full bg-rered hover:bg-reorange" 
+        onclick="gtag('event', 'clicOrganiserCollecte', {
+            'event_category': 'Collecte',
+            'event_label': 'bouton_espace_collecte',
+        });"
+        >
+            Espace collectes
+        </a>
+    </div>
+
+    <div class="w-full md:w-1/2 flex flex-col items-center text-rered py-8 px-8 md:px-16">
+
+        <img class="h-48 md:h-64" src="{{.Params.partner.illu}}" alt=""/>
+
+        <p class="text-center mt-8 uppercase md:text-lg">{{.Params.partner.pretitle}}</p>
+        <h2 class="text-center uppercase font-extrabold text-lg md:text-2xl">{{.Params.partner.title}}</h2>
+        <p class="text-center mt-8 mb-8">{{.Params.partner.text}}</p>
+
+        <a href="https://partenaire.regleselementaires.com/" target="_blank" class="font-medium uppercase text-white px-8 py-4 rounded-full bg-rered hover:bg-reorange" 
+        onclick="gtag('event', 'clicDevenirPartenaire', {
+            'event_category': 'Partenaires',
+            'event_label': 'bouton_espace_partenaire',
+        });"
+        >
+            Espace partenaire
+        </a>
+
+    </div>
+</div>
+{{ end }}

@@ -79,9 +79,9 @@ categories:
     questions:
       - id: redistribuer-1
         question: Comment bénéficier des produits collectés par Règles Élémentaires ? 
-        answer: "Si vous êtes une organisation médico-sociale (association, CHRS, unité de maraude….) spécialisée dans le sans-abrisme et le mal logement et que vous souhaitez bénéficier de produits d’hygiène intime collectés par Règles Élémentaires, il suffit de remplir le <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform\" target=\"_blank\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'partenaire_faq'});\">formulaire</a> de partenariat. Toutes les étapes sont expliquées sur la page <a href=\"/redistribuer/devenir\">devenir partenaire</a>. Nous adapterons les dons selon le nombre de femmes que vous accueillez, votre localisation sur le territoire national et notre stock de produits d’hygiène intime.<br/><br/>
+        answer: "Si vous êtes une organisation médico-sociale (association, CHRS, unité de maraude….) spécialisée dans le sans-abrisme et le mal logement et que vous souhaitez bénéficier de produits d’hygiène intime collectés par Règles Élémentaires, il suffit de vous inscrire sur notre <a href=\"https://partenaire.regleselementaires.com/account/register_partner\" target=\"_blank\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'partenaire_faq'});\">plate-forme</a> et remplir la demande de partenariat. Toutes les étapes sont expliquées sur la page <a href=\"/redistribuer/devenir\">devenir partenaire</a>. Nous adapterons les dons selon le nombre de femmes que vous accueillez, votre localisation sur le territoire national et notre stock de produits d’hygiène intime.<br/><br/>
 
-        Si vous êtes un particulier : La redistribution des produits d’hygiène intime collectés est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 500 partenaires à travers le territoire. 
+        Si vous êtes un particulier, la redistribution des produits d’hygiène intime collectés est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 500 partenaires à travers le territoire. 
         Ainsi, pour avoir accès aux produits collectés par Règles Élémentaires, il faut être bénéficiaire de l’un de nos partenaires redistributeurs. "
       - id: redistribuer-2
         question: Qu’est-ce qu’un partenaire redistributeur ?
@@ -104,8 +104,8 @@ categories:
         Ce système de mobilisation citoyenne nous a permis de collecter et redistribuer des centaines de milliers de protections à destination des femmes sans-abri et mal logées partout en France.<br/><br/>
 
         En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles. Cela passe par différentes actions de sensibilisation auprès de tou.te.s : via des conférences dans les entreprises, dans les universités, via des interventions lors de festivals, de forums, de soirées… mais aussi via les médias, des partenariats décalés et nos désormais fameux apéros menstruels !<br/>
-        Par ailleurs, nous abordons une démarche particulière en public scolaire et auprès des femmes hébergées. 
-        Dans les collèges et lycées, nous animons des ateliers de sensibilisation au tabous de règles et à la précarité menstruelle. En prison, foyers d’hébergement, et tout autre lieu mettant à disposition de femmes en situation de précarité un point d’eau, nous animons des ateliers de formation à l’hygiène menstruelle et à l’utilisation de protections réutilisables."
+        Par ailleurs, nous abordons une démarche particulière avec le public scolaire et auprès des femmes hébergées. 
+        Dans les collèges et lycées, nous animons des ateliers de sensibilisation au tabou de règles et à la précarité menstruelle. En prison, foyer d’hébergement, et tout autre lieu mettant à disposition de femmes en situation de précarité un point d’eau, nous animons des ateliers de formation à l’hygiène menstruelle et à l’utilisation de protections réutilisables."
       - id: asso-2
         question: Je souhaite rejoindre l’association. Comment faire ?
         answer: "L'action de Règles Élémentaires vous touche ? Vous avez envie de rejoindre notre super équipe et participer aux décisions stratégiques de l'association ?<br/> 

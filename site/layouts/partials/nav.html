@@ -30,7 +30,7 @@
 					{{ $currentPage := . }}
 					{{ range .Site.Menus.main }}
 						<li class="menu-item menu-item-space relative {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} font-extrabold {{ end }}">
-							<a href="{{ .URL }}" class="menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }}"
+							<a href="{{ .URL }}" class="{{if eq .Name "Espace Personnel"}} font-semibold text-white border-rered border-2 hover:border-reorange px-4 rounded-md {{if not $.IsHome}} bg-rered hover:bg-reorange {{end}}{{else}} menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }} {{end}}"
 							{{ if eq .Name "FAQ" }} onclick="gtag('event', 'clicFAQ', {
 								'event_category': 'FAQ',
 								'event_label': 'faq_nav',
@@ -54,17 +54,6 @@
 							{{ end }}
 						</li>
 					{{ end }}
-
-					<li class="menu-item menu-item-space relative md:ml-4">
-						<a href="https://collectes.regleselementaires.com/" target="_blank" class="font-semibold text-white border-rered border-2 hover:border-reorange px-4 rounded-md {{if not .IsHome}} bg-rered hover:bg-reorange {{end}}" 
-							onclick="gtag('event', 'clicOrganiserCollecte', {
-								'event_category': 'Collecte',
-								'event_label': 'bouton_nav',
-							});"
-						>
-							Espace collectes
-						</a>
-					</li>
 				</ul>
 			</div>
 		</div>
@@ -112,18 +101,7 @@
 					{{ end }}
 				</li>
 			{{ end }}
-
-			<li class="px-2 mt-6 text-center">
-				<a href="https://collectes.regleselementaires.com/" target="_blank" class="uppercase text-white border-rered border-2 hover:border-redarkpink px-2 py-1 font-semibold rounded-sm bg-rered" 
-					onclick="gtag('event', 'clicOrganiserCollecte', {
-						'event_category': 'Collecte',
-						'event_label': 'bouton_nav',
-					});"
-					onmousedown="event.preventDefault();"
-				>
-					Espace collectes
-				</a>
-			</li>
+			
 		</ul>
 	</div>
 	<script>

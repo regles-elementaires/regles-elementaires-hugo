@@ -13,16 +13,16 @@ intro:
 steps:
   - img: /img/page-redistribuer/step1.svg
     step: 1
-    text: "Une personne de l’organisation remplit le <a target=\"_blank\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'devenir_step'});\">formulaire</a>."
+    text: "Une personne de votre organisation s'inscrit sur notre <a target=\"_blank\" href=\"https://partenaire.regleselementaires.com/account/register_partner\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'devenir_step'});\">plate-forme</a> et remplit le formulaire de demande de partenariat."
   - img: /img/page-redistribuer/step2.svg
     step: 2
-    text: 'L’équipe redistribution de Règles Élémentaires prend contact avec nous sous 15 jours.'
+    text: 'L’équipe redistribution de Règles Élémentaires prend contact avec vous sous 1 mois.'
   - img: /img/page-redistribuer/step3.svg
     step: 3
-    text: Nous confirmons nos besoins et signons une convention de partenariat avec Règles Élémentaires.
+    text: Vous confirmez vos besoins et signez une convention de partenariat avec Règles Élémentaires.
   - img: /img/page-redistribuer/step4.svg
     step: 4
-    text: Nous convenons d’une date de livraison / récupération, en fonction de nos moyens de transport et de stockage ainsi que de la disponibilité des stocks de Règles Élémentaires.
+    text: Nous convenons d’une date de récupération des produits, en fonction de vos moyens de transport et de stockage ainsi que de la disponibilité des stocks de Règles Élémentaires.
 photos:
   - img: /img/page-redistribuer/photo1.png
   - img: /img/page-redistribuer/photo2.png
