@@ -5,10 +5,10 @@ tags:
 date: 2022-02-18T07:16:19.910Z
 author: Lucia Rugeri
 illu: /img/lucia_rugeri.png
-intro: "Quand doit-on parler de règles abondantes\_?\n\nLe savez-vous?  30% des femmes peuvent présenter des règles abondantes, encore appelées ménorragies, pendant les différentes périodes de leur vie. Les causes en sont multiples. Ces règles abondantes peuvent impacter la santé physique ou mentale mais aussi la vie sociale, professionnelle de ces femmes."
+intro: "Quand doit-on parler de règles abondantes\_?\n\nLe savez-vous?  30% des femmes peuvent présenter des règles abondantes, encore appelées ménorragies, pendant les différentes périodes de leur vie. Les causes en sont multiples."
 layout: single
 ---
-Pour améliorer la prise en charge de ces règles, la première étape est déjà de pouvoir les identifier, et par là même de pouvoir en parler à son entourage familial, son médecin.  On peut donc imaginer au moins 2 axes pour améliorer cela. 
+Ces règles abondantes peuvent impacter la santé physique ou mentale mais aussi la vie sociale, professionnelle de ces femmes. Pour améliorer la prise en charge de ces règles, la première étape est déjà de pouvoir les identifier, et par là même de pouvoir en parler à son entourage familial, son médecin.  On peut donc imaginer au moins 2 axes pour améliorer cela. 
 
 D’une part, faciliter la communication autour des règles et lever le tabou qui entoure cet évènement physiologique, chez les jeunes femmes, mais finalement chez toutes les femmes surtout si ces règles sont abondantes.
 
@@ -29,8 +29,6 @@ Pourtant malgré les recommandations, le parcours de soins de ces complications 
 C’est dans ce cadre qu’à Lyon nous avons imaginé une structure dédiée au diagnostic et au traitement des règles abondantes. Cette structure située dans le service de gynécologie de l’Hôpital de la Croix Rousse a comme objectif de simplifier et d’organiser une meilleure prise en charge médicale. Dans un lieu unique, en un temps déterminé, il est proposé un diagnostic grâce à la réalisation de consultations par un gynécologue, puis par un médecin spécialiste en coagulation, et par la réalisation d’une échographie pelvienne et d’un bilan sanguin. A la fin de ce parcours, il est proposé  la mise en place d’une stratégie thérapeutique pouvant associer parfois d’emblée plusieurs traitements principalement médicamenteux, ces traitements qui devront s’adapter à chaque femme en fonction de son âge, de ses antécédents médicaux mais aussi de ses expériences des traitements déjà reçus. Dans tous les cas, une évaluation des traitements au bout de 6 mois sera proposée afin que cette prise en charge s’inscrive sur le long terme et améliore durablement la santé physique, sociale de ces femmes.
 
 Cette nouvelle structure doit se développer dans un autre service de gynécologie de l’Hôpital Femme Mère Enfant aux Hospices Civils de Lyon à, et pourquoi pas dans d’autres villes, si d’autres structures hospitalières publiques ou privées ont envie de s’intéresser à cette problématique féminine dont les conséquences sur la santé publique doivent être reconnues. 
-
-
 
 _Lucia Rugeri est docteure hématologue, spécialiste en troubles de la coagulation dans le service de gynécologie de l’Hôpital de la Croix Rousse à Lyon._ 
 
