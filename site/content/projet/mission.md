@@ -50,7 +50,7 @@ numbers:
     - number: "+ de 10 000 000"
       img: /img/page-mission/rond-protections.svg
       desc: de produits d’hygiène intime ont été redistribués
-    - number: "+ de 130 000"
+    - number: "286 000"
       img: /img/page-mission/femmes.svg
       desc: femmes bénéficiaires
     - number: "+ de 3 000"
@@ -61,7 +61,7 @@ numbers:
       desc: collectes organisées partout en France
     - number: "+ de 500"
       img: /img/page-mission/partenariat.svg
-      desc: partenariats
+      desc: structures et associations qui ont bénéficié de nos dons
     - number: "6"
       img: /img/page-mission/regionales.svg
       desc: antennes régionales
