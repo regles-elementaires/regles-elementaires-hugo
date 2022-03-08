@@ -29,7 +29,8 @@ module.exports = {
         redarkgrey: "#535353",
         regrey: "#F5F5F5",
         rebeige: "#FFE4DD",
-        reorange: "#FF9A00"
+        reorange: "#FF9A00",
+        repurple: "#841BCE"
       }
     },
     screens: {

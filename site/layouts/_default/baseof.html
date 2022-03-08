@@ -12,6 +12,9 @@
       {{ if $.Site.Params.display_popup_don }}
         {{ partial "popup-don" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_tribune }}
+        {{ partial "popup-tribune" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
