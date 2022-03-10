@@ -34,9 +34,8 @@
   </div>
 
   <div class="flex">
-    <div class="bg-repink flex-1"></div>
-    <div class="container bg-reorange">
-      <div class="w-11/12 m-auto flex flex-wrap my-4">
+    <div class="bg-reorange">
+      <div class="w-10/12 m-auto flex flex-wrap my-4">
         <div class="w-full md:w-1/2 text-white p-8">
           {{ with .Params.engager }}
           <h2 class="text-xl md:text-2xl mb-8 uppercase font-extrabold">{{ .title }}</h2>
@@ -56,7 +55,6 @@
         </div>
       </div>
     </div>
-    <div class="bg-repink flex-1"></div>
   </div>
   <script src="{{ `js/team-display.js` | relURL }}"></script>
   <!-- <script>initMembers()</script> -->
