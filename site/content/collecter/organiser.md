@@ -12,9 +12,11 @@ intro:
   first: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première nécessité, c’est aussi briser le tabou autour des menstruations."
   second: "Depuis la création de l’Association, plus de 2000 collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant⸱es, salarié⸱es, employé⸱es, retraité⸱es, chef⸱fes d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals … Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous !"
 title_block:
-  title: "Organiser une collecte : Mode d'emploi"
+  title: "Organiser une collecte"
+  pro_title: "Entreprise et collectivité"
   pro_text: "Vous êtes une <span class='font-semibold'>entreprise</span> ou <span class='font-semibold'>collectivité</span> et souhaitez organiser une ou plusieurs collectes, contactez-nous sur :"
-  text: "Vous êtes un particulier, suivez les étapes ci-dessous :"
+  individual_title: "Particulier : mode d'emploi"
+  individual_text: "Vous êtes un particulier, suivez les étapes ci-dessous :"
 steps:
   - img: /img/page-collecte/etape-1.svg
     step: 1

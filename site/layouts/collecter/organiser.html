@@ -4,15 +4,14 @@
     <div class="w-11/12 md:w-5/6 m-auto pb-4">
         <div class="pt-8">
             <div class="w-11/12 md:w-full flex flex-col items-center pt-8 pb-4 m-auto">
-                <h3 class="uppercase text-2xl font-extrabold text-rered mb-4">{{ .Params.title_block.title }}</h3>
-                <p class="bg-rered text-white w-full rounded-lg py-6 mt-4 text-center tracking-tighter font-medium">
+                <h3 class="uppercase text-2xl font-extrabold text-rered mb-8">{{ .Params.title_block.title }}</h3>
+                <h4 class="uppercase text-xl font-extrabold text-rered">{{ .Params.title_block.pro_title }}</h4>
+                <p class="text-rered w-full rounded-lg py-6 mt-2 text-center tracking-tighter font-medium">
                     {{ .Params.title_block.pro_text | markdownify }}
                     <br/>
                     <a class='underline' href='mailto:collectespro@regleselementaires.com'>collectespro@regleselementaires.com</a>
                 </p>
-                <p class="text-rered text-center tracking-tighter font-medium mt-10">
-                    {{ .Params.title_block.text }}
-                </p>
+                <h4 class="uppercase text-xl font-extrabold text-rered mt-10">{{ .Params.title_block.individual_title }}</h4>
             </div>
         </div>
         <div class="w-full mx-auto mb-8">
