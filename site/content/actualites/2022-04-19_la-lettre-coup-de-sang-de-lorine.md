@@ -6,12 +6,7 @@ tags:
 date: 2022-04-19T12:38:45.802Z
 author: Lorine Mathialagan
 illu: /img/image_d’ios.jpeg
-intro: |-
-  Lettre ouverte au futur président ou à la future présidente de la République
-
-  Lettre ouverte au futur président ou à la future présidente de la République
-
-  Lettre ouverte au futur président ou à la future présidente de la République
+intro: Lettre ouverte au futur président ou à la future présidente de la République
 layout: single
 ---
 Madame, Monsieur,
