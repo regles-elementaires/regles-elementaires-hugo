@@ -15,6 +15,9 @@
       {{ if $.Site.Params.display_popup_tribune }}
         {{ partial "popup-tribune" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_festival }}
+        {{ partial "popup-festival" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
