@@ -1,0 +1,4 @@
+name = "Bus des Femmes"
+type = "redistributeur"
+link = "https://busdesfemmes.org/"
+img = "/img/partenaires/bus-femmes.svg"
