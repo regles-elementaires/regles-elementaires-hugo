@@ -1,11 +1,9 @@
 /* Modules */
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 /*
 === GENERIC
@@ -114,7 +112,7 @@
   }
 }
 .sub-menu-item {
-  @apply px-3 uppercase whitespace-no-wrap;
+  @apply px-3 uppercase whitespace-nowrap;
 }
 .sub-menu-item:hover a {
   @apply border-b-2;

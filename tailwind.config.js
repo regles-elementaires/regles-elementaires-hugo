@@ -1,5 +1,6 @@
 // tailwind.config.js
 module.exports = {
+  content: ["./site/**/*.{html,js}"],
   theme: {
     container: {
       center: true,
@@ -46,10 +47,5 @@ module.exports = {
       'xl': '1536px',
       // => @media (min-width: 1280px) { ... }
     }
-  },
-  variants: {
-    textColor: ["responsive", "hover", "focus", "group-hover"],
-    borderColor: ["hover", "focus", "group-hover"],
-    textDecoration: ["responsive", "hover", "focus", "group-hover"],
   }
 };
