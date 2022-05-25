@@ -56,7 +56,7 @@ categories:
         À la différence des collectes ponctuelles, les boîtes à dons sont installées sur le long-terme et en libre-accès"
       - id: collecte-3
         question: Comment organiser une collecte ? 
-        answer: "Pour organiser une collecte à nos côtés, il faudra créer un compte sur notre site internet dans l'espace <a href=\"https://collectes.regleselementaires.com/\" target=\"_blank\" onclick=\"gtag('event', 'clicOrganiserCollecte', {'event_category': 'Collecte','event_label': 'collecte_faq'});\">organiser une collecte</a>. Il vous faudra alors remplir une fiche avec les dates, horaires et l'adresse exacte (avec nom du lieu) de la collecte au moins deux semaines avant le début de celle-ci. N'oubliez pas de nous envoyer un email dès que votre collecte est créée.<br/><br/>
+        answer: "Pour organiser une collecte à nos côtés, il faudra créer un compte sur notre site internet dans l'espace <a href=\"https://collectes.regleselementaires.com/\" target=\"_blank\" onclick=\"gtag('event', 'clicOrganiserCollecte', {'event_category': 'Collecte','event_label': 'collecte_faq'});\">organiser une collecte</a>. Il vous faudra alors remplir une fiche avec les dates, horaires et l'adresse exacte (avec nom du lieu) de la collecte au moins deux semaines avant le début de celle-ci.<br/><br/>
  
         Une fois celle-ci validée par notre équipe, vous pourrez télécharger des supports de communication personnalisés ainsi qu'un inventaire à nous remettre en fin de collecte directement depuis votre espace collectes.<br/><br/>
         
@@ -65,7 +65,7 @@ categories:
         Ensuite, notre équipe partenariats se chargera de vous attribuer une association partenaire locale qui bénéficiera de votre collecte. Nous vous mettrons en contact avec celle-ci à la fin de votre collecte pour que vous puissiez vous arranger au niveau du retrait/dépôt des dons. À noter que cette mise en relation peut prendre du temps selon les besoins et disponibilités des associations locales ; prévoyez donc un endroit où stocker les dons jusqu’à deux ou trois semaines après la fin de votre collecte."
       - id: collecte-4
         question: Est-ce que je peux organiser une collecte à l’étranger ? 
-        answer: "Des collectes coordonnées par Règles Élémentaires ont déjà eu lieu au Canada, en Suisse et nous avons une antenne Règles Élémentaires en Belgique.<br/><br/>
+        answer: "Des collectes coordonnées par Règles Élémentaires ont déjà eu lieu au Canada, en Suisse et en Belgique.<br/><br/>
 
         Il suffit de faire une demande de collecte via notre site internet et nous analyserons au cas par cas la possibilité de mettre en place cette collecte hors territoire national."
       - id: collecte-5
@@ -85,11 +85,11 @@ categories:
         Ainsi, pour avoir accès aux produits collectés par Règles Élémentaires, il faut être bénéficiaire de l’un de nos partenaires redistributeurs. "
       - id: redistribuer-2
         question: Qu’est-ce qu’un partenaire redistributeur ?
-        answer: "La redistribution des protections périodiques collectées est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 200 partenaires redistributeurs à travers le territoire.<br/> 
+        answer: "La redistribution des protections périodiques collectées est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 500 partenaires redistributeurs à travers le territoire.<br/> 
         Nous avons fait ce choix dans le but de ne pas démultiplier les points de contact pour les femmes dans le besoin mais également pour des questions éthiques. En effet, la redistribution de protections périodiques est un sujet complexe qui a trait à l’intimité des gens. Il est donc important pour nous de travailler en partenariat avec des associations établies et spécialistes du « sans-abrisme » et du mal logement car ce sont les structures les plus aptes à créer un dialogue sain et vertueux sur l’hygiène menstruelle et la santé reproductive."
       - id: redistribuer-3
         question: Comment puis-je proposer un partenaire redistributeur ?
-        answer: "Règles Élémentaires collabore avec plus de 200 partenaires spécialistes du « sans-abrisme » et du mal logement.<br/> 
+        answer: "Règles Élémentaires collabore avec plus de 500 partenaires spécialistes du « sans-abrisme » et du mal logement.<br/> 
         Pour proposer un partenaire redistributeur à Règles Élémentaires, il suffit de nous contacter via notre formulaire de contact disponible en bas de cette page en indiquant toutes les informations à votre disposition sur ce partenaire : actions, site internet, localisation, etc. 
         L’équipe de Règles Élémentaires se chargera de vérifier ce potentiel partenaire et le contactera."
   - title: L'association
