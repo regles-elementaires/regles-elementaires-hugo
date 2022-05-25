@@ -16,7 +16,7 @@ engager:
     Il y a 1001 façons de s’engager aux côtés de Règles Élémentaires !
 
 
-    Donner des produits d’hygiène intime dans l’un des nombreux points de collectes, devenir organisateur·ice d’une collecte, redistribuer les produits collectés aux plus démunies, installer une boîte à dons sur son lieu de travail, rejoindre l’équipe de l’Association, prêter main forte aux organisateurs de collectes dans votre département, mettre en place un partenariat, faire un don, ou bien un engagement personnalisé à définir.'
+    Donner des protections périodiques dans l’un des nombreux points de collectes, devenir organisateur·ice d’une collecte, redistribuer les produits collectés aux plus démunies, installer une boîte à dons sur son lieu de travail, rejoindre l’équipe de l’Association, prêter main forte aux organisateurs de collectes dans votre département, mettre en place un partenariat, faire un don, ou bien un engagement personnalisé à définir.'
 
 permanents:
     type: permanent

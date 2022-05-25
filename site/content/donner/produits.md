@@ -8,9 +8,9 @@ menu:
     weight: 2
 illu: /img/page-produits/illu-produits.svg
 intro:
-  first: "Nous acceptons tous les produits d’hygiène intime jetables et réutilisables, à condition qu’ils soient non périmés, neufs (jamais utilisés) et emballés individuellement. Serviettes, protège-slips, tampons, cups, culottes menstruelles … Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections."
+  first: "Nous acceptons toutes les protections périodiques jetables et réutilisables, à condition qu’elles soient non périmées, neuves (jamais utilisées) et emballées individuellement. Serviettes, protège-slips, tampons, cups, culottes menstruelles … Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections."
 title_block:
-  title: "Nous acceptons tous les produits d'hygiène intime *"
+  title: "Nous acceptons toutes les protections périodiques *"
   text: "* Les paquets entamés et produits en vrac sont acceptés à condition que les produits soient emballés individuellement."
 produits:
   - img: /img/page-produits/tampon.svg
@@ -32,6 +32,6 @@ other:
   - img: /img/page-produits/lingettes.svg
     text: "lingettes"
 warning: "Ne pas se servir dans les boîtes à dons !
-<br>Les produits sont redistribués par des associations spécialisées."
+<br>Les protections sont redistribuées par des associations spécialisées."
 brochure_button: 'Télécharger la fiche "Quels produits donner ?"'
 ---

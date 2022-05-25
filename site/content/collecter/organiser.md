@@ -9,7 +9,7 @@ menu:
     weight: 1
 illu: /img/page-collecte/illu_organiser_une_collecte.svg
 intro: 
-  first: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des produits d’hygiène intime de première nécessité, c’est aussi briser le tabou autour des menstruations."
+  first: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des protections périodiques de première nécessité, c’est aussi briser le tabou autour des menstruations."
   second: "Depuis la création de l’Association, plus de 2000 collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant⸱es, salarié⸱es, employé⸱es, retraité⸱es, chef⸱fes d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals … Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous !"
 title_block:
   title: "Organiser une collecte"
