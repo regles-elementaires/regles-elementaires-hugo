@@ -18,6 +18,9 @@
       {{ if $.Site.Params.display_popup_festival }}
         {{ partial "popup-festival" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_barometre }}
+        {{ partial "popup-barometre" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
