@@ -52,3 +52,5 @@ Donner davantage accès aux protections périodiques apparaît donc comme une é
 De fait, le nombre de personnes concernées par des maladies de règles semble croissant, **puisque 20% des femmes interrogées souffrent d'une maladie des règles** et 27% des personnes interrogées connaissent quelqu’un qui en souffre.
 
 Finalement, les résultats du baromètre annuel (Sondage Opinion Way pour Règles Élémentaires) mettent en avant la volonté d’une prise en charge globale et coordonnée de la santé menstruelle. En effet, de l’éducation menstruelle, à la mise à disposition des protections périodiques pour toutes les personnes qui en ont besoin, jusqu’au remboursement des médicaments permettant de réduire les douleurs de règles, les français·es semblent prêt·es à vouloir briser le tabou des règles, à condition que les pouvoirs publics y mettent les moyens nécessaires.
+
+[Retrouvez l’étude complète ici](https://doccollectes.blob.core.windows.net/statics/Barometre_2022_Regles_Elementaires_Opinion_Way.pdf)
