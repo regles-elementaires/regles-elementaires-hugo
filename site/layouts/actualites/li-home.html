@@ -1,8 +1,8 @@
 <div class="w-full py-6 md:pr-20 flex flex-col">
     <div class="h-full flex bg-white flex-row flex-wrap p-6 rounded-lg">
-        <div class="w-full flex flex-row tracking-tight">
-            <div class="w-1/2 md:w-1/3"><img class="object-cover w-full h-full rounded-lg" src="{{.Params.illu}}" alt=""/></div>
-            <div class="w-1/2 md:w-2/3 pl-4 md:px-8 py-4">
+        <div class="w-full flex flex-col lg:flex-row tracking-tight">
+            <div class="w-full lg:w-1/3"><img class="object-cover w-full h-full rounded-lg" src="{{.Params.illu}}" alt=""/></div>
+            <div class="w-full lg:w-2/3 pl-4 md:px-8 py-4">
                 <p class="uppercase text-rered font-light">à la une</p>
                 <h2 class="md:text-xl font-medium text-rered uppercase font-bold">
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -25,7 +25,7 @@
                 </ul>
             </div>
         </div>
-        <div class="w-full border-t-2 border-rered mt-8 text-center mx-2">
+        <div class="w-full border-t-2 border-rered lg:mt-8 text-center mx-2">
             <div class="text-rered p-4 tracking-tighter border-none">
                 {{ .Params.intro | markdownify }}
             </div>
