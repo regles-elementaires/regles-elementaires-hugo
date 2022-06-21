@@ -70,11 +70,11 @@ categories:
         Il suffit de faire une demande de collecte via notre site internet et nous analyserons au cas par cas la possibilité de mettre en place cette collecte hors territoire national."
       - id: collecte-5
         question: Comment obtenir une boîte à dons ?
-        answer: "Nous mettons à disposition des boîtes à dons Règles Élémentaires dans le cadre de collectes de longue durée (supérieures à 3 mois).<br/><br/>
+        answer: "Nous proposons des boîtes à dons payantes Règles Élémentaires dans le cadre de l'organisation d'une collecte.<br/><br/>
  
-        Nos boîtes à dons, fabriquées en France, sont coûteuses à produire et à transporter. Afin de soutenir la production et de poursuivre l’installation des boîtes à dons dans le plus d’endroits possibles, nous demandons une contribution financière aux organisateurs et organisatrices de collectes qui souhaitent en installer. Cette contribution est déterminée selon les moyens de chacun et est éligible à déduction fiscale.<br/><br/>
+        Nos boîtes à dons, fabriquées en France, sont coûteuses à produire et à transporter. Afin de soutenir la production et de poursuivre l’installation des boîtes à dons dans le plus d’endroits possibles, nous demandons une contribution financière aux organisateurs et organisatrices de collectes qui souhaitent en installer. Les boîtes à dons coûtent 50€ pièce, ce à quoi s'ajoutent 20€ de frais de port.<br/><br/>
         
-        Pour commander une boîte à dons, veuillez nous contacter via notre formulaire de contact accessible en bas de cette page."
+        Pour commander une boîte à dons, veuillez nous contacter sur l'adresse suivante <b>collectes@regleselementaires.com</b>"
   - title: Redistribuer des produits
     questions:
       - id: redistribuer-1
