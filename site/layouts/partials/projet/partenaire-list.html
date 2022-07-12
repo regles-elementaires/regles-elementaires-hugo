@@ -2,7 +2,7 @@
     <div class="w-10/12 m-auto flex flex-row flex-wrap justify-center">
         {{ $partenaireType := .partenaire_type }}
         {{ range .data }}
-        {{ if eq .type $partenaireType}}
+        {{ if in .type $partenaireType}}
         <div class="w-1/3 md:w-1/5 h-32 p-4">
         {{ if eq (len .link) 0 }}
         <span class="flex w-full h-full justify-center" title="{{.name}}">
