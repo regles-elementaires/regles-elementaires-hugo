@@ -12,15 +12,9 @@ layout: single
 ---
 Et ça, c'est notamment grâce aux collectes nationales d'envergure qu'on organise chaque année avec nos partenaires Monoprix, Fondation des Femmes, Banques Alimentaires et Leclerc 🥳
 
-![](img/capture-decran-2022-07-19-a-14.02.50.png)
-
-\
 \
 Ce résultat serait impossible sans les marques qui nous soutiennent aussi et qui nous donnent généreusement des produits. Ces dons précieux nous permettent d'avoir un stock de protections pour les redistribuer aux personnes qui en ont besoin, mais aussi de compléter ce stock avec des dons de protections toujours plus respectueuses de l’environnement.
 
-![](img/capture-decran-2022-07-19-a-14.04.05.png)
-
-\
 \
 On pense évidemment aussi à toutes les organisatrices et organisateurs de collectes citoyennes partout en France qui jouent un rôle essentiel. C'est plus de 2691 collectes qui ont été organisées depuis 2017 !
 
