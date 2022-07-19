@@ -12,13 +12,13 @@ layout: single
 ---
 Et ça, c'est notamment grâce aux collectes nationales d'envergure qu'on organise chaque année avec nos partenaires Monoprix, Fondation des Femmes, Banques Alimentaires et Leclerc 🥳
 
-![](img/capture-d’écran-2022-07-19-à-14.02.50.png)
+![](img/capture-decran-2022-07-19-a-14.02.50.png)
 
 \
 \
 Ce résultat serait impossible sans les marques qui nous soutiennent aussi et qui nous donnent généreusement des produits. Ces dons précieux nous permettent d'avoir un stock de protections pour les redistribuer aux personnes qui en ont besoin, mais aussi de compléter ce stock avec des dons de protections toujours plus respectueuses de l’environnement.
 
-![](img/capture-d’écran-2022-07-19-à-14.04.05.png)
+![](img/capture-decran-2022-07-19-a-14.04.05.png)
 
 \
 \
@@ -35,6 +35,6 @@ Parmi les événements marquants de 2021 :\
 🩸 La professionnalisation de l'équipe avec des nouvelles personnes salariées qui nous ont rejoint !\
 \
 🚀 En 2022, nos objectifs sont très clairs...\
-Changer les mentalités et les lois en interpellant un public large pour rendre visible la précarité menstruelle et les tabous liés aux règles, en donnant des chiffres concrets avec notre baromètre annuel Opinion Way (l'édition 2022 est consultable ***juste [ici](https://www.regleselementaires.com/actualites/2022-05-27_baromètre-exclusif-2022-opinion-way-x-règles-élémentaires/)***) et, en se structurant pour démultiplier notre impact sur toute la France.\
+Changer les mentalités et les lois en interpellant un public large pour rendre visible la précarité menstruelle et les tabous liés aux règles, en donnant des chiffres concrets avec notre baromètre annuel Opinion Way (l'édition 2022 est consultable *juste [ici](https://www.regleselementaires.com/actualites/2022-05-27_baromètre-exclusif-2022-opinion-way-x-règles-élémentaires/)*) et, en se structurant pour démultiplier notre impact sur toute la France.\
 \
-On vous laisse découvrir l'intégralité du rapport d'activité***[ juste ici ](https://doccollectes.blob.core.windows.net/statics/RA_2021_RE.pdf)***
+On vous laisse découvrir l'intégralité du rapport d'activité *[ juste ici ](https://doccollectes.blob.core.windows.net/statics/RA_2021_RE.pdf)*
