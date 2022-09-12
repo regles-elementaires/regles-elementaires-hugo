@@ -2,7 +2,7 @@
 title: Le Coup de sang d'Emelyne, Vice-présidente de l'Association Esp'OPK
 tags:
   - news
-date: 2022-09-13T14:25:03.247Z
+date: 2022-09-12T14:25:03.247Z
 illu: img/plan_de_travail_5_copie_11.png
 link: ""
 intro: Le SOP… quoi ? Pourquoi vous n’avez jamais entendu parler du syndrome des
