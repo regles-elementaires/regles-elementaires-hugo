@@ -1,11 +1,11 @@
 ---
-title: Devenir partenaire
+title: Redistribuer
 date: 2019-12-06T13:48:10+01:00
-layout: devenir
+layout: redistribuer
 menu:
   main:
-    parent: redistribuer
-    weight: 3
+    parent: association
+    weight: 1
 illu: /img/page-redistribuer/devenir_partenaires_illu.svg
 intro: 
     first: "Devenez partenaire et rejoignez le réseau de redistribution de l’association Règles Élémentaires !"

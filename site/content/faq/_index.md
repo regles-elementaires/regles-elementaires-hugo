@@ -2,10 +2,6 @@
 title: FAQ
 date: 2019-12-06T13:48:10+01:00
 layout: faq
-menu:
-  main:
-    name: FAQ
-    weight: 7
 intro:
   title: Questions les plus fréquentes
   text: Une question ? Une interrogation ? Un doute ? Nous avons sûrement la réponse ;)

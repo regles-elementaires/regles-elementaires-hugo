@@ -2,10 +2,6 @@
 title: Espace Personnel
 date: 2019-12-06T13:48:10+01:00
 layout: list
-menu:
-  main:
-    name: Espace Personnel
-    weight: 8
 collecte:
   illu: /img/page-espace/illu-organiser-collecte.svg
   pretitle: "Je voudrais"

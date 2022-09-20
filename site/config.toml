@@ -6,7 +6,7 @@ title = "Règles Élémentaires"
 [params]
   display_popup_credit_menstruel = false
   display_popup_5ans = false
-  display_popup_don = true
+  display_popup_don = false
   display_popup_tribune = false
   display_popup_festival = false
   display_popup_barometre = false
@@ -24,22 +24,101 @@ disableKinds = ["RSS"]
       xHTML = false
 [menu]
   [[menu.main]]
-    identifier = "projet"
-    name = "Projet"
-    url = "/projet/mission"
+    identifier = "asso"
+    name = "Qui sommes-nous ?"
+    url = "/asso/vision"
     weight = 1
   [[menu.main]]
-    identifier = "collecter"
-    name = "Collecter"
-    url = "/collecter/organiser"
+    identifier = "actions"
+    name = "Nos actions"
+    url = "/actions/actions"
     weight = 2
   [[menu.main]]
-    identifier = "donner"
-    name = "Donner"
-    url = "/donner/trouver"
+    identifier = "agir"
+    name = "Agir avec nous"
+    url = "/agir/particuliers"
     weight = 3
   [[menu.main]]
-    identifier = "redistribuer"
-    name = "Redistribuer"
-    url = "/redistribuer/redistributeurs"
+    identifier = "particulier"
+    name = "Particulier"
+    url = "/agir/particulier/donner"
+    parent = "agir"
+    weight = 1
+  [[menu.main]]
+    identifier = "entreprise"
+    name = "Entreprise"
+    url = "/agir/entreprise"
+    parent = "agir"
+    weight = 2
+  [[menu.main]]
+    identifier = "collecter-entreprise"
+    name = "Collecter"
+    url = "/agir/entreprise/#collecter"
+    parent = "entreprise"
+    weight = 1
+  [[menu.main]]
+    identifier = "se-former-entreprise"
+    name = "Se Former"
+    url = "/agir/entreprise/#se-former"
+    parent = "entreprise"
+    weight = 2
+  [[menu.main]]
+    identifier = "dons-produits"
+    name = "Dons produits"
+    url = "/agir/entreprise/#dons-produits"
+    parent = "entreprise"
+    weight = 3
+  [[menu.main]]
+    identifier = "mecenat"
+    name = "Mécénat"
+    url = "/agir/entreprise/#mecenat"
+    parent = "entreprise"
     weight = 4
+  [[menu.main]]
+    identifier = "association"
+    name = "Association"
+    url = "/agir/association/redistribuer"
+    parent = "agir"
+    weight = 3
+  [[menu.main]]
+    identifier = "ecole"
+    name = "Etablissement scolaire"
+    url = "/agir/ecole"
+    parent = "agir"
+    weight = 4
+  [[menu.main]]
+    identifier = "ateliers"
+    name = "Ateliers"
+    url = "/agir/ecole/#ateliers"
+    parent = "ecole"
+    weight = 1
+  [[menu.main]]
+    identifier = "collecter-ecole"
+    name = "Collecter"
+    url = "/agir/ecole/#collecter"
+    parent = "ecole"
+    weight = 2
+  [[menu.main]]
+    identifier = "collectivite"
+    name = "Collectivité"
+    url = "/agir/collectivite"
+    parent = "agir"
+    weight = 5
+  [[menu.main]]
+    identifier = "collecter-collectivite"
+    name = "Collecter"
+    url = "/agir/collectivite/#collecter"
+    parent = "collectivite"
+    weight = 1
+  [[menu.main]]
+    identifier = "se-former-collectivite"
+    name = "Se Former"
+    url = "/agir/collectivite/#se-former"
+    parent = "collectivite"
+    weight = 2
+  [[menu.main]]
+    identifier = "informer-collectivite"
+    name = "Informer"
+    url = "/agir/collectivite/#informer"
+    parent = "collectivite"
+    weight = 3

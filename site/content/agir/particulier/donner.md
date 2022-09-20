@@ -1,11 +1,12 @@
 ---
 title: Quels produits donner ?
 date: 2019-12-06T13:48:10+01:00
-layout: produits
+layout: donner
 menu:
   main:
-    parent: donner
-    weight: 2
+    name: Donner
+    parent: particulier
+    weight: 1
 illu: /img/page-produits/illu-produits.svg
 intro:
   first: "Nous acceptons toutes les protections périodiques jetables et réutilisables, à condition qu’elles soient non périmées, neuves (jamais utilisées) et emballées individuellement. Serviettes, protège-slips, tampons, cups, culottes menstruelles … Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections."

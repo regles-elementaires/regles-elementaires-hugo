@@ -1,12 +1,12 @@
 ---
 title: Comment organiser une collecte ?
 date: 2019-12-06T13:48:10+01:00
-layout: organiser
+layout: collecter
 menu:
   main:
-    name: Organiser une collecte
-    parent: collecter
-    weight: 1
+    name: Collecter
+    parent: particulier
+    weight: 2
 illu: /img/page-collecte/illu_organiser_une_collecte.svg
 intro: 
   first: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des protections périodiques de première nécessité, c’est aussi briser le tabou autour des menstruations."

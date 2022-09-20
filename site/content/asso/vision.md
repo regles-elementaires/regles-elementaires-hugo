@@ -1,10 +1,10 @@
 ---
-title: Missions et chiffres clés
+title: Vision et chiffres clés
 date: 2019-12-06T13:48:10+01:00
-layout: mission
+layout: vision
 menu:
   main:
-    parent: projet
+    parent: asso
     weight: 1
 illu: /img/page-mission/illu-mission.svg
 intro:

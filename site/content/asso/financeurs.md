@@ -1,11 +1,11 @@
 ---
-title: Nos Partenaires
+title: Nos Financeurs
 date: 2019-12-06T13:48:10+01:00
-layout: partenaires
+layout: financeurs
 menu:
   main:
-    parent: projet
-    weight: 4
+    parent: asso
+    weight: 3
 illu: "/img/page-nos-partenaires/partenaires-illu.svg"
 intro: 
   first: "Règles Élémentaires est une plateforme de mobilisation citoyenne et notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de protections périodiques, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs·ses sociaux·ales et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires."

@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div>
+    {{ partial "page-desc" . }}
+    {{ range $elem_index, $elem_val := .Params.actions }}
+    {{ $isOdd := not (modBool $elem_index 2) }}
+    <div class="p-8 bg-white {{if $isOdd}}bg-regrey{{end}}">
+        <div class="container w-full md:w-11/12 m-auto flex flex-col md:flex-row">
+            <div class="w-full md:w-3/5 bg-rebeige flex flex-col items-center p-8">
+                {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
+                <img class="h-16 mb-2" src="/img/page-actions/arrow.png" alt=""/>
+                <div class="w-5/6 m-auto text-rered markdown text-center tracking-tight font-medium">{{.content | markdownify}}</div>
+                {{ if ne .btn_link ""}}
+                <a class="big-red-button big-red-button--rounded my-8" href="{{.btn_link}}"
+                    {{if isset . "target_blank"}}target="_blank" {{end}}}
+                    onclick="gtag('event', 'clicNosActions', {
+                        'event_category': 'Actions',
+                        'event_label': '{{.event_label}}',
+                        });">
+                        {{.btn_text}}
+                </a>
+                {{end}}
+            </div>
+            <div class="w-1/1 md:w-2/5 px-2">
+                <div class="flex flex-row flex-wrap h-full -mx-4 relative content-center">
+                    <div class="bg-rebeige hidden md:flex md:absolute top-0 left-0 h-full w-1/4"></div>
+                    {{range $img_index, $img_val := .illu}}
+                    {{ $afterTwo := gt $img_index 1 }}
+                    <div class="w-1/2 px-2 z-10 h-48 xl:h-56 {{if $afterTwo}}hidden md:flex mb-4 {{else}} my-4 {{end}}">
+                        <img class="shadow-lg object-cover h-full w-full" src="{{$img_val}}" style=" filter: grayscale(100%);" alt=""/>
+                    </div>
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>
+{{ end }}

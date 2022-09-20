@@ -3,11 +3,6 @@
 title: Où donner ?
 date: 2019-12-06T13:48:10+01:00
 layout: trouver
-menu: 
-    main:
-        name: Trouver une boîte à dons
-        parent: donner
-        weight: 1
 illu: /img/page-trouver/illu-trouver.svg
 intro:
     first: "Vous souhaitez faire un don de protections périodiques ? Notre carte interactive vous renseigne sur tous les points de collecte autour de vous ! Vous pouvez utiliser la barre de recherche pour trouver la boîte à dons la plus proche de vous : changer les règles devient un jeu d’enfant ;)"

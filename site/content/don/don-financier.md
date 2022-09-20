@@ -1,12 +1,8 @@
 ---
-title: Dons Financiers
+title: Don Financier
 date: 2019-12-06T13:48:10+01:00
-layout: dons-financiers
+layout: don-financier
 display_dons_desc: true
-menu:
-  main:
-    parent: donner
-    weight: 3
 illu: /img/page-dons-financiers/illu-dons.svg
 intro:
   first: "Règles Élémentaires est une association loi 1901 à but non-lucratif et reconnue d’intérêt général."

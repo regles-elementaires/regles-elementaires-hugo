@@ -4,8 +4,8 @@ date: 2019-12-06T13:48:10+01:00
 layout: list
 menu:
   main:
-    name: Actus
-    weight: 5
+    parent: actions
+    weight: 4
 intro_title: Les actus de l'association
 button_text: Voir plus d'actus
 press:

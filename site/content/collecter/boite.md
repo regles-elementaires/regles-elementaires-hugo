@@ -3,11 +3,6 @@
 title: Comment obtenir une boîte à dons ?
 date: 2019-12-06T13:48:10+01:00
 layout: boite
-menu: 
-    main:
-        name: Obtenir une boîte à dons
-        parent: collecter
-        weight: 2
 illu: /img/page-collecte/illu_obtenir_une_boite.svg
 intro:
     first: 'Les boîtes à dons Règles Élémentaires "officielles" sont en priorité mises à disposition pour les collectes de longue durée (supérieures à 3 mois). En principe, pour les autres collectes, nous vous proposons un kit de customisation pour personnaliser un réceptacle en carton ou en plastique afin de recevoir les dons.'

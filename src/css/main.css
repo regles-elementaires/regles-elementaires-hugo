@@ -93,46 +93,66 @@
 === NAV ===
 */
 .menu-item-space {
-  @apply px-2 pb-2 text-base cursor-pointer;
+  @apply mx-2 mb-2 text-base cursor-pointer;
 }
 .menu-item-space a {
   @apply pb-2 pt-2;
 }
-.menu-item--hover:hover {
-  @apply underline;
+
+.menu-item-space a svg {
+  fill: #FF9A00;
 }
-@screen sm {
-  .menu-item--hover:hover {
-    @apply border-b-2 border-rered no-underline;
-  }
+
+.menu-item--hover:hover svg{
+  fill: #FFF;
 }
+
 @screen lg {
   .menu-item-space {
-    @apply pt-2 pb-0 px-2;
+    @apply mt-2 mb-0 mx-2;
   }
 }
-.sub-menu-item {
-  @apply px-3 uppercase whitespace-nowrap;
-}
-.sub-menu-item:hover a {
-  @apply border-b-2;
+
+.don-menu {
+  margin: -0.5rem 0;
 }
 
 /* Hover nav */
 
+.hover-nav a {
+  @apply pb-0 pt-0;
+}
+
 .hover-nav {
+  display: none;
+  min-width: 130%;
+  white-space: nowrap;
+}
+
+.hover-nav:hover, .menu-item--hover:hover ~ .hover-nav {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  left: -2rem;
+}
+
+.hover-sub-nav {
   display: none;
   width: auto;
   white-space: nowrap;
 }
 
-.hover-nav:hover, .menu-item--hover:hover ~ .hover-nav {
+.hover-sub-nav:hover {
   display: block;
-  position: absolute;
   z-index: 1;
 }
 
-.focus-nav {
+.hover-sub-nav-visible {
+  display: block;
+  z-index: 1;
+}
+
+.focus-nav, .focus-sub-nav {
   display: none;
   width: auto;
   white-space: nowrap;
@@ -143,7 +163,12 @@
   z-index: 1;
 }
 
-.menu-item--focus:focus-within button {
+.focus-sub-nav:focus, .menu-sub-item--focus:focus-within + .focus-sub-nav {
+  display: block;
+  z-index: 1;
+}
+
+.menu-item--focus:focus-within > button {
   @apply font-bold;
 }
 

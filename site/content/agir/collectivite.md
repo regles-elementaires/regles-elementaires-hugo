@@ -1,0 +1,4 @@
+---
+title: Collectivité
+layout: collectivite
+---

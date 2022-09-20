@@ -1,6 +1,6 @@
 # Showcase site RE
 
-CSS framework : Tailwind CSS 1.9.6
+CSS framework : Tailwind CSS 3.0.0
 
 ## Back-office data
 
