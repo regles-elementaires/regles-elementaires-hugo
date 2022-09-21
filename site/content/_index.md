@@ -2,15 +2,30 @@
 title: "Lutte contre la précarité menstruelle"
 carousel: true
 slogan: "#CHANGERLESRÈGLES"
-subtitle: "Première association française de lutte contre la précarité menstruelle"
+subtitle: "L’association française qui lutte contre la précarité menstruelle 
+et le tabou des règles"
+numbers:
+    first:
+        number: "11 000 000"
+        text: "Protections périodiques collectées et redistribuées depuis 2015"
+    second:
+        number: "1 000"
+        text: "Personnes sensibilisés lors de nos ateliers"
+    third:
+        number: "XX"
+        text: "Cycles couverts pour des femmes en situation de précarité menstruelle"
+actions:
+    title: "Nos actions"
+    collecter_title: "Collecter &<br/>Redistribuer"
+    collecter_text: "Mission première de Règles Élémentaires, nous permettons à tout un chacun d’organiser sa propre collecte de protections périodiques, nous assurons ensuite la redistribution via nos associations partenaires à travers tout le territoire français."
+    sensibiliser_title: "Sensibiliser"
+    sensibiliser_text: "La sensibilisation est une mission essentielle et chère à notre association. Un de nos objectifs : briser le tabou des règles, et cela passe par la parole, l’éducation, l’information. Par le biais d’ateliers, d’événements, d’interventions, ou de création de contenus, nous mettons notre expertise au service de la sensibilisation."
+    mobiliser_title: "Mobiliser<br/>l'opinion publique"
+    mobiliser_text: "Pour changer les règles, il faut changer les mentalités et les lois ! À travers nos actions de plaidoyer et prises de paroles, nous contribuons à faire bouger les lignes pour plus d’égalité."
+    button: En savoir plus
 map:
     title: La carte des collectes
     text: Trouver les points de collectes organisées partout en France !
-mission:
-    title: "La mission<br> 
-    de règles élémentaires"
-    text: "Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Notre mission est double : collecter des protections périodiques à destination des femmes dans le besoin et briser le tabou des règles. Ensemble, nous pouvons faire bouger les lignes et changer les règles !"
-    button: En savoir plus sur la mission
 collecte:
     title: Organiser une collecte
     text: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des protections périodiques de première nécessité, c’est aussi briser le tabou autour des menstruations. Depuis la création de l’Association, plus de mille collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant⸱es, salarié⸱es, employé⸱es, retraité⸱es, chef⸱fes d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals… <br><br>

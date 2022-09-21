@@ -81,29 +81,11 @@ disableKinds = ["RSS"]
     parent = "agir"
     weight = 3
   [[menu.main]]
-    identifier = "ecole"
-    name = "Etablissement scolaire"
-    url = "/agir/ecole"
-    parent = "agir"
-    weight = 4
-  [[menu.main]]
-    identifier = "ateliers"
-    name = "Ateliers"
-    url = "/agir/ecole/#ateliers"
-    parent = "ecole"
-    weight = 1
-  [[menu.main]]
-    identifier = "collecter-ecole"
-    name = "Collecter"
-    url = "/agir/ecole/#collecter"
-    parent = "ecole"
-    weight = 2
-  [[menu.main]]
     identifier = "collectivite"
     name = "Collectivité"
     url = "/agir/collectivite"
     parent = "agir"
-    weight = 5
+    weight = 4
   [[menu.main]]
     identifier = "collecter-collectivite"
     name = "Collecter"
@@ -122,3 +104,21 @@ disableKinds = ["RSS"]
     url = "/agir/collectivite/#informer"
     parent = "collectivite"
     weight = 3
+  [[menu.main]]
+    identifier = "ecole"
+    name = "Etablissement scolaire"
+    url = "/agir/ecole"
+    parent = "agir"
+    weight = 5
+  [[menu.main]]
+    identifier = "ateliers"
+    name = "Ateliers"
+    url = "/agir/ecole/#ateliers"
+    parent = "ecole"
+    weight = 1
+  [[menu.main]]
+    identifier = "collecter-ecole"
+    name = "Collecter"
+    url = "/agir/ecole/#collecter"
+    parent = "ecole"
+    weight = 2

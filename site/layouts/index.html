@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div class="relative bg-redarkgrey bg-cover bg-center w-full home flex flex-col items-center pt-24 md:pt-48">
-    <div class="hidden md:flex absolute top-0 md:top-auto flex-col flex-wrap justify-start" style="right: 5%">
+<div class="relative bg-redarkgrey bg-cover bg-center w-full home flex flex-col items-center pt-24 md:pt-32 pb-16">
+    <!--<div class="hidden md:flex absolute top-0 md:top-auto flex-col flex-wrap justify-start" style="right: 5%">
         <a href='https://www.facebook.com/regleselementaires/' target='_blank' 
         class='px-2 pb-1 pt-2' onclick="gtag('event', 'clicConsulterReseauxSociaux', {
             'event_category': 'Reseaux Sociaux',
@@ -30,14 +30,14 @@
         });">
             <img src="/img/social/linkedin.svg" class="h-5 sm:h-6" alt="linkedin link"/>
         </a>
-    </div>
-    <h1 class="title-with-shadow text-2xl sm:text-4xl lg:text-6xl title-shadow-sm lg:title-shadow-lg">
+    </div>-->
+    <h1 class="title text-2xl sm:text-4xl lg:text-5xl">
         {{ .Params.slogan }}
     </h1>
-    <h2 class="w-8/12 md:w-2/6 text-white text-center md:text-xl pt-2 md:pt-8">
+    <h2 class="w-8/12 md:w-3/12 text-white text-center md:text-xl font-semibold mt-2 md:mt-4">
         {{ .Params.subtitle }}
     </h2>
-    <div class="py-8 md:py-16 z-10">
+    <!--<div class="py-8 md:py-16 z-10">
         <a class="big-red-button big-red-button--rounded"
         href="/donner/dons-financiers/#haWidget"
         onclick="gtag('event', 'clicDonnerDonsFinanciers', {
@@ -47,8 +47,8 @@
             FAIRE UN DON
             <span class="rounded-full bg-white text-rered font-bold px-2 py-1 ml-1">€</span>
         </a>
-    </div>
-    <div class="w-11/12 md:w-full flex flex-row justify-end md:-mt-32 mb-12">        
+    </div>-->
+    <!--<div class="w-11/12 md:w-full flex flex-row justify-end md:-mt-32 mb-12">        
         <div class="w-11/12 md:w-1/4 rounded-md m-auto md:mr-16 overflow-hidden">
             <a class="w-full" href="/donner/trouver"
             onclick="gtag('event', 'clicCarteCollectes', {
@@ -64,26 +64,116 @@
                 </div>
             </a> 
         </div>        
+    </div>-->
+    <div class="w-10/12 md:w-7/12 flex flex-row bg-white text-rered rounded-xl mt-8 md:mt-16 p-4">
+        <div class="w-1/3 flex flex-col items-center px-6 py-4">
+            <img src="/img/page-home/serviette.svg" alt="Illustration serviette hygiénique">
+            <span class="mt-4 text-xl md:text-3xl font-extrabold">
+                {{ .Params.numbers.first.number }}
+            </span>
+            <p class="mt-2 text-center font-bold tracking-tight leading-5">
+                {{ .Params.numbers.first.text }}
+            </p>
+        </div>
+        <div class="w-1/3 flex flex-col items-center px-6 py-4 border-x border-rered">
+            <img src="/img/page-home/talk.svg" alt="Illustration discussion">
+            <span class="mt-4 text-xl md:text-3xl font-extrabold">
+                {{ .Params.numbers.second.number }}
+            </span>
+            <p class="mt-2 text-center font-bold tracking-tight leading-5">
+                {{ .Params.numbers.second.text }}
+            </p>
+        </div>
+        <div class="w-1/3 flex flex-col items-center px-6 py-4">
+            <img src="/img/page-home/cycle.svg" alt="Illustration protection">
+            <span class="mt-4 text-xl md:text-3xl font-extrabold">
+                {{ .Params.numbers.third.number }}
+            </span>
+            <p class="mt-2 text-center font-bold tracking-tight leading-5">
+                {{ .Params.numbers.third.text }}
+            </p>
+        </div>
     </div>
 </div>
 <div class="w-full bg-rered">
-    <div class="w-10/12 mx-auto pt-12 pb-8 flex flex-row">
-        <div class="w-11/12 md:w-3/5 xl:w-2/5 mx-auto">
-            <h2 class="text-white text-xl md:text-3xl font-extrabold uppercase">
-                {{ .Params.mission.title | markdownify }}    
+    <div class="w-full pt-12 pb-12 flex flex-row">
+        <div class="w-11/12 md:w-4/5 mx-auto">
+            <h2 class="text-white text-center text-xl md:text-3xl font-extrabold uppercase">
+                {{ .Params.actions.title | markdownify }}    
             </h2>
-            <p class="text-white pt-4 md:text-md tracking-tight">
-                {{ .Params.mission.text }}
-            </p>
-            <p class="py-8 mt-4">
-                <a class="big-white-button big-white-button--rounded" href="/projet/mission">
-                    {{ .Params.mission.button }}
-                </a>
-            </p>
+            <div class="flex flex-row text-white mt-16">
+                <div class="w-1/3 mx-10 flex justify-center mx-10">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">
+                        <img src="/img/page-home/collecter.svg" alt="Illustration collecte" />                    
+                    </div>
+                </div>
+                <div class="w-1/3 mx-10 flex justify-center mx-10">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">     
+                        <img src="/img/page-home/sensibiliser.svg" alt="Illustration sensibiliser" />               
+                    </div>
+                </div>
+                <div class="w-1/3 mx-10 flex justify-center mx-10">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">  
+                        <img src="/img/page-home/mobiliser.svg" alt="Illustration mobiliser" />                  
+                    </div>
+                </div>                 
+            </div>
+            <div class="flex flex-row text-white mt-6 tracking-tight items-center">
+                <div class="w-1/3 mx-10 flex justify-center">
+                    <h3 class="text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.collecter_title | markdownify }}
+                    </h3>
+                </div>    
+                <div class="w-1/3 mx-10 flex justify-center">
+                    <h3 class="text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.sensibiliser_title | markdownify }}
+                    </h3>
+                    <p class="text-center mt-4 tracking-tighter">
+                </div> 
+                <div class="w-1/3 mx-10 flex justify-center">
+                    <h3 class="text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.mobiliser_title | markdownify }}
+                    </h3>
+                </div>                  
+            </div>
+            <div class="flex flex-row text-white mt-6 text-center tracking-tighter">
+                <div class="w-1/3 mx-10">
+                    <p class="">
+                        {{ .Params.actions.collecter_text }}
+                    </p>
+                </div>    
+                <div class="w-1/3 mx-10">
+                    <p class="">
+                        {{ .Params.actions.sensibiliser_text }}
+                    </p>
+                </div> 
+                <div class="w-1/3 mx-10">
+                    <p class="">
+                        {{ .Params.actions.mobiliser_text }}
+                    </p>
+                </div>                  
+            </div>
+            <div class="flex flex-row text-white mt-6 text-center tracking-tighter font-semibold">
+                <div class="w-1/3 mx-10">
+                    <a class="border-b-2 border-white pb-2" href="/actions/collecter">
+                        {{ .Params.actions.button }}
+                    </a>
+                </div>    
+                <div class="w-1/3 mx-10">
+                    <a class="border-b-2 border-white pb-2" href="/actions/sensibiliser">
+                        {{ .Params.actions.button }}
+                    </a>
+                </div> 
+                <div class="w-1/3 mx-10">
+                    <a class="border-b-2 border-white pb-2" href="/actions/mobiliser">
+                        {{ .Params.actions.button }}
+                    </a>
+                </div>                  
+            </div>
         </div>
-        <div class="hidden md:flex w-2/5">
+        <!--<div class="hidden md:flex w-2/5">
             <img src="/img/page-mission/illu-mission.svg" alt="">
-        </div>
+        </div>-->
     </div>
 </div>
 <div class="w-full bg-white">
@@ -199,7 +289,7 @@
 
     </div>
 </div>
-<div id="instafeed-container" class="w-11/12 md:w-2/3 mx-auto flex flex-row flex-wrap my-8"></div>
+<!--<div id="instafeed-container" class="w-11/12 md:w-2/3 mx-auto flex flex-row flex-wrap my-8"></div>
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 	<script>
 	var userFeed = new Instafeed({
@@ -229,5 +319,5 @@
 		accessToken: 'IGQVJXSUlreUZAob1VuallST2pZAbUdiUjRNcDNhTDNyMzJJc1UxTXludmdpM25oUzFXS2l3NjUybDhyMUszanRxeGxibHFROU1JaFFOdWtRWjVBRjV4emRJa1NSUWk5aHNiZA1l4THdR'
 	});
 	userFeed.run();
-</script>
+</script>-->
 {{ end }}

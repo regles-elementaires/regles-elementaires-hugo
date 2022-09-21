@@ -76,6 +76,9 @@
   @apply text-2xl text-white uppercase font-bold;
 }
 
+.title {
+  @apply uppercase font-bold text-white;
+}
 .title-with-shadow {
   @apply uppercase font-bold text-white;
 }
@@ -189,7 +192,7 @@
 === HOME ===
 */
 .home {
-  background-image: url("/img/page-home/bg-home.jpg");
+  background-image: url("/img/page-home/bg-home-2.jpg");
   /*height: 100vh;*/
 }
 /*
