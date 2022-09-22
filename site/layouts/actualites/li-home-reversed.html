@@ -1,5 +1,8 @@
 <div class="w-full my-6 flex flex-row">
-    <div class="w-1/2 bg-white flex flex-col justify-center flex-wrap p-6 rounded-l-xl">
+    <div class="w-1/2">
+        <img class="object-cover w-full h-full rounded-l-xl" src="{{.Params.illu}}" alt=""/>
+     </div>
+    <div class="w-1/2 bg-white flex flex-col justify-center flex-wrap p-6 rounded-r-xl">
         <div class="w-full flex flex-col tracking-tight">
             <div class="w-full md:px-8 py-4">
                 <h2 class="md:text-xl text-center text-rered uppercase font-bold">
@@ -20,8 +23,5 @@
                 </a>
             </p>
         </div>
-    </div>
-    <div class="w-1/2">
-       <img class="object-cover w-full h-full rounded-r-xl" src="{{.Params.illu}}" alt=""/>
-    </div>
+    </div>    
 </div>

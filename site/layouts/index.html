@@ -65,7 +65,7 @@
             </a> 
         </div>        
     </div>-->
-    <div class="w-10/12 md:w-7/12 flex flex-row bg-white text-rered rounded-xl mt-8 md:mt-16 p-4">
+    <div class="w-10/12 md:w-7/12 flex flex-row bg-white text-rered rounded-2xl mt-8 md:mt-16 p-4">
         <div class="w-1/3 flex flex-col items-center px-6 py-4">
             <img src="/img/page-home/serviette.svg" alt="Illustration serviette hygiénique">
             <span class="mt-4 text-xl md:text-3xl font-extrabold">
@@ -155,17 +155,17 @@
             </div>
             <div class="flex flex-row text-white mt-6 text-center tracking-tighter font-semibold">
                 <div class="w-1/3 mx-10">
-                    <a class="border-b-2 border-white pb-2" href="/actions/collecter">
+                    <a class="border-b border-white pb-1" href="/actions/collecter">
                         {{ .Params.actions.button }}
                     </a>
                 </div>    
                 <div class="w-1/3 mx-10">
-                    <a class="border-b-2 border-white pb-2" href="/actions/sensibiliser">
+                    <a class="border-b border-white pb-1" href="/actions/sensibiliser">
                         {{ .Params.actions.button }}
                     </a>
                 </div> 
                 <div class="w-1/3 mx-10">
-                    <a class="border-b-2 border-white pb-2" href="/actions/mobiliser">
+                    <a class="border-b border-white pb-1" href="/actions/mobiliser">
                         {{ .Params.actions.button }}
                     </a>
                 </div>                  
@@ -176,6 +176,78 @@
         </div>-->
     </div>
 </div>
+<div class="w-full bg-white py-12">
+    <div class="w-11/12 md:w-4/5 mx-auto text-rered">
+        <h2 class="text-center text-xl md:text-3xl font-extrabold uppercase">
+            {{ .Params.agir.title }}    
+        </h2>
+        <p class="w-3/5 mx-auto font-medium tracking-tighter mt-8 text-center">
+            {{ .Params.agir.text }} 
+        </p>
+        <div class="flex flex-row justify-center mt-6">
+            {{ range .Site.Menus.main }}
+                {{ if eq .Identifier "agir"}}
+                    {{ range .Children }}
+                        <a href="{{ .URL }}" class="mx-2 px-4 py-1 uppercase rounded-full border border-reorange">{{ .Name }}</a>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+    <div class="w-11/12 md:w-4/5 mx-auto flex flex-row mt-12">
+        <div class="w-1/2 mx-4 bg-rered rounded-2xl text-white">
+            <h3 class="mx-8 mt-10 text-xl md:text-2xl font-extrabold uppercase">
+                {{ .Params.map.title }}
+            </h3>
+            <p class="mx-8 mt-4 tracking-tight text-sm">
+                {{ .Params.map.text }}
+            </p>
+            <div class="mx-8 mt-4 font-semibold tracking-tight text-sm">
+                <a href="/agir/particulier/donner" class="border-b border-white pb-1">
+                    {{ .Params.map.link_text }}
+                </a>
+            </div>  
+            <div class="rounded-2xl mt-10 h-96">
+                <iframe class="w-full h-full rounded-2xl" src="https://collectes.regleselementaires.com/map"></iframe>
+            </div>                      
+        </div>
+        <div class="w-1/2 px-8 py-10 mx-4 bg-white rounded-2xl border border-reorange">
+            <h3 class="text-xl md:text-2xl font-extrabold uppercase text-rered">
+                {{ .Params.agenda.title }}
+            </h3>
+            <div class="mt-4 border-t border-rered flex flex-row text-rered">
+                {{ $sortedEvents := sort .Site.Data.events ".date" "asc" }}
+                <div class="w-1/5 py-4 border-r border-rered flex flex-col">
+                    <div>{{ .Params.agenda.date_title }}</div>  
+                    <!--{{ $mymonths := index $.Site.Data.months }}-->                  
+                    {{ $mydays := index $.Site.Data.days }}                  
+                    {{ range first 8 (where $sortedEvents "date" "ge" now)  }}
+                        <div class="h-14 flex flex-col mt-4">
+                            <span class="text-xs" style="margin-bottom: -0.4rem;">
+                                {{ $day := dateFormat "Mon" .date }}
+                                {{ index $mydays $day }}
+                            </span>                            
+                            <span class="text-2xl font-bold">
+                                {{ dateFormat "02" .date }}
+                                <span class="text-sm font-normal"> / {{ dateFormat "01" .date }}</span>
+                            </span>                            
+                        </div>
+                    {{ end }}
+                </div>
+                <div class="w-4/5 py-4 ml-4 flex flex-col">
+                    <div>{{ .Params.agenda.event_title }}</div>
+                    {{ range first 6 (where $sortedEvents "date" "ge" now)  }}
+                        <div class="h-14 flex flex-row mt-4 shadow-md rounded-xl items-center px-4">
+                            <span class="font-bold">{{ .place }}</span>
+                            <span class="ml-2">/ {{ .name }}</span>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
 <div class="w-full bg-white">
     <div class="w-10/12 mx-auto pt-12 pb-8 flex flex-row">
         <div class="hidden md:flex w-2/5">
@@ -255,19 +327,22 @@
         </div>
     </div>
     {{ partial "redistribuer/carousel" . }}
-
 </div>
+-->
 <div class="w-full bg-reorange">
-    <div class="container pt-8 flex flex-row">
+    <div class="container pt-12 flex flex-row">
         <div class="w-11/12 lg:w-5/6 pb-8 m-auto">
             <h2 class="text-white text-xl md:text-3xl font-extrabold text-center uppercase md:pb-4">
                 {{ .Params.actus.title }}
             </h2>
             {{ $sortedPages := sort (where .Site.RegularPages "Section" "actualites") ".Params.date" "desc" }}
             <div class="flex flex-wrap">
-                <div class="w-11/12 md:w-3/5 flex flex-col flex-wrap items-center md:mt-8 mx-auto">
+                <div class="w-11/12 md:w-4/5 flex flex-col flex-wrap items-center md:mt-4 mx-auto">
                     {{ range first 1 $sortedPages }}
-                    {{ .Render "li-home"}}
+                        {{ .Render "li-home" }}
+                    {{ end }}
+                    {{ range first 1 (after 1 $sortedPages) }}
+                        {{ .Render "li-home-reversed" }}
                     {{ end }}
                     <!--<p class="py-4 md:py-8">
                         <a class="big-red-button big-red-button--rounded" href="/actualites">
@@ -275,6 +350,7 @@
                         </a>
                     </p>-->
                 </div>
+                <!--
                 <div class="w-11/12 md:w-2/5 md:mt-8 pt-6 mx-auto">
                     <div class="w-full h-1/2 rounded-lg bg-white py-4 pr-4" style="height: 530px">
                         <a class="twitter-timeline" data-height="500" href="https://twitter.com/RElementaires?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter noborders">
@@ -283,6 +359,7 @@
                         <script async src="https://platform.twitter.com/widgets.js"></script> 
                     </div>
                 </div>
+            -->
             </div>
             
         </div>
