@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="relative bg-redarkgrey bg-cover bg-center w-full home flex flex-col items-center pt-24 md:pt-32 pb-16">
+<div class="relative bg-redarkgrey bg-cover bg-center w-full home flex flex-col items-center pt-16 md:pt-32 pb-16">
     <!--<div class="hidden md:flex absolute top-0 md:top-auto flex-col flex-wrap justify-start" style="right: 5%">
         <a href='https://www.facebook.com/regleselementaires/' target='_blank' 
         class='px-2 pb-1 pt-2' onclick="gtag('event', 'clicConsulterReseauxSociaux', {
@@ -65,110 +65,85 @@
             </a> 
         </div>        
     </div>-->
-    <div class="w-10/12 md:w-7/12 flex flex-row bg-white text-rered rounded-2xl mt-8 md:mt-16 p-4">
-        <div class="w-1/3 flex flex-col items-center px-6 py-4">
-            <img src="/img/page-home/serviette.svg" alt="Illustration serviette hygiénique">
-            <span class="mt-4 text-xl md:text-3xl font-extrabold">
+    <div class="w-10/12 md:w-7/12 flex flex-row flex-wrap bg-white text-rered rounded-2xl mt-8 md:mt-16 py-2 px-4 md:py-4">
+        <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4">
+            <img class="h-12 md:h-14" src="/img/page-home/serviette.svg" alt="Illustration serviette hygiénique">
+            <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
                 {{ .Params.numbers.first.number }}
             </span>
-            <p class="mt-2 text-center font-bold tracking-tight leading-5">
+            <p class="md:mt-2 text-sm md:text-base text-center font-bold tracking-tight leading-5">
                 {{ .Params.numbers.first.text }}
             </p>
         </div>
-        <div class="w-1/3 flex flex-col items-center px-6 py-4 border-x border-rered">
-            <img src="/img/page-home/talk.svg" alt="Illustration discussion">
-            <span class="mt-4 text-xl md:text-3xl font-extrabold">
+        <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4 border-y md:border-y-0 border-x-0 md:border-x border-rered">
+            <img class="h-12 md:h-14" src="/img/page-home/talk.svg" alt="Illustration discussion">
+            <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
                 {{ .Params.numbers.second.number }}
             </span>
-            <p class="mt-2 text-center font-bold tracking-tight leading-5">
+            <p class="md:mt-2 text-sm md:text-base text-center font-bold tracking-tight leading-5">
                 {{ .Params.numbers.second.text }}
             </p>
         </div>
-        <div class="w-1/3 flex flex-col items-center px-6 py-4">
-            <img src="/img/page-home/cycle.svg" alt="Illustration protection">
-            <span class="mt-4 text-xl md:text-3xl font-extrabold">
+        <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4">
+            <img class="h-12 md:h-14" src="/img/page-home/cycle.svg" alt="Illustration protection">
+            <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
                 {{ .Params.numbers.third.number }}
             </span>
-            <p class="mt-2 text-center font-bold tracking-tight leading-5">
+            <p class="md:mt-2 text-sm md:text-base  text-center font-bold tracking-tight leading-5">
                 {{ .Params.numbers.third.text }}
             </p>
         </div>
     </div>
 </div>
 <div class="w-full bg-rered">
-    <div class="w-full pt-12 pb-12 flex flex-row">
+    <div class="w-full pt-8 md:pt-12 pb-12 md:pb-16 flex flex-row">
         <div class="w-11/12 md:w-4/5 mx-auto">
             <h2 class="text-white text-center text-xl md:text-3xl font-extrabold uppercase">
                 {{ .Params.actions.title | markdownify }}    
             </h2>
-            <div class="flex flex-row text-white mt-16">
-                <div class="w-1/3 mx-10 flex justify-center mx-10">
+            <div class="flex flex-row flex-wrap text-white mt-8 md:mt-16">
+                <div class="w-full md:w-1/3 flex flex-col items-center px-10">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">
                         <img src="/img/page-home/collecter.svg" alt="Illustration collecte" />                    
-                    </div>
+                    </div>                    
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.collecter_title | markdownify }}
+                    </h3>
+                    <p class="md:h-48 mt-6 text-sm md:text-base text-center tracking-tighter">
+                        {{ .Params.actions.collecter_text }}
+                    </p>      
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/collecter">
+                        {{ .Params.actions.button }}
+                    </a>               
                 </div>
-                <div class="w-1/3 mx-10 flex justify-center mx-10">
+                <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">     
                         <img src="/img/page-home/sensibiliser.svg" alt="Illustration sensibiliser" />               
                     </div>
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.sensibiliser_title | markdownify }}
+                    </h3>
+                    <p class="md:h-48 mt-6 text-sm md:text-base text-center tracking-tighter">
+                        {{ .Params.actions.sensibiliser_text }}
+                    </p>
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/sensibiliser">
+                        {{ .Params.actions.button }}
+                    </a>
                 </div>
-                <div class="w-1/3 mx-10 flex justify-center mx-10">
+                <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">  
                         <img src="/img/page-home/mobiliser.svg" alt="Illustration mobiliser" />                  
                     </div>
-                </div>                 
-            </div>
-            <div class="flex flex-row text-white mt-6 tracking-tight items-center">
-                <div class="w-1/3 mx-10 flex justify-center">
-                    <h3 class="text-lg md:text-2xl text-center font-bold uppercase">
-                        {{ .Params.actions.collecter_title | markdownify }}
-                    </h3>
-                </div>    
-                <div class="w-1/3 mx-10 flex justify-center">
-                    <h3 class="text-lg md:text-2xl text-center font-bold uppercase">
-                        {{ .Params.actions.sensibiliser_title | markdownify }}
-                    </h3>
-                    <p class="text-center mt-4 tracking-tighter">
-                </div> 
-                <div class="w-1/3 mx-10 flex justify-center">
-                    <h3 class="text-lg md:text-2xl text-center font-bold uppercase">
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.mobiliser_title | markdownify }}
                     </h3>
-                </div>                  
-            </div>
-            <div class="flex flex-row text-white mt-6 text-center tracking-tighter">
-                <div class="w-1/3 mx-10">
-                    <p class="">
-                        {{ .Params.actions.collecter_text }}
-                    </p>
-                </div>    
-                <div class="w-1/3 mx-10">
-                    <p class="">
-                        {{ .Params.actions.sensibiliser_text }}
-                    </p>
-                </div> 
-                <div class="w-1/3 mx-10">
-                    <p class="">
+                    <p class="md:h-48 mt-6 text-sm md:text-base text-center tracking-tighter">
                         {{ .Params.actions.mobiliser_text }}
                     </p>
-                </div>                  
-            </div>
-            <div class="flex flex-row text-white mt-6 text-center tracking-tighter font-semibold">
-                <div class="w-1/3 mx-10">
-                    <a class="border-b border-white pb-1" href="/actions/collecter">
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/mobiliser">
                         {{ .Params.actions.button }}
                     </a>
-                </div>    
-                <div class="w-1/3 mx-10">
-                    <a class="border-b border-white pb-1" href="/actions/sensibiliser">
-                        {{ .Params.actions.button }}
-                    </a>
-                </div> 
-                <div class="w-1/3 mx-10">
-                    <a class="border-b border-white pb-1" href="/actions/mobiliser">
-                        {{ .Params.actions.button }}
-                    </a>
-                </div>                  
+                </div>                 
             </div>
         </div>
         <!--<div class="hidden md:flex w-2/5">
@@ -176,72 +151,83 @@
         </div>-->
     </div>
 </div>
-<div class="w-full bg-white py-12">
+<div class="w-full bg-white py-8 md:py-12">
     <div class="w-11/12 md:w-4/5 mx-auto text-rered">
         <h2 class="text-center text-xl md:text-3xl font-extrabold uppercase">
             {{ .Params.agir.title }}    
         </h2>
-        <p class="w-3/5 mx-auto font-medium tracking-tighter mt-8 text-center">
+        <p class="w-5/6 md:w-3/5 mx-auto text-sm md:text-base font-medium tracking-tighter mt-4 md:mt-8 text-center">
             {{ .Params.agir.text }} 
         </p>
-        <div class="flex flex-row justify-center mt-6">
+        <div class="flex flex-row flex-wrap justify-around md:justify-center mt-4 md:mt-6">
             {{ range .Site.Menus.main }}
                 {{ if eq .Identifier "agir"}}
                     {{ range .Children }}
-                        <a href="{{ .URL }}" class="mx-2 px-4 py-1 uppercase rounded-full border border-reorange">{{ .Name }}</a>
+                        <a href="{{ .URL }}" class="my-2 md:my-0 md:mx-2 px-4 py-1 text-sm md:text-base uppercase rounded-full border border-reorange flex items-center">{{ .Name }}</a>
                     {{ end }}
                 {{ end }}
             {{ end }}
         </div>
     </div>
-    <div class="w-11/12 md:w-4/5 mx-auto flex flex-row mt-12">
-        <div class="w-1/2 mx-4 bg-rered rounded-2xl text-white">
-            <h3 class="mx-8 mt-10 text-xl md:text-2xl font-extrabold uppercase">
-                {{ .Params.map.title }}
-            </h3>
-            <p class="mx-8 mt-4 tracking-tight text-sm">
-                {{ .Params.map.text }}
-            </p>
-            <div class="mx-8 mt-4 font-semibold tracking-tight text-sm">
-                <a href="/agir/particulier/donner" class="border-b border-white pb-1">
-                    {{ .Params.map.link_text }}
-                </a>
-            </div>  
-            <div class="rounded-2xl mt-10 h-96">
-                <iframe class="w-full h-full rounded-2xl" src="https://collectes.regleselementaires.com/map"></iframe>
+    <div class="w-11/12 md:w-4/5 mx-auto flex flex-row flex-wrap mt-8 md:mt-12">
+        <div class="w-full md:w-1/2 flex">
+            <div class="bg-rered mx-2 md:mx-4 rounded-2xl text-white flex flex-col">
+                <h3 class="mx-8 mt-6 md:mt-10 text-xl md:text-2xl font-extrabold uppercase">
+                    {{ .Params.map.title }}
+                </h3>
+                <p class="mx-8 mt-4 tracking-tight text-sm">
+                    {{ .Params.map.text }}
+                </p>
+                <div class="mx-8 mt-4 font-semibold tracking-tight text-sm">
+                    <a href="/agir/particulier/donner" class="border-b border-white pb-1">
+                        {{ .Params.map.link_text }}
+                    </a>
+                </div>  
+                <div class="rounded-2xl mt-10 grow" style="min-height:20rem;">
+                    <iframe class="w-full h-full rounded-2xl" src="https://collectes.regleselementaires.com/map"></iframe>
+                </div>                      
             </div>                      
         </div>
-        <div class="w-1/2 px-8 py-10 mx-4 bg-white rounded-2xl border border-reorange">
-            <h3 class="text-xl md:text-2xl font-extrabold uppercase text-rered">
-                {{ .Params.agenda.title }}
-            </h3>
-            <div class="mt-4 border-t border-rered flex flex-row text-rered">
-                {{ $sortedEvents := sort .Site.Data.events ".date" "asc" }}
-                <div class="w-1/5 py-4 border-r border-rered flex flex-col">
-                    <div>{{ .Params.agenda.date_title }}</div>  
-                    <!--{{ $mymonths := index $.Site.Data.months }}-->                  
-                    {{ $mydays := index $.Site.Data.days }}                  
-                    {{ range first 8 (where $sortedEvents "date" "ge" now)  }}
-                        <div class="h-14 flex flex-col mt-4">
-                            <span class="text-xs" style="margin-bottom: -0.4rem;">
-                                {{ $day := dateFormat "Mon" .date }}
-                                {{ index $mydays $day }}
-                            </span>                            
-                            <span class="text-2xl font-bold">
-                                {{ dateFormat "02" .date }}
-                                <span class="text-sm font-normal"> / {{ dateFormat "01" .date }}</span>
-                            </span>                            
+        <div class="w-full md:w-1/2 mt-8 md:mt-0">
+            <div class="md:h-full rounded-2xl border border-reorange flex flex-col mx-2 md:mx-4 p-4 md:px-8 md:py-10 bg-white">
+                <h3 class="text-xl md:text-2xl font-extrabold uppercase text-rered mt-2 md:mt-0">
+                    {{ .Params.agenda.title }}
+                </h3>
+                <div class="w-full mt-4 border-t border-rered flex flex-col text-rered">
+                    {{ $sortedEvents := sort .Site.Data.events ".date" "asc" }}
+
+                        <div class="w-full flex flex-row">
+                            <div class="w-1/4 md:w-1/5 py-4 border-r border-rered">
+                                {{ .Params.agenda.date_title }}
+                            </div>  
+                            <div class="w-3/4 md:w-4/5 py-4 pl-4">
+                                {{ .Params.agenda.event_title }}
+                            </div>
                         </div>
-                    {{ end }}
-                </div>
-                <div class="w-4/5 py-4 ml-4 flex flex-col">
-                    <div>{{ .Params.agenda.event_title }}</div>
-                    {{ range first 6 (where $sortedEvents "date" "ge" now)  }}
-                        <div class="h-14 flex flex-row mt-4 shadow-md rounded-xl items-center px-4">
-                            <span class="font-bold">{{ .place }}</span>
-                            <span class="ml-2">/ {{ .name }}</span>
-                        </div>
-                    {{ end }}
+                        <!--{{ $mymonths := index $.Site.Data.months }}-->                  
+                        {{ $mydays := index $.Site.Data.days }}                  
+                        {{ range first 6 (where $sortedEvents "date" "ge" now)  }}
+                            <div class="w-full flex flex-row">
+                                <div class="w-1/4 md:w-1/5 py-4 border-r border-rered flex flex-col">
+                                    <span class="text-xs" style="margin-bottom: -0.4rem;">
+                                        {{ $day := dateFormat "Mon" .date }}
+                                        {{ index $mydays $day }}
+                                    </span>                            
+                                    <span class="text-xl md:text-2xl font-bold">
+                                        {{ dateFormat "02" .date }}
+                                        <span class="text-sm font-normal">/{{ dateFormat "01" .date }}</span>
+                                    </span>                            
+                                </div>
+                                <div class="w-3/4 md:w-4/5 pl-4 py-2 flex">
+                                    <div class="p-4 w-full flex flex-row shadow-md rounded-xl items-center text-sm md:text-base">
+                                        <span class="font-bold">{{ .place }}</span>
+                                        <span class="mx-2">/</span>
+                                        <span class="">{{ .name }}</span>
+                                    </div>
+                                </div>
+                            </div>                            
+                        {{ end }}
+                   
                 </div>
             </div>
         </div>
@@ -330,7 +316,7 @@
 </div>
 -->
 <div class="w-full bg-reorange">
-    <div class="container pt-12 flex flex-row">
+    <div class="container pt-8 md:pt-12 flex flex-row">
         <div class="w-11/12 lg:w-5/6 pb-8 m-auto">
             <h2 class="text-white text-xl md:text-3xl font-extrabold text-center uppercase md:pb-4">
                 {{ .Params.actus.title }}
