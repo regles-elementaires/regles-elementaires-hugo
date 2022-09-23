@@ -10,7 +10,7 @@ numbers:
         text: "Protections périodiques collectées et redistribuées depuis 2015"
     second:
         number: "1 000"
-        text: "Personnes sensibilisés lors de nos ateliers"
+        text: "Personnes sensibilisées lors de nos ateliers"
     third:
         number: "XX"
         text: "Cycles couverts pour des femmes en situation de précarité menstruelle"

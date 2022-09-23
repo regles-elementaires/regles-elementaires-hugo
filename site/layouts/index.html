@@ -204,9 +204,9 @@
                                 {{ .Params.agenda.event_title }}
                             </div>
                         </div>
-                        <!--{{ $mymonths := index $.Site.Data.months }}-->                  
+                        {{ $mymonths := index $.Site.Data.months }}                 
                         {{ $mydays := index $.Site.Data.days }}                  
-                        {{ range first 6 (where $sortedEvents "date" "ge" now)  }}
+                        {{ range first 6 $sortedEvents }}
                             <div class="w-full flex flex-row">
                                 <div class="w-1/4 md:w-1/5 py-4 border-r border-rered flex flex-col">
                                     <span class="text-xs" style="margin-bottom: -0.4rem;">
@@ -215,15 +215,24 @@
                                     </span>                            
                                     <span class="text-xl md:text-2xl font-bold">
                                         {{ dateFormat "02" .date }}
-                                        <span class="text-sm font-normal">/{{ dateFormat "01" .date }}</span>
-                                    </span>                            
+                                    </span>           
+                                    <span class="text-sm" style="margin-top: -0.4rem;">
+                                        {{ $month := dateFormat "Jan" .date }}
+                                        {{ index $mymonths $month }}
+                                    </span>                 
                                 </div>
                                 <div class="w-3/4 md:w-4/5 pl-4 py-2 flex">
-                                    <div class="p-4 w-full flex flex-row shadow-md rounded-xl items-center text-sm md:text-base">
+                                    {{ with .link }}
+                                        <a href="{{.}}" class="h-full w-full">
+                                    {{ end }}
+                                    <div class="p-4 w-full flex flex-row shadow-md rounded-xl items-center text-sm md:text-base">                                        
                                         <span class="font-bold">{{ .place }}</span>
                                         <span class="mx-2">/</span>
-                                        <span class="">{{ .name }}</span>
+                                        <span class="">{{ .name }}</span>                                        
                                     </div>
+                                    {{ with .link }}
+                                        </a>
+                                    {{ end }}
                                 </div>
                             </div>                            
                         {{ end }}
