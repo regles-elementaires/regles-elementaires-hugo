@@ -1,22 +1,14 @@
 ---
-title: Nos Financeurs
+title: Ils nous soutiennent
 date: 2019-12-06T13:48:10+01:00
-layout: financeurs
+layout: soutiens
 menu:
   main:
     parent: asso
-    weight: 3
+    weight: 2
 illu: "/img/page-nos-partenaires/partenaires-illu.svg"
 intro: 
-  first: "Règles Élémentaires est une plateforme de mobilisation citoyenne et notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de protections périodiques, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires. En effet, le monde de la rue et le « sans-abrisme » nécessitent des qualités interpersonnelles d’écoute et de confiance que les travailleurs·ses sociaux·ales et les associations spécialisées construisent sur le long-terme et qui légitiment leur action sur le terrain. Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier, de nombreux autres partenaires."
-redistributeurs:
-  type: redistributeur
-  title: Nos Partenaires Redistributeurs
-  btn_text: Devenir partenaire redistributeur
-  event_label: redistributeur
-  btn_link: "https://docs.google.com/forms/d/e/1FAIpQLSefC1PRfnqPT0SafjXoU4UC8Hznrhwo0Zw4Rig25YxCciCgKw/viewform?usp=sf_link"
-  text: |
-    L’action de Règles Élémentaires est indissociable de celle de ses partenaires. Notre démarche est collaborative par essence : l’équipe de Règles Élémentaires coordonne tous les aspects logistiques de la collecte de protections périodiques, tandis que la redistribution aux femmes en situation de précarité est assurée par des organisations médico-sociales ou spécialistes du mal-logement partenaires.
+  first: "#changerlesregles c’est bien, mais à plusieurs c’est encore mieux ! Si l’action de Règles Élémentaires peut s’inscrire dans la durée, c’est aussi grâce au soutien moral, matériel et financier de nos nombreux partenaires, alors merci à eux de nous aider à démultiplier notre impact !"
 
 industriels:
   type: industriel
@@ -36,7 +28,6 @@ financiers:
   text: |
     Les partenaires financiers permettent à l’association de voir sur le long terme. Grâce à leurs différents financements, Règles Élémentaires est capable d’assurer son bon développement et de pérenniser ses actions. 
     Ces partenaires nous ont permis, ces dernières années, de renforcer les équipes de Règles Élémentaires ou encore de proposer des ateliers d’information à l’hygiène menstruelle et à l’utilisation des protections hygiéniques.
-
 
 institutionnels:
   type: institutionnel

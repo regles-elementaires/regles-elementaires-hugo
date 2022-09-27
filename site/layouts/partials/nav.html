@@ -47,14 +47,14 @@
 							<!-- Hover Nav -->
 							{{ with .Children }}
 							<div class="hover-nav flex flex-row bg-rered text-white rounded-2xl shadow-lg">
-								<ul class="text-sm font-normal py-4 px-5 text-left">
+								<ul class="text-sm font-normal py-4 text-left">
 									{{ range . }}
-										<li class="sub-menu-item--hover py-1 flex flex-row items-start justify-between w-full" data-menu="{{.Identifier}}">
+										<li class="sub-menu-item--hover px-5 py-1 flex flex-row items-start justify-between w-full" data-menu="{{.Identifier}}">
 											<a href="{{.URL}}" class="hover:font-bold hover:border-b-2 border-white">{{.Name}}</a>
 										</li>									
 									{{ end }}
 								</ul>
-								<div>
+								<div class="flex items-center">
 									{{ range . }}	
 										<div class="hover-sub-nav" data-menu="{{.Identifier}}">
 											{{ with .Children }}											
@@ -172,6 +172,19 @@
 				// select and add class on desired container
 				let menu = document.querySelector("div[data-menu=" + CSS.escape(e.target.dataset.menu) + "]");
 				menu.classList.add("hover-sub-nav-visible");
+			}
+		}
+
+		for (var i = 0; i < menuContainers.length; i++) {
+			menuContainers[i].onmouseenter = function(e){
+				// select and add class on desired container
+				let menuButton = document.querySelector("li[data-menu=" + CSS.escape(e.target.dataset.menu) + "]").firstElementChild;
+				menuButton.classList.add("font-bold", "border-b-2");
+			}
+			menuContainers[i].onmouseleave = function(e){
+				for (var i = 0; i < menuItems.length; i++) {
+					menuItems[i].firstElementChild.classList.remove("font-bold", "border-b-2");
+				}
 			}
 		}
 		/*

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div>
+  {{ partial "page-desc-equipe" . }}
+  <div class="min-h-screen w-10/12 md:w-3/4 m-auto bg-white pt-8 md:pt-20">
+    <h2 class="text-rered font-extrabold uppercase text-3xl">{{ .Params.antennes.title }}</h2>
+    <p class="mt-8 text-rered">{{ .Params.antennes.text }}</p>
+  </div>
+  <div class="bg-rebeige pb-8">
+    <div class="min-h-screen w-10/12 md:w-3/4 m-auto pt-12">
+      <h2 class="text-rered font-extrabold uppercase text-3xl">{{ .Params.gouvernance.title }}</h2>
+      <div class="flex flex-wrap mt-8 w-full md:w-3/4 mx-auto">
+        {{ range (sort $.Site.Data.team "order" "asc") }}
+          {{ if eq .team "ca" }}
+            {{ partial "asso/ca-member" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

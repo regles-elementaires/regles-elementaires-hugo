@@ -4,14 +4,28 @@
 					
 		<ul class="flex flex-row flex-wrap mb-8">
 			<li>
-				<a href="{{.URL}}" class="border-white">{{.Name}}</a>
+				<span class="border-white">{{.Name}}</span>
 			</li>
 			<li class="px-4"> > </li>
 			{{ range .Children }}
+				{{ $menuName := .Name }}
 				{{ if $currentPage.IsMenuCurrent "main" . }}
 					<li class="font-bold">
-						<a href="{{.URL}}" class="border-white">{{.Name}}</a>
+						<span class="border-white">{{.Name}}</span>
 					</li>
+				{{ end }}
+				{{ with .Children }}
+					{{ range .}}
+						{{ if $currentPage.IsMenuCurrent "main" . }}
+							<li>
+								<span class="border-white">{{$menuName}}</span>
+							</li>
+							<li class="px-4"> > </li>
+							<li class="font-bold">
+								<span class="border-white">{{.Name}}</span>
+							</li>
+						{{ end }}
+					{{ end }}
 				{{ end }}
 			{{ end }}
 		</ul>

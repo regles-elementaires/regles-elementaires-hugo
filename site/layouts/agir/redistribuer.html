@@ -23,6 +23,7 @@
             {{end}}
         </div>
     </div>
+
     <div class="flex justify-center">
         <a class="big-red-button big-red-button--rounded my-12"  target="_blank" href="https://partenaire.regleselementaires.com/account/register_partner"
         onclick="gtag('event', 'clicDevenirPartenaire', {
@@ -32,6 +33,13 @@
             Devenir partenaire
         </a>
     </div>
+
+    <div class="py-8 bg-white">
+        <div class="py-8 bg-white">
+            {{ partial "projet/partenaire-type" (dict "page" .Params.redistributeurs "data" .Site.Data.partenaires)}}
+        </div>
+    </div>
+
     <div class="flex flex-col md:flex-row px-8 mb-8 md:mb-12 justify-center">
         {{ range .Params.photos }}
         <div class="flex px-4 py-2">
@@ -39,5 +47,16 @@
         </div>
         {{ end }}
     </div>
+
+    <script>
+        function displayAllPartners(button) {
+            const carousel_id = "carousel-" + button.dataset.type;
+            const list_id = "full-" + button.dataset.type + "-list";
+            document.getElementById(carousel_id).parentNode.classList.add("hidden");
+            button.parentNode.classList.add("hidden");
+            document.getElementById(list_id).classList.remove("h-0", "opacity-0", "hidden");
+            document.getElementById(list_id).classList.add("py-8");
+        }
+    </script>
 </div>
 {{ end }}

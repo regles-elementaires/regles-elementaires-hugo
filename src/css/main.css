@@ -175,6 +175,11 @@
   @apply font-bold;
 }
 
+.sub-menu-item--hover:hover a {
+  @apply font-bold;
+  @apply border-b-2;
+}
+
 
 /*
 === HEADER ===
@@ -198,60 +203,6 @@
 /*
 === EQUIPE ===
 */
-
-/* customize bio p */
-.equipe__membre-bio p {
-  @apply mt-2;
-}
-
-/* change picture on hover */
-.equipe__membre:focus .equipe__pic,
-.equipe__membre:hover .equipe__pic {
-  @apply bg-rered;
-}
-.equipe__membre:focus .equipe__pic img,
-.equipe__membre:hover .equipe__pic img {
-  @apply opacity-75;
-}
-
-/* display bio on hover */
-.equipe__membre:focus .equipe__membre-bio--block,
-.equipe__membre:hover .equipe__membre-bio--block {
-  @apply block;
-  z-index: 10;
-  left: 100%;
-  right: -150%;
-}
-@responsive {
-  .equipe__membre:nth-child(2n) .equipe__membre-bio--2n {
-    left: -150%;
-    right: 100%;
-  }
-  .equipe__membre:nth-child(2n) .equipe__membre-bio--3n {
-    left: 100%;
-    right: -150%;
-  }
-  .equipe__membre:nth-child(3n) .equipe__membre-bio--3n {
-    left: -150%;
-    right: 100%;
-  }
-  .equipe__membre:nth-child(2n) .equipe__membre-bio--4n {
-    left: 100%;
-    right: -150%;
-  }
-  .equipe__membre:nth-child(3n) .equipe__membre-bio--4n {
-    left: 100%;
-    right: -150%;
-  }
-  .equipe__membre:nth-child(4n) .equipe__membre-bio--4n {
-    left: -150%;
-    right: 100%;
-  }
-}
-
-.equipe__membre-inactive {
-  display:none;
-}
 
 .equipe-button-active h2 {
   @apply border-b-2 border-reorange no-underline;

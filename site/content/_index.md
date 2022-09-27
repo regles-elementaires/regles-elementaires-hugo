@@ -26,6 +26,8 @@ actions:
 agir:
     title: Agir avec nous
     text: "Parce que pour changer les règles nous avons besoin de vous tous·tes, engagez-vous à nos côtés le temps d’une collecte, d’une redistribution, d’un partenariat ou plus si affinités ! Découvrez comment contribuer selon que vous soyez…"
+    person_title: "Je suis un·e..."
+    action_title: "Et je souhaite..."
 map:
     title: La carte des collectes
     text: "Vous souhaitez faire un don de protections périodiques ? Notre carte interactive vous renseigne sur tous les points de collecte autour de vous ! Vous pouvez utiliser la barre de recherche pour trouver la boîte à dons la plus proche de vous : changer les règles devient un jeu d’enfant ;)"

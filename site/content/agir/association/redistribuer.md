@@ -23,9 +23,13 @@ steps:
   - img: /img/page-redistribuer/step4.svg
     step: 4
     text: Nous convenons d’une date de récupération des produits, en fonction de vos moyens de transport et de stockage ainsi que de la disponibilité des stocks de Règles Élémentaires.
+redistributeurs:
+  type: redistributeur
+  title: Nos Partenaires Redistributeurs
 photos:
   - img: /img/page-redistribuer/photo1.png
   - img: /img/page-redistribuer/photo2.png
   - img: /img/page-redistribuer/photo3.png
   - img: /img/page-redistribuer/photo4.png
+carousel: true
 ---
