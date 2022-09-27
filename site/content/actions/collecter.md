@@ -5,7 +5,7 @@ menu:
   main:
     parent: actions
     weight: 1
-illu: /img/page-actions/nos_actions_illu.svg
+illu: /img/page-actions/illu_collecter.svg
 intro:
   first: "Mission première de Règles Élémentaires, nous permettons à chaque personne d’organiser sa propre collecte de protections périodiques. Nous assurons ensuite la redistribution via nos associations partenaires à travers tout le territoire français."
 actions:

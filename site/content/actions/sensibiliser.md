@@ -5,47 +5,27 @@ menu:
   main:
     parent: actions
     weight: 2
-illu: /img/page-actions/nos_actions_illu.svg
+illu: /img/page-actions/illu_collecter.svg
 intro:
-  first: "Règles Élémentaires est la première association française de lutte contre la précarité menstruelle. Concrètement, nous organisons et supervisons des collectes de protections périodiques que nous mettons gratuitement à disposition des femmes dans le besoin via notre solide réseau de partenaires ; et nous brisons le tabou des règles en menant des actions de sensibilisation nombreuses, diverses et variées."
+  first: "La sensibilisation est au cœur de nos missions. Dialoguer, former et informer constituent un socle déterminant pour briser le tabou des règles. Par le biais d’ateliers, d’événements, d’interventions, ou de création de contenus, nous agissons avec vous pour faire des règles un sujet commun et ainsi créer une culture commune autour des règles."
 actions:
-  - btn_link: /collecter/organiser
-    event_label: actions_collecte
-    btn_text: Voir les étapes pour organiser sa collecte
+  - title: Dans les établissements scolaires
+    btn_link: /agir/ecole/#ateliers
+    btn_text: En savoir plus
     content: >
-      Des campagnes de collecte de protections périodiques, clé en main et ouvertes à tou·tes, permettent chaque année de récolter des centaines de milliers de protections à destination des femmes sans-abri et mal-logées partout en France. <br/><br/>
-      Certaines sont ponctuelles, d’autres permanentes.
-    title: Les collectes
-    illu:
-      - /img/page-actions/permanente-3.jpg
-      - /img/page-actions/illu-action4.jpg
-      - /img/page-actions/permanente-1.jpg
-      - /img/page-actions/permanente-2.jpg
-  - btn_link: "mailto:partenartiat@regleselementaires.com"
-    event_label: actions_atelier
-    target_blank: true
-    btn_text: Accueilir un atelier
+      “La première fois que j’ai eu mes règles je ne savais pas ce qu’il se passait”.  Bon nombre de personnes, lorsqu’elles ont leurs règles pour la première fois, n’ont pas les informations nécessaires pour comprendre ce qui leur arrive. À la fois enjeu d'égalité filles-garçons et de santé sexuelle et reproductive, l’éducation à la santé menstruelle est essentielle. Nos ateliers s’adressent à tou·tes les élèves, filles comme garçons, dès le CM1. 
+    chiffre: 
+      big: Près de 100% des 16-19 ans 
+      small: sont favorables à un enseignement menstruel
+  - title: auprès des personnes bénéficiaires des protections
+    btn_link: /agir/association/sensibiliser
+    btn_text: En savoir plus
     content: >
-      Des ateliers d’information et de formation aux protections hygiéniques lavables et réutilisables sont organisés pour tenter de mettre fin à la dépendance aux dons des femmes bénéficiaires. Organisés en partenariat avec des fabricants de cups, serviettes lavables et culottes menstruelles, ces ateliers - en phase pilote -  informent les femmes dans le besoin de l’existence de ces solutions plus économiques et écologiques.
-    title: Les ateliers auprès des bénéficiaires
-    illu:
-      - /img/page-actions/ateliers-2.jpg
-      - /img/page-actions/ateliers-3.jpg
-      - /img/page-actions/ateliers-4.jpg
-      - /img/page-actions/ateliers-1.jpg
-  - btn_link: "mailto: contact@regleselementaires.com"
-    event_label: actions_sensi
-    btn_text: Organiser un évènement de sensibilisation
+      Afin d’enrayer le cercle vicieux de la précarité menstruelle, nous organisons des ateliers avec les personnes bénéficiaires de nos protections. Ces ateliers s’adressent à des personnes hébergées dans des structures médico-sociales, soutenues par des associations de lutte contre la précarité et le mal-logement, incarcérées dans des centres pénitentiaires ou toute autre situation de vulnérabilité / marginalisation. Nous intervenons principalement auprès des personnes en âge d’avoir leurs règles, francophones et allophones, ayant un accès régulier à un point d’eau.
+  - title: auprès du grand public
+    btn_link: ""
+    btn_text: ""
     content: >
-      En plus d’aider les plus démunies à se protéger et rester dignes, Règles Élémentaires s’engage à briser le tabou des règles.
-
-
-      Cela passe  par différentes actions de sensibilisation auprès de tou·tes : via des conférences dans les entreprises, dans les écoles, dans les universités ; via des interventions lors de festivals, de forums, de soirées … mais aussi via les médias, des partenariats décalés et nos désormais fameux apéros mens(tr)uels !
-
-    title: Les événements de sensibilisation
-    illu:
-      - /img/page-actions/sensi-4.jpg
-      - /img/page-actions/sensi-3.jpg
-      - /img/page-actions/sensi-2.jpg
-      - /img/page-actions/sensi-1.jpg
+      Parler de règles partout, dès que nous en avons la possibilité : tel est notre moteur au quotidien.. C’était encore inimaginable il y a quelques années, aujourd’hui nous organisons des soirées dédiées aux règles, des projections de courts-métrages sur les règles ou même encore un festival consacré aux menstruations.
+      Grâce à ces moments, nous sensibilisons des dizaines, des centaines, des milliers de personnes !
 ---

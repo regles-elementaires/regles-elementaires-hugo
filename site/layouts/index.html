@@ -166,7 +166,10 @@
             {{ range .Site.Menus.main }}
                 {{ if eq .Identifier "agir"}}
                     {{ range .Children }}
-                        <button data-agir="{{ .Identifier }}" class="agir-button font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border focus:border border-reorange text-left">{{ .Name }}</button>
+                        <button data-agir="{{ .Identifier }}" class="agir-button flex font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border focus:border border-reorange text-left">
+                            {{ .Name }}
+                            <img class="ml-2 hidden" src="/img/page-home/check.svg" alt="coché"/>
+                        </button>
                     {{ end }}
                 {{ end }}
             {{ end }}
@@ -180,9 +183,14 @@
                 {{ range .Site.Menus.main }}
                     {{ if eq .Identifier "agir"}}
                         {{ range .Children }}
-                            <div class="hidden actions-container flex flex-col" data-agir="{{ .Identifier }}">
+                            <div class="hidden actions-container w-full items-start flex flex-col flex-wrap" data-agir="{{ .Identifier }}">
                                 {{ range .Children}}
-                                    <a href="{{.URL}}" class="font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border border-reorange text-left">{{ .Name }}</a>
+                                    <a href="{{.URL}}" class="font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border border-reorange text-left">
+                                        <div class="flex">
+                                            {{ .Name }}
+                                            <img class="hidden ml-2" src="/img/page-home/check.svg" alt="coché"/>
+                                        </div>                                        
+                                    </a>
                                 {{ end }}
                             </div>
                         {{ end }}

@@ -2,21 +2,26 @@
 <div class="mb-8">
     {{ partial "page-desc" . }}
     {{ range $elem_index, $elem_val := .Params.actions }}
-    {{ $isOdd := not (modBool $elem_index 2) }}
-    <div class="pt-8 bg-white">
-        <div class="w-full md:w-3/4 xl:w-3/5 m-auto flex flex-col md:flex-row">
-            <div class="w-full md:w-5/12 bg-rebeige flex flex-col items-start justify-center p-16 rounded-l-xl">
+    <div class="py-8 md:py-10 bg-white">
+        <div class="w-full md:w-3/4 m-auto flex flex-col md:flex-row">
+            <div class="w-11/12 md:w-5/12 mx-auto bg-rebeige flex flex-col items-start justify-center p-8 md:p-16 rounded-xl md:rounded-l-xl md:rounded-r-none">
                 {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
                 <div class="text-rered markdown text-left tracking-tight font-medium my-4">{{.content | markdownify}}</div>
                 {{ if ne .btn_link ""}}
-                <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full my-8" href="{{.btn_link}}"
+                <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="{{.btn_link}}"
                     {{if isset . "target_blank"}}target="_blank" {{end}}}>
                         {{.btn_text}}
                 </a>
                 {{end}}
             </div>
-            <div class="w-full md:w-7/12"> 
-                <img class="shadow-lg rounded-r-xl object-cover h-full w-full" src="/img/page-actions/permanente-1.jpg" alt=""/>            
+            <div class="w-11/12 md:w-7/12 mx-auto mt-4 md:mt-0 flex items-end rounded-xl md:rounded-r-xl md:rounded-l-none bg-center bg-cover" style="min-height: 12rem; background-image: url(/img/page-collecte/boite.jpg)"> 
+                <!--<img class="shadow-lg rounded-r-xl object-cover h-full w-full" src="/img/page-collecte/boite.jpg" alt=""/> -->           
+                {{ with .chiffre }}
+                <div class="w-11/12 md:w-3/4 mx-auto rounded-xl p-3 md:p-4 bg-rered text-white flex flex-col items-center tracking-tight" style="margin-bottom: -2rem;">
+                    <span class="text-center font-semibold text-lg md:text-2xl">{{ .big }}</span>
+                    <span class="text-center font-light text-sm md:text-md">{{ .small }}</span>
+                </div>
+                {{ end }}
             </div>
         </div>
     </div>

@@ -200,6 +200,14 @@
   background-image: url("/img/page-home/bg-home-2.jpg");
   /*height: 100vh;*/
 }
+
+.agir-button:hover img, .agir-button:focus img {
+  @apply flex;
+}
+
+.actions-container a:hover div img {
+  @apply flex;
+}
 /*
 === EQUIPE ===
 */
