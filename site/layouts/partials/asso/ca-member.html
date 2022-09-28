@@ -6,9 +6,12 @@
       <h3 class="font-bold mt-4 text-rered uppercase">
         {{ .name }}
       </h3>
-      <h4 class="text-redarkgrey text-sm mb-4">
+      <h4 class="text-redarkgrey font-semibold text-sm mb-0.5">
         {{ .role }}
       </h4>
+      <p class="md:w-3/4 text-redarkgrey text-sm mb-2">
+        {{ .bio }}
+      </p>
       <div class="mb-4">
         {{if (isset . "linkedin")}}
         <a href="{{.linkedin}}" target="_blank">
