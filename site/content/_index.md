@@ -12,7 +12,7 @@ numbers:
         number: "1 000"
         text: "Personnes sensibilisées lors de nos ateliers"
     third:
-        number: "XX"
+        number: "900 000"
         text: "Cycles couverts pour des femmes en situation de précarité menstruelle"
 actions:
     title: "Nos actions"

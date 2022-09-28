@@ -5,7 +5,7 @@ menu:
   main:
     parent: actions
     weight: 2
-illu: /img/page-actions/illu_collecter.svg
+illu: 
 intro:
   first: "La sensibilisation est au cœur de nos missions. Dialoguer, former et informer constituent un socle déterminant pour briser le tabou des règles. Par le biais d’ateliers, d’événements, d’interventions, ou de création de contenus, nous agissons avec vous pour faire des règles un sujet commun et ainsi créer une culture commune autour des règles."
 actions:
