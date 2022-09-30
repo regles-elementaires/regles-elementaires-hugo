@@ -1,8 +1,70 @@
 {{ define "main" }}
 <div>
     {{ partial "page-desc" . }}
-    <div id="collecter">
-        
+    <div class="bg-white" id="collecter">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full md:w-1/2">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.collecter.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.collecter.text | markdownify }}</p>
+            </div>
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:pl-8">
+                <div class="bg-reorange rounded-xl flex flex-row p-8 text-white">
+                    <div class=" hidden w-1/4 md:flex">
+                        <img class="" src="{{ .Params.collecter.offer.illu }}" alt="illustration boîte à dons" />
+                    </div>
+                    <div class="w-full md:w-3/4 flex flex-col items-center justify-center">
+                        <p class="text-center">{{ .Params.collecter.offer.text | markdownify }}</p>
+                        <a class="text-center underline uppercase underline-offset-4 mt-2" href="">Consulter l'offre</a>
+                        <a class="bg-rered rounded-full py-1 px-4 uppercase mt-4" href="{{ .Params.collecter.offer.button.link }}">
+                            {{ .Params.collecter.offer.button.text }}
+                        </a>
+                    </div>
+                    
+                </div>                
+            </div>        
+        </div>
+    </div>
+    <div class="bg-rebeige" id="sensibiliser">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full md:w-1/2 flex flex-col items-start">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.sensibiliser.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.sensibiliser.text | markdownify }}</p>
+                <a class="bg-rered rounded-full py-1.5 px-6 uppercase mt-4 md:mt-8 text-white" href="{{ .Params.sensibiliser.button.link }}">
+                    {{ .Params.sensibiliser.button.text }}
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 flex justify-center">
+                <img class="max-h-48 md:max-h-80" src="{{ .Params.sensibiliser.illu }}" alt="photo sensibilisation entreprise" />
+            </div>               
+        </div>
+    </div>
+    <div class="bg-white" id="don">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full md:w-1/2">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.don.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.don.text | markdownify }}</p>
+            </div>     
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 flex justify-center">
+                <img class="max-h-48 md:max-h-80" src="{{ .Params.don.illu }}" alt="photo don entreprise" />
+            </div>         
+        </div>
+    </div>
+    <div class="bg-rebeige" id="mecenat">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full md:w-1/2 flex flex-col items-start">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.mecenat.title }}</h3>
+                <h4 class="font-bold mt-4">{{ .Params.mecenat.don.title }}</h4>
+                <p class="mt-4 tracking-tighter">{{ .Params.mecenat.don.text | markdownify }}</p>
+                <h4 class="font-bold mt-4">{{ .Params.mecenat.competence.title }}</h4>
+                <p class="mt-4 tracking-tighter">{{ .Params.mecenat.competence.text | markdownify }}</p>
+                <a class="bg-rered rounded-full py-1.5 px-6 uppercase mt-4 md:mt-8 text-white" href="{{ .Params.mecenat.button.link }}">
+                    {{ .Params.mecenat.button.text }}
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 flex justify-center items-center">
+                <img class="max-h-48 md:max-h-80" src="{{ .Params.don.illu }}" alt="photo mecenat entreprise" />
+            </div>                
+        </div>
     </div>
 </div>
 {{ end }}

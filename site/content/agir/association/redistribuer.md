@@ -6,10 +6,9 @@ menu:
   main:
     parent: association
     weight: 1
-illu: /img/page-redistribuer/devenir_partenaires_illu.svg
+illu: /img/page-redistribuer/redistributeurs_intro.svg
 intro: 
-    first: "Devenez partenaire et rejoignez le réseau de redistribution de l’association Règles Élémentaires !"
-    second: "Nous comptons aujourd’hui plusieurs centaines de partenariats à travers la France. C’est grâce à toutes ces organisations de première ligne qui travaillent au plus près des personnes en situation de précarité que nous pouvons venir en aide, depuis 2015, à plus de 100 000 femmes bénéficiaires."
+    first: "Si vous accueillez des personnes en situation de précarité menstruelle, vous pouvez aussi devenir partenaire redistributeur. Le principe est simple : vous entrez en contact avec nous, vous nous faites part de vos besoins, et, en fonction, nous vous distribuons des dons que vous pouvez ensuite mettre à disposition de vos bénéficiaires."
 steps:
   - img: /img/page-redistribuer/step1.svg
     step: 1

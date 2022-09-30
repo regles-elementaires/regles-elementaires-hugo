@@ -5,8 +5,8 @@
     <div class="w-11/12 mx-auto">
         <div class="w-10/12 md:w-3/5 m-auto flex flex-col items-center mt-4 md:mt-12 mb-6 md:mb-10 text-rered tracking-tight">
             <h2 class="uppercase font-extrabold text-xl md:text-3xl mb-4 md:mb-8">{{ .Params.origine.title }}</h2>
-            <p class="">{{ .Params.origine.text_first }}</p>
-            <p class="mt-2">{{ .Params.origine.text_second }}</p>
+            <p class="text-center">{{ .Params.origine.text_first }}</p>
+            <p class="mt-2 text-center">{{ .Params.origine.text_second | markdownify }}</p>
         </div>
         <div class="w-full md:w-5/6 m-auto flex flex-col flex-wrap tracking-tight ">
             <div class="w-full flex flex-row flex-wrap">

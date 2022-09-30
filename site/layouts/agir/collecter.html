@@ -2,18 +2,13 @@
 <div>
     {{ partial "page-desc" . }}
     <div class="w-11/12 md:w-5/6 m-auto pb-4">
-        <div class="pt-8">
-            <div class="w-11/12 md:w-full flex flex-col items-center pt-8 pb-4 m-auto">
-                <h3 class="uppercase text-2xl font-extrabold text-rered mb-8">{{ .Params.title_block.title }}</h3>
-                <h4 class="bg-rered rounded-md py-2 px-8 uppercase text-xl font-semibold text-white">{{ .Params.title_block.pro_title }}</h4>
-                <p class="text-rered w-full rounded-lg py-6 mt-2 text-center tracking-tighter font-medium">
-                    {{ .Params.title_block.pro_text | markdownify }}
-                    <br/>
-                    <a class='underline' href='mailto:collectespro@regleselementaires.com'>collectespro@regleselementaires.com</a>
-                </p>
-                <h4 class="bg-rered rounded-md py-2 px-8 uppercase text-xl font-semibold text-white mt-10">{{ .Params.title_block.individual_title }}</h4>
-            </div>
+
+        <div class="w-11/12 md:w-full flex flex-col items-center pt-8 pb-4 m-auto">                
+            <p class="text-rered w-full rounded-lg py-6 text-center tracking-tighter font-medium collecte_step__text">
+                {{ .Params.steps_text | markdownify }}                    
+            </p>                
         </div>
+
         <div class="w-full mx-auto mb-8">
             <div class="flex flex-wrap justify-center">
                 {{ range .Params.steps }}

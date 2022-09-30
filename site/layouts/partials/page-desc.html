@@ -1,7 +1,7 @@
 <div class="bg-rered">
     <div class="w-full md:w-10/12 mx-auto page-desc--red">
       <div class="flex">
-        <div class="w-5/5 md:w-3/5 px-8 md:px-24 pt-8 pb-16 text-white tracking-tighter">
+        <div class="w-5/5 md:w-3/5 px-8 md:px-24 pt-6 pb-8 md:pb-12 text-white tracking-tighter">
           {{ partial "breadcrumb" . }}
           <h1 class="text-2xl md:text-4xl mb-8 uppercase font-extrabold">{{ .Title }}</h1>
           <div class="md:text-lg font-semibold mb-4">{{ .Params.intro.first }}</div>
@@ -17,16 +17,11 @@
           {{ with .Params.intro.hashtags }}
           <div class="font-bold text-lg uppercase mt-4">{{.}}</div>
           {{ end }}
-          {{if isset .Params "display_dons_desc"}}
-          <div class="pt-8 flex flex-row items-center justify-center">
-            <a class="big-white-button big-white-button--rounded"
-            href="/donner/dons-financiers/#haWidget" 
-            onclick="gtag('event', 'clicDonnerDonsFinanciers', {
-                'event_category': 'Dons Financiers',
-                'event_label': 'don_banner',
-                });">
-                FAIRE UN DON
-                <span class="rounded-full bg-rered text-white font-bold px-2 py-1 ml-1">€</span>
+          {{ with .Params.intro.button }}
+          <div class="mt-6 flex flex-row items-center">
+            <a class="bg-reorange text-white py-2 px-4 text-sm rounded-full uppercase"
+            href="{{ .link }}" target="_blank">
+                {{ .text }}
             </a>
           </div>
           {{end}}

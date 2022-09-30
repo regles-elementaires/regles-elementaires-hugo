@@ -9,14 +9,12 @@ menu:
     weight: 2
 illu: /img/page-collecte/illu_organiser_une_collecte.svg
 intro: 
-  first: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Organiser une collecte ce n’est pas seulement récolter des protections périodiques de première nécessité, c’est aussi briser le tabou autour des menstruations."
-  second: "Depuis la création de l’Association, plus de 2000 collectes ont eu lieu partout en France (et même ailleurs !) à l’initiative de personnes diverses et variées, à l’image de notre société : jeunes, moins jeunes, étudiant⸱es, salarié⸱es, employé⸱es, retraité⸱es, chef⸱fes d’entreprises, scouts, mairies, ministères, collectivités territoriales, supermarchés, festivals … Alors maintenant, c’est à votre tour : on compte sur vous pour vous lancer et changer les règles avec nous !"
-title_block:
-  title: "Organiser une collecte"
-  pro_title: "Entreprise et collectivité"
-  pro_text: "Vous êtes une <span class='font-semibold'>entreprise</span> ou <span class='font-semibold'>collectivité</span> et souhaitez organiser une ou plusieurs collectes, contactez-nous sur :"
-  individual_title: "Particulier : mode d'emploi"
-  individual_text: "Vous êtes un particulier, suivez les étapes ci-dessous :"
+  first: "Tout le monde peut organiser une collecte avec Règles Élémentaires. Depuis la création de l’association, plus de 2600 collectes ont eu lieu partout en France (et même ailleurs !). Qui que vous soyez, vous pouvez organiser une collecte ! Pour ça, rien de plus simple."
+  second: ""
+  button:
+    link: "https://collectes.regleselementaires.com/account/login"
+    text: "Je crée mon compte"
+steps_text: 'Particuliers, vous pouvez dès à présent créer votre <a href="https://collectes.regleselementaires.com/" target="_blank" onclick="gtag(''event'', ''clicOrganiserCollecte'', {''event_category'': ''Collecte'',''event_label'': ''bouton_step_2''});">espace collecte</a> en suivant le guide :'
 steps:
   - img: /img/page-collecte/etape-1.svg
     step: 1

@@ -16,7 +16,7 @@
                         {{.content | markdownify}}
                     </div>
                     {{ if ne .button.link ""}}
-                    <a class="ml-2 bg-rered text-white uppercase py-1.5 px-4 text-center rounded-full mt-6 mb-4 text-sm" href="{{.button.link}}">
+                    <a class="ml-2 bg-rered text-white uppercase py-1.5 px-4 text-center rounded-full mt-6 mb-4 text-sm" href="{{.button.link}}" {{if isset .button "target_blank"}} target="_blank" {{end}}}>
                         {{.button.text}}
                     </a>
                     {{end}}
@@ -33,7 +33,7 @@
                     <div class="ml-2 mt-4 text-white markdown tracking-tight font-medium">
                         {{.Params.rapport.content | markdownify}}
                     </div>
-                    <a class="ml-2 text-reorange uppercase py-1.5 px-4 text-center rounded-full mt-8 mb-4 text-sm" href="{{.Params.rapport.button.link}}" style="background-color: rgb(255, 245, 230);">
+                    <a class="ml-2 text-reorange uppercase py-1.5 px-4 text-center rounded-full mt-8 mb-4 text-sm" href="{{.Params.rapport.button.link}}" style="background-color: rgb(255, 245, 230);" target="_blank">
                         {{.Params.rapport.button.text}}
                     </a>
                 </div>

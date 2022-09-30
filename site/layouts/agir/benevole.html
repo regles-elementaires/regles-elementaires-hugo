@@ -1,5 +1,35 @@
 {{ define "main" }}
 <div>
     {{ partial "page-desc" . }}
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="md:w-1/2">
+                <h3 class="font-bold">{{ .Params.logistique.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.logistique.text | markdownify }}</p>
+            </div>
+            <div class="w-1/2 mt-4 md:mt-0 md:pl-12">
+                <img class="md:h-96 md:absolute" src="/img/page-benevole/benevole-1.png" alt="photo bénévole" />
+            </div>        
+        </div>
+    </div>
+    <div class="bg-rebeige">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="md:w-1/2">
+                <h3 class="font-bold">{{ .Params.sensibilisation.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.sensibilisation.text | markdownify }}</p>
+            </div>
+            <div class="w-1/2 mt-4 md:mt-0 md:pl-48">
+                <img class="md:h-96 md:absolute" src="/img/page-benevole/benevole-2.png" alt="photo bénévole" />
+            </div>               
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12">
+            <div class="md:w-1/2">
+                <h3 class="font-bold">{{ .Params.autre.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.autre.text | markdownify }}</p>
+            </div>            
+        </div>
+    </div>
 </div>
 {{ end }}

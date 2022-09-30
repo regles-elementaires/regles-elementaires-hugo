@@ -16,6 +16,7 @@ actions:
     button:
       link: "http://change.org/period-emoji"
       text: Signer la pétition
+      target_blank: true
     illu: /img/page-mobiliser/emoji.png
   - title: "Le décret pour la transparence de la composition des protections périodiques"
     content: >
@@ -30,6 +31,7 @@ actions:
     button:
       link: "https://doccollectes.blob.core.windows.net/statics/Barometre_2022_Regles_Elementaires_Opinion_Way.pdf"
       text: Lire l'étude complète
+      target_blank: true
     illu: /img/page-mobiliser/barometre.png
   - title: "Le premier festival by Règles Élémentaires : Sang Gêne"
     content: >
@@ -44,6 +46,7 @@ actions:
     button:
       link: "https://sangprogramme.regleselementaires.com/"
       text: Signer la tribune
+      target_blank: true
     illu: /img/page-mobiliser/tribune.png
   - title: "La gratuité pour les personnes incarcérées"
     content: >

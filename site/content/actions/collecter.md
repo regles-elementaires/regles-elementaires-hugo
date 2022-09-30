@@ -14,10 +14,13 @@ actions:
     btn_text: Organiser une collecte
     content: >
       En quelques clics, vous pouvez lutter concrètement contre la précarité menstruelle en organisant votre propre collecte !
-      Plus de 3000 collectes sont organisées sur tout le territoire, à vous de jouer !  
+      Plus de 3000 collectes sont organisées sur tout le territoire, à vous de jouer ! 
+    illu: /img/page-actions/collecte.jpg
   - title: La redistribution 
     btn_link: /agir/association/redistribuer
     btn_text: Devenir redistributeur
     content: >
-      Une fois les produits collectés, nous organisons de manière stratégique leur redistribution via nos associations partenaires sur tout le territoire ! Ainsi les collectes bénéficient à des associations qui agissent au local.    
+      Une fois les produits collectés, nous organisons de manière stratégique leur redistribution via nos associations partenaires sur tout le territoire ! Ainsi les collectes bénéficient à des associations qui agissent au local.  
+    illu: /img/page-actions/redistribution.jpg
+etapes_title: "La redistribution en 6 étapes"  
 ---
