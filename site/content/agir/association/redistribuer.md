@@ -9,6 +9,9 @@ menu:
 illu: /img/page-redistribuer/redistributeurs_intro.svg
 intro: 
     first: "Si vous accueillez des personnes en situation de précarité menstruelle, vous pouvez aussi devenir partenaire redistributeur. Le principe est simple : vous entrez en contact avec nous, vous nous faites part de vos besoins, et, en fonction, nous vous distribuons des dons que vous pouvez ensuite mettre à disposition de vos bénéficiaires."
+    button:
+      link: "https://partenaire.regleselementaires.com/account/login"
+      text: "Je deviens partenaire"
 steps:
   - img: /img/page-redistribuer/step1.svg
     step: 1

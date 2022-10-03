@@ -2,14 +2,14 @@
 <div>
     {{ partial "page-desc" . }}
 
-    <div class="p-8 bg-white">
-        <div class="w-full md:w-11/12 m-auto flex flex-col">
+    <div class="py-8 bg-white">
+        <div class="w-11/12 md:w-3/4 m-auto flex flex-col">
             <h2 class="text-center text-rered font-extrabold text-lg md:text-2xl mb-4 md:mb-8">
                 {{ .Params.actions_title }}
             </h2>
 
             {{ range $elem_index, $elem_val := .Params.actions }}
-            <div class="w-full md:w-4/5 mx-auto bg-rebeige rounded-xl flex flex-row flex-wrap mb-4">
+            <div class="w-full mx-auto bg-rebeige rounded-xl flex flex-row flex-wrap mb-4">
                 <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
                     {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
                     <div class="ml-2 mt-4 text-rered markdown tracking-tight font-medium">
@@ -27,7 +27,7 @@
             </div>
             {{end}}
 
-            <div class="w-full md:w-4/5 mx-auto bg-reorange rounded-xl flex flex-row flex-wrap mb-4">
+            <div class="w-full mx-auto bg-reorange rounded-xl flex flex-row flex-wrap mb-4">
                 <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
                     {{ partial "projet/big-title-white" (dict "title" .Params.rapport.title "size" "2xl") }}
                     <div class="ml-2 mt-4 text-white markdown tracking-tight font-medium">

@@ -1,5 +1,5 @@
 ---
-title: Ils nous soutiennent
+title: Nos soutiens
 date: 2019-12-06T13:48:10+01:00
 layout: soutiens
 menu:

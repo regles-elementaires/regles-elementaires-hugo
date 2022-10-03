@@ -51,9 +51,9 @@ disableKinds = ["RSS"]
     parent = "entreprise"
     weight = 1
   [[menu.main]]
-    identifier = "se-former-entreprise"
-    name = "Se Former"
-    url = "/agir/entreprise/#se-former"
+    identifier = "sensibiliser-entreprise"
+    name = "Sensibiliser"
+    url = "/agir/entreprise/#sensibiliser"
     parent = "entreprise"
     weight = 2
   [[menu.main]]
@@ -81,15 +81,15 @@ disableKinds = ["RSS"]
     parent = "collectivite"
     weight = 1
   [[menu.main]]
-    identifier = "se-former-collectivite"
-    name = "Se Former"
-    url = "/agir/collectivite/#se-former"
+    identifier = "sensibiliser-collectivite"
+    name = "Sensibiliser"
+    url = "/agir/collectivite/#sensibiliser"
     parent = "collectivite"
     weight = 2
   [[menu.main]]
-    identifier = "informer-collectivite"
-    name = "Informer"
-    url = "/agir/collectivite/#informer"
+    identifier = "subventionner-collectivite"
+    name = "Subventionner"
+    url = "/agir/collectivite/#subventionner"
     parent = "collectivite"
     weight = 3
   [[menu.main]]
