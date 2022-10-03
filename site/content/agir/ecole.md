@@ -2,8 +2,40 @@
 title: Etablissement scolaire
 layout: ecole
 menu:
-    main:
-        parent: agir
-        weight: 4
-        identifier: ecole
+  main:
+    parent: agir
+    weight: 4
+    identifier: ecole
+illu: /img/page-ecole/illu_ecole.svg
+intro:
+  first: "Vous souhaitez #changerlesrègles dans votre établissement scolaire ? Nous proposons de vous accompagner et de trouver ensemble la ou les actions les plus adaptées, un jeu d'enfant !"
+collecter:
+  title: Collecter
+  text: "Vous souhaitez sensibiliser élèves et personnels de votre établissement à la précarité menstruelle ? Organiser une collecte pour lever les tabous sur les règles ?"
+  btn_text: Contactez-nous
+sensibiliser_title: Sensibiliser
+actions:
+  - title: Changer les règles avec les élèves
+    btn_link: 
+    btn_text: Voir la brochure
+    target_blank: true
+    content: >
+      <span class='font-bold'>Atelier “classique” (collège-lycée)</span>
+      <br/><br/>
+      En 1h30, nous abordons le tabou des règles et son histoire, la définition et le processus physiologique des règles, les bons gestes à adopter pendant ses règles, et la précarité menstruelle. Cet atelier est idéal pour amorcer une dynamique de changement et de réflexion autour des règles. Il est adapté en fonction des niveaux, de la 6ème à la Terminale.
+    illu: /img/page-ecole/eleves.jpg
+  - title: Former les adultes référents
+    btn_link: 
+    btn_text: Voir la brochure
+    target_blank: true
+    content: >
+      Parfois, pour libérer la parole au sujet des règles et de la puberté, il suffit simplement que les adultes référents aient quelques connaissances sur le sujet. Afin de faciliter la mise en place d’un climat bienveillant pour les personnes qui ont leurs règles, nous proposons des temps de formation à destination des enseignant·es, des AED, des personnels administratif, et de toutes les personnes en contact quotidien avec les élèves.
+    illu: /img/page-ecole/adultes.jpg
+projects:
+  - title: Projets pilotes <br/> Éducation par les pairs (collège-lycée)
+    text: "Afin d’ancrer des dynamiques de changement durable, il est nécessaire de pouvoir faciliter la parole sur les règles dans tous les contextes. Le cycle d’ateliers “éducation par les pairs” promeut la santé menstruelle en donnant tous les outils aux jeunes pour s’emparer des sujets qui les intéressent et devenir elles et eux mêmes acteurs et actrices de la prévention. Chaque cycle comprend au moins dix sessions d’une heure."
+    btn_text: Contactez-nous
+  - title: Ateliers cours moyen
+    text: "Règles Élémentaires propose des temps de sensibilisation au corps, à la puberté et aux règles, dès le cours moyen (CM1-CM2), afin de permettre aux jeunes d’avoir toutes les informations dont ils ont besoin pour comprendre leur corps et son fonctionnement. Répartis en 3 sessions de 45 minutes, cet atelier aborde la physiologie, la formulation des sensations, la connaissance des organes, la puberté et les règles."
+    btn_text: Contactez-nous
 ---

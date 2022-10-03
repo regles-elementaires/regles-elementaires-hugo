@@ -18,13 +18,13 @@ actions:
       big: Près de 100% des 16-19 ans 
       small: sont favorables à un enseignement menstruel
     illu: /img/page-actions/ecole.jpg
-  - title: auprès des personnes bénéficiaires des protections
+  - title: Auprès des personnes bénéficiaires des protections
     btn_link: /agir/association/sensibiliser
     btn_text: En savoir plus
     content: >
       Afin d’enrayer le cercle vicieux de la précarité menstruelle, nous organisons des ateliers avec les personnes bénéficiaires de nos protections. Ces ateliers s’adressent à des personnes hébergées dans des structures médico-sociales, soutenues par des associations de lutte contre la précarité et le mal-logement, incarcérées dans des centres pénitentiaires ou toute autre situation de vulnérabilité / marginalisation. Nous intervenons principalement auprès des personnes en âge d’avoir leurs règles, francophones et allophones, ayant un accès régulier à un point d’eau.
     illu: /img/page-actions/beneficiaires.jpg
-  - title: auprès du grand public
+  - title: Auprès du grand public
     btn_link: ""
     btn_text: ""
     content: >
