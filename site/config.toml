@@ -93,14 +93,20 @@ disableKinds = ["RSS"]
     parent = "collectivite"
     weight = 3
   [[menu.main]]
-    identifier = "ateliers"
-    name = "Ateliers"
-    url = "/agir/ecole/#ateliers"
-    parent = "ecole"
-    weight = 1
-  [[menu.main]]
     identifier = "collecter-ecole"
     name = "Collecter"
     url = "/agir/ecole/#collecter"
     parent = "ecole"
+    weight = 1
+  [[menu.main]]
+    identifier = "colleges"
+    name = "Collèges et Lycées"
+    url = "/agir/ecole/#colleges"
+    parent = "ecole"
     weight = 2
+  [[menu.main]]
+    identifier = "universites"
+    name = "Universités"
+    url = "/agir/ecole/#universites"
+    parent = "ecole"
+    weight = 3
