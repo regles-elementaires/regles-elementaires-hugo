@@ -13,7 +13,7 @@ collecter:
   title: Collecter
   text: "Vous souhaitez sensibiliser élèves et personnels de votre établissement à la précarité menstruelle ? Organiser une collecte pour lever les tabous sur les règles ?"
   btn_text: Contactez-nous
-sensibiliser_title: Sensibiliser
+college_title: Collèges et lycées
 actions:
   - title: Changer les règles avec les élèves
     btn_link: 
@@ -38,4 +38,19 @@ projects:
   - title: Ateliers cours moyen
     text: "Règles Élémentaires propose des temps de sensibilisation au corps, à la puberté et aux règles, dès le cours moyen (CM1-CM2), afin de permettre aux jeunes d’avoir toutes les informations dont ils ont besoin pour comprendre leur corps et son fonctionnement. Répartis en 3 sessions de 45 minutes, cet atelier aborde la physiologie, la formulation des sensations, la connaissance des organes, la puberté et les règles."
     btn_text: Contactez-nous
+universite_title: Universités
+actions_univ:
+  - title: Ateliers thématiques autour des règles
+    btn_link: 
+    btn_text: Voir la brochure
+    target_blank: true
+    content: >
+      Afin d’accompagner la mise à disposition de protections gratuites dans les universités, Règles Élémentaires propose divers ateliers de sensibilisation. Nous abordons des sujets variés tels que : règles et santé menstruelle, règles et écologie, les règles dans l'Histoire. Si vous aussi, vous souhaitez donner accès à plus de connaissances sur les règles dans votre établissement, contactez-nous.
+    illu: /img/page-ecole/ateliers_univ.jpg
+  - title: Organiser une table ronde ou un événement
+    btn_link: mailto:contact@regleselementaires.com
+    btn_text: Contactez-nous
+    content: >
+      Règles Élémentaires intervient lors des rentrées étudiantes, des semaines thématiques, ou lors de conférences. Pour plus d'informations :
+    illu: /img/page-ecole/event.jpg
 ---

@@ -12,6 +12,11 @@ intro:
 collecter:
   title: Collecter
   text: "La collecte de protections périodiques est un bon moyen d'initier le sujet des règles. Nous vous proposons plusieurs formats qui peuvent s'adapter à vos besoins : la collecte permanente ou ponctuelle. Les produits sont ensuite redistribués au local, à des associations au contact des bénéficiaires."
+  offer:
+    text: "Bénéficiez d’une <span class='font-semibold'>offre spéciale entreprise</span> qui s’adapte à vos besoins : collecte, formation, sensibilisation."
+    button:
+      text: "Nous contacter"
+      link: mailto:collectespro@regleselementaires.com
 sensibiliser:
   title: Sensibiliser
   text: "Pour accompagner l’organisation de collectes, ou l’installation de distributeurs de produits périodiques, Règles Élémentaires à développé des formations spécialement pensées pour les collectivités. Ainsi, chaque agent·e territorial, et chaque personne en contact avec le public a les outils pour répondre aux besoins liés aux règles."

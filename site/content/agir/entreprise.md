@@ -16,7 +16,7 @@ collecter:
         text: "Bénéficiez d’une <span class='font-semibold'>offre spéciale entreprise</span> qui s’adapte à vos besoins : collecte, formation, sensibilisation."
         button:
             text: "Nous contacter"
-            link: ""
+            link: mailto:collectespro@regleselementaires.com
         illu: /img/page-entreprise/boite-don.svg
 sensibiliser:
     title: Sensibiliser
