@@ -180,6 +180,68 @@
   @apply border-b-2;
 }
 
+#mobile-nav {
+  right: -100%;
+  transition: 0.5s ease;
+}
+
+#mobile-nav ul li.has-mobile-submenu ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#mobile-nav ul li.has-mobile-submenu ul li.has-mobile-subsubmenu ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#mobile-nav ul li ul li {
+  white-space: nowrap;
+}
+
+.btn-back, .btn-back-submenu {
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  display: none;
+}
+
+.btn-back.show, .btn-back-submenu.show {
+  display: block;
+}
+
+#mobile-nav ul {
+  transition: 0.5s ease
+}
+
+#mobile-nav ul.slideOut {
+  transform: translateX(-100%)
+}
+
+#mobile-nav ul.slideFarOut {
+  transform: translateX(-200%)
+}
+
+#mobile-nav ul li.has-mobile-submenu ul.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#mobile-nav ul li.has-mobile-submenu ul li.has-mobile-subsubmenu ul.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#mobile-nav.slideIn {
+  right: 0;
+}
+
 
 /*
 === HEADER ===
