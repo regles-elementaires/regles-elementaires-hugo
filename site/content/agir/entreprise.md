@@ -24,7 +24,7 @@ sensibiliser:
     Règles Élémentaires vous propose des formations sur la prise en charge des règles en entreprise. Voici un aperçu du programme :"
     button:
         text: "En savoir plus"
-        link: ""
+        link: https://doccollectes.blob.core.windows.net/statics/offre_entreprise.pdf
     illu: /img/page-entreprise/sensibiliser.png
 don:
     title: Dons de marques et fabricants
@@ -40,7 +40,4 @@ mecenat:
     competence:
         title: Compétences
         text: "Vous pouvez également contribuer à #changerlesregles en donnant de votre temps, nous sommes toujours à la recherche de nouvelles compétences pour nous aider à accomplir nos missions. En mettant vos compétences au service de Règles Élémentaires vous avez un impact concret sur le monde dans lequel nous vivons."
-    button:
-        text: "En savoir plus"
-        link: ""
 ---

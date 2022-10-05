@@ -8,7 +8,7 @@ menu:
     identifier: ecole
 illu: /img/page-ecole/illu_ecole.svg
 intro:
-  first: "Vous souhaitez #changerlesrègles dans votre établissement scolaire ? Nous proposons de vous accompagner et de trouver ensemble la ou les actions les plus adaptées, un jeu d'enfant !"
+  first: "#changerlesregles ça commence aussi par sensibiliser les jeunes générations aux enjeux et conséquences des règles ! C’est pour cela que nous intervenons dès l’école primaire, en collèges, lycées mais aussi en écoles et universités en proposant des actions adaptées aux besoins des élèves ou étudiant·es."
 collecter:
   title: Collecter
   text: "Vous souhaitez sensibiliser élèves et personnels de votre établissement à la précarité menstruelle ? Organiser une collecte pour lever les tabous sur les règles ?"
@@ -16,7 +16,7 @@ collecter:
 college_title: Collèges et lycées
 actions:
   - title: Changer les règles avec les élèves
-    btn_link: 
+    btn_link: https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_scolaires.pdf
     btn_text: Voir la brochure
     target_blank: true
     content: >
@@ -25,8 +25,7 @@ actions:
       En 1h30, nous abordons le tabou des règles et son histoire, la définition et le processus physiologique des règles, les bons gestes à adopter pendant ses règles, et la précarité menstruelle. Cet atelier est idéal pour amorcer une dynamique de changement et de réflexion autour des règles. Il est adapté en fonction des niveaux, de la 6ème à la Terminale.
     illu: /img/page-ecole/eleves.jpg
   - title: Former les adultes référents
-    btn_link: 
-    btn_text: Voir la brochure
+    btn_link: ""
     target_blank: true
     content: >
       Parfois, pour libérer la parole au sujet des règles et de la puberté, il suffit simplement que les adultes référents aient quelques connaissances sur le sujet. Afin de faciliter la mise en place d’un climat bienveillant pour les personnes qui ont leurs règles, nous proposons des temps de formation à destination des enseignant·es, des AED, des personnels administratif, et de toutes les personnes en contact quotidien avec les élèves.
@@ -41,7 +40,7 @@ projects:
 universite_title: Universités
 actions_univ:
   - title: Ateliers thématiques autour des règles
-    btn_link: 
+    btn_link: https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_etudiant.es.pdf
     btn_text: Voir la brochure
     target_blank: true
     content: >

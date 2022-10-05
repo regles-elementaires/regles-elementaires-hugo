@@ -14,7 +14,7 @@
                     </div>
                     <div class="w-full md:w-3/4 flex flex-col items-center justify-center">
                         <p class="text-center">{{ .Params.collecter.offer.text | markdownify }}</p>
-                        <a class="text-center underline uppercase underline-offset-4 mt-2" href="">Consulter l'offre</a>
+                        <a class="text-reorange mt-4 uppercase py-1.5 px-4 text-center rounded-full text-sm" href="https://doccollectes.blob.core.windows.net/statics/offre_entreprise.pdf" style="background-color: rgb(255, 245, 230);" target="_blank">Consulter l'offre</a>
                         <a class="bg-rered rounded-full py-1 px-4 uppercase mt-4" href="{{ .Params.collecter.offer.button.link }}">
                             {{ .Params.collecter.offer.button.text }}
                         </a>
@@ -28,7 +28,7 @@
             <div class="w-full md:w-1/2 flex flex-col items-start">
                 <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.sensibiliser.title }}</h3>
                 <p class="mt-4 tracking-tighter">{{ .Params.sensibiliser.text | markdownify }}</p>
-                <a class="bg-rered rounded-full py-1.5 px-6 uppercase mt-4 md:mt-8 text-white" href="{{ .Params.sensibiliser.button.link }}">
+                <a class="bg-rered rounded-full py-1.5 px-6 uppercase mt-4 md:mt-8 text-white" href="{{ .Params.sensibiliser.button.link }}" target="_blank">
                     {{ .Params.sensibiliser.button.text }}
                 </a>
             </div>
@@ -56,12 +56,9 @@
                 <p class="mt-4 tracking-tighter">{{ .Params.mecenat.don.text | markdownify }}</p>
                 <h4 class="font-bold mt-4">{{ .Params.mecenat.competence.title }}</h4>
                 <p class="mt-4 tracking-tighter">{{ .Params.mecenat.competence.text | markdownify }}</p>
-                <a class="bg-rered rounded-full py-1.5 px-6 uppercase mt-4 md:mt-8 text-white" href="{{ .Params.mecenat.button.link }}">
-                    {{ .Params.mecenat.button.text }}
-                </a>
             </div>
             <div class="w-full md:w-1/2 mt-4 md:mt-0 flex justify-center items-center">
-                <img class="max-h-48 md:max-h-80" src="{{ .Params.don.illu }}" alt="photo mecenat entreprise" />
+                <!--<img class="max-h-48 md:max-h-80" src="{{ .Params.don.illu }}" alt="photo mecenat entreprise" />-->
             </div>                
         </div>
     </div>

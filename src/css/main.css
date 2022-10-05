@@ -180,9 +180,14 @@
   @apply border-b-2;
 }
 
+/*#nav {
+  overflow-x: hidden;
+}*/
+
 #mobile-nav {
   right: -100%;
   transition: 0.5s ease;
+  overflow-x: hidden;
 }
 
 #mobile-nav ul li.has-mobile-submenu ul {
