@@ -7,9 +7,9 @@ menu:
     name: Devenir Bénévole
     parent: particulier
     weight: 3
-illu: 
+illu: img/page-benevole/illu-benevole.svg
 intro:
-  first: ""
+  first: "Sandrine au volant, Clothilde faisant des inventaires, Henri au contact des associations bénéficiaires de nos dons, nos bénévoles nous épaulent et nous permettent de #changerlesregles au quotidien ! Véritables piliers de l’association, nos activités quotidiennes et notre rayonnement ne pourraient pas se faire sans elleux. Que ce soit de quelques heures à quelques jours par mois, toute l’aide qu’on peut avoir est précieuse !" 
 logistique:
   title: Aider à la logistique
   text: "Vous vivez à Paris, Lyon, Strasbourg, Marseille, Toulouse, Nantes, Mayotte  Vous avez un permis de conduire (voire un véhicule) ? Une après-midi de libre régulièrement ? Vous pouvez nous aider en redistribuant les protections collectées à des associations partenaires.<br/>
