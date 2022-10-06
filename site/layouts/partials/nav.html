@@ -77,7 +77,11 @@
 			</div>
 		</div>
 		<span class="hidden md:flex bg-reorange text-white menu-item don-menu">
-			<a href="don/don-financier" class="flex items-center px-4">
+			<a href="don/don-financier" class="flex items-center px-4"
+			onclick="gtag('event', 'clicDonnerDonFinancier', {
+				'event_category': 'Don Financier',
+				'event_label': 'don_nav_desktop',
+				});">
 				<img src="/img/menu/jefaisundon.svg" alt="je fais un don" />
 			</a>
 		</span>
@@ -149,7 +153,11 @@
 				</li>
 			{{ end }}
 			<li class="flex justify-center mt-6" tabindex="0">
-				<a href="don/don-financier" class="bg-reorange rounded-full text-white font-bold py-1 px-4 uppercase focus:outline-none">
+				<a href="don/don-financier" class="bg-reorange rounded-full text-white font-bold py-1 px-4 uppercase focus:outline-none" 
+				onclick="gtag('event', 'clicDonnerDonFinancier', {
+					'event_category': 'Don Financier',
+					'event_label': 'don_nav_mobile',
+					});">
 					Faire un don
 				</a>
 			</li>			
