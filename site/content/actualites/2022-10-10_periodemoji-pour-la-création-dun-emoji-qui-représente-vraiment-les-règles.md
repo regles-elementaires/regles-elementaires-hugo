@@ -16,7 +16,7 @@ Parler de règles et les représenter est une urgence absolue.** 
 
 
 
-Pourtant, on manque encore d’outils pour parler de règles. Saviez-vous que 80% des Français·es déclarent utiliser les emojis dans leurs conversations quotidiennes ? Saviez-vous que vous avez la possibilité de choisir entre 20 emojis cœurs différents mais que vous n'avez seulement qu'une goutte de sang pour parler de règles ? 
+Pourtant, on manque encore d’outils pour en parler. Saviez-vous que 80% des Français·es déclarent utiliser les emojis dans leurs conversations quotidiennes ? Saviez-vous que vous avez la possibilité de choisir entre 20 emojis cœurs différents mais que vous n'avez seulement qu'une goutte de sang pour parler de règles ? 
 
 Bon, c’est déjà une avancée en soi. Parce que oui, c’est grâce à la mobilisation de Plan International UK que nous avons eu droit en 2019 à l’intégration à nos claviers de smartphone d’une petite goutte de sang censée représenter officiellement les règles. Mouais, pas convaincu·es par ici. On peut faire mieux.
 
@@ -28,7 +28,7 @@ Nous avons besoin de la mobilisation de tous·tes. On se donne 1 mois, du 11 oct
 
 Nous n’allons bien évidemment pas vous laisser repartir les mains vides, on vous met à disposition un kit de communication avec des visuels clé en main pour vous approprier la campagne et partager à un maximum de personnes la pétition.
 
-[je télécharge le kit ](https://doccollectes.blob.core.windows.net/statics/periodemoji.zip)
+**[je télécharge le kit ](https://doccollectes.blob.core.windows.net/statics/periodemoji.zip)**
 
 MERCI ! le futur de nos claviers de smartphone et des règles est entre vos mains !
 
