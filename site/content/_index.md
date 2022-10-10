@@ -13,7 +13,7 @@ numbers:
         text: "Personnes sensibilisées lors de nos ateliers et évènements"
     third:
         number: "900 000"
-        text: "Cycles couverts pour des femmes en situation de précarité menstruelle"
+        text: "Mois de règles couverts pour des femmes en situation de précarité menstruelle"
 actions:
     title: "Nos actions"
     collecter_title: "Collecter &<br/>Redistribuer"
