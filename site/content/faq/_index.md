@@ -111,7 +111,7 @@ categories:
       - id: soutenir-1
         question: Puis-je faire un don financier ?
         answer: "Règles Élémentaires a cette chance de pouvoir compter sur de généreux·ses donateur·rices grâce auxquels nous pouvons rester indépendant·es.<br/>  
-        Pour faire un don à Règles Élémentaires, le plus simple est de le faire via notre <a href=\"/don/don-financier/#haWidget\" onclick=\"gtag('event', 'clicDonnerDonFinancier', {'event_category': 'Don Financier','event_label': 'don_faq'});\">formulaire de don</a>.<br/><br/>
+        Pour faire un don à Règles Élémentaires, le plus simple est de le faire via notre <a href=\"https://regleselementaires.don-en-ligne.com/\" onclick=\"gtag('event', 'clicDonnerDonFinancier', {'event_category': 'Don Financier','event_label': 'don_faq'});\">formulaire de don</a>.<br/><br/>
 
         Nous acceptons également les virements. 
         Voici l’IBAN de notre association :  FR76 1027 8060 4500 0211 8560 110<br/><br/>
@@ -124,5 +124,5 @@ categories:
         75006 Paris"
       - id: soutenir-2
         question: Comment mettre fin à un don mensualisé ?
-        answer: "Pour mettre fin à un don mensualisé, veuillez vous référer au <a href=\"https://centredaide.helloasso.com/s/article/comment-arreter-mon-prelevement-mensuel\" target=\"_blank\">centre d’aide  HelloAsso</a>. "
+        answer: "Pour mettre fin à un don mensualisé, veuillez vous référer au <a href=\"https://centredaide.helloasso.com/s/article/comment-arreter-mon-prelevement-mensuel\" target=\"_blank\">centre d’aide HelloAsso</a>. "
 ---

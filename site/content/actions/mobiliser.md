@@ -14,7 +14,7 @@ actions:
     content: >
       Pour que ça existe, il faut le montrer. Parce qu'il manque encore terriblement de représentations explicites des règles, à l’occasion du 11 octobre, journée internationale de la fille, on a décidé de lancer une grande mobilisation : une pétition pour demander la création du premier emoji qui représente VRAIMENT les règles.
     button:
-      link: "http://periodemoji.org/"
+      link: "https://www.change.org/p/pour-un-emoji-qui-brise-enfin-le-tabou-des-r%C3%A8gles"
       text: Signer la pétition
       target_blank: true
     illu: /img/page-mobiliser/emoji.png
