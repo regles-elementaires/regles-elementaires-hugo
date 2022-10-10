@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div>
+    {{ partial "page-desc" . }}
+
+    <div class="py-8 bg-white">
+        <div class="w-11/12 md:w-3/4 m-auto flex flex-col">
+            <h2 class="text-center text-rered font-extrabold text-lg md:text-2xl mb-4 md:mb-8">
+                {{ .Params.actions_title }}
+            </h2>
+
+            {{ range $elem_index, $elem_val := .Params.actions }}
+            <div class="w-full mx-auto bg-rebeige rounded-xl flex flex-row flex-wrap mb-4">
+                <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
+                    {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
+                    <div class="ml-2 mt-4 text-rered markdown tracking-tight font-medium">
+                        {{.content | markdownify}}
+                    </div>
+                    {{ if ne .button.link ""}}
+                    <a class="ml-2 bg-rered text-white uppercase py-1.5 px-4 text-center rounded-full mt-6 mb-4 text-sm" href="{{.button.link}}" {{if isset .button "target_blank"}} target="_blank" {{end}}}>
+                        {{.button.text}}
+                    </a>
+                    {{end}}
+                </div>
+                <div class="w-full md:w-2/5 flex justify-center items-center pb-4">
+                    <img class="max-h-48 md:max-h-80" src="{{.illu}}" alt="illu {{.title}}" />
+                </div>
+            </div>
+            {{end}}
+
+            <div class="w-full mx-auto bg-reorange rounded-xl flex flex-row flex-wrap mb-4">
+                <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
+                    {{ partial "projet/big-title-white" (dict "title" .Params.rapport.title "size" "2xl") }}
+                    <div class="ml-2 mt-4 text-white markdown tracking-tight font-medium">
+                        {{.Params.rapport.content | markdownify}}
+                    </div>
+                    <a class="ml-2 text-reorange uppercase py-1.5 px-4 text-center rounded-full mt-8 mb-4 text-sm" href="{{.Params.rapport.button.link}}" style="background-color: rgb(255, 245, 230);" target="_blank">
+                        {{.Params.rapport.button.text}}
+                    </a>
+                </div>
+                <div class="w-full md:w-2/5 flex justify-center items-center pb-4">
+                    <img src="{{.Params.rapport.illu}}" alt="illu {{.Params.rapport.title}}" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+{{ end }}

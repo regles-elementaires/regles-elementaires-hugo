@@ -1,12 +1,12 @@
 <footer class="">
 	{{ partial "newsletter" . }}
 	<div class="bg-rebeige">
-		<div class="container flex flex-col md:flex-row">
+		<div class="w-full md:w-11/12 mx-auto flex flex-col md:flex-row">
 			<div class="w-full md:w-2/5 md:ml-16 md:p-8 py-4 px-4 md:flex md:justify-end">
 				<div class="w-11/12 md:w-full mx-auto">
 					<div class="flex flex-col items-center text-center text-rered mt-4 md:mt-0 mb-4 bg-white rounded-lg py-8 px-8">
-						<p class="tracking-tighter">
-							Vous cherchez un lieu où donner des produits ? Vous ne savez pas quels produits il est possible de donner ? Vous voulez organiser une collecte ? Avant de nous contacter, merci de consulter au préalable notre
+						<p class="tracking-tighter text-sm md:text-base">
+							Une question sur l’organisation d’une collecte, sur la redistribution, ou un partenariat ? Merci de consulter au préalable notre
 						</p>
 						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-reorange" href="/faq/"
 						onclick="gtag('event', 'clicFAQ', {
@@ -38,48 +38,26 @@
 			</div>
 		</div>
 	</div>
-	<div class="container flex flex-row flex-wrap w-11/12 justify-between">
-		<div class="w-full md:w-3/5 m-auto text-rered p-4 text-sm">
-			Copyright © 2021 <span class="font-semibold">Règles Élémentaires</span> - Tous droits réservés.<br/>
-			Règles Élémentaires est une association loi 1901 qui aide les plus démunies à rester dignes.<br/>
-			Design par le <a class="hover:underline font-semibold" href="https://www.studio-clairvoyant.com/" target="_blank">Studio Clairvoyant</a>.
-			Développement par Adrien Trauth et Bastien Germain.
+	<div class="flex flex-row flex-wrap w-full justify-center py-6">
+		<div class="w-11/12 md:w-1/3 flex flex-wrap justify-center md:justify-between">
+			<a class="bg-reorange text-white py-2 px-4 rounded-full uppercase font-semibold mb-4 md:mb-0" href="https://collectes.regleselementaires.com/" target="_blank">
+				Espace Collectes
+			</a>
+			<a class="bg-reorange text-white py-2 px-4 rounded-full uppercase font-semibold" href="https://partenaire.regleselementaires.com" target="_blank">
+				Espace Partenaire
+			</a>
 		</div>
-		<div class="w-full md:w-2/5 px-8 pb-8 md:pt-8">
-            <div class="flex flex-row flex-wrap justify-end pt-2">
-                <a href="https://www.facebook.com/regleselementaires/" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'facebook_footer',
-                });">
-                    <img src="/img/social/facebook-red.svg" class="h-10 rounded-full" alt="facebook link"/>
-                </a>
-                <a href="https://twitter.com/RElementaires" target="_blank"
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'twitter_footer',
-                });">
-                    <img src="/img/social/twitter-red.svg" class="h-10 rounded-full" alt="twitter link"/>
-                </a>
-                <a href="https://www.instagram.com/regleselementaires/" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'insta_footer',
-                });">
-                    <img src="/img/social/insta-red.svg" class="h-10 rounded-full" alt="instagram link"/>
-                </a>
-                <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'linkedin_footer',
-                });">
-                    <img src="/img/social/linkedin-red.svg" class="h-10 rounded-full" alt="linkedin link"/>
-                </a>
-            </div>
-        </div>
+		
 	</div>
-	<div class="w-full bg-reorange flex flex-row justify-center py-2">
+	<div class="w-full bg-reorange flex flex-row justify-center py-6">
 		<h1 class="title-with-shadow text-2xl md:text-3xl title-shadow-sm">#CHANGERLESRÈGLES</h1>
 	</div>
-
+	<div class="container flex flex-row flex-wrap w-11/12 justify-between">
+		<div class="w-full md:w-3/5 m-auto text-rered p-4 text-sm text-center">
+			Copyright © 2022 <span class="font-semibold">Règles Élémentaires</span> - Tous droits réservés.<br/>
+			Règles Élémentaires est une association loi 1901 qui lutte contre la précarité menstruelle et le tabou des règles.<br/>
+			Design par le <a class="hover:underline font-semibold" href="https://www.studio-clairvoyant.com/" target="_blank">Studio Clairvoyant</a>.
+			Développement par Bastien Germain.
+		</div>
+	</div>
 </footer>

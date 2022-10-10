@@ -1,0 +1,29 @@
+<div class="w-full my-6 flex flex-row flex-wrap">
+    <div class="hidden md:flex w-full md:w-1/2">
+        <a href="{{ .Permalink }}">
+            <img class="object-cover w-full h-full rounded-l-xl" src="{{.Params.illu}}" alt=""/>
+        </a>
+     </div>
+    <div class="w-full md:w-1/2 bg-white flex flex-col justify-center flex-wrap p-4 md:p-6 rounded-xl md:rounded-l-none md:rounded-r-xl">
+        <div class="w-full flex flex-col tracking-tight">
+            <div class="w-full md:px-8 py-4">
+                <h2 class="md:text-xl text-center text-rered uppercase font-bold">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                <p class="text-xs text-center md:text-base text-rered font-light mt-4">
+                    <span>le {{dateFormat "02.01.2006" .Params.date}}</span>
+                </p>
+            </div>
+        </div>
+        <div class="border-t-2 border-rered text-center mx-4">
+            <div class="text-rered p-4 tracking-tighter border-none text-sm md:text-base">
+                {{ .Params.intro | markdownify }}
+            </div>
+            <p class="my-2 md:my-4 py-2">
+                <a class="py-2 bg-rered rounded-full text-white uppercase px-8 text-sm md:text-base font-medium hover:bg-reorange" href="{{ .Permalink }}">
+                    lire la suite
+                </a>
+            </p>
+        </div>
+    </div>    
+</div>

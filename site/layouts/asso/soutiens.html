@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div>
+    {{ partial "page-desc" . }}
+    <div class="py-8 bg-white">
+        {{ partial "projet/partenaire-type" (dict "page" .Params.financiers "data" .Site.Data.partenaires)}}
+    </div>
+    <div class="py-8 bg-rebeige">
+        {{ partial "projet/partenaire-type" (dict "page" .Params.industriels "data" .Site.Data.partenaires)}}
+    </div>
+    <div class="py-8 bg-white">
+        {{ partial "projet/partenaire-type" (dict "page" .Params.institutionnels "data" .Site.Data.partenaires)}}
+    </div>    
+    <div class="py-8 bg-rebeige">
+        {{ partial "projet/partenaire-type" (dict "page" .Params.autres "data" .Site.Data.partenaires)}}
+    </div>
+    
+<script>
+    function displayAllPartners(button) {
+        const carousel_id = "carousel-" + button.dataset.type;
+        const list_id = "full-" + button.dataset.type + "-list";
+        document.getElementById(carousel_id).parentNode.classList.add("hidden");
+        button.parentNode.classList.add("hidden");
+        document.getElementById(list_id).classList.remove("h-0", "opacity-0", "hidden");
+        document.getElementById(list_id).classList.add("py-8");
+    }
+</script>
+
+</div>
+{{ end }}

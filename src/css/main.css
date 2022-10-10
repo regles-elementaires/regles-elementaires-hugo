@@ -76,6 +76,9 @@
   @apply text-2xl text-white uppercase font-bold;
 }
 
+.title {
+  @apply uppercase font-bold text-white;
+}
 .title-with-shadow {
   @apply uppercase font-bold text-white;
 }
@@ -93,46 +96,66 @@
 === NAV ===
 */
 .menu-item-space {
-  @apply px-2 pb-2 text-base cursor-pointer;
+  @apply mx-2 mb-2 text-base cursor-pointer;
 }
 .menu-item-space a {
   @apply pb-2 pt-2;
 }
-.menu-item--hover:hover {
-  @apply underline;
+
+.menu-item-space a svg {
+  fill: #FF9A00;
 }
-@screen sm {
-  .menu-item--hover:hover {
-    @apply border-b-2 border-rered no-underline;
-  }
+
+.menu-item--hover:hover svg{
+  fill: #FFF;
 }
+
 @screen lg {
   .menu-item-space {
-    @apply pt-2 pb-0 px-2;
+    @apply mt-2 mb-0 mx-2;
   }
 }
-.sub-menu-item {
-  @apply px-3 uppercase whitespace-nowrap;
-}
-.sub-menu-item:hover a {
-  @apply border-b-2;
+
+.don-menu {
+  margin: -0.5rem 0;
 }
 
 /* Hover nav */
 
+.hover-nav a {
+  @apply pb-0 pt-0;
+}
+
 .hover-nav {
+  display: none;
+  min-width: 130%;
+  white-space: nowrap;
+}
+
+.hover-nav:hover, .menu-item--hover:hover ~ .hover-nav {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  left: -2rem;
+}
+
+.hover-sub-nav {
   display: none;
   width: auto;
   white-space: nowrap;
 }
 
-.hover-nav:hover, .menu-item--hover:hover ~ .hover-nav {
+.hover-sub-nav:hover {
   display: block;
-  position: absolute;
   z-index: 1;
 }
 
-.focus-nav {
+.hover-sub-nav-visible {
+  display: block;
+  z-index: 1;
+}
+
+.focus-nav, .focus-sub-nav {
   display: none;
   width: auto;
   white-space: nowrap;
@@ -143,8 +166,81 @@
   z-index: 1;
 }
 
-.menu-item--focus:focus-within button {
+.focus-sub-nav:focus, .menu-sub-item--focus:focus-within + .focus-sub-nav {
+  display: block;
+  z-index: 1;
+}
+
+.menu-item--focus:focus-within > button {
   @apply font-bold;
+}
+
+.sub-menu-item--hover:hover a {
+  @apply font-bold;
+  @apply border-b-2;
+}
+
+#mobile-nav {
+  right: -100%;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+}
+
+#mobile-nav ul li.has-mobile-submenu ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#mobile-nav ul li.has-mobile-submenu ul li.has-mobile-subsubmenu ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#mobile-nav ul li ul li {
+  white-space: nowrap;
+}
+
+.btn-back, .btn-back-submenu {
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  display: none;
+}
+
+.btn-back.show, .btn-back-submenu.show {
+  display: block;
+}
+
+#mobile-nav ul {
+  transition: 0.5s ease
+}
+
+#mobile-nav ul.slideOut {
+  transform: translateX(-100%)
+}
+
+#mobile-nav ul.slideFarOut {
+  transform: translateX(-200%)
+}
+
+#mobile-nav ul li.has-mobile-submenu ul.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#mobile-nav ul li.has-mobile-submenu ul li.has-mobile-subsubmenu ul.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#mobile-nav.slideIn {
+  right: 0;
 }
 
 
@@ -164,66 +260,20 @@
 === HOME ===
 */
 .home {
-  background-image: url("/img/page-home/bg-home.jpg");
+  background-image: url("/img/page-home/bg-home-2.jpg");
   /*height: 100vh;*/
+}
+
+.agir-button:hover img, .agir-button:focus img {
+  @apply flex;
+}
+
+.actions-container a:hover div img {
+  @apply flex;
 }
 /*
 === EQUIPE ===
 */
-
-/* customize bio p */
-.equipe__membre-bio p {
-  @apply mt-2;
-}
-
-/* change picture on hover */
-.equipe__membre:focus .equipe__pic,
-.equipe__membre:hover .equipe__pic {
-  @apply bg-rered;
-}
-.equipe__membre:focus .equipe__pic img,
-.equipe__membre:hover .equipe__pic img {
-  @apply opacity-75;
-}
-
-/* display bio on hover */
-.equipe__membre:focus .equipe__membre-bio--block,
-.equipe__membre:hover .equipe__membre-bio--block {
-  @apply block;
-  z-index: 10;
-  left: 100%;
-  right: -150%;
-}
-@responsive {
-  .equipe__membre:nth-child(2n) .equipe__membre-bio--2n {
-    left: -150%;
-    right: 100%;
-  }
-  .equipe__membre:nth-child(2n) .equipe__membre-bio--3n {
-    left: 100%;
-    right: -150%;
-  }
-  .equipe__membre:nth-child(3n) .equipe__membre-bio--3n {
-    left: -150%;
-    right: 100%;
-  }
-  .equipe__membre:nth-child(2n) .equipe__membre-bio--4n {
-    left: 100%;
-    right: -150%;
-  }
-  .equipe__membre:nth-child(3n) .equipe__membre-bio--4n {
-    left: 100%;
-    right: -150%;
-  }
-  .equipe__membre:nth-child(4n) .equipe__membre-bio--4n {
-    left: -150%;
-    right: 100%;
-  }
-}
-
-.equipe__membre-inactive {
-  display:none;
-}
 
 .equipe-button-active h2 {
   @apply border-b-2 border-reorange no-underline;

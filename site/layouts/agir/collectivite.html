@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div>
+    {{ partial "page-desc" . }}
+    <div class="bg-white">
+        <div id="collecter" class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:pt-12 md:pb-24 flex flex-wrap">
+            <div class="md:w-1/2 flex flex-col items-start">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.collecter.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.collecter.text | markdownify }}</p>
+            </div>
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:pl-8">
+                <div class="bg-reorange rounded-xl flex flex-row p-8 text-white">
+                    <div class="w-full flex flex-col items-center justify-center">
+                        <p class="text-center">{{ .Params.collecter.offer.text | markdownify }}</p>
+                        <div class="w-3/4 flex flex-row flex-wrap mt-4 justify-center md:justify-between">
+                            <a class="text-reorange uppercase py-1.5 px-4 text-center rounded-full text-sm" href="https://doccollectes.blob.core.windows.net/statics/offre_collectivite.pdf" style="background-color: rgb(255, 245, 230);" target="_blank">Consulter l'offre</a>
+                            <a class="bg-rered rounded-full py-1.5 px-4 uppercase text-sm mt-4 md:mt-0" href="{{ .Params.collecter.offer.button.link }}">
+                                {{ .Params.collecter.offer.button.text }}
+                            </a>
+                        </div>                        
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="bg-rebeige">
+        <div id="sensibiliser" class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full md:w-1/2 flex flex-col items-start">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.sensibiliser.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.sensibiliser.text | markdownify }}</p>
+                <a class="mt-8 bg-rered text-white uppercase py-2 px-6 text-center rounded-full" href="https://doccollectes.blob.core.windows.net/statics/offre_collectivite.pdf" target="_blank">
+                    {{ .Params.sensibiliser.btn_text }}
+                </a>
+            </div>   
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:pl-24 relative">
+                <img class="md:h-96 md:absolute md:-top-28" src="/img/page-collectivite/solidays.png" alt="photo événement sensibilisation" />
+            </div>            
+        </div>
+    </div>
+    <div class="bg-white">
+        <div id="subventionner" class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full md:w-1/2 flex flex-col items-start">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.subventionner.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.subventionner.text | markdownify }}</p>
+                <a class="mt-8 bg-rered text-white uppercase py-2 px-6 text-center rounded-full" href="mailto:collectivites@regleselementaires.com">
+                    {{ .Params.subventionner.btn_text }}
+                </a>
+            </div>     
+            <div class="w-full md:w-1/2 mt-4 md:mt-0 md:pl-12">
+                <img class="max-h-80" src="/img/page-collectivite/atelier.png" alt="photo atelier jeune" />
+            </div>         
+        </div>
+    </div>
+</div>
+
+<style>
+    html {
+        scroll-padding-top: 4rem;
+        scroll-behavior: smooth;
+    }
+</style>
+{{ end }}

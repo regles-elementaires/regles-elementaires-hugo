@@ -1,13 +1,10 @@
 <!-- Primary Nav -->
-<nav id="nav" class="w-full z-20 {{if .IsHome}}bg-white md:bg-opacity-0 md:absolute z-10{{else}}bg-white shadow-md{{end}}">
+<nav id="nav" class="sticky top-0 w-full z-20 bg-white shadow-md overflow-x-hidden md:overflow-x-visible">
 	<div class="w-full flex flex-wrap justify-between md:justify-evenly pr-4 md:pl-4 md:py-2">
 		<!-- Logo -->
 		<div class="flex flex-col">
 			<a class="" href="/">
-				<img src="/img/logo-re.png" alt="Regles Elementaires logo"
-					class="object-contain h-20 hidden {{if .IsHome}}md:flex{{end}}" />
-				<img src="/img/logo-re-red.png" alt="Regles Elementaires logo"
-					class="object-contain h-20 {{if .IsHome}}md:hidden{{end}}" />
+				<img src="/img/logo-re-red.png" alt="Regles Elementaires logo" class="object-contain h-20" />
 			</a>
 		</div>
 
@@ -26,108 +23,237 @@
 		<!-- Large screen Nav -->
 		<div class="hidden md:flex flex-col md:flex-row items-center">
 			<div class="px-4 flex-grow">
-				<ul class="flex flex-wrap {{if .IsHome}}text-white{{else}}text-rered{{end}} uppercase">
+				<ul class="flex flex-wrap text-rered font-medium">
 					{{ $currentPage := . }}
 					{{ range .Site.Menus.main }}
-						<li class="menu-item menu-item-space relative {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} font-extrabold {{ end }}">
-							<a href="{{ .URL }}" class="{{if eq .Name "Espace Personnel"}} font-semibold text-white border-rered border-2 hover:border-reorange px-4 rounded-md {{if not $.IsHome}} bg-rered hover:bg-reorange {{end}}{{else}} menu-item--hover {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} sm:border-b-4 border-white no-underline {{ end }} {{end}}"
-							{{ if eq .Name "FAQ" }} onclick="gtag('event', 'clicFAQ', {
-								'event_category': 'FAQ',
-								'event_label': 'faq_nav',
-							});" {{ end }}>
-								{{ .Name }}
+						<li class="menu-item menu-item-space relative hover:bg-rered hover:text-white hover:rounded-t-2xl">
+							<a href="{{ .URL }}" class="px-1 flex flex-row items-center menu-item--hover">
+								<span class="ml-2">
+									{{ .Name }}
+								</span>								
+								<span class="mx-2">
+									<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+										<title>ACF1EEA6-BC95-4A58-86F3-165038B2BFB3</title>
+										<g id="Page-1" stroke="none" stroke-width="1">
+											<g id="MENU-DEROULANT" transform="translate(-962.000000, -42.000000)" fill-rule="nonzero">
+												<g id="Group-10" transform="translate(644.000000, 33.000000)">
+													<path d="M323.161544,13.1681416 L319.283836,9.23893805 C318.969427,8.92035398 318.550215,9.02654867 318.235807,9.23893805 C317.921398,9.45132743 317.921398,9.98230088 318.235807,10.300885 L322.637529,14.7610619 C322.951938,15.079646 323.37115,15.079646 323.685559,14.7610619 L328.087281,10.300885 C328.40169,9.98230088 328.296887,9.55752212 328.087281,9.23893805 C327.877676,8.92035398 327.353661,8.92035398 327.039252,9.23893805 L323.161544,13.1681416 Z" id="Path_1_-Copy"></path>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</span>
 							</a>
 							<!-- Hover Nav -->
 							{{ with .Children }}
-							<div class="hover-nav ">
-								<ul class="bg-white text-rered text-sm font-normal py-2 px-4 text-center mt-4 rounded-md" style="box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10)">
+							<div class="hover-nav flex flex-row bg-rered text-white rounded-2xl shadow-lg">
+								<ul class="text-sm font-normal py-4 text-left">
 									{{ range . }}
-										{{ if not (eq .Name "Charte Règles Élémentaires") }}
-										<li class="py-1">
-											<a href="{{.URL}}" class="hover:font-bold">{{.Name}}</a>
-										</li>
-										{{ end }}
+										<li class="sub-menu-item--hover px-5 py-1 flex flex-row items-start justify-between w-full" data-menu="{{.Identifier}}">
+											<a href="{{.URL}}" class="hover:font-bold hover:border-b-2 border-white">{{.Name}}</a>
+										</li>									
 									{{ end }}
 								</ul>
-							</div>
-							
+								<div class="flex items-center">
+									{{ range . }}	
+										<div class="hover-sub-nav" data-menu="{{.Identifier}}">
+											{{ with .Children }}											
+												<ul class="text-sm font-normal my-4 px-5 text-left border-l border-white">
+													{{ range . }}														
+														<li class="py-1">
+															<a href="{{.URL}}" class="hover:font-bold hover:border-b-2 border-white">{{.Name}}</a>
+														</li>														
+													{{ end }}
+												</ul>											
+											{{ end }}	
+										</div>							
+									{{ end }}
+								</div>
+							</div>							
 							{{ end }}
 						</li>
 					{{ end }}
 				</ul>
 			</div>
 		</div>
+		<span class="hidden md:flex bg-reorange text-white menu-item don-menu">
+			<a href="https://regleselementaires.don-en-ligne.com/" class="flex items-center px-4"
+			onclick="gtag('event', 'clicDonnerDonFinancier', {
+				'event_category': 'Don Financier',
+				'event_label': 'don_nav_desktop',
+				});">
+				<img src="/img/menu/jefaisundon.svg" alt="je fais un don" />
+			</a>
+		</span>
 	</div>
 
 	<!-- Mobile nav -->
-	<div id="mobile-nav" class="w-full h-screen flex hidden absolute py-2 bg-white shadow-inner">
-		<ul class="w-full flex flex-col flex-wrap text-rered ml-4 mt-6">
+	<div id="mobile-nav" class="w-full h-screen md:hidden flex flex-col absolute py-2 bg-white shadow-inner">
+		<button class="btn-back">
+			<img class="h-6" src="/img/menu/menu-back-orange-arrow.svg" alt="flèche retour" />
+		</button>
+		<button class="btn-back-submenu">
+			<img class="h-6" src="/img/menu/menu-back-orange-arrow.svg" alt="flèche retour" />
+		</button>
+		<ul class="w-full flex flex-col flex-wrap text-rered mt-6 relative">
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
-				<li class="px-4 pb-1 menu-item--focus" tabindex="0">
+				<li class="px-6 py-1 has-mobile-submenu" tabindex="0">
 					{{ $currentMenu := . }}
 					{{ with .Children }}
-					<button class="uppercase focus:outline-none">
-						{{ $currentMenu.Name }}
-					</button>
+						<button class="w-full font-bold uppercase focus:outline-none flex items-center justify-between">
+							{{ $currentMenu.Name }}
+							<img class="h-4" src="/img/menu/menu-red-arrow.svg" alt="flèche vers la droite"/>
+						</button>
 					{{ else }}
-					<a href={{$currentMenu.URL}} onmousedown="event.preventDefault();" class="uppercase focus:outline-none {{ if or ($currentPage.IsMenuCurrent "main" $currentMenu) ($currentPage.HasMenuCurrent "main" $currentMenu) }} font-bold {{ end }}"
-					{{ if eq .Name "FAQ" }} onclick="gtag('event', 'clicFAQ', {
-						'event_category': 'FAQ',
-						'event_label': 'faq_nav',
-					});" {{ end }}>
-						{{ $currentMenu.Name }}
-					</a>
+						<a href={{$currentMenu.URL}} onmousedown="event.preventDefault();" class="uppercase focus:outline-none">
+							{{ $currentMenu.Name }}
+						</a>
 					{{ end }}
-					<!-- Hover Nav -->
+
 					{{ with .Children }}
-					<div class="focus-nav">
-						<ul class="text-rered font-normal">
-							{{ range . }}
-								{{ if not (eq .Name "Charte Règles Élémentaires") }}
-								<li class="flex flex-row items-center">
-									<svg class="h-8 w-8 fill-current text-rered" viewBox="0 0 64 64">
-										<path d='M0 33 L48 33 L48 31 L0 31' />
-									</svg>
-									<a href="{{.URL}}" class="menu-sub-item--focus">
-										{{.Name}}
+		
+					<ul class="text-rered mt-8 px-6 w-full">
+						<li class="uppercase font-bold mt-2 mb-4">
+							{{ $currentMenu.Name }}
+						</li>
+						{{ range . }}
+							<li class="flex flex-row py-1 items-center {{ with .Children }}has-mobile-subsubmenu{{end}}">
+								{{ $currentSubMenu := . }}
+								{{ with .Children }}
+									<button class="w-full font-semibold focus:outline-none flex items-center justify-between">
+										{{ $currentSubMenu.Name }}
+										<img class="h-4" src="/img/menu/menu-red-arrow.svg" alt="flèche vers la droite"/>
+									</button>
+								{{ else }}
+									<a href={{$currentSubMenu.URL}} onmousedown="event.preventDefault();" class="font-semibold focus:outline-none">
+										{{ $currentSubMenu.Name }}
 									</a>
-								</li>
 								{{ end }}
-							{{ end }}
-						</ul>
-					</div>
+																
+								{{ with .Children }}									
+									<ul class="text-rered px-6">
+										<li class="font-semibold mt-2 mb-4">
+											{{ $currentSubMenu.Name }}
+										</li>
+										{{ range . }}
+											<li class="flex flex-row items-center py-1">
+												<a href="{{.URL}}" onmousedown="event.preventDefault();" class="menu-sub-item--focus">
+													{{.Name}}
+												</a>
+											</li>
+										{{ end }}
+									</ul>																															
+								{{ end }}
+							</li>								
+						{{ end }}							
+					</ul>
 					
 					{{ end }}
 				</li>
 			{{ end }}
-			
+			<li class="flex justify-center mt-6" tabindex="0">
+				<a href="https://regleselementaires.don-en-ligne.com/" class="bg-reorange rounded-full text-white font-bold py-1 px-4 uppercase focus:outline-none" 
+				onclick="gtag('event', 'clicDonnerDonFinancier', {
+					'event_category': 'Don Financier',
+					'event_label': 'don_nav_mobile',
+					});">
+					Faire un don
+				</a>
+			</li>			
 		</ul>
 	</div>
+	
 	<script>
-		let isMenuOpen = false;
+		const mobileSubMenu = document.querySelectorAll('.has-mobile-submenu'); 
+		const mobileSubSubMenu = document.querySelectorAll('.has-mobile-subsubmenu'); 
+		const menuList = document.querySelector('#mobile-nav ul'); 
+		const btnBack = document.querySelector('.btn-back'); 
+		const btnBackSub = document.querySelector('.btn-back-submenu'); 
+
+		mobileSubMenu.forEach(mobileLink => {
+			mobileLink.addEventListener('click', () => {
+				mobileLink.querySelector('ul').classList.add('show');
+				menuList.classList.add('slideOut');
+				btnBack.classList.toggle('show');
+				console.log('submenu click');
+			})
+		})
+
+		mobileSubSubMenu.forEach(mobileLink => {
+			mobileLink.addEventListener('click', () => {
+				mobileLink.querySelector('ul').classList.add('show');
+				menuList.classList.add('slideFarOut');
+				btnBackSub.classList.add('show');	
+				//btnBack.classList.remove('show');	
+				console.log('subsubmenu click');		
+			})
+		})
+
+		btnBack.addEventListener('click', () => {
+			menuList.classList.remove('slideOut');
+			mobileSubMenu.forEach(mobileLink => {
+				mobileLink.querySelector('ul').classList.remove('show');
+			})
+			btnBack.classList.remove('show');
+			console.log('back click');
+		})
+
+		btnBackSub.addEventListener('click', () => {
+			menuList.classList.remove('slideFarOut');
+			mobileSubSubMenu.forEach(mobileLink => {
+				mobileLink.querySelector('ul').classList.remove('show');
+			})
+			btnBackSub.classList.remove('show');
+			btnBack.classList.add('show');
+			console.log('back2 click');
+		})
+
         function toggleMenu() {
-            document.getElementById("mobile-nav").classList.toggle("hidden");
             document.getElementById("burger-icon").classList.toggle("hidden");
             document.getElementById("x-icon").classList.toggle("hidden");
-            document.getElementById("nav").classList.toggle("fixed");
-            document.getElementById("nav").classList.toggle("top-0");
-			isMenuOpen = !isMenuOpen;
+            document.getElementById("mobile-nav").classList.toggle("slideIn");
+            document.getElementById("nav").classList.toggle("overflow-x-hidden");
+
+			// reset menu position
+			menuList.classList.remove('slideOut');
+			mobileSubMenu.forEach(mobileLink => {
+				mobileLink.querySelector('ul').classList.remove('show');
+			})
+			btnBack.classList.remove('show');
+			menuList.classList.remove('slideFarOut');
+			mobileSubSubMenu.forEach(mobileLink => {
+				mobileLink.querySelector('ul').classList.remove('show');
+			})
+			btnBackSub.classList.remove('show');
         }
 
-		/*
-		function closeMenu() {
-			if (isMenuOpen) {
-				document.getElementById("mobile-nav").classList.add("hidden");
-				document.getElementById("burger-icon").classList.remove("hidden");
-				document.getElementById("x-icon").classList.add("hidden");
-				isMenuOpen = !isMenuOpen;
+		let menuItems = document.getElementsByClassName("sub-menu-item--hover");
+		let menuContainers = document.getElementsByClassName("hover-sub-nav");
+
+		for (var i = 0; i < menuItems.length; i++) {
+			menuItems[i].onmouseenter = function(e){
+				// remove class on all containers
+				for (var i = 0; i < menuContainers.length; i++) {
+					menuContainers[i].classList.remove("hover-sub-nav-visible");
+				}
+				// select and add class on desired container
+				let menu = document.querySelector("div[data-menu=" + CSS.escape(e.target.dataset.menu) + "]");
+				menu.classList.add("hover-sub-nav-visible");
 			}
-        }
-		document.addEventListener("click", function(event) {
-			if (!event.target.closest("nav")) {
-				closeMenu();
+		}
+
+		for (var i = 0; i < menuContainers.length; i++) {
+			menuContainers[i].onmouseenter = function(e){
+				// select and add class on desired container
+				let menuButton = document.querySelector("li[data-menu=" + CSS.escape(e.target.dataset.menu) + "]").firstElementChild;
+				menuButton.classList.add("font-bold", "border-b-2");
 			}
-		});*/
+			menuContainers[i].onmouseleave = function(e){
+				for (var i = 0; i < menuItems.length; i++) {
+					menuItems[i].firstElementChild.classList.remove("font-bold", "border-b-2");
+				}
+			}
+		}
     </script>
 </nav>

@@ -1,233 +1,266 @@
 {{ define "main" }}
 
-<div class="relative bg-redarkgrey bg-cover bg-center w-full home flex flex-col items-center pt-24 md:pt-48">
-    <div class="hidden md:flex absolute top-0 md:top-auto flex-col flex-wrap justify-start" style="right: 5%">
-        <a href='https://www.facebook.com/regleselementaires/' target='_blank' 
-        class='px-2 pb-1 pt-2' onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-            'event_category': 'Reseaux Sociaux',
-            'event_label': 'facebook_top',
-        });">
-            <img src="/img/social/facebook.svg" class="h-5 sm:h-6" alt="facebook link"/>
-        </a>
-        <a href="https://twitter.com/RElementaires" target="_blank" 
-        class="px-2 py-1" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-            'event_category': 'Reseaux Sociaux',
-            'event_label': 'twitter_top',
-        });">
-            <img src="/img/social/twitter.svg" class="h-5 sm:h-6" alt="twitter link"/>
-        </a>
-        <a href="https://www.instagram.com/regleselementaires/" target="_blank" 
-        class="px-2 py-1" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-            'event_category': 'Reseaux Sociaux',
-            'event_label': 'insta_top',
-        });">
-            <img src="/img/social/insta.svg" class="h-5 sm:h-6" alt="instagram link"/>
-        </a>
-        <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank" 
-        class="px-2 py-1" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-            'event_category': 'Reseaux Sociaux',
-            'event_label': 'linkedin_top',
-        });">
-            <img src="/img/social/linkedin.svg" class="h-5 sm:h-6" alt="linkedin link"/>
-        </a>
-    </div>
-    <h1 class="title-with-shadow text-2xl sm:text-4xl lg:text-6xl title-shadow-sm lg:title-shadow-lg">
+<div class="relative bg-redarkgrey bg-cover bg-center w-full home flex flex-col items-center pt-16 md:pt-32 pb-16">
+
+    <h1 class="title text-2xl sm:text-4xl lg:text-5xl">
         {{ .Params.slogan }}
     </h1>
-    <h2 class="w-8/12 md:w-2/6 text-white text-center md:text-xl pt-2 md:pt-8">
+    <h2 class="w-8/12 md:w-3/12 text-white text-center md:text-xl font-semibold mt-2 md:mt-4">
         {{ .Params.subtitle }}
     </h2>
-    <div class="py-8 md:py-16 z-10">
-        <a class="big-red-button big-red-button--rounded"
-        href="/donner/dons-financiers/#haWidget"
-        onclick="gtag('event', 'clicDonnerDonsFinanciers', {
-            'event_category': 'Dons Financiers',
-            'event_label': 'don_home',
-            });">
-            FAIRE UN DON
-            <span class="rounded-full bg-white text-rered font-bold px-2 py-1 ml-1">€</span>
-        </a>
-    </div>
-    <div class="w-11/12 md:w-full flex flex-row justify-end md:-mt-32 mb-12">        
-        <div class="w-11/12 md:w-1/4 rounded-md m-auto md:mr-16 overflow-hidden">
-            <a class="w-full" href="/donner/trouver"
-            onclick="gtag('event', 'clicCarteCollectes', {
-                'event_category': 'Carte Collectes',
-                'event_label': 'carte_collectes',
-                });">
-                <div class="w-full bg-white text-rered uppercase text-center p-2 font-medium text-lg">
-                    {{ .Params.map.title }}
-                </div>
-                <img src="/img/page-home/map_collectes.png" alt="carte des collectes" class="w-full h-40 object-cover">
-                <div class="w-full bg-reorange text-white text-center p-2 text-sm">
-                    {{ .Params.map.text }}
-                </div>
-            </a> 
-        </div>        
+
+    <div class="w-10/12 md:w-7/12 flex flex-row flex-wrap bg-white text-rered rounded-2xl mt-8 md:mt-16 py-2 px-4 md:py-4">
+        <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4">
+            <img class="h-12 md:h-14" src="/img/page-home/serviette.svg" alt="Illustration serviette hygiénique">
+            <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
+                {{ .Params.numbers.first.number }}
+            </span>
+            <p class="md:mt-2 text-sm md:text-base text-center font-bold tracking-tight leading-5">
+                {{ .Params.numbers.first.text }}
+            </p>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4 border-y md:border-y-0 border-x-0 md:border-x border-rered">
+            <img class="h-12 md:h-14" src="/img/page-home/talk.svg" alt="Illustration discussion">
+            <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
+                {{ .Params.numbers.second.number }}
+            </span>
+            <p class="md:mt-2 text-sm md:text-base text-center font-bold tracking-tight leading-5">
+                {{ .Params.numbers.second.text }}
+            </p>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4">
+            <img class="h-12 md:h-14" src="/img/page-home/cycle.svg" alt="Illustration protection">
+            <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
+                {{ .Params.numbers.third.number }}
+            </span>
+            <p class="md:mt-2 text-sm md:text-base  text-center font-bold tracking-tight leading-5">
+                {{ .Params.numbers.third.text }}
+            </p>
+        </div>
     </div>
 </div>
 <div class="w-full bg-rered">
-    <div class="w-10/12 mx-auto pt-12 pb-8 flex flex-row">
-        <div class="w-11/12 md:w-3/5 xl:w-2/5 mx-auto">
-            <h2 class="text-white text-xl md:text-3xl font-extrabold uppercase">
-                {{ .Params.mission.title | markdownify }}    
+    <div class="w-full pt-8 md:pt-12 pb-12 md:pb-16 flex flex-row">
+        <div class="w-11/12 md:w-4/5 mx-auto">
+            <h2 class="text-white text-center text-xl md:text-3xl font-extrabold uppercase">
+                {{ .Params.actions.title | markdownify }}    
             </h2>
-            <p class="text-white pt-4 md:text-md tracking-tight">
-                {{ .Params.mission.text }}
-            </p>
-            <p class="py-8 mt-4">
-                <a class="big-white-button big-white-button--rounded" href="/projet/mission">
-                    {{ .Params.mission.button }}
-                </a>
-            </p>
-        </div>
-        <div class="hidden md:flex w-2/5">
-            <img src="/img/page-mission/illu-mission.svg" alt="">
-        </div>
-    </div>
-</div>
-<div class="w-full bg-white">
-    <div class="w-10/12 mx-auto pt-12 pb-8 flex flex-row">
-        <div class="hidden md:flex w-2/5">
-            <img src="/img/page-home/collecte_illu.svg" alt="">
-        </div>
-        <div class="w-11/12 md:w-3/5 xl:w-2/5 m-auto md:pl-24">
-            <h2 class="text-rered text-xl md:text-3xl font-extrabold uppercase">
-                {{ .Params.collecte.title }}
-            </h2>
-            <p class="text-rered pt-4 md:text-md tracking-tight">
-                {{ .Params.collecte.text | markdownify }}
-            </p>
-            <p class="py-8">
-                <a class="big-red-button big-red-button--rounded" href="/collecter/organiser">
-                    {{ .Params.collecte.button }}
-                </a>
-            </p>
-        </div>
-
-    </div>
-</div>
-<div class="w-full bg-regrey">
-    <div class="w-10/12 mx-auto pt-12 pb-8 flex flex-row flex-wrap">
-        <div class="w-11/12 md:w-3/5 xl:w-2/5 m-auto">
-            <h2 class="text-rered text-xl md:text-3xl font-extrabold uppercase">
-                {{ .Params.atelier.title }}
-            </h2>
-            <p class="text-rered pt-4 md:text-md tracking-tight">
-                {{ .Params.atelier.text | markdownify }}
-            </p>
-        </div>
-        <div class="flex flex-col w-11/12 md:w-2/5 m-auto pl-4">
-            <div class="hidden md:flex">
-                <img src="/img/page-home/atelier.svg" alt="">
+            <div class="flex flex-row flex-wrap text-white mt-8 md:mt-16">
+                <div class="w-full md:w-1/3 flex flex-col items-center px-10">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">
+                        <img src="/img/page-home/collecter.svg" alt="Illustration collecte" />                    
+                    </div>                    
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.collecter_title | markdownify }}
+                    </h3>
+                    <p class="md:h-48 mt-6 text-sm md:text-base text-center tracking-tighter">
+                        {{ .Params.actions.collecter_text }}
+                    </p>      
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/collecter">
+                        {{ .Params.actions.button }}
+                    </a>               
+                </div>
+                <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">     
+                        <img src="/img/page-home/sensibiliser.svg" alt="Illustration sensibiliser" />               
+                    </div>
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.sensibiliser_title | markdownify }}
+                    </h3>
+                    <p class="md:h-48 mt-6 text-sm md:text-base text-center tracking-tighter">
+                        {{ .Params.actions.sensibiliser_text }}
+                    </p>
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/sensibiliser">
+                        {{ .Params.actions.button }}
+                    </a>
+                </div>
+                <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">  
+                        <img src="/img/page-home/mobiliser.svg" alt="Illustration mobiliser" />                  
+                    </div>
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.mobiliser_title | markdownify }}
+                    </h3>
+                    <p class="md:h-48 mt-6 text-sm md:text-base text-center tracking-tighter">
+                        {{ .Params.actions.mobiliser_text }}
+                    </p>
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/mobiliser">
+                        {{ .Params.actions.button }}
+                    </a>
+                </div>                 
             </div>
-            <div class="flex flex-col text-rered">
-                <p class="mt-4">
-                    {{ .Params.atelier.buttons_intro }}
-                </p>
-                <a class="uppercase font-medium underline flex flex-row mb-1 mt-3" href="https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_scolaires.pdf" target="_blank">
-                    {{ .Params.atelier.button_pupils }}
-                    <svg class="hidden md:flex ml-2 w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-                        <path d="M56.7,34.8v11c0,3-2.5,5.5-5.5,5.5H13.4c-3,0-5.5-2.5-5.5-5.5v-11c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5v11  c0,1.4,1.1,2.5,2.5,2.5h37.8c1.4,0,2.5-1.1,2.5-2.5v-11c0-0.8,0.7-1.5,1.5-1.5S56.7,33.9,56.7,34.8z M29.4,39.5  c0.8,0.8,1.9,1.2,2.9,1.2s2.1-0.4,2.9-1.2l7-7c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0l-6.3,6.3V12.1c0-0.8-0.7-1.5-1.5-1.5  c-0.8,0-1.5,0.7-1.5,1.5v24.5l-6.3-6.3c-0.6-0.6-1.5-0.6-2.1,0c-0.6,0.6-0.6,1.5,0,2.1L29.4,39.5z"/>
-                    </svg>
-                </a>
-                <a class="uppercase font-medium underline flex flex-row my-1" href="https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_etudiant.es.pdf" target="_blank">
-                    {{ .Params.atelier.button_students }}
-                    <svg class="hidden md:flex ml-2 w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-                        <path d="M56.7,34.8v11c0,3-2.5,5.5-5.5,5.5H13.4c-3,0-5.5-2.5-5.5-5.5v-11c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5v11  c0,1.4,1.1,2.5,2.5,2.5h37.8c1.4,0,2.5-1.1,2.5-2.5v-11c0-0.8,0.7-1.5,1.5-1.5S56.7,33.9,56.7,34.8z M29.4,39.5  c0.8,0.8,1.9,1.2,2.9,1.2s2.1-0.4,2.9-1.2l7-7c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0l-6.3,6.3V12.1c0-0.8-0.7-1.5-1.5-1.5  c-0.8,0-1.5,0.7-1.5,1.5v24.5l-6.3-6.3c-0.6-0.6-1.5-0.6-2.1,0c-0.6,0.6-0.6,1.5,0,2.1L29.4,39.5z"/>
-                    </svg>
-                </a>
-                <a class="uppercase font-medium underline flex flex-row my-1" href="https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_beneficiaires.pdf" target="_blank">
-                    {{ .Params.atelier.button_women }}
-                    <svg class="hidden md:flex ml-2 w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-                        <path d="M56.7,34.8v11c0,3-2.5,5.5-5.5,5.5H13.4c-3,0-5.5-2.5-5.5-5.5v-11c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5v11  c0,1.4,1.1,2.5,2.5,2.5h37.8c1.4,0,2.5-1.1,2.5-2.5v-11c0-0.8,0.7-1.5,1.5-1.5S56.7,33.9,56.7,34.8z M29.4,39.5  c0.8,0.8,1.9,1.2,2.9,1.2s2.1-0.4,2.9-1.2l7-7c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0l-6.3,6.3V12.1c0-0.8-0.7-1.5-1.5-1.5  c-0.8,0-1.5,0.7-1.5,1.5v24.5l-6.3-6.3c-0.6-0.6-1.5-0.6-2.1,0c-0.6,0.6-0.6,1.5,0,2.1L29.4,39.5z"/>
-                    </svg>
-                </a>
-            </div>           
         </div>
     </div>
 </div>
-<div class="w-full bg-white pb-8 md:pb-16">
-    <div class="w-10/12 mx-auto pt-12 pb-8 flex flex-row text-center">
-        <div class="w-11/12 md:w-5/6 m-auto">
-            <h2 class="text-rered text-xl md:text-3xl font-extrabold uppercase">
-                {{ .Params.redistributeurs.title }}
+<div class="w-full bg-white py-8 md:py-12">
+    <div class="w-11/12 md:w-4/5 flex flex-row flex-wrap mx-auto">
+        <div class="w-full md:w-1/3 flex flex-col px-2 text-rered">
+            <h2 class="text-xl md:text-3xl font-extrabold uppercase">
+                {{ .Params.agir.title }}    
             </h2>
-            <p class="text-rered pt-4 md:text-md tracking-tight">
-                {{ .Params.redistributeurs.text }}
-            </p>
-            <p class="py-8 flex flex-row justify-center">
-                <a class="big-red-button big-red-button--rounded"
-                href="/redistribuer/redistributeurs">
-                    {{ .Params.redistributeurs.button }}
-                </a>
+            <p class="text-sm md:text-base font-medium tracking-tighter mt-4 md:mt-8">
+                {{ .Params.agir.text }} 
             </p>
         </div>
+        <div class="w-1/2 md:w-1/3 flex flex-col flex-wrap items-start mt-4 md:mt-6 text-rered">
+            <h4 class="ml-2 md:ml-4 mb-2 md:mb-4 text-reorange uppercase font-bold">{{ .Params.agir.person_title }}</h4>
+            {{ range .Site.Menus.main }}
+                {{ if eq .Identifier "agir"}}
+                    {{ range .Children }}
+                        <button data-agir="{{ .Identifier }}" class="agir-button flex items-center font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border focus:border border-reorange text-left">
+                            {{ .Name }}
+                            <img class="ml-2 hidden" src="/img/page-home/check.svg" alt="coché"/>
+                        </button>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+        <div class="w-1/2 md:w-1/3 flex flex-row mt-4 md:mt-6 text-rered md:border-l border-rered">
+            <div class="hidden md:flex w-1/12 flex-col justify-center">
+                <img src="img/page-home/arrow.png" alt="arrow" />
+            </div>
+            <div class="w-full md:w-11/12 flex flex-col flex-wrap items-start pl-2">
+                <h4 class="ml-2 md:ml-4 mb-2 md:mb-4 text-reorange uppercase font-bold">{{ .Params.agir.action_title }}</h4>
+                {{ range .Site.Menus.main }}
+                    {{ if eq .Identifier "agir"}}
+                        {{ range .Children }}
+                            <div class="hidden actions-container w-full items-start flex flex-col flex-wrap" data-agir="{{ .Identifier }}">
+                                {{ range .Children}}
+                                    <a href="{{.URL}}" class="font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border border-reorange text-left">
+                                        <div class="flex">
+                                            {{ .Name }}
+                                            <img class="hidden ml-2" src="/img/page-home/check.svg" alt="coché"/>
+                                        </div>                                        
+                                    </a>
+                                {{ end }}
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            
+        </div>
     </div>
-    {{ partial "redistribuer/carousel" . }}
+    
+    <div class="w-11/12 md:w-4/5 mx-auto flex flex-row flex-wrap mt-8 md:mt-12">
+        <div class="w-full md:w-1/2 flex">
+            <div class="bg-rered mx-2 md:mx-4 rounded-2xl text-white flex flex-col">
+                <h3 class="mx-8 mt-6 md:mt-10 text-xl md:text-2xl font-extrabold uppercase">
+                    {{ .Params.map.title }}
+                </h3>
+                <p class="mx-8 mt-4 tracking-tight text-sm">
+                    {{ .Params.map.text }}
+                </p>
+                <div class="mx-8 mt-4 font-semibold tracking-tight text-sm">
+                    <a href="/agir/particulier/donner" class="border-b border-white pb-1">
+                        {{ .Params.map.link_text }}
+                    </a>
+                </div>  
+                <div class="rounded-2xl mt-10 grow" style="min-height:20rem;">
+                    <iframe class="w-full h-full rounded-2xl" src="https://collectes.regleselementaires.com/map/home_vitrine"></iframe>
+                </div>                      
+            </div>                      
+        </div>
+        <div class="w-full md:w-1/2 mt-8 md:mt-0">
+            <div class="md:h-full rounded-2xl border border-reorange flex flex-col mx-2 md:mx-4 p-4 md:px-8 md:py-10 bg-white">
+                <h3 class="text-xl md:text-2xl font-extrabold uppercase text-rered mt-2 md:mt-0">
+                    {{ .Params.agenda.title }}
+                </h3>
+                <div class="w-full mt-4 border-t border-rered flex flex-col text-rered">
+                    {{ $sortedEvents := sort .Site.Data.events ".date" "desc" }}
 
+                        <div class="w-full flex flex-row">
+                            <div class="w-1/4 md:w-1/5 py-4 md:border-r border-rered">
+                                {{ .Params.agenda.date_title }}
+                            </div>  
+                            <div class="w-3/4 md:w-4/5 py-4 pl-4">
+                                {{ .Params.agenda.event_title }}
+                            </div>
+                        </div>
+                        {{ $mymonths := index $.Site.Data.months }}                 
+                        {{ $mydays := index $.Site.Data.days }}                  
+                        {{ range first 6 $sortedEvents }}
+                            <div class="w-full flex flex-row">
+                                <div class="w-1/4 md:w-1/5 py-4 md:border-r border-rered flex flex-col justify-center">
+                                    {{ if ne .month true }}
+                                    {{ with .date2 }}
+                                    {{ else }}
+                                    <span class="text-xs" style="margin-bottom: -0.4rem;">
+                                        {{ $day := dateFormat "Mon" .date }}
+                                        {{ index $mydays $day }}
+                                    </span>                 
+                                    {{ end }}           
+                                    <span class="text-xl md:text-2xl font-bold">
+                                        {{ dateFormat "02" .date }}{{ with .date2 }}-{{ dateFormat "02" . }}{{ end }}
+                                    </span>  
+                                    {{ end }}         
+                                    <span class="{{if eq .month true}}text-sm md:text-md capitalize{{else}}text-sm{{end}}" style="margin-top: -0.4rem;">
+                                        {{ $month := dateFormat "Jan" .date }}
+                                        {{ index $mymonths $month }}
+                                    </span>                 
+                                </div>
+                                <div class="w-3/4 md:w-4/5 pl-4 py-2 flex">
+                                    {{ with .link }}
+                                        <a href="{{.}}" class="h-full w-full" target="_blank">
+                                    {{ end }}
+                                    <div class="p-4 w-full flex flex-row shadow-md rounded-xl items-center text-sm md:text-base">                                        
+                                        <span class="font-bold">{{ .place }}</span>
+                                        <span class="mx-2">/</span>
+                                        <span class="">{{ .name }}</span>                                        
+                                    </div>
+                                    {{ with .link }}
+                                        </a>
+                                    {{ end }}
+                                </div>
+                            </div>                            
+                        {{ end }}
+                   
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 <div class="w-full bg-reorange">
-    <div class="container pt-8 flex flex-row">
+    <div class="container pt-8 md:pt-12 flex flex-row">
         <div class="w-11/12 lg:w-5/6 pb-8 m-auto">
             <h2 class="text-white text-xl md:text-3xl font-extrabold text-center uppercase md:pb-4">
                 {{ .Params.actus.title }}
             </h2>
             {{ $sortedPages := sort (where .Site.RegularPages "Section" "actualites") ".Params.date" "desc" }}
             <div class="flex flex-wrap">
-                <div class="w-11/12 md:w-3/5 flex flex-col flex-wrap items-center md:mt-8 mx-auto">
+                <div class="w-11/12 md:w-4/5 flex flex-col flex-wrap items-center md:mt-4 mx-auto">
                     {{ range first 1 $sortedPages }}
-                    {{ .Render "li-home"}}
+                        {{ .Render "li-home" }}
                     {{ end }}
-                    <!--<p class="py-4 md:py-8">
-                        <a class="big-red-button big-red-button--rounded" href="/actualites">
-                            Voir toutes les actualités
-                        </a>
-                    </p>-->
+                    {{ range first 1 (after 1 $sortedPages) }}
+                        {{ .Render "li-home-reversed" }}
+                    {{ end }}
+
                 </div>
-                <div class="w-11/12 md:w-2/5 md:mt-8 pt-6 mx-auto">
-                    <div class="w-full h-1/2 rounded-lg bg-white py-4 pr-4" style="height: 530px">
-                        <a class="twitter-timeline" data-height="500" href="https://twitter.com/RElementaires?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter noborders">
-                            Tweets by RElementaires
-                        </a> 
-                        <script async src="https://platform.twitter.com/widgets.js"></script> 
-                    </div>
-                </div>
+
             </div>
             
         </div>
 
     </div>
 </div>
-<div id="instafeed-container" class="w-11/12 md:w-2/3 mx-auto flex flex-row flex-wrap my-8"></div>
-<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-	<script>
-	var userFeed = new Instafeed({
-		get: 'user',
-		target: 'instafeed-container',
-        limit: 3,
-        transform: function(item) { //Transform receives each item as its argument
-            // Over-write the original caption
-            item.caption = item.caption.replaceAll('"', '&quot;');        
-            // return the modified item
-            return item;
-        },
-        template: '<div class="w-5/6 mx-auto md:w-1/3 xl:w-1/4 p-4">' +
-            '<a class="" href="{{"{{"}}link{{"}}"}}">' +
-                '<div class="mb-12 rounded-lg flex flex-col shadow-md" style="max-height:16rem;">' +
-                    '<div class="w-full flex flex-row p-4">' +
-                        '<img src="img/page-home/icone_re.svg" alt=""/>' +
-                        '<div class="px-2 tracking-tighter font-medium justify-self-end" style="color: #828282;">regleselementaires</div>' +
-                        '<img class="ml-auto" src="img/page-home/icone_insta.svg" alt=""/>' +
-                    '</div>' +                    
-                    '<div class="w-full flex justify-center" style="max-height:16rem;">' +
-                        '<img class="w-full rounded-b-lg"" alt="{{"{{"}}caption{{"}}"}}" src="{{"{{"}}image{{"}}"}}" />' +
-                    '</div>' +                    
-                '</div>' +
-            '</a>' +
-        '</div>',
-		accessToken: 'IGQVJXSUlreUZAob1VuallST2pZAbUdiUjRNcDNhTDNyMzJJc1UxTXludmdpM25oUzFXS2l3NjUybDhyMUszanRxeGxibHFROU1JaFFOdWtRWjVBRjV4emRJa1NSUWk5aHNiZA1l4THdR'
-	});
-	userFeed.run();
+
+<script>
+    let agirButtons = document.getElementsByClassName("agir-button");
+	let actionsContainer = document.getElementsByClassName("actions-container");
+
+    for (var i = 0; i < agirButtons.length; i++) {
+        agirButtons[i].onclick = function(e){
+            // hide all containers
+            for (var i = 0; i < actionsContainer.length; i++) {
+                actionsContainer[i].classList.add("hidden");
+            }
+            // show selected container
+            let action = document.querySelector("div[data-agir=" + CSS.escape(e.target.dataset.agir) + "]");
+            action.classList.remove("hidden");
+        }
+    }
+
 </script>
 {{ end }}

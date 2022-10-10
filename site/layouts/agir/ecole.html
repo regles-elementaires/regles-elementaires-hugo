@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div class="mb-8">
+    {{ partial "page-desc" . }}
+    <div id="collecter" class="py-8 md:py-10 bg-white">
+        <div class="w-10/12 md:w-1/2 m-auto flex flex-col text-rered items-center">
+            <h3 class="text-center font-extrabold text-xl md:text-3xl">{{ .Params.collecter.title }}</h3>
+            <p class="text-center mt-4 tracking-tighter">{{ .Params.collecter.text | markdownify }}</p>
+            <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="mailto:partenariat@regleselementaires.com">
+                    {{ .Params.collecter.btn_text }}
+            </a>
+        </div>
+    </div>
+    <div id="colleges" class="bg-white">
+        <h3 class="text-center text-rered font-extrabold text-xl md:text-3xl">{{ .Params.college_title }}</h3>
+    </div>
+    {{ range $elem_index, $elem_val := .Params.actions }}
+        <div class="py-8 md:py-10 bg-white">
+            <div class="w-full md:w-3/4 m-auto flex flex-col md:flex-row">
+                <div class="w-11/12 md:w-6/12 mx-auto bg-rebeige flex flex-col items-start justify-center p-8 md:p-16 rounded-xl md:rounded-l-xl md:rounded-r-none">
+                    {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
+                    <div class="ml-2 text-rered markdown text-left tracking-tight font-medium my-4">{{.content | markdownify}}</div>
+                    {{ if ne .btn_link ""}}
+                    <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="{{.btn_link}}"
+                        {{if isset . "target_blank"}}target="_blank" {{end}}}>
+                            {{.btn_text}}
+                    </a>
+                    {{end}}
+                </div>
+                <div class="w-11/12 md:w-6/12 mx-auto mt-4 md:mt-0 flex items-end rounded-xl md:rounded-r-xl md:rounded-l-none bg-center bg-cover" style="min-height: 12rem; background-image: url({{.illu}})">
+                </div>
+            </div>
+        </div>
+    {{ end }}
+    <div class="w-11/12 md:w-3/4 mx-auto flex flex-row flex-wrap">
+        {{ range $elem_index, $elem_val := .Params.projects }}
+            <div class="w-full md:w-1/2 pb-4">
+                <div class="flex flex-col {{ if modBool $elem_index 2 }}md:mr-4{{ else }}md:ml-4{{ end }} items-start bg-reorange h-full text-white py-8 px-8 md:px-12 rounded-xl">
+                    <h4 class="font-bold">{{ .title | markdownify }}</h4>
+                    <p class="mt-4 tracking-tighter">{{ .text }}</p>
+                    <a class="mt-8 bg-rered text-white uppercase py-2 px-6 text-center rounded-full" href="mailto:partenariat@regleselementaires.com">
+                        {{ .btn_text }}
+                    </a>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+    <div id="universites" class="bg-white mt-8">
+        <h3 class="text-center text-rered font-extrabold text-xl md:text-3xl">{{ .Params.universite_title }}</h3>
+    </div>
+    {{ range $elem_index, $elem_val := .Params.actions_univ }}
+        <div class="py-8 md:py-10 bg-white">
+            <div class="w-full md:w-3/4 m-auto flex flex-col md:flex-row">
+                <div class="w-11/12 md:w-6/12 mx-auto bg-rebeige flex flex-col items-start justify-center p-8 md:p-16 rounded-xl md:rounded-l-xl md:rounded-r-none">
+                    {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
+                    <div class="ml-2 text-rered markdown text-left tracking-tight font-medium my-4">{{.content | markdownify}}</div>
+                    {{ if ne .btn_link ""}}
+                    <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="{{.btn_link}}"
+                        {{if isset . "target_blank"}}target="_blank" {{end}}}>
+                            {{.btn_text}}
+                    </a>
+                    {{end}}
+                </div>
+                <div class="w-11/12 md:w-6/12 mx-auto mt-4 md:mt-0 flex items-end rounded-xl md:rounded-r-xl md:rounded-l-none bg-center bg-cover" style="min-height: 12rem; background-image: url({{.illu}})">
+                </div>
+            </div>
+        </div>
+    {{ end }}
+</div>
+
+<style>
+    html {
+        scroll-padding-top: 4rem;
+        scroll-behavior: smooth;
+    }
+</style>
+{{ end }}

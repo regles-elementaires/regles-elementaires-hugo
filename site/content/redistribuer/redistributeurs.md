@@ -2,10 +2,6 @@
 title: Nos partenaires redistributeurs
 date: 2019-12-06T13:48:10+01:00
 layout: redistributeurs
-menu:
-  main:
-    parent: redistribuer
-    weight: 1
 illu: /img/page-redistribuer/redistributeurs_intro.svg
 intro: 
     first: "Depuis le début, Règles Élémentaires a fait le choix éthique et moral de ne pas assurer directement la redistribution auprès des femmes dans le besoin, mais de passer par des partenaires redistributeurs spécialisés, à l’instar du Samusocial de Paris, de la Croix Rouge, du Secours Populaire et de nombreux autres acteurs répartis sur tout le territoire. Ce choix s’explique par deux raisons : "

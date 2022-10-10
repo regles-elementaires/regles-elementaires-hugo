@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="mb-8">
+    {{ partial "page-desc" . }}
+    {{ range $elem_index, $elem_val := .Params.actions }}
+    <div class="py-8 md:py-10 bg-white">
+        <div class="w-full md:w-3/4 m-auto flex flex-col md:flex-row">
+            <div class="w-11/12 md:w-6/12 mx-auto bg-rebeige flex flex-col items-start justify-center p-8 md:p-16 rounded-xl md:rounded-l-xl md:rounded-r-none">
+                {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
+                <div class="ml-2 text-rered markdown text-left tracking-tight font-medium my-4">{{.content | markdownify}}</div>
+                {{ if ne .btn_link ""}}
+                <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="{{.btn_link}}"
+                    {{if isset . "target_blank"}}target="_blank" {{end}}}>
+                        {{.btn_text}}
+                </a>
+                {{end}}
+            </div>
+            <div class="w-11/12 md:w-6/12 mx-auto mt-4 md:mt-0 flex items-end rounded-xl md:rounded-r-xl md:rounded-l-none bg-center bg-cover" style="min-height: 12rem; background-image: url({{.illu}})">         
+                {{ with .chiffre }}
+                <div class="w-11/12 md:w-3/4 mx-auto rounded-xl p-3 md:p-4 bg-rered text-white flex flex-col items-center tracking-tight" style="margin-bottom: -2rem;">
+                    <span class="text-center font-semibold text-lg md:text-2xl">{{ .big }}</span>
+                    <span class="text-center font-light text-sm md:text-md">{{ .small }}</span>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{end}}
+    <div class="w-11/12 md:w-3/5 mx-auto">
+        <h3 class="text-center text-rered font-extrabold text-lg md:text-2xl mb-4 md:mb-8">{{ .Params.etapes_title }}</h3>
+        <img src="/img/page-actions/schema-redistrib.svg" alt="étapes de la redistribution" />
+    </div>
+</div>
+{{ end }}
