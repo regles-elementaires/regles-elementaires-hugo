@@ -2,7 +2,7 @@
 title: "#periodemoji pour la création d'un emoji qui représente vraiment les règles !"
 tags:
   - news
-date: 2022-10-11T12:55:17.946Z
+date: 2022-10-11T04:55:17.946Z
 illu: img/invitationplan-de-travail-1-copie-14-100.jpg
 intro: Représenter les choses, c’est les faire exister.
 layout: single
