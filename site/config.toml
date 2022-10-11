@@ -26,22 +26,22 @@ disableKinds = ["RSS"]
   [[menu.main]]
     identifier = "asso"
     name = "Qui sommes-nous ?"
-    url = "/asso/chiffres"
+    url = "/asso/chiffres/"
     weight = 1
   [[menu.main]]
     identifier = "actions"
     name = "Nos actions"
-    url = "/actions/collecter"
+    url = "/actions/collecter/"
     weight = 2
   [[menu.main]]
     identifier = "agir"
     name = "Agir avec nous"
-    url = "/agir/particulier/donner"
+    url = "/agir/particulier/donner/"
     weight = 3
   [[menu.main]]
     identifier = "particulier"
     name = "Particulier"
-    url = "/agir/particulier/donner"
+    url = "/agir/particulier/donner/"
     parent = "agir"
     weight = 1
   [[menu.main]]
@@ -71,7 +71,7 @@ disableKinds = ["RSS"]
   [[menu.main]]
     identifier = "association"
     name = "Association"
-    url = "/agir/association/redistribuer"
+    url = "/agir/association/redistribuer/"
     parent = "agir"
     weight = 3
   [[menu.main]]

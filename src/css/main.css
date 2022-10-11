@@ -312,3 +312,25 @@
 hr {
   border: none;
 }
+
+/*
+=== Contact form
+*/
+
+input::placeholder, textarea::placeholder {
+  color: #e9364b;
+  opacity: 1;
+}
+
+.selectdiv:after {
+  content: '<>';
+  color: #e9364b;
+  transform: rotate(90deg);
+  display: flex;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
