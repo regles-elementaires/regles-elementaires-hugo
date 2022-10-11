@@ -304,9 +304,9 @@
 === Actu
 */
 
-/* Override markdown */
-strong {
-  font-weight: 500;
+.markdown a {
+  text-decoration: underline;
+  color: #e9364b;
 }
 
 hr {

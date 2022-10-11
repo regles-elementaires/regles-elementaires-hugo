@@ -5,14 +5,16 @@ tags:
 date: 2022-10-11T04:55:17.946Z
 illu: img/invitationplan-de-travail-1-copie-14-100.jpg
 intro: Représenter les choses, c’est les faire exister.
-layout: single
+layout: video
+main_video_id: _SQi_onv0f0
+video_list:
+  - 'https://youtu.be/_SQi_onv0f0'
 ---
 Depuis 2015, Règles Élémentaires lutte avec force et conviction pour que les règles soient visibles, normalisées, considérées. Nous nous réjouissons du chemin parcouru ces dernières années mais il reste encore beaucoup à faire et chaque outil dont nous pourrons bénéficier pour parler de règles sera une avancée contre le tabou.
 
 Parce que oui, en mai dernier, notre [baromètre annuel](https://www.regleselementaires.com/actualites/2022-05-27_barom%C3%A8tre-exclusif-2022-opinion-way-x-r%C3%A8gles-%C3%A9l%C3%A9mentaires/) avec Opinion Way révélait que les règles sont encore un sujet tabou pour 1 Français·e sur 2. C’est encore trop. Si on s’en inquiète, c’est parce que ce tabou et ce manque de considération des règles ont des conséquences réelles dans la vie de millions de personnes. En France, c’est encore 2 millions de personnes qui ne peuvent pas se fournir des protections périodiques chaque mois mettant en danger leur santé. C’est près d’1 personne sur 3 contrainte de rater le travail ou l’école à cause de ses règles.
 
-**\
-Parler de règles et les représenter est une urgence absolue.** 
+**Parler de règles et les représenter est une urgence absolue.** 
 
 Pourtant, on manque encore d’outils pour en parler. Saviez-vous que 80% des Français·es déclarent utiliser les emojis dans leurs conversations quotidiennes ? Saviez-vous que vous avez la possibilité de choisir entre 20 emojis cœurs différents mais que vous n'avez seulement qu'une goutte de sang pour parler de règles ? 
 
