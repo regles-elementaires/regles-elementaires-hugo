@@ -17,19 +17,6 @@
           {{ with .Params.intro.hashtags }}
           <div class="font-bold text-lg uppercase mt-4">{{.}}</div>
           {{ end }}
-          {{if isset .Params "display_dons_desc"}}
-          <div class="pt-8 flex flex-row items-center justify-center">
-            <a class="big-white-button big-white-button--rounded"
-            href="/donner/dons-financiers/#haWidget" 
-            onclick="gtag('event', 'clicDonnerDonsFinanciers', {
-                'event_category': 'Dons Financiers',
-                'event_label': 'don_banner',
-                });">
-                FAIRE UN DON
-                <span class="rounded-full bg-rered text-white font-bold px-2 py-1 ml-1">€</span>
-            </a>
-          </div>
-          {{end}}
         </div>
  
         <div class="hidden md:flex w-3/5 rounded-xl mt-16 h-96" style="margin-bottom: -10rem;">
