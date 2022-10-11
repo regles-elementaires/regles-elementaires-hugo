@@ -14,13 +14,11 @@ Parce que oui, en mai dernier, notre [baromètre annuel](https://www.regleseleme
 **\
 Parler de règles et les représenter est une urgence absolue.** 
 
-
-
 Pourtant, on manque encore d’outils pour en parler. Saviez-vous que 80% des Français·es déclarent utiliser les emojis dans leurs conversations quotidiennes ? Saviez-vous que vous avez la possibilité de choisir entre 20 emojis cœurs différents mais que vous n'avez seulement qu'une goutte de sang pour parler de règles ? 
 
 Bon, c’est déjà une avancée en soi. Parce que oui, c’est grâce à la mobilisation de Plan International UK que nous avons eu droit en 2019 à l’intégration à nos claviers de smartphone d’une petite goutte de sang censée représenter officiellement les règles. Mouais, pas convaincu·es par ici. On peut faire mieux.
 
-C’est pourquoi, à l’occasion du 11 octobre, journée internationale de la fille, nous avons décidé de lancer une grande mobilisation pour la création d’un emoji qui représente VRAIMENT les règles #periodemoji. Une culotte tachée de sang, qui représente une expérience que toute personne qui a ses règles a connu et connaît encore : la fameuse arrivée imprévue des règles, l’accident de la protection qui nous lâche, ou encore le retour de règles au bout du 6ème jour quand on pensait qu’elles étaient terminées… 
+C’est pourquoi, à l’occasion du 11 octobre, journée internationale de la fille, nous avons décidé de lancer une grande mobilisation à travers une [pétition](https://www.change.org/p/pour-un-emoji-qui-brise-enfin-le-tabou-des-r%C3%A8gles?utm_source=share_petition&utm_medium=custom_url&recruited_by_id=3aaf56b0-3e87-11ed-a1a8-39a86780354d) pour la création d’un emoji qui représente VRAIMENT les règles #periodemoji. Une culotte tachée de sang, qui représente une expérience que toute personne qui a ses règles a connu et connaît encore : la fameuse arrivée imprévue des règles, l’accident de la protection qui nous lâche, ou encore le retour de règles au bout du 6ème jour quand on pensait qu’elles étaient terminées… 
 
 Pour que cet emoji intègre nos claviers de smartphone, une seule solution : que le Consortium Unicode, instance qui valide ou pas la création de nouveaux emojis, entende notre demande et considère enfin l’impact positif de l’arrivée d’un emoji qui lèverait les tabous. Nous on y croit, et nous sommes certain·es que vous aussi.
 
