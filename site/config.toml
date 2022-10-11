@@ -26,17 +26,17 @@ disableKinds = ["RSS"]
   [[menu.main]]
     identifier = "asso"
     name = "Qui sommes-nous ?"
-    url = "/asso/vision"
+    url = "/asso/chiffres"
     weight = 1
   [[menu.main]]
     identifier = "actions"
     name = "Nos actions"
-    url = "/actions/actions"
+    url = "/actions/collecter"
     weight = 2
   [[menu.main]]
     identifier = "agir"
     name = "Agir avec nous"
-    url = "/agir/particuliers"
+    url = "/agir/particulier/donner"
     weight = 3
   [[menu.main]]
     identifier = "particulier"
