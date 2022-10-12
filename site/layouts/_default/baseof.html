@@ -21,6 +21,9 @@
       {{ if $.Site.Params.display_popup_barometre }}
         {{ partial "popup-barometre" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_emoji }}
+        {{ partial "popup-emoji" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}

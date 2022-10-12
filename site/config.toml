@@ -10,6 +10,7 @@ title = "Règles Élémentaires"
   display_popup_tribune = false
   display_popup_festival = false
   display_popup_barometre = false
+  display_popup_emoji = true
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
