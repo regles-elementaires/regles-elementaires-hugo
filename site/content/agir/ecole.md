@@ -34,13 +34,16 @@ projects:
   - title: Projets pilotes <br/> Éducation par les pairs (collège-lycée)
     text: "Afin d’ancrer des dynamiques de changement durable, il est nécessaire de pouvoir faciliter la parole sur les règles dans tous les contextes. Le cycle d’ateliers “éducation par les pairs” promeut la santé menstruelle en donnant tous les outils aux jeunes pour s’emparer des sujets qui les intéressent et devenir elles et eux mêmes acteurs et actrices de la prévention. Chaque cycle comprend au moins dix sessions d’une heure."
     btn_text: Contactez-nous
+    btn_link: mailto:partenariat@regleselementaires.com
   - title: Ateliers cours moyen
     text: "Règles Élémentaires propose des temps de sensibilisation au corps, à la puberté et aux règles, dès le cours moyen (CM1-CM2), afin de permettre aux jeunes d’avoir toutes les informations dont ils ont besoin pour comprendre leur corps et son fonctionnement. Répartis en 3 sessions de 45 minutes, cet atelier aborde la physiologie, la formulation des sensations, la connaissance des organes, la puberté et les règles."
-    btn_text: Contactez-nous
+    target_blank: true
+    btn_text: Voir la brochure
+    btn_link: https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_cycle_moyen.pdf
 universite_title: Universités
 actions_univ:
   - title: Ateliers thématiques autour des règles
-    btn_link: https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_etudiant.es.pdf
+    btn_link: https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_etudiant·es.pdf
     btn_text: Voir la brochure
     target_blank: true
     content: >

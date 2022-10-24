@@ -101,13 +101,13 @@ disableKinds = ["RSS"]
     weight = 1
   [[menu.main]]
     identifier = "colleges"
-    name = "Collèges et Lycées"
+    name = "Sensibiliser au collège et lycée"
     url = "/agir/ecole/#colleges"
     parent = "ecole"
     weight = 2
   [[menu.main]]
     identifier = "universites"
-    name = "Universités"
+    name = "Sensibiliser à l'université"
     url = "/agir/ecole/#universites"
     parent = "ecole"
     weight = 3
