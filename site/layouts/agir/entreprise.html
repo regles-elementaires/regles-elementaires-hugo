@@ -50,12 +50,15 @@
     </div>
     <div class="bg-rebeige" id="mecenat">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
-            <div class="w-full md:w-1/2 flex flex-col items-start">
+            <div class="w-full md:w-1/2 flex flex-col flex-wrap items-start">
                 <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.mecenat.title }}</h3>
                 <h4 class="font-bold mt-4">{{ .Params.mecenat.don.title }}</h4>
                 <p class="mt-4 tracking-tighter">{{ .Params.mecenat.don.text | markdownify }}</p>
                 <h4 class="font-bold mt-4">{{ .Params.mecenat.competence.title }}</h4>
                 <p class="mt-4 tracking-tighter">{{ .Params.mecenat.competence.text | markdownify }}</p>
+                <a class="bg-rered text-center rounded-full text-white py-2 px-4 uppercase mt-4" href="/asso/soutiens">
+                    {{ .Params.mecenat.btn }}
+                </a>
             </div>
             <div class="w-full md:w-1/2 mt-4 md:mt-0 flex justify-center items-center">
                 <img class="max-h-48 md:max-h-80 border-rered border-dashed" style="border-width: 3px;" src="{{ .Params.mecenat.illu }}" alt="photo mecenat entreprise" />

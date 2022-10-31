@@ -4,31 +4,43 @@
     <div class="bg-white">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
             <div class="md:w-1/2">
-                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.logistique.title }}</h3>
-                <p class="mt-4 tracking-tighter">{{ .Params.logistique.text | markdownify }}</p>
-            </div>
-            <div class="w-1/2 mt-4 md:mt-0 md:pl-12">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.ponctuel.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.ponctuel.text | markdownify }}</p>
+            </div>         
+            <div class="w-1/2 mt-4 md:pl-12">
                 <img class="md:h-96 md:absolute" src="/img/page-benevole/benevole-1.png" alt="photo bénévole" />
-            </div>        
+            </div>     
         </div>
     </div>
     <div class="bg-rebeige">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
             <div class="md:w-1/2">
-                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.sensibilisation.title }}</h3>
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.long_title }}</h3>
+                <h4 class="mt-4 font-bold text-lg md:text-xl">{{ .Params.logistique.title }}</h4>
+                <p class="mt-4 tracking-tighter">{{ .Params.logistique.text | markdownify }}</p>
+                <h4 class="mt-4 font-bold text-lg md:text-xl">{{ .Params.sensibilisation.title }}</h4>
                 <p class="mt-4 tracking-tighter">{{ .Params.sensibilisation.text | markdownify }}</p>
             </div>
             <div class="w-1/2 mt-4 md:mt-0 md:pl-48">
                 <img class="md:h-96 md:absolute" src="/img/page-benevole/benevole-2.png" alt="photo bénévole" />
-            </div>               
+            </div>      
         </div>
     </div>
     <div class="bg-white">
-        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12">
-            <div class="md:w-1/2">
-                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.autre.title }}</h3>
-                <p class="mt-4 tracking-tighter">{{ .Params.autre.text | markdownify }}</p>
-            </div>            
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="md:w-1/2 flex flex-col items-start">
+                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.antenne.title }}</h3>
+                <p class="mt-4 tracking-tighter">{{ .Params.antenne.text | markdownify }}</p>
+                <div class="mt-6 w-full flex flex-row flex-wrap justify-between">
+                    <a class="bg-rered rounded-full text-white py-2 px-4 uppercase" href="/asso/equipe">
+                        {{ .Params.antenne.btn_antenne }}
+                    </a>
+                    <a class="bg-reorange rounded-full text-white py-2 px-4 uppercase mt-4 md:mt-0" target="_blank" href="https://www.welcometothejungle.com/fr/companies/regles-elementaires/jobs">
+                        {{ .Params.antenne.btn_join }}
+                    </a>
+                </div>                
+            </div>
+                           
         </div>
     </div>
 </div>

@@ -59,7 +59,7 @@ disableKinds = ["RSS"]
     weight = 2
   [[menu.main]]
     identifier = "dons-produits"
-    name = "Dons produits"
+    name = "Donner des produits"
     url = "/agir/entreprise/#dons-produits"
     parent = "entreprise"
     weight = 3
@@ -100,14 +100,8 @@ disableKinds = ["RSS"]
     parent = "ecole"
     weight = 1
   [[menu.main]]
-    identifier = "colleges"
-    name = "Sensibiliser au collège et lycée"
-    url = "/agir/ecole/#colleges"
+    identifier = "sensibiliser"
+    name = "Sensibiliser"
+    url = "/agir/ecole/#sensibiliser"
     parent = "ecole"
     weight = 2
-  [[menu.main]]
-    identifier = "universites"
-    name = "Sensibiliser à l'université"
-    url = "/agir/ecole/#universites"
-    parent = "ecole"
-    weight = 3

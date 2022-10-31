@@ -50,7 +50,7 @@ actions:
     illu: /img/page-mobiliser/tribune.png
   - title: "La gratuité pour les personnes incarcérées"
     content: >
-      Après de nombreux échanges, présentations, questions-réponses, études internes, il a été acté que 5 références de protections jetables seraient accessibles gratuitement et périodiquement dans tous les établissements pénitentiaires accueillant des femmes dès l’automne 2020. 
+      Notre collaboration avec la Direction de l’Administration Pénitentiaire, initiée en 2019, a porté ses fruits en 2020. En effet, après de nombreux échanges, il a été acté à l’été que 5 références de protections jetables seraient accessibles gratuitement et périodiquement dans tous les établissements pénitentiaires accueillant des femmes dès l’automne 2020. Cette avancée sans précédent de lutte contre la précarité menstruelle en milieu carcéral s’est accompagnée d’une délégation de service public octroyée à Règles Élémentaires pour mener des ateliers d’information et de formation à l’hygiène et la précarité menstruelles à destination des femmes incarcérées et du personnel encadrant.
     button:
       link: ""
       text: ""
