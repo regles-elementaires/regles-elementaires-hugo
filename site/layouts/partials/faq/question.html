@@ -8,8 +8,8 @@
         });">
             <input class="absolute opacity-0" id="tab-single-{{.id}}" type="radio" name="tabs2">
             <label class="flex p-4 leading-normal cursor-pointer font-medium" for="tab-single-{{.id}}">
-                <div class="w-11/12 pr-2">{{ .question }}</div>                    
-                <svg viewBox="0 0 32 32" class="w-6 icon icon-chevron-bottom fill-current" aria-hidden="true"><path d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/></svg>
+                <span class="w-11/12 pr-2">{{ .question }}</span>                    
+                <svg viewBox="0 0 32 32" class="w-6 h-6 icon icon-chevron-bottom fill-current" aria-hidden="true"><path d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/></svg>
             </label>
             <div class="tab-content overflow-y-auto border-l-2 border-rered leading-normal">
                 <p class="p-4">{{ .answer | markdownify }}</p>
