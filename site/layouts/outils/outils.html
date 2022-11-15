@@ -5,7 +5,7 @@
     </div>
     <div class="bg-white">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:pt-12 flex flex-wrap border-b border-rered">
-            <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-8">
+            <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-6 md:p-8">
                 {{ partial "projet/big-title" (dict "title" .Params.informer.title "size" "2xl") }}
                 <p class="mt-4 mb-2 mx-4 md:mr-8 tracking-tighter font-medium">{{ .Params.informer.text | markdownify }}</p>
             </div>
@@ -24,7 +24,7 @@
     </div>
     <div class="bg-white">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
-            <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-8">
+            <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-6 md:p-8">
                 {{ partial "projet/big-title" (dict "title" .Params.relayer.title "size" "2xl") }}
                 <p class="mt-4 mb-2 mx-4 tracking-tighter font-medium">{{ .Params.relayer.text | markdownify }}</p>
             </div>
@@ -57,7 +57,7 @@
     </div>
     <div class="bg-white">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap mt-8">
-            <div class="md:w-3/4 flex flex-col items-start bg-rebeige rounded-lg p-8">
+            <div class="md:w-3/4 flex flex-col items-start bg-rebeige rounded-lg p-6 md:p-8">
                 {{ partial "projet/big-title" (dict "title" .Params.visuels.title "size" "2xl") }}
                 <p class="md:w-4/5 mt-4 mb-2 mx-4 tracking-tighter font-medium">{{ .Params.visuels.text | markdownify }}</p>
                 <img class="hidden md:flex absolute h-80 right-72" style="margin-top: -5rem;" src="img/page-outils/telephone.png" alt="illustration téléphone réseau social" />
