@@ -1,0 +1,91 @@
+{{ define "main" }}
+<div>
+    <div class="pt-6 bg-rered">
+        {{ partial "page-desc" . }}
+    </div>
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:pt-12 flex flex-wrap border-b border-rered">
+            <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-8">
+                {{ partial "projet/big-title" (dict "title" .Params.informer.title "size" "2xl") }}
+                <p class="mt-4 mb-2 mx-4 md:mr-8 tracking-tighter font-medium">{{ .Params.informer.text | markdownify }}</p>
+            </div>
+            <div class="flex md:absolute md:right-40 w-full md:w-1/3 mt-4 md:mt-0 md:pl-8">
+                <img class="md:h-64" src="img/page-outils/brochures.png" alt="illustrations brochures" />
+            </div>
+            <div class="md:mt-12 md:mb-4 flex flex-wrap justify-between">
+                {{ range .Params.informer.tools }}
+                    <div class="w-full md:w-1/2 flex flex-row items-center mt-1 md:pr-4">
+                        <img class="h-2 md:h-3" src="img/page-home/arrow.png" alt="arrow" />
+                        <a class="ml-3 font-bold md:text-lg tracking-tight" href="{{ .link }}" target="_blank">{{ .title }}</a>
+                    </div>
+                {{ end }}
+            </div>            
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-8">
+                {{ partial "projet/big-title" (dict "title" .Params.relayer.title "size" "2xl") }}
+                <p class="mt-4 mb-2 mx-4 tracking-tighter font-medium">{{ .Params.relayer.text | markdownify }}</p>
+            </div>
+            <div class="w-full mt-8 flex flex-row flex-wrap">
+                {{ range .Params.relayer.tools }}
+                    <div class="w-full md:w-1/3 mb-4 md:mb-0 flex flex-col items-center px-4">
+                        <a class="font-bold md:text-lg tracking-tight text-center flex flex-col items-center" href="{{ .link }}" target="_blank">
+                            <img class="h-48 md:h-64" src="{{ .illu }}" alt="{{ .alt }}" />
+                            <span class="mt-4">{{ .title }}</span>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>             
+        </div>
+    </div>  
+    <div class="bg-rebeige">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap justify-center">
+            {{ partial "projet/big-title" (dict "title" .Params.videos.title "size" "2xl") }}
+            <div class="w-full mt-8 flex flex-row flex-wrap">
+                {{ range .Params.videos.tools }}
+                    <div class="w-full md:w-1/4 mb-8">
+                        <a class="mx-4 font-bold md:text-lg tracking-tight text-center flex flex-col items-center" href="{{ .link }}" target="_blank">
+                            <img class="max-h-40 mb-4" src="{{ .illu }}" alt="miniature vidéo" />
+                            {{ .title }}
+                        </a>
+                    </div>
+                {{ end }}
+            </div>             
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap mt-8">
+            <div class="md:w-3/4 flex flex-col items-start bg-rebeige rounded-lg p-8">
+                {{ partial "projet/big-title" (dict "title" .Params.visuels.title "size" "2xl") }}
+                <p class="md:w-4/5 mt-4 mb-2 mx-4 tracking-tighter font-medium">{{ .Params.visuels.text | markdownify }}</p>
+                <img class="hidden md:flex absolute h-80 right-72" style="margin-top: -5rem;" src="img/page-outils/telephone.png" alt="illustration téléphone réseau social" />
+            </div>   
+            <div class="w-full mt-8 flex flex-row flex-wrap">
+                {{ range .Params.visuels.tools }}
+                    <div class="w-full flex flex-row items-center mt-1">
+                        <img class="h-2 md:h-3" src="img/page-home/arrow.png" alt="arrow" />
+                        <a class="ml-2 font-bold md:text-lg tracking-tight" href="{{ .link }}" target="_blank">{{ .title }}</a>
+                    </div>
+                {{ end }}
+            </div>                      
+        </div>
+    </div> 
+    <div class="bg-rebeige">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap justify-center">
+            {{ partial "projet/big-title" (dict "title" .Params.etudes.title "size" "2xl") }}
+            <div class="w-full mt-8 flex flex-row flex-wrap">
+                {{ range .Params.etudes.tools }}
+                    <div class="w-full md:w-1/2 flex flex-col items-center">
+                        <a class="mb-8 md:mb-0 font-bold md:text-lg tracking-tight text-center flex flex-col items-center" href="{{ .link }}" target="_blank">
+                            <img class="md:h-52" src="{{ .illu }}" alt="{{ .alt }}" />
+                            <span class="mt-4">{{ .title }}</span>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>             
+        </div>
+    </div>
+</div>
+{{ end }}
