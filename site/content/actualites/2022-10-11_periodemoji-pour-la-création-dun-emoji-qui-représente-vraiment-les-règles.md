@@ -8,7 +8,7 @@ intro: Représenter les choses, c’est les faire exister.
 layout: video
 main_video_id: _SQi_onv0f0
 video_list:
-  - 'https://youtu.be/_SQi_onv0f0'
+  - https://youtu.be/_SQi_onv0f0
 ---
 Depuis 2015, Règles Élémentaires lutte avec force et conviction pour que les règles soient visibles, normalisées, considérées. Nous nous réjouissons du chemin parcouru ces dernières années mais il reste encore beaucoup à faire et chaque outil dont nous pourrons bénéficier pour parler de règles sera une avancée contre le tabou.
 
@@ -33,3 +33,17 @@ Nous n’allons bien évidemment pas vous laisser repartir les mains vides, on v
 MERCI ! le futur de nos claviers de smartphone et des règles est entre vos mains !
 
 Cette campagne est rendue possible grâce au soutien de la Fondation la France s’engage, dont nous sommes lauréat de l’édition 2021 ainsi que de l’agence de communication à mission YZ.
+
+\---------
+
+
+
+**Mise à jour, 15/11/12**
+
+Aujourd’hui cela fait plus d'**1 mois** que nous avons lancé notre campagne #periodemoji, pour l’intégration à nos claviers de smartphone d’un emoji qui représente VRAIMENT les règles.
+
+Encore une fois, **MERCI**, d’avoir contribué au futur des règles. Parce que OUI, si cet emoji voit le jour, c’est un tout nouveau chapitre qui s’ouvre pour la visibilisation des règles. **Quand on y pense, c’est vraiment dingue de se dire qu’il existe plus de 3600 emojis, mais pas d’emoji parmi ces 3600 qui représente le quotidien de millions de personnes.**
+
+Au lancement de la campagne nous avions annoncé 1 mois pour vous permettre de signer avant de déposer le fruit de notre mobilisation au Consortium Unicode. Il s’avère que le Consortium accepte les dossiers pour des nouveaux emojis à des périodes très précises dans l’année : **entre le 4 avril et le 31 juillet**. Finalement, c’est parfait ! Cela nous permet de garder la pétition active jusqu’à avril 2023 afin de nous permettre de faire encore grimper le compteur, parce qu’on peut faire beaucoup mieux !!!!
+
+En attendant, nous on fera vivre la pétition jusqu'à avril, le Consortium Unicode n'a qu'à bien se tenir, on arrive !
