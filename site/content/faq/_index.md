@@ -111,7 +111,7 @@ categories:
       - id: soutenir-1
         question: Puis-je faire un don financier ?
         answer: "Règles Élémentaires a cette chance de pouvoir compter sur de généreux·ses donateur·rices grâce auxquels nous pouvons rester indépendant·es.<br/>  
-        Pour faire un don à Règles Élémentaires, le plus simple est de le faire via notre <a href=\"https://regleselementaires.don-en-ligne.com/\" onclick=\"_paq.push(['trackEvent', 'Don Financier', 'clicDonnerDonFinancier', 'don_faq']);">formulaire de don</a>.<br/><br/>
+        Pour faire un don à Règles Élémentaires, le plus simple est de le faire via notre <a href=\"https://regleselementaires.don-en-ligne.com/\" onclick=\"_paq.push(['trackEvent', 'Don Financier', 'clicDonnerDonFinancier', 'don_faq']);\">formulaire de don</a>.<br/><br/>
 
         Nous acceptons également les virements. 
         Voici l’IBAN de notre association :  FR76 1027 8060 4500 0211 8560 110<br/><br/>
