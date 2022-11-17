@@ -15,7 +15,7 @@ intro:
 steps:
   - img: /img/page-redistribuer/step1.svg
     step: 1
-    text: "Une personne de votre organisation s'inscrit sur notre <a target=\"_blank\" href=\"https://partenaire.regleselementaires.com/account/register_partner\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'devenir_step'});\">plate-forme</a> et remplit le formulaire de demande de partenariat."
+    text: "Une personne de votre organisation s'inscrit sur notre <a target=\"_blank\" href=\"https://partenaire.regleselementaires.com/account/register_partner\">plate-forme</a> et remplit le formulaire de demande de partenariat."
   - img: /img/page-redistribuer/step2.svg
     step: 2
     text: 'L’équipe redistribution de Règles Élémentaires prend contact avec vous sous 1 mois.'

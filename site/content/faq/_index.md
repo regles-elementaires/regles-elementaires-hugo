@@ -52,7 +52,7 @@ categories:
         À la différence des collectes ponctuelles, les boîtes à dons sont installées sur le long-terme et en libre-accès"
       - id: collecte-3
         question: Comment organiser une collecte ? 
-        answer: "Pour organiser une collecte à nos côtés, il faudra créer un compte sur notre site internet dans l'espace <a href=\"https://collectes.regleselementaires.com/\" target=\"_blank\" onclick=\"gtag('event', 'clicOrganiserCollecte', {'event_category': 'Collecte','event_label': 'collecte_faq'});\">organiser une collecte</a>. Il vous faudra alors remplir une fiche avec les dates, horaires et l'adresse exacte (avec nom du lieu) de la collecte au moins deux semaines avant le début de celle-ci.<br/><br/>
+        answer: "Pour organiser une collecte à nos côtés, il faudra créer un compte sur notre site internet dans l'espace <a href=\"https://collectes.regleselementaires.com/\" target=\"_blank\">organiser une collecte</a>. Il vous faudra alors remplir une fiche avec les dates, horaires et l'adresse exacte (avec nom du lieu) de la collecte au moins deux semaines avant le début de celle-ci.<br/><br/>
  
         Une fois celle-ci validée par notre équipe, vous pourrez télécharger des supports de communication personnalisés ainsi qu'un inventaire à nous remettre en fin de collecte directement depuis votre espace collectes.<br/><br/>
         
@@ -75,7 +75,7 @@ categories:
     questions:
       - id: redistribuer-1
         question: Comment bénéficier des produits collectés par Règles Élémentaires ? 
-        answer: "Si vous êtes une organisation médico-sociale (association, CHRS, unité de maraude….) spécialisée dans le sans-abrisme et le mal logement et que vous souhaitez bénéficier de protections périodiques collectées par Règles Élémentaires, il suffit de vous inscrire sur notre <a href=\"https://partenaire.regleselementaires.com/account/register_partner\" target=\"_blank\" onclick=\"gtag('event', 'clicDevenirPartenaire', {'event_category': 'Partenaires','event_label': 'partenaire_faq'});\">plate-forme</a> et remplir la demande de partenariat. Toutes les étapes sont expliquées sur la page <a href=\"/agir/association/redistribuer\">devenir partenaire</a>. Nous adapterons les dons selon le nombre de femmes que vous accueillez, votre localisation sur le territoire national et notre stock de protections périodiques.<br/><br/>
+        answer: "Si vous êtes une organisation médico-sociale (association, CHRS, unité de maraude….) spécialisée dans le sans-abrisme et le mal logement et que vous souhaitez bénéficier de protections périodiques collectées par Règles Élémentaires, il suffit de vous inscrire sur notre <a href=\"https://partenaire.regleselementaires.com/account/register_partner\" target=\"_blank\">plate-forme</a> et remplir la demande de partenariat. Toutes les étapes sont expliquées sur la page <a href=\"/agir/association/redistribuer\">devenir partenaire</a>. Nous adapterons les dons selon le nombre de femmes que vous accueillez, votre localisation sur le territoire national et notre stock de protections périodiques.<br/><br/>
 
         Si vous êtes un particulier, la redistribution des protections périodiques collectées est assurée par nos partenaires médico-sociaux. À date, nous avons plus de 500 partenaires à travers le territoire. 
         Ainsi, pour avoir accès aux produits collectés par Règles Élémentaires, il faut être bénéficiaire de l’un de nos partenaires redistributeurs. "
@@ -105,13 +105,13 @@ categories:
       - id: asso-2
         question: Je souhaite rejoindre l’association. Comment faire ?
         answer: "L'action de Règles Élémentaires vous touche ? Vous avez envie de rejoindre notre super équipe et participer aux décisions stratégiques de l'association ?<br/> 
-        Pour rejoindre l’équipe, c’est par <a href=\"https://www.welcometothejungle.com/fr/companies/regles-elementaires/jobs\" target=\"_blank\" onclick=\"gtag('event', 'clicRejoindreAsso', {'event_category': 'Rejoindre','event_label': 'rejoindre_faq'});\">ici</a>. "
+        Pour rejoindre l’équipe, c’est par <a href=\"https://www.welcometothejungle.com/fr/companies/regles-elementaires/jobs\" target=\"_blank\">ici</a>. "
   - title: Soutenir l'association
     questions:
       - id: soutenir-1
         question: Puis-je faire un don financier ?
         answer: "Règles Élémentaires a cette chance de pouvoir compter sur de généreux·ses donateur·rices grâce auxquels nous pouvons rester indépendant·es.<br/>  
-        Pour faire un don à Règles Élémentaires, le plus simple est de le faire via notre <a href=\"https://regleselementaires.don-en-ligne.com/\" onclick=\"gtag('event', 'clicDonnerDonFinancier', {'event_category': 'Don Financier','event_label': 'don_faq'});\">formulaire de don</a>.<br/><br/>
+        Pour faire un don à Règles Élémentaires, le plus simple est de le faire via notre <a href=\"https://regleselementaires.don-en-ligne.com/\" onclick=\"_paq.push(['trackEvent', 'Don Financier', 'clicDonnerDonFinancier', 'don_faq']);">formulaire de don</a>.<br/><br/>
 
         Nous acceptons également les virements. 
         Voici l’IBAN de notre association :  FR76 1027 8060 4500 0211 8560 110<br/><br/>

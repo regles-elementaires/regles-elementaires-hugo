@@ -14,14 +14,14 @@ intro:
   button:
     link: "https://collectes.regleselementaires.com/account/login"
     text: "Je crée mon compte"
-steps_text: 'Particuliers, vous pouvez dès à présent créer votre <a href="https://collectes.regleselementaires.com/" target="_blank" onclick="gtag(''event'', ''clicOrganiserCollecte'', {''event_category'': ''Collecte'',''event_label'': ''bouton_step_2''});">espace collecte</a> en suivant le guide :'
+steps_text: 'Particuliers, vous pouvez dès à présent créer votre <a href="https://collectes.regleselementaires.com/" target="_blank">espace collecte</a> en suivant le guide :'
 steps:
   - img: /img/page-collecte/etape-1.svg
     step: 1
     text: J'identifie un lieu, les dates, les horaires, éventuellement des coéquipier·es.
   - img: /img/page-collecte/etape-2.svg
     step: 2
-    text: 'Je me rends sur <br>l''<a href="https://collectes.regleselementaires.com/" target="_blank" onclick="gtag(''event'', ''clicOrganiserCollecte'', {''event_category'': ''Collecte'',''event_label'': ''bouton_step_2''});">espace collecte Règles Élémentaires</a>.'
+    text: 'Je me rends sur <br>l''<a href="https://collectes.regleselementaires.com/" target="_blank">espace collecte Règles Élémentaires</a>.'
   - img: /img/page-collecte/etape-3.svg
     step: 3
     text: Je crée mon compte. Je consulte la <a href="/collecter/charte" target="_blank">charte Règles Élémentaires</a>.

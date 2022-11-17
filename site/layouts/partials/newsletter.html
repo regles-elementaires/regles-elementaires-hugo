@@ -13,11 +13,7 @@
                         <input class="w-full h-full required email border-b-2 border-white bg-rered text-white placeholder-white px-2"
                         type="email" value="" name="EMAIL" id="email_newsletter" placeholder="Votre email">
                     </div>
-                    <input class="cursor-pointer bg-rered text-white rounded-full font-semibold border-white border-2 py-2 px-8 mt-4"
-                    type="submit" value="S'ABONNER" name="subscribe" onclick="gtag('event', 'clicInscriptionNewsletter', {
-                        'event_category': 'Newsletter',
-                        'event_label': 'newsletter',
-                    });">
+                    <input class="cursor-pointer bg-rered text-white rounded-full font-semibold border-white border-2 py-2 px-8 mt-4" type="submit" value="S'ABONNER" name="subscribe" onclick="_paq.push(['trackEvent', 'Newsletter', 'clicInscriptionNewsletter', 'newsletter_footer']);">
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input type="text" name="b_d920a045417cea49ec8048c5f_76cba65ade" tabindex="-1" value="">
                     </div>
@@ -28,38 +24,23 @@
             <h3 class="text-white text-xl md:text-2xl font-bold pb-4 uppercase">Suivez-nous</h3>
             <div class="flex flex-row flex-wrap pt-2">
                 <a href="https://www.facebook.com/regleselementaires/" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'facebook_newsletter',
-                });">
+                class="py-1 pr-2">
                     <img src="/img/social/facebook.svg" class="h-12 rounded-full" alt="lien facebook"/>
                 </a>
                 <a href="https://twitter.com/RElementaires" target="_blank"
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'twitter_newsletter',
-                });">
+                class="py-1 pr-2">
                     <img src="/img/social/twitter.svg" class="h-12 rounded-full" alt="lien twitter"/>
                 </a>
                 <a href="https://www.instagram.com/regleselementaires/" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'insta_newsletter',
-                });">
+                class="py-1 pr-2">
                     <img src="/img/social/insta.svg" class="h-12 rounded-full" alt="lien instagram"/>
                 </a>
                 <a href="https://www.linkedin.com/company/r%C3%A8gles-el%C3%A9mentaires/" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'linkedin_newsletter',
-                });">
+                class="py-1 pr-2">
                     <img src="/img/social/linkedin.svg" class="h-12 rounded-full" alt="lien linkedin"/>
                 </a>
                 <a href="https://www.tiktok.com/@regleselementaires" target="_blank" 
-                class="py-1 pr-2" onclick="gtag('event', 'clicConsulterReseauxSociaux', {
-                    'event_category': 'Reseaux Sociaux',
-                    'event_label': 'tiktok_newsletter',
-                });">
+                class="py-1 pr-2">
                     <img src="/img/social/tiktok.svg" class="h-12 rounded-full" alt="lien tiktok"/>
                 </a>
             </div>

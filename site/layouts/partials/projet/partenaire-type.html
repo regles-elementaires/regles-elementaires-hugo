@@ -9,11 +9,7 @@
         {{end}}
         {{if isset . "btn_text"}}
         <div class="text-center">
-            <a class="big-red-button big-red-button--rounded" href="{{ .btn_link }}" target="_blank"
-            onclick="gtag('event', 'clicDevenirPartenaire', {
-                'event_category': 'Partenaires',
-                'event_label': '{{.event_label}}',
-            });">
+            <a class="big-red-button big-red-button--rounded" href="{{ .btn_link }}" target="_blank">
                 {{ .btn_text }}
             </a>
         </div>

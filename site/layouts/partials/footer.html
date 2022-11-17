@@ -8,11 +8,7 @@
 						<p class="tracking-tighter text-sm md:text-base">
 							Une question sur l’organisation d’une collecte, sur la redistribution, ou un partenariat ? Merci de consulter au préalable notre
 						</p>
-						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-reorange" href="/faq/"
-						onclick="gtag('event', 'clicFAQ', {
-							'event_category': 'FAQ',
-							'event_label': 'faq_footer',
-						});">
+						<a class="font-semibold bg-rered text-white rounded-full px-8 py-2 mt-2 uppercase hover:bg-reorange" href="/faq/">
 							Foire aux questions
 						</a>
 					</div>
@@ -61,25 +57,3 @@
 		</div>
 	</div>
 </footer>
-<!-- Counter tracking (analytics) -->
-<script src="https://cdn.counter.dev/script.js" data-id="3357f7e6-8f23-4ded-8c9e-a2ab270d3f7e" data-utcoffset="2"></script>
-
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159065733-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag('js', new Date());
-	gtag('config', 'UA-159065733-1');
-</script>
-
-<script>
-	window.dataLayer = window.dataLayer || [];		
-</script>
-
-{{ if .IsHome }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer async></script>
-{{ end }}
