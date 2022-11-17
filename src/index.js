@@ -16,7 +16,7 @@ if (closeButton !== null) {
 }
 
 function closePopup(ev) {
-    console.log(ev.currentTarget);
+    //console.log(ev.currentTarget);
     if (ev.target === overlay || ev.target === close || ev.currentTarget === closeButton) {
         overlay.style.display = 'none';
     }
