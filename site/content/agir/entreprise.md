@@ -42,4 +42,13 @@ mecenat:
         text: "Vous pouvez également contribuer à #changerlesregles en donnant de votre temps, nous sommes toujours à la recherche de nouvelles compétences pour nous aider à accomplir nos missions. En mettant vos compétences au service de Règles Élémentaires vous avez un impact concret sur le monde dans lequel nous vivons."
     illu: /img/page-entreprise/mecenat.jpg
     btn: "Ces entreprises nous soutiennent"
+temoignages_title: Témoignages d'entreprises
+temoignages:
+    - text: "La formation de Règles Elémentaires a permis non seulement de sensibiliser les managers au sujet des règles douloureuses mais aussi de libérer la parole sur ce sujet. Elle a aidé de nombreuses femmes chez nous qui nous remercient régulièrement d’avoir organisé cette intervention. Merci Règles Elementaires !"
+      name: Valérie Albou
+      function: Directrice adjointe RSE Publicis Conseil
+    - text: "Engagé en faveur des femmes les plus vulnérables, le Fonds L’Oréal pour les Femmes soutient l’action de Règles Élémentaires pour répondre aux besoins concernant la mise à disposition de protections. Grâce aux actions de Règles Élémentaires sur le terrain, ce sont des centaines de vies de jeunes filles qui sont véritablement transformées !"
+      name: Laura Barroso
+      function: Responsable des programmes Fonds L’Oréal pour les femmes
+carousel: true
 ---

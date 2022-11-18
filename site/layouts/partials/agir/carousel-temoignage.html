@@ -1,0 +1,61 @@
+<div class="flex flex-row px-2 md:px-16 md:my-8">
+
+    <div id="prev-temoignage" class="flex w-4 md:w-1/12 h-6 self-center justify-center">
+        <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" alt="témoignage précédent"/>
+    </div>
+    
+    <div id="carousel-temoignage" class="flex w-10/12 carousel-redistributeurs m-auto">
+    {{ range .data }}
+    <div class="p-4 md:py-8 md:px-16 flex mx-2 md:mx-4 flex-col items-center text-center text-sm md:text-base tracking-tighter border-rebeige border-4 rounded-lg">
+        <p class="font-medium">{{ .text }}</p>
+        <p class="font-bold mt-4 uppercase">{{ .name }}</p>
+        <p class="uppercase font-medium">{{ .function }}</p>
+    </div>
+    {{ end }}
+    
+    </div>
+
+    <div id="next-temoignage" class="flex w-4 md:w-1/12 h-6 self-center justify-center">
+        <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" alt="témoignage suivant" style="transform: scaleX(-1)"/>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>        
+        $(document).ready(function(){
+            $('#carousel-temoignage').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: $('#prev-temoignage'),
+                nextArrow: $('#next-temoignage'),
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        });
+
+    </script>
+
+    <style>
+        .slick-track {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: stretch;
+        }
+        .slick-track .slick-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</div>
+

@@ -65,6 +65,14 @@
             </div>                
         </div>
     </div>
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full">
+                <h3 class="mb-4 font-extrabold text-xl text-center md:text-3xl">{{ .Params.temoignages_title }}</h3>
+                {{ partial "agir/carousel-temoignage" (dict "data" .Params.temoignages)}}
+            </div>           
+        </div>
+    </div>
 </div>
 
 <style>
