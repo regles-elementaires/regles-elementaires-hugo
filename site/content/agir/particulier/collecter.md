@@ -24,10 +24,10 @@ steps:
     text: 'Je me rends sur <br>l''<a href="https://collectes.regleselementaires.com/" target="_blank">espace collecte Règles Élémentaires</a>.'
   - img: /img/page-collecte/etape-3.svg
     step: 3
-    text: Je crée mon compte. Je consulte la <a href="/collecter/charte" target="_blank">charte Règles Élémentaires</a>.
+    text: Je crée mon compte.
   - img: /img/page-collecte/etape-4.svg
     step: 4
-    text: J'ajoute une collecte et je renseigne les informations demandées (au moins 2 semaines avant le début de ma collecte).
+    text: J'ajoute une collecte et je renseigne les informations demandées.
   - img: /img/page-collecte/etape-5.svg
     step: 5
     text: L'équipe Règles Élémentaires valide ma collecte sous 2 semaines. Après validation, je reçois le kit collecte par mail.
@@ -40,12 +40,9 @@ steps:
   - img: /img/page-collecte/etape-8.svg
     step: 8
     text: "Ma collecte est terminée : Je fais l'inventaire et je le transmets avec les photos."
-  - img: /img/page-collecte/etape-9.svg
-    step: 9.a
-    text: "Je suis dans une ville où Règles Élémentaires a une antenne : L'équipe Règles Élémentaires vient récupérer mes dons."
   - img: /img/page-collecte/etape-9-bis.svg
-    step: 9.b
-    text: "Je me trouve ailleurs : L'équipe Règles Élémentaires me met en relation avec un partenaire redistributeur de son réseau."
+    step: 9
+    text: "L'équipe Règles Élémentaires me met en relation avec un partenaire redistributeur de son réseau."
   - img: /img/page-collecte/etape-10.svg
     step: 10
     text: "Mes dons sont livrés! Hâte de recommencer!"
