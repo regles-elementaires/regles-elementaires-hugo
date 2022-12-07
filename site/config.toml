@@ -6,11 +6,12 @@ title = "Règles Élémentaires"
 [params]
   display_popup_credit_menstruel = false
   display_popup_5ans = false
-  display_popup_don = true
+  display_popup_don = false
   display_popup_tribune = false
   display_popup_festival = false
   display_popup_barometre = false
   display_popup_emoji = false
+  display_popup_noel = true
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

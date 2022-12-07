@@ -24,6 +24,9 @@
       {{ if $.Site.Params.display_popup_emoji }}
         {{ partial "popup-emoji" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_noel }}
+        {{ partial "popup-noel" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
