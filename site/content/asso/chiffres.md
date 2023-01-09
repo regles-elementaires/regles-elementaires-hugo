@@ -41,13 +41,13 @@ numbers:
   title: Notre impact
   content: "Depuis la création de l'association en novembre 2015 :" 
   cards:
-    - number: "+ de 12M"
+    - number: "+ de 15M"
       img: /img/page-mission/carte.svg
       desc: de protections collectées et redistribuées
-    - number: "900 000"
+    - number: "1 200 000"
       img: /img/page-mission/rond-protections.svg
       desc: mois de règles couverts
-    - number: "+ de 2 600"
+    - number: "+ de 3 000"
       img: /img/page-mission/illu_obtenir_une_boite.svg
       desc: collectes organisées partout en France
     - number: "+ de 500"
