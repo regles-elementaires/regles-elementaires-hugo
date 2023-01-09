@@ -53,7 +53,7 @@ numbers:
     - number: "+ de 500"
       img: /img/page-mission/partenariat.svg
       desc: partenaires associatifs sur tout le territoire
-    - number: "6 500"
+    - number: "9 000"
       img: /img/page-mission/sensibilisation.svg
       desc: personnes sensibilisées lors de nos ateliers ou événements
 collectes:
