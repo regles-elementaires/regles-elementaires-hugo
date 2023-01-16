@@ -5,7 +5,7 @@ tags:
 date: 2023-01-13T10:41:43.734Z
 illu: img/story2plan-de-travail-1-3x.png
 intro: Règles Élémentaires gagne encore en compétences, nous sommes ravi·es
-  d'acceuillir Esther dans notre Conseil d'Administration !
+  d'accueillir Esther dans notre Conseil d'Administration !
 layout: single
 ---
 Et si on commençait par vous souhaiter nos meilleurs vœux pour 2023 ? On n’arrive pas à croire que 2022 est déjà derrière nous, cette année est passée à une vitesse folle ! Quelle meilleure manière de débuter une année qu’en accueillant une nouvelle personne dans notre Conseil d’Administration ?
