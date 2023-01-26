@@ -6,13 +6,13 @@ subtitle: "L’association française qui lutte contre la précarité menstruell
 et le tabou des règles"
 numbers:
     first:
-        number: "12 000 000"
+        number: "15 000 000"
         text: "Protections périodiques collectées et redistribuées depuis 2015"
     second:
-        number: "6 500"
+        number: "10 000"
         text: "Personnes sensibilisées lors de nos ateliers et évènements"
     third:
-        number: "900 000"
+        number: "1 200 000"
         text: "Mois de règles couverts pour des femmes en situation de précarité menstruelle"
 actions:
     title: "Nos actions"
