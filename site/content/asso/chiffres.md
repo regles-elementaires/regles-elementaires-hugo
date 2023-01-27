@@ -59,4 +59,12 @@ numbers:
 collectes:
   title: "Protections périodiques collectées par Règles Élémentaires"
 action_button: "En savoir plus sur nos actions"
+rapport:
+  title: "Notre Rapport d’Activité 2021"
+  content: >
+    Et pour avoir des informations plus détaillées sur notre impact, on vous propose de consulter notre dernier rapport d’activité !
+  button:
+    link: "https://doccollectes.blob.core.windows.net/statics/RA_2021_RE.pdf"
+    text: Lire le rapport d'activité
+  illu: /img/page-mobiliser/rapport.png
 ---

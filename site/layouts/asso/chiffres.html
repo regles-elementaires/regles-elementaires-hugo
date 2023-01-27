@@ -82,6 +82,21 @@
                     </div>
                 {{end}}                    
             </div>
+
+            <div class="w-full mx-auto bg-reorange rounded-xl flex flex-row flex-wrap mt-16">
+                <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
+                    {{ partial "projet/big-title-white" (dict "title" .Params.rapport.title "size" "2xl") }}
+                    <div class="ml-2 mt-4 text-white markdown tracking-tight font-medium">
+                        {{.Params.rapport.content | markdownify}}
+                    </div>
+                    <a class="ml-2 text-reorange uppercase py-1.5 px-4 text-center rounded-full mt-8 mb-4 text-sm" href="{{.Params.rapport.button.link}}" style="background-color: rgb(255, 245, 230);" target="_blank">
+                        {{.Params.rapport.button.text}}
+                    </a>
+                </div>
+                <div class="w-full md:w-2/5 flex justify-center items-center pb-4">
+                    <img src="{{.Params.rapport.illu}}" alt="illu {{.Params.rapport.title}}" />
+                </div>
+            </div>
             
             <div class="flex flex-col items-center mt-16">
                 <div class="w-full md:w-2/3 mx-auto bg-white py-4 md:py-6 px-2 md:px-4 rounded-xl">
@@ -90,8 +105,7 @@
                     </h3>
                     <canvas id="myChart" width="400" height="200"></canvas>
                 </div>
-            </div>  
-            
+            </div>              
         </div>
     </div>
     

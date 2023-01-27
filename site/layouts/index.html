@@ -179,7 +179,7 @@
                         </div>
                         {{ $mymonths := index $.Site.Data.months }}                 
                         {{ $mydays := index $.Site.Data.days }}                  
-                        {{ range first 6 $sortedEvents }}
+                        {{ range first 5 $sortedEvents }}
                             <div class="w-full flex flex-row">
                                 <div class="w-1/4 md:w-1/5 py-4 md:border-r border-rered flex flex-col justify-center">
                                     {{ if ne .month true }}
