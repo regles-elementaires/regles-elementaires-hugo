@@ -146,7 +146,7 @@
 <div class="w-full bg-rered py-8 md:py-12">
     <div class="w-11/12 md:w-4/5 mx-auto flex flex-row flex-wrap">
         <div class="w-full flex flex-row flex-wrap px-4 mb-4 md:mb-8">
-            <h2 class="w-full md:w-1/4 text-white text-xl md:text-2xl font-extrabold uppercase self-center">{{ .Params.donations.title }}</h2>
+            <h2 class="text-white text-xl md:text-2xl font-extrabold uppercase self-center md:mr-4">{{ .Params.donations.title }}</h2>
             
             <div class="w-full md:w-2/5 tabs-donations text-white uppercase mt-4 md:mt-0">
                 <input type="radio" id="radio-1" name="tabs" />
@@ -157,7 +157,7 @@
             </div>
         </div>    
         
-        <p class="text-white px-4 text-md md:text-lg md:mb-8">Tandis que le coût de la vie ne cesse d’augmenter, les règles demeurent un impensé et la précarité menstruelle ne cesse de se renforcer. Nous avons besoin de vos dons pour que plus aucune femme ne mette en péril sa santé pendant ses règles !</p>
+        <p class="text-white px-4 text-md md:mb-8">Tandis que le coût de la vie ne cesse d’augmenter, les règles demeurent un impensé et la précarité menstruelle ne cesse de se renforcer. Nous avons besoin de vos dons pour que plus aucune femme ne mette en péril sa santé pendant ses règles !</p>
 
         <div id="once-donations" class="hidden flex-row flex-wrap items-stretch">
             {{ range .Params.donations.once }}
