@@ -16,7 +16,7 @@ origine:
   text_second: "Pour cela, nous avons débuté par la collecte de protections périodiques pour les redistribuer aux personnes qui en ont besoin. Mais il fallait aller plus loin et combattre le tabou, c’est pourquoi nous avons développé des actions concrètes de sensibilisation avec des interventions dans les écoles pour donner de l’information là où elle est encore absente et pourtant nécessaire. Petit à petit, nous avons fait entrer les règles dans le débat public, que ce soit à travers des mobilisations politiques, des événements, des grandes campagnes de sensibilisation… Bref, nous agissons concrètement pour <b>#changerlesregles</b> !"
 precarite:
   title: "La précarité menstruelle, c’est quoi ?"
-  text: "Elle désigne les difficultés à se procurer des protections périodiques de première nécessité et de vivre dignement ses règles. Certaines personnes victimes de précarité menstruelle n’ont pas accès à suffisamment de protections, d’autres n’y ont pas accès du tout."
+  text: "Elle désigne toute personne qui éprouve des difficultés financières à disposer de suffisamment de protections périodiques pour se protéger correctement pendant ses règles."
   chiffre_title: "En France, 2 000 000 de femmes sont victimes de précarité menstruelle"
   chiffre_text: "Ce manque d’accès aux protections peut bien sûr provoquer de graves troubles physiques : démangeaisons, infections, syndrome du choc toxique pouvant occasionner la mort mais a également un fort impact psychologique : perte de confiance en soi et répercussions sociales (incapacité à aller travailler ou étudier, notamment)"
 tabou:
