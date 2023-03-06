@@ -53,14 +53,22 @@
                 {{ end }}
             </div>
             <div class="text-center">
+                <p class="mt-4 text-stone-700 font-medium text-sm"><a href="/actualites/2023-03-06_le-nombre-de-femmes-en-situation-de-précarité-menstruelle-a-doublé/">{{ $.Params.study_source2 }}</a></p>
                 <p class="mt-4 text-stone-700 font-medium text-sm"><a href="/actualites/2022-05-27_baromètre-exclusif-2022-opinion-way-x-règles-élémentaires/">{{ $.Params.study_source }}</a></p>
             </div>   
             <div class="text-center text-rered mt-8 mb-12">
                 <h2 class="uppercase font-extrabold text-xl md:text-3xl">{{ .Params.study_title }}</h2>
                 <p class="mt-4 mb-6">{{ .Params.study_text }}</p>
-                <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full" href="/actualites/2022-05-27_baromètre-exclusif-2022-opinion-way-x-règles-élémentaires/">
-                    {{ .Params.study_button }}
-                </a>
+                <div class="mb-6">
+                    <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full" href="/actualites/2023-03-06_le-nombre-de-femmes-en-situation-de-précarité-menstruelle-a-doublé/">
+                        {{ .Params.study_button2 }}
+                    </a>
+                </div>
+                <div>
+                    <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full" href="/actualites/2022-05-27_baromètre-exclusif-2022-opinion-way-x-règles-élémentaires/">
+                        {{ .Params.study_button }}
+                    </a>
+                </div>
             </div>         
         </div>    
     </div>

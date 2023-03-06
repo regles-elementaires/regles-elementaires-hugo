@@ -10,6 +10,14 @@ intro:
   first: "Depuis 2015 nous contribuons à #changerlesregles grâce à toutes nos actions qui répondent aux objectifs que nous nous sommes fixés : obtenir la gratuité des protections pour toutes les personnes qui en ont besoin, sensibiliser un maximum de personnes au sujet des règles, alerter l'opinion publique et politique, changer les mentalités."
 actions_title: "Tour d’horizon de nos dernières actions :"
 actions:
+  - title: "L’enquête Opinion Way pour Règles Élémentaires sur l’état de la précarité menstruelle en 2023"
+    content: >
+      Oui il y a toujours urgence à agir contre la précarité menstruelle puisque notre dernière enquête avec Opinion Way révèle que près de 4 millions de personnes sont encore concernées, soit un chiffre qui a doublé depuis 2021.
+    button:
+      link: "https://doccollectes.blob.core.windows.net/statics/enqu%C3%AAte%20pr%C3%A9carit%C3%A9%20menstruelle%202023.pdf"
+      text: Lire l'étude
+      target_blank: true
+    illu: /img/page-mobiliser/etude.png
   - title: "#periodemoji, pétition pour la création d’un emoji qui représente les règles !"
     content: >
       Pour que ça existe, il faut le montrer. Parce qu'il manque encore terriblement de représentations explicites des règles, à l’occasion du 11 octobre, journée internationale de la fille, on a décidé de lancer une grande mobilisation : une pétition pour demander la création du premier emoji qui représente VRAIMENT les règles.

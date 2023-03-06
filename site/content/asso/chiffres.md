@@ -17,7 +17,7 @@ origine:
 precarite:
   title: "La précarité menstruelle, c’est quoi ?"
   text: "Elle désigne toute personne qui éprouve des difficultés financières à disposer de suffisamment de protections périodiques pour se protéger correctement pendant ses règles."
-  chiffre_title: "En France, 2 000 000 de femmes sont victimes de précarité menstruelle"
+  chiffre_title: "En France, 4 000 000 de femmes sont victimes de précarité menstruelle*"
   chiffre_text: "Ce manque d’accès aux protections peut bien sûr provoquer de graves troubles physiques : démangeaisons, infections, syndrome du choc toxique pouvant occasionner la mort mais a également un fort impact psychologique : perte de confiance en soi et répercussions sociales (incapacité à aller travailler ou étudier, notamment)"
 tabou:
   title: "À quel point c’est tabou les règles ?"
@@ -25,18 +25,20 @@ tabou:
   Ce tabou se renforce encore plus à l’école où ⅓ des jeunes ont déjà subi des humiliations, ou en entreprise où il est quasiment impossible de trouver des protections périodiques alors même que les règles sont par nature difficilement prévisibles. "
   chiffre_title: "1 Français·e sur 2 pense que les règles sont taboues"
 study:
-  - number: 15%
-    text: "15% des femmes en France ont été confrontées à la précarité menstruelle*"
   - number: 30%
-    text: "30% des femmes ont déjà manqué le travail à cause de leurs règles*"
+    text: "30% des femmes en France ont été confrontées à la précarité menstruelle*"
+  - number: 30%
+    text: "30% des femmes ont déjà manqué le travail à cause de leurs règles**"
   - number: 80%
-    text: "80% des Français·es estiment que la précarité menstruelle est un sujet de santé publique*"
+    text: "80% des Français·es estiment que la précarité menstruelle est un sujet de santé publique**"
   - number: 60%
-    text: "60% des répondant·es n’ont reçu aucun enseignement formel à propos des règles*"
-study_source: "* (source : baromètre exclusif Règles Élémentaires x OpinionWay, Mai 2022)"
-study_title: "Notre baromètre avec Opinion Way"
+    text: "60% des répondant·es n’ont reçu aucun enseignement formel à propos des règles**"
+study_source: "** (source : baromètre exclusif Règles Élémentaires x OpinionWay, Mai 2022)"
+study_source2: "* (source : enquête exclusive Règles Élémentaires x OpinionWay, Mars 2023)"
+study_title: "Nos études avec Opinion Way"
 study_text: "Pour que les règles soient un sujet de santé publique !"
 study_button: "Consulter le baromètre"
+study_button2: "Consulter l'enquête"
 numbers:
   title: Notre impact
   content: "Depuis la création de l'association en novembre 2015 :" 
