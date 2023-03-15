@@ -105,4 +105,8 @@ etudes:
           link: https://doccollectes.blob.core.windows.net/statics/Barometre_2022_Regles_Elementaires_Opinion_Way.pdf
           illu: img/page-outils/barometre-2022.png
           alt: illustration baromètre 2022
+        - title: Enquête 8 mars 2023
+          link: https://doccollectes.blob.core.windows.net/statics/enqu%C3%AAte%20pr%C3%A9carit%C3%A9%20menstruelle%202023.pdf
+          illu: img/page-outils/enquete-2023.png
+          alt: illustration enquête 2023
 ---
