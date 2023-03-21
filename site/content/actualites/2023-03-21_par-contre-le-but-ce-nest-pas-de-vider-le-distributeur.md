@@ -1,0 +1,26 @@
+---
+title: "\"PAR CONTRE LE BUT CE N'EST PAS DE VIDER LE DISTRIBUTEUR\""
+tags:
+  - news
+date: 2023-03-21T15:14:47.163Z
+illu: img/plan_de_travail_1_copie_7-2x-7.png
+intro: On a reçu ce courageux Coup de Sang de Lila, doctorante à l'Université
+  Sorbonne Paris Nord, humiliée et rabaissée à cause de ses règles. Une
+  situation inacceptable.
+layout: single
+---
+Bonjour,\
+\
+Je remercie Règles Élémentaires de me donner l’occasion de partager avec vous mon Coup de Sang.\
+\
+Je suis doctorante à l’Université Sorbonne Paris Nord à Villetaneuse et il y a quelques semaines, j’ai eu mes règles en avance à l’Université. Prise au dépourvu, je n’avais pas ma pochette de protections avec moi. J’ai des règles hémorragiques et douloureuses en raison d’une endométriose. Une collègue enseignante, que je remercie pour sa bienveillance et sa grande compréhension, m’indique que je peux aller récupérer des protections hygiéniques au CROUS.\
+\
+Lorsque j’arrive au niveau du CROUS, sans surprise, je me rends compte que le distributeur n’est pas rempli. Je mange assez souvent dans la cafétéria située en face des toilettes du CROUS, et j’ai pu constater à de nombreuses reprises qu’ils étaient systématiquement vide. Mais ce jour-là, j’avais espoir d’en trouver ! Il n’y avait uniquement que des tampons.\
+\
+Je décide d’aller au Service de Médecine Préventive de l’Université situé à quelques mètres du CROUS. Je remarque en rentrant dans le bâtiment qu’il y a un distributeur et qu’il est rempli ! Je suis soulagée d’en trouver assez rapidement, et en plus, il y a des toilettes juste à côté. J’en récupère quelques-unes, et je me rends compte assez rapidement que les serviettes hygiéniques proposées sont tout de même assez petites et fines. J’en prends quelques-unes de plus, au total, j’en avais 7. Je me dis qu’au pire des cas, je ferai une pause au milieu de mes heures de TD pour me changer plus régulièrement, ou bien, je n’aurais qu’à en utiliser deux à la fois pour minimiser les fuites. Habituellement, je me change déjà toutes les demi-heures environ quand l’emploi du temps me le permet.\
+\
+Dans les quelques secondes qui ont suivi, l’infirmière sort de son bureau en me hurlant dessus : « Heu, par contre le but ce n’est pas de vider le distributeur ». Je suis vraiment gênée de la scène et j’essaie de lui expliquer que c’est la première fois que je viens en récupérer et que je ne sais pas comment ça « fonctionne ». Je n’ai pas le temps de commencer ma phrase qu’elle me rétorque que je suis une menteuse parce qu’elle m’a vu remplir mon sac et que ça ne peut pas être la première fois. Elle me montre son bureau situé pas loin de l’entrée. J’étais complétement sous le choc, et je n’ai pas su lui répondre quoi que ce soit. Je n’étais pas vraiment à l’aise d’aller récupérer des serviettes hygiéniques dans un lieu public, et le fait qu’elle parle vraiment très fort devant tout le monde m’a vraiment embarrassé. Je me suis sentie humiliée et rabaissée.\
+\
+Elle aurait pu tout simplement m’expliquer que j’en avais trop pris et qu’il y avait peut-être une limite. Au lieu de cela, elle ne cesse de me répéter que je « mentais effrontément ». Elle me dit qu’elle m’a vu remplir mon sac et m’oblige à vider mon sac pour récupérer les serviettes que j’avais prises. Tout en continuant à me crier dessus, elle me montre un message sur lequel il est inscrit quelque chose comme « Merci de penser aux autres ». Elle me dit que je suis égoïste. 
+
+Je tente de lui expliquer que j’ai des règles abondantes et que je dois me changer assez régulièrement, mais la seule chose qu’elle me répond est que je « mens effrontément » et que puisqu’elle m’a prise la main dans le sac et que par conséquent, je dois rendre les serviettes. Elle m’autorise à repartir avec trois serviettes et m’ordonne de reposer les quatre autres serviettes sur le distributeur.Avec le recul, je me suis dit qu’effectivement si un message pareil avait été affiché, peut-être qu’il y a eu des abus. Mais ce n’est pas une raison pour traiter de la sorte les autres personnes qui n’ont rien fait ! Du plus loin que je  me souvienne, la dernière fois que quelqu’un avait tenté de m’humilier par rapport à mes règles, c’était par un camarade de classe au collège. Je n’aurai jamais cru penser que ceci allait se reproduire durant ma vie d’adulte, et sûrement pas de la part d’une professionnelle de la santé de l’Université. Je ne sais même pas comment j’ai réussi à ne pas fondre en larmes devant elle.Au bout du compte, j’ai dû renoncer aux cours de la matinée. Je suis allé courir au Leclerc acheter des serviettes, tout en me tordant de douleur. Ça m’angoissait beaucoup trop de me retrouver sans protection une bonne partie de la journée. Au final, j’ai perdu la journée entière, car j’étais incapable de me concentrer pour assurer mes heures de TD.Cette expérience m’a totalement traumatisé. Jusqu’à maintenant, je crains de recroiser cette professionnelle. Je ne comprends toujours pas pourquoi elle s’est permis un comportement aussi irrespectueux et malveillant envers moi. Je me demande également si d’autres personnes ont été dans mon cas. Encore merci à Règle Élémentaire de m’avoir permis de partager mon témoignage.
