@@ -4,8 +4,8 @@ tags:
   - news
 date: 2023-03-21T15:14:47.163Z
 illu: img/plan_de_travail_1_copie_7-2x-7.png
-intro: On a reçu ce courageux Coup de Sang de Lila, humiliée et rabaissée à
-  cause de ses règles. Une situation inacceptable.
+intro: On a reçu ce courageux Coup de Sang, humiliée et rabaissée à cause de ses
+  règles. Une situation inacceptable.
 layout: single
 ---
 Bonjour,\
