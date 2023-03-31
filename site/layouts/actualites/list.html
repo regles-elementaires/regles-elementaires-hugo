@@ -40,38 +40,9 @@
     </div>
 </div>
 
-<div class="w-full bg-reorange text-white py-12">
-    {{ with .Params.press }}
-    <div class="w-10/12 md:w-5/6 mx-auto">
-        <h2 class="uppercase text-xl md:text-2xl font-extrabold">{{ .title }}</h2>
-        <div class="flex flex-row flex-wrap tracking-tighter mt-8">
-            <div class="w-full mb-4 md:mb-0 md:w-1/2 md:pr-4">
-                <p>
-                    {{ .download_rdp_text }}
-                    <a class="font-semibold hover:underline" href="{{ .download_rdp_link }}" download="regles-elementaires-revue-de-presse-2020.pdf">
-                        ici.
-                    </a>
-                </p>
-                <p>                
-                    {{ .download_top_text }}
-                    <a class="font-semibold hover:underline" href="{{ .download_top_link }}" download="regles-elementaires-top-articles-2015-2020.pdf">
-                        ici.
-                    </a>
-                </p>
-            </div>
-            <div class="w-full md:w-1/2 md:pl-4">
-                {{ .contact_text }}
-                <a class="font-semibold hover:underline" href="mailto:{{ $.Site.Data.copyright.presse }}" target="_blank">
-                    {{ $.Site.Data.copyright.presse }}
-                </a>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
-
+<!--
 <div class="w-full bg-white py-12">
-    <div class="w-10/12 md:w-5/6 mx-auto flex flex-wrap items-center">    
+    <div class="w-11/12 md:w-5/6 px-6 mx-auto flex flex-wrap items-center">    
         <h2 class="w-full uppercase text-rered text-xl md:text-2xl font-extrabold mb-4">{{ .Params.media_title }}</h2>
         {{ range .Params.medias }}
             <div class="w-1/2 md:w-1/6 py-4 px-4 md:px-8">
@@ -80,6 +51,7 @@
         {{ end }}
     </div>
 </div>
+-->
 
 <script>
     function displayAllActus() {
