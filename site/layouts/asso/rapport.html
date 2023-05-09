@@ -59,7 +59,7 @@
                     </div>
                     <div id="eventsTabContent" class="hidden md:flex">
                         {{ range .Params.key_events }}
-                        <div class="hidden p-4 rounded-xl" id="{{ .month }}" role="tabpanel" aria-labelledby="{{ .month }}-tab">
+                        <div class="hidden p-4 rounded-xl w-full" id="{{ .month }}" role="tabpanel" aria-labelledby="{{ .month }}-tab">
                             <div class="flex flex-row mt-4">
                                 <div class="w-3/5 flex justify-center">
                                     {{ range .imgs }}
@@ -435,6 +435,12 @@
                 </div>
             </div>
             
+        </div>
+    </div>
+
+    <div class="bg-rebeige font-unbounded text-rered py-16">
+        <div class="w-10/12 mx-auto text-center underline">
+            <a href="">{{ .Params.rapport.text }}<img class="inline h-4 ml-2" src="/img/page-rapport/download.png"/></a>
         </div>
     </div>
 

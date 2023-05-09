@@ -313,4 +313,6 @@ On avait ainsi besoin de pouvoir se retrouver tous·tes ensemble le temps d’un
 ca:
   title: "Le renforcement du Conseil d’Administration"
   text: "2022 marque aussi le renforcement en compétences de notre Conseil d’Administration. L’équipe s’agrandit encore pour notre plus grand bonheur, et c’est Esther Vogel qui vient grossir les rangs de Règles Élémentaires en tant que Secrétaire Générale."
+rapport:
+  text: "Télécharger la version complète du rapport d’activité"
 ---
