@@ -1,5 +1,7 @@
 /* Modules */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700;800&display=swap');
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
@@ -8,6 +10,14 @@
 /*
 === GENERIC
 */
+
+.font-dm {
+  font-family: 'DM Sans';
+}
+
+.font-unbounded {
+  font-family: 'Unbounded';
+}
 
 .big-red-button {
   @apply uppercase bg-rered text-white p-4 px-8 rounded-lg inline-block font-medium text-center text-sm;

@@ -25,13 +25,15 @@ module.exports = {
     extend: {
       colors: {
         rered: "#e9364b",
-        repink: "#ffd8dd",
+        repink: "#F08FBA",
         redarkpink: "#ff9ca8",
         redarkgrey: "#535353",
         regrey: "#F5F5F5",
         rebeige: "#FFE4DD",
         reorange: "#FF9A00",
-        repurple: "#841BCE"
+        repurpletribune: "#841BCE",
+        repurple: "#643F92",
+        rebeigera: "#FCE0D2"
       }
     },
     screens: {
