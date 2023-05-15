@@ -44,13 +44,13 @@ key_events:
     imgs:
       - src: "/img/page-rapport/janvier.jpeg"
     texts: 
-      - content: "↘️ Rencontre avec Elisabeth Moreno, ancienne Ministre chargée de l’égalité femmes/hommes"
+      - content: "↘️ Rencontre avec Elisabeth Moreno, ministre chargée de l’égalité femmes/hommes"
   - month: "Mars"
     imgs:
       - src: "/img/page-rapport/mars.jpeg"
       - src: "/img/page-rapport/mars-2.png"
     texts: 
-      - content: "↘️ Rencontre avec l’ancien Ministre de la Santé pour l’annonce d’un décret sur la transparence de la composition des protections périodiques"
+      - content: "↘️ Rencontre avec le ministre de la Santé pour l’annonce d’un décret sur la transparence de la composition des protections périodiques"
       - content: "↘️ Tribune #sangprogramme pour engager les candidat·es à la présidentielle sur la santé menstruelle"
   - month: "Avril"
     imgs:
@@ -83,7 +83,7 @@ key_events:
     imgs:
       - src: "/img/page-rapport/septembre.jpeg"
     texts: 
-      - content: "↘️  Rencontre avec Isabelle Rome, Ministre déléguée auprès de la Première ministre, chargée de l'Égalité entre les femmes et les hommes, de la Diversité et de l'Égalité des chances"
+      - content: "↘️  Rencontre avec Isabelle Rome, ministre déléguée auprès de la Première ministre, chargée de l'Égalité entre les femmes et les hommes, de la Diversité et de l'Égalité des chances"
   - month: "Octobre"
     imgs:
       - src: "/img/page-rapport/octobre-1.jpg"
