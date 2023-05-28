@@ -2,7 +2,7 @@
 title: "#affichetacompo"
 tags:
   - news
-date: 2023-05-26T15:16:35.131Z
+date: 2023-05-28T15:16:35.131Z
 illu: img/campagne-29-mai.png
 link: https://www.mesopinions.com/petition/sante/reglementation-encadrant-composition-protections-periodiques/207932
 intro: "**Aujourd’hui 28 mai, journée internationale de l’hygiène menstruelle et
