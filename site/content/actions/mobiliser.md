@@ -10,6 +10,13 @@ intro:
   first: "Depuis 2015 nous contribuons à #changerlesregles grâce à toutes nos actions qui répondent aux objectifs que nous nous sommes fixés : obtenir la gratuité des protections pour toutes les personnes qui en ont besoin, sensibiliser un maximum de personnes au sujet des règles, alerter l'opinion publique et politique, changer les mentalités."
 actions_title: "Tour d’horizon de nos dernières actions :"
 actions:
+  - title: "#affichetacompo pour réclamer une réelle transparence sur la composition des protections périodiques"
+    content: >
+      Avec le Collectif Georgette Sand et la Fondation des Femmes on lance une grande mobilisation autour d’une pétition pour ne plus devoir se poser de question sur la composition de nos protections.
+    button:
+      link: "https://www.mesopinions.com/petition/sante/reglementation-encadrant-composition-protections-periodiques/207932"
+      text: Signer la pétition
+      target_blank: true
   - title: "L’enquête Opinion Way pour Règles Élémentaires sur l’état de la précarité menstruelle en 2023"
     content: >
       Oui il y a toujours urgence à agir contre la précarité menstruelle puisque notre dernière enquête avec Opinion Way révèle que près de 4 millions de personnes sont encore concernées, soit un chiffre qui a doublé depuis 2021.
