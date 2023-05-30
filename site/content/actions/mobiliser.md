@@ -17,6 +17,7 @@ actions:
       link: "https://www.mesopinions.com/petition/sante/reglementation-encadrant-composition-protections-periodiques/207932"
       text: Signer la pétition
       target_blank: true
+      illu: /img/page-mobiliser/affichetacompo.png
   - title: "L’enquête Opinion Way pour Règles Élémentaires sur l’état de la précarité menstruelle en 2023"
     content: >
       Oui il y a toujours urgence à agir contre la précarité menstruelle puisque notre dernière enquête avec Opinion Way révèle que près de 4 millions de personnes sont encore concernées, soit un chiffre qui a doublé depuis 2021.
