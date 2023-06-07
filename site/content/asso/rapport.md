@@ -111,7 +111,7 @@ key_numbers:
   title: Les chiffres clés
   purple:
     - number: "571 902"
-      text: "mois de règles couverts grâce aux protections redistribuées"
+      text: "mois de règles couverts grâce aux protections collectées"
       img: "/img/page-rapport/calendrier.png"
     - number: "5 177 093"
       text: "protections collectées et redistribuées aux personnes qui en ont besoin"
