@@ -304,7 +304,7 @@ chiffres:
   </ul>"
 equipe_title: "L’année 2022, vue de l’équipe"
 renforcement:
-  title: "Le renforcement de l’équipe"
+  title: "Le renforcement de l’équipe salariée"
   text: "2022 était une année humainement riche ! Nous avons eu la chance d’accueillir de nouvelles personnes dans nos rangs pour renforcer nos équipes et nos actions !"
 seminaire:
   title: "Le premier séminaire !"
