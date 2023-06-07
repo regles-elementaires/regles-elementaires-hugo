@@ -114,7 +114,7 @@ key_numbers:
       text: "mois de règles couverts grâce aux protections collectées"
       img: "/img/page-rapport/calendrier.png"
     - number: "5 177 093"
-      text: "protections collectées et redistribuées aux personnes qui en ont besoin"
+      text: "protections collectées pour les personnes qui en ont besoin"
       img: "/img/page-rapport/serviette.png"
     - number: "212 964"
       text: "femmes qui ont pu bénéficier des protections"
