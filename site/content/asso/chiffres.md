@@ -66,7 +66,7 @@ rapport:
   content: >
     Et pour avoir des informations plus détaillées sur notre impact, on vous propose de consulter notre dernier rapport d’activité !
   button:
-    link: "https://doccollectes.blob.core.windows.net/statics/rapport_activité_2022_RE.pdf"
+    link: "/asso/rapport"
     text: Lire le rapport d'activité
   illu: /img/page-mobiliser/rapport_2022.png
 ---
