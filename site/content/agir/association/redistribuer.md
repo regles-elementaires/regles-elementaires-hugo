@@ -15,16 +15,16 @@ intro:
 steps:
   - img: /img/page-redistribuer/step1.svg
     step: 1
-    text: "Une personne de votre organisation s'inscrit sur notre <a target=\"_blank\" href=\"https://partenaire.regleselementaires.com/account/register_partner\">plate-forme</a> et remplit le formulaire de demande de partenariat."
+    text: "Le·a représentant·e légal·e de votre organisation s'inscrit sur notre <a target=\"_blank\" href=\"https://partenaire.regleselementaires.com/\">plate-forme</a> et remplit le formulaire de demande de partenariat."
   - img: /img/page-redistribuer/step2.svg
     step: 2
-    text: 'L’équipe redistribution de Règles Élémentaires prend contact avec vous sous 1 mois.'
+    text: 'L’équipe redistribution de Règles Élémentaires vérifie l’éligibilité de votre structure sous 1 mois.'
   - img: /img/page-redistribuer/step3.svg
     step: 3
-    text: Vous confirmez vos besoins et signez une convention de partenariat avec Règles Élémentaires.
+    text: "Une fois le partenariat validé, vous pourrez faire une demande de protections via notre <a target=\"_blank\" href=\"https://partenaire.regleselementaires.com/\">plate-forme</a>."
   - img: /img/page-redistribuer/step4.svg
     step: 4
-    text: Nous convenons d’une date de récupération des produits, en fonction de vos moyens de transport et de stockage ainsi que de la disponibilité des stocks de Règles Élémentaires.
+    text: Nous convenons d’une date de récupération des produits, en fonction des collectes à proximité et de nos stocks.
 redistributeurs:
   type: redistributeur
   title: Nos Partenaires Redistributeurs
