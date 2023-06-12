@@ -1,4 +1,4 @@
 name = "Grand Lyon Métropole"
-type = "institutionnel, financier"
+type = "financier"
 link = "https://www.grandlyon.com/"
-img = "/img/partenaires/grand-lyon.png"
+img = "/img/partenaires/grand-lyon.svg"

@@ -27,16 +27,7 @@ financiers:
   btn_link: "mailto:partenariat@regleselementaires.com"
   text: |
     Les partenaires financiers permettent à l’association de voir sur le long terme. Grâce à leurs différents financements, Règles Élémentaires est capable d’assurer son bon développement et de pérenniser ses actions. 
-    Ces partenaires nous ont permis, ces dernières années, de renforcer les équipes de Règles Élémentaires ou encore de proposer des ateliers d’information à l’hygiène menstruelle et à l’utilisation des protections hygiéniques.
-
-institutionnels:
-  type: institutionnel
-  title: Nos Partenaires Institutionnels
-  btn_text: Contactez-nous
-  event_label: institutionnel
-  btn_link: "mailto:partenariat@regleselementaires.com"
-  text: |
-    Les partenaires institutionnels sont essentiels au bon développement de l’Association et nous permettent de porter toujours plus loin la lutte contre la précarité menstruelle. Le fait que des élu·es, des maires ou des ministres s’emparent du sujet amplifie notre message et nous rapproche d’un monde où la précarité menstruelle n’existerait plus.
+    Ces partenaires nous ont permis, ces dernières années, de renforcer les équipes de Règles Élémentaires ou encore de proposer des ateliers de sensibilisation.
 
 autres:
   type: autre
