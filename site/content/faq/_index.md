@@ -124,5 +124,5 @@ categories:
         75006 Paris"
       - id: soutenir-2
         question: Comment mettre fin à un don mensualisé ?
-        answer: "Pour mettre fin à un don mensualisé, veuillez vous référer au <a href=\"https://centredaide.helloasso.com/s/article/comment-arreter-mon-prelevement-mensuel\" target=\"_blank\">centre d’aide HelloAsso</a>. "
+        answer: "Pour mettre fin à un don mensualisé, veuillez nous contacter à l'adresse suivante : don@regleselementaires.com en précisant le nom et l'adresse email avec laquelle vous effectué le don."
 ---
