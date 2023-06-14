@@ -2,3 +2,4 @@ name = "Fondation BNP Paribas"
 type = "financier"
 link = "https://group.bnpparibas/"
 img = "/img/partenaires/fondation-bnp-paribas.png"
+order = 4

@@ -6,7 +6,7 @@
     
     <div id="carousel-{{.partenaire_type}}" class="flex w-10/12 carousel-redistributeurs m-auto">
     {{ $partenaireType := .partenaire_type }}
-    {{ range .data }}
+    {{ range sort .data "order" "desc" }}
         {{ if eq .type $partenaireType}}
         <div class="px-2">
             {{if eq (len .link) 0}}
@@ -49,12 +49,6 @@
                 }]
             });
         });
-
-        // randomize logo order
-        var carousel = document.getElementById("carousel-{{.partenaire_type}}");
-        for (var i = carousel.children.length; i >= 0; i--) {
-            carousel.appendChild(carousel.children[Math.random() * i | 0]);
-        }
 
     </script>
 

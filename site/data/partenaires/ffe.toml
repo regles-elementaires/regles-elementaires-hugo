@@ -2,3 +2,4 @@ name = "Fondation la France s'engage"
 type = "financier"
 link = "https://fondationlafrancesengage.org/"
 img = "/img/partenaires/ffe.png"
+order = 5

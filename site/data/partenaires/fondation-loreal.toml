@@ -2,3 +2,4 @@ name = "Fondation L'Oréal"
 type = "financier"
 link = "https://www.fondationloreal.com/fr"
 img = "/img/partenaires/fondation-loreal.svg"
+order = 3
