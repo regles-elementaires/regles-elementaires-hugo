@@ -10,6 +10,14 @@ intro:
   first: "Depuis 2015 nous contribuons à #changerlesregles grâce à toutes nos actions qui répondent aux objectifs que nous nous sommes fixés : obtenir la gratuité des protections pour toutes les personnes qui en ont besoin, sensibiliser un maximum de personnes au sujet des règles, alerter l'opinion publique et politique, changer les mentalités."
 actions_title: "Tour d’horizon de nos dernières actions :"
 actions:
+  - title: L’enquête Opinion Way pour Règles Élémentaires sur les règles en milieu scolaire
+    content: >
+      Aujourd’hui, en France, c’est 1 fille sur 3 qui a déjà manqué l’école à cause de ses règles. Une situation inacceptable qui nous pousse à demander la généralisationn de l’éducation menstruelle.
+    button:
+      link: "https://educationmenstruelle.regleselementaires.com/"
+      text: En savoir plus
+      target_blank: true
+    illu: /img/page-mobiliser/11_octobre.png
   - title: "#affichetacompo pour réclamer une réelle transparence sur la composition des protections périodiques"
     content: >
       Avec le Collectif Georgette Sand et la Fondation des Femmes on lance une grande mobilisation autour d’une pétition pour ne plus devoir se poser de question sur la composition de nos protections.
