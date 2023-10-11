@@ -15,10 +15,7 @@ Chez Règles Élémentaires, nous menons des actions de sensibilisation aux règ
 
 Ces résultats, que nous partageons aujourd’hui avec vous, doivent nous alerter collectivement. L’éducation menstruelle doit devenir un droit. **Dès aujourd’hui, nous souhaitons donc nous engager et vous engager pour l’éducation menstruelle, et pour l’avenir de l’égalité.**
 
-
-
 **LES RÈGLES, UNE QUESTION TROP PEU ABORDÉE À L’ÉCOLE**
-
 
 Aujourd’hui, le programme du cycle 3 établit que les élèves de 6ème doivent pouvoir : “caractériser les modifications morphologiques, comportementales et physiologiques de la puberté.” Il n’est pas fait état ni de la durée de cet enseignement, ni de directives spécifiques au sujet des règles. Seulement 15% des élèves bénéficient des 3 séances annuelles d’éducation à la vie affective et sexuelle prévues par la loi.
 
@@ -41,8 +38,6 @@ Pour 8 filles sur 10 avoir ses règles à l’école est un facteur de stress.
 
 1 fille sur 4 considère que cet absentéisme a freiné sa progression scolaire
 
-
-
 **SI ON PARLAIT PLUS DES RÈGLES À L’ÉCOLE, ON POURRAIT PRÉVENIR LES ANGOISSES ET
 TROUBLES DE SANTÉ LIÉS AUX RÈGLES**
 
@@ -58,13 +53,11 @@ L’impact physique, psychologique et social des règles est bien réel. Briser 
 
 L’éducation menstruelle est une pédagogie diffuse un socle de connaissances et d'informations suffisant pour :
 
-1. bien vivre ses règles à tout âge et quel que soit son vécu
-2. prévenir les risques de précarité menstruelle
-3. prévenir les maladies liées aux règles (endométriose, adénomyose, SOPK)
-4. mettre fin aux tabous et aux discriminations liés aux règles
-5. favoriser l'égalité active
-
-
+* bien vivre ses règles à tout âge et quel que soit son vécu
+* prévenir les risques de précarité menstruelle
+* prévenir les maladies liées aux règles (endométriose, adénomyose, SOPK)
+* mettre fin aux tabous et aux discriminations liés aux règles
+* favoriser l'égalité active
 
 Elle peut être mise en place via des ateliers, des temps de sensibilisation dédiés, des ressources
 en libre accès, et des temps de formation des relais éducatifs au contact quotidien des jeunes.
