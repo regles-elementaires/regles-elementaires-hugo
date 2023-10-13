@@ -34,7 +34,7 @@ study:
   - number: 60%
     text: "60% des répondant·es n’ont reçu aucun enseignement formel à propos des règles**"
   - number: 80%
-    text: "80% des filles sont stressée d’avoir leurs règles à l’école***"
+    text: "80% des jeunes filles sont stressées d’avoir leurs règles à l’école***"
   - number: 53%
     text: "53% des jeunes filles ont déjà manqué l’école à cause de leurs règles***"
 study_source: "** (source : enquête règles et tabou, Règles Élémentaires x OpinionWay, Mai 2022)"
