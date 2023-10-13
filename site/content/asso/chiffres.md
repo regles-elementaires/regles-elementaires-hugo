@@ -33,12 +33,18 @@ study:
     text: "80% des Français·es estiment que la précarité menstruelle est un sujet de santé publique**"
   - number: 60%
     text: "60% des répondant·es n’ont reçu aucun enseignement formel à propos des règles**"
-study_source: "** (source : baromètre exclusif Règles Élémentaires x OpinionWay, Mai 2022)"
-study_source2: "* (source : enquête exclusive Règles Élémentaires x OpinionWay, Mars 2023)"
+  - number: 80%
+    text: "80% des filles sont stressée d’avoir leurs règles à l’école***"
+  - number: 53%
+    text: "53% des jeunes filles ont déjà manqué l’école à cause de leurs règles***"
+study_source: "** (source : enquête règles et tabou, Règles Élémentaires x OpinionWay, Mai 2022)"
+study_source2: "* (source : enquête précarité menstruelle, Règles Élémentaires x OpinionWay, Mars 2023)"
+study_source3: "*** (source : enquête règles et école, Règles Élémentaires x OpinionWay, Octobre 2023)"
 study_title: "Nos études avec Opinion Way"
 study_text: "Pour que les règles soient un sujet de santé publique !"
-study_button: "Consulter le baromètre"
-study_button2: "Consulter l'enquête"
+study_button: "Consulter l'enquête règles et tabou"
+study_button2: "Consulter l'enquête précarité menstruelle"
+study_button3: "Consulter l'enquête règles et école"
 numbers:
   title: Notre impact
   content: "Depuis la création de l'association en novembre 2015 :" 
