@@ -1,5 +1,5 @@
 ---
-title: notre premier événement dédié à l'éducation menstruelle
+title: Notre premier événement dédié à l'éducation menstruelle
 tags:
   - news
 date: 2023-11-08T12:21:43.441Z
