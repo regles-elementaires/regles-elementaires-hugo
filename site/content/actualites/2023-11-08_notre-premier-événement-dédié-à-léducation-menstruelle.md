@@ -25,9 +25,11 @@ C'est ensuite **Annaïck MORVAN, Directrice Régionale Droits des femmes, Ile-de
 
 Puis **Virginie TINLAND, Vice Présidente du Conseil Départemental du Val d’Oise 95, déléguée à l'Education et l'Enseignement Supérieur** a apporté son expertise concernant son territoire, le plus jeune d'Ile-de-France avec 65 000 collégien·nes et sur les 112 collèges, 72 sont équipés en distributeurs de protections périodiques. Mais le chemin reste encore long pour la sensibilisation.
 
-![](img/tableronde.png)
+
 
 Puis nous avons enchainé avec une table ronde passionnante : **éducation menstruelle année 0**. Avec des personnes d'horizons différents mais toutes engagées et déterminées à faire entrer les règles à l'école.
+
+![](img/tableronde.png)
 
 Tous et toutes nous étions d'accord sur l'importance de la prévention : il y a une nécessité d’informer les jeunes filles sur les questions d’anatomie, de les prévenir et surtout de permettre la compréhension du phénomène afin de mieux accompagner. On constate que il ne suffit pas de seulement d'implémenter des dispositifs (tels que des distributeurs de protections dans les établissements) mais il est important de sensibiliser, que ce soit auprès du corps professoral et éducatif, mais aussi auprès des jeunes. \
 \
