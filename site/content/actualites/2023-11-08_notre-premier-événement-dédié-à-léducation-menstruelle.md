@@ -19,17 +19,17 @@ En introduction, nous avions à nos cotés Nina, élève de seconde qui a eu le 
 
 "Moi, la majorité de mes amies ont eu leurs règles en primaire, entre 9 et 10 ans. La peur de la tâche est constante : j’essaye de prendre des photos discrètement en cours, pour pas que le prof le voit ou autre… C’est compliqué de passer devant tout le monde avec une serviette à la main. La peur de la tâche va guider notre manière de s'habiller, on va mettre un jean plutôt foncé, ou on va prendre un gilet pour cacher. Certaines filles ont leurs règles à l’école et ont dû utiliser du papier toilette pour se protéger. Les profs vont pas nous laisser sortir parce qu’ils ne comprennent pas et qu’ils ont décidé que c’était comme ça. J’ai des amies qui ont tellement mal qu’elles ont peur de ne pas passer la journée en cours. J’ai une amie qui ne fait qu’une partie de la journée et elle manque des cours, des contrôles et ça freine sa progression scolaire. Le manque de sommeil, quand on a trop mal, quand on a des crampes, on ne peut pas dormir. 3h de sommeil ce n’est pas des conditions pour bien travailler à l’école. Rares sont les profs compréhensifs, et on va les valoriser ceux-là, alors que ça devrait être normal. Tout est moins facile quand on a nos règles, en cours."
 
-![](img/dscf6065.jpg)
+![](img/collage.jpg)
 
 C'est ensuite **Annaïck MORVAN, Directrice Régionale Droits des femmes, Ile-de-France** qui a pris la parole pour souligner l'importance de parler de ce sujet : "**On pourrait dire qu’avec cette enquête vous rentrez dans l’histoire de l’émancipation des femmes et des filles."**
 
-![](img/dscf6094.jpg)
-
 Puis **Virginie TINLAND, Vice Présidente du Conseil Départemental du Val d’Oise 95, déléguée à l'Education et l'Enseignement Supérieur** a apporté son expertise concernant son territoire, le plus jeune d'Ile-de-France avec 65 000 collégien·nes et sur les 112 collèges, 72 sont équipés en distributeurs de protections périodiques. Mais le chemin reste encore long pour la sensibilisation.
 
-![](img/tableronde.png)
+
 
 Puis nous avons enchainé avec une table ronde passionnante : **éducation menstruelle année 0**. Avec des personnes d'horizons différents mais toutes engagées et déterminées à faire entrer les règles à l'école.
+
+![](img/tableronde.png)
 
 Tous et toutes nous étions d'accord sur l'importance de la prévention : il y a une nécessité d’informer les jeunes filles sur les questions d’anatomie, de les prévenir et surtout de permettre la compréhension du phénomène afin de mieux accompagner. On constate que il ne suffit pas de seulement d'implémenter des dispositifs (tels que des distributeurs de protections dans les établissements) mais il est important de sensibiliser, que ce soit auprès du corps professoral et éducatif, mais aussi auprès des jeunes. \
 \
