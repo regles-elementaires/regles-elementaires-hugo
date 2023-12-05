@@ -27,6 +27,9 @@
       {{ if $.Site.Params.display_popup_noel }}
         {{ partial "popup-noel" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_cestpasduluxe }}
+        {{ partial "popup-cestpasduluxe" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
