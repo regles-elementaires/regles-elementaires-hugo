@@ -94,6 +94,16 @@ visuels:
           link: https://doccollectes.blob.core.windows.net/outils/sante-menstruelle.png
         - title: Les protections périodiques sont des produits de première nécessité
           link: https://doccollectes.blob.core.windows.net/outils/les-protections-sont-des-produits-de-premiere-necessite.png
+        - title: Le stress des règles à l’école
+          link: https://doccollectes.blob.core.windows.net/outils/stress_regles_ecole.png
+        - title: Témoignage précarité menstruelle et situation de rue
+          link: https://doccollectes.blob.core.windows.net/outils/situation_de_rue.png
+        - title: L’urgence concerne 4 millions de personnes
+          link: https://doccollectes.blob.core.windows.net/outils/urgence.png
+        - title: La précarité menstruelle, c'est quoi ?
+          link: https://doccollectes.blob.core.windows.net/outils/la_precarite_menstruelle_cest_quoi.zip
+        - title: L'éducation menstruelle, c'est quoi ?
+          link: https://doccollectes.blob.core.windows.net/outils/leducation_menstruelle_cest_quoi.zip
 etudes:
     title: Nos études
     tools:
@@ -109,4 +119,8 @@ etudes:
           link: https://doccollectes.blob.core.windows.net/statics/enqu%C3%AAte%20pr%C3%A9carit%C3%A9%20menstruelle%202023.pdf
           illu: img/page-outils/enquete-2023.png
           alt: illustration enquête 2023
+        - title: Baromètre 2023
+          link: https://doccollectes.blob.core.windows.net/11-octobre/R%C3%A8gles%20%C3%A9l%C3%A9mentaires%20-%20Etude%20aupr%C3%A8s%20des%20filles%20%C3%A2g%C3%A9es%20de%2011-18%20ans.pptx.pdf
+          illu: img/page-outils/barometre-2023.png
+          alt: illustration baromètre 2023
 ---
