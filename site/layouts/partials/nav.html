@@ -11,7 +11,7 @@
 		<!-- Mobile Nav Icon -->
 		<div class="flex md:hidden">
 			<button aria-label="menu" type="button" onclick="toggleMenu()" class="text-rered focus:outline-none">
-				<svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+				<svg aria-hidden="true" focusable="false" class="h-8 w-8 fill-current" viewBox="0 0 24 24">
 					<!-- X -->
 					<path id="x-icon" class="hidden" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
 				  	<!-- Burger -->
@@ -32,8 +32,7 @@
 									{{ .Name }}
 								</span>								
 								<span class="mx-2">
-									<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-										<title>ACF1EEA6-BC95-4A58-86F3-165038B2BFB3</title>
+									<svg aria-hidden="true" focusable="false" width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 										<g stroke="none" stroke-width="1">
 											<g transform="translate(-962.000000, -42.000000)" fill-rule="nonzero">
 												<g transform="translate(644.000000, 33.000000)">
@@ -107,7 +106,7 @@
 					{{ with .Children }}
 						<button class="w-full font-bold uppercase focus:outline-none flex items-center justify-between">
 							{{ $currentMenu.Name }}
-							<img class="h-4" src="/img/menu/menu-red-arrow.svg" alt="flèche vers la droite"/>
+							<img class="h-4" src="/img/menu/menu-red-arrow.svg" alt="" aria-hidden="true"/>
 						</button>
 					{{ else }}
 						<a href={{$currentMenu.URL}} onmousedown="event.preventDefault();" class="uppercase focus:outline-none">
@@ -127,7 +126,7 @@
 								{{ with .Children }}
 									<button class="w-full font-semibold focus:outline-none flex items-center justify-between">
 										{{ $currentSubMenu.Name }}
-										<img class="h-4" src="/img/menu/menu-red-arrow.svg" alt="flèche vers la droite"/>
+										<img class="h-4" src="/img/menu/menu-red-arrow.svg" alt="" aria-hidden="true"/>
 									</button>
 								{{ else }}
 									<a href={{$currentSubMenu.URL}} onmousedown="event.preventDefault();" class="font-semibold focus:outline-none">

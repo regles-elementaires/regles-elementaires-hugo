@@ -11,7 +11,7 @@
 
     <div class="w-10/12 md:w-7/12 flex flex-row flex-wrap bg-white text-rered rounded-2xl mt-8 md:mt-16 py-2 px-4 md:py-4">
         <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4">
-            <img class="h-12 md:h-14" src="/img/page-home/serviette.svg" alt="Illustration serviette hygiénique">
+            <img class="h-12 md:h-14" src="/img/page-home/serviette.svg" alt="" aria-hidden="true">
             <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
                 {{ .Params.numbers.first.number }}
             </span>
@@ -20,7 +20,7 @@
             </p>
         </div>
         <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4 border-y md:border-y-0 border-x-0 md:border-x border-rered">
-            <img class="h-12 md:h-14" src="/img/page-home/talk.svg" alt="Illustration discussion">
+            <img class="h-12 md:h-14" src="/img/page-home/talk.svg" alt="" aria-hidden="true">
             <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
                 {{ .Params.numbers.second.number }}
             </span>
@@ -29,7 +29,7 @@
             </p>
         </div>
         <div class="w-full md:w-1/3 flex flex-col items-center px-6 py-4">
-            <img class="h-12 md:h-14" src="/img/page-home/cycle.svg" alt="Illustration protection">
+            <img class="h-12 md:h-14" src="/img/page-home/cycle.svg" alt="" aria-hidden="true">
             <span class="mt-2 md:mt-4 text-xl md:text-3xl font-extrabold">
                 {{ .Params.numbers.third.number }}
             </span>
@@ -48,7 +48,7 @@
             <div class="flex flex-row flex-wrap text-white mt-8 md:mt-16">
                 <div class="w-full md:w-1/3 flex flex-col items-center px-10">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">
-                        <img src="/img/page-home/collecter.svg" alt="Illustration collecte" />                    
+                        <img src="/img/page-home/collecter.svg" alt="" aria-hidden="true" />                    
                     </div>                    
                     <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.collecter_title | markdownify }}
@@ -62,7 +62,7 @@
                 </div>
                 <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">     
-                        <img src="/img/page-home/sensibiliser.svg" alt="Illustration sensibiliser" />               
+                        <img src="/img/page-home/sensibiliser.svg" alt="" aria-hidden="true" />               
                     </div>
                     <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.sensibiliser_title | markdownify }}
@@ -76,7 +76,7 @@
                 </div>
                 <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">  
-                        <img src="/img/page-home/mobiliser.svg" alt="Illustration mobiliser" />                  
+                        <img src="/img/page-home/mobiliser.svg" alt="" aria-hidden="true" />                  
                     </div>
                     <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.mobiliser_title | markdownify }}
@@ -109,7 +109,7 @@
                     {{ range .Children }}
                         <button data-agir="{{ .Identifier }}" class="agir-button flex items-center font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border focus:border border-reorange text-left">
                             {{ .Name }}
-                            <img class="ml-2 hidden" src="/img/page-home/check.svg" alt="coché"/>
+                            <img class="ml-2 hidden" src="/img/page-home/check.svg" alt="" aria-hidden="true" />
                         </button>
                     {{ end }}
                 {{ end }}
@@ -117,7 +117,7 @@
         </div>
         <div class="w-1/2 md:w-1/3 flex flex-row mt-4 md:mt-6 text-rered md:border-l border-rered">
             <div class="hidden md:flex w-1/12 flex-col justify-center">
-                <img src="img/page-home/arrow.png" alt="arrow" />
+                <img src="img/page-home/arrow.png" alt="" aria-hidden="true" />
             </div>
             <div class="w-full md:w-11/12 flex flex-col flex-wrap items-start pl-2">
                 <h4 class="ml-2 md:ml-4 mb-2 md:mb-4 text-reorange uppercase font-bold">{{ .Params.agir.action_title }}</h4>
@@ -129,7 +129,7 @@
                                     <a href="{{.URL}}" class="font-medium my-0.5 md:mx-2 px-2 py-0.5 text-sm md:text-base uppercase rounded-full hover:border border-reorange text-left">
                                         <div class="flex">
                                             {{ .Name }}
-                                            <img class="hidden ml-2" src="/img/page-home/check.svg" alt="coché"/>
+                                            <img class="hidden ml-2" src="/img/page-home/check.svg" alt="" aria-hidden="true" />
                                         </div>                                        
                                     </a>
                                 {{ end }}
