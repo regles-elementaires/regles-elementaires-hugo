@@ -7,10 +7,12 @@
 
     <!-- Name -->
     <div class="border-b-2 border-rered mb-2">
+        <label for="name" class="hidden">votre nom et prénom</label>
         <input required type="text" id="name" name="name" placeholder="Votre nom & prénom" class="bg-rebeige text-rered py-2 w-full">
     </div>
     <!-- Email -->
     <div class="border-b-2 border-rered mb-2">
+        <label for="email_contact" class="hidden">votre adresse email</label>
         <input required type="email" id="email_contact" name="email" placeholder="Votre email" class="bg-rebeige text-rered py-2 w-full">
     </div>
 
@@ -45,11 +47,9 @@
       </select>
     </div>
 
-
-    <!-- Message -->
-    <fieldset>
-      <textarea required id="message" name="message" placeholder="Votre message" rows="8" class="w-full p-4 mt-4 border-2 border-rered bg-rebeige text-rered"></textarea>
-    </fieldset>
+    <!-- Message -->    
+    <label for="message" class="hidden">votre message</label>
+    <textarea required id="message" name="message" placeholder="Votre message" rows="8" class="w-full p-4 mt-4 border-2 border-rered bg-rebeige text-rered"></textarea>
 
     <!-- reCAPTCHA -->
     <input type="hidden" id="recaptchaResponse" name="recaptcha-response">

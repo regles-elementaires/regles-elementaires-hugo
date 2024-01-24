@@ -148,13 +148,14 @@
         <div class="w-full flex flex-row flex-wrap px-4 mb-4 md:mb-8">
             <h2 class="text-white text-xl md:text-2xl font-extrabold uppercase self-center md:mr-4">{{ .Params.donations.title }}</h2>
             
-            <div class="w-full md:w-2/5 tabs-donations text-white uppercase mt-4 md:mt-0">
+            <fieldset class="w-full md:w-2/5 tabs-donations text-white uppercase mt-4 md:mt-0">
+                <legend class="hidden">récurrence du don</legend>
                 <input type="radio" id="radio-1" name="tabs" />
-                <label class="tab-donations w-1/2" for="radio-1">{{ .Params.donations.radio1 }}</label>
+                <label class="tab-donations w-1/2" for="radio-1" id="radio-1-label" tabindex="0">{{ .Params.donations.radio1 }}</label>
                 <input type="radio" id="radio-2" name="tabs" checked />
-                <label class="tab-donations w-1/2" for="radio-2">{{ .Params.donations.radio2 }}</label>
+                <label class="tab-donations w-1/2" for="radio-2" id="radio-2-label" tabindex="0">{{ .Params.donations.radio2 }}</label>
                 <span class="glider w-1/2"></span>
-            </div>
+            </fieldset>
         </div>    
         
         <p class="text-white px-4 text-md md:mb-8">Tandis que le coût de la vie ne cesse d’augmenter, les règles demeurent un impensé et la précarité menstruelle ne cesse de se renforcer. Nous avons besoin de vos dons pour que plus aucune femme ne mette en péril sa santé pendant ses règles !</p>
@@ -180,7 +181,7 @@
                     <a href="{{ .link }}" target="_blank">
                         <div class="rounded-3xl flex flex-col bg-white h-full">
                             <div class="bg-reorange py-4 rounded-t-3xl text-4xl md:text-5xl font-extrabold text-white text-center">{{ .amount }}</div>
-                            <img class="h-6 mt-4" src="{{ .icon_link }}" />
+                            <img class="h-6 mt-4" src="{{ .icon_link }}" alt="" aria-hidden="true" />
                             <div class="text-rered py-4 px-8 text-center leading-5">{{ .text }}</div>
                             <div class="text-rered text-center font-bold mb-6 mt-auto underline">{{ .btn_text }}</div>
                         </div>
@@ -315,21 +316,41 @@
 
     let radio1 = document.getElementById("radio-1");
     let radio2 = document.getElementById("radio-2");
+    let radio1Label = document.getElementById("radio-1-label");
+    let radio2Label = document.getElementById("radio-2-label");
     let once = document.getElementById("once-donations");
     let regular = document.getElementById("regular-donations");
     
+    // handle click
     radio1.addEventListener('click', event => {
         once.classList.add("flex");
         once.classList.remove("hidden");
         regular.classList.add("hidden");
         regular.classList.remove("flex");
-    });
-
+    });    
     radio2.addEventListener('click', event => {
         regular.classList.add("flex");
         regular.classList.remove("hidden");
         once.classList.add("hidden");
         once.classList.remove("flex");
+    });
+
+    // handle enter keypress
+    radio1Label.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            once.classList.add("flex");
+            once.classList.remove("hidden");
+            regular.classList.add("hidden");
+            regular.classList.remove("flex");
+        }
+    });
+    radio2Label.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            regular.classList.add("flex");
+            regular.classList.remove("hidden");
+            once.classList.add("hidden");
+            once.classList.remove("flex");
+        }
     });
 
 </script>
