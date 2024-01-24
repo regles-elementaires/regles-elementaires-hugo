@@ -409,7 +409,7 @@
             <!-- EQUIPE -->
             <div class="hidden p-4  text-repurple" id="equipe" role="tabpanel" aria-labelledby="equipe-tab">
                 <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.equipe_title | markdownify }}</h3>
-                <img class="mt-8" src="/img/page-rapport/equipe-cover.png" />
+                <img class="mt-8" src="/img/page-rapport/equipe-cover.png" alt="" aria-hidden="true" />
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
                     <h4 class="mt-8 font-semibold text-xl">{{ .Params.renforcement.title }}</h4>
                     <p class="mt-4 mb-8">{{ .Params.renforcement.text | markdownify }}</p>
@@ -441,7 +441,7 @@
 
     <div class="bg-rebeige font-unbounded text-rered py-16">
         <div class="w-10/12 mx-auto text-center underline">
-            <a target="_blank" href="https://doccollectes.blob.core.windows.net/statics/rapport_activité_2022_RE.pdf">{{ .Params.rapport.text }}<img class="inline h-4 ml-2" src="/img/page-rapport/download.png"/></a>
+            <a target="_blank" href="https://doccollectes.blob.core.windows.net/statics/rapport_activité_2022_RE.pdf">{{ .Params.rapport.text }}<img class="inline h-4 ml-2" src="/img/page-rapport/download.png" alt="" aria-hidden="true"/></a>
             <img class="mx-auto mt-8 w-10/12 md:w-1/3" src="/img/page-rapport/preview_ra.png" alt="" aria-hidden="true" />
         </div>
     </div>
