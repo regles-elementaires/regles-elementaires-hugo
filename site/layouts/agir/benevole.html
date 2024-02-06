@@ -6,7 +6,7 @@
             <div class="md:w-1/2">
                 <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.ponctuel.title }}</h3>
                 <p class="mt-4 mb-8 tracking-tighter">{{ .Params.ponctuel.text | markdownify }}</p>
-                <a class="bg-rered rounded-full text-white py-2 px-4 uppercase" href="https://airtable.com/appAYPWZaKGpSxkBF/shrRIe4ZvCaoJNp9w" target="_blank">
+                <a class="bg-rered rounded-full text-white py-2 px-4 uppercase inline-block text-center" href="https://airtable.com/appAYPWZaKGpSxkBF/shrRIe4ZvCaoJNp9w" target="_blank">
                     {{ .Params.ponctuel.btn_benevole }}
                 </a>
                 <p class="my-8 tracking-tighter">{{ .Params.ponctuel.collecte_text | markdownify }}</p>
@@ -14,7 +14,7 @@
                     {{ .Params.ponctuel.btn_collecte }}
                 </a>
             </div>         
-            <div class="w-1/2 mt-4 md:pl-12">
+            <div class="w-full md:w-1/2 mt-8 md:pl-12">
                 <img class="md:h-96" src="/img/page-benevole/ponctuel-1.jpg" alt="des bénévoles animent un stand de sensibilisation" />
                 <img class="md:h-52 mt-4" src="/img/page-benevole/ponctuel-2.png" alt="une bénévole fait un inventaire" />
             </div>     
@@ -28,7 +28,7 @@
                     {{ .Params.btn_mission }}
                 </a>
             </div>
-            <div class="w-3/5 mt-4 md:mt-0 md:pl-48">
+            <div class="w-full md:w-3/5 mt-8 md:mt-0 md:pl-48">
                 <img class="" src="/img/page-benevole/mission.jpeg" alt="des bénévoles sont heureux d'avoir fait une collecte en supermarché" />
             </div>      
         </div>
