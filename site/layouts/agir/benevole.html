@@ -5,42 +5,32 @@
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
             <div class="md:w-1/2">
                 <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.ponctuel.title }}</h3>
-                <p class="mt-4 tracking-tighter">{{ .Params.ponctuel.text | markdownify }}</p>
+                <p class="mt-4 mb-8 tracking-tighter">{{ .Params.ponctuel.text | markdownify }}</p>
+                <a class="bg-rered rounded-full text-white py-2 px-4 uppercase" href="https://airtable.com/appAYPWZaKGpSxkBF/shrRIe4ZvCaoJNp9w" target="_blank">
+                    {{ .Params.ponctuel.btn_benevole }}
+                </a>
+                <p class="my-8 tracking-tighter">{{ .Params.ponctuel.collecte_text | markdownify }}</p>
+                <a class="bg-rered rounded-full text-white py-2 px-4 uppercase" href="https://collectes.regleselementaires.com/" target="_blank">
+                    {{ .Params.ponctuel.btn_collecte }}
+                </a>
             </div>         
             <div class="w-1/2 mt-4 md:pl-12">
-                <img class="md:h-96 md:absolute" src="/img/page-benevole/benevole-1.png" alt="photo bénévole" />
+                <img class="md:h-96" src="/img/page-benevole/ponctuel-1.jpg" alt="des bénévoles animent un stand de sensibilisation" />
+                <img class="md:h-52 mt-4" src="/img/page-benevole/ponctuel-2.png" alt="une bénévole fait un inventaire" />
             </div>     
         </div>
     </div>
     <div class="bg-rebeige">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
-            <div class="md:w-1/2">
-                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.long_title }}</h3>
-                <h4 class="mt-4 font-bold text-lg md:text-xl">{{ .Params.logistique.title }}</h4>
-                <p class="mt-4 tracking-tighter">{{ .Params.logistique.text | markdownify }}</p>
-                <h4 class="mt-4 font-bold text-lg md:text-xl">{{ .Params.sensibilisation.title }}</h4>
-                <p class="mt-4 tracking-tighter">{{ .Params.sensibilisation.text | markdownify }}</p>
+            <div class="md:w-2/5">
+                <h3 class="font-extrabold text-xl md:text-3xl mb-8">{{ .Params.mission_title }}</h3>
+                <a class="bg-rered rounded-full text-white py-2 px-4 uppercase" href="https://devenir-benevole.regleselementaires.com/" target="_blank">
+                    {{ .Params.btn_mission }}
+                </a>
             </div>
-            <div class="w-1/2 mt-4 md:mt-0 md:pl-48">
-                <img class="md:h-96 md:absolute" src="/img/page-benevole/benevole-2.png" alt="photo bénévole" />
+            <div class="w-3/5 mt-4 md:mt-0 md:pl-48">
+                <img class="" src="/img/page-benevole/mission.jpeg" alt="des bénévoles sont heureux d'avoir fait une collecte en supermarché" />
             </div>      
-        </div>
-    </div>
-    <div class="bg-white">
-        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
-            <div class="md:w-1/2 flex flex-col items-start">
-                <h3 class="font-extrabold text-xl md:text-3xl">{{ .Params.antenne.title }}</h3>
-                <p class="mt-4 tracking-tighter">{{ .Params.antenne.text | markdownify }}</p>
-                <div class="mt-6 w-full flex flex-row flex-wrap justify-between">
-                    <a class="bg-rered rounded-full text-white py-2 px-4 uppercase" href="/asso/equipe">
-                        {{ .Params.antenne.btn_antenne }}
-                    </a>
-                    <a class="bg-reorange rounded-full text-white py-2 px-4 uppercase mt-4 md:mt-0" target="_blank" href="https://www.welcometothejungle.com/fr/companies/regles-elementaires/jobs">
-                        {{ .Params.antenne.btn_join }}
-                    </a>
-                </div>                
-            </div>
-                           
         </div>
     </div>
 </div>
