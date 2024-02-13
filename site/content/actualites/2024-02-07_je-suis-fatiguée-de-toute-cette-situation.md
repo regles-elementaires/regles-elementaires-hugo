@@ -1,9 +1,9 @@
 ---
-title: '" Je suis fatiguée de toute cette situation. "'
+title: '"Je suis fatiguée de toute cette situation."'
 tags:
   - coupdesang
 date: 2024-02-07T16:28:59.103Z
-illu: img/plan_de_travail_1_copie_7-2x-10.png
+illu: img/plan_de_travail_1_copie_7-2x-1-.png
 intro: Bonjour, je m’appelle Julie*, j’ai 37 ans et je vis en Espagne. Tous les
   mois, je connais ce fameux stress de choisir entre s’acheter un paquet de
   pâtes ou des protections périodiques.
