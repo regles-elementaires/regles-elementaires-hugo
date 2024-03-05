@@ -1,6 +1,6 @@
 ---
-title: "Règles Élémentaires et le Fondaction du Football décident de #changer
-  les règles."
+title: "Règles Élémentaires et le Fondaction du Football décident de
+  #changerlesrègles"
 tags:
   - news
 date: 2024-03-05T08:46:24.845Z
