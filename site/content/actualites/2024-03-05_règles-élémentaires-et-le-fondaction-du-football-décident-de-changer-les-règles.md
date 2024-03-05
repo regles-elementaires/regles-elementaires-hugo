@@ -4,7 +4,7 @@ title: "Règles Élémentaires et le Fondaction du Football décident de
 tags:
   - news
 date: 2024-03-05T08:46:24.845Z
-illu: img/communiqué-2.png
+illu: img/communique-2.png
 intro: En cette année Olympique 2024, Règles Élémentaires et le Fondaction du
   Football s’associent pour lancer un programme innovant de sensibilisation et
   de formation au sujet des règles au bénéfice des clubs de football.
