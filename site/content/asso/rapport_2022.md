@@ -1,7 +1,7 @@
 ---
 title: Rapport d'activité 2022
 date: 2019-12-06T13:48:10+01:00
-layout: rapport
+layout: rapport_2022
 menu:
   main:
     parent: asso

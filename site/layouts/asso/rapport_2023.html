@@ -30,9 +30,9 @@
             <div class="hidden p-4" id="edito" role="tabpanel" aria-labelledby="edito-tab">
                 <h3 class="text-rered text-center text-lg md:text-xl mb-4 font-unbounded font-bold">{{ .Params.intro.title }}</h3>
                 <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.intro.text }}</p>
-                <img class="mt-8" src="/img/page-rapport/edito-cover.png" alt="" aria-hidden="true"/>
+                <img class="mt-8" src="/img/page-rapport/edito-cover-2023.png" alt="" aria-hidden="true"/>
                 <div class="flex flex-row flex-wrap text-rered mt-8">
-                    <div class="hidden md:flex w-1/6 flex-col justify-end items-center">
+                    <div class="hidden md:flex w-1/6 flex-col justify-center items-center">
                         <img class="w-3/4" src="/img/page-rapport/nadege-edito.png" alt="" aria-hidden="true"/>
                         <p class="mt-4 text-center font-bold">{{ .Params.edito_author | markdownify }}</p>
                     </div>
@@ -43,8 +43,7 @@
                     </div>
                 </div>
                 <div class="bg-rebeigera rounded-xl p-6 md:py-8 md:px-16 mt-8 md:mt-16">   
-                    <h4 class="text-rered text-center text-lg md:text-xl font-unbounded font-bold">{{ .Params.events_title }}</h4> 
-                    <p class="text-center text-rered mt-4">{{ .Params.events_text | markdownify }}</p>            
+                    <h4 class="text-rered text-center text-lg md:text-xl font-unbounded font-bold">{{ .Params.events_title }}</h4>            
                     <div class="my-8 hidden md:block">
                         <ul class="flex flex-wrap justify-between text-sm font-medium text-center bg-white rounded-full" id="eventsTab" data-tabs-toggle="#eventsTabContent" role="tablist">
                             {{ range .Params.key_events }}
@@ -103,6 +102,19 @@
                 <h4 class="text-rered text-center text-lg md:text-xl my-8 font-unbounded font-bold">{{ .Params.key_numbers.title }}</h4>
                 <div class="flex flex-row flex-wrap text-white">                    
                     <div class="w-full md:w-1/2">
+                        {{ range .Params.key_numbers.yellow }}
+                        <div class="md:h-48 py-2">
+                            <div class="flex flex-row justify-between rounded-xl bg-reorange px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
                         {{ range .Params.key_numbers.purple }}
                         <div class="md:h-48 py-2">
                             <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
@@ -111,7 +123,7 @@
                                     <div>{{ .text }}</div>
                                 </div>
                                 <div class="w1/5 flex flex-col justify-center">
-                                    <img class="w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                    <img class="w-24" src="{{ .img }}" alt="" aria-hidden="true"/>
                                 </div>
                             </div>
                         </div>
@@ -135,64 +147,105 @@
                 </div>
             </div>
 
-            <!-- COLLECTE -->
-            <div class="hidden p-4 text-repurple" id="collecte" role="tabpanel" aria-labelledby="collecte-tab">
-                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.collecte_intro.title | markdownify }}</h3>
-                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.collecte_intro.text }}</p>
-                <img class="mt-8" src="/img/page-rapport/collecte-cover.png" alt="" aria-hidden="true"/>
+            <!-- PRECARITE -->
+            <div class="hidden p-4 text-repurple" id="precarite" role="tabpanel" aria-labelledby="precarite-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.precarite_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.precarite_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/precarite-cover.png" alt="" aria-hidden="true"/>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.collectes_citoyennes.title }}</h4>
-                    <p class="mt-4">{{ .Params.collectes_citoyennes.text | markdownify }}</p>
-                    <div class="flex flex-row flex-wrap pt-10">
-                        <img class="w-full md:w-2/5 md:mr-6" src="/img/page-rapport/citoyenne-1.png" alt="" aria-hidden="true"/>
-                        <img class="w-full mt-4 md:mt-0 md:w-2/5" src="/img/page-rapport/citoyenne-2.png" alt="" aria-hidden="true"/>
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.chiffre_augmentation.title }}</h4>
+                    <p class="mt-4">{{ .Params.chiffre_augmentation.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap pt-10 justify-center">
+                        <img class="w-full md:w-2/5 md:mr-6" src="/img/page-rapport/chiffre-augmentation.png" alt="" aria-hidden="true"/>
                     </div>                    
                 </div>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.collectes_entreprises.title }}</h4>
-                    <p class="mt-4">{{ .Params.collectes_entreprises.text | markdownify }}</p>
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.collecter_aider.title }}</h4>
+                    <p class="mt-4">{{ .Params.collecter_aider.text | markdownify }}</p>
                     <div class="flex flex-row flex-wrap pt-10">
-                        <img class="w-full md:w-2/5 md:mr-6" src="/img/page-rapport/entreprise-1.png" alt="" aria-hidden="true"/>
-                        <img class="w-full mt-4 md:mt-0 md:w-2/5" src="/img/page-rapport/entreprise-2.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:mr-6" src="/img/page-rapport/collecter-aider.png" alt="" aria-hidden="true"/>
                     </div>                    
                 </div>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.dons_fabricants.title }}</h4>
-                    <p class="mt-4">{{ .Params.dons_fabricants.text | markdownify }}</p>  
+                    <h4 class="mt-8 font-semibold text-xl text-center">{{ .Params.repartition_dons.title }}</h4> 
                     <div class="flex flex-row flex-wrap pt-10">
-                        <img class="w-full md:w-4/5" src="/img/page-rapport/logos-fabricants.png" alt="Nos 9 partenaires fabricants : Always, Dim, Cleanitud, Eva and co, Fempo, Jho, Mïu, Socup et Smoon"/>
-                    </div>               
+                        <img class="w-full md:w-4/5" src="/img/page-rapport/repartition-dons.png" alt="Répartition des dons: collectes nationales: 1 870 410; dons fabricants: 1 147 800; collectes entreprises: 164 942; collectes citoyennes: 147 787; collectes collectivités: 60 857"/>
+                    </div>      
+                    <p class="mt-4">{{ .Params.repartition_dons.text | markdownify }}</p>         
                 </div>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.collectes_nationales.title }}</h4>
-                    <p class="mt-4">{{ .Params.collectes_nationales.text | markdownify }}</p> 
-                    <div class="flex flex-row flex-wrap pt-10 mb-8">
-                        <img class="w-full md:w-3/4" src="/img/page-rapport/graph-produits.png" alt="Répartition des dons : 55% collectes nationales; 35% dons partenaires; 9% collectes citoyennes; 1% collectes entreprises"/>
-                    </div>     
-                    {{ range .Params.collectes_nationales.numbers }}
-                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
-                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
-                                <div class="w-4/5 flex flex-col justify-center">
-                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
-                                    <div>{{ .text }}</div>
-                                </div>
-                                <div class="w1/5 flex flex-col justify-center">
-                                    <img class="w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
-                                </div>
-                            </div>
-                        </div>
-                    {{ end }}           
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.sensibiliser_enrayer.title }}</h4>     
+                    <p class="mt-4">{{ .Params.sensibiliser_enrayer.text | markdownify }}</p>         
                 </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.plaidoyer_alerter.title }}</h4>
+                    <div class="flex flex-row flex-wrap pt-10">
+                        <img class="w-full md:w-2/5 md:mr-6" src="/img/page-rapport/plaidoyer-alerter-1.png" alt="" aria-hidden="true"/>
+                        <img class="w-full mt-4 md:mt-0 md:w-2/5" src="/img/page-rapport/plaidoyer-alerter-2.png" alt="" aria-hidden="true"/>
+                    </div>           
+                    <p class="mt-4">{{ .Params.plaidoyer_alerter.text | markdownify }}</p>         
+                </div>
+                <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12">
+                    <div class="w-11/12 md:w-5/6 mx-auto">
+                        <h4 class="mb-8 font-semibold text-2xl">{{ .Params.revue_presse.title }}</h4>
+                        <div class="w-full flex flex-row flex-wrap">
+                            <img class="w-full md:w-1/3" src="/img/page-rapport/revue-presse-1.png" alt="article france info: quatre questions sur le remboursement des protections réutilisables pour les moins de 25 ans">
+                            <img class="w-full md:w-1/3" src="/img/page-rapport/revue-presse-2.png" alt="article ouest france: quelles seront les conditions pour bénéficier du remboursement des protections périodiques">
+                            <img class="w-full md:w-1/3" src="/img/page-rapport/revue-presse-3.png" alt="article le figaro: précarité menstruelle, près de 4 millions de femmes concernées en France">
+                        </div> 
+                    </div>                                                     
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14">
+                    <div class="flex flex-row flex-wrap pt-10 items-center">
+                        <img class="w-full md:w-3/5" src="/img/page-rapport/plaidoyer-alerter-3.png" alt="" aria-hidden="true"/>
+                        <p class="w-full md:w-2/5 md:pl-8 mt-4 md:mt-0 text-rered font-semibold">{{ .Params.plaidoyer_alerter.img_caption | markdownify }}</p>     
+                    </div>           
+                    <p class="mt-8">{{ .Params.plaidoyer_alerter.text_2 | markdownify }}</p>         
+                </div>
+                
             </div>
 
-            <!-- TERRITOIRE -->
-            <div class="hidden p-4 text-repurple" id="territoire" role="tabpanel" aria-labelledby="territoire-tab">
-                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.territoire_intro.title | markdownify }}</h3>
-                <img class="mt-8" src="/img/page-rapport/territoire-cover.png" alt="" aria-hidden="true"/>
+            <!-- EDUCATION -->
+            <div class="hidden p-4 text-repurple" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.education_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.education_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/education-cover-2023.png" alt="" aria-hidden="true"/>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.partenaires.title }}</h4>
-                    <p class="mt-4 mb-8">{{ .Params.partenaires.intro | markdownify }}</p>
-                    {{ range .Params.partenaires.numbers }}
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.sensibilisation_etab.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.sensibilisation_etab.intro | markdownify }}</p>
+                    <h4 class="mt-8 font-semibold">{{ .Params.sensibilisation_etab.subtitle }}</h4>
+                    <p class="mt-4">{{ .Params.sensibilisation_etab.text | markdownify }}</p> 
+                    <div class="flex flex-row flex-wrap text-white mt-4">
+                        {{ range .Params.sensibilisation_etab.numbers }}                            
+                            <div class="w-full md:w-1/5 md:h-40 flex justify-center items-center py-2 rounded-xl bg-repink px-6 md:px-8 py-4 md:py-0 h-full md:mr-4 mt-4 md:mt-0">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold text-center">{{ .number }}</div>
+                                    <div class="text-center">{{ .text }}</div>
+                                </div>
+                            </div>                            
+                        {{ end }}      
+                    </div>
+                    <img class="mt-8" src="/img/page-rapport/campagne-education.png" alt="pêle-mêle de photo et d'articles mentionnant notre campagne. France info titre 80% des jeunes filles ont leur règles avant 13 ans et sont malgré tout dépourvues d'information sur le sujet" />             
+                </div>
+                <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12 px-6">
+                    <div class="w-11/12 md:w-5/6 mx-auto flex flex-wrap">
+                        <div class="w-full md:w-1/2">{{ .Params.parlons_regles_text }}</div>
+                        <div class="w-full md:w-1/2 flex md:justify-end mt-4 md:mt-0">
+                            <div class="w-full md:w-4/5 bg-white rounded-xl p-6 md:p-12">
+                                <img src="/img/page-rapport/parlons-regles.png" alt="" aria-hidden="true">
+                            </div>                            
+                        </div> 
+                    </div>                                                     
+                </div>         
+            </div>
+
+            <!-- FORMATION -->
+            <div class="hidden p-4  text-repurple" id="formation" role="tabpanel" aria-labelledby="education-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.formation_intro.title | markdownify }}</h3>
+                <img class="mt-8" src="/img/page-rapport/formation-cover.png" alt="" aria-hidden="true"/>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.encadrants.title }}</h4>
+                    {{ range .Params.encadrants.numbers }}
                         <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
                             <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
                                 <div class="w-4/5 flex flex-col justify-center">
@@ -204,77 +257,9 @@
                                 </div>
                             </div>
                         </div>
-                    {{ end }} 
-                    <h4 class="mt-8 font-semibold">{{ .Params.partenaires.subtitle }}</h4>
-                    <p class="mt-4">{{ .Params.partenaires.text | markdownify }}</p>                    
-                </div>
-                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.maillage.title }}</h4>
-                    <p class="mt-4 mb-8">{{ .Params.maillage.text | markdownify }}</p>
-                    {{ range .Params.maillage.numbers }}
-                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
-                            <div class="flex flex-row justify-between rounded-xl bg-repink px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
-                                <div class="w-4/5 flex flex-col justify-center">
-                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
-                                    <div>{{ .text }}</div>
-                                </div>
-                                <div class="w1/5 flex flex-col justify-center">
-                                    <img class="w-20" src="{{ .img }}" alt="icone d'illustration"/>
-                                </div>
-                            </div>
-                        </div>
-                    {{ end }}                   
-                </div>
-                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-rered text-rered">
-                    <div class="flex flex-row mt-8 items-center">
-                        <div class="w-1/6 pr-2 md:p-0">
-                            <img class="w-28" src="/img/page-rapport/marion.png" alt="" aria-hidden="true" />
-                        </div>                        
-                        <h4 class="w-5/6 font-semibold text-xl">{{ .Params.portrait.title }}</h4>
-                    </div>                    
-                    <p class="mt-4">{{ .Params.portrait.text | markdownify }}</p>              
-                </div>
-                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.collectivites.title }}</h4>
-                    <p class="mt-4 mb-8">{{ .Params.collectivites.text | markdownify }}</p> 
-                    <div class="flex flex-row flex-wrap mb-8">
-                        <img class="w-full md:w-3/5" src="/img/page-rapport/collectivites.png" alt="" aria-hidden="true"/>
-                    </div>                  
-                </div>
-                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.valoriser.title }}</h4>
-                    <p class="mt-4 mb-8">{{ .Params.valoriser.text | markdownify }}</p>   
-                    <a class="underline" href="https://doccollectes.blob.core.windows.net/statics/enquete_regions.pdf" target="_blank">Consulter l'enquête complète</a>              
-                </div>
-                <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12">
-                    <div class="w-11/12 md:w-5/6 flex flex-row flex-wrap mx-auto">
-                        <div class="w-full md:w-1/2 md:pr-6">
-                            <h4 class="font-semibold font-unbounded text-xl">{{ .Params.aperos.title }}</h4>
-                            <p class="mt-4 mb-8">{{ .Params.aperos.text | markdownify }}</p>  
-                            <h4 class="font-unbounded font-bold">{{ .Params.aperos.lieux.title }}</h4>
-                            <p class="font-unbounded">{{ .Params.aperos.lieux.lieux | markdownify }}</p>
-                        </div>
-                        <div class="w-full md:w-1/2 flex flex-row flex-wrap">
-                            <img class="w-full my-6" src="/img/page-rapport/apero-1.png" alt="" aria-hidden="true">
-                            <img class="w-1/2 pr-3" src="/img/page-rapport/apero-2.png" alt="" aria-hidden="true">
-                            <img class="w-1/2 pl-3" src="/img/page-rapport/apero-3.png" alt="" aria-hidden="true">
-                        </div>  
-                    </div>                                                     
-                </div>
-            </div>
-
-            <!-- EDUCATION -->
-            <div class="hidden p-4  text-repurple" id="education" role="tabpanel" aria-labelledby="education-tab">
-                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.education_intro.title | markdownify }}</h3>
-                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.education_intro.text }}</p>
-                <img class="mt-8" src="/img/page-rapport/education-cover.png" alt="" aria-hidden="true"/>
-                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
-                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.fb.title }}</h4>
-                    <p class="mt-4 mb-8">{{ .Params.fb.text | markdownify }}</p>
-                    <div class="flex flex-row flex-wrap mb-8">
-                        <img class="w-full md:w-3/5" src="/img/page-rapport/fb.png" alt="" aria-hidden="true"/>
-                    </div>    
-                    {{ range .Params.fb.numbers }}
+                    {{ end }}
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.relais.title }}</h4>
+                    {{ range .Params.relais.numbers }}
                         <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
                             <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
                                 <div class="w-4/5 flex flex-col justify-center">
@@ -370,8 +355,7 @@
             <!-- CHANGER -->
             <div class="hidden p-4  text-repurple" id="changer" role="tabpanel" aria-labelledby="changer-tab">
                 <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.changer_intro.title | markdownify }}</h3>
-                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.changer_intro.text }}</p>
-                <img class="mt-8" src="/img/page-rapport/changer-cover.png" alt="" aria-hidden="true"/>
+                <img class="mt-8" src="/img/page-rapport/changer-cover-2023.png" alt="" aria-hidden="true"/>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
                     <h4 class="mt-8 font-semibold text-xl">{{ .Params.decret.title }}</h4>
                     <p class="mt-4 mb-8">{{ .Params.decret.text | markdownify }}</p>
@@ -406,10 +390,41 @@
                 </div>
             </div>
 
+            <!-- DEPLOYER -->
+            <div class="hidden p-4  text-repurple" id="deployer" role="tabpanel" aria-labelledby="equipe-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.deployer_intro.title | markdownify }}</h3>
+                <img class="mt-8" src="/img/page-rapport/deployer-cover.png" alt="" aria-hidden="true" />
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.renforcement.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.renforcement.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap my-8 justify-center">
+                        <img class="w-full md:w-1/2" src="/img/page-rapport/organigramme.png" alt="organigramme : au sommet le conseil d'adminitration; en dessous la driection générale, le pôle RH et le pôle tech; encore en-dessous se trouve le pôle communciation et partenariat, le pôle plaidoyer et sensibilisation et enfin le pôle opérations et développement"/>
+                    </div>    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.seminaire.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.seminaire.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap my-8 justify-center">
+                        <img class="w-full md:w-1/2 md:pr-2 mb-4" src="/img/page-rapport/seminaire-1.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:w-1/2 md:pl-2 mb-4" src="/img/page-rapport/seminaire-2.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:w-1/2 md:pr-2 mb-4 md:mb-0" src="/img/page-rapport/seminaire-3.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:w-1/2 md:pl-2" src="/img/page-rapport/seminaire-4.png" alt="" aria-hidden="true"/>
+                    </div>    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.ca.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.ca.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap my-8 justify-center">
+                        <img class="w-full" src="/img/page-rapport/ca.png" alt="Le conseil d'administration comporte 8 membres : Nadège Moreau, Esther Vogel, Denis Neveux, Tara Heuzé-Sarmini, Tess Pettavino, Alexandre Basdereff, Emeline Foster et Paul Duan"/>
+                    </div>    
+                </div>
+            </div>
+
             <!-- EQUIPE -->
             <div class="hidden p-4  text-repurple" id="equipe" role="tabpanel" aria-labelledby="equipe-tab">
-                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.equipe_title | markdownify }}</h3>
-                <img class="mt-8" src="/img/page-rapport/equipe-cover.png" alt="" aria-hidden="true" />
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.equipe_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.equipe_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/equipe-cover-2023.png" alt="" aria-hidden="true" />
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
                     <h4 class="mt-8 font-semibold text-xl">{{ .Params.renforcement.title }}</h4>
                     <p class="mt-4 mb-8">{{ .Params.renforcement.text | markdownify }}</p>
