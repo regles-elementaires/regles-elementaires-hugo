@@ -233,84 +233,102 @@ relais:
     - number: "248"
       text: "professionnel·les formé·es"
       img: "/img/page-rapport/3-personnes.png"
-scolaire:
-  title: "Auprès du public scolaire"
-  subtitle: "Les collégien·nes et lycéen·nes"
-  intro: "Cette année, comme la précédente, nous nous sommes rendu·es dans des collèges et des lycées pour parler de règles. Si nous avions commencé à amorcer ces ateliers en 2021, 2022 marque l’année où nous avons pu les déployer avec le recrutement d’une personne dédiée à l’animation auprès du public jeune."
-  numbers:
-    - number: "92"
-      text: "ateliers en milieu scolaire"
-      img: "/img/page-rapport/sac-a-dos.png"
-    - number: "Plus de 2000"
-      text: "jeunes sensibilisé·es en direct"
-      img: "/img/page-rapport/bulle-dialogue.png"
-  text: "Le but de ces ateliers est d’apporter de l’information aux filles comme aux garçons, puisque les ateliers se font toujours en mixité.<br/><br/>
-  Il est nécessaire de rappeler que les règles ne sont abordées qu’en 4ᵉ dans le programme scolaire et uniquement sous l’aspect physiologique / reproductif. Avec notre atelier, on amorce une réflexion sur la construction des clichés et des tabous liés aux règles, on questionne les jeunes sur leur vision des règles, on sensibilise concrètement à l'égalité filles-garçons."
-  primaires:
-    title: "Les primaires"
-    text: "La grande nouveauté de 2022, c'est notre atelier à destination des primaires.
-    <br/><br/>
-    Pour cet atelier, notre approche est cette fois centrée sur le rapport au corps et la connaissance de soi. Nous ne rentrons pas tout de suite dans le vif du sujet, nous créons du lien avec les élèves, nous leur permettons aussi d’exprimer leurs émotions, sans jugement et dans la bienveillance collective."
-    number: "12"
-    number_text: "classes de CM2 sensibilisé·es"
-    img: "/img/page-rapport/serviette.png"
-public:
-  title: "Auprès du grand public"
-  subtitle: "La première édition de notre festival Sang Gêne"
-  text: "Pour éduquer sur les règles, nous avons besoin de porter le sujet aux yeux de tous·tes et de créer des moments privilégiés d’échanges avec le grand public. En 2022, c'est chose faite grâce à la première édition de notre festival Sang Gêne. 1 soirée et 2 journées autour du 28 mai, journée internationale de l’hygiène menstruelle, pour parler de règles avec divers invité·es d’horizons différents.
-  Une soirée d’inauguration le 27 mai au Café Mona au cœur de la cité Audacieuse avec une projection de 5 courts-métrages sur les règles accompagnée d’un débat avec 3 réalisatrices présentes. 
-  Deux journées au Pavillon des Canaux ponctuées de tables rondes sur des thématiques comme : parler de règles avec ses enfants, histoire et règles, sexualité et règles, précarité menstruelle dans le monde… Avec des temps forts notamment avec la présence de l’humoriste Noémie de Lattre pour un one-woman-show intimiste." 
-  numbers:
-    - number: "2"
-      text: "jours de festival"
-      img: "/img/page-rapport/calendrier.png"
-    - number: "3000"
-      text: "visiteurs physiques"
-      img: "/img/page-rapport/bulle-dialogue.png"
-    - number: "1 million"
-      text: 'de visiteurs sur les "live" des réseaux sociaux'
-      img: "/img/page-rapport/3-personnes.png"
-  text2: "Le festival était un tout nouveau format qui nous a permis de toucher plus d’1 million de personnes digitalement grâce aux communautés des invité·es mobilisé·es et près de 3000 personnes en physique qui, soit se sont arrêtées à nos tables rondes, soit ont pu entendre parler de nous sur le lieu. Une véritable réussite !"
-entreprise:
-  title: "La sensibilisation en entreprise"
-  text: "2022 aura aussi été l’année qui marque pour nous le début de nos actions de sensibilisation au sein des entreprises.
-  <br/><br/>
-  On le sait, il y a à faire en termes de règles dans le milieu de l’entreprise. Aujourd’hui, environ 70% des personnes interrogées considèrent que les règles sont un sujet tabou en entreprise. Plus de la moitié des salariées ont des règles douloureuses, et plus d'un tiers déclare qu'elles ont un impact négatif sur leur travail."
+formation_text: "Pour faire cesser définitivement la précarité menstruelle, il faut aussi que chaque personne au contact de ces publics puisse écouter, orienter et relayer de l’information menstruelle de qualité. Comment briser le tabou des règles et se sentir plus à l’aise pour en parler ? Comment orienter une personne en situation de précarité menstruelle vers des dispositifs pertinents ? Comment accompagner efficacement la mise en place d’un distributeur de protections au sein de sa structure ? Comment arrêter d'invisibiliser la santé menstruelle pourtant fondamentale dans la vie quotidienne des personnes menstruées ? <b>En se formant, les professionnel·les peuvent aussi devenir les acteur·ices du changement en intégrant la lutte contre la précarité menstruelle dans leur accompagnement quotidien des personnes menstruées.</b>"
+formation_text_2: "<p class='text-rered'>Quels sont les objectifs de nos formations ?</p>
+<br/><br/>
+<ul class='text-rered' style='list-style-type: disc; margin-top: -1.5rem; margin-left: 3rem;'>
+  <li>Questionner les représentations liées aux règles pour briser le tabou</li>
+  <li>Comprendre les conséquences sanitaires psychologiques et sociales liées à la précarité menstruelle</li>
+  <li>Pouvoir identifier les signaux d’une situation de précarité menstruelle</li>
+  <li>Savoir expliquer simplement la physiologie des règles au public accompagné</li>
+  <li>Disposer des informations pour accompagner le public dans l’utilisation des protections périodiques</li>
+  <li>Se sentir plus à l’aise et outillé pour parler de santé menstruelle et accueillir des témoignages de personnes menstruées</li>
+</ul>
+<br/>
+<p class='text-rered'>En étant les premier·es à se positionner sur le volet de la formation professionnelle nous souhaitons valoriser notre expertise de terrain dans la sensibilisation à la santé menstruelle auprès des professionnel·les, des encadrant·es de structures médicosociales et des relais éducatifs.</p>"
+cibles_formation:
+  - title: "Professionnel·les du<br/>médico-social"
+    text: "Pour une évolution durable des mentalités, une diffusion des informations sur la santé menstruelle et le déploiement d’actions de terrain efficaces auprès des publics en situation de précarité menstruelle"
+  - title: "Relais<br/>éducatifs"
+    text: "Pour diffuser l’éducation menstruelle auprès des jeunes en complémentarité de la sortie de notre  plateforme de sensibilisation  “Parlons Règles” Parler des règles dès le plus jeune âge pour promouvoir l’égalité et prévenir la précarité menstruelle"
+  - title: "Entreprises et<br/>collectivités"
+    text: "Pour changer les règles dans le milieu professionnel et enfin prendre en compte les vécus des personnes menstruées au travail"
+formation_entreprises:
+  title: "Les entreprises et collectivités"
+  text: "Aujourd'hui, environ 70% des personnes interrogées considèrent que les règles sont un sujet tabou en entreprise. Pourtant, les règles ont un impact réel sur le quotidien de millions de travailleuses. Plus de la moitié des salariées ont des règles douloureuses, et plus d'un tiers déclare qu'elles ont un impact négatif sur leur travail. Face à ces constats, Règles Élémentaires a souhaité renforcer et déployer plus largement ses actions dans le monde du travail. L’association a ainsi développé l’offre de sensibilisation auprès des entreprises et des collectivités afin de former le plus de personnes possibles à ce sujet. Ainsi, l’association est intervenue dans plusieurs structures, aussi bien dans le secteur public que privé. L’équipe sensibilisation a également accompagné plusieurs organisations qui mettaient en place des mesures pour leurs collaborateurs-rices, telles que le congé menstruel. C’est par exemple le cas de la ville de Bagnolet, où l’association a réalisé une dizaine de sessions de formation, à destination du personnel encadrant."
+formation_structures_title: "Les structures où l’on est intervenu·es :"
+formation_structures:
+  - name: "Bezons"
+    logo: "/img/page-rapport/logos/bezons.png"
+  - name: "Bagnolet"
+    logo: "/img/page-rapport/logos/bagnolet.png"
+  - name: "Rennes"
+    logo: "/img/page-rapport/logos/rennes.png"
+  - name: "Finances publiques"
+    logo: "/img/page-rapport/logos/finances.png"
+  - name: "Carrefour"
+    logo: "/img/page-rapport/logos/carrefour.png"
+  - name: "Leclerc"
+    logo: "/img/page-rapport/logos/leclerc.png"
+  - name: "Petit Navire"
+    logo: "/img/page-rapport/logos/petit-navire.png"
+  - name: "Dim"
+    logo: "/img/page-rapport/logos/dim.png"
+  - name: "Kisio"
+    logo: "/img/page-rapport/logos/kisio.png"
+  - name: "Disney"
+    logo: "/img/page-rapport/logos/disney.png"
 changer_intro:
   title: "Faire bouger les lois pour changer les règles"
 decret:
-  title: "Avec un décret sur la transparence de la composition des protections"
-  text: "En France, environ 15 000 000 de personnes ont leurs règles et utilisent régulièrement des protections périodiques sans savoir ce qui se cache dedans. Vous aussi vous vous êtes déjà étonné de ne pas trouver la composition de ces produits alors que l’on étudie et décortique la composition sur les paquets de gâteaux ?
+  title: "Le décret sur la transparence des protections périodiques"
+  text: "Depuis 2020, aux côtés du collectif Georgette Sand et de la Fondation des Femmes nous nous mobilisons pour plus de transparence sur la composition des protections menstruelles. En 2022, notre plaidoyer aboutit avec l’annonce par Olivier Véran, alors Ministre de la Santé, de la publication d’un décret visant plus de transparence sur la composition des protections. Les engagements qui avaient été pris à l’époque visaient une information exhaustive et lisible pour les consommatrices. Cependant, un an après, et à la suite de nombreux allers/retours avec les services de l’État, nous avons le regret de constater que la version finale du texte est aujourd’hui complètement vidée de sa substance.
   <br/><br/>
-  Le début du travail remonte à 2020, mais c’est en 2022 qu’il s’est concrétisé (et il le sera définitivement en 2023 !). 
-  Avec le collectif Georgette Sand et la Fondation des Femmes, nous avons entrepris un travail conjoint sur la transparence des compositions des protections périodiques. Grâce à notre persévérance, et après plusieurs échanges avec le cabinet du Ministère de la Santé puis la rencontre du Ministre de la Santé Olivier Véran en mars, notre proposition de décret a été reprise - en partie - et sera effective en 2023."
-tribune:
-  title: "Avec une tribune “Sang Programme” pour engager les candidat·es à la Présidentielle"
-  text: "2022 était une année électorale, nous ne pouvions pas passer à côté de cette occasion de faire entrer les règles dans le débat politique. 
+  <a class=\"text-rered underline font-semibold\" href=\"https://www.mesopinions.com/petition/sante/reglementation-encadrant-composition-protections-periodiques/207932/\" target=\"_blank\">Le plaidoyer complet est à retrouver ici</a>
   <br/><br/>
-  À l’occasion du 8 mars 2022, journée internationale pour les droits des femmes, nous avons alors publié une tribune dans le journal Libération accompagnée d’une page web, sous la dénomination #SANGPROGRAMME, pour s’engager à nos côtés et soutenir nos propositions adressées aux candidat·es à l’élection présidentielle."
-emoji:
-  title: "Avec un emoji qui représente vraiment les règles"
-  text: "L’opération qui aura sans doute marqué l’année côté communication pour nous est celle du lancement de notre pétition pour demander la création d’un emoji qui représente vraiment les règles, le #periodemoji. 
+  Afin de mobiliser l’opinion publique sur ce sujet de santé publique, nous avons lancé une pétition baptisée #affichetacompo pour appeler le gouvernement à revoir ce texte et responsabiliser les fabricants sur la composition de leurs produits. Plus de 20 000 personnes ont signé la pétition. Nous avons également lancé une vidéo avec diverses personnalités publiques et expertes pour interpeller massivement sur notre sujet."
+europe:
+  title: "Changer les règles en Europe"
+  text: "Aujourd’hui, au sein de l’Union Européenne, et plus globalement en Europe, on estime à 10% le nombre de personnes en situation de précarité menstruelle<sup>1</sup>. Pourtant, cette estimation est partielle, et les données manquent cruellement au niveau européen. Par ailleurs, les politiques publiques de lutte contre la précarité menstruelle en Europe sont extrêmement diverses
   <br/><br/>
-  Appuyé·es par l’agence de communication “.YZ” dans le cadre de notre accompagnement avec la France s’engage, la campagne a rencontré un réel succès médiatique et digital avec des dizaines d’articles presse et une large audience sur les réseaux sociaux. 
+  En novembre 2023, Règles Élémentaires a participé à un atelier sur les mesures de plaidoyer pour lutter contre la précarité menstruelle et le tabou des règles en Macédoine du Nord, en présence de représentantes et de représentants d’associations des balkans occidentaux (Albanie, Kosovo, Monténégro), projet financé par les ambassades de France dans lesdits pays. En 2024, nous espérons poursuivre les dynamiques amorcées collectivement et renforcer les partenariats entre les pays européens dans la lutte contre la précarité menstruelle et le tabou des règles.
   <br/><br/>
-  La suite de l’histoire s’écrira en avril 2023, date à laquelle nous pourrons officiellement déposer notre dossier pour la création de notre émoji règles !"
-chiffres:
-  title: "Avec des chiffres concrets pour justifier nos actions"
-  text: "En 2022, on a mis l’accent sur un sujet qui nous tient particulièrement à cœur : les règles chez les plus jeunes. Une des missions principales de l’association est la sensibilisation, et ce, dès le plus jeune âge. Pour justifier notre action, rien de tel que des chiffres percutants.
-  <br/><br/>
-  Près de 60% des personnes interrogées n’ont reçu aucun enseignement formel à propos des règles, et seulement un quart des jeunes qui sait qu’il y a des maladies liées aux règles, a appris à l’école, contre la moitié des jeunes, qui l'ont su grâce aux réseaux sociaux.
-  <br/><br/>
-  On a aussi appris que la volonté d’un enseignement menstruel formel est unanime : tout genre, tout âge, et tout milieu social confondu, près de 85% des français·es y sont favorables. Chiffre qui se précise lorsqu’on interroge la part la plus jeune de la population. À titre d’exemple, les 16-19 ans sont favorables à un enseignement menstruel à presque 100%.
-  <br/><br/>
-  Enfin, on a aussi pu constater l’urgence d’agir chez les plus jeunes :
-  <ul style='list-style-type: disc; margin-top: -1.5rem; margin-left: 3rem;'>
-  <li>Près d’une jeune femme (de moins de 24 ans) sur deux a déjà manqué l’école à cause de ses règles</li>
-  <li>Un tiers des jeunes femmes (de moins de 24 ans) a déjà subi des moqueries ou discriminations liées aux règles</li>
-  </ul>"
+  1. https://www.europarl.europa.eu/doceo/document/E-9-2020-006746_EN.html"
 deployer_intro:
     title: "Déployer nos actions stratégiquement"
+plan:
+  title: "Notre plan d’attaque"
+  text: "Règles Élémentaires a pu démontrer son expertise dans ses différentes activités, a pu faire la preuve de son concept, tant dans ses activités de collecte que de sensibilisation et de formation, ce qui ouvre la voie au déploiement de ses actions sur d'autres territoires et donc l’essaimage d’un futur modèle à construire. Pour cela, et après une phase de diagnostic territorial des opportunités, Règles Élémentaires a été accompagnée dans l'identification des besoins et la construction d'un schéma de déploiement par ScaleChanger.
+  <br/><br/>
+  Règles Elémentaires projette un modèle d’essaimage flexible et évolutif, modèle qui permettra de maximiser son impact, particulièrement dans la diffusion et prise en compte de ses sujets. La méthode consiste à s’implanter et expérimenter sur un territoire puis élargir le rayonnement pour impulser et accompagner des dynamiques et projets locaux.
+  <br/><br/>
+  L’expérimentation de ces nouvelles modalités d’implantation territoriale a commencé en 2023 avec la création de 2 antennes régionales salariées : l’Ile-de-France et les Pays-de-la-Loire."
+ile_de_france: 
+  title: "L’exemple de l’Ile-de-France"
+  text: "L'antenne IDF a été créée d'après le constat que Règles Élémentaires avait de très nombreuses actions en Ile-de-France mais que ces dernières n'étaient pas assez coordonnées dans un objectif d'ancrage territorial. C'est pourquoi j'ai pris le poste de Coordinatrice des actions en IDF en septembre 2023, pour représenter l'association sur le territoire et construire une approche plus cohérente.
+  <br/><br/>
+  Ainsi, mes premières missions ont été de re-mobiliser et animer notre pool de bénévoles; de renforcer les liens et l'accompagnement que l'on propose aux collectivités et structures médico-sociales, et d'initier des projets adaptés aux besoins et enjeux locaux."
+  caption_name: "Lucie Larrère,"
+  caption_role: "coordinatrice des actions en Île-de-France"
+idf_numbers: 
+  - number: "62"
+    text: "missions et 239 participations en tout"
+    img: "/img/page-rapport/fusee.png"
+  - number: "9"
+    text: "collectes organisées en propre (avec des bénévoles RÉ ou des entreprises) avec 78 personnes participantes"
+    img: "/img/page-rapport/protections.png"
+  - number: "10"
+    text: "évènements de sensibilisation (paris, val de marne, hauts de seine et seine saint denis) soit entre 500 et 1 000 personnes sensibilisées"
+    img: "/img/page-rapport/bulle-dialogue.png"
+pays_de_la_loire: 
+  title: "L’exemple des Pays de la Loire"
+  text: "En parallèle, l’association s’est déployée en Pays de la Loire en octobre 2023, et je suis venue renforcer l’antenne bénévole existante. La région, identifiée prioritaire grâce à un diagnostic territorial préalable (opportunités, partenariats...), servira notamment de terrain d'essai pour nos projets opérationnels. Mes premiers objectifs :  créer un réseau local (partenaires, associations, collectivités, bénévoles) et favoriser le développement de partenariats en vue d'un rayonnement plus important à long terme !
+  <br/><br/>
+  Les premiers mois m’ont donc permis de créer des liens solides avec les acteurs·rices locaux pour s'intégrer rapidement dans le tissu social et associatif de la région. Au cours de cette période initiale, j’ai également pu tester la viabilité des projets opérationnels dans le contexte spécifique de la région Pays de la Loire. Les retours d'expérience m’ont permis des ajustements pour répondre aux besoins réels et spécifiques du territoire.
+  <br/><br/>
+  Grâce à cette expérience locale réussie, nous aspirons à étendre notre impact, tout en continuant de diffuser l’ensemble de nos actions avec nos partenaires, en mobilisant encore plus de bénévoles pour changer les règles localement et en permettant de faire exister les règles dans l’espace public."
+  caption_name: "Elena Gautier,"
+  caption_role: "responsable de l'antenne Pays de la Loire"
 equipe_intro:
   title: "Le renforcement de l'équipe"
   text: "2023 marque un véritable cap pour Règles Élémentaires. L’association grandit toujours plus, preuve que les besoins ne faiblissent pas et que nos actions restent nécessaires."
