@@ -5,7 +5,7 @@ layout: rapport_2023
 menu:
   main:
     parent: asso
-    weight: 5
+    weight: 4
 flowbite: true
 carousel: true
 subtitle: "Nouveau titre ici"
@@ -28,7 +28,7 @@ tabs:
   - title: Déployer nos<br/>actions<br/>stratégiquement
     title_mobile: Déployer nos actions stratégiquement
     id: deployer 
-  - title: Le renforcement<br/>de<br/>l'équipe
+  - title: Le renforcement<br/>de l'équipe
     title_mobile: Le renforcement de l'équipe
     id: equipe 
 intro:
@@ -332,16 +332,40 @@ pays_de_la_loire:
 equipe_intro:
   title: "Le renforcement de l'équipe"
   text: "2023 marque un véritable cap pour Règles Élémentaires. L’association grandit toujours plus, preuve que les besoins ne faiblissent pas et que nos actions restent nécessaires."
-renforcement:
-  title: "Le renforcement de l’équipe salariée"
-  text: "2022 était une année humainement riche ! Nous avons eu la chance d’accueillir de nouvelles personnes dans nos rangs pour renforcer nos équipes et nos actions !"
-seminaire:
-  title: "Le premier séminaire !"
-  text: "Quel meilleur moyen pour réunir tout ce beau monde derrière Règles Élémentaires qu’un séminaire en bonne et due forme ? C’est chose faite !
-On avait ainsi besoin de pouvoir se retrouver tous·tes ensemble le temps d’une journée pour aborder le futur de l’association sereinement. Parce que les réunions zoom, c'est super, mais se réunir autour d’une table pour discuter c’est autre chose !"
-ca:
-  title: "Le renforcement du Conseil d’Administration"
-  text: "2022 marque aussi le renforcement en compétences de notre Conseil d’Administration. L’équipe s’agrandit encore pour notre plus grand bonheur, et c’est Esther Vogel qui vient grossir les rangs de Règles Élémentaires en tant que Secrétaire Générale."
-rapport:
-  text: "Télécharger la version complète du rapport d’activité"
+equipe_numbers:
+  title: "L’équipe fin 2023, c’est..."
+  numbers:
+    - number: "14"
+      text: "salarié·es"
+    - number: "2"
+      text: "freelances"
+    - number: "4"
+      text: "alternantes"
+    - number: "1"
+      text: "stagiaire"
+    - number: "1"
+      text: "chercheuse en thèse"
+equipe_postes:
+  title: "Postes créés en 2023 :"
+  postes:
+    - name: "Chargée de la formation"
+    - name: "Chargée de collecte et redistribution"
+    - name: "Coordinatrice des actions en Ile-de-France"
+    - name: "Responsable antenne Pays-de-la-Loire"
+    - name: "Chargée de projet football (alternance)"
+    - name: "Chargée de communication"
+    - name: "Chargée de partenariats publics et plaidoyer (alternance)"
+    - name: "Chargée de partenariats privés et donateur·ices (alternance)"
+zoom_renforcement:
+  title: "Zoom sur le renforcement du pôle sensibilisation"
+  text: "Cette année, parce que l’éducation menstruelle est au cœur de nos priorités, le pôle sensibilisation s’est renforcé à trois niveaux.
+  <br/><br/>
+  <b>Premier niveau : les actions jeunes.</b><br/>
+  En 2023, chez Règles Élémentaires, ce sont 4 nouvelles personnes qui sont intervenues au quotidien auprès de jeunes de 8 à 18 ans.
+  <br/><br/>
+  <b>Deuxième niveau : la formation.</b><br/>
+  S’il est important de répondre aux questions des jeunes et de leur permettre de se sentir plus à l’aise avec le sujet des règles, il est tout aussi important d’accompagner les adultes qui les entourent.
+  <br/><br/>
+  <b>Troisième niveau : la spécialisation.</b><br/>
+  En même temps que Règles Élémentaires demeure une association généraliste sur les règles et s’adressant au plus grand nombre, il est apparu essentiel de faire se rencontrer des expertises dans l’ensemble des champs où nous pouvons intervenir."
 ---

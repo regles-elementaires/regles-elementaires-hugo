@@ -5,7 +5,7 @@ layout: rapport_2022
 menu:
   main:
     parent: asso
-    weight: 4
+    weight: 5
 flowbite: true
 carousel: true
 subtitle: "Renverser les règles du jeu"
