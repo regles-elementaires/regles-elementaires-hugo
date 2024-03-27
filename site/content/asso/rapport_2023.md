@@ -33,7 +33,7 @@ tabs:
     id: equipe 
 intro:
   title: "Bienvenue sur notre rapport d'activité digital !"
-  text: "Nec piget dicere avide magis hanc insulam populum Romanum invasisse quam iuste. Ptolomaeo enim rege foederato nobis et socio ob aerarii nostri angustias iusso sine ulla culpa proscribi ideoque hausto veneno voluntaria morte deleto et tributaria facta est et velut hostiles eius exuviae classi inpositae in urbem advectae sunt per Catonem, nunc repetetur ordo gestorum."
+  text: "En 2023, nous avons poursuivi notre combat : faire que les règles ne soient plus jamais sources de discriminations. Par le biais de grandes collectes, de nouvelles enquêtes, de campagnes fédératrices, de sensibilisations et formations, nous avons contribué à faire entendre nos sujets et nous avons pu célébrer de belles victoires. Découvrez les moments marquants et nos chiffres clés de 2023 !"
 edito: "Depuis sa création, Règles Élémentaires s'engage résolument pour l'éradication de la précarité menstruelle. Notre voix a joué un rôle crucial dans la mise en lumière de cette réalité préoccupante, souvent occultée et profondément injuste. Le Rapport d’Activité de l’association révèle la concrétisation d’une multitude de projets portés en 2023, tous ancrés dans l'action concrète.
 <br/><br/>
 Aider & collecter,<br/>
