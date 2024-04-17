@@ -146,7 +146,7 @@ key_numbers:
     - number: "797"
       text: "personnes formées"
       img: "/img/page-rapport/3-personnes.png"
-partners_title: "Nos partenaires"
+partners_title: "Merci à nos partenaires"
 publics_title: "Financeurs publics"
 publics:
     - name: "Ville de Paris"
