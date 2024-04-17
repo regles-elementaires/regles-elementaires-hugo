@@ -99,7 +99,7 @@
                     
                     </div>
                 </div>
-                <h4 class="text-rered text-center text-lg md:text-xl my-8 font-unbounded font-bold">{{ .Params.key_numbers.title }}</h4>
+                <h4 class="text-rered text-center text-lg md:text-2xl my-12 font-unbounded font-bold">{{ .Params.key_numbers.title }}</h4>
                 <div class="flex flex-row flex-wrap text-white">                    
                     <div class="w-full md:w-1/2">
                         {{ range .Params.key_numbers.yellow }}
@@ -144,6 +144,57 @@
                         </div>
                         {{ end }}
                     </div>
+                    <div class="w-full text-rered mx-auto mt-14 py-6 md:py-12">                        
+                        <h4 class="text-rered text-center text-lg md:text-2xl mb-12 font-unbounded font-bold">{{ .Params.partners_title }}</h4>
+                        <h5 class="text-rered text-lg md:text-xl my-8 font-unbounded font-bold">{{ .Params.publics_title }}</h5>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.publics }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div>
+                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.privates_title }}</h5>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.privates }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div>
+                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.mecenat_title }}</h5>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.mecenat }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div>  
+                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.operationnels_title }}</h5>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.operationnels }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div>
+                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.evenementiels_title }}</h5>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.evenementiels }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div>   
+                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.produits_title }}</h5>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.produits }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div>                                                                           
+                    </div> 
                 </div>
             </div>
 
@@ -218,7 +269,7 @@
                     <h4 class="mt-8 font-semibold text-xl">{{ .Params.sensibilisation_etab.title }}</h4>
                     <div class="flex flex-row flex-wrap text-white mt-6">
                         {{ range .Params.sensibilisation_etab.numbers }}                            
-                            <div class="w-full md:w-1/4 md:h-56 flex justify-center items-center py-2 rounded-xl bg-repink px-6 md:px-8 py-4 md:py-0 h-full md:mr-4 mt-4 md:mt-0">
+                            <div class="w-full md:w-1/4 md:h-72 flex justify-center items-center py-2 rounded-xl bg-repink px-6 md:px-8 py-4 md:py-0 h-full md:mr-4 mt-4 md:mt-0">
                                 <div class="w-4/5 flex flex-col justify-center">
                                     <div class="text-4xl font-unbounded font-bold text-center">{{ .number }}</div>
                                     <div class="text-center">{{ .text }}</div>
@@ -283,6 +334,34 @@
                     {{ end }}
                     <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.relais.title }}</h4>
                     {{ range .Params.relais.numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.collectivites.title }}</h4>
+                    {{ range .Params.collectivites.numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.entreprises.title }}</h4>
+                    {{ range .Params.entreprises.numbers }}
                         <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
                             <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
                                 <div class="w-4/5 flex flex-col justify-center">
@@ -370,6 +449,10 @@
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
                     <h4 class="mt-8 font-semibold text-xl">{{ .Params.mobilisation.title }}</h4>
                     <p class="mt-4 mb-8">{{ .Params.mobilisation.text | markdownify }}</p>  
+                    <div class="flex flex-row flex-wrap">
+                        <img class="w-full md:w-5/12 md:mr-6" src="/img/page-rapport/benevole-2.jpg" alt="" aria-hidden="true"/>
+                        <img class="w-full mt-4 md:mt-0 md:w-5/12" src="/img/page-rapport/benevole-3.jpg" alt="" aria-hidden="true"/>
+                    </div>  
                 </div>
                 <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
                     <h4 class="mt-8 font-semibold text-xl">{{ .Params.ile_de_france.title }}</h4>
