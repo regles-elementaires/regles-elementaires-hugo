@@ -1,0 +1,16 @@
+<div class="bg-rered">
+    <div class="w-full md:w-10/12 mx-auto page-desc--red">
+      <div class="flex">
+        <div class="w-5/5 md:w-3/5 px-8 md:px-16 pt-6 pb-8 md:pb-12 text-white">
+          {{ partial "breadcrumb" . }}
+          <h1 class="text-2xl md:text-4xl mb-8 uppercase font-extrabold font-soulcraft">{{ .Title }}</h1>
+          <div class="md:text-lg mb-4">{{ .Params.intro.first }}</div>
+        </div>
+        {{ with .Params.illu }}
+        <div class="hidden md:flex w-2/5 pr-24 py-8">
+          <img src="{{ . }}" class="object-contain max-w-md" alt=""/>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>

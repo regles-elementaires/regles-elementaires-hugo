@@ -5,7 +5,7 @@ layout: list
 menu:
   main:
     parent: actions
-    weight: 4
+    weight: 5
 intro_title: Les actus de l'association
 button_text: Voir plus d'actus
 press:

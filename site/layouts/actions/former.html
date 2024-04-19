@@ -1,0 +1,87 @@
+{{ define "main" }}
+<div class="font-dm">
+    {{ partial "page-desc-former" . }}
+
+    <div class="bg-white">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
+            <div class="w-full hidden md:block md:w-1/2 mt-4 md:mt-0 md:pl-8">
+                <img src="{{ .Params.first_part.illu }}" alt="" aria-hidden="true" />        
+            </div>  
+            <div class="w-full md:w-1/2">
+                <p class="mt-4">{{ .Params.first_part.text | markdownify }}</p>
+                <p class="mt-4 font-semibold">{{ .Params.first_part.catchphrase | markdownify }}</p>
+                <img class="w-1/2" src="{{ .Params.first_part.formation_logo }}" alt="La formation by règles élémentaires" />
+            </div>                  
+        </div>
+    </div>
+
+    <div class="bg-white bg-carreau">
+        <h2 class="text-2xl md:text-4xl px-8 pt-8 uppercase font-extrabold font-soulcraft text-center text-rered">{{ .Params.objectifs_title }}</h2>
+        <div class="w-10/12 md:w-3/4 mx-auto text-white py-8 md:py-12 flex flex-wrap justify-between">            
+            {{ range .Params.objectifs }}
+                <div class="flip-card w-full md:w-1/6 h-72 mb-4 md:mb-0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front flex flex-col items-center rounded-xl">
+                            <img class="mt-8" src="{{ .img }}" alt="" aria-hidden="true">
+                            <h3 class="mt-8 text-xl font-semibold px-8">{{ .title }}</h3>
+                        </div>
+                        <div class="flip-card-back flex items-center rounded-xl">
+                            <p class="px-4 font-semibold">{{ .text }}</p>
+                        </div>
+                    </div>
+                </div> 
+            {{ end }}               
+        </div>
+    </div>
+
+    <div class="bg-repurple text-white">
+        <div class="w-10/12 md:w-3/4 mx-auto py-8 md:py-12 flex flex-col flex-wrap items-center">
+            <h2 class="text-2xl md:text-4xl px-8 pt-8 uppercase font-extrabold font-soulcraft text-center">{{ .Params.expertise_title }}</h2>                  
+            <p class="md:w-1/2 text-center mt-8">{{ .Params.expertise_text }}</p>
+            <div class="flex flex-wrap mt-12">
+                {{ range .Params.expertise_photos }}
+                    <img class="w-full md:w-1/3" src="{{ .link }}" alt="" aria-hidden="true">
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white text-rered">
+        <div class="w-10/12 md:w-3/4 mx-auto py-8 flex flex-col flex-wrap items-center">
+            <h2 class="text-2xl md:text-4xl mt-4 px-8 uppercase font-extrabold font-soulcraft text-center">{{ .Params.formations_title }}</h2>                  
+            <p class="md:w-1/2 text-center mt-8">{{ .Params.formations_text | markdownify }}</p>
+            <div class="flex flex-wrap mt-8">
+                {{ range .Params.formations }}
+                <div class="md:w-10/12 mx-auto bg-rered text-white flex px-8 pt-8 mb-4">
+                    <div class="w-1/3 hidden md:flex items-end">
+                        <img src="{{ .illu }}" alt="" aria-hidden="true">
+                    </div>
+                    <div class="w-full md:w-2/3 flex flex-col">
+                        <p class="md:w-5/6 mx-auto text-xl font-semibold mb-4 leading-5">{{ .title }}</p>
+                        {{ .list | markdownify }}
+                        <div class="md:w-5/6 mx-auto flex flex-wrap my-8 text-rered text-sm font-semibold">
+                            <a class="bg-white py-2 px-6 text-center rounded-full" href="{{ .program_btn_link }}" target="_blank">{{ .program_btn_text }}</a>
+                            <!--<a class="bg-white py-2 px-6 text-center rounded-full mt-2 md:mt-0 md:ml-2" href="{{ .plan_btn_text }}" target="_blank">{{ .plan_btn_text }}</a>-->
+                        </div>                        
+                    </div>
+                </div>                    
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white bg-carreau py-4">
+        <h2 class="w-3/4 md:w-1/2 mx-auto text-2xl md:text-4xl px-12 pt-8 uppercase font-extrabold font-soulcraft text-rered">{{ .Params.temoignage.title }}</h2>
+        <div class="w-3/4 md:w-1/2 mx-auto bg-white relative rounded-xl text-rered p-8 flex flex-col mb-8" style="border: 2px solid #FF8ACD">            
+            <img class="absolute" style="top: -50px; left: -50px" src="/img/page-actions/former-badge.svg" alt="" aria-hidden="true">
+            <p class="italic text-xl md:text-2xl font-medium">{{ .Params.temoignage.text }}</p>
+            <p class="mt-4">{{ .Params.temoignage.author }}</p>
+        </div>
+    </div>
+
+    <div>       
+        <img class="w-full" src="/img/page-actions/formation-footer.png" alt="" aria-hidden="true">
+    </div>
+
+</div>
+{{ end }}
