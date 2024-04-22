@@ -8,6 +8,7 @@ menu:
 illu: /img/page-actions/illu_former.svg
 intro:
   first: "En France, une personne menstruée sur quatre est en situation de précarité menstruelle. Face à ce constat alarmant, il est nécessaire d'agir et de se donner les outils pour mettre fin, collectivement, à la précarité menstruelle. Chaque personne doit pouvoir écouter, orienter les publics accompagnés et relayer de l’information menstruelle fiable."
+  update_date: "Dernière mise à jour de la page : 22 avril 2024"
 first_part:
   illu: /img/page-actions/former-protections.svg
   text: "Comment briser le tabou des règles et se sentir plus à l’aise pour en parler ? Comment orienter une personne en situation de précarité menstruelle vers des dispositifs pertinents ? Comment accompagner efficacement la mise en place d’un distributeur de protections au sein de sa structure ? Comment ne plus invisibiliser la santé menstruelle dans la vie quotidienne des personnes menstruées ?"
