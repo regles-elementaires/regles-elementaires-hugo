@@ -144,58 +144,63 @@
                         </div>
                         {{ end }}
                     </div>
-                    <div class="w-full text-rered mx-auto mt-14 py-6 md:py-12">                        
-                        <h4 class="text-rered text-center text-lg md:text-2xl mb-12 font-unbounded font-bold">{{ .Params.partners_title }}</h4>
-                        <h5 class="text-rered text-lg md:text-xl my-8 font-unbounded font-bold">{{ .Params.publics_title }}</h5>
-                        <div class="w-full flex flex-row flex-wrap">
-                            {{ range .Params.publics }}
-                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                            </div>                                
-                            {{ end }}
-                        </div>
-                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.privates_title }}</h5>
-                        <div class="w-full flex flex-row flex-wrap">
-                            {{ range .Params.privates }}
-                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                            </div>                                
-                            {{ end }}
-                        </div>
-                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.mecenat_title }}</h5>
-                        <div class="w-full flex flex-row flex-wrap">
-                            {{ range .Params.mecenat }}
-                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                            </div>                                
-                            {{ end }}
-                        </div>  
-                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.operationnels_title }}</h5>
-                        <div class="w-full flex flex-row flex-wrap">
-                            {{ range .Params.operationnels }}
-                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                            </div>                                
-                            {{ end }}
-                        </div>
-                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.evenementiels_title }}</h5>
-                        <div class="w-full flex flex-row flex-wrap">
-                            {{ range .Params.evenementiels }}
-                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                            </div>                                
-                            {{ end }}
-                        </div>   
-                        <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.produits_title }}</h5>
-                        <div class="w-full flex flex-row flex-wrap">
-                            {{ range .Params.produits }}
-                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                            </div>                                
-                            {{ end }}
-                        </div>                                                                           
-                    </div> 
                 </div>
+                <h4 class="text-rered text-center text-lg md:text-2xl my-12 font-unbounded font-bold">{{ .Params.video_title }}</h4>
+                <div class="flex justify-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hcsm0CIMewk?si=RUG9bURxYU6CrUBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>                
+                <div class="w-full text-rered mx-auto mt-4 py-6 md:py-12">                        
+                    <h4 class="text-rered text-center text-lg md:text-2xl mb-12 font-unbounded font-bold">{{ .Params.partners_title }}</h4>
+                    <h5 class="text-rered text-lg md:text-xl my-8 font-unbounded font-bold">{{ .Params.publics_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.publics }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.privates_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.privates }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.mecenat_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.mecenat }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>  
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.operationnels_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.operationnels }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.evenementiels_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.evenementiels }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>   
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.produits_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.produits }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>                                                                           
+                </div> 
+               
             </div>
 
             <!-- PRECARITE -->
@@ -291,7 +296,7 @@
                             <div class="w-full md:w-1/4 md:h-56 flex justify-center items-center py-2 rounded-xl bg-repink px-6 md:px-8 py-4 md:py-0 h-full md:mr-4 mt-4 md:mt-0">
                                 <div class="w-4/5 flex flex-col justify-center">
                                     <div class="text-4xl font-unbounded font-bold text-center">{{ .number }}</div>
-                                    <div class="text-center">{{ .text }}</div>
+                                    <div class="text-center">{{ .text | markdownify }}</div>
                                 </div>
                             </div>                            
                         {{ end }}      
