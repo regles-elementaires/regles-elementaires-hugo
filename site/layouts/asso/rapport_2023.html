@@ -1,0 +1,642 @@
+{{ define "main" }}
+<div class="font-dm">
+    <div class="bg-rered py-8">
+        <div class="w-full md:w-10/12 mx-auto page-desc--red">
+            <div class="flex font-unbounded">
+                <div class="w-full text-center px-8 md:px-16 py-8 md:py-16 text-white tracking-tighter">
+                    <!-- {{ partial "breadcrumb" . }} -->
+                    <h1 class="text-2xl md:text-4xl mb-4 font-bold">{{ .Title }}</h1>
+                    <!--<h2 class="text-2xl md:text-2xl font-light">{{ .Params.subtitle }}</h2>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-11/12 md:w-3/4 mx-auto tracking-tight mb-8">
+        <div id="mainTabContainer" class="p-4 md:p-0 my-4 md:my-8 rounded-xl">
+            <ul class="flex flex-col md:flex-row flex-wrap justify-between text-sm font-medium text-center" id="mainTab" data-tabs-toggle="#mainTabContent" role="tablist">
+                {{ range .Params.tabs }}
+                <li class="" role="presentation">
+                    <button class="text-center md:text-left font-semibold h-full p-2 md:p-4 border-b-2 border-transparent" id="{{ .id }}-tab" data-tabs-target="#{{ .id }}" type="button" role="tab" aria-controls="{{ .id }}" aria-selected="false">
+                        <span class="hidden md:inline-block">{{ .title | markdownify }}</span>
+                        <span class="inline-block md:hidden">{{ .title_mobile | markdownify }}</span>
+                    </button>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div id="mainTabContent">
+            <!-- EDITO -->
+            <div class="hidden p-4" id="edito" role="tabpanel" aria-labelledby="edito-tab">
+                <h3 class="text-rered text-center text-lg md:text-xl mb-4 font-unbounded font-bold">{{ .Params.intro.title }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/edito-cover-2023.png" alt="" aria-hidden="true"/>
+                <div class="flex flex-row flex-wrap text-rered mt-8">
+                    <div class="hidden md:flex w-1/6 flex-col justify-center items-center">
+                        <img class="w-3/4" src="/img/page-rapport/nadege-edito.png" alt="" aria-hidden="true"/>
+                        <p class="mt-4 text-center font-bold">{{ .Params.edito_author | markdownify }}</p>
+                    </div>
+                    <div class="w-full md:w-5/6 md:pl-4">
+                        <img class="w-3/4 md:w-1/2" src="/img/page-rapport/edito.png" alt="édito"/>
+                        <p class="w-full md:w-4/5 mt-8">{{ .Params.edito | markdownify }}</p>
+                        <p class="block md:hidden mt-4 text-center font-bold">{{ .Params.edito_author | markdownify }}</p>
+                    </div>
+                </div>
+                <div class="bg-rebeigera rounded-xl p-6 md:py-8 md:px-16 mt-8 md:mt-16">   
+                    <h4 class="text-rered text-center text-lg md:text-xl font-unbounded font-bold">{{ .Params.events_title }}</h4>            
+                    <div class="my-8 hidden md:block">
+                        <ul class="flex flex-wrap justify-between text-sm font-medium text-center bg-white rounded-full" id="eventsTab" data-tabs-toggle="#eventsTabContent" role="tablist">
+                            {{ range .Params.key_events }}
+                            <li class="mr-2" role="presentation" style="margin-bottom: -60px;">
+                                <button class="inline-block text-left h-full" id="{{ .month }}-tab" data-tabs-target="#{{ .month }}" type="button" role="tab" aria-controls="{{ .month }}" aria-selected="false">
+                                    <div class="goutte-img bg-no-repeat bg-top min-w-full w-10 h-10"></div>
+                                    <div class="month-title font-unbounded w-full text-center text-repurple font-bold uppercase">{{ .month | markdownify }}</div>
+                                </button>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <div id="eventsTabContent" class="hidden md:flex">
+                        {{ range .Params.key_events }}
+                        <div class="hidden p-4 rounded-xl w-full" id="{{ .month }}" role="tabpanel" aria-labelledby="{{ .month }}-tab">
+                            <div class="flex flex-row mt-4">
+                                <div class="w-3/5 flex justify-center">
+                                    {{ range .imgs }}
+                                    <div class="h-64 w-64 rounded-xl mx-4 bg-cover bg-center" style="background-image : url('{{ .src }}')"></div>
+                                    {{ end }}
+                                </div>
+                                <div class="w-2/5 flex flex-col text-rered justify-center">
+                                    {{ range .texts }}
+                                    <p class="my-2">{{ .content }}</p>
+                                    {{ end }}
+                                </div>
+                            </div>                            
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="flex md:hidden flex-row">
+
+                        <div id="prev-events" class="flex w-4 md:w-1/12 h-6 self-center justify-center">
+                            <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" alt="partenaire précédent"/>
+                        </div>
+                        
+                        <div id="carousel-events" class="flex w-10/12 carousel-redistributeurs m-auto pt-6">
+                        {{ range $event_index, $event_val := .Params.key_events }} 
+                            {{ range $img_index, $img_val := $event_val.imgs }}
+                            <div class="flex flex-col">
+                                <div class="month-title font-unbounded w-full text-center text-repurple font-bold uppercase mb-4">{{ $event_val.month | markdownify }}</div>
+                                <div class="h-64 w-full rounded-xl bg-cover bg-center" style="background-image : url('{{ $img_val.src }}')"></div>                            
+                                {{ $text := index $event_val.texts $img_index }}
+                                <p class="text-rered text-center mt-4">{{ $text.content }}</p>
+                            </div>   
+                            {{ end }}                                 
+                        {{ end }}                        
+                        </div>
+                    
+                        <div id="next-events" class="flex w-4 md:w-1/12 h-6 self-center justify-center">
+                            <img class="cursor-pointer" src="/img/page-redistribuer/fleche_slider.svg" alt="partenaire suivant" style="transform: scaleX(-1)"/>
+                        </div>
+                    
+                    </div>
+                </div>
+                <h4 class="text-rered text-center text-lg md:text-2xl my-12 font-unbounded font-bold">{{ .Params.key_numbers.title }}</h4>
+                <div class="flex flex-row flex-wrap text-white">                    
+                    <div class="w-full md:w-1/2">
+                        {{ range .Params.key_numbers.yellow }}
+                        <div class="md:h-48 py-2">
+                            <div class="flex flex-row justify-between rounded-xl bg-reorange px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ range .Params.key_numbers.purple }}
+                        <div class="md:h-48 py-2">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-24" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        {{ range .Params.key_numbers.pink }}
+                        <div class="md:h-36 py-2">
+                            <div class="flex flex-row justify-between rounded-xl bg-repink px-6 md:px-12 py-4 md:py-0 h-full md:ml-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <h4 class="text-rered text-center text-lg md:text-2xl my-12 font-unbounded font-bold">{{ .Params.video_title }}</h4>
+                <div class="flex justify-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hcsm0CIMewk?si=RUG9bURxYU6CrUBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>                
+                <div class="w-full text-rered mx-auto mt-4 py-6 md:py-12">                        
+                    <h4 class="text-rered text-center text-lg md:text-2xl mb-12 font-unbounded font-bold">{{ .Params.partners_title }}</h4>
+                    <h5 class="text-rered text-lg md:text-xl my-8 font-unbounded font-bold">{{ .Params.publics_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.publics }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.privates_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.privates }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.mecenat_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.mecenat }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>  
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.operationnels_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.operationnels }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.evenementiels_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.evenementiels }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>   
+                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.produits_title }}</h5>
+                    <div class="w-full flex flex-row flex-wrap">
+                        {{ range .Params.produits }}
+                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                        </div>                                
+                        {{ end }}
+                    </div>                                                                           
+                </div> 
+               
+            </div>
+
+            <!-- PRECARITE -->
+            <div class="hidden p-4 text-repurple" id="precarite" role="tabpanel" aria-labelledby="precarite-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.precarite_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.precarite_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/precarite-cover.png" alt="" aria-hidden="true"/>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.chiffre_augmentation.title }}</h4>
+                    <p class="mt-4">{{ .Params.chiffre_augmentation.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap pt-10 justify-center">
+                        <img class="w-full md:w-2/5 md:mr-6" src="/img/page-rapport/chiffre-augmentation.png" alt="" aria-hidden="true"/>
+                    </div>                    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.collecter_aider.title }}</h4>
+                    <p class="mt-4">{{ .Params.collecter_aider.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap pt-10">
+                        <img class="w-full md:mr-6" src="/img/page-rapport/collecter-aider.png" alt="" aria-hidden="true"/>
+                    </div>                    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl text-center">{{ .Params.repartition_dons.title }}</h4> 
+                    <div class="flex flex-row flex-wrap pt-10">
+                        <img class="w-full md:w-4/5" src="/img/page-rapport/repartition-dons.png" alt="Répartition des dons: collectes nationales: 1 870 410; dons fabricants: 1 147 800; collectes entreprises: 164 942; collectes citoyennes: 147 787; collectes collectivités: 60 857"/>
+                    </div>      
+                    <p class="mt-8">{{ .Params.repartition_dons.text | markdownify }}</p>         
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.sensibiliser_enrayer.title }}</h4>     
+                    <p class="mt-4">{{ .Params.sensibiliser_enrayer.text | markdownify }}</p>         
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.plaidoyer_alerter.title }}</h4>
+                    <div class="flex flex-row flex-wrap pt-10">
+                        <img class="w-full md:w-2/5 md:mr-6" src="/img/page-rapport/plaidoyer-alerter-1.png" alt="" aria-hidden="true"/>
+                        <img class="w-full mt-4 md:mt-0 md:w-2/5" src="/img/page-rapport/plaidoyer-alerter-2.png" alt="" aria-hidden="true"/>
+                    </div>           
+                    <p class="mt-4">{{ .Params.plaidoyer_alerter.text | markdownify }}</p>         
+                </div>
+                <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12">
+                    <div class="w-11/12 md:w-5/6 mx-auto">
+                        <h4 class="mb-8 font-semibold text-2xl">{{ .Params.revue_presse.title }}</h4>
+                        <div class="w-full flex flex-row flex-wrap">
+                            <img class="w-full md:w-1/3" src="/img/page-rapport/revue-presse-1.png" alt="article france info: quatre questions sur le remboursement des protections réutilisables pour les moins de 25 ans">
+                            <img class="w-full md:w-1/3" src="/img/page-rapport/revue-presse-2.png" alt="article ouest france: quelles seront les conditions pour bénéficier du remboursement des protections périodiques">
+                            <img class="w-full md:w-1/3" src="/img/page-rapport/revue-presse-3.png" alt="article le figaro: précarité menstruelle, près de 4 millions de femmes concernées en France">
+                        </div> 
+                    </div>                                                     
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14">
+                    <div class="flex flex-row flex-wrap pt-10 items-center">
+                        <img class="w-full md:w-3/5" src="/img/page-rapport/plaidoyer-alerter-3.png" alt="" aria-hidden="true"/>
+                        <p class="w-full md:w-2/5 md:pl-8 mt-4 md:mt-0 text-rered font-semibold">{{ .Params.plaidoyer_alerter.img_caption | markdownify }}</p>     
+                    </div>           
+                    <p class="mt-8">{{ .Params.plaidoyer_alerter.text_2 | markdownify }}</p>         
+                </div>
+                
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="hidden p-4 text-repurple" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.education_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.education_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/education-cover-2023.png" alt="" aria-hidden="true"/>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.besoin_informer.title }}</h4>
+                    <p class="mt-4">{{ .Params.besoin_informer.text | markdownify }}</p>
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.sensibilisation_etab.title }}</h4>
+                    <div class="flex flex-row flex-wrap text-white mt-6">
+                        {{ range .Params.sensibilisation_etab.numbers }}                            
+                            <div class="w-full md:w-1/4 md:h-72 flex justify-center items-center py-2 rounded-xl bg-repink px-6 md:px-8 py-4 md:py-0 h-full md:mr-4 mt-4 md:mt-0">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold text-center">{{ .number }}</div>
+                                    <div class="text-center">{{ .text }}</div>
+                                </div>
+                            </div>                            
+                        {{ end }}      
+                    </div>
+                    <p class="mt-4 mb-8">{{ .Params.sensibilisation_etab.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap">
+                        <img class="w-full md:w-1/2 md:mr-6" src="/img/page-rapport/atelier-1.jpg" alt="" aria-hidden="true"/>
+                        <img class="w-full mt-4 md:mt-0 md:w-1/4" src="/img/page-rapport/atelier-2.jpg" alt="" aria-hidden="true"/>
+                    </div>  
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.grande_campagne.title }}</h4>
+                    <p class="mt-4">{{ .Params.grande_campagne.text | markdownify }}</p> 
+                    <div class="flex flex-row flex-wrap text-white mt-4">
+                        {{ range .Params.grande_campagne.numbers }}                            
+                            <div class="w-full md:w-1/4 md:h-56 flex justify-center items-center py-2 rounded-xl bg-repink px-6 md:px-8 py-4 md:py-0 h-full md:mr-4 mt-4 md:mt-0">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold text-center">{{ .number }}</div>
+                                    <div class="text-center">{{ .text | markdownify }}</div>
+                                </div>
+                            </div>                            
+                        {{ end }}      
+                    </div>
+                    <img class="mt-8" src="/img/page-rapport/campagne-education.png" alt="pêle-mêle de photo et d'articles mentionnant notre campagne. France info titre 80% des jeunes filles ont leur règles avant 13 ans et sont malgré tout dépourvues d'information sur le sujet" />             
+                </div>
+                <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12 px-6">
+                    <div class="w-11/12 md:w-5/6 mx-auto flex flex-wrap">
+                        <div class="w-full md:w-1/2">{{ .Params.parlons_regles_text }}</div>
+                        <div class="w-full md:w-1/2 flex md:justify-end mt-4 md:mt-0">
+                            <div class="w-full md:w-4/5 bg-white rounded-xl p-6 md:p-12 flex items-center">
+                                <img src="/img/page-rapport/parlons-regles.png" alt="" aria-hidden="true">
+                            </div>                            
+                        </div> 
+                    </div>                                                     
+                </div>         
+            </div>
+
+            <!-- FORMATION -->
+            <div class="hidden p-4  text-repurple" id="formation" role="tabpanel" aria-labelledby="education-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.formation_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.formation_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/formation-cover.png" alt="" aria-hidden="true"/>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.formation_title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.formation_text | markdownify }}</p>
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.encadrants.title }}</h4>
+                    {{ range .Params.encadrants.numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.relais.title }}</h4>
+                    {{ range .Params.relais.numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.collectivites.title }}</h4>
+                    {{ range .Params.collectivites.numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                    <h4 class="mt-8 mb-4 font-semibold text-xl">{{ .Params.entreprises.title }}</h4>
+                    {{ range .Params.entreprises.numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                    <div class="flex flex-row flex-wrap my-8">
+                        <img class="w-full md:w-2/5 md:pr-3 mb-4 md:mb-0" src="/img/page-rapport/formation-1.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:w-2/5 md:pl-3" src="/img/page-rapport/formation-2.png" alt="" aria-hidden="true"/>
+                    </div>
+                    <div class="mt-4 mb-8">{{ .Params.formation_text_2 | markdownify }}</div>
+                    <div class="flex flex-wrap text-rered mt-8">
+                        {{ range .Params.cibles_formation }}
+                        <div class="w-full md:w-1/3 px-4 flex flex-col items-center">
+                            <img class="mt-3 md:mt-0 h-6" src="/img/page-rapport/arrow-formation.png" alt="" aria-hidden="true">
+                            <p class="text-center text-xl font-semibold my-3">{{ .title  | markdownify }}</p>
+                            <p class="text-center">{{ .text | markdownify }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.formation_entreprises.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.formation_entreprises.text | markdownify }}</p> 
+                    <div class="flex flex-row flex-wrap mb-8">
+                        <img class="w-full md:w-1/2 md:pr-3 mb-4 md:mb-0" src="/img/page-rapport/formation-3.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:w-1/2 md:pl-3" src="/img/page-rapport/formation-4.png" alt="" aria-hidden="true"/>
+                    </div>
+                </div>      
+                <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12">
+                    <div class="w-11/12 md:w-5/6 mx-auto">
+                        <h4 class="mb-8 font-semibold text-2xl">{{ .Params.formation_structures_title }}</h4>
+                        <div class="w-full flex flex-row flex-wrap">
+                            {{ range .Params.formation_structures }}
+                            <div class="w-1/2 md:w-1/5 flex items-center justify-center">
+                                <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
+                            </div>                                
+                            {{ end }}
+                        </div> 
+                    </div>                                                     
+                </div>              
+            </div>
+
+            <!-- CHANGER -->
+            <div class="hidden p-4  text-repurple" id="changer" role="tabpanel" aria-labelledby="changer-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.changer_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.changer_intro.text }}</p>
+                <img class="mt-8 rounded-xl" src="/img/page-rapport/changer-cover-2023.png" alt="" aria-hidden="true"/>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.remboursement.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.remboursement.text | markdownify }}</p> 
+                </div>                
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.decret.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.decret.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap mb-8">
+                        <img class="w-full md:w-2/5 md:pr-3 mb-4 md:mb-0" src="/img/page-rapport/compo-1.png" alt="" aria-hidden="true"/>
+                        <img class="w-full md:w-1/4 md:pl-3" src="/img/page-rapport/compo-2.png" alt="" aria-hidden="true"/>
+                    </div>    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.europe.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.europe.text | markdownify }}</p>
+                    <div class="flex flex-row flex-wrap mb-8">
+                        <img class="w-full md:w-3/5" src="/img/page-rapport/europe.png" alt="" aria-hidden="true"/>
+                    </div>    
+                </div>
+            </div>
+
+            <!-- DEPLOYER -->
+            <div class="hidden p-4  text-repurple" id="deployer" role="tabpanel" aria-labelledby="equipe-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.deployer_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.deployer_intro.text }}</p>
+                <img class="mt-8 rounded-xl" src="/img/page-rapport/deployer-cover.png" alt="" aria-hidden="true" />
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.plan.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.plan.text | markdownify }}</p>  
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.mobilisation.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.mobilisation.text | markdownify }}</p>  
+                    <div class="flex flex-row flex-wrap">
+                        <img class="w-full md:w-5/12 md:mr-6" src="/img/page-rapport/benevole-2.jpg" alt="" aria-hidden="true"/>
+                        <img class="w-full mt-4 md:mt-0 md:w-5/12" src="/img/page-rapport/benevole-3.jpg" alt="" aria-hidden="true"/>
+                    </div>  
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.ile_de_france.title }}</h4>
+                    <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12 px-6 mb-6">
+                        <div class="w-11/12 md:w-5/6 mx-auto">
+                            <p class="text-center font-semibold">"{{ .Params.ile_de_france.text | markdownify }}"</p>
+                            <div class="flex flex-row flex-wrap mt-8">
+                                <img class="w-full md:w-3/5 mb-4 md:mb-0" src="/img/page-rapport/idf.png" alt="" aria-hidden="true"/>
+                                <div class="w-full md:w-2/5 md:pl-8 font-unbounded text-center font-semibold flex flex-col justify-center">
+                                    <p class="text-repurple">{{ .Params.ile_de_france.caption_name }}</p>
+                                    <p class="text-rered">{{ .Params.ile_de_france.caption_role }}</p>
+                                </div>
+                            </div>    
+                        </div>                                                     
+                    </div> 
+                    {{ range .Params.idf_numbers }}
+                        <div class="w-full md:w-4/5 md:h-48 py-2 text-white">
+                            <div class="flex flex-row justify-between rounded-xl bg-repurple px-6 md:px-12 py-4 md:py-0 h-full md:mr-4">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold">{{ .number }}</div>
+                                    <div>{{ .text }}</div>
+                                </div>
+                                <div class="w1/5 flex flex-col justify-center">
+                                    <img class="w-16 md:w-20" src="{{ .img }}" alt="" aria-hidden="true"/>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.pays_de_la_loire.title }}</h4>
+                    <div class="w-full rounded-xl text-rered mx-auto mt-14 bg-rebeigera py-6 md:py-12 px-6 mb-6">
+                        <div class="w-11/12 md:w-5/6 mx-auto">
+                            <p class="text-center font-semibold">"{{ .Params.pays_de_la_loire.text | markdownify }}"</p>
+                            <div class="flex flex-row flex-wrap mt-8">
+                                <img class="w-full md:w-3/5 mb-4 md:mb-0" src="/img/page-rapport/pdl.png" alt="" aria-hidden="true"/>
+                                <div class="w-full md:w-2/5 md:pl-8 font-unbounded text-center font-semibold flex flex-col justify-center">
+                                    <p class="text-repurple">{{ .Params.pays_de_la_loire.caption_name }}</p>
+                                    <p class="text-rered">{{ .Params.pays_de_la_loire.caption_role }}</p>
+                                </div>
+                            </div>    
+                        </div>                                                     
+                    </div> 
+                </div>              
+
+            </div>
+
+            <!-- EQUIPE -->
+            <div class="hidden p-4  text-repurple" id="equipe" role="tabpanel" aria-labelledby="equipe-tab">
+                <h3 class="text-rered text-center text-xl md:text-2xl mb-4 font-unbounded font-bold">{{ .Params.equipe_intro.title | markdownify }}</h3>
+                <p class="w-full md:w-3/4 mx-auto text-rered text-center">{{ .Params.equipe_intro.text }}</p>
+                <img class="mt-8" src="/img/page-rapport/equipe-cover-2023.png" alt="" aria-hidden="true" />
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.equipe_numbers.title }}</h4>                
+                    <div class="flex flex-row flex-wrap text-white my-8 justify-between">
+                        {{ range .Params.equipe_numbers.numbers }}                            
+                            <div class="w-full md:w-1/6 md:h-40 flex justify-center items-center py-2 rounded-xl bg-rered px-6 py-4 md:py-0 h-full mt-4 md:mt-0">
+                                <div class="w-4/5 flex flex-col justify-center">
+                                    <div class="text-4xl font-unbounded font-bold text-center">{{ .number }}</div>
+                                    <div class="text-center">{{ .text }}</div>
+                                </div>
+                            </div>                            
+                        {{ end }}      
+                    </div>                  
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.equipe_postes.title }}</h4>
+                    <div class="flex flex-col mt-8 ml-4 md:ml-8">
+                        {{ range .Params.equipe_postes.postes }}                            
+                            <div class="flex flex-row items-center">
+                                <img class="h-3 mr-2" src="/img/page-rapport/small-red-arrow.png" alt="" aria-hidden="true">
+                                {{ .name }}
+                            </div>                       
+                        {{ end }}      
+                    </div>    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">Organigramme</h4>
+                    <div class="flex flex-row flex-wrap my-8 justify-center">
+                        <img class="w-full" src="/img/page-rapport/organigramme-2023.png" alt="Au sommet, le conseil d'administration, puis directement sous lui, la direction générale composée de 2 postes. 3 pôle sont transverses: le pôle RH avec 2 postes; le pôle tech avec 1 poste; puis 1 poste de responsable d'antenne. Enfin les 3 pôles au coeur de l'association sont: le pôle opération et développement avec 3 postes; le pôle communication et partenariats avec 4 postes; et le pôle sensibilisation et plaidoyer avec 8 postes." />
+                    </div>    
+                </div>
+                <div class="w-11/12 md:w-5/6 mx-auto border-t-2 mt-14 border-repurple">
+                    <h4 class="mt-8 font-semibold text-xl">{{ .Params.zoom_renforcement.title }}</h4>
+                    <p class="mt-4 mb-8">{{ .Params.zoom_renforcement.text | markdownify }}</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--<div class="bg-rebeige font-unbounded text-rered py-16">
+        <div class="w-10/12 mx-auto text-center underline">
+            <a target="_blank" href="https://doccollectes.blob.core.windows.net/statics/rapport_activité_2022_RE.pdf">{{ .Params.rapport.text }}<img class="inline h-4 ml-2" src="/img/page-rapport/download.png" alt="" aria-hidden="true"/></a>
+            <img class="mx-auto mt-8 w-10/12 md:w-1/3" src="/img/page-rapport/preview_ra.png" alt="" aria-hidden="true" />
+        </div>
+    </div>-->
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>        
+    $(document).ready(function(){
+        $('#carousel-events').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: $('#prev-events'),
+            nextArrow: $('#next-events')
+        });
+    });
+
+</script>                    
+
+<style>
+    #mainTabContainer {
+        background-color: #FCE0D2;
+    }
+    @media (min-width: 768px) { 
+        #mainTabContainer {
+            border-bottom : 1px solid rgba(101, 63, 146, 0.5);
+            background-color: transparent;
+            border-radius: 0px;
+        }
+    }
+
+    #mainTab li button[aria-selected="true"] {
+        color: #643F92;
+        border-bottom : 2px solid #643F92;
+    }
+
+    #mainTab li button[aria-selected="false"] {
+        color: rgba(101, 63, 146, 0.5);
+    }
+
+    #mainTab li button[aria-selected="false"]:hover {
+        color: rgba(101, 63, 146, 0.8);
+        border-bottom : 2px solid rgba(101, 63, 146, 0.8);
+    }    
+
+    #eventsTab {
+        box-shadow: inset 6px 6px 7px #D8D8D8;
+    }
+
+    #eventsTab li button[aria-selected="true"] {
+        padding-bottom: 1.5rem;
+    }
+
+    #eventsTab li button[aria-selected="false"] {
+        padding-bottom: 2rem;
+    }
+
+    #eventsTab li button[aria-selected="true"] .month-title {
+       display: inline-block;
+    }
+
+    #eventsTab li button[aria-selected="true"] .goutte-img {
+        background-image: url("/img/page-rapport/goutte-purple.png");
+    }
+
+    #eventsTab li button[aria-selected="false"] .month-title {
+        display: none;
+    }
+
+    #eventsTab li button[aria-selected="false"] .goutte-img {
+        background-image: url("/img/page-rapport/goutte-pink.png");
+    }
+
+    .slick-track {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+    .slick-track .slick-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+{{ end }}
