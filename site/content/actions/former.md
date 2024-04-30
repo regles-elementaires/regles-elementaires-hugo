@@ -63,6 +63,7 @@ formations:
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation entreprises et collectivités.pdf"
     plan_btn_text: "Déroulé pédagogique"
     plan_btn_link: ""
+cgv_button: "Conditions générales de vente"
 temoignage:
   title: "Témoignage"
   text: "La formation de Règles Élémentaires a permis non seulement de sensibiliser les managers au sujet des règles douleurses, mais aussi de libérer la paroles sur ce sujet. Elle a aidé de nombreuses femmes chez nous qui nous remercient régulièrement d’avoir organisé cette intervention."
