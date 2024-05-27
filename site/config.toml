@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "fr-fr"
 languageLang = "fr"
 title = "Règles Élémentaires"
+enableEmoji = true
 
 [params]
   display_popup_credit_menstruel = false
