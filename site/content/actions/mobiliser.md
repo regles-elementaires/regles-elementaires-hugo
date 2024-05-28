@@ -84,7 +84,7 @@ rapport:
   content: >
     Et pour avoir une vision de nos dernières actions, on vous propose de consulter notre dernier rapport d’activité !
   button:
-    link: "/asso/rapport"
+    link: "/asso/rapport_2022"
     text: Lire le rapport d'activité
   illu: /img/page-mobiliser/rapport_2022.png
 ---
