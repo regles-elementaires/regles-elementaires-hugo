@@ -64,6 +64,9 @@ formations:
     plan_btn_text: "Déroulé pédagogique"
     plan_btn_link: ""
 cgv_button: "Conditions générales de vente"
+qualiopi_text: "La certification qualité a été délivrée au titre de la catégorie d’action suivante :"
+qualiopi_action: "Actions de formation"
+qualiopi_number: "N° de déclaration d’activité : 11756889475"
 temoignage:
   title: "Témoignage"
   text: "La formation de Règles Élémentaires a permis non seulement de sensibiliser les managers au sujet des règles douleurses, mais aussi de libérer la paroles sur ce sujet. Elle a aidé de nombreuses femmes chez nous qui nous remercient régulièrement d’avoir organisé cette intervention."
