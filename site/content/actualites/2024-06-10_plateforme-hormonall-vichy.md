@@ -4,7 +4,7 @@ tags:
   - news
 date: 2024-06-10T08:46:24.845Z
 illu: img/hormonall.png
-intro: La santé hormonale étant intrinsèquement liée à la santé menstruelle, elle a un impact majeur sur la vie des personnes qui ont leurs règles…
+intro: Les changements hormonaux étant intrinsèquement liés à la santé menstruelle, ils ont un impact majeur sur la vie des personnes qui ont leurs règles…
 layout: single
 ---
 Le 28 mai dernier, les laboratoires Vichy ont annoncé le lancement de leur nouvelle cause : Hormonall. 
@@ -25,4 +25,8 @@ Puberté, cycles menstruels, grossesse, post-partum, ménopause :  les hormones 
 
 Cette collaboration s’inscrit donc dans un plaidoyer plus large visant à rendre visible les vécus hormonaux, les accompagner et #changerlesrègles durablement.
 
-Formez-vous sur la plateforme [Hormonall.com](https://www.hormonall.com/)
+Choisissez une étape et commencez votre formation de 15 minutes :
+* Puberté : [https://www.hormonall.com/fr/training/puberty](https://www.hormonall.com/fr/training/puberty)
+* Cycle menstruel : [https://www.hormonall.com/fr/training/periods](https://www.hormonall.com/fr/training/periods)
+* Post-partum : [https://www.hormonall.com/fr/training/post-partum](https://www.hormonall.com/fr/training/post-partum)
+* Ménopause : [https://www.hormonall.com/fr/training/menopause](https://www.hormonall.com/fr/training/menopause)
