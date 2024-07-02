@@ -4,7 +4,7 @@ tags:
   - news
 date: 2024-06-14T08:46:24.845Z
 illu: img/appel-mobilisation.png
-intro: Face au péril que représente l’arrivée potentielle de l’extrême droite au pouvoir, plus de 120 associations, dont le Règles Élémentaires, appellent à des manifestations et rassemblements #AlertesFéministes dans toute la France, le dimanche 23 juin.
+intro: "Face au péril que représente l’arrivée potentielle de l’extrême droite au pouvoir, plus de 120 associations, dont le Règles Élémentaires, appellent à des manifestations et rassemblements #AlertesFéministes dans toute la France, le dimanche 23 juin."
 L’objectif : défendre les droits des femmes et de toutes les minorités.
 layout: single
 ---
