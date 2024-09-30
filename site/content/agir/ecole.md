@@ -18,6 +18,8 @@ actions:
   - title: Changer les règles avec les élèves
     btn_link: https://doccollectes.blob.core.windows.net/statics/plaquette_ateliers_scolaires.pdf
     btn_text: Voir la brochure
+    btn_link2: mailto:partenariat@regleselementaires.com
+    btn_text2: Contactez-nous
     target_blank: true
     content: >
       <span class='font-bold'>Atelier “classique” (collège-lycée)</span>
@@ -26,6 +28,7 @@ actions:
     illu: /img/page-ecole/eleves.jpg
   - title: Former les adultes référents
     btn_link: ""
+    btn_link2: ""
     target_blank: true
     content: >
       Parfois, pour libérer la parole au sujet des règles et de la puberté, il suffit simplement que les adultes référents aient quelques connaissances sur le sujet. Afin de faciliter la mise en place d’un climat bienveillant pour les personnes qui ont leurs règles, nous proposons des temps de formation à destination des enseignant·es, des AED, des personnels administratif, et de toutes les personnes en contact quotidien avec les élèves.

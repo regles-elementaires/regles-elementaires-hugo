@@ -20,10 +20,17 @@
                     {{ partial "projet/big-title" (dict "title" .title "size" "2xl") }}
                     <div class="ml-2 text-rered markdown text-left tracking-tight font-medium my-4">{{.content | markdownify}}</div>
                     {{ if ne .btn_link ""}}
-                    <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="{{.btn_link}}" {{if isset . "target_blank"}}target="_blank" {{end}}}>
-                        {{.btn_text}}
-                    </a>
-                    {{end}}
+                    <div class="flex flex-wrap">
+                        <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8" href="{{.btn_link}}" {{if isset . "target_blank"}}target="_blank" {{end}}}>
+                            {{.btn_text}}
+                        </a>
+                        {{ if ne .btn_link2 ""}}
+                        <a class="bg-rered text-white uppercase py-2 px-6 text-center rounded-full mt-8 md:ml-4" href="{{.btn_link2}}" {{if isset . "target_blank"}}target="_blank" {{end}}}>
+                            {{.btn_text2}}
+                        </a>
+                        {{end}}
+                    </div>
+                    {{end}}                    
                 </div>
                 <div class="w-11/12 md:w-6/12 mx-auto mt-4 md:mt-0 flex items-end rounded-xl md:rounded-r-xl md:rounded-l-none bg-center bg-cover" style="min-height: 12rem; background-image: url({{.illu}})">
                 </div>
