@@ -17,11 +17,9 @@ numbers:
 actions:
     title: "Nos actions"
     collecter_title: "Collecter &<br/>Redistribuer"
-    collecter_text: "Mission première de Règles Élémentaires, nous permettons à tout un chacun d’organiser sa propre collecte de protections périodiques, nous assurons ensuite la redistribution via nos associations partenaires à travers tout le territoire français."
     sensibiliser_title: "Sensibiliser"
-    sensibiliser_text: "La sensibilisation est une mission essentielle et chère à notre association. Un de nos objectifs : briser le tabou des règles, et cela passe par la parole, l’éducation, l’information. Par le biais d’ateliers, d’événements, d’interventions, ou de création de contenus, nous mettons notre expertise au service de la sensibilisation."
+    former_title: "Former"
     mobiliser_title: "Mobiliser<br/>l'opinion publique"
-    mobiliser_text: "Pour changer les règles, il faut changer les mentalités et les lois ! À travers nos actions de plaidoyer et prises de paroles, nous contribuons à faire bouger les lignes pour plus d’égalité."
     button: En savoir plus
 agir:
     title: Agir avec nous

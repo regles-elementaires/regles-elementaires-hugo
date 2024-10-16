@@ -99,6 +99,21 @@
 
             <div class="w-full mx-auto bg-reorange rounded-xl flex flex-row flex-wrap mt-16">
                 <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
+                    {{ partial "projet/big-title-white" (dict "title" .Params.parlons.title "size" "2xl") }}
+                    <div class="ml-2 mt-4 text-white markdown tracking-tight font-medium">
+                        {{.Params.parlons.content | markdownify}}
+                    </div>
+                    <a class="ml-2 text-reorange uppercase py-1.5 px-4 text-center rounded-full mt-8 mb-4 text-sm" href="{{.Params.parlons.button.link}}" target="_blank" rel="noreferrer" style="background-color: rgb(255, 245, 230);">
+                        {{.Params.parlons.button.text}}
+                    </a>
+                </div>
+                <div class="w-full md:w-2/5 flex justify-center items-center pb-4">
+                    <img src="{{.Params.parlons.illu}}" alt="illu {{.Params.parlons.title}}" />
+                </div>
+            </div>
+
+            <div class="w-full mx-auto bg-reorange rounded-xl flex flex-row flex-wrap mt-16">
+                <div class="w-full md:w-3/5 flex flex-col items-start px-8 pt-8 pb-4 md:pt-12 md:pb-12">
                     {{ partial "projet/big-title-white" (dict "title" .Params.rapport.title "size" "2xl") }}
                     <div class="ml-2 mt-4 text-white markdown tracking-tight font-medium">
                         {{.Params.rapport.content | markdownify}}
@@ -112,83 +127,9 @@
                 </div>
             </div>
             
-            <div class="flex flex-col items-center mt-16">
-                <div class="w-full md:w-2/3 mx-auto bg-white py-4 md:py-6 px-2 md:px-4 rounded-xl">
-                    <h3 class="text-center text-rered md:text-lg font-medium tracking-tight mb-4">
-                        {{.Params.collectes.title}}
-                    </h3>
-                    <canvas id="myChart" width="400" height="200"></canvas>
-                </div>
-            </div>              
+                   
         </div>
     </div>
-    
-    <script>
-        const data = {
-            labels: [
-                "2015",
-                "2016",
-                "2017",
-                "2018",
-                "2019",
-                "2020",
-                "2021",
-                "2022",
-                "2023"
-            ],
-            datasets: [
-                {
-                    label: 'Nombre de protections collectées',
-                    data: [20000, 100000, 200000, 400000, 1500000, 3600000, 10000000, 15400000, 18900000],
-                    borderColor: "#e9364b",
-                    backgroundColor: "#FFE4DD",
-                    fill: "start",
-                    tension: 0.1
-                }
-            ]
-        };
 
-        var ctx = document.getElementById('myChart');
-        var myChart = new Chart(ctx, {
-            type: 'line',
-            data: data,
-            options: {
-                plugins: {
-                    filler: {
-                        propagate: false,
-                    },
-                    title: {
-                        display: false,
-                        text: "Produits d'hygiène intime collectés par Règles Élémentaires"
-                    },
-                    legend: {
-                        display: false,
-                    }
-                },
-                interaction: {
-                    intersect: false,
-                },
-                scales: {
-                    x: {
-                        ticks: {
-                            color: '#e9364b',
-                        },
-                        grid: {
-                            //display: false,
-                            //drawBorder: false
-                        }
-                    },
-                    y: {
-                        ticks: {
-                            color: '#e9364b'
-                        },
-                        grid: {
-                            //display: false
-                        }
-                    }
-                }
-            }
-        });
-    </script>
 </div>
 {{ end }}

@@ -46,44 +46,46 @@
                 {{ .Params.actions.title | markdownify }}    
             </h2>
             <div class="flex flex-row flex-wrap text-white mt-8 md:mt-16">
-                <div class="w-full md:w-1/3 flex flex-col items-center px-10">
+                <div class="w-full md:w-1/4 flex flex-col items-center px-10">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">
                         <img src="/img/page-home/collecter.svg" alt="" aria-hidden="true" />                    
                     </div>                    
                     <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.collecter_title | markdownify }}
-                    </h3>
-                    <p class="mt-6 text-sm md:text-base text-center tracking-tighter">
-                        {{ .Params.actions.collecter_text }}
-                    </p>      
+                    </h3>   
                     <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/collecter">
                         {{ .Params.actions.button }}
                     </a>               
                 </div>
-                <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
+                <div class="w-full md:w-1/4 flex flex-col items-center px-10 mt-8 md:mt-0">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">     
                         <img src="/img/page-home/sensibiliser.svg" alt="" aria-hidden="true" />               
                     </div>
                     <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.sensibiliser_title | markdownify }}
                     </h3>
-                    <p class="mt-6 text-sm md:text-base text-center tracking-tighter">
-                        {{ .Params.actions.sensibiliser_text }}
-                    </p>
                     <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/sensibiliser">
                         {{ .Params.actions.button }}
                     </a>
                 </div>
-                <div class="w-full md:w-1/3 flex flex-col items-center px-10 mt-8 md:mt-0">
+                <div class="w-full md:w-1/4 flex flex-col items-center px-10 mt-8 md:mt-0">
+                    <div class="w-40 h-40 bg-white rounded-full flex justify-center">     
+                        <img src="/img/page-home/former.svg" alt="" aria-hidden="true" />               
+                    </div>
+                    <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
+                        {{ .Params.actions.former_title | markdownify }}
+                    </h3>
+                    <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/former">
+                        {{ .Params.actions.button }}
+                    </a>
+                </div>
+                <div class="w-full md:w-1/4 flex flex-col items-center px-10 mt-8 md:mt-0">
                     <div class="w-40 h-40 bg-white rounded-full flex justify-center">  
                         <img src="/img/page-home/mobiliser.svg" alt="" aria-hidden="true" />                  
                     </div>
                     <h3 class="md:h-16 flex items-center mt-6 tracking-tight text-lg md:text-2xl text-center font-bold uppercase">
                         {{ .Params.actions.mobiliser_title | markdownify }}
                     </h3>
-                    <p class="mt-6 text-sm md:text-base text-center tracking-tighter">
-                        {{ .Params.actions.mobiliser_text }}
-                    </p>
                     <a class="mt-6 text-center tracking-tighter font-semibold border-b border-white pb-1" href="/actions/mobiliser">
                         {{ .Params.actions.button }}
                     </a>

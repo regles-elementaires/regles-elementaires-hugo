@@ -64,15 +64,20 @@ numbers:
     - number: "10 000"
       img: /img/page-mission/sensibilisation.svg
       desc: personnes sensibilisées lors de nos ateliers ou événements
-collectes:
-  title: "Protections périodiques collectées par Règles Élémentaires"
-action_button: "En savoir plus sur nos actions"
+parlons:
+  title: "Notre plateforme d’éducation menstruelle Parlons Règles"
+  content: >
+    C’est le site que nous avons lancé pour diffuser de l’information vérifiée au sujet des règles. Vous y retrouverez des vidéos, un tchatbot nommé Timi, un espace parents et un espace relais éduactifs.
+  button:
+    link: "https://www.parlonsregles.fr/"
+    text: Voir la plateforme
+  illu: /img/page-chiffres/parlons-regles.png
 rapport:
-  title: "Notre Rapport d’Activité 2022"
+  title: "Notre Rapport d’Activité 2023"
   content: >
     Et pour avoir des informations plus détaillées sur notre impact, on vous propose de consulter notre dernier rapport d’activité !
   button:
-    link: "/asso/rapport"
+    link: "/asso/rapport_2023"
     text: Lire le rapport d'activité
-  illu: /img/page-mobiliser/rapport_2022.png
+  illu: /img/page-chiffres/ra-2023.png
 ---
