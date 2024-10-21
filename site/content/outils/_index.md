@@ -10,6 +10,8 @@ informer:
     text: "L’information c’est le pouvoir ! Vous souhaitez parler de règles mais vous ne savez pas comment faire ? On vous met à disposition des notices et autres affiches et flyers dont vous pouvez vous servir, diffuser, utiliser. Parce que c’est toujours mieux de pouvoir vous appuyer d’outils !"
     illu:
     tools:
+        - title: Bibliographie sur les règles
+          link: https://doccollectes.blob.core.windows.net/outils/flyer-bibliographie.pdf
         - title: Le récap’ des protections périodiques existantes
           link: https://doccollectes.blob.core.windows.net/outils/recap_des_protections_periodiques.pdf
         - title: Notice transidentités
@@ -28,6 +30,10 @@ relayer:
     title: Relayer nos messages !
     text: "Chaque partage compte, alors n'hésitez pas à télécharger notre contenu pour le diffuser et porter notre message. Plus on entend parler de règles, plus on les visibilise et on les normalise. Vous pouvez par exemple réutiliser nos contenus sur vos réseaux sociaux, les diffuser en interne dans votre entreprise ou pourquoi pas imprimer des visuels pour décorer votre bureau !"
     tools:
+        - title: "Parlons Règles, la plateforme d'éducation menstruelle"
+          link: https://doccollectes.blob.core.windows.net/outils/affiches-parlons-regles.pdf
+          illu: img/page-outils/affiche-pr.png
+          alt: affiche parlons règles
         - title: "#Periodemoji, pour la création d’un emoji qui représente VRAIMENT les règles"
           link: https://doccollectes.blob.core.windows.net/outils/affiche-emoji.pdf
           illu: img/page-outils/affiche-1.png
@@ -40,9 +46,31 @@ relayer:
           link: https://doccollectes.blob.core.windows.net/outils/affiche-ticket.pdf
           illu: img/page-outils/affiche-3.png
           alt: affiche ticket de caisse
+        - title: Les missions de Règles Élémentaires
+          link: https://doccollectes.blob.core.windows.net/outils/flyer-A5-generaliste-RE-version-2024.pdf
+          illu: img/page-outils/missions-asso.png
+          alt: flyer missions règles élémentaires
 videos:
     title: Nos vidéos
     tools:
+        - title: J’ai mes règles, je fais du foot
+          link: https://www.youtube.com/watch?v=D_uYPiUrvrQ
+          illu: img/page-outils/miniature_video_foot.jpg
+        - title: Affiche ta compo
+          link: https://www.youtube.com/watch?v=sRD8V4wEDFY          
+          illu: img/page-outils/miniature_video_affichetacompo.jpg
+        - title: Portrait donatrice
+          link: https://www.youtube.com/watch?v=2G75LcoL9qA
+          illu: img/page-outils/miniature_video_portrait_donatrice.jpg
+        - title: Portrait bénévole
+          link: https://www.instagram.com/p/C8FGXvNiAle/
+          illu: img/page-outils/miniature_video_portrait_benevole.jpg
+        - title: Interview sur les règles hémorragiques
+          link: https://www.instagram.com/p/C6BxyCirfTa/
+          illu: img/page-outils/miniature_video_regles_hemorragiques.jpg
+        - title: Bien sûr que
+          link: https://www.instagram.com/p/C2h4DixiE4U/
+          illu: img/page-outils/miniature_video_bien_sur.jpg
         - title: L'émoji Règles
           link: https://youtu.be/_SQi_onv0f0
           illu: img/page-outils/miniature_video_emoji.jpg
@@ -69,7 +97,7 @@ videos:
           illu: img/page-outils/miniature_video_grand_meres.jpg
 visuels:
     title: Visuels pour les réseaux sociaux
-    text: "À partager à volonté ! Ces visuels sont adaptés au format carré Instagram. Sentez-vous libres de les reprendre pour diffuser notre message, ensemble on peut #changerlesrègles. Et si ce n’est pas fait, foncez nous suivre sur les réseaux sociaux : instagram, facebook, tiktok, twitter, linkedin"
+    text: "À partager à volonté ! Ces visuels sont adaptés au format carré Instagram. Sentez-vous libres de les reprendre pour diffuser notre message, ensemble on peut #changerlesrègles. Et si ce n’est pas fait, foncez nous suivre sur les réseaux sociaux : instagram, facebook, tiktok, linkedin"
     illu:
     tools:
         - title: Des journaux, du papier toilette… peuvent devenir des protections périodiques 
@@ -80,24 +108,14 @@ visuels:
           link: https://doccollectes.blob.core.windows.net/outils/les-animaux-qui-ont-leurs-regles.png
         - title: Parler de règles VS ne pas le faire
           link: https://doccollectes.blob.core.windows.net/outils/parler-de-regles-vs-ne-pas-le-faire.zip
-        - title: "Des chiffres et des règles : les règles sont taboues pour 1 Français·e sur 2" 
-          link: https://doccollectes.blob.core.windows.net/outils/les-regles-sont-taboues-pour-1-francais-sur-2.png
-        - title: "Des chiffres et des règles : 60% des jeunes n’ont reçu aucun enseignement sur les règles"
-          link: https://doccollectes.blob.core.windows.net/outils/60-pour-cent-n-ont-recu-aucun-enseignement.png
-        - title: "Des chiffres et des règles : pratiquement 100% des jeunes sont favorables à un enseignement menstruel"
-          link: https://doccollectes.blob.core.windows.net/outils/les-jeunes-sont-favorables-a-un-enseignement-menstruel.png
         - title: "Le bingo des règles"
           link: https://doccollectes.blob.core.windows.net/outils/bingo-des-regles.png
         - title: "Parler de règles avec ses enfants"
           link: https://doccollectes.blob.core.windows.net/outils/parler-des-regles-avec-enfants.zip
-        - title: La santé menstruelle, c’est quoi ?
-          link: https://doccollectes.blob.core.windows.net/outils/sante-menstruelle.png
         - title: Les protections périodiques sont des produits de première nécessité
           link: https://doccollectes.blob.core.windows.net/outils/les-protections-sont-des-produits-de-premiere-necessite.png
         - title: Le stress des règles à l’école
           link: https://doccollectes.blob.core.windows.net/outils/stress_regles_ecole.png
-        - title: Témoignage précarité menstruelle et situation de rue
-          link: https://doccollectes.blob.core.windows.net/outils/situation_de_rue.png
         - title: L’urgence concerne 4 millions de personnes
           link: https://doccollectes.blob.core.windows.net/outils/urgence.png
         - title: La précarité menstruelle, c'est quoi ?
@@ -107,14 +125,10 @@ visuels:
 etudes:
     title: Nos études
     tools:
-        - title: Baromètre 2021
-          link: https://doccollectes.blob.core.windows.net/statics/Barometre_2021_Regles_Elementaires_Opinion_Way.pdf
-          illu: img/page-outils/barometre-2021.png
-          alt: illustration baromètre 2021
-        - title: Baromètre 2022
-          link: https://doccollectes.blob.core.windows.net/statics/Barometre_2022_Regles_Elementaires_Opinion_Way.pdf
-          illu: img/page-outils/barometre-2022.png
-          alt: illustration baromètre 2022
+        - title: Règles et sport
+          link: https://doccollectes.blob.core.windows.net/statics/enquete_regles_et_sport.pdf
+          illu: img/page-outils/enquete-sport.png
+          alt: illustration règles et sport        
         - title: Enquête 8 mars 2023
           link: https://doccollectes.blob.core.windows.net/statics/enqu%C3%AAte%20pr%C3%A9carit%C3%A9%20menstruelle%202023.pdf
           illu: img/page-outils/enquete-2023.png
@@ -123,4 +137,12 @@ etudes:
           link: https://doccollectes.blob.core.windows.net/11-octobre/R%C3%A8gles%20%C3%A9l%C3%A9mentaires%20-%20Etude%20aupr%C3%A8s%20des%20filles%20%C3%A2g%C3%A9es%20de%2011-18%20ans.pptx.pdf
           illu: img/page-outils/barometre-2023.png
           alt: illustration baromètre 2023
+        - title: Baromètre 2022
+          link: https://doccollectes.blob.core.windows.net/statics/Barometre_2022_Regles_Elementaires_Opinion_Way.pdf
+          illu: img/page-outils/barometre-2022.png
+          alt: illustration baromètre 2022
+        - title: Baromètre 2021
+          link: https://doccollectes.blob.core.windows.net/statics/Barometre_2021_Regles_Elementaires_Opinion_Way.pdf
+          illu: img/page-outils/barometre-2021.png
+          alt: illustration baromètre 2021
 ---
