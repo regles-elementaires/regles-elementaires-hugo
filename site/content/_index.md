@@ -1,9 +1,8 @@
 ---
-title: "Lutte contre la précarité menstruelle"
+title: "Lutte contre la précarité menstruelle et le tabou des règles"
 carousel: true
 slogan: "#CHANGERLESRÈGLES"
-subtitle: "L’association française qui lutte contre la précarité menstruelle 
-et le tabou des règles"
+subtitle: "L’association française qui lutte contre la précarité menstruelle et le tabou des règles"
 numbers:
     first:
         number: "21 000 000"
