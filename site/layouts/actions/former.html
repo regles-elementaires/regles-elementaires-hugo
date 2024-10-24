@@ -60,8 +60,7 @@
                         <p class="md:w-5/6 mx-auto text-xl font-semibold mb-4 leading-5">{{ .title }}</p>
                         {{ .list | markdownify }}
                         <div class="md:w-5/6 mx-auto flex flex-wrap my-8 text-rered text-sm font-semibold">
-                            <a class="bg-white py-2 px-6 text-center rounded-full" href="{{ .program_btn_link }}" target="_blank">{{ .program_btn_text }}</a>
-                            <!--<a class="bg-white py-2 px-6 text-center rounded-full mt-2 md:mt-0 md:ml-2" href="{{ .plan_btn_text }}" target="_blank">{{ .plan_btn_text }}</a>-->
+                            <a class="bg-white py-2 px-6 text-center rounded-full" href="{{ .program_btn_link }}" target="_blank" rel="noreferrer">{{ .program_btn_text }}</a>
                         </div>                        
                     </div>
                 </div>                    

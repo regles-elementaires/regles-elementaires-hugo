@@ -8,7 +8,7 @@ menu:
 illu: /img/page-actions/illu_former.svg
 intro:
   first: "En France, une personne menstruée sur quatre est en situation de précarité menstruelle. Face à ce constat alarmant, il est nécessaire d'agir et de se donner les outils pour mettre fin, collectivement, à la précarité menstruelle. Chaque personne doit pouvoir écouter, orienter les publics accompagnés et relayer de l’information menstruelle fiable."
-  update_date: "Date de la dernière mise à jour : juin 2024"
+  update_date: "Date de la dernière mise à jour : octobre 2024"
 first_part:
   illu: /img/page-actions/former-protections.svg
   text: "Comment briser le tabou des règles et se sentir plus à l’aise pour en parler ? Comment orienter une personne en situation de précarité menstruelle vers des dispositifs pertinents ? Comment accompagner efficacement la mise en place d’un distributeur de protections au sein de sa structure ? Comment ne plus invisibiliser la santé menstruelle dans la vie quotidienne des personnes menstruées ?"
@@ -51,9 +51,7 @@ formations:
     illu: /img/page-actions/formation-lutter.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation relais médico-sociaux.pdf"
-    plan_btn_text: "Déroulé pédagogique"
-    plan_btn_link: ""
-  - title: "Changer les règles dans le milieu professionnel pour plus d’égalité au travail (disponible à partir de juin 2024) :"
+  - title: "Changer les règles dans le milieu professionnel pour plus d’égalité au travail :"
     list: "<ul class='md:w-5/6 mx-auto leading-5 md:pl-12 pl-4' style='list-style-type: disc;'>
     <li>Public : entreprises (salarié·es, managers, directeurices) et agent·es des collectivités territoriales</li>
     <li>Durée de la formation : 3h30</li>
@@ -61,8 +59,14 @@ formations:
     illu: /img/page-actions/formation-changer.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation entreprises et collectivités.pdf"
-    plan_btn_text: "Déroulé pédagogique"
-    plan_btn_link: ""
+  - title: "Changer les règles dès le plus jeune âge, la formation à destination des relais éducatifs :"
+    list: "<ul class='md:w-5/6 mx-auto leading-5 md:pl-12 pl-4' style='list-style-type: disc;'>
+    <li>Public : équipe pédagogique scolaire, professionnel·les de structures jeunesse, professionnel·les accompagnant des jeunes</li>
+    <li>Durée de la formation : journée entière (6 heures)</li>
+    </ul>"
+    illu: /img/page-actions/formation-relais.svg
+    program_btn_text: "Programme de la formation"
+    program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation relais éducatifs.pdf"
 cgv_button: "Conditions générales de vente"
 qualiopi_text: "La certification qualité a été délivrée au titre de la catégorie d’action suivante :"
 qualiopi_action: "Actions de formation"
