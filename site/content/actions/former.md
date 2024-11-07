@@ -40,7 +40,7 @@ expertise_photos:
 formations_title: "Nos formations"
 formations_text: "Règles Élémentaires anime des formations auprès de différent·es publics relais identifiés comme alliés pour lutter contre la précarité menstruelle et les tabous liés aux règles dans la société.
 <br/><br/>
-Formations qui peuvent avoir lieu en inter-associatif 
+Ces formations peuvent avoir lieu en inter-associatif 
 ou en intra au sein d’une même structure :"
 formations:
   - title: "Lutter contre la précarité menstruelle dans les structures médico-sociales : comprendre, prévenir, agir :"
@@ -67,6 +67,14 @@ formations:
     illu: /img/page-actions/formation-relais.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation relais éducatifs.pdf"
+  - title: "Lutter contre la précarité menstruelle dans les structures accueillant des personnes en situation de handicap :"
+    list: "<ul class='md:w-5/6 mx-auto leading-5 md:pl-12 pl-4' style='list-style-type: disc;'>
+    <li>Public : professionnel·les des structures sociales et médico-sociales, professionel·les de structures accompagnant des publics en situation de handicap, travailleurs sociaux et travailleuses sociales</li>
+    <li>Durée de la formation : journée entière (6 heures)</li>
+    </ul>"
+    illu: /img/page-actions/formation-handi.svg
+    program_btn_text: "Programme de la formation"
+    program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation regles et situations de handicap.pdf"
 cgv_button: "Conditions générales de vente"
 qualiopi_text: "La certification qualité a été délivrée au titre de la catégorie d’action suivante :"
 qualiopi_action: "Actions de formation"
