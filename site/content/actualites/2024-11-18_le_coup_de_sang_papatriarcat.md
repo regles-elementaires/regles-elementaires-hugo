@@ -21,6 +21,6 @@ Par exemple, **je me sens moins à l'aise quand il s'agit d'aborder des question
 <br/><br/>
 **J'aimerais que l'éducation à la santé menstruelle devienne plus systématique et inclusive**, et qu'elle soit abordée de manière égale avec les garçons et les filles dès le plus jeune âge. Ce serait un pas important vers une meilleure compréhension des réalités corporelles et une société plus égalitaire. Il est aussi crucial que les parents soient mieux formés et accompagnés sur ces sujets pour pouvoir en parler sans gêne à la maison.
 <br/><br/>
-**Je pense qu’une plateforme comme "Parlons règles" est essentielle** pour aider les parents à s'éduquer et à trouver des ressources fiables pour aborder ces sujets avec leurs enfants.
+**Je pense qu’une plateforme comme <a href="https://www.parlonsregles.fr/" target="_blank" rel="noreferrer">"Parlons règles"</a> est essentielle** pour aider les parents à s'éduquer et à trouver des ressources fiables pour aborder ces sujets avec leurs enfants.
  
 *Les propos exprimés sont ceux de leur auteur. Alors merci Cédric pour tes quelques mots. On vous invite à suivre son podcast "Papatriarcat" qui traite de ces sujets avec un accent sur la parentalité égalitaire et la lutte contre le patriarcat.*
