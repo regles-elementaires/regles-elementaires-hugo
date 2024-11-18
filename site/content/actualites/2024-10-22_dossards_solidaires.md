@@ -5,7 +5,6 @@ tags:
 date: 2024-10-22T08:46:24.845Z
 illu: img/dossards-solidaires.jpg
 intro: "Courir un semi-marathon c’est incroyable. Mais alors courir un semi-marathon tout en luttant contre la précarité menstruelle c’est FOU ! On vous propose de changer les règles à nos cotés le 9 mars prochain."
-L’objectif : défendre les droits des femmes et de toutes les minorités.
 layout: single
 ---
 C’est une grande première pour nous ! Règles Élémentaires fait partie des associations que vous pouvez soutenir au semi-marathon de Paris grace au dispositif des dossards solidaires.<br/>

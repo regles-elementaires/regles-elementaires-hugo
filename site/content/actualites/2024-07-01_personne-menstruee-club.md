@@ -5,7 +5,6 @@ tags:
 date: 2024-07-01T08:46:24.845Z
 illu: img/personne-menstruee-club.png
 intro: Bonjour, je m’appelle Marie, je fais du triathlon en loisir depuis 5 ans maintenant et pour moi la prise en compte des règles dans la pratique sportive est bien plus que nécessaire. Je le vois bien à mon simple titre qu’il a un vrai enjeu à en parler.
-L’objectif : défendre les droits des femmes et de toutes les minorités.
 layout: single
 ---
 Par exemple moi, je suis la seule personne menstruée dans mon club que j’ai rejoint il y a deux ans et je ressens bien que parfois certains entraînements sont compliqués, car ils tombent pendant une certaine partie de mon cycle et que je me retrouve fatiguée, anémiée.

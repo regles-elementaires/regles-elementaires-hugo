@@ -5,7 +5,6 @@ tags:
 date: 2024-10-15T08:46:24.845Z
 illu: img/parlons-regles.png
 intro: "Un projet sur lequel on travaille depuis des mois et que l’on peut enfin vous présenter : [parlonsregles.fr](https://www.parlonsregles.fr/)"
-L’objectif : défendre les droits des femmes et de toutes les minorités.
 layout: single
 ---
 Selon [notre enquête](https://educationmenstruelle.regleselementaires.com/) menée avec Opinionway en 2023, les premières règles surviennent de plus en plus tôt, mais les connaissances sur les règles, elles, arrivent toujours trop tard.
