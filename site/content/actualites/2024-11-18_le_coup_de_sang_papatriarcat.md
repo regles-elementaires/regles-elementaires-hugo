@@ -3,7 +3,7 @@ title: "En tant que père, j'ai le devoir de briser les tabous autour des règle
 tags:
   - coupdesang
 date: 2024-11-18T01:28:59.103Z
-illu: img/coup-de-sang-papatriarcat.jpg
+illu: img/coup-de-sang-papatriarcat.png
 intro: "Bonjour, je m’appelle Cédric Rostein, je suis podcaster, auteur et conférencier engagé sur les sujets de la parentalité et avant tout père de deux enfants."
 layout: single
 ---
