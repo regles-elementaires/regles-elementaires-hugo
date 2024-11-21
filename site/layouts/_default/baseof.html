@@ -30,6 +30,9 @@
       {{ if $.Site.Params.display_popup_cestpasduluxe }}
         {{ partial "popup-cestpasduluxe" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_decembre_2024 }}
+        {{ partial "popup-decembre-2024" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
