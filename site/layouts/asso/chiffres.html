@@ -7,6 +7,11 @@
             <h2 class="uppercase font-extrabold text-xl md:text-3xl mb-4 md:mb-8">{{ .Params.origine.title }}</h2>
             <p class="text-center">{{ .Params.origine.text_first }}</p>
             <p class="mt-2 text-center">{{ .Params.origine.text_second | markdownify }}</p>
+            <div class="my-6">
+                <a class="bg-rered inline-block text-white py-2 px-6 text-center rounded-full" href="https://doccollectes.blob.core.windows.net/statics/RE_ENGLISH_PRESENTATION.pdf" target="_blank">
+                    {{ .Params.english_button }}
+                </a>
+            </div>
         </div>
         <div class="w-full md:w-5/6 m-auto flex flex-col flex-wrap tracking-tight ">
             <div class="w-full flex flex-row flex-wrap">

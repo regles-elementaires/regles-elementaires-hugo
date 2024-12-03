@@ -14,6 +14,7 @@ origine:
   text_first: "Créée en 2015 par Tara Heuzé-Sarmini, Règles Élémentaires est la première association française de lutte contre la précarité menstruelle et le tabou des règles. 
   Notre mission : permettre à toutes les personnes de vivre leurs règles dans de bonnes conditions et faire qu’avoir ses règles ne soit plus un frein dans leur quotidien."
   text_second: "Pour cela, nous avons débuté par la collecte de protections périodiques pour les redistribuer aux personnes qui en ont besoin. Mais il fallait aller plus loin et combattre le tabou, c’est pourquoi nous avons développé des actions concrètes de sensibilisation avec des interventions dans les écoles pour donner de l’information là où elle est encore absente et pourtant nécessaire. Petit à petit, nous avons fait entrer les règles dans le débat public, que ce soit à travers des mobilisations politiques, des événements, des grandes campagnes de sensibilisation… Bref, nous agissons concrètement pour <b>#changerlesregles</b> !"
+english_button: "Who are we ? EN presentation"
 precarite:
   title: "La précarité menstruelle, c’est quoi ?"
   text: "C'est une situation vécue par toute personne qui éprouve des difficultés financières à disposer de suffisamment de protections périodiques pour se protéger correctement pendant ses règles."
