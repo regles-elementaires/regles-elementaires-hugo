@@ -78,8 +78,13 @@
         <h2 class="w-3/4 md:w-1/2 mx-auto text-2xl md:text-4xl px-12 pt-8 uppercase font-extrabold font-soulcraft text-rered">{{ .Params.temoignage.title }}</h2>
         <div class="w-3/4 md:w-1/2 mx-auto bg-white relative rounded-xl text-rered p-8 flex flex-col mb-8" style="border: 2px solid #FF8ACD">            
             <img class="absolute" style="top: -50px; left: -50px" src="/img/page-actions/former-badge.svg" alt="" aria-hidden="true">
-            <p class="italic text-xl md:text-2xl font-medium">{{ .Params.temoignage.text }}</p>
-            <p class="mt-4">{{ .Params.temoignage.author }}</p>
+            <p class="italic text-xl md:text-2xl font-medium">{{ .Params.temoignage.text_first }}</p>
+            <p class="mt-4">{{ .Params.temoignage.author_first }}</p>
+        </div>
+
+        <div class="w-3/4 md:w-1/2 mx-auto bg-white relative rounded-xl text-rered p-8 flex flex-col mb-8" style="border: 2px solid #FF8ACD">            
+            <p class="italic text-xl md:text-2xl font-medium">{{ .Params.temoignage.text_second }}</p>
+            <p class="mt-4">{{ .Params.temoignage.author_second }}</p>
         </div>
     </div>
 
