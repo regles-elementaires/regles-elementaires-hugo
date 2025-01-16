@@ -53,5 +53,12 @@
             <iframe aria-label="carte des collectes" class="w-full rounded-3xl" style="height: 30rem;" src="https://collectes.regleselementaires.com/map"></iframe>
         </div>
     </div>
+
+    <div class="my-12">
+        <div class="w-10/12 md:w-1/2 m-auto flex flex-col text-rered items-center">
+            <p class="text-center mt-4 tracking-tighter">{{ .Params.address_text | markdownify }}</p>
+            <p class="text-center my-4 tracking-tighter font-semibold">{{ .Params.address | markdownify }}</p>
+        </div>
+    </div>
 </div>
 {{ end }}
