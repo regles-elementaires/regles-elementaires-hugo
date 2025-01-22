@@ -89,7 +89,7 @@ qualiopi_action: "Actions de formation"
 qualiopi_number: "N° de déclaration d’activité : 11756889475"
 temoignage:
   title: "Témoignages"
-  text_first: "La formation de Règles Élémentaires a permis non seulement de sensibiliser les managers au sujet des règles douleurses, mais aussi de libérer la paroles sur ce sujet. Elle a aidé de nombreuses femmes chez nous qui nous remercient régulièrement d’avoir organisé cette intervention."
+  text_first: "La formation de Règles Élémentaires a permis non seulement de sensibiliser les managers au sujet des règles douloureuses, mais aussi de libérer la parole sur ce sujet. Elle a aidé de nombreuses femmes chez nous qui nous remercient régulièrement d’avoir organisé cette intervention."
   author_first: "Valérie Abou, Directrice adjointe RSE de Publicis Conseil"
   text_second: "Cette formation a été animée par une intervenante remarquable. Elle m’a permis de prendre conscience des inégalités auxquelles certaines femmes en situation de grande précarité peuvent être confrontées. C’est grâce à ces moments que nous pouvons prendre un peu de recul par rapport à notre quotidien et faire évoluer nos pratiques."
   author_second: "Intervenante sociale au sein d'un établissement d'Adoma"
