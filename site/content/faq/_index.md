@@ -15,9 +15,9 @@ categories:
         Sinon, vous pouvez également envoyer vos dons à l'adresse suivante :<br/><br/>
 
         Règles Élémentaires<br/>
-        Cité Audacieuse<br/>
-        9 rue de Vaugirard<br/>
-        75006 Paris" 
+        Plateau urbain - Bâtiment B<br/>
+        182 boulevard de la Villette<br/>
+        75019 Paris" 
       - id: donner-2
         question: Quels produits peuvent être déposés dans les points de collecte Règles Élémentaires ?
         answer: "Nous acceptons toutes les protections périodiques jetables et réutilisables, à condition qu’elles soient neuves (jamais utilisées). Serviettes, protège-slips, tampons, cups, culottes menstruelles … La liste complète des produits acceptés est <a href=\"agir/particulier/donner\">ici</a>. Nous voulons autant que possible donner à chaque femme dans le besoin le choix de ses protections."
@@ -26,9 +26,9 @@ categories:
         answer: "Tout à fait !  S’il n’y a pas de point de collecte <a href=\"agir/particulier/donner#carte\">recensé</a> autour de chez vous, vous pouvez nous faire parvenir vos dons via la voie postale à cette adresse :<br/><br/>
 
         Règles Élémentaires<br/>
-        Cité Audacieuse<br/>
-        9 rue de Vaugirard<br/>
-        75006 Paris<br/>"
+        Plateau urbain - Bâtiment B<br/>
+        182 boulevard de la Villette<br/>
+        75019 Paris<br/>"
       - id: donner-4
         question : Puis-je donner des protections périodiques si elles ne sont pas dans leur emballage d’origine ? 
         answer: "Nous acceptons toutes les protections périodiques jetables et réutilisables, à condition qu’elles soient neuves (jamais utilisées). Même s’ils ne sont pas dans leur emballage d’origine, nous les acceptons à condition qu’ils soient emballés individuellement."
