@@ -26,6 +26,12 @@ informer:
           link: https://doccollectes.blob.core.windows.net/outils/protections_gratuites.pdf
         - title: Les bons gestes d’hygiène menstruelle
           link: https://doccollectes.blob.core.windows.net/outils/bons_gestes_hygiène_menstruelle.pdf
+pr:
+  text: "Découvrez Parlons Règles, notre plateforme en ligne dédiée à l’éducation menstruelle !"
+  btn_text: "Je découvre"
+  btn_link: "https://www.parlonsregles.fr/"
+  img_link: "/img/page-actions/illu_pr.png"
+  img_alt: "Deux bulles avec des questions; la première : Les règles ça sort par le trou où l'on fait pipi ? La deuxième : On peut perdre un tampon dans son corps ?"
 relayer:
     title: Relayer nos messages !
     text: "Chaque partage compte, alors n'hésitez pas à télécharger notre contenu pour le diffuser et porter notre message. Plus on entend parler de règles, plus on les visibilise et on les normalise. Vous pouvez par exemple réutiliser nos contenus sur vos réseaux sociaux, les diffuser en interne dans votre entreprise ou pourquoi pas imprimer des visuels pour décorer votre bureau !"

@@ -18,6 +18,12 @@ actions:
       big: Près de 100% des 16-19 ans 
       small: sont favorables à un enseignement menstruel
     illu: /img/page-actions/ecole.jpg
+    second_block:
+      text: "Découvrez Parlons Règles, notre plateforme en ligne dédiée à l’éducation menstruelle !"
+      btn_text: "Je découvre"
+      btn_link: "https://www.parlonsregles.fr/"
+      img_link: "/img/page-actions/illu_pr.png"
+      img_alt: "Deux bulles avec des questions; la première : Les règles ça sort par le trou où l'on fait pipi ? La deuxième : On peut perdre un tampon dans son corps ?"
   - title: Auprès du grand public
     btn_link: ""
     btn_text: ""

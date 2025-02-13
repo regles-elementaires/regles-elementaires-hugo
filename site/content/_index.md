@@ -81,5 +81,7 @@ agenda:
     event_title: Évènements
 actus:
     title: Nos dernières actus
+pr:
+    title: "DÉCOUVRIR PARLONS RÈGLES,<br/>NOTRE PLATEFORME DIGITALE D’ÉDUCATION MENSTRUELLE"
 ---
 

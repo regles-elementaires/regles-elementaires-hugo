@@ -31,8 +31,10 @@ module.exports = {
         regrey: "#F5F5F5",
         rebeige: "#FFE4DD",
         reorange: "#FF9A00",
+        reyellowpr: "#ffb800",
         repurpletribune: "#841BCE",
         repurple: "#643F92",
+        relightpurple: "#9129ff",
         rebeigera: "#FCE0D2"
       }
     },

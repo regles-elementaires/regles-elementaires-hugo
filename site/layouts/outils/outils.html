@@ -4,7 +4,7 @@
         {{ partial "page-desc" . }}
     </div>
     <div class="bg-white">
-        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:pt-12 flex flex-wrap border-b border-rered">
+        <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:pt-12 flex flex-wrap">
             <div class="md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-6 md:p-8">
                 {{ partial "projet/big-title" (dict "title" .Params.informer.title "size" "2xl") }}
                 <p class="mt-4 mb-2 mx-4 md:mr-8 tracking-tighter font-medium">{{ .Params.informer.text | markdownify }}</p>
@@ -22,6 +22,21 @@
             </div>            
         </div>
     </div>
+    {{ with .Params.pr }}
+    <div class="w-10/12 md:w-3/4 mx-auto bg-relightpurple">
+        <div class="flex flex-wrap justify-center pt-4 rounded-xl">
+            <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
+                <h3 class="w-2/3 text-white text-center font-semibold">{{ .text }}</h3>
+                <a class="bg-reyellowpr font-semibold text-white py-2 px-10 text-center rounded-full md:mt-8 mt-4" href="{{.btn_link}}" target="_blank">
+                    {{.btn_text}}
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 flex items-center justify-center mt-4 md:mt-0 md:pr-4">
+                <img src="{{.img_link}}" alt="{{.img_alt}}" />
+            </div>
+        </div>
+    </div>
+    {{ end }}
     <div class="bg-white">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
             <div class="z-10 md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-6 md:p-8">
