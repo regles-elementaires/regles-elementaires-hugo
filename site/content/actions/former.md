@@ -75,7 +75,7 @@ formations:
     illu: /img/page-actions/formation-handi.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation regles et situations de handicap.pdf"
-  - title: "Lutte contre la précarité menstruelle en milieu pénitentiaire :"
+  - title: "Lutter contre la précarité menstruelle en milieu pénitentiaire :"
     list: "<ul class='md:w-5/6 mx-auto leading-5 md:pl-12 pl-4' style='list-style-type: disc;'>
     <li>Public :  Personnel pénitentiaire, intervenant·es en milieu carcéral, professionnel·les de santé, professionnel·les d’associations ou d’organismes accompagnant des personnes en situation de précarité, ainsi que travailleurs sociaux en lien avec le milieu pénitentiaire</li>
     <li>Durée de la formation : journée entière (6 heures)</li>
