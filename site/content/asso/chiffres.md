@@ -50,7 +50,7 @@ numbers:
   title: Notre impact
   content: "Depuis la création de l'association en novembre 2015 :" 
   cards:
-    - number: "+ de 21M"
+    - number: "+ de 24M"
       img: /img/page-mission/carte.svg
       desc: de protections collectées et redistribuées
     - number: "3 300 000"

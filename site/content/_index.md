@@ -5,7 +5,7 @@ slogan: "#CHANGERLESRÈGLES"
 subtitle: "L’association française qui lutte contre la précarité menstruelle et le tabou des règles"
 numbers:
     first:
-        number: "21 000 000"
+        number: "24 000 000"
         text: "Protections périodiques collectées et redistribuées depuis 2015"
     second:
         number: "10 000"
@@ -33,7 +33,7 @@ donations:
         - amount: 30€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=once&amount=3000
           icon_link: /img/page-home/goutte1.svg
-          text: Vous permettez la redistribution de protections pendant 1 mois à 60 femmes en situatio de précarité
+          text: Vous permettez la redistribution de produits périodiques pendant 1 mois à 80 personnes en situation de précarité
           btn_text: Je donne
         - amount: 75€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=once&amount=7500
