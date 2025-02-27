@@ -38,38 +38,38 @@ donations:
         - amount: 75€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=once&amount=7500
           icon_link: /img/page-home/goutte2.svg
-          text: Votre don permet de sortir de la précarité menstruelle une femme via la mise à disposition d’un kit de protections réutilisables
+          text: Vous permettez à 5 personnes de sortir de la précarité menstruelle via la distribution de kits de protections réutilisables
           btn_text: Je donne
         - amount: 150€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=once&amount=15000
           icon_link: /img/page-home/goutte3.svg
-          text: Grâce à votre don, 20 femmes en situation de précarité bénéficieront de protections périodiques pour un an
+          text: Vous permettez la redistribution de produits périodiques pendant 1 an à 200 personnes en situation de précarité
           btn_text: Je donne
         - amount: 300€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=once&amount=30000
           icon_link: /img/page-home/goutte4.svg
-          text: Vous financez 1 an de protections jetables pour 100 femmes en situation de précarité
+          text: Vous permettez à 15 personnes de sortir de la précarité menstruelle via la distribution de kits de protections réutilisables
           btn_text: Je donne
     regular:
         - amount: 10€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=regular&amount=1000
           icon_link: /img/page-home/goutte1.svg
-          text: Chaque année, votre don permettra à 200 femmes de bénéficier de protections périodiques pendant 1 mois
+          text: Vous permettez à 15 personnes de vivre leurs règles dignement tous les mois
           btn_text: Je donne
         - amount: 15€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=regular&amount=1500
           icon_link: /img/page-home/goutte2.svg
-          text: Chaque année, vous financez l’accès aux protections périodiques pour 36 femmes en situation de précarité
+          text: Vous permettez à 1 personne de sortir de la précarité menstruelle chaque mois grâce un kit de protections réutilisables
           btn_text: Je donne
         - amount: 20€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=regular&amount=2000
           icon_link: /img/page-home/goutte3.svg
-          text: Vous garantissez à 100 femmes de vivre leurs règles dignement pendant un an
+          text: Vous garantissez à 100 personnes de vivre leurs règles dignement pendant 1 an
           btn_text: Je donne
         - amount: 30€
           link: https://regleselementaires.don-en-ligne.com/precaritemenstruelle?cid=1&lang=fr_FR&frequency=regular&amount=3000
           icon_link: /img/page-home/goutte4.svg
-          text: Chaque année, grâce à vous, 15 femmes bénéficieront de protections réutilisables et sortiront de la précarité menstruelle
+          text: Vous permettez à 20 personnes de sortir de la précarité menstruelle chaque année via un kit de protections réutilisables
           btn_text: Je donne
 map:
     title: La carte des collectes
