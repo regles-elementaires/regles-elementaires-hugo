@@ -33,7 +33,7 @@ supermarket:
     alt: "Groupe de collectrices en supermarché"
   button:
     text: Je collecte en supermarché
-    link: "https://collectes.regleselementaires.com/collecte/create_supermarket"
+    link: "https://collectes.regleselementaires.com/collecte/create/supermarket"
 individual:
   title: La collecte individuelle
   place_text: "Lieu :"
