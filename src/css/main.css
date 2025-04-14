@@ -444,13 +444,7 @@ input::placeholder, textarea::placeholder {
   backface-visibility: hidden;
 }
 
-/* Style the front side */
-.flip-card-front {
-  background-color: #FF8ACD;
-}
-
 /* Style the back side */
 .flip-card-back {
-  background-color: #643F92;
   transform: rotateY(180deg);
 } 
