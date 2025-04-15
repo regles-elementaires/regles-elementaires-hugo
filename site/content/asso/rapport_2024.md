@@ -566,6 +566,43 @@ education:
         text: "régions dans lesquelles nous sommes intervenu·es"
         img : "img/page-rapport-2024/white-pin.svg"
     card_text: "La première formation à voir le jour “Lutter contre la précarité menstruelle dans les structures médico-sociales : comprendre, prévenir, agir“ vise à former les professionnel·les et bénévoles du social et du médico-social à la santé menstruelle et à l’accompagnement des bénéficiaires. Cette initiative fait partie d'un mouvement plus large des partenaires de Règles Élémentaires dans la lutte contre la précarité menstruelle, renforcé après la signature du Pacte des solidarités en 2020, qui a permis l'allocation de financements gouvernementaux aux associations. Les formations de Règles Élémentaires sont largement plébiscitées par ses stagiaires : 9 stagiaires sur 10 se sentent plus à l'aise pour parler des règles avec le public accompagné et 9 personnes sur 10 estiment que la formation permet de passer à l'action pour lutter contre la précarité menstruelle dans leur structure."
+partenaires:
+  intro:
+    title: "L’augmentation des besoins & nos relations avec les association partenaires"
+    text: "En 2024, Règles Élémentaires a renforcé son engagement auprès des structures médico-sociales pour lutter contre la précarité menstruelle et améliorer la santé menstruelle des bénéficiaires."
+  programme:
+    title: "Un programme national pour améliorer la santé menstruelle"
+    text: "Règles Élémentaires a été soutenu par la Direction Générale de la Cohésion Sociale (DGCS) pour mettre en place un programme national visant l’amélioration de la santé menstruelle des personnes accueillies dans une centaine de structures médico-sociales. Ce programme repose sur la sensibilisation et la formation des équipes ainsi que la distribution de protections périodiques jetables et réutilisables pour les bénéficiaires."
+  impact:
+    title: "Un impact grandissant et un renforcement de l’accompagnement des partenaires"
+    text: "Depuis 2015, le nombre d’associations bénéficiaires a considérablement augmenté, passant de 150 à plus de 1 400. En 2024, cette augmentation a été particulièrement marquée avec une hausse de 80 % par rapport à 2023, soit 408 nouveaux partenaires. De plus, le nombre de demandes de produits a connu une augmentation de 45 % par rapport à l’année précédente. En réponse à cette demande croissante, nous avons réalisé 604 redistributions de dons à 384 associations et structures médico-sociales. Face à cette augmentation, 2024 a marqué un tournant dans notre manière d’accompagner les associations partenaires. Grâce au développement de notre organisme de formation et à un suivi renforcé, nous avons pu transférer nos compétences aux structures en les formant, en les dotant d’outils concrets et en animant une communauté de professionnel·les engagés dans la lutte contre la précarité menstruelle."
+  sensibilisation:
+    title: "De la sensibilisation des publics à la formation des professionnel·les"
+    text: "Cette année, 19 formations ont été dispensées à plus de 250 personnes dans plusieurs régions (Auvergne Rhône-Alpes, Occitanie, Grand-Est, Pays de la Loire, Provence-Alpes-Côte d’Azur, Normandie, Champagne-Ardenne et Mayotte). Chaque participant·e a accès à un “Carnet de stagiaire” et à un espace en ligne contenant des ressources pratiques.Par ailleurs, 36 sessions de sensibilisation ont été menées auprès de professionnel·les et bénévoles, dont 6 spécifiquement dédiées aux bénéficiaires sous forme d’ateliers ou de cercles de parole. En partenariat avec la Croix-Rouge française, nous avons également formé la Chargée d'animation de Lutte contre la précarité menstruelle, sur une période de 6 mois en 4 étapes successives. En 2024, plus de 12 700 produits réutilisables ont été redistribués aux structures formées et sensibilisées. Nous conseillons aux structures de réaliser un diagnostic des besoins des bénéficiaires afin de leur fournir des kits adaptés (5 culottes menstruelles par personne)."
+  enquete:
+    title: "Une enquête pour mieux répondre aux besoins"
+    first_text: "En février 2024, une grande enquête a été lancée auprès de nos 1 094 partenaires afin de mieux cerner leurs actions, leurs besoins et les outils qu’ils attendent de Règles Élémentaires. 198 structures ont répondu, et 16 entretiens qualitatifs ont été menés."
+    numbers:
+      - number: "94 %"
+        text: "des structures ont des bénéficiaires en demande de protections périodiques"
+      - number: "64 %"
+        text: "des structures peuvent mettre des produits périodiques à disposition"
+      - number: "32 %"
+        text: "des structures peuvent mettre des produits périodiques à disposition"
+    second_text: "Les résultats ont également mis en avant un besoin fort d’outils spécifiques : boîtes de mise à disposition, affiches éducatives et livrets pédagogiques. Nous prévoyons de renouveler cette enquête chaque année pour adapter au mieux notre soutien."
+  plateforme:
+    title: "Une plateforme partenaire optimisée"
+    text: "Pour faciliter l’accès aux dons et formations, nous avons amélioré notre plateforme de partenariat :"
+    facts:
+      - number: "1"
+        text: "Simplification du formulaire d’inscription"
+      - number: "2"
+        text: "Création d’un onglet spécifique pour les demandes de formation"
+      - number: "3"
+        text: "Amélioration de l’outil de géolocalisation des partenaires"
+  deret:
+    title: "Un partenariat logistique renforcé avec Deret"
+    text: "Depuis 2020, notre partenariat avec le Groupe Deret nous permet de gérer efficacement la distribution des protections périodiques à grande échelle. En 2024, face à l’augmentation des formations et des dons de produits réutilisables, Deret a élargi son soutien en prenant en charge l’emballage et l’expédition de plus de 8 000 colis. Cette évolution a accéléré nos redistributions et optimisé notre logistique. Au total, en 2024, nous avons envoyé plus d’1,2 million de produits aux entrepôts Deret, dont près de 12 000 culottes menstruelles et 14 000 cups."
 formation_intro:
   title: "La formation des professionnel·les comme priorité"
   text: "En se formant, les professionnel·les peuvent aussi devenir les acteur·ices du changement en intégrant la lutte contre la précarité menstruelle dans leur accompagnement quotidien des personnes menstruées."
