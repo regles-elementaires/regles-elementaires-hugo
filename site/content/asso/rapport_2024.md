@@ -511,43 +511,61 @@ ancrage:
       more_text: "Pour ce faire, nous avons jugé pertinent de mettre les jeunes au centre de l’éducation menstruelle. En effet, outre l’interconnaissance et l'échange des bonnes pratiques, nous organisons des groupes de travail mixtes avec des jeunes de chacun des pays représentés. L’idée est ainsi de pouvoir être au plus près de leurs vrais besoins et de les faire contribuer à la construction d’une Europe où les règles ne sont plus un tabou ni une entrave 
       <br/><br/>
       Parallèlement, Règles Élémentaires a renforcé les actions européennes en prenant attache avec d’autres associations précurseuse sur le sujet, et en amorçant un plaidoyer européen pour que la précarité menstruelle, l’éducation menstruelle et la santé menstruelle soient vraiment prises en compte partout en Europe. En 2025, nous prévoyons de renforcer ce réseau et de développer de nouvelles actions pour penser concrètement une Europe règles-friendly dans laquelle chaque personne qui a ses règles peut faire entendre sa voix."
-education_intro:
-  title: "L'éducation menstruelle, un intérêt grandissant"
-  text: "Ces dernières années, l’éducation menstruelle est devenue notre cheval de bataille. Nous avons commencé par des sensibilisations dans quelques établissements scolaires. Désormais nous avons une équipe plus importante pour répondre à un maximum de demandes, nous produisons toujours plus de contenus adaptés, nous menons des campagnes de plaidoyer sur le sujet et nous avons de beaux projets pour 2024…"
-besoin_informer:
-  title: "Le besoin d’informations dès le plus jeune âge"
-  text: "Selon notre enquête publiée en octobre 2023 avec OpinionWay, pour 80&nbsp;% des jeunes filles interrogées, avoir ses règles à l’école est une source de stress. À tel point que 53&nbsp;% des jeunes filles de plus de 15 ans ont déjà manqué l’école à cause de leurs règles. Ce n’est pas acceptable. Les règles creusent un fossé entre les filles et les garçons et ce, dès le plus jeune âge. Pour lutter contre ces inégalités, il faut apporter de l’information dès le plus jeune âge, d’autant plus que 72&nbsp;% des filles ont leurs premières règles avant 13 ans."
-sensibilisation_etab:
-  title: "La sensibilisation dans les établissements"
-  text: "En 2023, notre association a poursuivi la mise en place d'ateliers de sensibilisation à la santé menstruelle en milieu scolaire, en collège et lycée. Ces ateliers de sensibilisation visent à prévenir la précarité menstruelle, à briser le tabou des règles et à accompagner les élèves dans la connaissance de leur propre corps, ainsi que du corps de l’autre, pour favoriser le mieux être et le vivre ensemble. 
-  <br/><br/>
-  Nous avons également poursuivi l'animation d'ateliers à destination des élèves du cycle 3, qui mêlent développement des compétences psychosociales et introduction à la puberté. Il nous semble en effet important de pouvoir inscrire notre démarche dans les programmes scolaires et les recommandations plus générales sur les programmes de vie affective et sexuelle et de prévention des risques sanitaires.
-  <br/><br/>
-  En 2024, nous souhaitons renforcer les dynamiques amorcées avec les jeunes, en co-créant encore plus de contenus, d'outils, et en développant plus de formation par les pairs. Et nous souhaitons également outiller les parents et les adultes relais au mieux pour accompagner les jeunes."
-  numbers:
-    - number: "130"
-      text: "classes sensibilisées (du CM2 à la Seconde, dont 54 classes de CM2)"
-    - number: "3800"
-      text: "jeunes sensibilisé·es en 2023 dans le cadre scolaire"
-    - number: "200"
-      text: "jeunes sensibilisé·es en 2023 hors cadre scolaire, en instituts médico-éducatifs ou foyers jeunes travailleurs"
-grande_campagne:
-  title: "Une grande campagne de sensibilisation"
-  text: "Le 11 octobre 2023 a marqué un tournant dans notre combat pour l’éducation menstruelle. En cette journée internationale pour les droits des filles, nous avons voulu alerter sur le fait que les règles sont encore sources de discriminations pour les jeunes filles dans leur parcours scolaire.
-  <br/><br/>
-  Méconnaissances, désinformation, précarité menstruelle, douleur, stress et humiliations affectent la santé physique et mentale des élèves, génèrent de l’absentéisme scolaire et freinent leur progression scolaire.
-  <br/><br/>
-  <a class=\"text-rered underline font-semibold\" href=\"https://educationmenstruelle.regleselementaires.com/\" target=\"_blank\">Consulter notre enquête</a>
-  <br/><br/>
-  Pour faire passer nos messages et alerter l’opinion publique, nous avons mené une campagne de sensibilisation avec l’appui de l’agence Service Plan. Nous avons fait parvenir des faux carnets de correspondance avec des tickets d’absence “menstruels” à la presse. Nous avons organisé une table ronde avec des acteur·ices de l’éducation pour réfléchir à l’éducation menstruelle de demain. Nous avons également mené une campagne d’affichage sur plus de 100 panneaux partout en France avec le soutien de Media Transports"
-  numbers:
-    - number: "33"
-      text: "retombées média"
-    - number: "100"
-      text: "panneaux d'affichages pour une valeur de 50&nbsp;000€"
-    - number: "1"
-      text: "évènement"  
-parlons_regles_text: "En 2023, ce sont près de 4000 jeunes qui ont été sensibilisé·es grâce à nos actions de sensibilisation. Afin de pouvoir donner accès à du contenu éducatif et bienveillant sur les règles au plus grand nombre de jeunes, on a également conceptualisé et conçu une plateforme, Parlons Règles, qui verra le jour fin 2024. Notre souhait est d’accompagner les plus jeunes, de 8 à 14 ans, en priorité mais aussi de pouvoir donner des outils aux personnes qui les accompagnent au quotidien : relais éducatifs, parents, animateur·ices, etc…"
+education:
+  intro:
+    title: "Transmettre, éduquer et diffuser"
+    text: "Règles Élémentaires s’engage à briser les tabous autour des menstruations et à lutter contre toutes les inégalités qui en découlent. Chaque année, nous renforçons notre action en développant de nouvelles initiatives pour répondre aux besoins identifiés sur le terrain. En 2023, nous avons mis en lumière le manque d’éducation menstruelle avec notre campagne du 11 octobre, révélant des chiffres alarmants sur l’absentéisme scolaire et la désinformation entourant les règles. En 2024, nous allons plus loin en proposant des solutions concrètes pour faire évoluer les mentalités et améliorer l’accès à une information fiable et inclusive."
+  parlons_regles:
+    title: "La naissance de Parlons Règles, notre plateforme digitale dédiée à l’éducation menstruelle"
+    first_text: "En octobre 2023, à l’occasion de la journée internationale pour les droits des filles, nous avions mené une campagne de sensibilisation, accompagnée par l’agence de communication ServicePlan, pour penser ce que serait une réelle éducation menstruelle. Le baromètre dédié, réalisé avec Opinionway,mettait en avant l'absentéisme scolaire des jeunes filles à cause de leurs règles, la prépondérance d’émotions anxiogènes telles que la peur ou l’angoisse à l’arrivée de leurs premières règles,, et, plus globalement, le manque d’information sur les règles. En 2024, à la même date et parce que nous estimons que les droits menstruels sont fondamentaux des droits des filles, nous avons souhaité proposer  une solution concrète pour combler le manque d’éducation menstruelle : la plateforme parlonsregles.fr.  Pour ce lancement, nous avons axé notre campagne de communication autour des fausses informations qui peuvent circuler sur les règles, et autour des questions et témoignages que nous avons pu recueillir sur le terrain afin de montrer l’importance d’une éducation menstruelle de qualité pour prévenir les inégalités dès le plus jeune âge."
+    second_text: "Depuis plusieurs années,  Règles Élémentaires agit aussi sur le terrain, ce qui nous a permis de constater les besoins spécifiques des publics avec qui nous travaillons, que ce soit dans des établissements scolaires, des associations qui accueillent des jeunes, ou des clubs sportifs. Parallèlement à ces actions, nous recevons quotidiennement des questions et des demandes de conseils sur les menstruations via nos réseaux.<br/>
+    Au manque crucial d’information sur le sujet des règles vient faire écho  un véritable besoin  d’en apprendre davantage, auquel nous tentons continuellement de répondre de manière innovante et efficace.
+    <br/><br/>
+    Notre réponse face à cela : créer un espace avec des ressources fiables et accessibles partout et pour tout le monde. C’est dans cette optique qu’a été créé Parlons Règles, notre plateforme de ressources en ligne avec trois volets :<br/> 
+    <ul style='list-style-type: disc;'>
+    <li>L'entrée “jeune“ destinée aux 8-14 ans, permet aux élèves de poser toutes les questions liées aux règles de manière anonyme via un chatbot nommé Timi et de visionner des vidéos pédagogiques (ex : “Les premières règles, ce qu'il faut savoir”, “Serviettes, tampons, culottes... Que choisir ?”, “Avoir ses règles en cours de sport, la galère ?”). La plateforme peut être utilisée en classe par les enseignants et enseignantes comme un moyen d’aborder le sujet, et constitue ensuite une ressource fiable sur laquelle revenir pour les élèves.</li>
+    <br/>
+    <li>L’entrée “parent” permet aux adultes référents de trouver des articles sur la thématique des règles et des conseils sur comment l’aborder avec leurs enfants.</li>
+    <br/>
+    <li>L'entrée “relais” permet à tout acteur ou actrice de la communauté éducative d'accéder à des contenus pédagogiques (ex :  “Les règles, un facteur d’inégalités entre les filles et les garçons”, EMC 6ème) et des articles (ex : “animer une heure de vie de classe autour des règles”. Tous ces contenus ont été co-construits avec des experts, des équipes pédagogiques et des élèves.</li>
+    </ul>"
+    numbers_title: "En moins de 3 mois"
+    numbers:
+      - number: "14 490"
+        text: "consultations de la plateforme"
+        img : "img/page-rapport-2024/ordinateur.svg"
+      - number: "7 646"
+        text: "messages envoyés à Timi"
+        img : "img/page-rapport-2024/timi.svg"
+      - number: "5 161"
+        text: "vues des vidéos éducatives"
+        img : "img/page-rapport-2024/video.svg"
+  formation:
+    title: "La création et l’expansion de notre organisme de formation"
+    first_text: "Face à l’identification croissante des besoins d’informations et d’outillage sur la précarité menstruelle, présente aussi chez les professionnel•les de tout bord,, Règles Élémentaires experte en précarité menstruelle, a développé des actions de formation afin de renforcer leurs compétences sur le sujet et leur permettre de monter des projets dans leurs structures pour agir concrètement et localement. En avril 2024, Règles Élémentaires est devenu un organisme de formation certifié Qualiopi pour ses actions de formation, attestant de la qualité de nos processus et de notre fonctionnement. La première formation à voir le jour “Lutter contre la précarité menstruelle dans les structures médico-sociales : comprendre, prévenir, agir“ est organisée au sein des structures sociales et médico-sociales qui souhaitent accompagner un projet de lutte contre la précarité menstruelle dans leur structure et/ou être mieux outillées pour prévenir la précarité menstruelle dans leur accompagnement quotidien du public menstrué accueilli. A l’issue de ces formations des produits périodiques réutilisables sont proposés aux bénéficiaires des structures, afin d'enclencher un premier pas vers la diminution de cette précarité."
+    second_text: "Au fil des mois, l’offre de formation s’est étoffée, avec l’apparition de quatre autres modules :<br/><br/>
+    <ul style='list-style-type: disc;'>
+    <li>“Lutter contre la précarité menstruelle dans les structures accueillant des personnes en situation de handicap”. Cette formation est organisée au sein des structures accompagnant des personnes en situation de handicap qui souhaitent mettre en place un projet autour des règles en prenant en compte la spécificité du public accompagné et/ou être mieux outillées pour répondre aux questions et prévenir la précarité menstruelle dans leur accompagnement quotidien du public menstrué accueilli.</li>
+    <br/>
+    <li>“Changer les règles dans le milieu professionnel pour plus d’égalité au travail”. Cette formation est organisée au sein des entreprises, des collectivités territoriales et des organisations professionnelles qui souhaitent lever le tabou des règles et prendre en compte la santé menstruelle pour plus d’égalité réelle dans le monde professionnel.</li>
+    <br/>
+    <li>“Changer les règles dès le plus jeune âge” à destination des relais éducatifs (équipe pédagogique scolaire, professionnel·les de structures jeunesse, professionnel·les accompagnant des jeunes), ayant pour objectif de les informer et de les outiller à parler des règles et à mettre en place des projets afin de prévenir la précarité menstruelle dans leur accompagnement quotidien des jeunes personnes menstruées accueilli.</li>
+    <br/>
+    <li>“Lutter contre la précarité menstruelle en milieu pénitentiaire”. Cette formation est organisée au sein des structures pénitentiaires et des structures partenaires du milieu pénitentiaire souhaitant se former aux enjeux de la santé menstruelle et de la précarité menstruelle dans leurs établissements.</li>
+    </ul>
+    <br/>
+    Les formations de Règles Élémentaires sont largement plébiscitées par ses stagiaires : 9 stagiaires sur 10 se sentent plus à l'aise pour parler des règles avec le public accompagné et 9 personnes sur 10 estiment que la formation permet de passer à l'action pour lutter contre la précarité menstruelle dans leur structure."
+    numbers:
+      - number: "49"
+        text: "formations"
+        img : "img/page-rapport-2024/tableau.svg"
+      - number: "644"
+        text: "stagiaires"
+        img : "img/page-rapport-2024/professionnel.svg"
+      - number: "9"
+        text: "régions dans lesquelles nous sommes intervenu·es"
+        img : "img/page-rapport-2024/white-pin.svg"
+    card_text: "La première formation à voir le jour “Lutter contre la précarité menstruelle dans les structures médico-sociales : comprendre, prévenir, agir“ vise à former les professionnel·les et bénévoles du social et du médico-social à la santé menstruelle et à l’accompagnement des bénéficiaires. Cette initiative fait partie d'un mouvement plus large des partenaires de Règles Élémentaires dans la lutte contre la précarité menstruelle, renforcé après la signature du Pacte des solidarités en 2020, qui a permis l'allocation de financements gouvernementaux aux associations. Les formations de Règles Élémentaires sont largement plébiscitées par ses stagiaires : 9 stagiaires sur 10 se sentent plus à l'aise pour parler des règles avec le public accompagné et 9 personnes sur 10 estiment que la formation permet de passer à l'action pour lutter contre la précarité menstruelle dans leur structure."
 formation_intro:
   title: "La formation des professionnel·les comme priorité"
   text: "En se formant, les professionnel·les peuvent aussi devenir les acteur·ices du changement en intégrant la lutte contre la précarité menstruelle dans leur accompagnement quotidien des personnes menstruées."
