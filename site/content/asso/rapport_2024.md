@@ -603,161 +603,51 @@ partenaires:
   deret:
     title: "Un partenariat logistique renforcé avec Deret"
     text: "Depuis 2020, notre partenariat avec le Groupe Deret nous permet de gérer efficacement la distribution des protections périodiques à grande échelle. En 2024, face à l’augmentation des formations et des dons de produits réutilisables, Deret a élargi son soutien en prenant en charge l’emballage et l’expédition de plus de 8 000 colis. Cette évolution a accéléré nos redistributions et optimisé notre logistique. Au total, en 2024, nous avons envoyé plus d’1,2 million de produits aux entrepôts Deret, dont près de 12 000 culottes menstruelles et 14 000 cups."
-formation_intro:
-  title: "La formation des professionnel·les comme priorité"
-  text: "En se formant, les professionnel·les peuvent aussi devenir les acteur·ices du changement en intégrant la lutte contre la précarité menstruelle dans leur accompagnement quotidien des personnes menstruées."
-encadrants:
-  title: "Sensibilisations des encadrant·es :"
-  numbers:
-    - number: "20"
-      text: "sensibilisations encadrant·es"
-      img: "/img/page-rapport/calendrier.png"
-    - number: "230"
-      text: "personnes sensibilisé·es"
-      img: "/img/page-rapport/3-personnes.png"
-relais:
-  title: "Total des formations à destination des relais :"
-  numbers:
-    - number: "18"
-      text: "journées de formation"
-      img: "/img/page-rapport/calendrier.png"
-    - number: "248"
-      text: "professionnel·les formé·es"
-      img: "/img/page-rapport/3-personnes.png"
-collectivites:
-  title: "Total des formations à destination des collectivités :"
-  numbers:
-    - number: "72"
-      text: "personnes formées"
-      img: "/img/page-rapport/3-personnes.png"
-entreprises:
-  title: "Total des formations à destination des entreprises :"
-  numbers:
-    - number: "234"
-      text: "personnes formées"
-      img: "/img/page-rapport/3-personnes.png"
-formation_title: "Les encadrant·es et les relais"
-formation_text: "Pour faire cesser définitivement la précarité menstruelle, il faut aussi que chaque personne au contact de ces publics puisse écouter, orienter et relayer de l’information menstruelle de qualité. Comment briser le tabou des règles et se sentir plus à l’aise pour en parler ? Comment orienter une personne en situation de précarité menstruelle vers des dispositifs pertinents ? Comment accompagner efficacement la mise en place d’un distributeur de protections au sein de sa structure ? Comment arrêter d'invisibiliser la santé menstruelle pourtant fondamentale dans la vie quotidienne des personnes menstruées ?"
-formation_text_2: "<p>Quels sont les objectifs de nos formations ?</p>
-<br/><br/>
-<ul style='list-style-type: disc; margin-top: -1.5rem; margin-left: 3rem;'>
-  <li>Questionner les représentations liées aux règles pour briser le tabou</li>
-  <li>Comprendre les conséquences sanitaires psychologiques et sociales liées à la précarité menstruelle</li>
-  <li>Pouvoir identifier les signaux d’une situation de précarité menstruelle</li>
-  <li>Savoir expliquer simplement la physiologie des règles au public accompagné</li>
-  <li>Disposer des informations pour accompagner le public dans l’utilisation des protections périodiques</li>
-  <li>Se sentir plus à l’aise et outillé·e pour parler de santé menstruelle et accueillir des témoignages de personnes menstruées</li>
-</ul>
-<br/>
-<p>En étant les premier·es à se positionner sur le volet de la formation professionnelle nous souhaitons valoriser notre expertise de terrain dans la sensibilisation à la santé menstruelle auprès des professionnel·les, des encadrant·es de structures médicosociales et des relais éducatifs.</p>"
-cibles_formation:
-  - title: "Professionnel·les du<br/>médico-social"
-    text: "Pour une évolution durable des mentalités, une diffusion des informations sur la santé menstruelle et le déploiement d’actions de terrain efficaces auprès des publics en situation de précarité menstruelle"
-  - title: "Relais<br/>éducatifs"
-    text: "Pour diffuser l’éducation menstruelle auprès des jeunes en complément de la sortie de notre  plateforme de sensibilisation “Parlons Règles”. Parler des règles dès le plus jeune âge pour promouvoir l’égalité et prévenir la précarité menstruelle"
-  - title: "Entreprises et<br/>collectivités"
-    text: "Pour changer les règles dans le milieu professionnel et enfin prendre en compte les vécus des personnes menstruées au travail"
-formation_entreprises:
-  title: "Les entreprises et collectivités"
-  text: "Aujourd'hui, environ 70&nbsp;% des personnes interrogées considèrent que les règles sont un sujet tabou en entreprise. Pourtant, les règles ont un impact réel sur le quotidien de millions de travailleur·euses. Plus de la moitié des salarié·es ont des règles douloureuses, et plus d'un tiers déclare qu'elles ont un impact négatif sur leur travail. Face à ces constats, Règles Élémentaires a souhaité renforcer et déployer plus largement ses actions dans le monde du travail. L’association a ainsi développé l’offre de sensibilisation auprès des entreprises et des collectivités afin de former le plus de personnes possible à ce sujet. Ainsi, l’association est intervenue dans plusieurs structures, aussi bien dans le secteur public que privé. L’équipe sensibilisation a également accompagné plusieurs organisations qui mettaient en place des mesures pour leurs collaborateur·rices, telles que le congé menstruel. C’est par exemple le cas de la ville de Bagnolet, où l’association a réalisé une dizaine de sessions de formation, à destination du personnel encadrant."
-formation_structures_title: "Les structures où l’on est intervenu·es :"
-formation_structures:
-  - name: "Bezons"
-    logo: "/img/page-rapport/logos/bezons.png"
-  - name: "Bagnolet"
-    logo: "/img/page-rapport/logos/bagnolet.png"
-  - name: "Rennes"
-    logo: "/img/page-rapport/logos/rennes.png"
-  - name: "Finances publiques"
-    logo: "/img/page-rapport/logos/finances.png"
-  - name: "Carrefour"
-    logo: "/img/page-rapport/logos/carrefour.png"
-  - name: "Leclerc"
-    logo: "/img/page-rapport/logos/leclerc.png"
-  - name: "Petit Navire"
-    logo: "/img/page-rapport/logos/petit-navire.png"
-  - name: "Dim"
-    logo: "/img/page-rapport/logos/dim.png"
-  - name: "Kisio"
-    logo: "/img/page-rapport/logos/kisio.png"
-  - name: "Disney"
-    logo: "/img/page-rapport/logos/disney.png"
-changer_intro:
-  title: "Faire bouger les lois pour changer les règles"
-  text: "Parmi nos nombreuses actions, le plaidoyer est au cœur de nos missions. Pour faire changer les règles, il faut faire changer les lois et inscrire la santé menstruelle dans l’agenda politique. Nous avons célébré pas mal de victoires en 2023 et enclenché des réflexions pour l’avenir."
-remboursement:
-  title: "Le remboursement des protections réutilisables"
-  text: "C’est l’annonce coup de poing qui a été faite par la Première ministre, Elisabeth Borne, le 8 mars à l’occasion de la journée internationale pour les droits des femmes. Une annonce qui faisait aussi suite à la publication de notre <a class=\"underline\"  href=\"https://doccollectes.blob.core.windows.net/statics/enqu%C3%AAte%20pr%C3%A9carit%C3%A9%20menstruelle%202023.pdf\" target=\"_blank\">baromètre avec Opinion Way</a> sur l’état de la précarité menstruelle en France. Nous avions mis en lumière que le chiffre avait doublé passant de 2 à 4 millions de femmes concernées.
-  <br/><br/>
-  Le projet a bien été inscrit dans <a class=\"underline\"  href=\"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048668665\" target=\"_blank\">loi de financement de la Sécurité sociale (LFSS) pour l’année 2024, du 26 décembre 2023</a>.
-  <br/><br/>
-  Son entrée en vigueur semble être prévue pour septembre 2024. Le Code de la Sécurité Sociale sera ainsi modifié pour inclure la couverture des frais relatifs aux protections réutilisables des personnes menstruées de moins de 26 ans ou assurées par la complémentaire santé solidaire (C2S). Cela concerne environ 6,7 millions de personnes.
-  <br/><br/>
-  La prise en charge sera à hauteur de 100&nbsp;% pour les bénéficiaires de la C2S. Elle sera à hauteur de 60&nbsp;% pour les personnes de moins de 26 ans, avec 40&nbsp;% restants qui devraient être pris en charge par les organismes complémentaires (mutuelles). Il faudra semble-t-il se rendre en pharmacie. La prise en charge des protections réutilisables sera subordonnée à leur inscription sur une liste prévue à cet effet (sur demande de l’exploitant du produit) effectuée par arrêté des ministres chargés de la santé et de la sécurité sociale selon une liste de critères, après avis de l’ANSES (critères spécifiques à la composition, à la qualité et aux modalités de distribution visant à assurer la non-toxicité des produits pour la santé et l’environnement), et selon des références tarifaires."
-decret:
-  title: "Le décret sur la transparence des protections périodiques"
-  text: "Depuis 2020, aux côtés du collectif Georgette Sand et de la Fondation des Femmes nous nous mobilisons pour plus de transparence sur la composition des protections menstruelles. En 2022, notre plaidoyer aboutit avec l’annonce par Olivier Véran, alors Ministre de la Santé, de la publication d’un décret visant plus de transparence sur la composition des protections. Les engagements qui avaient été pris à l’époque visaient une information exhaustive et lisible pour les consommatrices. Cependant, un an après, et à la suite de nombreux allers/retours avec les services de l’État, nous avons le regret de constater que la version finale du texte est aujourd’hui complètement vidée de sa substance.
-  <br/><br/>
-  <a class=\"text-rered underline font-semibold\" href=\"https://www.mesopinions.com/petition/sante/reglementation-encadrant-composition-protections-periodiques/207932/\" target=\"_blank\">Le plaidoyer complet est à retrouver ici</a>
-  <br/><br/>
-  Afin de mobiliser l’opinion publique sur ce sujet de santé publique, nous avons lancé une pétition baptisée #affichetacompo pour appeler le gouvernement à revoir ce texte et responsabiliser les fabricants sur la composition de leurs produits. Plus de 20 000 personnes ont signé la pétition. Nous avons également lancé une vidéo avec diverses personnalités publiques et expertes pour interpeller massivement sur notre sujet."
-europe:
-  title: "Changer les règles en Europe"
-  text: "Aujourd’hui, au sein de l’Union européenne, et plus globalement en Europe, on estime à 10&nbsp;% le nombre de personnes en situation de précarité menstruelle<sup>1</sup>. Pourtant, cette estimation est partielle, et les données manquent cruellement au niveau européen. Par ailleurs, les politiques publiques de lutte contre la précarité menstruelle en Europe sont extrêmement diverses.
-  <br/><br/>
-  En novembre 2023, Règles Élémentaires a participé à un atelier sur les mesures de plaidoyer pour lutter contre la précarité menstruelle et le tabou des règles en Macédoine du Nord, en présence de représentantes et de représentants d’associations des balkans occidentaux (Albanie, Kosovo, Monténégro), projet financé par les ambassades de France dans lesdits pays. En 2024, nous espérons poursuivre les dynamiques amorcées collectivement et renforcer les partenariats entre les pays européens dans la lutte contre la précarité menstruelle et le tabou des règles.
-  <br/><br/>
-  1. https://www.europarl.europa.eu/doceo/document/E-9-2020-006746_EN.html"
-deployer_intro:
-    title: "Déployer nos actions et s'ancrer localement"
-    text: "Pour agir au plus près des besoins du territoire, nous continuons de nous déployer dans des endroits identifiés comme prioritaires. En 2023, ce sont deux antennes salariées qui ont pu voir le jour et des centaines de bénévoles qui ont rejoint nos rangs pour changer les règles !"
-plan:
-  title: "Notre plan d’attaque"
-  text: "Règles Élémentaires a pu démontrer son expertise dans ses différentes activités, a pu faire la preuve de son concept, tant dans ses activités de collecte que de sensibilisation et de formation, ce qui ouvre la voie au déploiement de ses actions sur d'autres territoires et donc l’essaimage d’un futur modèle à construire. Pour cela, et après une phase de diagnostic territorial des opportunités, Règles Élémentaires a été accompagnée dans l'identification des besoins et la construction d'un schéma de déploiement par ScaleChanger.
-  <br/><br/>
-  Règles Elémentaires projette un modèle d’essaimage flexible et évolutif, modèle qui permettra de maximiser son impact, particulièrement dans la diffusion et prise en compte de ses sujets. La méthode consiste à s’implanter et expérimenter sur un territoire puis élargir le rayonnement pour impulser et accompagner des dynamiques et projets locaux.
-  <br/><br/>
-  L’expérimentation de ces nouvelles modalités d’implantation territoriale a commencé en 2023 avec la création de 2 antennes régionales salariées : l’Ile-de-France et les Pays de la Loire."
-mobilisation:
-  title: "La mobilisation bénévole pour faire rayonner nos actions"
-  text: "Depuis ses fondements, Règles Élémentaires s’appuie sur la mobilisation citoyenne pour la création de collectes sur tout le territoire métropolitain et sur un réseau de bénévoles qui font rayonner nos actions localement. Les actions de collecte et de redistribution de l’association se sont développées grâce à des bénévoles très engagé·es qui ont su nouer des partenariats et des liens avec des collectivités, des entreprises et des particulièr·es pour récolter des dons et avec des associations et structures médico-sociales locales pour les redistribuer.
-  <br/><br/>
-  En 2023, nous avons renforcé une démarche d’assouplissement et de diversification des modes d’engagement par de nouvelles modalités : collecte en supermarché, missions ad hoc de manutention et logistique, soutien à la communication, participation à des événements, ou par des actions de sensibilisation auprès du grand public. En 2023, nous avons travaillé sur la création d’un véritable parcours d’accueil et avons repensé nos temps de partage et d’échange avec les bénévoles afin que les nouveaux·elles bénévoles soient outillé·es et aient accès aux connaissances nécessaires pour se sentir pleinement valorisé·es au sein de l’association.
-  <br/><br/>
-  Comme dans toutes les structures qui comptent sur la mobilisation bénévole, Règles Élémentaires a vu quelques bénévoles partir vers de nouvelles aventures. Ainsi, les activités à Marseille ont un peu diminué, en guise de revanche, l’antenne Auvergne-Rhône-Alpes s’est étoffée avec 4 nouvelles arrivées, dont 3 pour faire rayonner Règles Élémentaires à Valence dans la Drôme.
-  <br/><br/>
-  2023 a également été l’année de l’activation effective et plus énergique des activités de l’association dans certains territoires des Outre-mer avec l’arrivée de 4 nouvelles personnes pour animer l’antenne mahoraise de l’association et la naissance progressive de l’antenne réunionnaise. Fin 2023, Règles Élémentaires compte des bénévoles “équipe coeur” engagé·es à Lyon, Valence, Orléans, Tours, Strasbourg, Paris, Mayotte et La Réunion.
-  <br/><br/>
-  Nous avons repensé les instances d’échange et partage proposées à nos bénévoles au national et avons investi plus de temps pour la création de canaux de partage et de mobilisation plus locaux. Ainsi, la création des antennes Pays de la Loire et Ile de France ont permis de proposer des missions adaptées aux besoins locaux et selon les actions les plus demandées par les bénévoles sur chacune de ces régions."
-ile_de_france: 
-  title: "La naissance de l’antenne Ile-de-France"
-  text: "L'antenne IDF a été créée après avoir constaté que Règles Élémentaires avait de très nombreuses actions en Ile-de-France mais que ces dernières n'étaient pas assez coordonnées dans un objectif d'ancrage territorial. C'est pourquoi j'ai pris le poste de Coordinatrice des actions en IDF en septembre 2023, pour représenter l'association sur le territoire et construire une approche plus cohérente.
-  <br/><br/>
-  Ainsi, mes premières missions ont été de re-mobiliser et animer notre pool de bénévoles; de renforcer les liens et l'accompagnement que l'on propose aux collectivités et structures médico-sociales, et d'initier des projets adaptés aux besoins et enjeux locaux."
-  caption_name: "Lucie Larrère,"
-  caption_role: "coordinatrice des actions en Île-de-France"
-idf_numbers: 
-  - number: "62"
-    text: "missions et 239 participations en tout"
-    img: "/img/page-rapport/fusee.png"
-  - number: "9"
-    text: "collectes organisées en propre (avec des bénévoles RÉ ou des entreprises) avec 78 personnes participantes"
-    img: "/img/page-rapport/protections.png"
-  - number: "10"
-    text: "évènements de sensibilisation (Paris, Val-de-Marne, Hauts-de-Seine et Seine-Saint-Denis) soit entre 500 et 1 000 personnes sensibilisées"
-    img: "/img/page-rapport/bulle-dialogue.png"
-  - number: "133"
-    text: "bénévoles mobilisé·es en IDF"
-    img: "/img/page-rapport/3-personnes.png"
-pays_de_la_loire: 
-  title: "La naissance de l’antenne Pays de la Loire"
-  text: "En parallèle, l’association s’est déployée en Pays de la Loire en octobre 2023, et je suis venue renforcer l’antenne bénévole existante. La région, identifiée prioritaire grâce à un diagnostic territorial préalable (opportunités, partenariats...), servira notamment de terrain d'essai pour nos projets opérationnels. Mes premiers objectifs :  créer un réseau local (partenaires, associations, collectivités, bénévoles) et favoriser le développement de partenariats en vue d'un rayonnement plus important à long terme !
-  <br/><br/>
-  Les premiers mois m’ont donc permis de créer des liens solides avec les acteur·ices locaux·ales pour s'intégrer rapidement dans le tissu social et associatif de la région. Au cours de cette période initiale, j’ai également pu tester la viabilité des projets opérationnels dans le contexte spécifique de la région Pays de la Loire. Les retours d'expérience m’ont permis d’effectuer des ajustements pour répondre aux besoins réels et spécifiques du territoire.
-  <br/><br/>
-  Grâce à cette expérience locale réussie, nous aspirons à étendre notre impact, tout en continuant de diffuser l’ensemble de nos actions avec nos partenaires, en mobilisant encore plus de bénévoles pour changer les règles localement et en permettant de faire exister les règles dans l’espace public."
-  caption_name: "Elena Gautier,"
-  caption_role: "responsable de l'antenne Pays de la Loire"
+changer:
+  intro:
+    title: "Changer les mentalités sur les règles"
+    text: "En 2024, Règles Élémentaires a poursuivi son engagement en renforçant sa présence digitale et en développant des campagnes de sensibilisation d’envergure. À travers une stratégie de communication dynamique et authentique, l’association a consolidé sa communauté sur les réseaux sociaux tout en attirant de nouvelles personnes autour de la lutte contre la précarité menstruelle et des enjeux de santé menstruelle."
+  communaute:
+    title: "Une communauté digitale engagée et en pleine expansion"
+    first_text: "En 2024, Règles Élémentaires a consolidé sa présence sur les réseaux sociaux en renforçant son lien avec sa communauté et en poursuivant une croissance 100 % organique. Avec plus de 36 400 abonné·es sur Instagram, la plateforme reste notre principal canal d’échange et de sensibilisation. Cette année, nous avons misé sur une communication plus proche et authentique, mettant en avant l’équipe, notre quotidien et nos missions pour créer un véritable sentiment d’appartenance. Cette approche a renforcé l’engagement de notre communauté, qui interagit activement avec nos publications, stories et qui commente ou encore nous envoie des messages privés régulièrement en réaction à nos contenus.
+    <br/><br/>
+    Nous continuons d’utiliser Instagram comme un véritable média d’information sur les règles, alternant entre contenus pédagogiques, légers et humoristiques, témoignages et actualités de l’association. Nous avons trouvé un bon équilibre qui nous permet de poursuivre notre croissance et de toucher de nouvelles personnes. Grâce à cette stratégie, on gagne des abonné·es et de la visibilité et surtout on parvient à fidéliser cette communauté grâce à tous les contenus différents déployés.
+    <br/><br/>
+    L’intégration des formats vidéo s’est révélée particulièrement performante, avec plus de 5 millions de vues cumulées sur l’année."
+    numbers:
+      - number: "245 publications"
+        img : "img/page-rapport-2024/publication.svg"
+      - number: "+ 6 000 abonné·es"
+        img : "img/page-rapport-2024/abonnes.svg"
+      - number: " +110 000 personnes"
+        img : "img/page-rapport-2024/3-personnes.svg"
+    second_text: "2024 a également marqué notre investissement stratégique sur TikTok, en lien avec le lancement de notre plateforme d’éducation menstruelle Parlons Règles en octobre. Pour atteindre un public plus jeune, nous avons développé des contenus adaptés aux spécificités de TikTok, en cohérence avec les contenus informatifs publiés sur Parlons Règles. Ce pari a porté ses fruits, avec plus de 251 848 vues sur nos publications TikTok, contribuant ainsi à diffuser encore plus largement des informations essentielles sur les règles."
+  campagnes:
+    title: "Les campagnes grand public pour sensibiliser des nouvelles personnes à grande échelle"
+    first_text: "Pousser des nouvelles thématiques, faire émerger des nouveaux sujets importants, est dans l’ADN de Règles Élémentaires depuis ses débuts. Alors même que le terme précarité menstruelle était très peu connu en 2015, Règles Élémentaires a réussi en quelques années à en faire un vrai sujet de santé publique.
+    <br/><br/>
+    Dès lors, nous poursuivons ce travail important, chaque année, grâce à des campagnes de communication et de sensibilisation qui nous permettent de mettre sur la table des nouvelles thématiques importantes et de pousser largement notre plaidoyer.
+    <br/><br/>
+    2024 a été marqué par les Jeux Olympiques et Paralympiques de Paris, et forcément on ne pouvait pas passer à côté de cette opportunité de mettre en lumière les règles et leurs répercussions sur la pratique sportive des jeunes filles. Grâce à notre partenaire, le Fondaction du football, nous avons pu mener une enquête auprès de 622 joueuses de football entre 11 et 18 ans et c’est à l’occasion du 28 mai, journée internationale de l’hygiène menstruelle que nous avons révélé ces nouveaux chiffres."
+    second_text: "L’équipe communication s’est rendue en amont de la campagne au club de football Lyon La Duchère pour accompagner l’équipe sensibilisation et pouvoir capter des images des sensibilisations, des entraînements mais aussi interviewer les coachs et les jeunes filles pour créer du contenu inédit."
+  dispositif:
+    title: "Le dispositif de la campagne :"
+    text: "Cette année, grâce à nos campagnes nous avons pu à la fois apporter des solutions, faire et émerger des nouvelles thématiques."
+    items:
+      - img: "/img/page-rapport-2024/landing.png"
+        text: "777 visiteurs sur la landing page de l’évènement"
+        link:
+          text: "Voir la landing"
+          url: "https://cartonrouge.regleselementaires.com/"
+      - img: "/img/page-rapport-2024/illu-clemence.png"
+        text: "3 illustrations réalisées en collaboration avec Clémence Gouy"
+      - img: "/img/page-rapport-2024/m6.png"
+        text: "11 relais médias dont un passage au 12/45 de M6"
+      - img: "/img/page-rapport-2024/lancement-regles-sport.png"
+        text: "Table ronde à la Cité Audacieuse, 40 personnes présentes et 5 intervenantes autour de la table"
+  revue:
+    title: "Focus sur la revue de presse : 107 publications médias"
+    link_text: "Notre revue de presse"
 equipe_intro:
   title: "Le renforcement de l'équipe"
   text: "2023 marque le passage d'un cap pour Règles Élémentaires. L’association grandit toujours plus, preuve que les besoins ne faiblissent pas et que nos actions restent nécessaires."
