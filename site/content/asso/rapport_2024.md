@@ -176,6 +176,7 @@ key_numbers:
     - number: "107"
       text: "parutions dans les médias"
       img: "/img/page-rapport-2024/journal.svg"
+carte_title: "Notre présence sur le territoire"
 partners_title: "Merci à nos partenaires"
 publics_title: "Financeurs publics"
 publics:
@@ -648,41 +649,62 @@ changer:
   revue:
     title: "Focus sur la revue de presse : 107 publications médias"
     link_text: "Notre revue de presse"
-equipe_intro:
-  title: "Le renforcement de l'équipe"
-  text: "2023 marque le passage d'un cap pour Règles Élémentaires. L’association grandit toujours plus, preuve que les besoins ne faiblissent pas et que nos actions restent nécessaires."
-equipe_numbers:
-  title: "L’équipe fin 2023, c’est..."
-  numbers:
-    - number: "15"
-      text: "salarié·es"
-    - number: "2"
-      text: "freelances"
-    - number: "4"
-      text: "alternantes"
-    - number: "1"
-      text: "stagiaire"
-equipe_postes:
-  title: "Postes créés en 2023 :"
-  postes:
-    - name: "Chargée de la formation"
-    - name: "Chargée de collecte et redistribution"
-    - name: "Coordinatrice des actions en Ile-de-France"
-    - name: "Responsable antenne Pays-de-la-Loire"
-    - name: "Chargée de projet football (alternance)"
-    - name: "Chargée de communication"
-    - name: "Chargée de partenariats publics et plaidoyer (alternance)"
-    - name: "Chargée de partenariats privés et donateur·ices (alternance)"
-zoom_renforcement:
-  title: "Zoom sur le renforcement du pôle sensibilisation"
-  text: "Cette année, parce que l’éducation menstruelle est au cœur de nos priorités, le pôle sensibilisation s’est renforcé à trois niveaux.
-  <br/><br/>
-  <b>Premier niveau : les actions jeunes.</b><br/>
-  En 2023, chez Règles Élémentaires, ce sont 4 nouvelles personnes qui sont intervenues au quotidien auprès de jeunes de 8 à 18 ans.
-  <br/><br/>
-  <b>Deuxième niveau : la formation.</b><br/>
-  S’il est important de répondre aux questions des jeunes et de leur permettre de se sentir plus à l’aise avec le sujet des règles, il est tout aussi important d’accompagner les adultes qui les entourent.
-  <br/><br/>
-  <b>Troisième niveau : la spécialisation.</b><br/>
-  En même temps que Règles Élémentaires demeure une association généraliste sur les règles et s’adressant au plus grand nombre, il est apparu essentiel de faire se rencontrer des expertises dans l’ensemble des champs où nous pouvons intervenir."
+equipe:
+  intro:
+    title: "Une équipe qui grandit comme ses projets"
+    text: "En 2024, Règles Élémentaires a connu une croissance significative de son équipe, avec 10 recrutements réalisés sur l’année, soit une augmentation de plus de 35% de l’effectif total. Cette expansion a permis non seulement de renforcer les pôles existants, mais aussi de structurer de nouveaux axes stratégiques, consolidant ainsi l’action de l’association à long terme."
+  recrutement:
+    title: "Recrutements réalisés en 2024"
+    text: "L’année s’est divisée en deux phases de recrutement :
+    <br/><br/>
+    <ul style='list-style-type:disc;'>
+    <li>Semestre 1 : 3 recrutements ont été effectués, notamment pour accompagner le développement de l’organisme de formation et des antennes territoriales :
+    <br/><br/>
+    <ul style='list-style-type:disc; padding-left:2rem; font-weight:600; font-style:italic; color:#F08FBA'>
+    <li>1 CDD temps plein de formatrice, dont le poste sera pérennisé en CDI en 2025.</li>
+    <li>1 CDD temps plein d’assistante de formation, qui sera également pérennisé en CDI en 2025.</li>
+    <li>1 CDD 28h de Responsable d’antenne territoriale en Centre-Val de Loire (CVL).</li>
+    </ul>
+    </li>
+    <br/><br/>
+    <li>Semestre 2 : 7 recrutements ont été menés pour accompagner l’expansion de l’association, notamment sur les pôles Éducation & Formation et Mobilisation bénévole :
+    <br/><br/>
+    <ul style='list-style-type:disc; padding-left:2rem; font-weight:600; font-style:italic; color:#F08FBA'>
+    <li>1 CDI temps plein de Directrice Éducation et Formation, marquant une étape clé dans la structuration de ce pôle.</li>
+    <li>1 CDD temps plein de Chargée de mobilisation bénévole dans le cadre du projet FSE+.</li>
+    <li>1 CDD de 6 mois d’animatrice d’Éducation menstruelle, pour soutenir les actions de sensibilisation.</li>
+    </ul>
+    </li>
+    </ul>
+    <br/><br/>
+    4 nouveaux postes d’alternance, dont trois sur deux ans, pour soutenir les projets européens, le programme “Règles & Sport” et le développement des partenariats privés."
+  perennisation:
+    title: "Pérennisation des postes et renforcement de l’équipe"
+    text: "L’année 2024 a également été marquée par une stabilisation des effectifs, avec 5 postes pérennisés en CDI issus d’anciens contrats à durée déterminée :
+    <ul style='list-style-type:disc;'>
+    <br/><br/>
+    <li>Semestre 1 :
+    <ul style='list-style-type:disc; padding-left:2rem; font-weight:600; font-style:italic; color:#F08FBA'>
+    <li>Pérennisation d’un CDD d’animation/sensibilisation en CDI de Chargée d’Éducation menstruelle.</li>
+    </ul>
+    </li>
+    <br/><br/>
+    <li>Semestre 2 :
+    <ul style='list-style-type:disc; padding-left:2rem; font-weight:600; font-style:italic; color:#F08FBA'>
+    <li>Pérennisation en CDI des postes de Responsable d’antenne Île-de-France, Chargée de lutte contre la précarité menstruelle au sein du pôle Opérations, Chargée de Communication, et Chargé·e d’Éducation menstruelle en charge du projet “Règles et inclusion”.</li>
+    </ul>
+    </li>
+    </ul>"
+  structuration:
+    title: "Structuration et diversification des projets"
+    text: "Cette croissance s’est accompagnée de la consolidation de nouveaux axes stratégiques, avec la mise en place de :
+    <ul style='list-style-type:disc;'>
+    <br/>
+    <li>L’organisme de formation (OF), pour renforcer la montée en compétences des professionnel·les et bénévoles.</li>
+    <li>Trois antennes territoriales : Centre-Val de Loire (CVL), Provence-Alpes-Côte d’Azur (PACA) et Île-de-France (IDF).</li>
+    <li>Des projets européens soutenus par FSE+ et Erasmus+, favorisant une dimension internationale dans la lutte contre la précarité menstruelle.</li>
+    <li>Deux nouveaux projets phares : “Règles & Sport”, pour sensibiliser à l’impact des règles sur la pratique sportive, et “Règles & Inclusion”, pour renforcer l’accessibilité des dispositifs aux publics les plus vulnérables.</li>
+    </ul>
+    <br/>
+    Grâce à cette structuration, 55% des postes au sein de l’association sont désormais en CDI, garantissant une meilleure stabilité et une pérennisation de nos actions sur le long terme."
 ---
