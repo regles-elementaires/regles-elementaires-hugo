@@ -31,15 +31,11 @@ tabs:
 intro:
   title: "Bienvenue sur notre rapport d'activité digital !"
   text: "En 2024, Règles Élémentaires a poursuivi son engagement avec une intensité et une portée accrues. Grâce à la mobilisation sans précédent de nos bénévoles, partenaires et équipes salariées, nous avons collecté et redistribué plus de 5 millions de protections périodiques, formé plus d'un millier de professionnel·les et sensibilisé des milliers de jeunes et d’adultes à la santé menstruelle. Cette année marque également un tournant stratégique avec l’essor de nos antennes régionales, permettant un ancrage territorial renforcé et des actions adaptées aux réalités locales. En innovant dans nos approches, en consolidant nos actions et en étendant notre réseau, nous avons fait de 2024 une année décisive pour la lutte contre la précarité menstruelle et la sensibilisation à grande échelle. Ce rapport témoigne de ces avancées, des défis relevés et des perspectives qui s’ouvrent à nous pour les années à venir.<br/>Bonne lecture !"
-edito: "Depuis sa création, Règles Élémentaires s'engage résolument pour l'éradication de la précarité menstruelle. Notre voix a joué un rôle crucial dans la mise en lumière de cette réalité préoccupante, souvent occultée et profondément injuste. Le rapport d’activité de l’association révèle la concrétisation d’une multitude de projets portés en 2023, tous ancrés dans l'action concrète.
+edito: "Être présidente de Règles Élémentaires, c’est porter une conviction profonde : celle que les règles ne devraient jamais être un sujet de honte, d'ignorance ou de précarité. 
 <br/><br/>
-Aider & collecter,<br/>
-rencontrer & sensibiliser,<br/>
-défendre & faire valoir.
+Cette année encore, nous avons grandi, à toutes les échelles : sur le terrain avec l’ouverture d’antennes locales portées par des personnes engagées ; à l’échelle européenne en dénonçant des réalités inacceptables — à l’heure où j’écris ces lignes, qui sait ce qu’il y a vraiment dans une protection périodique ? Comment ne pas voir là une négligence délibérée à la santé publique ? Face à ces constats, Règles Élémentaires éclaire, informe, sensibilise. Avec la certification Qualiopi obtenue pour notre service de formation, nous consolidons notre rôle dans un monde où la parole a parfois du mal à se frayer un chemin. 
 <br/><br/>
-J’exprime ma reconnaissance envers chaque personne contribuant à faire de notre vision une réalité, une réalité où la précarité menstruelle n'a plus sa place. Si Règles Élémentaires trace un avenir où toutes les personnes touchées par la précarité menstruelle, ou confrontées au tabou des règles, pourront vivre sans entraves ni stigmates, votre soutien est la clé de cette transformation sociale dans laquelle l’association s’investit de manière déterminée.
-<br/><br/>
-Merci aux équipes, aux administrateurs·rices, aux bénévoles partout sur le territoire, ainsi qu’aux partenaires publics et privés, aux associations, aux donateurs·rices de faire partie de cette démarche collective qui vise à créer un monde plus équitable pour tous·tes."
+Merci à l’équipe de l’association, aux bénévoles et aux soutiens fidèles dont ses administrateurs•rices qui font vivre cette ambition quotidienne."
 edito_author: "Nadège Moreau<br/>Présidente de Règles Élémentaires"
 events_title: "2024 en moments clés"
 key_events:
@@ -117,19 +113,19 @@ key_numbers:
   title: Les chiffres clés
   precarite_title: "Lutte contre la précarité menstruelle"
   precarite_numbers:    
-    - number: "5 144 736"
+    - number: "5 110 451"
       text: "protections collectées"
       img: "/img/page-rapport-2024/paquet-serviettes.svg"
-    - number: "29 484"
+    - number: "12 671"
       text: "protections réutilisables collectées"
       img: "/img/page-rapport-2024/cup.svg"
-    - number: "5 102 094"
+    - number: "5 097 780"
       text: "protections jetables collectées"
       img: "/img/page-rapport-2024/serviette-emballee.svg"
-    - number: "913 500"
-      text: "mois de règles couverts"
-      img: "/img/page-rapport-2024/calendrier.svg"
-    - number: "408 partenaires"
+    - number: "457 625"
+      text: "personnes bénéficiaires"
+      img: "/img/page-rapport-2024/3-personnes.svg"
+    - number: "404 partenaires"
       text: "associatifs ayant bénéficié de protections périodiques"
       img: "/img/page-rapport-2024/main-coeur.svg"
   benevoles_title: "Nos bénévoles"
@@ -142,34 +138,43 @@ key_numbers:
       img: "/img/page-rapport-2024/hands-heart.svg"
   education_title: "Education menstruelle"
   education_numbers:
-    - number: "215"
+    - number: "267"
       text: "actions de sensibilisation jeunes"
       img: "/img/page-rapport-2024/tableau.svg"
-    - number: "XXX"
+    - number: "4951"
       text: "jeunes sensibilisé·es lors de nos ateliers scolaire"
       img: "/img/page-rapport-2024/sac-a-dos.svg"
-    - number: "XXX"
-      text: "participant·es à nos sensibilisations adultes"
-      img: "/img/page-rapport-2024/3-personnes.svg"
-    - number: "XXX"
-      text: "professionnel·les accompagné·es lors de sensibilisations"
-      img: "/img/page-rapport-2024/professionnel.svg"
+    - number: "+ de 10 000"
+      text: "visites sur Parlons Règles"
+      img: "/img/page-rapport-2024/ordinateur.svg"
   formation_title: "Formations"
   formation_numbers:
-    - number: "49"
-      text: "formations menées"
+    - number: "89"
+      text: "actions menées auprès des professionnel·les (relais médico-sociaux, éducatifs)"
       img: "/img/page-rapport-2024/tableau.svg"
-    - number: "79"
-      text: "sensibilisations adultes"
+    - number: "1030"
+      text: "professionnel·les  formés ou sensibilisés"
+      img: "/img/page-rapport-2024/professionnel.svg"
+    - number: "26"
+      text: "sensibilisations adultes bénéficiaires"
+      img: "/img/page-rapport-2024/tableau.svg"
+    - number: "232"
+      text: "bénéficiaires sensibilisées"
       img: "/img/page-rapport-2024/bulle-dialogue.svg"
+    - number: "6"
+      text: "actions menées auprès d’employeurs"
+      img: "/img/page-rapport-2024/tableau.svg"
+    - number: "115"
+      text: "salarié·es / agent·es sensibilisés"
+      img: "/img/page-rapport-2024/professionnel.svg"
   public_title: "Grand public"
   public_numbers:
     - number: "45"
       text: "participations lors d’événements"
       img: "/img/page-rapport-2024/evenement.svg"
-    - number: "+ de 10 000"
-      text: "visites sur Parlons Règles"
-      img: "/img/page-rapport-2024/ordinateur.svg"
+    - number: "+ de 220 000 personnes"
+      text: "sensibilisées lors de nos évènements"
+      img: "/img/page-rapport-2024/personnage-check.svg"
     - number: "64 268"
       text: "abonné·es sur nos réseaux sociaux"
       img: "/img/page-rapport-2024/abonnes.svg"
@@ -426,7 +431,7 @@ ancrage:
       img: "/img/page-rapport-2024/zoom-paca.png"
     - title: "Antenne Île-de-France"
       text: "Si Règles Élémentaires, depuis sa création, a toujours eu la grande majorité de ses actions en Ile-de-France, l’antenne régionale a été officiellement créée en septembre dernier seulement. En effet, les actions en Ile-de-France en 2024 ce sont : 
-      <br/>
+      <br/><br/>
       <ul>
       <li>599 partenaires associatifs et 955 000 produits distribués dont 10 000 produits lavables ainsi que 294 professionnel·les formé·es à la santé menstruelle</li>
       <li>Des actions de sensibilisation à destination de  2 700 élèves de 8 à 18 ans et 1 170 adultes</li>
@@ -471,8 +476,8 @@ ancrage:
       <br/>
       Un engagement collectif pour 2025 : 
       Après cette première année d'activité, nous voulons renforcer l'accompagnement des actions sur le terrain, en élargissant notre réseau de partenaires, en proposant davantage de formations et en développant l'éducation menstruelle auprès des jeunes. Nous souhaitons également faire de l’antenne Pays de la Loire une véritable structure ressource pour le territoire. Cela signifie accompagner les porteurs·euses de projets engagé·es contre la précarité menstruelle, partager notre expertise avec les acteurs·rices locaux et aider nos partenaires à monter en compétence. En développant des outils et des formations adaptées, nous voulons permettre à chacun·e d’agir à son échelle et d’inscrire durablement le sujet des règles dans les dynamiques locales."
-      quote: "“Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis. Nam quod de pietate dixistis, est quidem ista nostra existimatio, sed iudicium certe parentis; quid nos opinemur, audietis ex iuratis; quid parentes sentiant, lacrimae matris incredibilisque maeror, squalor patris et haec praesens maestitia, quam cernitis, luctusque declarat. Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est, ut ne quis concessum putet amicum vel bellum patriae inferentem.”"
-      quote_author: "Lorem Ipsum"
+      quote: "“En 2024, un collectif regroupant une dizaine de structures engagées sur les questions d’Éducation à la Vie Affective, Relationnelle et Sexuelle (EVARS) en Loire-Atlantique s’est créé. Ce travail en réseau nous permet d’échanger nos expériences, de partager nos expertises et de nous enrichir mutuellement. Ensemble, nous souhaitons développer des outils adaptés aux besoins repérés, réfléchir à des pratiques plus inclusives et favoriser le travail partenarial. Cette dynamique de réseau nous permet d’innover, de nous soutenir face aux défis, de renforcer notre légitimité dans nos pratiques et auprès des publics que nous accompagnons. Dans un contexte dans lequel ces thématiques sont parfois mises en difficulté, le collectif nous donne aussi du poids pour poursuivre nos actions.”"
+      quote_author: "Ophélia pour iKi iKi & François pour disQutons"
       img: "/img/page-rapport-2024/zoom-pdl.png"
   benevoles:
     title: "Le rôle central des bénévoles pour déployer nos actions"
@@ -571,18 +576,15 @@ partenaires:
   intro:
     title: "L’augmentation des besoins & nos relations avec les association partenaires"
     text: "En 2024, Règles Élémentaires a renforcé son engagement auprès des structures médico-sociales pour lutter contre la précarité menstruelle et améliorer la santé menstruelle des bénéficiaires."
-  programme:
-    title: "Un programme national pour améliorer la santé menstruelle"
-    text: "Règles Élémentaires a été soutenu par la Direction Générale de la Cohésion Sociale (DGCS) pour mettre en place un programme national visant l’amélioration de la santé menstruelle des personnes accueillies dans une centaine de structures médico-sociales. Ce programme repose sur la sensibilisation et la formation des équipes ainsi que la distribution de protections périodiques jetables et réutilisables pour les bénéficiaires."
   impact:
     title: "Un impact grandissant et un renforcement de l’accompagnement des partenaires"
-    text: "Depuis 2015, le nombre d’associations bénéficiaires a considérablement augmenté, passant de 150 à plus de 1 400. En 2024, cette augmentation a été particulièrement marquée avec une hausse de 80 % par rapport à 2023, soit 408 nouveaux partenaires. De plus, le nombre de demandes de produits a connu une augmentation de 45 % par rapport à l’année précédente. En réponse à cette demande croissante, nous avons réalisé 604 redistributions de dons à 384 associations et structures médico-sociales. Face à cette augmentation, 2024 a marqué un tournant dans notre manière d’accompagner les associations partenaires. Grâce au développement de notre organisme de formation et à un suivi renforcé, nous avons pu transférer nos compétences aux structures en les formant, en les dotant d’outils concrets et en animant une communauté de professionnel·les engagés dans la lutte contre la précarité menstruelle."
-  sensibilisation:
-    title: "De la sensibilisation des publics à la formation des professionnel·les"
-    text: "Cette année, 19 formations ont été dispensées à plus de 250 personnes dans plusieurs régions (Auvergne Rhône-Alpes, Occitanie, Grand-Est, Pays de la Loire, Provence-Alpes-Côte d’Azur, Normandie, Champagne-Ardenne et Mayotte). Chaque participant·e a accès à un “Carnet de stagiaire” et à un espace en ligne contenant des ressources pratiques.Par ailleurs, 36 sessions de sensibilisation ont été menées auprès de professionnel·les et bénévoles, dont 6 spécifiquement dédiées aux bénéficiaires sous forme d’ateliers ou de cercles de parole. En partenariat avec la Croix-Rouge française, nous avons également formé la Chargée d'animation de Lutte contre la précarité menstruelle, sur une période de 6 mois en 4 étapes successives. En 2024, plus de 12 700 produits réutilisables ont été redistribués aux structures formées et sensibilisées. Nous conseillons aux structures de réaliser un diagnostic des besoins des bénéficiaires afin de leur fournir des kits adaptés (5 culottes menstruelles par personne)."
+    text: "Depuis 2015, le nombre d’associations bénéficiaires a considérablement augmenté, passant de 150 à plus de 1 400. En 2024, cette augmentation a été particulièrement marquée avec une hausse de 80 % par rapport à 2023, soit 408 nouveaux partenaires. De plus, le nombre de demandes de produits a connu une augmentation de 45 % par rapport à l’année précédente. En réponse à cette demande croissante, nous avons réalisé 604 redistributions de dons à 384 associations et structures médico-sociales.<br/>
+    Face à cette augmentation, 2024 a marqué un tournant dans notre manière d’accompagner les associations partenaires. Grâce au développement de notre organisme de formation et à un suivi renforcé, nous avons pu transférer nos compétences aux structures en les formant, en les dotant d’outils concrets et en animant une communauté de professionnel·les engagés dans la lutte contre la précarité menstruelle."
   enquete:
     title: "Une enquête pour mieux répondre aux besoins"
-    first_text: "En février 2024, une grande enquête a été lancée auprès de nos 1 094 partenaires afin de mieux cerner leurs actions, leurs besoins et les outils qu’ils attendent de Règles Élémentaires. 198 structures ont répondu, et 16 entretiens qualitatifs ont été menés."
+    text: "En février 2024, une grande enquête a été lancée auprès de nos 1 094 partenaires afin de mieux cerner leurs actions, leurs besoins et les outils qu’ils attendent de Règles Élémentaires. 198 structures ont répondu, et 16 entretiens qualitatifs ont été menés. L’enquête a révélé que 94 % des structures ont des bénéficiaires en demande de protections périodiques, mais que seules 64 % peuvent en mettre à disposition, et seulement 32 % parviennent à couvrir l’ensemble des besoins.
+    <br/><br/>
+    Les résultats ont également mis en avant un besoin fort d’outils spécifiques : boîtes de mise à disposition, affiches éducatives et livrets pédagogiques. Nous prévoyons de renouveler cette enquête chaque année pour adapter au mieux notre soutien."
     numbers:
       - number: "94 %"
         text: "des structures ont des bénéficiaires en demande de protections périodiques"
@@ -590,7 +592,17 @@ partenaires:
         text: "des structures peuvent mettre des produits périodiques à disposition"
       - number: "32 %"
         text: "des structures peuvent mettre des produits périodiques à disposition"
-    second_text: "Les résultats ont également mis en avant un besoin fort d’outils spécifiques : boîtes de mise à disposition, affiches éducatives et livrets pédagogiques. Nous prévoyons de renouveler cette enquête chaque année pour adapter au mieux notre soutien."
+  sensibilisation:
+    title: "La formation et la sensibilisation, des leviers essentiels"
+    text: "Pour renforcer et pérenniser l’impact de nos actions nous avons opéré une évolution dans nos modalités d’interventions auprès des nos structures de terrain partenaires en 2024.
+    <br/><br/>
+    Fortes de 3 années d’expérience au contact des publics bénéficiaires, nous avons développé des contenus de sensibilisation puis de formation à destination des personnels encadrants au contact au quotidien et dans la durée avec les personnes bénéficiaires. 
+    <br/><br/>
+    L’objectif : intégrer au cœur des pratiques des établissements les enjeux de la lutte contre la précarité menstruelle et de santé menstruelle en formant et outillant les personnes qui y travaillent.
+    <br/><br/>
+    En 2024, 19 formations ont été dispensées à plus de 250 personnes dans plusieurs régions (Auvergne Rhône-Alpes, Occitanie, Grand-Est, Pays de la Loire, Provence-Alpes-Côte d’Azur, Normandie, Champagne-Ardenne et Mayotte) en plus des 30 formations dispensées aux partenaires de terrain en île-de-France.. Chaque participant·e a accès à un “Carnet de stagiaire” et à un espace en ligne contenant des ressources pratiques suite aux formations.Par ailleurs, 36 sessions de sensibilisation ont été menées auprès de professionnel·les et bénévoles, dont 6 spécifiquement dédiées aux bénéficiaires sous forme d’ateliers ou de cercles de parole. En partenariat avec la Croix-Rouge française, nous avons également formé la Chargée d'animation de Lutte contre la précarité menstruelle, sur une période de 6 mois en 4 étapes successives.
+    <br/><br/>
+    En parallèle, 36 ateliers de sensibilisation ont été réalisés en direct auprès de publics que nous ciblons et ont bénéficié à 94 femmes en détention et 138 personnes hébergées par des établissements de la Croix-Rouge Française."
   plateforme:
     title: "Une plateforme partenaire optimisée"
     text: "Pour faciliter l’accès aux dons et formations, nous avons amélioré notre plateforme de partenariat :"
@@ -601,9 +613,25 @@ partenaires:
         text: "Création d’un onglet spécifique pour les demandes de formation"
       - number: "3"
         text: "Amélioration de l’outil de géolocalisation des partenaires"
+      - number: "4"
+        text: "Création d’un espace stagiaire contenant des dizaines de ressources clé en mains pour mettre en place des actions de lutte contre la PM"
+  collectes:
+    title: "Améliorer nos collectes pour mieux répondre aux besoins"
+    text: "Face aux besoins croissants, nous avons cherché à augmenter les quantités collectées. L’année 2024 a marqué un tournant en termes de collecte pour Règles Élémentaires : nous avons mené nos deux premières collectes nationales en autonomie dans des dizaines de supermarchés et hypermarchés en France.<br/>
+    A l’occasion de la Journée internationale pour les droits des femmes, nous avons mené la collecte “Règles Solidaires” en partenariat avec l’enseigne Carrefour France dans 21 magasins répartis sur toute la France métropolitaine, collectant 155 674 protections périodiques en l’espace de deux journées grâce à la mobilisation de plus de 360 bénévoles les 7 et 8 mars. 
+    <br/><br/>
+    En juin 2024, nous avons mené la collecte “Règles de Survie” en partenariat avec la Fondation Monoprix et avec le soutien de la Fondation des Femmes dans 43 magasins. Cette 8e édition de collecte en partenariat a réuni plus de 650 bénévoles sur 2 journées, les 21 et 22 juin en France métropolitaine et à Mayotte pour collecter un total de 322 182 protections périodiques. 
+    <br/><br/>
+    En décembre 2024, l’association a testé un nouveau concept : une collecte nationale organisée sur une même journée, le 7 décembre, par des dizaines de personnes dans les grandes surfaces de leur choix. Cette collecte innovante nous a permis de collecter près de 59 000 produits.
+    <br/><br/>
+    Au total, ces produits ont bénéficié à plus de 100 associations et structures médico-sociales partout en France, elles ont permis de couvrir un mois de règles pour près de 28 000 personnes."
   deret:
-    title: "Un partenariat logistique renforcé avec Deret"
-    text: "Depuis 2020, notre partenariat avec le Groupe Deret nous permet de gérer efficacement la distribution des protections périodiques à grande échelle. En 2024, face à l’augmentation des formations et des dons de produits réutilisables, Deret a élargi son soutien en prenant en charge l’emballage et l’expédition de plus de 8 000 colis. Cette évolution a accéléré nos redistributions et optimisé notre logistique. Au total, en 2024, nous avons envoyé plus d’1,2 million de produits aux entrepôts Deret, dont près de 12 000 culottes menstruelles et 14 000 cups."
+    title: "Un partenariat logistique renforcé avec Deret pour mieux redistribuer"
+    text: "Depuis 2020, notre partenariat avec le Groupe Deret nous permet de gérer efficacement la distribution des protections périodiques à grande échelle. Le Groupe Deret reçoit, entrepose et expédie environ 1 million de serviettes jetables par an de la part de la marque Always. Ce don et le mécénat logistique du groupe Deret nous permettent de couvrir les besoins de près de 150 partenaires de terrain chaque année, et ce, aux quatre coins de la France.
+    <br/><br/>
+    En 2024, face à l’augmentation des formations et des dons de produits réutilisables, Deret a élargi son soutien en prenant en charge l’emballage et l’expédition de plus de 8 000 colis. Cette évolution a accéléré nos redistributions et optimisé notre logistique. Nous avons reçu des dons de protections réutilisables de la part de : Modibodi, Lola Health, Juva Santé et Les Petites Choses en 2024.
+    <br/><br/>
+    Au total, en 2024, nous avons envoyé plus d’1,2 million de produits aux entrepôts Deret, dont près de 12 000 culottes menstruelles et 14 000 cups."
 changer:
   intro:
     title: "Changer les mentalités sur les règles"
