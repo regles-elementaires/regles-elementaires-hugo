@@ -90,7 +90,7 @@ key_events:
     imgs:
       - src: "/img/page-rapport-2024/octobre-parlons.png"
       - src: "/img/page-rapport-2024/octobre-cop1.png"
-      - src: "/img/page-rapport-2024/octobre-dossard.png"
+      - src: "/img/page-rapport-2024/octobre-dossard-2.png"
     texts: 
       - content: "↘ Lancement Parlons Règles"
       - content: "↘ Participation au festival Cop’1 au Zénith"
@@ -142,7 +142,7 @@ key_numbers:
       text: "actions de sensibilisation jeunes"
       img: "/img/page-rapport-2024/tableau.svg"
     - number: "4951"
-      text: "jeunes sensibilisé·es lors de nos ateliers scolaire"
+      text: "jeunes sensibilisé·es lors de nos ateliers scolaires"
       img: "/img/page-rapport-2024/sac-a-dos.svg"
     - number: "+ de 10 000"
       text: "visites sur Parlons Règles"
@@ -153,19 +153,19 @@ key_numbers:
       text: "actions menées auprès des professionnel·les (relais médico-sociaux, éducatifs)"
       img: "/img/page-rapport-2024/tableau.svg"
     - number: "1030"
-      text: "professionnel·les  formés ou sensibilisés"
+      text: "professionnel·les  formé·es ou sensibilisé·es"
       img: "/img/page-rapport-2024/professionnel.svg"
     - number: "26"
       text: "sensibilisations adultes bénéficiaires"
       img: "/img/page-rapport-2024/tableau.svg"
     - number: "232"
-      text: "bénéficiaires sensibilisées"
+      text: "bénéficiaires sensibilisé·es"
       img: "/img/page-rapport-2024/bulle-dialogue.svg"
     - number: "6"
       text: "actions menées auprès d’employeurs"
       img: "/img/page-rapport-2024/tableau.svg"
     - number: "115"
-      text: "salarié·es / agent·es sensibilisés"
+      text: "salarié·es / agent·es sensibilisé·es"
       img: "/img/page-rapport-2024/professionnel.svg"
   public_title: "Grand public"
   public_numbers:
@@ -430,7 +430,7 @@ ancrage:
       quote_author: "Témoignage d’une salariée de l’association La Caravelle"
       img: "/img/page-rapport-2024/zoom-paca.png"
     - title: "Antenne Île-de-France"
-      text: "Si Règles Élémentaires, depuis sa création, a toujours eu la grande majorité de ses actions en Ile-de-France, l’antenne régionale a été officiellement créée en septembre dernier seulement. En effet, les actions en Ile-de-France en 2024 ce sont : 
+      text: "Si Règles Élémentaires, depuis sa création, a toujours eu la grande majorité de ses actions en Île-de-France, l’antenne régionale a été officiellement créée en septembre dernier seulement. En effet, les actions en Île-de-France en 2024 ce sont : 
       <br/><br/>
       <ul>
       <li>599 partenaires associatifs et 955 000 produits distribués dont 10 000 produits lavables ainsi que 294 professionnel·les formé·es à la santé menstruelle</li>
@@ -487,14 +487,14 @@ ancrage:
         text: "Bénévoles formé·es"
         img : "img/page-rapport-2024/personnage-check.svg"
       - number: "1 500"
-        text: "bénévoles mobilisés sur 103 actions"
+        text: "bénévoles mobilisé·es sur 103 actions"
         img : "img/page-rapport-2024/hands-heart.svg"
     second_text: "Aujourd’hui, nos bénévoles sont présent·es sur tout le territoire national, en France métropolitaine mais aussi dans les départements d’outre-mer comme la Réunion et Mayotte. Ce maillage territorial dense, rendu possible par leur engagement, est une richesse inestimable pour l’association. Les bénévoles jouent un rôle clé à plusieurs niveaux : que ce soit à travers l’organisation ou la participation à des collectes de protections périodiques, ou en représentant l’association lors d’événements et/ou sur des stands, iels permettent à Règles Élémentaires d’être représentée sur le terrain, au plus près des besoins.
 
     En 2024, nous avons franchi une étape importante en débutant la mise en place d’un nouveau modèle d’engagement. Ce travail a consisté à mieux définir le rôle des bénévoles au sein de l’association, à structurer leur parcours et à imaginer des stratégies pour engager et fidéliser de nouvelles personnes. Ce chantier ambitieux se poursuivra en 2025, avec l’arrivée d’une personne dédiée à la mobilisation bénévole, qui aura pour mission de consolider cet élan et de démultiplier l’impact de l’association grâce à l’énergie collective des bénévoles."
   other_actions:
-    - title: "Zoom sur la communauté bénévole en Ile de France"
-      preview: "L’antenne Ile-de-France compte une communauté de 240 bénévoles dont 75 régulièrement actif·ves sur le terrain. Le temps consacré à la mobilisation de cette communauté en 2024 a permis de mettre en place 60 actions dont 37 de collecte et redistribution et 15 de sensibilisation grand public. 
+    - title: "Zoom sur la communauté bénévole en Île-de-France"
+      preview: "L’antenne Île-de-France compte une communauté de 240 bénévoles dont 75 régulièrement actif·ves sur le terrain. Le temps consacré à la mobilisation de cette communauté en 2024 a permis de mettre en place 60 actions dont 37 de collecte et redistribution et 15 de sensibilisation grand public. 
       Les bénévoles ont, de fait, participé activement au rayonnement de l’antenne à la fois dans la lutte contre la précarité menstruelle et le tabou des règles."
       more_text: "Cette année a aussi permis de préparer le terrain pour la mise en place d’un processus d’intégration et de formation des bénévoles plus encadré et systématique. Ainsi, une dizaine d’événements conviviaux d’échange et de formation ont donc été organisés tout au long de l’année. 
       <br/><br/>
@@ -600,7 +600,7 @@ partenaires:
     <br/><br/>
     L’objectif : intégrer au cœur des pratiques des établissements les enjeux de la lutte contre la précarité menstruelle et de santé menstruelle en formant et outillant les personnes qui y travaillent.
     <br/><br/>
-    En 2024, 19 formations ont été dispensées à plus de 250 personnes dans plusieurs régions (Auvergne Rhône-Alpes, Occitanie, Grand-Est, Pays de la Loire, Provence-Alpes-Côte d’Azur, Normandie, Champagne-Ardenne et Mayotte) en plus des 30 formations dispensées aux partenaires de terrain en île-de-France.. Chaque participant·e a accès à un “Carnet de stagiaire” et à un espace en ligne contenant des ressources pratiques suite aux formations.Par ailleurs, 36 sessions de sensibilisation ont été menées auprès de professionnel·les et bénévoles, dont 6 spécifiquement dédiées aux bénéficiaires sous forme d’ateliers ou de cercles de parole. En partenariat avec la Croix-Rouge française, nous avons également formé la Chargée d'animation de Lutte contre la précarité menstruelle, sur une période de 6 mois en 4 étapes successives.
+    En 2024, 19 formations ont été dispensées à plus de 250 personnes dans plusieurs régions (Auvergne Rhône-Alpes, Occitanie, Grand-Est, Pays de la Loire, Provence-Alpes-Côte d’Azur, Normandie, Champagne-Ardenne et Mayotte) en plus des 30 formations dispensées aux partenaires de terrain en Île-de-France. Chaque participant·e a accès à un “Carnet de stagiaire” et à un espace en ligne contenant des ressources pratiques suite aux formations.Par ailleurs, 36 sessions de sensibilisation ont été menées auprès de professionnel·les et bénévoles, dont 6 spécifiquement dédiées aux bénéficiaires sous forme d’ateliers ou de cercles de parole. En partenariat avec la Croix-Rouge française, nous avons également formé la Chargée d'animation de Lutte contre la précarité menstruelle, sur une période de 6 mois en 4 étapes successives.
     <br/><br/>
     En parallèle, 36 ateliers de sensibilisation ont été réalisés en direct auprès de publics que nous ciblons et ont bénéficié à 94 femmes en détention et 138 personnes hébergées par des établissements de la Croix-Rouge Française."
   plateforme:
