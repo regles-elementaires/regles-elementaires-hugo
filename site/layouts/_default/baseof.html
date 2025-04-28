@@ -33,6 +33,9 @@
       {{ if $.Site.Params.display_popup_decembre_2024 }}
         {{ partial "popup-decembre-2024" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_regla }}
+        {{ partial "popup-regla" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
