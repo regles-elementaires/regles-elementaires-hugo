@@ -220,15 +220,7 @@
                             <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
                         </div>                                
                         {{ end }}
-                    </div>
-                    <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.evenementiels_title }}</h5>
-                    <div class="w-full flex flex-row flex-wrap">
-                        {{ range .Params.evenementiels }}
-                        <div class="w-1/2 md:w-1/5 flex items-center justify-center">
-                            <img class="w-2/3" src="{{ .logo }}" alt="{{ .name }}">
-                        </div>                                
-                        {{ end }}
-                    </div>   
+                    </div> 
                     <h5 class="text-rered text-lg md:text-xl mt-12 mb-8 font-unbounded font-bold">{{ .Params.produits_title }}</h5>
                     <div class="w-full flex flex-row flex-wrap">
                         {{ range .Params.produits }}
