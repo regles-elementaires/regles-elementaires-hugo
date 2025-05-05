@@ -302,25 +302,30 @@
 </div>
 -->
 
-<div class="w-full bg-relightpurple">
+<div class="w-full bg-reorange">
     <div class="container pt-8 md:pt-12 flex flex-row">
-        <div class="w-11/12 lg:w-5/6 pb-8 m-auto">
-            <h2 class="text-white text-xl md:text-3xl font-extrabold text-center uppercase pb-8">
-                {{ .Params.pr.title | markdownify }}
+        <div class="w-11/12 md:w-4/5 pb-8 m-auto">
+            <h2 class="text-white text-xl md:text-3xl font-extrabold uppercase pb-8 md:ml-4 ml-2">
+                {{ .Params.decouvrir.title }}
             </h2>
             <div class="flex flex-row flex-wrap">
-                <div class="w-full md:w-3/12 flex items-center justify-center">
-                    <a class="w-3/5" href="https://www.parlonsregles.fr/" target="_blank">
-                        <img src="/img/page-home/decouvrir-pr.png" alt="Découvrir Parlons Règles" />
-                    </a>
+                <div class="w-full md:w-1/2 flex">
+                    <div class="bg-white mx-2 md:mx-4 rounded-2xl text-rered flex flex-col px-8 md:px-16 py-8 text-center tracking-tight">
+                        <h3 class="text-lg font-bold">{{ .Params.decouvrir.pr.title }}</h3>
+                        <p class="mt-4 mb-8">{{ .Params.decouvrir.pr.text }}</p>
+                        <img src="/img/page-home/apercu-PR.png" alt="">
+                        <a class="mt-8 font-bold underline" href="https://www.parlonsregles.fr/" target="_blank">{{ .Params.decouvrir.pr.link }}</a>
+                    </div>
                 </div>
-                <div class="w-full md:w-5/12 flex items-center justify-center">
-                    <img class="w-4/5" src="/img/page-home/text-pr.png" alt="La première plateforme 100% dédiée à l’éducation menstruelle. Conçue pour les jeunes avec un espace parents et un espace relais éducatifs. Toutes les réponses à vos questions sont sur Parlons Règles !" />
-                </div>
-                <div class="w-full md:w-4/12 flex items-center justify-center">
-                    <img src="/img/page-home/img-pr.png" alt="" aria-hidden="true" />
-                </div>
-            </div>                                 
+                <div class="w-full md:w-1/2 flex">
+                    <div class="bg-white mx-2 md:mx-4 rounded-2xl text-rered flex flex-col px-8 md:px-16 py-8 text-center tracking-tight mt-8 md:mt-0">
+                        <h3 class="text-lg font-bold">{{ .Params.decouvrir.regla.title }}</h3>
+                        <p class="mt-4 mb-8">{{ .Params.decouvrir.regla.text }}</p>
+                        <img src="/img/page-home/apercu-regla.png" alt="">
+                        <a class="mt-8 font-bold underline" href="https://www.regla-app.fr/" target="_blank">{{ .Params.decouvrir.regla.link }}</a>
+                    </div>
+                </div> 
+            </div>                                  
         </div>
     </div>
 </div>

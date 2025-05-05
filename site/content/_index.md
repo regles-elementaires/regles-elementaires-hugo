@@ -81,7 +81,15 @@ agenda:
     event_title: Évènements
 actus:
     title: Nos dernières actus
-pr:
-    title: "DÉCOUVRIR PARLONS RÈGLES,<br/>NOTRE PLATEFORME DIGITALE D’ÉDUCATION MENSTRUELLE"
+decouvrir:
+    title: "À DÉCOUVRIR"
+    pr:
+      title: "Notre solution pour généraliser l’éducation menstruelle"
+      text: "La première plateforme 100% dédiée à l'éducation menstruelle. Conçue pour les jeunes avec un espace parents et un espace relais éducatifs. Toutes les réponses à vos questions sont sur Parlons Règles !"
+      link: "Tester Parlons Règles"
+    regla:
+      title: "Notre solution pour mobiliser et lutter contre la précarité menstruelle"
+      text: "La première application de géolocalisation de protections périodiques gratuites, facile d’utilisation et collaborative. Avec Reglà, le futur des règles est là !"
+      link: "Découvrir l'appplication"
 ---
 
