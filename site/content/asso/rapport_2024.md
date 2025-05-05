@@ -8,7 +8,6 @@ menu:
     weight: 4
 flowbite: true
 carousel: true
-subtitle: "Nouveau titre ici"
 tabs:
   - title: "Édito<br/>Moments clés<br/>Chiffres 2024"
     title_mobile: "Édito / Moments clés / Chiffres 2024"
@@ -56,7 +55,7 @@ key_events:
       - src: "/img/page-rapport-2024/avril-sensib-coach.png"
     texts: 
       - content: "↘ Lancement en club de notre projet “j’ai mes règles, je fais du foot”"
-      - content: "↘ Création de l’Organisme de formation!"
+      - content: "↘ Création de l’Organisme de formation !"
   - month: "Mai"
     imgs:
       - src: "/img/page-rapport-2024/mai-sport.png"
@@ -72,7 +71,7 @@ key_events:
       - src: "/img/page-rapport-2024/juin-alerte.png"
       - src: "/img/page-rapport-2024/juin-solidays.png"
     texts: 
-      - content: "↘ Collecte nationale Règles de Survie avec Monoprix et la fondation des femmes"
+      - content: "↘ Collecte nationale Règles de Survie avec Monoprix et la Fondation des Femmes"
       - content: "↘ Participation à Alertes féministes"
       - content: "↘ Solidays"
   - month: "Juillet"
@@ -416,7 +415,7 @@ ancrage:
         - number: "1 atelier règles et sport auprès de coachs : 9 participant·es"
         - number: "1 atelier règles et sport auprès de joueuses : 22 participantes"
   antennes:
-    - title: "Antenne PACA"
+    - title: "Antenne Provence-Alpes-Côte d'Azur"
       text: "Initiée en 2019 par une bénévole, elle a pris un nouvel essor en juillet 2024 avec l’arrivée de Florence, en tant que responsable de l’antenne. Elle a repris la gestion des activités pour sensibiliser davantage à la question des règles et répondre à la hausse des demandes de protections périodiques, dans un contexte de précarité croissante. Grâce à ses actions, depuis 2020, l’antenne a collecté et redistribué plus de 1 700 000 protections périodiques à 92 partenaires associatifs. L’antenne Provence-Alpes-Côte d’Azur vise à renforcer au cœur de son territoire des actions d’éducation menstruelle, de formation et de collectes, en les adaptant aux spécificités et aux besoins du public local. Elle cherche aussi à structurer un réseau local de bénévoles, collecteurs·rices, mécènes et partenaires, essentiels au déploiement de ses activités.
       <br/><br/>
       Depuis sa création en juillet 2024, l’antenne a pu :
@@ -446,8 +445,8 @@ ancrage:
       Cette nouvelle approche a permis de développer des projets adaptés aux besoins et capacités du territoire : 
       Un vaste projet de formation des professionnel·les du médico-social a permis la mise en place de 23 formations qui ont apporté des connaissances et des outils pratiques à des structures d’hébergement, de maraude et d’insertion, entre autres. Le nombre de formations a pour ambition de doubler pour 2025. Le suivi territorialisé de ce projet de formation a permis de susciter l’intérêt au sein des structures et de les sensibiliser à l’importance de la santé menstruelle dans l'accompagnement social. Résultat : Le Samu Social de Paris et le Samu 93 vont être accompagnés sur l’année 2025 dans la formation de médiatrices spécialisées en santé menstruelle. 
       <br/><br/>
-      Sur le département du Val de Marne, un projet pilote de formation des structures accompagnant des personnes en situation de handicap a été mené, via la co-construction de modules de formation en partenariat avec des des structures concernées et la mise en place d’une première formation au sein d’un IMPRO. Ce projet financé et développé grâce à des partenariats locaux est voué à se développer au national courant 2025. 
-      L’année 2025 va permettre le développement de cet ancrage territorial avec l'initiation de projets innovants et d’accompagnements spécifiques, avec les collectivités et les partenaires éducatifs également. De premières pierres ont déjà été posées avec l’intégration de l’antenne au Conseil Parisien des Associations et la rencontre de nombreuses Cités Éducatives de Seine Saint Denis, du Val de Marne et de l’Essonne."
+      Sur le département du Val-de-Marne, un projet pilote de formation des structures accompagnant des personnes en situation de handicap a été mené, via la co-construction de modules de formation en partenariat avec des des structures concernées et la mise en place d’une première formation au sein d’un IMPRO. Ce projet financé et développé grâce à des partenariats locaux est voué à se développer au national courant 2025. 
+      L’année 2025 va permettre le développement de cet ancrage territorial avec l'initiation de projets innovants et d’accompagnements spécifiques, avec les collectivités et les partenaires éducatifs également. De premières pierres ont déjà été posées avec l’intégration de l’antenne au Conseil Parisien des Associations et la rencontre de nombreuses Cités Éducatives de Seine-Saint-Denis, du Val-de-Marne et de l’Essonne."
       quote: "“Cette formation a été animée par une intervenante remarquable. Elle m’a également permis de prendre conscience des inégalités auxquelles certaines femmes en situation de grande précarité peuvent être confrontées. Je t’avouerai que cette question n’avait pas été abordée dans le cadre de mes accompagnements jusqu’à présent. Je ne sais pas encore exactement par quelle stratégie je le ferai, mais ce sujet sera désormais pris en compte. C’est grâce à ces moments que nous pouvons prendre un peu de recul par rapport à notre quotidien et faire évoluer nos pratiques. Alors, merci beaucoup pour cela.”"
       quote_author: "Intervenante social d’un centre d’hébergement d’Adoma"
       img: "/img/page-rapport-2024/zoom-idf.png"
