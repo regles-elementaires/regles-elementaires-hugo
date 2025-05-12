@@ -21,11 +21,11 @@
             {{ range .Params.objectifs }}
                 <div class="flip-card w-full md:w-1/6 h-72 mb-4 md:mb-0">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front flex flex-col items-center rounded-xl">
+                        <div class="flip-card-front flex flex-col items-center rounded-xl bg-repinkformation">
                             <img class="mt-8" src="{{ .img }}" alt="" aria-hidden="true">
                             <h3 class="mt-8 text-xl font-semibold px-8">{{ .title }}</h3>
                         </div>
-                        <div class="flip-card-back flex items-center rounded-xl">
+                        <div class="flip-card-back flex items-center rounded-xl bg-repurple">
                             <p class="px-4 font-semibold">{{ .text }}</p>
                         </div>
                     </div>

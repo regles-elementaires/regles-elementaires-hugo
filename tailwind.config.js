@@ -35,7 +35,9 @@ module.exports = {
         repurpletribune: "#841BCE",
         repurple: "#643F92",
         relightpurple: "#9129ff",
-        rebeigera: "#FCE0D2"
+        rebeigera: "#FCE0D2",
+        repinkformation: "#FF8ACD",
+        remauve: "#986ECA"
       }
     },
     screens: {

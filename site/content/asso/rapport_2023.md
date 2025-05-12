@@ -5,7 +5,7 @@ layout: rapport_2023
 menu:
   main:
     parent: asso
-    weight: 4
+    weight: 5
 flowbite: true
 carousel: true
 subtitle: "Nouveau titre ici"
@@ -184,7 +184,7 @@ publics:
       logo: "/img/page-rapport/logos-partenaires/financeurs-publics/fdva.png"
     - name: "Ville de Nantes"
       logo: "/img/page-rapport/logos-partenaires/financeurs-publics/nantes.png"
-    - name: "Conseil départemental 94"
+    - name: "Conseil départemental 93"
       logo: "/img/page-rapport/logos-partenaires/financeurs-publics/seine-saint-denis.png"
     - name: "DDFE-94"
       logo: "/img/page-rapport/logos-partenaires/financeurs-publics/prefet-val-marne.png"
@@ -226,7 +226,7 @@ privates:
       logo: "/img/page-rapport/logos-partenaires/financeurs-prives/eig.png"
     - name: "Comédie des 3 Bornes"
       logo: "/img/page-rapport/logos-partenaires/financeurs-prives/3-bornes.png"
-mecenat_title: "Mécènat de compétence"
+mecenat_title: "Mécénat de compétence"
 mecenat:
     - name: "Astek"
       logo: "/img/page-rapport/logos-partenaires/mecenat/astek.png"
