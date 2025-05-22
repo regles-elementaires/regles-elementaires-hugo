@@ -6,7 +6,7 @@ illu: "/img/page-outils//illu-outils.svg"
 intro: 
     first: "Depuis sa création, Règles Élémentaires s’est donnée la mission de sensibiliser un maximum de personnes au sujet des règles. Parce qu’il faut parler de règles, les visibiliser, donner de l’information là où il en manque encore cruellement, donner des outils et des ressources pour permettre à tous·tes de s’emparer du sujet. Notre mission n’a de sens que si nous réussissons à diffuser du contenu utile au plus grand nombre. C’est pourquoi, sur cette page, vous pouvez retrouver de nombreux outils, des visuels, des vidéos, des plaquettes… que vous pouvez utiliser à volonté pour parler de règles."
 informer:
-    title: Informer sur les règles
+    title: S'informer et informer sur les règles
     text: "L’information c’est le pouvoir ! Vous souhaitez parler de règles mais vous ne savez pas comment faire ? On vous met à disposition des notices et autres affiches et flyers dont vous pouvez vous servir, diffuser, utiliser. Parce que c’est toujours mieux de pouvoir vous appuyer d’outils !"
     illu:
     tools:
@@ -32,6 +32,11 @@ pr:
   btn_link: "https://www.parlonsregles.fr/"
   img_link: "/img/page-actions/illu_pr.png"
   img_alt: "Deux bulles avec des questions; la première : Les règles ça sort par le trou où l'on fait pipi ? La deuxième : On peut perdre un tampon dans son corps ?"
+hormonall:
+  btn_link: "https://www.hormonall.com/fr?utm_source=toolpage&utm_medium=website&utm_campaign=regleselementaires"
+  img_link_desktop: "/img/page-outils/hormonall_desktop.png"
+  img_link_mobile: "/img/page-outils/hormonall_mobile.png"
+  img_alt: "Règles Elémentaires est fière d'être partenaire de Hormonall, la plateforme dédiée à comprendre l'effet des hormones sur la qualité de vie globale des femmes. Se former sur Hormonall.com"
 relayer:
     title: Relayer nos messages !
     text: "Chaque partage compte, alors n'hésitez pas à télécharger notre contenu pour le diffuser et porter notre message. Plus on entend parler de règles, plus on les visibilise et on les normalise. Vous pouvez par exemple réutiliser nos contenus sur vos réseaux sociaux, les diffuser en interne dans votre entreprise ou pourquoi pas imprimer des visuels pour décorer votre bureau !"

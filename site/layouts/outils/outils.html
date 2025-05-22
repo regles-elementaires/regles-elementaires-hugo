@@ -37,6 +37,20 @@
         </div>
     </div>
     {{ end }}
+    {{ with .Params.hormonall }}
+    <div class="w-10/12 md:w-3/4 mx-auto mt-8">
+        <div class="hidden md:flex flex-wrap justify-center pt-4 rounded-xl">
+            <a href="{{.btn_link}}">
+                <img src="{{.img_link_desktop}}" alt="{{.img_alt}}" />  
+            </a>                      
+        </div>
+        <div class="flex md:hidden flex-wrap justify-center pt-4 rounded-xl">
+            <a href="{{.btn_link}}">
+                <img src="{{.img_link_mobile}}" alt="{{.img_alt}}" />  
+            </a>                      
+        </div>
+    </div>
+    {{ end }}
     <div class="bg-white">
         <div class="w-10/12 md:w-3/4 mx-auto text-rered py-8 md:py-12 flex flex-wrap">
             <div class="z-10 md:w-2/3 flex flex-col items-start bg-rebeige rounded-lg p-6 md:p-8">
