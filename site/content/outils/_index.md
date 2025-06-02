@@ -32,6 +32,11 @@ pr:
   btn_link: "https://www.parlonsregles.fr/"
   img_link: "/img/page-actions/illu_pr.png"
   img_alt: "Deux bulles avec des questions; la première : Les règles ça sort par le trou où l'on fait pipi ? La deuxième : On peut perdre un tampon dans son corps ?"
+regla:
+  btn_link: "https://www.regla-app.fr"
+  img_link_desktop: "/img/page-outils/regla_desktop.png"
+  img_link_mobile: "/img/page-outils/regla_mobile.png"
+  img_alt: "Reglà est notre application de géolocalisation de protections périodiques gratuites"
 hormonall:
   btn_link: "https://www.hormonall.com/fr?utm_source=toolpage&utm_medium=website&utm_campaign=regleselementaires"
   img_link_desktop: "/img/page-outils/hormonall_desktop.png"
@@ -136,24 +141,22 @@ visuels:
 etudes:
     title: Nos études
     tools:
-        - title: Règles et sport
+        - title: Le poids des règles en Europe, mai 2025
+          link: https://menstrualmatters.eu/fr/
+          illu: img/page-outils/enquete_europe.png
+        - title: Règles et sport 2024
           link: https://doccollectes.blob.core.windows.net/statics/enquete_regles_et_sport.pdf
-          illu: img/page-outils/enquete-sport.png
-          alt: illustration règles et sport        
+          illu: img/page-outils/enquete-sport.png    
         - title: Enquête 8 mars 2023
           link: https://doccollectes.blob.core.windows.net/statics/enqu%C3%AAte%20pr%C3%A9carit%C3%A9%20menstruelle%202023.pdf
           illu: img/page-outils/enquete-2023.png
-          alt: illustration enquête 2023
         - title: Baromètre 2023
           link: https://doccollectes.blob.core.windows.net/11-octobre/R%C3%A8gles%20%C3%A9l%C3%A9mentaires%20-%20Etude%20aupr%C3%A8s%20des%20filles%20%C3%A2g%C3%A9es%20de%2011-18%20ans.pptx.pdf
           illu: img/page-outils/barometre-2023.png
-          alt: illustration baromètre 2023
         - title: Baromètre 2022
           link: https://doccollectes.blob.core.windows.net/statics/Barometre_2022_Regles_Elementaires_Opinion_Way.pdf
           illu: img/page-outils/barometre-2022.png
-          alt: illustration baromètre 2022
         - title: Baromètre 2021
           link: https://doccollectes.blob.core.windows.net/statics/Barometre_2021_Regles_Elementaires_Opinion_Way.pdf
           illu: img/page-outils/barometre-2021.png
-          alt: illustration baromètre 2021
 ---
