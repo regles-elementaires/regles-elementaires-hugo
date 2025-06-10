@@ -51,8 +51,11 @@
     <label for="message" class="sr-only">votre message</label>
     <textarea required id="message" name="message" placeholder="Votre message" rows="8" class="w-full p-4 mt-4 border-2 border-rered bg-rebeige text-rered"></textarea>
 
-    <!-- reCAPTCHA -->
-    <input type="hidden" id="recaptchaResponse" name="recaptcha-response">
+    <!-- div to show reCAPTCHA -->
+    <div class="g-recaptcha" 
+        data-sitekey="6LepVFsrAAAAAGuJHJ3qaTdOIVCmE492iU5h_gda"
+        data-action="CONTACT_FORM">
+    </div>
 
     <!-- Button -->
     <div class="my-4 flex justify-end">
@@ -61,11 +64,4 @@
   </form>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LdpNB8cAAAAAEcdCBrS5cx-kHLBLf-4vnqiouX7"></script>
-<script>
-grecaptcha.ready(function() {
-    grecaptcha.execute('6LdpNB8cAAAAAEcdCBrS5cx-kHLBLf-4vnqiouX7', {action: 'homepage'}).then(function(token) {
-        document.getElementById('recaptchaResponse').value = token
-    });
-});
-</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
