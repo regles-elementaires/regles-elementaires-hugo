@@ -7,6 +7,8 @@ illu: img/hormonall_coup_de_sang.jpg
 intro: "2 femmes sur 3 souffrent en silence face aux changements hormonaux, se sentant incomprises, peu soutenues ou mal informées*. Il est temps que ça change !"
 layout: single
 ---
+Aujourd’hui on vous partage le Coup de sang de l’équipe Vichy qui a fondé la plateforme Hormonall dont Règles Élémentaires est partenaire :
+<br/><br/>
 Une étude quantitative menée par l’Institut d’étude Kantar auprès de plus de 2 000 femmes issues de pays du monde entier a révélé que 2 femmes sur 3 luttent en silence face à l’impact des changements hormonaux sur leur bien-être mental et physique se sentant incomprises, peu soutenues ou mal informées. Les femmes partagent ce ressenti quels que soient leur âge ou leur origine.
 <br/><br/>
 Deux raisons majeures expliquent que les femmes se sentent incomprises et seules face à leurs changements hormonaux.
@@ -36,3 +38,5 @@ Les différentes formations :
 * Ménopause : [www.hormonall.com/fr/training/menopause](https://www.hormonall.com/fr/training/menopause?utm_source=actu&utm_medium=website&utm_campaign=regleselementaires)
 <br/><br/>
 <i>*Etude KANTAR 2022 – Échantillon total : 2086 femmes</i>
+<br/><br/>
+<i>Régulièrement nous donnons carte blanche à une personnalité libre d’exprimer son “Coup de Sang” autour des règles, de la précarité, des tabous ou d’autres sujets d’indignation. Les propos exprimés sont ceux de leur auteur·rice.</i>
