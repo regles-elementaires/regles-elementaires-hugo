@@ -9,7 +9,7 @@ menu:
         weight: 3
 illu: "/img/page-equipe/illu-equipe.svg"
 intro:
-    first: "Règles Élémentaires, c’est une équipe permanente et un siège social à Paris et des antennes régionales. Salarié·es et bénévoles, ce sont chaque jours plus de 40 personnes qui oeuvrent à #changerlesrègles"
+    first: "Règles Élémentaires, c’est une équipe permanente de près de 30 personnes qui agissent au quotidien pour changer les règles. Notre siège social est à Paris et nous avons un réseau d’antennes régionales un peu partout sur le territoire. Découvrez nos antennes et notre Conseil d’administration juste en dessous !"
 antennes:
     title: "Nos antennes"
     text: "Pour être au plus près des besoins des associations de terrain et déployer largement nos actions, Règles Élémentaires s’ancre dans les territoires grâce au développement d’antennes régionales. Cet ancrage territorial permet de créer des partenariats durables avec les institutions locales pour lutter contre la précarité menstruelle."
