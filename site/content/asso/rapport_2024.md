@@ -300,6 +300,8 @@ privates:
       logo: "/img/page-rapport-2024/logos-partenaires/financeurs-prives/vichy.png"
     - name: "La Caravelle"
       logo: "/img/page-rapport-2024/logos-partenaires/financeurs-prives/caravelle.jpg"
+    - name: "Le Lab Heyme"
+      logo: "/img/page-rapport-2024/logos-partenaires/financeurs-prives/heyme.png"
 mecenat_title: "Mécénat de compétence"
 mecenat:
     - name: "Astek"
