@@ -20,4 +20,5 @@ ponctuel:
   btn_collecte: "J’organise ma collecte"
 mission_title: Tu veux connaitre les prochaines grandes missions bénévoles ?
 btn_mission: "Je consulte les missions"
+europe_text: "Nos actions de mobilisation bénévoles sont cofinancées par l’Union Européenne pour nous aider à accompagner et structurer le réseau bénévole et favoriser le développement de l’engagement bénévole local."
 ---

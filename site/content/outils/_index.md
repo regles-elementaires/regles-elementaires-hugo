@@ -28,6 +28,8 @@ informer:
           link: https://doccollectes.blob.core.windows.net/outils/bons_gestes_hygiène_menstruelle.pdf
         - title: Notre brochure "J'ai mes règles, je fais du sport"
           link: https://doccollectes.blob.core.windows.net/statics/brochure_sport_jeunes_A5-web.pdf
+        - title: Notre guide pédagogique sur l’éducation menstruelle
+          link: https://doccollectes.blob.core.windows.net/europe/FR_menstrual_education_toolbox.pdf
 pr:
   text: "Découvrez Parlons Règles, notre plateforme en ligne dédiée à l’éducation menstruelle !"
   btn_text: "Je découvre"
