@@ -74,11 +74,11 @@ parlons:
     text: Voir la plateforme
   illu: /img/page-chiffres/parlons-regles.png
 rapport:
-  title: "Notre Rapport d’Activité 2023"
+  title: "Notre Rapport d’Activité 2024"
   content: >
     Et pour avoir des informations plus détaillées sur notre impact, on vous propose de consulter notre dernier rapport d’activité !
   button:
-    link: "/asso/rapport_2023"
+    link: "/asso/rapport_2024"
     text: Lire le rapport d'activité
-  illu: /img/page-chiffres/ra-2023.png
+  illu: /img/page-chiffres/ra-2024.png
 ---
