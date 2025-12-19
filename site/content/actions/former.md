@@ -48,6 +48,7 @@ formations:
     <li>Public : professionnel·les des structures sociales et  médico-sociales, professionel·les de structures accompagnant des publics en situation de précarité, travailleurs et travailleuses sociales</li>
     <li>Durée de la formation : journée entière (6 heures)</li>
     </ul>"
+    notation: "Les stagiaires évaluent cette formation dans son ensemble à 9,1/10"
     illu: /img/page-actions/formation-lutter.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation relais médico-sociaux.pdf"
@@ -56,6 +57,7 @@ formations:
     <li>Public : entreprises (salarié·es, managers, directeurices) et agent·es des collectivités territoriales</li>
     <li>Durée de la formation : 3h30</li>
     </ul>"
+    notation: "Les stagiaires évaluent cette formation dans son ensemble à 9,0/10"
     illu: /img/page-actions/formation-changer.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation entreprises et collectivités.pdf"
@@ -64,6 +66,7 @@ formations:
     <li>Public : équipe pédagogique scolaire, professionnel·les de structures jeunesse, professionnel·les accompagnant des jeunes</li>
     <li>Durée de la formation : journée entière (6 heures)</li>
     </ul>"
+    notation: "Les stagiaires évaluent cette formation dans son ensemble à 9,2/10"
     illu: /img/page-actions/formation-relais.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation relais éducatifs.pdf"
@@ -72,6 +75,7 @@ formations:
     <li>Public : professionnel·les des structures sociales et médico-sociales, professionel·les de structures accompagnant des publics en situation de handicap, travailleurs sociaux et travailleuses sociales</li>
     <li>Durée de la formation : journée entière (6 heures)</li>
     </ul>"
+    notation: "Les stagiaires évaluent cette formation dans son ensemble à 9,1/10"
     illu: /img/page-actions/formation-handi.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation regles et situations de handicap.pdf"
@@ -80,6 +84,7 @@ formations:
     <li>Public :  Personnel pénitentiaire, intervenant·es en milieu carcéral, professionnel·les de santé, professionnel·les d’associations ou d’organismes accompagnant des personnes en situation de précarité, ainsi que travailleurs sociaux en lien avec le milieu pénitentiaire</li>
     <li>Durée de la formation : journée entière (6 heures)</li>
     </ul>"
+    notation: "Les stagiaires évaluent cette formation dans son ensemble à 9,8/10"
     illu: /img/page-actions/formation-penitentiaire.svg
     program_btn_text: "Programme de la formation"
     program_btn_link: "https://doccollectes.blob.core.windows.net/formations/Programme de formation centre penitentier.pdf"    

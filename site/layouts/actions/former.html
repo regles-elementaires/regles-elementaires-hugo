@@ -59,7 +59,8 @@
                     <div class="w-full md:w-2/3 flex flex-col">
                         <p class="md:w-5/6 mx-auto text-xl font-semibold mb-4 leading-5">{{ .title }}</p>
                         {{ .list | markdownify }}
-                        <div class="md:w-5/6 mx-auto flex flex-wrap my-8 text-rered text-sm font-semibold">
+                        <p class="md:w-5/6 mx-auto italic mt-3">{{ .notation }}</p>
+                        <div class="md:w-5/6 mx-auto flex flex-wrap mt-4 mb-8 text-rered text-sm font-semibold">
                             <a class="bg-white py-2 px-6 text-center rounded-full" href="{{ .program_btn_link }}" target="_blank" rel="noreferrer">{{ .program_btn_text }}</a>
                         </div>                        
                     </div>
