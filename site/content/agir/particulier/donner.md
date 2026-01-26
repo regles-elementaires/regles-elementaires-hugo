@@ -37,7 +37,6 @@ brochure_button: 'Télécharger la fiche "Quels produits donner ?"'
 carte_title: "La carte des collectes"
 address_text: "Vous ne trouvez pas de point de collecte autour de vous ?<br/>Envoyez vos protections bien emballées directement dans nos locaux :"
 address: "Règles Élémentaires<br/>
-Plateau urbain - Bâtiment B<br/>
-182 boulevard de la Villette<br/>
-75019 Paris"
+13 rue Santeuil<br/>
+75005 Paris"
 ---
