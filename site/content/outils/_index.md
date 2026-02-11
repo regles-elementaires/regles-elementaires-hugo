@@ -51,9 +51,13 @@ relayer:
     text: "Chaque partage compte, alors n'hésitez pas à télécharger notre contenu pour le diffuser et porter notre message. Plus on entend parler de règles, plus on les visibilise et on les normalise. Vous pouvez par exemple réutiliser nos contenus sur vos réseaux sociaux, les diffuser en interne dans votre entreprise ou pourquoi pas imprimer des visuels pour décorer votre bureau !"
     tools:
         - title: "Parlons Règles, la plateforme d'éducation menstruelle"
-          link: https://doccollectes.blob.core.windows.net/outils/affiches-parlons-regles.pdf
+          link: https://doccollectes.blob.core.windows.net/outils/affiche-parlons-regles.pdf
           illu: img/page-outils/affiche-pr.png
-          alt: affiche parlons règles
+          alt: affiche Parlons Règles
+        - title: "Reglà, tes protections périodiques sont juste là"
+          link: https://doccollectes.blob.core.windows.net/outils/affiche-regla.pdf
+          illu: img/page-outils/affiche-regla.png
+          alt: affiche Reglà
         - title: "#Periodemoji, pour la création d’un emoji qui représente VRAIMENT les règles"
           link: https://doccollectes.blob.core.windows.net/outils/affiche-emoji.pdf
           illu: img/page-outils/affiche-1.png
