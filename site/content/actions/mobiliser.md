@@ -10,11 +10,19 @@ intro:
   first: "Depuis 2015 nous contribuons à #changerlesregles grâce à toutes nos actions qui répondent aux objectifs que nous nous sommes fixés : obtenir la gratuité des protections pour toutes les personnes qui en ont besoin, sensibiliser un maximum de personnes au sujet des règles, alerter l'opinion publique et politique, changer les mentalités."
 actions_title: "Tour d’horizon de nos dernières actions :"
 actions:
+  - title: "Municipales 2026 : à l’initiative de l’association Règles Élémentaires, 78 élu·es et candidat·es appellent à faire de la justice menstruelle un engagement municipal."
+    content: >
+      À l’occasion de la Journée mondiale de la justice sociale, l’association Règles Élémentaires publie une lettre ouverte appelant les élu·es et candidat·es aux élections municipales de 2026 à s’engager concrètement pour la justice menstruelle dans les politiques locales.
+    button:
+      link: "https://municipales2026.regleselementaires.com/"
+      text: En savoir plus
+      target_blank: true
+    illu: /img/page-mobiliser/municipales2026.png
   - title: "Le poids des règles : notre première enquête européenne pour révéler l’ampleur de la précarité menstruelle."
     content: >
       À l’occasion de la Journée mondiale de l’hygiène menstruelle, le 28 mai 2025, nous avons révélé les résultats d’une enquête inédite sur la précarité menstruelle en Europe et lancé un mouvement d’ampleur avec 19 associations européennes, le #MenstrualMattersEU.
     button:
-      link: "https://menstrualmatters.eu/fr//"
+      link: "https://menstrualmatters.eu/fr/"
       text: En savoir plus
       target_blank: true
     illu: /img/page-mobiliser/menstrualmatters.png
