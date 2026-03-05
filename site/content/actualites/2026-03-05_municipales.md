@@ -4,7 +4,7 @@ tags:
   - news
 date: 2026-03-05T01:28:59.103Z
 illu: img/municipales2026.png
-intro: "À l’occasion de la Journée mondiale de la justice sociale qui avait lieu le 20 février dernier, nous avons rédigé une lettre ouverte appelant les élu·es et candidat·es aux élections municipales de 2026 à s’engager concrètement pour la justice menstruelle dans les politiques locales. Aujourd’hui, une centaine d’élu·es et candidat·es ont apporté leur soutien à cet appel, affirmant une conviction simple : il ne peut y avoir de justice sociale sans justice menstruelle."
+intro: "Nous avons rédigé une lettre ouverte appelant les élu·es et candidat·es aux élections municipales de 2026 à s’engager concrètement pour la justice menstruelle dans les politiques locales."
 layout: single
 ---
 <b>Les règles : un angle mort des politiques publiques locales</b>
