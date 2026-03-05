@@ -32,3 +32,9 @@ Déjà, plus de 100 élu·es et candidat·es, de sensibilités politiques et de 
 <i><b>« La justice sociale se construit aussi dans l’ordinaire : dans un collège, un gymnase, une médiathèque ou un centre social. Prendre en compte la santé menstruelle dans les politiques municipales, c’est agir concrètement pour la liberté, l’égalité et la dignité de toutes et tous. »</b>
 <br/>
 Maud Leblon, directrice générale de l’association Règles Élémentaires</i>
+<br/><br/>
+<b>Un appel à rejoindre le mouvement</b>
+<br/><br/>
+L’association invite l’ensemble des élu·es et candidat·es municipaux à rejoindre cette dynamique et à signer la lettre ouverte, afin que les règles cessent d’être un impensé des politiques locales et deviennent un levier assumé de justice sociale.
+<br/><br/>
+Plus d’informations sur : <a href="http://municipales2026.regleselementaires.com" target="_blank">https://municipales2026.regleselementaires.com/</a>
