@@ -4,7 +4,7 @@ tags:
   - news
 date: 2026-03-06T01:28:59.103Z
 illu: img/lettre_8_mars.png
-intro: "À l’occasion du 8 mars, Journée internationale des droits des femmes, nous rendons publique une lettre ouverte adressée au Premier ministre et aux ministres concerné·es, pour rappeler l’urgence de lutter contre la précarité menstruelle et exiger la mise en œuvre immédiate du remboursement des protections périodiques réutilisables, annoncé il y a maintenant trois ans."
+intro: "Pour le 8 mars, nous adressons une lettre ouverte au Premier ministre pour exiger la mise en œuvre immédiate du remboursement des protections périodiques réutilisables."
 layout: single
 ---
 En France, <b>près de 4 millions de femmes et de personnes menstruées</b> sont encore confrontées à la précarité menstruelle. Chaque mois, elles doivent arbitrer entre l’achat de protections périodiques et d’autres dépenses essentielles, au détriment de leur santé, de leur dignité et de leur participation sociale, scolaire ou professionnelle.<br/><br/>
