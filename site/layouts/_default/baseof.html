@@ -39,6 +39,9 @@
       {{ if $.Site.Params.display_popup_municipales }}
         {{ partial "popup-municipales" . }}
       {{ end }}
+      {{ if $.Site.Params.display_popup_new_da }}
+        {{ partial "popup-new-da" . }}
+      {{ end }}
     {{ end }}
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
